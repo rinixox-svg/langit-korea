@@ -2,61 +2,49 @@
 <html lang="id">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
         <title>Login - Langit Korea</title>
         <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
             body {
                 font-family: Arial, sans-serif;
                 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
                 min-height: 100vh;
                 display: flex;
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                margin: 0;
                 padding: 1rem;
             }
 
             .container {
                 background: white;
                 border-radius: 12px;
-                padding: 2rem;
-                text-align: center;
-                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+                padding: 2rem 1.5rem;
                 width: 100%;
                 max-width: 400px;
+                text-align: center;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             }
 
             h1 {
                 color: #667eea;
+                font-size: 1.8rem;
                 margin-bottom: 0.5rem;
             }
 
-            p {
+            .subtitle {
                 color: #666;
                 margin-bottom: 1.5rem;
-            }
-
-            button {
-                display: block;
-                width: 100%;
-                padding: 1rem;
-                margin: 1rem 0;
-                border: none;
-                border-radius: 8px;
-                font-size: 1rem;
-                font-weight: 600;
-                cursor: pointer;
-            }
-
-            .google-btn {
-                background: white;
-                color: #333;
-                border: 2px solid #ddd;
-            }
-
-            .anon-btn {
-                background: #4caf50;
-                color: white;
+                font-size: 0.9rem;
             }
 
             .hint {
@@ -64,9 +52,49 @@
                 border: 1px solid #ffeaa7;
                 border-radius: 8px;
                 padding: 0.8rem;
-                margin: 1rem 0;
-                font-size: 0.9rem;
+                margin-bottom: 1rem;
+                font-size: 0.85rem;
                 color: #856404;
+                display: none;
+            }
+
+            @media (max-width: 768px) {
+                .hint {
+                    display: block !important;
+                }
+            }
+
+            button {
+                display: block !important;
+                width: 100% !important;
+                padding: 1rem !important;
+                margin: 0.8rem 0 !important;
+                border: none !important;
+                border-radius: 8px !important;
+                font-size: 1rem !important;
+                font-weight: 600 !important;
+                cursor: pointer !important;
+                text-decoration: none !important;
+                font-family: Arial, sans-serif !important;
+            }
+
+            .google-btn {
+                background: white !important;
+                color: #333 !important;
+                border: 2px solid #ddd !important;
+            }
+
+            .google-btn:hover {
+                background: #f5f5f5 !important;
+            }
+
+            .anon-btn {
+                background: #4caf50 !important;
+                color: white !important;
+            }
+
+            .anon-btn:hover {
+                background: #45a049 !important;
             }
 
             .divider {
@@ -84,88 +112,105 @@
     <body>
         <div class="container">
             <h1>Langit Korea</h1>
-            <p>EPS-TOPIK Learning Platform</p>
+            <div class="subtitle">EPS-TOPIK Learning Platform</div>
 
             <div class="hint">
                 <strong>📱 Untuk HP:</strong> Jika tombol Google tidak bisa,
-                gunakan "Login Tanpa Akun"
+                gunakan "Login Tanpa Akun" di bawah.
             </div>
 
+            <!-- Google Login -->
             <button class="google-btn" id="googleBtn">
-                🔵 Login dengan Google
+                🚀 Login dengan Google
             </button>
 
             <div class="divider">ATAU</div>
 
+            <!-- Anonymous Login -->
             <button class="anon-btn" id="anonBtn">
-                👤 Login Tanpa Akun (Testing)
+                🤔 Login Tanpa Akun (Testing)
             </button>
         </div>
 
         <script>
-            // Google Login
-            document
-                .getElementById("googleBtn")
-                .addEventListener("click", () => {
-                    const provider = new firebase.auth.GoogleAuthProvider();
+            // Pastikan Firebase sudah load
+            if (typeof firebase !== "undefined" && firebase.auth) {
+                const auth = firebase.auth();
+                const provider = new firebase.auth.GoogleAuthProvider();
 
-                    // Try popup first
-                    auth.signInWithPopup(provider)
-                        .then((result) => {
-                            console.log("Sign-in successful:", result.user);
-                            window.location.href = "home.html";
-                        })
-                        .catch((error) => {
-                            console.error("Popup error:", error);
+                // Google Login
+                document
+                    .getElementById("googleBtn")
+                    .addEventListener("click", function () {
+                        // Coba popup dulu
+                        auth.signInWithPopup(provider)
+                            .then(function (result) {
+                                console.log("Login berhasil:", result.user);
+                                window.location.href = "home.html";
+                            })
+                            .catch(function (error) {
+                                console.error("Popup error:", error);
 
-                            // If popup blocked, use redirect
-                            if (
-                                error.code === "auth/popup-blocked" ||
-                                error.code === "auth/cancelled-popup-request"
-                            ) {
-                                console.log("Popup blocked, using redirect...");
-                                auth.signInWithRedirect(provider);
-                            } else {
-                                alert("Login gagal: " + error.message);
-                            }
-                        });
-                });
-
-            // Anonymous Login (for mobile)
-            document.getElementById("anonBtn").addEventListener("click", () => {
-                auth.signInAnonymously()
-                    .then(() => {
-                        console.log("Anonymous sign-in successful");
-                        window.location.href = "home.html";
-                    })
-                    .catch((error) => {
-                        console.error("Anonymous error:", error);
-                        alert("Login gagal: " + error.message);
+                                // Jika popup diblokir, gunakan redirect
+                                if (
+                                    error.code === "auth/popup-blocked" ||
+                                    error.code ===
+                                        "auth/cancelled-popup-request"
+                                ) {
+                                    console.log(
+                                        "Popup diblokir, menggunakan redirect...",
+                                    );
+                                    auth.signInWithRedirect(provider);
+                                } else {
+                                    alert("Login gagal: " + error.message);
+                                }
+                            });
                     });
-            });
 
-            // Handle redirect result (for mobile)
-            auth.getRedirectResult()
-                .then((result) => {
-                    if (result.user) {
-                        console.log(
-                            "Redirect sign-in successful:",
-                            result.user,
-                        );
+                // Anonymous Login
+                document
+                    .getElementById("anonBtn")
+                    .addEventListener("click", function () {
+                        auth.signInAnonymously()
+                            .then(function () {
+                                console.log("Anonymous login berhasil");
+                                window.location.href = "home.html";
+                            })
+                            .catch(function (error) {
+                                console.error("Anonymous error:", error);
+                                alert("Login gagal: " + error.message);
+                            });
+                    });
+
+                // Handle redirect result (untuk mobile)
+                firebase
+                    .auth()
+                    .getRedirectResult()
+                    .then(function (result) {
+                        if (result.user) {
+                            console.log(
+                                "Redirect login berhasil:",
+                                result.user,
+                            );
+                            window.location.href = "home.html";
+                        }
+                    })
+                    .catch(function (error) {
+                        console.error("Redirect error:", error);
+                    });
+
+                // Check jika sudah login
+                firebase.auth().onAuthStateChanged(function (user) {
+                    if (user) {
+                        console.log("Sudah login:", user.displayName);
                         window.location.href = "home.html";
                     }
-                })
-                .catch((error) => {
-                    console.error("Redirect error:", error);
                 });
-
-            // Check if already logged in
-            auth.onAuthStateChanged((user) => {
-                if (user) {
-                    console.log("Already logged in:", user.displayName);
-                    window.location.href = "home.html";
-                }
-            });
+            } else {
+                // Firebase tidak load
+                document.body.innerHTML =
+                    '<div style="color:white; text-align:center; padding:2rem;">Error: Firebase SDK gagal dimuat. Silakan refresh halaman.</div>';
+            }
         </script>
     </body>
 </html>
