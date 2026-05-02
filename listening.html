@@ -1,0 +1,772 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Latihan Mendengarkan EPS-TOPIK — Langit Korea</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            /* Variabel Warna Langit Korea */
+            :root {
+                --langit-biru: #4A90D9;   /* warna utama — biru langit siang */
+                --langit-fajar: #FF8C61;   /* aksen — oranye fajar, harapan */
+                --putih-bersih: #F8F9FF;   /* background utama */
+                --teks-utama: #1E2A3A;   /* teks hitam hangat */
+                --teks-sekunder: #6B7A8D;   /* teks abu-abu */
+                --hijau-berhasil: #4CAF82;   /* feedback benar */
+                --merah-salah: #E05C5C;     /* feedback salah */
+                --kuning-sedang: #F5A623;   /* status dalam proses */
+                --abu-abu-terang: #E1E8F0; /* Garis atau background item */
+                --card-background: #ffffff; /* Background kartu */
+            }
+
+            /* Reset CSS Sederhana */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                line-height: 1.6;
+                color: var(--teks-utama);
+                background-color: var(--putih-bersih);
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+
+            /* Container Utama */
+            .container {
+                max-width: 90%;
+                margin: 0 auto;
+                padding: 1.5rem 0;
+                flex-grow: 1;
+            }
+
+            /* Header */
+            header {
+                background-color: var(--putih-bersih);
+                padding: 1rem 0;
+                border-bottom: 1px solid var(--abu-abu-terang);
+                box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+            }
+
+            .header-content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 90%;
+                margin: 0 auto;
+            }
+
+            .back-link {
+                color: var(--langit-biru);
+                text-decoration: none;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                font-size: 0.9rem;
+            }
+
+            .back-link svg {
+                margin-right: 0.4rem;
+            }
+
+            .logo {
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                font-weight: 700;
+                font-size: 1.4rem;
+                color: var(--langit-biru);
+                text-decoration: none;
+            }
+
+            /* Progress Bar */
+            .progress-indicator {
+                text-align: center;
+                font-size: 0.9rem;
+                color: var(--teks-sekunder);
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            .progress-bar-container {
+                background-color: var(--abu-abu-terang);
+                height: 8px;
+                border-radius: 4px;
+                margin: 0 auto 1.5rem auto;
+                max-width: 600px;
+                overflow: hidden;
+            }
+
+            .progress-bar {
+                height: 100%;
+                width: 0%; /* Akan diisi oleh JS */
+                background-color: var(--langit-fajar);
+                border-radius: 4px;
+                transition: width 0.3s ease-in-out;
+            }
+
+            /* Main Content */
+            main {
+                padding: 1.5rem 0;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+                color: var(--teks-utama);
+                margin-bottom: 1.5rem;
+                text-align: center;
+            }
+
+            .question-card {
+                background-color: var(--card-background);
+                border-radius: 12px;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+                padding: 1.5rem;
+                margin-bottom: 1.5rem;
+                border: 1px solid var(--abu-abu-terang);
+            }
+
+            .audio-player-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 1.5rem;
+            }
+
+            .audio-player {
+                width: 100%;
+                max-width: 300px; /* Batasi lebar player audio */
+            }
+
+            .question-instruction {
+                font-size: 1.1rem;
+                color: var(--teks-utama);
+                margin-bottom: 1.5rem;
+                font-family: 'Noto Sans KR', sans-serif; /* Untuk instruksi bahasa Korea */
+                text-align: center;
+            }
+
+            .question-image {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 1.5rem;
+                border-radius: 8px;
+                display: block; /* Agar gambar bisa di-center */
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .options-grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .option-button {
+                background-color: var(--putih-bersih);
+                border: 2px solid var(--abu-abu-terang);
+                border-radius: 8px;
+                padding: 0.8rem 1rem;
+                text-align: left;
+                font-size: 1rem;
+                color: var(--teks-utama);
+                cursor: pointer;
+                transition: all 0.2s ease;
+                min-height: 48px;
+                display: flex;
+                align-items: center;
+            }
+
+            .option-button:hover:not(:disabled) {
+                border-color: var(--langit-biru);
+                background-color: #f0f7ff;
+            }
+
+            .option-button.selected {
+                border-color: var(--langit-biru);
+                background-color: #e6f0fa;
+            }
+
+            .option-button.correct {
+                background-color: var(--hijau-berhasil);
+                color: var(--putih-bersih);
+                border-color: var(--hijau-berhasil);
+            }
+
+            .option-button.incorrect {
+                background-color: var(--merah-salah);
+                color: var(--putih-bersih);
+                border-color: var(--merah-salah);
+            }
+
+            .feedback-message {
+                margin-top: 1.5rem;
+                padding: 1rem;
+                border-radius: 8px;
+                font-weight: 600;
+                text-align: center;
+                display: none; /* Akan ditampilkan oleh JS */
+            }
+
+            .feedback-message.correct {
+                background-color: #e6ffe6; /* Light green */
+                color: var(--hijau-berhasil);
+            }
+
+            .feedback-message.incorrect {
+                background-color: #ffe6e6; /* Light red */
+                color: var(--merah-salah);
+            }
+
+            .explanation-text {
+                margin-top: 1rem;
+                font-size: 0.95rem;
+                color: var(--teks-utama);
+                padding: 0 1rem;
+                display: none; /* Akan ditampilkan oleh JS setelah jawaban */
+            }
+
+            .navigation-buttons {
+                display: flex;
+                justify-content: space-between;
+                gap: 1rem;
+                margin-top: 2rem;
+                max-width: 400px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .nav-button {
+                flex-grow: 1;
+                background-color: var(--langit-fajar);
+                color: var(--putih-bersih);
+                padding: 0.8rem 1.5rem;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: 600;
+                min-height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: background-color 0.3s ease;
+                border: none;
+                cursor: pointer;
+            }
+
+            .nav-button:hover:not(:disabled) {
+                background-color: #e67a54;
+            }
+
+            .nav-button:disabled {
+                background-color: var(--teks-sekunder);
+                cursor: not-allowed;
+                opacity: 0.7;
+            }
+
+            .nav-button.next-question {
+                background-color: var(--langit-biru);
+                display: none; /* Akan ditampilkan setelah jawaban */
+            }
+            .nav-button.next-question:hover:not(:disabled) {
+                background-color: #387ac6;
+            }
+
+            /* Loading state */
+            .loading-spinner {
+                border: 4px solid var(--abu-abu-terang);
+                border-top: 4px solid var(--langit-biru);
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                animation: spin 1s linear infinite;\
+                margin: 50px auto;
+                display: none; /* Tampilkan saat loading */
+            }
+
+            @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+
+            /* Error message */
+            .error-message {
+                text-align: center;
+                color: var(--merah-salah);
+                padding: 2rem;
+                display: none; /* Tampilkan saat error */
+            }
+
+            /* Completion message */
+            .completion-message {
+                text-align: center;
+                padding: 2rem;
+                background-color: var(--hijau-berhasil);
+                color: var(--putih-bersih);
+                border-radius: 12px;
+                margin-top: 2rem;
+                display: none; /* Akan ditampilkan setelah semua soal selesai */
+            }
+
+            .completion-message h2 {
+                color: var(--putih-bersih);
+                margin-bottom: 1rem;
+            }
+
+            .completion-message p {
+                margin-bottom: 1.5rem;
+            }
+
+            .completion-message .cta-button {
+                 background-color: var(--langit-fajar); /* Gunakan warna aksen fajar */
+                 color: var(--putih-bersih);
+                 max-width: 250px;
+            }
+
+            .completion-message .cta-button:hover {
+                background-color: #e67a54; /* Sedikit lebih gelap saat hover */
+            }
+
+            /* Footer */
+            footer {
+                background-color: var(--teks-utama);
+                color: var(--putih-bersih);
+                text-align: center;
+                padding: 1.5rem 0;
+                font-size: 0.9rem;
+                margin-top: auto;
+            }
+
+            footer p {
+                opacity: 0.8;
+            }
+
+            /* Responsive untuk Tablet dan Desktop */
+            @media (min-width: 768px) {
+                .container {
+                    max-width: 700px;
+                    padding: 2rem 0;
+                }
+
+                .header-content {
+                    max-width: 700px;
+                }
+
+                h1 {
+                    font-size: 2.2rem;
+                }
+
+                .question-instruction {
+                    font-size: 1.2rem;
+                }
+
+                .options-grid {
+                    grid-template-columns: repeat(2, 1fr); /* Dua kolom untuk tablet/desktop */
+                }
+            }
+
+            @media (min-width: 1024px) {
+                .container {
+                    max-width: 800px;
+                }
+
+                .header-content {
+                    max-width: 800px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="header-content">
+                <a href="home.html" class="back-link">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-arrow-left"
+                    >
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12 19 5 12 12 5"></polyline>
+                    </svg>
+                    Kembali
+                </a>
+                <a href="home.html" class="logo">Langit Korea</a>
+                <span></span>
+                <!-- Placeholder for alignment -->
+            </div>
+        </header>
+
+        <div class="container">
+            <!-- Progress Bar -->
+            <p class="progress-indicator">
+                Soal <span id="currentQuestionNum">1</span> dari
+                <span id="totalQuestions">10</span>
+            </p>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+
+            <!-- Main Content -->
+            <main>
+                <h1>Latihan Mendengarkan EPS-TOPIK</h1>
+
+                <div id="loading" class="loading-spinner"></div>
+                <div id="errorMessage" class="error-message">
+                    Maaf, gagal memuat soal mendengarkan. Silakan coba lagi
+                    nanti.
+                </div>
+
+                <div
+                    class="question-card"
+                    id="questionCard"
+                    style="display: none"
+                >
+                    <!-- Player Audio -->
+                    <div class="audio-player-container">
+                        <audio id="audioPlayer" controls class="audio-player">
+                            <!-- Sumber audio akan diatur oleh JS -->
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+
+                    <p
+                        class="question-instruction"
+                        id="questionInstruction"
+                    ></p>
+                    <!-- Gambar soal jika ada -->
+                    <img
+                        id="questionImage"
+                        src=""
+                        alt="Gambar Soal"
+                        class="question-image"
+                        style="display: none"
+                    />
+
+                    <div class="options-grid" id="optionsGrid">
+                        <!-- Opsi jawaban akan di-render di sini oleh JS -->
+                    </div>
+
+                    <div class="feedback-message" id="feedbackMessage"></div>
+                    <p class="explanation-text" id="explanationText"></p>
+
+                    <div class="navigation-buttons">
+                        <button class="nav-button" id="checkAnswerBtn">
+                            Cek Jawaban
+                        </button>
+                        <button
+                            class="nav-button next-question"
+                            id="nextQuestionBtn"
+                            style="display: none"
+                        >
+                            Soal Berikutnya
+                        </button>
+                    </div>
+                </div>
+
+                <div id="completionMessage" class="completion-message">
+                    <h2>Selamat! 🎉</h2>
+                    <p>
+                        Kamu sudah menyelesaikan semua soal latihan mendengarkan
+                        di sesi ini.
+                    </p>
+                    <a href="home.html" class="cta-button"
+                        >Kembali ke Dashboard</a
+                    >
+                </div>
+            </main>
+        </div>
+
+        <!-- Load Question Bank -->
+        <script src="js/question-bank.js"></script>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Langit Korea. Hak Cipta Dilindungi.</p>
+            </div>
+        </footer>
+
+        <script type="module">
+            // Import Supabase client (dummy untuk MVP)
+            // import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
+
+            // const SUPABASE_URL = 'GANTI DENGAN URL SUPABASE MILIKMU'; // GANTI DENGAN MILIKMU
+            // const SUPABASE_ANON_KEY = 'GANTI DENGAN ANON KEY SUPABASE MILIKMU'; // GANTI DENGAN MILIKMU
+
+            // const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+            const audioPlayer = document.getElementById("audioPlayer");
+            const questionInstructionElem = document.getElementById(
+                "questionInstruction",
+            );
+            const questionImageElem = document.getElementById("questionImage");
+            const optionsGridElem = document.getElementById("optionsGrid");
+            const feedbackMessageElem =
+                document.getElementById("feedbackMessage");
+            const explanationTextElem =
+                document.getElementById("explanationText");
+            const checkAnswerBtn = document.getElementById("checkAnswerBtn");
+            const nextQuestionBtn = document.getElementById("nextQuestionBtn");
+            const progressBar = document.getElementById("progressBar");
+            const currentQuestionNumElem =
+                document.getElementById("currentQuestionNum");
+            const totalQuestionsElem =
+                document.getElementById("totalQuestions");
+            const loadingSpinner = document.getElementById("loading");
+            const errorMessage = document.getElementById("errorMessage");
+            const questionCard = document.getElementById("questionCard");
+            const completionMessage =
+                document.getElementById("completionMessage");
+
+            let currentQuestionIndex = 0;
+            let selectedOption = null;
+            let questions = []; // Akan diisi dari Question Bank
+
+            // Load questions from Question Bank
+            function loadListeningQuestions() {
+                if (typeof listeningQuestionBank !== 'undefined' && listeningQuestionBank.length > 0) {
+                    questions = listeningQuestionBank.map((q, index) => {
+                        return {
+                            id: q.id || (index + 1),
+                            bab: q.bab || Math.ceil((index + 1) / 3),
+                            tipe: "mendengarkan",
+                            teks_soal: q.questionText || "다음을 듣고 내용과 관계있는 그림을 고르십시오.",
+                            gambar_url: null,
+                            audio_url: q.audioUrl || "assets/audio/listening" + (index + 1) + ".mp3",
+                            pilihan_a: q.options && q.options[0] ? (q.options[0].text || q.options[0]) : "Option A",
+                            pilihan_b: q.options && q.options[1] ? (q.options[1].text || q.options[1]) : "Option B",
+                            pilihan_c: q.options && q.options[2] ? (q.options[2].text || q.options[2]) : "Option C",
+                            pilihan_d: q.options && q.options[3] ? (q.options[3].text || q.options[3]) : "Option D",
+                            jawaban_benar: q.correctAnswer !== undefined ? String.fromCharCode(97 + q.correctAnswer) : "a",
+                            penjelasan: q.explanation || ""
+                        };
+                    });
+                    console.log("Loaded", questions.length, "listening questions from Question Bank");
+                } else {
+                    // No fallback - show error if Question Bank is empty
+                    questions = [];
+                    console.log("No questions loaded from Question Bank");
+                }
+
+                totalQuestionsElem.textContent = questions.length;
+                displayQuestion();
+                questionCard.style.display = "block";
+            }
+
+            async function fetchQuestions() {
+                loadingSpinner.style.display = "block";
+                questionCard.style.display = "none";
+                completionMessage.style.display = "none";
+                errorMessage.style.display = "none";
+
+                try {
+                    // Load from Question Bank
+                    loadListeningQuestions();
+
+                    if (questions.length === 0) {
+                        throw new Error(
+                            "Tidak ada soal mendengarkan yang tersedia."
+                        );
+                    }
+
+                    // displayQuestion() already called in loadListeningQuestions()
+                } catch (error) {
+                    console.error(
+                        "Error loading listening questions:",
+                        error.message,
+                    );
+                    errorMessage.style.display = "block";
+                } finally {
+                    loadingSpinner.style.display = "none";
+                }
+            }
+
+            function displayQuestion() {
+                // Reset UI untuk soal baru
+                selectedOption = null;
+                optionsGridElem.innerHTML = "";
+                feedbackMessageElem.style.display = "none";
+                explanationTextElem.style.display = "none";
+                checkAnswerBtn.style.display = "block";
+                nextQuestionBtn.style.display = "none";
+                checkAnswerBtn.disabled = true; // Nonaktifkan sampai ada pilihan
+
+                const question = questions[currentQuestionIndex];
+                currentQuestionNumElem.textContent = currentQuestionIndex + 1;
+
+                // Atur audio player
+                audioPlayer.src = question.audio_url;
+                audioPlayer.load(); // Memuat audio
+                // audioPlayer.play(); // Bisa diatur otomatis play atau user klik play
+
+                questionInstructionElem.textContent = question.teks_soal;
+
+                if (
+                    question.gambar_url &&
+                    !question.pilihan_a.includes("assets/images/")
+                ) {
+                    // Jika ada gambar soal spesifik DAN opsi bukan gambar
+                    questionImageElem.src = question.gambar_url;
+                    questionImageElem.style.display = "block";
+                } else {
+                    questionImageElem.style.display = "none";
+                }
+
+                // Opsi bisa berupa teks atau gambar
+                const options = ["a", "b", "c", "d"].map((key) => ({
+                    key: key,
+                    text: question[`pilihan_${key}`],
+                }));
+
+                options.forEach((option) => {
+                    const button = document.createElement("button");
+                    button.classList.add("option-button");
+                    button.dataset.key = option.key;
+
+                    if (option.text && option.text.includes("assets/images/")) {
+                        // Jika opsi adalah gambar
+                        const img = document.createElement("img");
+                        img.src = option.text;
+                        img.alt = `Opsi ${option.key.toUpperCase()}`;
+                        img.style.maxWidth = "100px"; // Ukuran gambar opsi
+                        img.style.maxHeight = "100px";
+                        img.style.marginRight = "10px";
+                        img.style.borderRadius = "4px";
+                        button.appendChild(img);
+                        const labelSpan = document.createElement("span");
+                        labelSpan.textContent = option.key.toUpperCase();
+                        button.prepend(labelSpan); // Label di depan gambar
+                        button.style.justifyContent = "flex-start"; // Rata kiri untuk opsi gambar
+                        button.style.flexDirection = "column"; // Tumpuk label dan gambar
+                        button.style.alignItems = "flex-start";
+                    } else {
+                        // Jika opsi adalah teks
+                        button.textContent = `${option.key.toUpperCase()}. ${option.text}`;
+                    }
+
+                    button.addEventListener("click", () =>
+                        selectOption(button, option.key),
+                    );
+                    optionsGridElem.appendChild(button);
+                });
+
+                updateProgressBar();
+            }
+
+            function selectOption(button, key) {
+                // Hapus 'selected' dari semua tombol
+                document.querySelectorAll(".option-button").forEach((btn) => {
+                    btn.classList.remove("selected");
+                });
+                // Tambahkan 'selected' ke tombol yang dipilih
+                button.classList.add("selected");
+                selectedOption = key;
+                checkAnswerBtn.disabled = false; // Aktifkan tombol cek jawaban
+            }
+
+            function checkAnswer() {
+                if (!selectedOption) {
+                    alert("Pilih salah satu jawaban terlebih dahulu!");
+                    return;
+                }
+
+                const question = questions[currentQuestionIndex];
+                const correctKey = question.jawaban_benar;
+                const optionButtons =
+                    document.querySelectorAll(".option-button");
+
+                // Nonaktifkan semua tombol opsi setelah jawaban dicek
+                optionButtons.forEach((btn) => {
+                    btn.disabled = true;
+                    if (btn.dataset.key === correctKey) {
+                        btn.classList.add("correct");
+                    } else if (btn.dataset.key === selectedOption) {
+                        btn.classList.add("incorrect");
+                    }
+                });
+
+                if (selectedOption === correctKey) {
+                    feedbackMessageElem.textContent = "Jawabanmu Benar! 🎉";
+                    feedbackMessageElem.classList.remove("incorrect");
+                    feedbackMessageElem.classList.add("correct");
+                } else {
+                    feedbackMessageElem.textContent =
+                        "Jawabanmu Kurang Tepat. Coba lagi!";
+                    feedbackMessageElem.classList.remove("correct");
+                    feedbackMessageElem.classList.add("incorrect");
+                }
+                feedbackMessageElem.style.display = "block";
+
+                // Tampilkan penjelasan
+                explanationTextElem.textContent = `Penjelasan: ${question.penjelasan}`;
+                explanationTextElem.style.display = "block";
+
+                checkAnswerBtn.style.display = "none";
+                nextQuestionBtn.style.display = "block";
+            }
+
+            function nextQuestion() {
+                currentQuestionIndex++;
+                if (currentQuestionIndex < questions.length) {
+                    displayQuestion();
+                } else {
+                    // Selesai semua soal
+                    questionCard.style.display = "none";
+                    completionMessage.style.display = "block";
+                    // Mungkin simpan progres/skor ke Supabase di sini
+                }
+            }
+
+            function updateProgressBar() {
+                const progress =
+                    (currentQuestionIndex / questions.length) * 100; // currentQuestionIndex adalah 0-based
+                progressBar.style.width = `${progress}%`;
+            }
+
+            // Event Listeners
+            checkAnswerBtn.addEventListener("click", checkAnswer);
+            nextQuestionBtn.addEventListener("click", nextQuestion);
+
+            // Initial load
+            fetchQuestions();
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <a href="home.html" class="nav-item">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="listening.html" class="nav-item active">
+                <i class="fas fa-headphones"></i>
+                <span>Listening</span>
+            </a>
+            <a href="reading.html" class="nav-item">
+                <i class="fas fa-book-open"></i>
+                <span>Reading</span>
+            </a>
+            <a href="vocabulary.html" class="nav-item">
+                <i class="fas fa-spell-check"></i>
+                <span>Vocab</span>
+            </a>
+            <a href="latihan-eps.html" class="nav-item">
+                <i class="fas fa-pencil-alt"></i>
+                <span>Practice</span>
+            </a>
+        </nav>
+
+        <script>

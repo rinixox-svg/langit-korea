@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Simulasi Ujian - Langit Korea</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <style>
+            body {
+                background: #f5f5f5;
+            }
+
+            .exam-header {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 1rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            }
+
+            .exam-title {
+                font-size: 1.2rem;
+                font-weight: 700;
+            }
+
+            .timer-container {
+                background: rgba(255, 255, 255, 0.2);
+                padding: 0.5rem 1rem;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            .timer {
+                font-size: 1.5rem;
+                font-weight: 700;
+                font-family: "Courier New", monospace;
+            }
+
+            .timer.warning {
+                color: #ff6b6b;
+                animation: blink 1s infinite;
+            }
+
+            @keyframes blink {
+                0%,
+                100% {
+                    opacity: 1;
+                }
+                50% {
+                    opacity: 0.5;
+                }
+            }
+
+            .exam-content {
+                max-width: 800px;
+                margin: 2rem auto;
+                padding: 0 1rem;
+            }
+
+            .question-card {
+                background: white;
+                border-radius: 12px;
+                padding: 2rem;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                margin-bottom: 1.5rem;
+            }
+
+            .question-number {
+                color: #667eea;
+                font-size: 0.9rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .question-text {
+                font-size: 1.1rem;
+                line-height: 1.6;
+                margin-bottom: 1.5rem;
+            }
+
+            .options-container {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .option-btn {
+                padding: 1rem;
+                border: 2px solid #e0e0e0;
+                border-radius: 8px;
+                background: white;
+                text-align: left;
+                font-size: 1rem;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+
+            .option-btn:hover {
+                border-color: #667eea;
+                background: #f8f9ff;
+            }
+
+            .option-btn.selected {
+                border-color: #667eea;
+                background: #eef0ff;
+            }
+
+            .option-btn.correct {
+                border-color: #4caf50;
+                background: #e8f5e9;
+            }
+
+            .option-btn.incorrect {
+                border-color: #f44336;
+                background: #ffebee;
+            }
+
+            .navigation {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 1.5rem;
+            }
+
+            .nav-btn {
+                padding: 0.8rem 1.5rem;
+                border: none;
+                border-radius: 8px;
+                font-size: 1rem;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+
+            .nav-btn.prev {
+                background: #e0e0e0;
+                color: #333;
+            }
+
+            .nav-btn.next {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+            }
+
+            .nav-btn:disabled {
+                opacity: 0.5;
+                cursor: not-allowed;
+            }
+
+            .submit-btn {
+                background: #ff6b6b;
+                color: white;
+                padding: 1rem 2rem;
+                border: none;
+                border-radius: 8px;
+                font-size: 1.1rem;
+                font-weight: 600;
+                cursor: pointer;
+                display: block;
+                margin: 2rem auto;
+                transition: all 0.3s ease;
+            }
+
+            .submit-btn:hover {
+                background: #ff5252;
+                transform: translateY(-2px);
+            }
+
+            .result-modal {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.8);
+                z-index: 1000;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .result-content {
+                background: white;
+                padding: 2rem;
+                border-radius: 12px;
+                max-width: 500px;
+                width: 90%;
+                text-align: center;
+            }
+
+            .result-score {
+                font-size: 3rem;
+                font-weight: 700;
+                color: #667eea;
+                margin: 1rem 0;
+            }
+
+            .result-message {
+                font-size: 1.1rem;
+                color: #666;
+                margin-bottom: 1.5rem;
+            }
+
+            .result-actions {
+                display: flex;
+                gap: 1rem;
+                justify-content: center;
+            }
+
+            .btn-home,
+            .btn-retry {
+                padding: 0.8rem 1.5rem;
+                border: none;
+                border-radius: 8px;
+                font-size: 1rem;
+                cursor: pointer;
+                text-decoration: none;
+                display: inline-block;
+            }
+
+            .btn-home {
+                background: #e0e0e0;
+                color: #333;
+            }
+
+            .btn-retry {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Exam Header -->
+        <div class="exam-header">
+            <div class="exam-title">
+                <i class="fas fa-file-alt"></i> Simulasi Ujian EPS-TOPIK
+            </div>
+            <div class="timer-container">
+                <i class="fas fa-clock"></i>
+                <span class="timer" id="timer">30:00</span>
+            </div>
+        </div>
+
+        <!-- Exam Content -->
+        <main class="exam-content">
+            <div class="question-card" id="questionCard">
+                <div class="question-number" id="questionNumber">
+                    Soal 1 dari 25
+                </div>
+                <div class="question-text" id="questionText">
+                    Loading soal...
+                </div>
+                <div class="options-container" id="optionsContainer"></div>
+                <div class="navigation">
+                    <button class="nav-btn prev" id="prevBtn" disabled>
+                        <i class="fas fa-chevron-left"></i> Sebelumnya
+                    </button>
+                    <button class="nav-btn next" id="nextBtn">
+                        Selanjutnya <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <button class="submit-btn" id="submitBtn">
+                <i class="fas fa-paper-plane"></i> Submit Jawaban
+            </button>
+        </main>
+
+        <!-- Result Modal -->
+        <div class="result-modal" id="resultModal">
+            <div class="result-content">
+                <h2><i class="fas fa-trophy"></i> Hasil Simulasi</h2>
+                <div class="result-score" id="finalScore">0</div>
+                <p class="result-message" id="resultMessage"></p>
+                <div class="result-actions">
+                    <a href="home.html" class="btn-home">Kembali ke Home</a>
+                    <button class="btn-retry" onclick="location.reload()">
+                        Coba Lagi
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Load Question Bank -->
+        <script src="js/question-bank.js"></script>
+
+        <script>
+            // Exam Configuration
+            const EXAM_DURATION = 50 * 60; // 50 minutes in seconds (Standard EPS-TOPIK)
+            const TOTAL_QUESTIONS = 25;
+
+            // State
+            let currentQuestion = 0;
+            let score = 0;
+            let userAnswers = new Array(TOTAL_QUESTIONS).fill(null);
+            let timeLeft = EXAM_DURATION;
+            let timerInterval;
+            let questions = [];
+
+            // DOM Elements
+            const questionCard = document.getElementById("questionCard");
+            const questionNumber = document.getElementById("questionNumber");
+            const questionText = document.getElementById("questionText");
+            const optionsContainer =
+                document.getElementById("optionsContainer");
+            const prevBtn = document.getElementById("prevBtn");
+            const nextBtn = document.getElementById("nextBtn");
+            const submitBtn = document.getElementById("submitBtn");
+            const timerElement = document.getElementById("timer");
+            const resultModal = document.getElementById("resultModal");
+            const finalScore = document.getElementById("finalScore");
+            const resultMessage = document.getElementById("resultMessage");
+
+            // Initialize
+            function init() {
+                loadQuestions();
+                startTimer();
+                displayQuestion();
+            }
+
+            // Load Questions from Question Bank
+            function loadQuestions() {
+                if (
+                    typeof readingQuestionBank !== "undefined" &&
+                    readingQuestionBank.length > 0
+                ) {
+                    // Shuffle and take 25 reading questions
+                    const readingQuestions = readingQuestionBank
+                        .sort(() => Math.random() - 0.5)
+                        .slice(0, 25);
+
+                    // Load listening questions if available
+                    let listeningQuestions = [];
+                    if (
+                        typeof listeningQuestionBank !== "undefined" &&
+                        listeningQuestionBank.length > 0
+                    ) {
+                        listeningQuestions = listeningQuestionBank
+                            .sort(() => Math.random() - 0.5)
+                            .slice(0, 20);
+                    }
+
+                    // Combine: 25 Reading + 20 Listening = 45 questions
+                    questions = [
+                        ...readingQuestions,
+                        ...listeningQuestions,
+                    ].sort(() => Math.random() - 0.5);
+
+                    console.log(
+                        "Loaded",
+                        questions.length,
+                        "questions (Reading + Listening)",
+                    );
+                } else {
+                    alert(
+                        "Soal tidak ditemukan! Pastikan question-bank.js terload.",
+                    );
+                    window.location.href = "home.html";
+                }
+            }
+
+            // Timer
+            function startTimer() {
+                updateTimerDisplay();
+                timerInterval = setInterval(() => {
+                    timeLeft--;
+                    updateTimerDisplay();
+
+                    // Warning at last 10 minutes
+                    if (timeLeft <= 600) {
+                        timerElement.classList.add("warning");
+                    }
+
+                    // Critical at last 5 minutes
+                    if (timeLeft <= 300) {
+                        timerElement.style.animation = "blink 0.5s infinite";
+                    }
+
+                    if (timeLeft <= 0) {
+                        clearInterval(timerInterval);
+                        submitExam();
+                    }
+                }, 1000);
+            }
+
+            function updateTimerDisplay() {
+                const minutes = Math.floor(timeLeft / 60);
+                const seconds = timeLeft % 60;
+                timerElement.textContent = `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+            }
+
+            // Display Question
+            function displayQuestion() {
+                const q = questions[currentQuestion];
+                questionNumber.textContent = `Soal ${currentQuestion + 1} dari ${questions.length}`;
+
+                // Show passage for reading, question for listening
+                if (q.passage) {
+                    questionText.innerHTML = `<strong>Passage:</strong><br>${q.passage}<br><br><strong>Question:</strong> ${q.question}`;
+                } else if (q.questionText) {
+                    questionText.innerHTML = `<strong>Listening:</strong><br>${q.questionText}`;
+                } else {
+                    questionText.textContent = q.question || "Loading...";
+                }
+
+                // Clear options
+                optionsContainer.innerHTML = "";
+
+                // Add options
+                q.options.forEach((option, index) => {
+                    const btn = document.createElement("button");
+                    btn.className = "option-btn";
+                    if (userAnswers[currentQuestion] === index) {
+                        btn.classList.add("selected");
+                    }
+                    btn.textContent = `${String.fromCharCode(65 + index)}. ${option}`;
+                    btn.onclick = () => selectOption(index);
+                    optionsContainer.appendChild(btn);
+                });
+
+                // Update navigation
+                prevBtn.disabled = currentQuestion === 0;
+                nextBtn.textContent =
+                    currentQuestion === questions.length - 1
+                        ? "Selesai"
+                        : "Selanjutnya";
+            }
+
+            // Select Option
+            function selectOption(index) {
+                userAnswers[currentQuestion] = index;
+
+                // Update UI
+                const buttons =
+                    optionsContainer.querySelectorAll(".option-btn");
+                buttons.forEach((btn, i) => {
+                    btn.classList.remove("selected");
+                    if (i === index) {
+                        btn.classList.add("selected");
+                    }
+                });
+            }
+
+            // Navigation
+            prevBtn.onclick = () => {
+                if (currentQuestion > 0) {
+                    currentQuestion--;
+                    displayQuestion();
+                }
+            };
+
+            nextBtn.onclick = () => {
+                if (currentQuestion < questions.length - 1) {
+                    currentQuestion++;
+                    displayQuestion();
+                } else {
+                    submitExam();
+                }
+            };
+
+            // Submit Exam
+            function submitExam() {
+                clearInterval(timerInterval);
+
+                // Calculate score
+                score = 0;
+                questions.forEach((q, index) => {
+                    if (
+                        userAnswers[index] === q.correct ||
+                        userAnswers[index] === q.correctAnswer
+                    ) {
+                        score++;
+                    }
+                });
+
+                // Show result
+                finalScore.textContent = `${score}/${questions.length}`;
+
+                let message = "";
+                const percentage = (score / questions.length) * 100;
+                if (percentage >= 90) {
+                    message = "Luar biasa! Anda siap untuk ujian sebenarnya!";
+                } else if (percentage >= 70) {
+                    message =
+                        "Bagus! Teruskan belajar untuk meningkatkan skor Anda.";
+                } else if (percentage >= 50) {
+                    message =
+                        "Tidak buruk! Coba lagi untuk hasil yang lebih baik.";
+                } else {
+                    message =
+                        "Terus belajar! Anda bisa melakukannya lebih baik!";
+                }
+                resultMessage.textContent = message;
+
+                // Save to history
+                const history = JSON.parse(
+                    localStorage.getItem("quizHistory") || "[]",
+                );
+                history.push({
+                    type: "Simulasi Ujian EPS-TOPIK",
+                    score: score,
+                    total: questions.length,
+                    date: new Date().toISOString(),
+                });
+                localStorage.setItem("quizHistory", JSON.stringify(history));
+
+                resultModal.style.display = "flex";
+            }
+
+            submitBtn.onclick = submitExam;
+
+            // Start exam
+            init();
+        </script>
+    </body>
+</html>

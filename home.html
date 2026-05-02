@@ -1,0 +1,528 @@
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Langit Korea - Home</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <!-- Firebase SDK -->
+        <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+        <script src="js/auth/firebase-config.js"></script>
+        <style>
+            /* Home Page Specific Styles */
+            .welcome-section {
+                text-align: center;
+                padding: 2rem 1rem;
+                background: rgba(255, 255, 255, 0.95);
+                border-radius: 20px;
+                margin-bottom: 2rem;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            }
+
+            .welcome-section h1 {
+                color: #333;
+                font-size: 1.8rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .welcome-section p {
+                color: #666;
+                font-size: 1rem;
+            }
+
+            .user-welcome {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                justify-content: center;
+                margin-bottom: 1.5rem;
+            }
+
+            .user-avatar {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 3px solid #667eea;
+            }
+
+            .user-info-text {
+                text-align: left;
+            }
+
+            .user-info-text h2 {
+                color: #333;
+                font-size: 1.3rem;
+                margin-bottom: 0.3rem;
+            }
+
+            .user-info-text p {
+                color: #666;
+                font-size: 0.9rem;
+            }
+
+            .progress-text {
+                text-align: center;
+                color: white;
+                margin-bottom: 1rem;
+                font-size: 0.9rem;
+            }
+
+            .stats-card {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 1.5rem;
+                border-radius: 15px;
+                margin-bottom: 2rem;
+                text-align: center;
+            }
+
+            .stats-card h3 {
+                font-size: 1.1rem;
+                margin-bottom: 1rem;
+                opacity: 0.9;
+            }
+
+            .stats-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 1rem;
+            }
+
+            .stat-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .stat-number {
+                font-size: 2rem;
+                font-weight: 700;
+            }
+
+            .stat-label {
+                font-size: 0.85rem;
+                opacity: 0.9;
+                margin-top: 0.3rem;
+            }
+
+            .section-title {
+                color: white;
+                font-size: 1.3rem;
+                margin-bottom: 1.5rem;
+                text-align: center;
+            }
+
+            .menu-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 1rem;
+                margin-bottom: 2rem;
+            }
+
+            .menu-card {
+                background: rgba(255, 255, 255, 0.95);
+                border-radius: 15px;
+                padding: 1.5rem 1rem;
+                text-align: center;
+                text-decoration: none;
+                color: #333;
+                transition: all 0.3s;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0.8rem;
+            }
+
+            .menu-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            }
+
+            .menu-icon {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.8rem;
+                color: white;
+            }
+
+            .menu-icon.listening {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            }
+
+            .menu-icon.reading {
+                background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            }
+
+            .menu-icon.practice {
+                background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            }
+
+            .menu-icon.vocab {
+                background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            }
+
+            .menu-card h3 {
+                font-size: 1rem;
+                margin: 0;
+            }
+
+            .menu-card p {
+                font-size: 0.85rem;
+                color: #666;
+                margin: 0;
+            }
+
+            .progress-section {
+                background: rgba(255, 255, 255, 0.95);
+                border-radius: 15px;
+                padding: 1.5rem;
+                margin-bottom: 2rem;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            }
+
+            .progress-section h3 {
+                color: #333;
+                margin-bottom: 1rem;
+                font-size: 1.1rem;
+            }
+
+            .progress-item {
+                margin-bottom: 1rem;
+            }
+
+            .progress-label {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 0.5rem;
+                font-size: 0.9rem;
+                color: #666;
+            }
+
+            .progress-bar-container {
+                height: 8px;
+                background: #e0e0e0;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+
+            .progress-bar-fill {
+                height: 100%;
+                background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+                border-radius: 10px;
+                transition: width 0.3s ease;
+            }
+
+            .daily-tip {
+                background: rgba(255, 255, 255, 0.95);
+                border-radius: 15px;
+                padding: 1.5rem;
+                margin-bottom: 2rem;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            }
+
+            .daily-tip h3 {
+                color: #667eea;
+                margin-bottom: 1rem;
+                font-size: 1.1rem;
+            }
+
+            .daily-tip p {
+                color: #333;
+                line-height: 1.8;
+            }
+
+            .logout-btn {
+                background: #f44336;
+                color: white;
+                border: none;
+                padding: 0.6rem 1.5rem;
+                border-radius: 20px;
+                font-size: 0.9rem;
+                font-weight: 600;
+                cursor: pointer;
+                transition: all 0.3s;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                margin: 0 auto;
+            }
+
+            .logout-btn:hover {
+                background: #d32f2f;
+                transform: translateY(-2px);
+                box-shadow: 0 4px 15px rgba(244, 67, 54, 0.3);
+            }
+
+            @media (max-width: 600px) {
+                .welcome-section h1 {
+                    font-size: 1.5rem;
+                }
+
+                .stats-grid {
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 0.5rem;
+                }
+
+                .stat-number {
+                    font-size: 1.5rem;
+                }
+
+                .menu-grid {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+
+                .user-welcome {
+                    flex-direction: column;
+                    text-align: center;
+                }
+
+                .user-info-text {
+                    text-align: center;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="header-left">
+                <h1>Langit Korea</h1>
+            </div>
+            <div class="header-right" id="headerRight">
+                <!-- Will be populated by JS based on auth state -->
+            </div>
+        </header>
+
+        <!-- Profile Link (hidden by default, shown when logged in) -->
+        <div id="profileLink" style="display: none; text-align: center; margin-bottom: 1rem;">
+            <a href="profile.html" class="btn-primary" style="display: inline-block; padding: 0.8rem 1.5rem; text-decoration: none;">
+                <i class="fas fa-user"></i> Lihat Profil
+            </a>
+        </div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Welcome Section -->
+            <div class="welcome-section" id="welcomeSection">
+                <div class="user-welcome" id="userWelcome" style="display: none;">
+                    <img id="headerAvatar" class="user-avatar" src="" alt="Avatar">
+                    <div class="user-info-text">
+                        <h2 id="welcomeName">User</h2>
+                        <p>Selamat datang kembali!</p>
+                    </div>
+                </div>
+                <h1 id="welcomeTitle">Selamat Datang di Langit Korea! 🇰🇷</h1>
+                <p id="welcomeText">Belajar EPS-TOPIK jadi lebih mudah dan menyenangkan</p>
+            </div>
+
+            <!-- Stats Card -->
+            <div class="stats-card">
+                <h3>Statistik Belajar</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" id="daysCount">12</span>
+                        <span class="stat-label">Hari Belajar</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="questionsCount">85</span>
+                        <span class="stat-label">Soal Dijawab</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="scoreAvg">72%</span>
+                        <span class="stat-label">Rata-rata Skor</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Menu Grid -->
+            <h2 class="section-title">Mulai Belajar</h2>
+            <div class="menu-grid">
+                <a href="listening.html" class="menu-card">
+                    <div class="menu-icon listening">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <h3>Listening</h3>
+                    <p>Latihan mendengarkan</p>
+                </a>
+
+                <a href="reading.html" class="menu-card">
+                    <div class="menu-icon reading">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Reading</h3>
+                    <p>Latihan membaca</p>
+                </a>
+
+                <a href="latihan-eps.html" class="menu-card">
+                    <div class="menu-icon practice">
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <h3>Practice</h3>
+                    <p>Latihan soal EPS</p>
+                </a>
+
+                <a href="vocabulary.html" class="menu-card">
+                    <div class="menu-icon vocab">
+                        <i class="fas fa-spell-check"></i>
+                    </div>
+                    <h3>Vocabulary</h3>
+                    <p>Belajar Kosakata</p>
+                </a>
+            </div>
+
+            <!-- Progress Section -->
+            <div class="progress-section">
+                <h3>Progress Belajar</h3>
+
+                <div class="progress-item">
+                    <div class="progress-label">
+                        <span>Listening</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar-fill" style="width: 75%"></div>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="progress-label">
+                        <span>Reading</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar-fill" style="width: 60%"></div>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="progress-label">
+                        <span>Vocabulary</span>
+                        <span>45%</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar-fill" style="width: 45%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Daily Tip -->
+            <div class="daily-tip">
+                <h3><i class="fas fa-lightbulb"></i> Tips Hari Ini</h3>
+                <p>"Latihan mendengarkan setiap hari selama 15 menit lebih efektif daripada belajar 2 jam sekali seminggu. Dengarkan audio EPS-TOPIK sambil melakukan aktivitas lain!"</p>
+            </div>
+
+            <!-- Logout Button (shown when logged in) -->
+            <button class="logout-btn" id="logoutBtn" style="display: none;" onclick="signOut()">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </button>
+        </main>
+
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <a href="home.html" class="nav-item active">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="listening.html" class="nav-item">
+                <i class="fas fa-headphones"></i>
+                <span>Listening</span>
+            </a>
+            <a href="reading.html" class="nav-item">
+                <i class="fas fa-book-open"></i>
+                <span>Reading</span>
+            </a>
+            <a href="latihan-eps.html" class="nav-item">
+                <i class="fas fa-pencil-alt"></i>
+                <span>Practice</span>
+            </a>
+        </nav>
+
+        <script>
+            // Check auth state and update UI
+            auth.onAuthStateChanged((user) => {
+                const headerRight = document.getElementById('headerRight');
+                const welcomeSection = document.getElementById('welcomeSection');
+                const welcomeTitle = document.getElementById('welcomeTitle');
+                const welcomeText = document.getElementById('welcomeText');
+                const userWelcome = document.getElementById('userWelcome');
+                const headerAvatar = document.getElementById('headerAvatar');
+                const welcomeName = document.getElementById('welcomeName');
+                const logoutBtn = document.getElementById('logoutBtn');
+
+                if (user) {
+                    // User is logged in
+                    console.log("User signed in:", user.displayName);
+
+                    // Update header
+                    headerRight.innerHTML = `
+                        <img src="${user.photoURL || 'https://via.placeholder.com/40'}"
+                             style="width: 40px; height: 40px; border-radius: 50%; border: 2px solid white; object-fit: cover;">
+                    `;
+
+                    // Update welcome section
+                    welcomeTitle.style.display = 'none';
+                    welcomeText.style.display = 'none';
+                    userWelcome.style.display = 'flex';
+                    headerAvatar.src = user.photoURL || 'https://via.placeholder.com/60';
+                    welcomeName.textContent = `Halo, ${user.displayName || 'User'}!`;
+
+                    // Show logout button
+                    logoutBtn.style.display = 'flex';
+
+                    // Show profile link
+                    document.getElementById('profileLink').style.display = 'block';
+
+                    // Save user to localStorage
+                    localStorage.setItem('user', JSON.stringify({
+                        uid: user.uid,
+                        name: user.displayName,
+                        email: user.email,
+                        photoURL: user.photoURL
+                    }));
+                } else {
+                    // User is logged out
+                    console.log("User signed out");
+
+                    // Reset header
+                    headerRight.innerHTML = '<span class="score-badge">EPS-TOPIK</span>';
+
+                    // Reset welcome section
+                    welcomeTitle.style.display = 'block';
+                    welcomeText.style.display = 'block';
+                    userWelcome.style.display = 'none';
+
+                    // Hide logout button
+                    logoutBtn.style.display = 'none';
+
+                    // Remove user from localStorage
+                    localStorage.removeItem('user');
+                }
+            });
+
+            // Load saved statistics from localStorage
+            document.addEventListener('DOMContentLoaded', function() {
+                const listeningScore = localStorage.getItem('listeningScore') || 0;
+                const readingScore = localStorage.getItem('readingScore') || 0;
+                const practiceScore = localStorage.getItem('practiceScore') || 0;
+                const vocabLearned = JSON.parse(localStorage.getItem('learnedWords') || '[]').length;
+
+                // Update stats (you can enhance this with real data)
+                document.getElementById('questionsCount').textContent = parseInt(listeningScore) + parseInt(readingScore) + parseInt(practiceScore);
+
+                // Calculate average score
+                const scores = [listeningScore, readingScore, practiceScore].filter(s => s > 0);
+                const avgScore = scores.length > 0 ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length) : 72;
+                document.getElementById('scoreAvg').textContent = avgScore + '%';
+            });
+        </script>
+    </body>
+</html>

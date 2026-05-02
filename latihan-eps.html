@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Latihan EPS-TOPIK - Langit Korea</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <style>
+            /* Latihan EPS Specific Styles */
+            .question-card {
+                background: rgba(255, 255, 255, 0.95);
+                backdrop-filter: blur(10px);
+                border-radius: 15px;
+                padding: 1.5rem;
+                margin-bottom: 1.5rem;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+                border-left: 4px solid #667eea;
+            }
+
+            .question-text {
+                font-size: 1.2rem;
+                line-height: 1.8;
+                color: #333;
+                margin-bottom: 1rem;
+                font-family: "Noto Sans KR", sans-serif;
+                padding: 1rem;
+                background: #f8f9fa;
+                border-radius: 8px;
+            }
+
+            .translation-toggle-btn {
+                background: transparent;
+                border: 2px solid #667eea;
+                color: #667eea;
+                padding: 0.5rem 1rem;
+                border-radius: 20px;
+                cursor: pointer;
+                font-size: 0.9rem;
+                transition: all 0.3s;
+                margin-bottom: 1rem;
+            }
+
+            .translation-toggle-btn:hover {
+                background: #667eea;
+                color: white;
+            }
+
+            .translation-text {
+                background: #e3f2fd;
+                padding: 1rem;
+                border-radius: 8px;
+                margin-top: 1rem;
+                color: #1565c0;
+                line-height: 1.6;
+                font-style: italic;
+                display: none;
+            }
+
+            .options-grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 1rem;
+                margin: 1.5rem 0;
+            }
+
+            .option-button {
+                background: white;
+                border: 2px solid #e0e0e0;
+                padding: 1rem 1.5rem;
+                border-radius: 10px;
+                font-size: 1rem;
+                cursor: pointer;
+                transition: all 0.3s;
+                text-align: left;
+                line-height: 1.5;
+                min-height: 60px;
+                display: flex;
+                align-items: center;
+            }
+
+            .option-button:hover:not(:disabled) {
+                border-color: #667eea;
+                background: #f5f5f5;
+                transform: translateX(5px);
+            }
+
+            .option-button.selected {
+                border-color: #667eea;
+                background: #e6f0fa;
+            }
+
+            .option-button.correct {
+                background: #c8e6c9;
+                border-color: #4caf50;
+                color: #2e7d32;
+            }
+
+            .option-button.incorrect {
+                background: #ffcdd2;
+                border-color: #f44336;
+                color: #c62828;
+            }
+
+            .option-button:disabled {
+                cursor: not-allowed;
+                opacity: 0.9;
+            }
+
+            .feedback-message {
+                padding: 1rem;
+                border-radius: 8px;
+                font-weight: 600;
+                text-align: center;
+                margin: 1rem 0;
+                display: none;
+            }
+
+            .feedback-message.correct {
+                background: #c8e6c9;
+                color: #2e7d32;
+            }
+
+            .feedback-message.incorrect {
+                background: #ffcdd2;
+                color: #c62828;
+            }
+
+            .explanation-text {
+                background: #fff3e0;
+                padding: 1rem;
+                border-radius: 8px;
+                margin-top: 1rem;
+                color: #e65100;
+                line-height: 1.6;
+                display: none;
+            }
+
+            .navigation-buttons {
+                display: flex;
+                justify-content: space-between;
+                gap: 1rem;
+                margin-top: 2rem;
+            }
+
+            .nav-button {
+                padding: 0.8rem 2rem;
+                border: none;
+                border-radius: 25px;
+                font-size: 1rem;
+                font-weight: 600;
+                cursor: pointer;
+                transition: all 0.3s;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                flex: 1;
+                justify-content: center;
+            }
+
+            .nav-button.primary {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+            }
+
+            .nav-button.primary:hover:not(:disabled) {
+                transform: translateY(-2px);
+                box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            }
+
+            .nav-button.secondary {
+                background: white;
+                color: #667eea;
+                border: 2px solid #667eea;
+            }
+
+            .nav-button.secondary:hover:not(:disabled) {
+                background: #f5f5f5;
+            }
+
+            .nav-button:disabled {
+                opacity: 0.5;
+                cursor: not-allowed;
+            }
+
+            .loading-spinner {
+                border: 4px solid #f3f3f3;
+                border-top: 4px solid #667eea;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                animation: spin 1s linear infinite;
+                margin: 50px auto;
+            }
+
+            @keyframes spin {
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+
+            .error-message {
+                text-align: center;
+                color: #f44336;
+                padding: 2rem;
+                background: rgba(255, 255, 255, 0.95);
+                border-radius: 15px;
+                margin: 2rem 0;
+            }
+
+            .completion-message {
+                text-align: center;
+                padding: 3rem 2rem;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                border-radius: 20px;
+                margin: 2rem 0;
+            }
+
+            .completion-message h2 {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+
+            .completion-message p {
+                font-size: 1.1rem;
+                margin-bottom: 2rem;
+                opacity: 0.9;
+            }
+
+            .completion-message .cta-button {
+                display: inline-block;
+                background: white;
+                color: #667eea;
+                padding: 0.8rem 2rem;
+                border-radius: 25px;
+                text-decoration: none;
+                font-weight: 600;
+                transition: all 0.3s;
+            }
+
+            .completion-message .cta-button:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+            }
+
+            @media (min-width: 768px) {
+                .options-grid {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="header-left">
+                <a href="home.html" class="back-btn">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+                <h1>Latihan EPS</h1>
+            </div>
+            <div class="header-right">
+                <span class="score-badge" id="scoreDisplay">Score: 0</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Progress Bar -->
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+                <span class="progress-text" id="progressText">Soal 1/10</span>
+            </div>
+
+            <!-- Loading Spinner -->
+            <div class="loading-spinner" id="loadingSpinner"></div>
+
+            <!-- Error Message -->
+            <div class="error-message" id="errorMessage" style="display: none">
+                Maaf, gagal memuat soal. Silakan coba lagi nanti.
+            </div>
+
+            <!-- Question Card -->
+            <div class="question-card" id="questionCard" style="display: none">
+                <div class="question-text" id="questionText"></div>
+                <button
+                    class="translation-toggle-btn"
+                    id="toggleTranslationBtn"
+                >
+                    <i class="fas fa-language"></i> Tampilkan Terjemahan
+                </button>
+                <div class="translation-text" id="questionTranslation"></div>
+
+                <!-- Question Image (if any) -->
+                <img
+                    id="questionImage"
+                    src=""
+                    alt="Gambar Soal"
+                    style="
+                        display: none;
+                        max-width: 100%;
+                        height: auto;
+                        margin: 1rem 0;
+                        border-radius: 8px;
+                    "
+                />
+
+                <!-- Options -->
+                <div class="options-grid" id="optionsGrid"></div>
+
+                <!-- Feedback -->
+                <div class="feedback-message" id="feedbackMessage"></div>
+                <div class="explanation-text" id="explanationText"></div>
+
+                <!-- Navigation Buttons -->
+                <div class="navigation-buttons">
+                    <button class="nav-button primary" id="checkAnswerBtn">
+                        <i class="fas fa-check"></i> Cek Jawaban
+                    </button>
+                    <button
+                        class="nav-button secondary"
+                        id="nextQuestionBtn"
+                        style="display: none"
+                    >
+                        Soal Berikutnya <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Completion Message -->
+            <div
+                class="completion-message"
+                id="completionMessage"
+                style="display: none"
+            >
+                <h2>Selamat! 🎉</h2>
+                <p>Kamu sudah menyelesaikan semua soal latihan di sesi ini.</p>
+                <a href="home.html" class="cta-button">Kembali ke Dashboard</a>
+            </div>
+        </main>
+
+        <!-- Bottom Navigation -->
+        <nav class="bottom-nav">
+            <a href="home.html" class="nav-item">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="listening.html" class="nav-item">
+                <i class="fas fa-headphones"></i>
+                <span>Listening</span>
+            </a>
+            <a href="reading.html" class="nav-item">
+                <i class="fas fa-book-open"></i>
+                <span>Reading</span>
+            </a>
+            <a href="vocabulary.html" class="nav-item">
+                <i class="fas fa-spell-check"></i>
+                <span>Vocab</span>
+            </a>
+            <a href="latihan-eps.html" class="nav-item active">
+                <i class="fas fa-pencil-alt"></i>
+                <span>Practice</span>
+            </a>
+        </nav>
+
+        <script>
+            const questionTextElem = document.getElementById("questionText");
+            const toggleTranslationBtn = document.getElementById(
+                "toggleTranslationBtn",
+            );
+            const questionTranslationElem = document.getElementById(
+                "questionTranslation",
+            );
+            const questionImageElem = document.getElementById("questionImage");
+            const optionsGridElem = document.getElementById("optionsGrid");
+            const feedbackMessageElem =
+                document.getElementById("feedbackMessage");
+            const explanationTextElem =
+                document.getElementById("explanationText");
+            const checkAnswerBtn = document.getElementById("checkAnswerBtn");
+            const nextQuestionBtn = document.getElementById("nextQuestionBtn");
+            const progressBar = document.getElementById("progressBar");
+            const progressText = document.getElementById("progressText");
+            const scoreDisplay = document.getElementById("scoreDisplay");
+            const loadingSpinner = document.getElementById("loadingSpinner");
+            const errorMessage = document.getElementById("errorMessage");
+            const questionCard = document.getElementById("questionCard");
+            const completionMessage =
+                document.getElementById("completionMessage");
+
+            let currentQuestionIndex = 0;
+            let selectedOption = null;
+            let score = 0;
+            let questions = [];
+
+            // Dummy questions data
+            const dummyQuestions = [
+                {
+                    id: 1,
+                    teks_soal: "다음 중 한국의 수도는 어디입니까?",
+                    teks_soal_terjemahan:
+                        "Di antara berikut, manakah ibu kota Korea?",
+                    gambar_url: null,
+                    pilihan_a: "부산",
+                    pilihan_a_terjemahan: "Busan",
+                    pilihan_b: "서울",
+                    pilihan_b_terjemahan: "Seoul",
+                    pilihan_c: "제주",
+                    pilihan_c_terjemahan: "Jeju",
+                    pilihan_d: "인천",
+                    pilihan_d_terjemahan: "Incheon",
+                    jawaban_benar: "b",
+                    penjelasan: "Ibu kota Korea Selatan adalah 서울 (Seoul).",
+                },
+                {
+                    id: 2,
+                    teks_soal: "안녕하세요. 저는 [빈칸] 입니다.",
+                    teks_soal_terjemahan: "Halo. Saya adalah [kosong].",
+                    gambar_url: null,
+                    pilihan_a: "친구",
+                    pilihan_a_terjemahan: "teman",
+                    pilihan_b: "학생",
+                    pilihan_b_terjemahan: "siswa",
+                    pilihan_c: "선생님",
+                    pilihan_c_terjemahan: "guru",
+                    pilihan_d: "수진",
+                    pilihan_d_terjemahan: "Sujin (nama orang)",
+                    jawaban_benar: "d",
+                    penjelasan:
+                        "Untuk memperkenalkan diri, biasanya menggunakan nama pribadi.",
+                },
+                {
+                    id: 3,
+                    teks_soal:
+                        "저는 매일 아침 7시에 일어납니다. 그 다음에 세수하고 밥을 먹습니다. 출근하기 전에 신문을 봅니다.",
+                    teks_soal_terjemahan:
+                        "Saya bangun setiap pagi jam 7. Setelah itu cuci muka dan makan nasi. Sebelum berangkat kerja membaca koran.",
+                    gambar_url: null,
+                    pilihan_a: "저는 8시에 일어납니다",
+                    pilihan_a_terjemahan: "Saya bangun jam 8",
+                    pilihan_b: "출근 후에 신문을 봅니다",
+                    pilihan_b_terjemahan:
+                        "Membaca koran setelah berangkat kerja",
+                    pilihan_c: "아침에 신문을 봅니다",
+                    pilihan_c_terjemahan: "Membaca koran di pagi hari",
+                    pilihan_d: "밥을 먹은 후에 세수합니다",
+                    pilihan_d_terjemahan: "Cuci muka setelah makan nasi",
+                    jawaban_benar: "c",
+                    penjelasan:
+                        "Teks menyebutkan '출근하기 전에 신문을 봅니다' (Membaca koran sebelum berangkat kerja), yang berarti di pagi hari.",
+                },
+            ];
+
+            function fetchQuestions() {
+                loadingSpinner.style.display = "block";
+                questionCard.style.display = "none";
+                errorMessage.style.display = "none";
+
+                // Simulate API call with dummy data
+                setTimeout(() => {
+                    try {
+                        questions = dummyQuestions;
+
+                        if (questions.length === 0) {
+                            throw new Error("Tidak ada soal yang tersedia.");
+                        }
+
+                        document.getElementById("progressText").textContent =
+                            `Soal 1/${questions.length}`;
+                        displayQuestion();
+                        questionCard.style.display = "block";
+                    } catch (error) {
+                        console.error("Error:", error.message);
+                        errorMessage.style.display = "block";
+                    } finally {
+                        loadingSpinner.style.display = "none";
+                    }
+                }, 500);
+            }
+
+            function displayQuestion() {
+                selectedOption = null;
+                optionsGridElem.innerHTML = "";
+                feedbackMessageElem.style.display = "none";
+                explanationTextElem.style.display = "none";
+                checkAnswerBtn.style.display = "block";
+                nextQuestionBtn.style.display = "none";
+                checkAnswerBtn.disabled = true;
+
+                const question = questions[currentQuestionIndex];
+
+                questionTextElem.textContent = question.teks_soal;
+                questionTranslationElem.textContent =
+                    question.teks_soal_terjemahan;
+                questionTranslationElem.style.display = "none";
+                toggleTranslationBtn.innerHTML =
+                    '<i class="fas fa-language"></i> Tampilkan Terjemahan';
+
+                if (question.gambar_url) {
+                    questionImageElem.src = question.gambar_url;
+                    questionImageElem.style.display = "block";
+                } else {
+                    questionImageElem.style.display = "none";
+                }
+
+                const options = ["a", "b", "c", "d"].map((key) => ({
+                    key: key,
+                    text: question[`pilihan_${key}`],
+                    translation: question[`pilihan_${key}_terjemahan`],
+                }));
+
+                options.forEach((option) => {
+                    const button = document.createElement("button");
+                    button.className = "option-button";
+                    button.dataset.key = option.key;
+                    button.innerHTML = `
+                    <div>
+                        <strong>${option.key.toUpperCase()}.</strong> ${option.text}
+                        <br>
+                        <small style="color: #666; font-style: italic;">${option.translation}</small>
+                    </div>
+                `;
+                    button.onclick = () => selectOption(button, option.key);
+                    optionsGridElem.appendChild(button);
+                });
+
+                updateProgress();
+            }
+
+            function selectOption(button, key) {
+                document.querySelectorAll(".option-button").forEach((btn) => {
+                    btn.classList.remove("selected");
+                });
+                button.classList.add("selected");
+                selectedOption = key;
+                checkAnswerBtn.disabled = false;
+            }
+
+            toggleTranslationBtn.onclick = () => {
+                if (questionTranslationElem.style.display === "none") {
+                    questionTranslationElem.style.display = "block";
+                    toggleTranslationBtn.innerHTML =
+                        '<i class="fas fa-eye-slash"></i> Sembunyikan Terjemahan';
+                } else {
+                    questionTranslationElem.style.display = "none";
+                    toggleTranslationBtn.innerHTML =
+                        '<i class="fas fa-language"></i> Tampilkan Terjemahan';
+                }
+            };
+
+            function checkAnswer() {
+                if (!selectedOption) {
+                    alert("Pilih salah satu jawaban terlebih dahulu!");
+                    return;
+                }
+
+                const question = questions[currentQuestionIndex];
+                const correctKey = question.jawaban_benar;
+                const optionButtons =
+                    document.querySelectorAll(".option-button");
+
+                optionButtons.forEach((btn) => {
+                    btn.disabled = true;
+                    if (btn.dataset.key === correctKey) {
+                        btn.classList.add("correct");
+                    } else if (
+                        btn.dataset.key === selectedOption &&
+                        selectedOption !== correctKey
+                    ) {
+                        btn.classList.add("incorrect");
+                    }
+                });
+
+                if (selectedOption === correctKey) {
+                    score++;
+                    scoreDisplay.textContent = `Score: ${score}`;
+                    feedbackMessageElem.textContent = "Jawabanmu Benar! 🎉";
+                    feedbackMessageElem.className = "feedback-message correct";
+                } else {
+                    feedbackMessageElem.textContent =
+                        "Jawabanmu Kurang Tepat. Coba lagi!";
+                    feedbackMessageElem.className =
+                        "feedback-message incorrect";
+                }
+                feedbackMessageElem.style.display = "block";
+
+                explanationTextElem.textContent = `Penjelasan: ${question.penjelasan}`;
+                explanationTextElem.style.display = "block";
+
+                checkAnswerBtn.style.display = "none";
+                nextQuestionBtn.style.display = "block";
+            }
+
+            function nextQuestion() {
+                currentQuestionIndex++;
+                if (currentQuestionIndex < questions.length) {
+                    displayQuestion();
+                } else {
+                    questionCard.style.display = "none";
+                    completionMessage.style.display = "block";
+                    // Save score to localStorage
+                    localStorage.setItem("practiceScore", score);
+                }
+            }
+
+            function updateProgress() {
+                const progress =
+                    ((currentQuestionIndex + 1) / questions.length) * 100;
+                progressBar.style.width = `${progress}%`;
+                progressText.textContent = `Soal ${currentQuestionIndex + 1}/${questions.length}`;
+            }
+
+            checkAnswerBtn.onclick = checkAnswer;
+            nextQuestionBtn.onclick = nextQuestion;
+
+            // Initial load
+            fetchQuestions();
+        </script>
+    </body>
+</html>
