@@ -2,84 +2,82 @@
 <html lang="id">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Langit Korea - EPS-TOPIK Learning</title>
-        <link rel="stylesheet" href="css/style.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-        <!-- Firebase SDK -->
-        <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
-        <script src="js/auth/firebase-config.js"></script>
+        <title>Selamat Datang - Langit Korea</title>
         <style>
-            body {
+            * {
                 margin: 0;
                 padding: 0;
-                overflow: hidden;
+                box-sizing: border-box;
             }
 
-            .onboarding-container {
-                min-height: 100vh;
+            body {
+                font-family: Arial, sans-serif;
                 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                min-height: 100vh;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                padding: 2rem;
-                position: relative;
+                padding: 1.5rem 1rem;
+                color: white;
             }
 
-            .onboarding-content {
-                text-align: center;
-                max-width: 500px;
+            .container {
                 width: 100%;
+                max-width: 400px;
+                text-align: center;
             }
 
             .logo {
-                font-size: 3rem;
-                color: white;
+                font-size: 2.5rem;
                 font-weight: 700;
                 margin-bottom: 0.5rem;
-                text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
             }
 
             .tagline {
-                color: rgba(255, 255, 255, 0.9);
-                font-size: 1.2rem;
-                margin-bottom: 3rem;
+                font-size: 1rem;
+                opacity: 0.9;
+                margin-bottom: 2rem;
             }
 
-            .feature-list {
+            .features {
                 background: rgba(255, 255, 255, 0.95);
-                backdrop-filter: blur(10px);
-                border-radius: 20px;
-                padding: 2rem;
+                border-radius: 16px;
+                padding: 1.5rem;
                 margin-bottom: 2rem;
-                box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+                color: #333;
                 text-align: left;
+                box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            }
+
+            .features h3 {
+                color: #667eea;
+                margin-bottom: 1rem;
+                text-align: center;
+                font-size: 1.1rem;
             }
 
             .feature-item {
                 display: flex;
                 align-items: center;
-                gap: 1rem;
-                margin-bottom: 1.2rem;
-                padding: 0.8rem;
-                border-radius: 10px;
-                transition: background 0.3s;
+                gap: 0.8rem;
+                margin-bottom: 1rem;
+                font-size: 0.9rem;
             }
 
-            .feature-item:hover {
-                background: #f8f9fa;
+            .feature-item:last-child {
+                margin-bottom: 0;
             }
 
             .feature-icon {
-                width: 50px;
-                height: 50px;
+                width: 40px;
+                height: 40px;
                 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                border-radius: 12px;
+                border-radius: 50%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -88,198 +86,123 @@
                 flex-shrink: 0;
             }
 
-            .feature-text h3 {
-                color: #333;
+            .buttons {
+                width: 100%;
+            }
+
+            .btn {
+                display: block;
+                width: 100%;
+                padding: 1rem;
+                border: none;
+                border-radius: 12px;
                 font-size: 1rem;
-                margin-bottom: 0.3rem;
+                font-weight: 600;
+                cursor: pointer;
+                text-decoration: none;
+                transition: all 0.3s ease;
+                margin-bottom: 1rem;
             }
 
-            .feature-text p {
-                color: #666;
-                font-size: 0.9rem;
-                line-height: 1.5;
-            }
-
-            .cta-button {
-                display: inline-flex;
-                align-items: center;
-                gap: 0.8rem;
+            .btn-primary {
                 background: white;
                 color: #667eea;
-                padding: 1rem 2.5rem;
-                border-radius: 30px;
-                text-decoration: none;
-                font-weight: 700;
-                font-size: 1.1rem;
-                transition: all 0.3s;
+            }
+
+            .btn-primary:hover {
+                transform: translateY(-2px);
                 box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-                margin-bottom: 1.5rem;
             }
 
-            .cta-button:hover {
-                transform: translateY(-3px);
-                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            .btn-secondary {
+                background: rgba(255, 255, 255, 0.2);
+                color: white;
+                border: 2px solid rgba(255, 255, 255, 0.3);
             }
 
-            .cta-button img {
-                width: 20px;
-                height: 20px;
+            .btn-secondary:hover {
+                background: rgba(255, 255, 255, 0.3);
             }
 
-            .login-link {
-                color: rgba(255, 255, 255, 0.8);
+            .footer {
+                margin-top: 1rem;
+                font-size: 0.8rem;
+                opacity: 0.8;
+            }
+
+            .footer a {
+                color: white;
                 text-decoration: none;
-                font-size: 0.9rem;
-                transition: color 0.3s;
             }
 
-            .login-link:hover {
-                color: white;
-                text-decoration: underline;
-            }
-
-            .loading {
-                color: white;
-                font-size: 1rem;
-            }
-
-            .loading i {
-                margin-right: 0.5rem;
-                animation: spin 1s linear infinite;
-            }
-
-            @keyframes spin {
-                0% {
-                    transform: rotate(0deg);
+            @media (min-width: 768px) {
+                .logo {
+                    font-size: 3rem;
                 }
-                100% {
-                    transform: rotate(360deg);
+
+                .tagline {
+                    font-size: 1.2rem;
+                }
+
+                .features {
+                    padding: 2rem;
                 }
             }
         </style>
     </head>
     <body>
-        <div class="onboarding-container">
-            <div class="onboarding-content">
-                <div class="logo">Langit Korea</div>
-                <div class="tagline">Master EPS-TOPIK with Ease 🇰🇷</div>
+        <div class="container">
+            <div class="logo">Langit Korea</div>
+            <div class="tagline">EPS-TOPIK Learning Platform</div>
 
-                <div class="feature-list">
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-headphones"></i>
-                        </div>
-                        <div class="feature-text">
-                            <h3>Listening Practice</h3>
-                            <p>
-                                Improve your Korean listening skills with audio
-                                exercises
-                            </p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-book-open"></i>
-                        </div>
-                        <div class="feature-text">
-                            <h3>Reading Comprehension</h3>
-                            <p>Practice reading Korean texts and passages</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-spell-check"></i>
-                        </div>
-                        <div class="feature-text">
-                            <h3>Vocabulary Builder</h3>
-                            <p>Learn essential Korean words with flashcards</p>
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <div class="feature-text">
-                            <h3>Track Progress</h3>
-                            <p>
-                                Monitor your learning journey and achievements
-                            </p>
-                        </div>
-                    </div>
+            <div class="features">
+                <h3><i class="fas fa-star"></i> Fitur Unggulan</h3>
+                <div class="feature-item">
+                    <div class="feature-icon">📖</div>
+                    <div>Reading Practice (5 soal)</div>
                 </div>
-
-                <div id="authSection">
-                    <div id="loadingSection">
-                        <div class="loading">
-                            <i class="fas fa-spinner"></i> Checking
-                            authentication...
-                        </div>
-                    </div>
-
-                    <div id="loggedOutSection" style="display: none">
-                        <button class="cta-button" onclick="signInWithGoogle()">
-                            <img
-                                src="https://www.gstatic.com/firebasejs/9.22.0/firebasejs-symbols.svg"
-                                alt="G"
-                            />
-                            Continue with Google
-                        </button>
-                        <br />
-                        <a href="login.html" class="login-link">
-                            <i class="fas fa-sign-in-alt"></i> Already have an
-                            account? Login
-                        </a>
-                    </div>
-
-                    <div id="loggedInSection" style="display: none">
-                        <a href="home.html" class="cta-button">
-                            <i class="fas fa-home"></i> Go to Dashboard
-                        </a>
-                        <br />
-                        <a
-                            href="#"
-                            class="login-link"
-                            onclick="
-                                signOut();
-                                return false;
-                            "
-                        >
-                            <i class="fas fa-sign-out-alt"></i> Sign Out
-                        </a>
-                    </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🎧</div>
+                    <div>Listening Practice (3 soal)</div>
                 </div>
+                <div class="feature-item">
+                    <div class="feature-icon">⏱</div>
+                    <div>Simulasi Ujian 50 Menit (45 soal)</div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📚</div>
+                    <div>Vocabulary Builder (20 kata)</div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🔤</div>
+                    <div>Hangul Learning Path (24 pelajaran)</div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">👤</div>
+                    <div>User Profile & Statistics</div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <a href="login.html" class="btn btn-primary">
+                    <i class="fas fa-sign-in-alt"></i> Mulai Belajar Sekarang
+                </a>
+                <a href="modul.html" class="btn btn-secondary">
+                    <i class="fas fa-book"></i> Modul Pembelajaran
+                </a>
+            </div>
+
+            <div class="footer">
+                <a
+                    href="https://github.com/rinixox-svg/langit-korea"
+                    target="_blank"
+                >
+                    <i class="fab fa-github"></i> View on GitHub
+                </a>
             </div>
         </div>
 
-        <script>
-            // Check auth state on page load
-            auth.onAuthStateChanged((user) => {
-                const loadingSection =
-                    document.getElementById("loadingSection");
-                const loggedOutSection =
-                    document.getElementById("loggedOutSection");
-                const loggedInSection =
-                    document.getElementById("loggedInSection");
-
-                loadingSection.style.display = "none";
-
-                if (user) {
-                    // User is signed in
-                    console.log("User signed in:", user.displayName);
-                    loggedOutSection.style.display = "none";
-                    loggedInSection.style.display = "block";
-
-                    // Auto-redirect to home after 2 seconds
-                    setTimeout(() => {
-                        window.location.href = "home.html";
-                    }, 2000);
-                } else {
-                    // User is signed out
-                    console.log("User signed out");
-                    loggedOutSection.style.display = "block";
-                    loggedInSection.style.display = "none";
-                }
-            });
-        </script>
+        <!-- Font Awesome -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
     </body>
 </html>
