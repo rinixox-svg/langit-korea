@@ -4,194 +4,62 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Login - Langit Korea</title>
-        <link rel="stylesheet" href="css/style.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        />
-        <!-- Firebase SDK -->
-        <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
-        <script src="js/auth/firebase-config.js"></script>
         <style>
             body {
+                font-family: Arial, sans-serif;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                min-height: 100vh;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                min-height: 100vh;
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                margin: 0;
+                padding: 1rem;
             }
 
-            .login-container {
-                background: rgba(255, 255, 255, 0.95);
-                backdrop-filter: blur(10px);
-                border-radius: 20px;
-                padding: 3rem 2rem;
-                box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            .container {
+                background: white;
+                border-radius: 12px;
+                padding: 2rem;
                 text-align: center;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+                width: 100%;
                 max-width: 400px;
-                width: 90%;
             }
 
-            .login-logo {
-                font-size: 2.5rem;
+            h1 {
                 color: #667eea;
                 margin-bottom: 0.5rem;
-                font-weight: 700;
             }
 
-            .login-subtitle {
+            p {
                 color: #666;
-                margin-bottom: 2rem;
-                font-size: 1rem;
-            }
-
-            .login-welcome {
-                color: #333;
-                font-size: 1.2rem;
-                margin-bottom: 0.5rem;
-            }
-
-            .user-info {
-                display: none;
                 margin-bottom: 1.5rem;
             }
 
-            .user-avatar {
-                width: 80px;
-                height: 80px;
-                border-radius: 50%;
-                border: 3px solid #667eea;
-                object-fit: cover;
-                margin-bottom: 1rem;
-            }
-
-            .user-name {
-                font-size: 1.1rem;
+            button {
+                display: block;
+                width: 100%;
+                padding: 1rem;
+                margin: 1rem 0;
+                border: none;
+                border-radius: 8px;
+                font-size: 1rem;
                 font-weight: 600;
-                color: #333;
-                margin-bottom: 0.3rem;
-            }
-
-            .user-email {
-                font-size: 0.9rem;
-                color: #666;
+                cursor: pointer;
             }
 
             .google-btn {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap: 0.5rem;
-                width: 100%;
-                max-width: 300px;
-                margin: 1rem auto;
-                padding: 0.8rem 1.5rem;
                 background: white;
                 color: #333;
                 border: 2px solid #ddd;
-                border-radius: 25px;
-                font-size: 1rem;
-                font-weight: 600;
-                cursor: pointer;
-                transition: all 0.3s;
             }
 
-            .google-btn:hover {
-                background: #f5f5f5;
-                border-color: #667eea;
-                transform: translateY(-2px);
-                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            }
-
-            .google-btn img {
-                width: 20px;
-                height: 20px;
-            }
-
-            .anonymous-btn {
-                display: block;
-                width: 100%;
-                max-width: 300px;
-                margin: 1rem auto;
-                padding: 0.8rem 1.5rem;
+            .anon-btn {
                 background: #4caf50;
                 color: white;
-                border: none;
-                border-radius: 25px;
-                font-size: 1rem;
-                font-weight: 600;
-                cursor: pointer;
-                transition: all 0.3s;
             }
 
-            .anonymous-btn:hover {
-                background: #45a049;
-                transform: translateY(-2px);
-                box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
-            }
-
-            .or-divider {
-                display: flex;
-                align-items: center;
-                margin: 1.5rem 0;
-                color: #999;
-                font-size: 0.9rem;
-            }
-
-            .or-divider::before,
-            .or-divider::after {
-                content: "";
-                flex: 1;
-                border-bottom: 1px solid #ddd;
-            }
-
-            .or-divider span {
-                padding: 0 1rem;
-            }
-
-            .logout-btn {
-                background: #f44336;
-                color: white;
-                border: none;
-                padding: 0.8rem 2rem;
-                border-radius: 25px;
-                font-size: 1rem;
-                font-weight: 600;
-                cursor: pointer;
-                transition: all 0.3s;
-                width: 100%;
-                max-width: 300px;
-                margin: 1rem auto;
-            }
-
-            .logout-btn:hover {
-                background: #d32f2f;
-                transform: translateY(-2px);
-                box-shadow: 0 4px 15px rgba(244, 67, 54, 0.3);
-            }
-
-            .login-footer {
-                margin-top: 2rem;
-                font-size: 0.85rem;
-                color: #999;
-            }
-
-            .login-footer a {
-                color: #667eea;
-                text-decoration: none;
-            }
-
-            .login-footer a:hover {
-                text-decoration: underline;
-            }
-
-            .hidden {
-                display: none !important;
-            }
-
-            .mobile-hint {
-                display: none;
+            .hint {
                 background: #fff3cd;
                 border: 1px solid #ffeaa7;
                 border-radius: 8px;
@@ -201,129 +69,43 @@
                 color: #856404;
             }
 
-            @media (max-width: 768px) {
-                .mobile-hint {
-                    display: block;
-                }
+            .divider {
+                margin: 1.5rem 0;
+                color: #999;
+                font-size: 0.9rem;
             }
         </style>
+
+        <!-- Firebase SDK -->
+        <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+        <script src="js/auth/firebase-config.js"></script>
     </head>
     <body>
-        <div class="login-container">
-            <div class="login-logo">Langit Korea</div>
-            <div class="login-subtitle">EPS-TOPIK Learning Platform</div>
+        <div class="container">
+            <h1>Langit Korea</h1>
+            <p>EPS-TOPIK Learning Platform</p>
 
-            <!-- Logged Out State -->
-            <div id="loggedOutState">
-                <div class="login-welcome">Selamat Datang!</div>
-                <p style="color: #666; margin-bottom: 1.5rem">
-                    Silakan login untuk melanjutkan.
-                </p>
-
-                <!-- Mobile Hint -->
-                <div class="mobile-hint">
-                    <i class="fas fa-mobile-alt"></i> Jika login Google tidak
-                    berhasil di HP, gunakan "Login Tanpa Akun" di bawah.
-                </div>
-
-                <!-- Google Login (Redirect method for mobile) -->
-                <button class="google-btn" id="googleLoginBtn">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
-                        alt="G"
-                    />
-                    Login dengan Google
-                </button>
-
-                <div class="or-divider"><span>ATAU</span></div>
-
-                <!-- Anonymous Login (for mobile testing) -->
-                <button class="anonymous-btn" id="anonymousLoginBtn">
-                    <i class="fas fa-user-secret"></i> Login Tanpa Akun
-                    (Testing)
-                </button>
+            <div class="hint">
+                <strong>📱 Untuk HP:</strong> Jika tombol Google tidak bisa,
+                gunakan "Login Tanpa Akun"
             </div>
 
-            <!-- Logged In State (hidden by default) -->
-            <div id="loggedInState" class="hidden">
-                <div class="user-info" id="userInfo">
-                    <img
-                        id="userAvatar"
-                        class="user-avatar"
-                        src=""
-                        alt="Avatar"
-                    />
-                    <div class="user-name" id="userName">User</div>
-                    <div class="user-email" id="userEmail"></div>
-                </div>
-                <button class="logout-btn" id="logoutBtn">
-                    <i class="fas fa-sign-out-alt"></i> Logout
-                </button>
-            </div>
+            <button class="google-btn" id="googleBtn">
+                🔵 Login dengan Google
+            </button>
 
-            <div class="login-footer">
-                <a href="home.html">← Kembali ke Home</a>
-            </div>
+            <div class="divider">ATAU</div>
+
+            <button class="anon-btn" id="anonBtn">
+                👤 Login Tanpa Akun (Testing)
+            </button>
         </div>
 
         <script>
-            // Check if already logged in
-            auth.onAuthStateChanged((user) => {
-                if (user) {
-                    // User is logged in
-                    console.log("User signed in:", user.displayName);
-
-                    // Show logged in state
-                    document
-                        .getElementById("loggedOutState")
-                        .classList.add("hidden");
-                    document
-                        .getElementById("loggedInState")
-                        .classList.remove("hidden");
-
-                    // Update user info
-                    if (user.photoURL) {
-                        document.getElementById("userAvatar").src =
-                            user.photoURL;
-                        document.getElementById("userInfo").style.display =
-                            "block";
-                    }
-                    document.getElementById("userName").textContent =
-                        user.displayName || "User";
-                    document.getElementById("userEmail").textContent =
-                        user.email || "";
-
-                    // Save to localStorage
-                    localStorage.setItem(
-                        "user",
-                        JSON.stringify({
-                            uid: user.uid,
-                            name: user.displayName,
-                            email: user.email,
-                            photoURL: user.photoURL,
-                        }),
-                    );
-
-                    // Redirect to home after 2 seconds
-                    setTimeout(() => {
-                        window.location.href = "home.html";
-                    }, 2000);
-                } else {
-                    // User is logged out
-                    console.log("User signed out");
-                    document
-                        .getElementById("loggedOutState")
-                        .classList.remove("hidden");
-                    document
-                        .getElementById("loggedInState")
-                        .classList.add("hidden");
-                    localStorage.removeItem("user");
-                }
-            });
-
-            // Google Login with Redirect (better for mobile)
+            // Google Login
             document
-                .getElementById("googleLoginBtn")
+                .getElementById("googleBtn")
                 .addEventListener("click", () => {
                     const provider = new firebase.auth.GoogleAuthProvider();
 
@@ -331,10 +113,10 @@
                     auth.signInWithPopup(provider)
                         .then((result) => {
                             console.log("Sign-in successful:", result.user);
-                            // Redirect will happen in auth state listener
+                            window.location.href = "home.html";
                         })
                         .catch((error) => {
-                            console.error("Popup sign-in error:", error);
+                            console.error("Popup error:", error);
 
                             // If popup blocked, use redirect
                             if (
@@ -349,34 +131,18 @@
                         });
                 });
 
-            // Anonymous Login (for mobile testing)
-            document
-                .getElementById("anonymousLoginBtn")
-                .addEventListener("click", () => {
-                    auth.signInAnonymously()
-                        .then(() => {
-                            console.log("Anonymous sign-in successful");
-                            // Redirect will happen in auth state listener
-                        })
-                        .catch((error) => {
-                            console.error("Anonymous sign-in error:", error);
-                            alert("Login anonim gagal: " + error.message);
-                        });
-                });
-
-            // Logout
-            document
-                .getElementById("logoutBtn")
-                .addEventListener("click", () => {
-                    auth.signOut()
-                        .then(() => {
-                            console.log("Sign-out successful");
-                            // Redirect will happen in auth state listener
-                        })
-                        .catch((error) => {
-                            console.error("Sign-out error:", error);
-                        });
-                });
+            // Anonymous Login (for mobile)
+            document.getElementById("anonBtn").addEventListener("click", () => {
+                auth.signInAnonymously()
+                    .then(() => {
+                        console.log("Anonymous sign-in successful");
+                        window.location.href = "home.html";
+                    })
+                    .catch((error) => {
+                        console.error("Anonymous error:", error);
+                        alert("Login gagal: " + error.message);
+                    });
+            });
 
             // Handle redirect result (for mobile)
             auth.getRedirectResult()
@@ -386,11 +152,20 @@
                             "Redirect sign-in successful:",
                             result.user,
                         );
+                        window.location.href = "home.html";
                     }
                 })
                 .catch((error) => {
-                    console.error("Redirect sign-in error:", error);
+                    console.error("Redirect error:", error);
                 });
+
+            // Check if already logged in
+            auth.onAuthStateChanged((user) => {
+                if (user) {
+                    console.log("Already logged in:", user.displayName);
+                    window.location.href = "home.html";
+                }
+            });
         </script>
     </body>
 </html>
