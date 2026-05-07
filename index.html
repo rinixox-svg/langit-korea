@@ -14,19 +14,19 @@
             // Cek status login
             document.addEventListener('DOMContentLoaded', async function() {
                 try {
-                    const { data: { session } } = await supabase.auth.getSession();
+                    const { data: { session } = await supabase.auth.getSession();
 
                     if (session) {
                         // Sudah login, arahkan ke home
                         window.location.href = "home.html";
                     } else {
-                        // Belum login, arahkan ke login
-                        window.location.href = "login.html";
+                        // Belum login, arahkan ke ONBOARDING (Daftar)
+                        window.location.href = "onboarding.html";
                     }
                 } catch (error) {
                     console.error('Error cek session:', error);
-                    // Default ke login page jika error
-                    window.location.href = "login.html";
+                    // Default ke onboarding jika error
+                    window.location.href = "onboarding.html";
                 }
             });
         </script>
