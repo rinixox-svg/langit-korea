@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Soal (No Filter) - Langit Korea</title>
+
+    <!-- Supabase SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <!-- Supabase Config -->
+    <script src="js/supabase-config.js"></script>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .soal-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+        .soal-teks {
+            font-size: 1.2rem;
+            font-family: 'Noto Sans KR', sans-serif;
+            margin-bottom: 10px;
+        }
+        .pilihan {
+            margin: 5px 0;
+            padding: 8px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .error { color: red; }
+        .success { color: green; }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        pre {
+            background: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Test Soal Tanpa Filter</h1>
+
+        <div>
+            <button onclick="testKoneksi()">1. Test Koneksi</button>
+            <button onclick="ambilSemuaTanpaFilter()">2. Ambil Unit 31 (Tanpa Filter)</button>
+            <button onclick="cekStruktur()">3. Cek Struktur Tabel</button>
+        </div>
+
+        <div id="status"></div>
+        <div id="hasil"></div>
+    </div>
+
+    <script>
+        async function testKoneksi() {
+            const statusEl = document.getElementById('status');
+            statusEl.innerHTML = 'Testing koneksi...';
+
+            try {
+                if (!window.db) {
+                    statusEl.innerHTML = '<p class="error">❌ Supabase client belum siap!</p>';
+                    return;
+                }
+
+                const { data, error } = await db.from('soal_eps').select('count').limit(1);
+
+                if (error) {
+                    statusEl.innerHTML = `<p class="error">❌ Error: ${error.message}</p>`;
+                } else {
+                    statusEl.innerHTML = '<p class="success">✅ Koneksi berhasil!</p>';
+                }
+            } catch (err) {
+                statusEl.innerHTML = `<p class="error">❌ Exception: ${err.message}</p>`;
+            }
+        }
+
+        async function ambilSemuaTanpaFilter() {
+            const hasilEl = document.getElementById('hasil');
+            hasilEl.innerHTML = 'Mengambil soal Unit 31...';
+
+            try {
+                if (!window.db) return;
+
+                // Ambil tanpa filter akses
+                const { data, error } = await db
+                    .from('soal_eps')
+                    .select('*')
+                    .eq('unit', 31)
+                    .eq('tipe', 'membaca')
+                    .limit(5);
+
+                if (error) {
+                    hasilEl.innerHTML = `<p class="error">❌ Error: ${error.message}</p>`;
+                    console.error('Error detail:', error);
+                    return;
+                }
+
+                if (!data || data.length === 0) {
+                    hasilEl.innerHTML = '<p class="error">❌ Tidak ada soal ditemukan!</p>';
+                    return;
+                }
+
+                let html = `<h3>✅ Berhasil ambil ${data.length} soal (tanpa filter akses):</h3>`;
+                data.forEach((soal, index) => {
+                    html += `
+                        <div class="soal-item">
+                            <div class="soal-teks">${soal.teks_soal}</div>
+                            <div class="pilihan">A. ${soal.pilihan_a}</div>
+                            <div class="pilihan">B. ${soal.pilihan_b}</div>
+                            <div class="pilihan">C. ${soal.pilihan_c}</div>
+                            <div class="pilihan">D. ${soal.pilihan_d}</div>
+                            <div>Jawaban: ${soal.jawaban} | Akses: ${soal.akses || 'KOSONG'}</div>
+                        </div>
+                    `;
+                });
+
+                hasilEl.innerHTML = html;
+
+            } catch (err) {
+                hasilEl.innerHTML = `<p class="error">❌ Error: ${err.message}</p>`;
+            }
+        }
+
+        async function cekStruktur() {
+            const hasilEl = document.getElementById('hasil');
+            hasilEl.innerHTML = 'Mengecek struktur...';
+
+            try {
+                if (!window.db) return;
+
+                // Cek sample data
+                const { data, error } = await db
+                    .from('soal_eps')
+                    .select('*')
+                    .limit(1);
+
+                if (error) {
+                    hasilEl.innerHTML = `<p class="error">❌ Error: ${error.message}</p>`;
+                    return;
+                }
+
+                if (!data || data.length === 0) {
+                    hasilEl.innerHTML = '<p class="error">❌ Tabel kosong!</p>';
+                    return;
+                }
+
+                // Tampilkan struktur
+                const sample = data[0];
+                let html = '<h3>✅ Sample Data (Struktur):</h3>';
+                html += '<pre>' + JSON.stringify(sample, null, 2) + '</pre>';
+
+                // Cek apakah field akses ada
+                if (sample.akses === undefined) {
+                    html += '<p class="error">❌ Field "akses" TIDAK ADA di tabel!</p>';
+                } else {
+                    html += `<p class="success">✅ Field "akses" ADA, isinya: "${sample.akses}"</p>`;
+                }
+
+                hasilEl.innerHTML = html;
+
+            } catch (err) {
+                hasilEl.innerHTML = `<p class="error">❌ Error: ${err.message}</p>`;
+            }
+        }
+    </script>
+</body>
+</html>

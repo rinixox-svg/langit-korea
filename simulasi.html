@@ -1,521 +1,343 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Simulasi Ujian - Langit Korea</title>
-        <link rel="stylesheet" href="css/style.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        />
-        <style>
-            body {
-                background: #f5f5f5;
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langit Korea - Simulasi Ujian</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --langit-utama: #A0D2FF;
+            --langit-aksen: #FFD19A;
+            --langit-bg: #F0F4F8;
+            --langit-hijau: #4CAF82;
+            --langit-merah: #E05C5C;
+            --langit-abu: #D0D0D0;
+            --langit-biru-muda: #D1E8FF;
+            --teks-utama: #1E2A3A;
+        }
 
-            .exam-header {
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                color: white;
-                padding: 1rem;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-            }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
-            .exam-title {
-                font-size: 1.2rem;
-                font-weight: 700;
-            }
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--langit-bg);
+            color: var(--teks-utama);
+            min-height: 100vh;
+            padding: 20px;
+        }
 
-            .timer-container {
-                background: rgba(255, 255, 255, 0.2);
-                padding: 0.5rem 1rem;
-                border-radius: 20px;
-                display: flex;
-                align-items: center;
-                gap: 0.5rem;
-            }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
 
-            .timer {
-                font-size: 1.5rem;
-                font-weight: 700;
-                font-family: "Courier New", monospace;
-            }
+        .back-btn {
+            background: white;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 8px 12px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
 
-            .timer.warning {
-                color: #ff6b6b;
-                animation: blink 1s infinite;
-            }
+        h1 {
+            font-size: 20px;
+            text-align: center;
+            flex-grow: 1;
+        }
 
-            @keyframes blink {
-                0%,
-                100% {
-                    opacity: 1;
-                }
-                50% {
-                    opacity: 0.5;
-                }
-            }
+        .timer-container {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            text-align: center;
+        }
 
-            .exam-content {
-                max-width: 800px;
-                margin: 2rem auto;
-                padding: 0 1rem;
-            }
+        .timer {
+            font-size: 32px;
+            font-weight: bold;
+            color: var(--langit-utama);
+            margin-bottom: 8px;
+        }
 
-            .question-card {
-                background: white;
-                border-radius: 12px;
-                padding: 2rem;
-                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-                margin-bottom: 1.5rem;
-            }
+        .timer-label {
+            font-size: 14px;
+            color: #666;
+        }
 
-            .question-number {
-                color: #667eea;
-                font-size: 0.9rem;
-                margin-bottom: 0.5rem;
-            }
+        .progress-container {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
 
-            .question-text {
-                font-size: 1.1rem;
-                line-height: 1.6;
-                margin-bottom: 1.5rem;
-            }
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #666;
+        }
 
-            .options-container {
-                display: flex;
-                flex-direction: column;
-                gap: 1rem;
-            }
+        .progress-bar {
+            height: 10px;
+            background: var(--langit-abu);
+            border-radius: 5px;
+            overflow: hidden;
+        }
 
-            .option-btn {
-                padding: 1rem;
-                border: 2px solid #e0e0e0;
-                border-radius: 8px;
-                background: white;
-                text-align: left;
-                font-size: 1rem;
-                cursor: pointer;
-                transition: all 0.3s ease;
-            }
+        .progress-fill {
+            height: 100%;
+            background: var(--langit-utama);
+            width: 5%;
+            border-radius: 5px;
+            transition: width 0.5s ease;
+        }
 
-            .option-btn:hover {
-                border-color: #667eea;
-                background: #f8f9ff;
-            }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
+            margin-bottom: 20px;
+        }
 
-            .option-btn.selected {
-                border-color: #667eea;
-                background: #eef0ff;
-            }
+        .question-number {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
 
-            .option-btn.correct {
-                border-color: #4caf50;
-                background: #e8f5e9;
-            }
+        .question-text {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
 
-            .option-btn.incorrect {
-                border-color: #f44336;
-                background: #ffebee;
-            }
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
 
-            .navigation {
-                display: flex;
-                justify-content: space-between;
-                margin-top: 1.5rem;
-            }
+        .option {
+            padding: 16px;
+            border: 2px solid var(--langit-biru-muda);
+            border-radius: 12px;
+            background: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
 
-            .nav-btn {
-                padding: 0.8rem 1.5rem;
-                border: none;
-                border-radius: 8px;
-                font-size: 1rem;
-                cursor: pointer;
-                transition: all 0.3s ease;
-            }
+        .option:hover {
+            border-color: var(--langit-utama);
+            background: #f8fbff;
+        }
 
-            .nav-btn.prev {
-                background: #e0e0e0;
-                color: #333;
-            }
+        .option.selected {
+            border-color: var(--langit-utama);
+            background: var(--langit-biru-muda);
+        }
 
-            .nav-btn.next {
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                color: white;
-            }
+        .option-label {
+            font-weight: bold;
+            color: var(--langit-utama);
+            min-width: 30px;
+        }
 
-            .nav-btn:disabled {
-                opacity: 0.5;
-                cursor: not-allowed;
-            }
+        .btn-primary {
+            background-color: var(--langit-utama);
+            color: #000;
+            font-size: 18px;
+            padding: 16px;
+            border: none;
+            border-radius: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            margin-top: 10px;
+        }
 
-            .submit-btn {
-                background: #ff6b6b;
-                color: white;
-                padding: 1rem 2rem;
-                border: none;
-                border-radius: 8px;
-                font-size: 1.1rem;
-                font-weight: 600;
-                cursor: pointer;
-                display: block;
-                margin: 2rem auto;
-                transition: all 0.3s ease;
-            }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+        }
 
-            .submit-btn:hover {
-                background: #ff5252;
-                transform: translateY(-2px);
-            }
+        .btn-primary:disabled {
+            background-color: var(--langit-abu);
+            cursor: not-allowed;
+        }
 
-            .result-modal {
-                display: none;
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: rgba(0, 0, 0, 0.8);
-                z-index: 1000;
-                justify-content: center;
-                align-items: center;
-            }
+        .warning {
+            background: #fff3e0;
+            border: 2px solid #FFD19A;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <button class="back-btn" onclick="confirmExit()">←</button>
+        <h1>⏱️ Simulasi Ujian</h1>
+        <div style="width: 40px;"></div>
+    </div>
 
-            .result-content {
-                background: white;
-                padding: 2rem;
-                border-radius: 12px;
-                max-width: 500px;
-                width: 90%;
-                text-align: center;
-            }
+    <div class="timer-container">
+        <div class="timer" id="timer">50:00</div>
+        <div class="timer-label">Waktu Tersisa</div>
+    </div>
 
-            .result-score {
-                font-size: 3rem;
-                font-weight: 700;
-                color: #667eea;
-                margin: 1rem 0;
-            }
+    <div class="warning">
+        ⚠️ Simulasi ujian EPS-TOPIK: 40 soal (20 Membaca, 20 Mendengarkan), durasi 50 menit.
+    </div>
 
-            .result-message {
-                font-size: 1.1rem;
-                color: #666;
-                margin-bottom: 1.5rem;
-            }
+    <div class="progress-container">
+        <div class="progress-label">
+            <span>Progress Simulasi</span>
+            <span id="progressText">Soal 1/40</span>
+        </div>
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+    </div>
 
-            .result-actions {
-                display: flex;
-                gap: 1rem;
-                justify-content: center;
-            }
+    <div class="card" id="questionCard">
+        <div class="question-number">Bagian Membaca - Soal 1</div>
+        <div class="question-text" id="questionText">다음 글의 주제로 알맞은 것은?</div>
 
-            .btn-home,
-            .btn-retry {
-                padding: 0.8rem 1.5rem;
-                border: none;
-                border-radius: 8px;
-                font-size: 1rem;
-                cursor: pointer;
-                text-decoration: none;
-                display: inline-block;
-            }
-
-            .btn-home {
-                background: #e0e0e0;
-                color: #333;
-            }
-
-            .btn-retry {
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                color: white;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- Exam Header -->
-        <div class="exam-header">
-            <div class="exam-title">
-                <i class="fas fa-file-alt"></i> Simulasi Ujian EPS-TOPIK
+        <div class="options" id="optionsContainer">
+            <div class="option" onclick="selectOption(this, 'a')">
+                <span class="option-label">A</span>
+                <span>한국어 공부</span>
             </div>
-            <div class="timer-container">
-                <i class="fas fa-clock"></i>
-                <span class="timer" id="timer">30:00</span>
+            <div class="option" onclick="selectOption(this, 'b')">
+                <span class="option-label">B</span>
+                <span>취미 생활</span>
+            </div>
+            <div class="option" onclick="selectOption(this, 'c')">
+                <span class="option-label">C</span>
+                <span>운동 방법</span>
+            </div>
+            <div class="option" onclick="selectOption(this, 'd')">
+                <span class="option-label">D</span>
+                <span>음식 요리</span>
             </div>
         </div>
+    </div>
 
-        <!-- Exam Content -->
-        <main class="exam-content">
-            <div class="question-card" id="questionCard">
-                <div class="question-number" id="questionNumber">
-                    Soal 1 dari 25
-                </div>
-                <div class="question-text" id="questionText">
-                    Loading soal...
-                </div>
-                <div class="options-container" id="optionsContainer"></div>
-                <div class="navigation">
-                    <button class="nav-btn prev" id="prevBtn" disabled>
-                        <i class="fas fa-chevron-left"></i> Sebelumnya
-                    </button>
-                    <button class="nav-btn next" id="nextBtn">
-                        Selanjutnya <i class="fas fa-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
+    <button class="btn-primary" id="nextBtn" onclick="nextQuestion()">
+        Lanjut ke Soal Berikutnya ➡️
+    </button>
 
-            <button class="submit-btn" id="submitBtn">
-                <i class="fas fa-paper-plane"></i> Submit Jawaban
-            </button>
-        </main>
+    <script>
+        let currentQuestion = 0;
+        let selectedOption = null;
+        let timeLeft = 50 * 60; // 50 minutes in seconds
+        let timerInterval;
 
-        <!-- Result Modal -->
-        <div class="result-modal" id="resultModal">
-            <div class="result-content">
-                <h2><i class="fas fa-trophy"></i> Hasil Simulasi</h2>
-                <div class="result-score" id="finalScore">0</div>
-                <p class="result-message" id="resultMessage"></p>
-                <div class="result-actions">
-                    <a href="home.html" class="btn-home">Kembali ke Home</a>
-                    <button class="btn-retry" onclick="location.reload()">
-                        Coba Lagi
-                    </button>
-                </div>
-            </div>
-        </div>
+        // Data soal contoh (40 soal)
+        const totalQuestions = 40;
 
-        <!-- Load Question Bank -->
-        <script src="js/question-bank.js"></script>
-
-        <script>
-            // Exam Configuration
-            const EXAM_DURATION = 50 * 60; // 50 minutes in seconds (Standard EPS-TOPIK)
-            const TOTAL_QUESTIONS = 25;
-
-            // State
-            let currentQuestion = 0;
-            let score = 0;
-            let userAnswers = new Array(TOTAL_QUESTIONS).fill(null);
-            let timeLeft = EXAM_DURATION;
-            let timerInterval;
-            let questions = [];
-
-            // DOM Elements
-            const questionCard = document.getElementById("questionCard");
-            const questionNumber = document.getElementById("questionNumber");
-            const questionText = document.getElementById("questionText");
-            const optionsContainer =
-                document.getElementById("optionsContainer");
-            const prevBtn = document.getElementById("prevBtn");
-            const nextBtn = document.getElementById("nextBtn");
-            const submitBtn = document.getElementById("submitBtn");
-            const timerElement = document.getElementById("timer");
-            const resultModal = document.getElementById("resultModal");
-            const finalScore = document.getElementById("finalScore");
-            const resultMessage = document.getElementById("resultMessage");
-
-            // Initialize
-            function init() {
-                loadQuestions();
-                startTimer();
-                displayQuestion();
-            }
-
-            // Load Questions from Question Bank
-            function loadQuestions() {
-                if (
-                    typeof readingQuestionBank !== "undefined" &&
-                    readingQuestionBank.length > 0
-                ) {
-                    // Shuffle and take 25 reading questions
-                    const readingQuestions = readingQuestionBank
-                        .sort(() => Math.random() - 0.5)
-                        .slice(0, 25);
-
-                    // Load listening questions if available
-                    let listeningQuestions = [];
-                    if (
-                        typeof listeningQuestionBank !== "undefined" &&
-                        listeningQuestionBank.length > 0
-                    ) {
-                        listeningQuestions = listeningQuestionBank
-                            .sort(() => Math.random() - 0.5)
-                            .slice(0, 20);
-                    }
-
-                    // Combine: 25 Reading + 20 Listening = 45 questions
-                    questions = [
-                        ...readingQuestions,
-                        ...listeningQuestions,
-                    ].sort(() => Math.random() - 0.5);
-
-                    console.log(
-                        "Loaded",
-                        questions.length,
-                        "questions (Reading + Listening)",
-                    );
-                } else {
-                    alert(
-                        "Soal tidak ditemukan! Pastikan question-bank.js terload.",
-                    );
-                    window.location.href = "home.html";
-                }
-            }
-
-            // Timer
-            function startTimer() {
+        function startTimer() {
+            timerInterval = setInterval(() => {
+                timeLeft--;
                 updateTimerDisplay();
-                timerInterval = setInterval(() => {
-                    timeLeft--;
-                    updateTimerDisplay();
-
-                    // Warning at last 10 minutes
-                    if (timeLeft <= 600) {
-                        timerElement.classList.add("warning");
-                    }
-
-                    // Critical at last 5 minutes
-                    if (timeLeft <= 300) {
-                        timerElement.style.animation = "blink 0.5s infinite";
-                    }
-
-                    if (timeLeft <= 0) {
-                        clearInterval(timerInterval);
-                        submitExam();
-                    }
-                }, 1000);
-            }
-
-            function updateTimerDisplay() {
-                const minutes = Math.floor(timeLeft / 60);
-                const seconds = timeLeft % 60;
-                timerElement.textContent = `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
-            }
-
-            // Display Question
-            function displayQuestion() {
-                const q = questions[currentQuestion];
-                questionNumber.textContent = `Soal ${currentQuestion + 1} dari ${questions.length}`;
-
-                // Show passage for reading, question for listening
-                if (q.passage) {
-                    questionText.innerHTML = `<strong>Passage:</strong><br>${q.passage}<br><br><strong>Question:</strong> ${q.question}`;
-                } else if (q.questionText) {
-                    questionText.innerHTML = `<strong>Listening:</strong><br>${q.questionText}`;
-                } else {
-                    questionText.textContent = q.question || "Loading...";
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    finishSimulation();
                 }
+            }, 1000);
+        }
 
-                // Clear options
-                optionsContainer.innerHTML = "";
+        function updateTimerDisplay() {
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
+            document.getElementById('timer').textContent =
+                `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 
-                // Add options
-                q.options.forEach((option, index) => {
-                    const btn = document.createElement("button");
-                    btn.className = "option-btn";
-                    if (userAnswers[currentQuestion] === index) {
-                        btn.classList.add("selected");
-                    }
-                    btn.textContent = `${String.fromCharCode(65 + index)}. ${option}`;
-                    btn.onclick = () => selectOption(index);
-                    optionsContainer.appendChild(btn);
-                });
+            // Change color when time is low
+            if (timeLeft < 300) { // Less than 5 minutes
+                document.getElementById('timer').style.color = var('--langit-merah');
+            }
+        }
 
-                // Update navigation
-                prevBtn.disabled = currentQuestion === 0;
-                nextBtn.textContent =
-                    currentQuestion === questions.length - 1
-                        ? "Selesai"
-                        : "Selanjutnya";
+        function selectOption(element, option) {
+            // Remove previous selection
+            document.querySelectorAll('.option').forEach(opt => {
+                opt.classList.remove('selected');
+            });
+            // Add new selection
+            element.classList.add('selected');
+            selectedOption = option;
+        }
+
+        function nextQuestion() {
+            if (selectedOption === null && currentQuestion < totalQuestions - 1) {
+                alert('Silakan pilih jawaban terlebih dahulu!');
+                return;
             }
 
-            // Select Option
-            function selectOption(index) {
-                userAnswers[currentQuestion] = index;
-
-                // Update UI
-                const buttons =
-                    optionsContainer.querySelectorAll(".option-btn");
-                buttons.forEach((btn, i) => {
-                    btn.classList.remove("selected");
-                    if (i === index) {
-                        btn.classList.add("selected");
-                    }
-                });
+            currentQuestion++;
+            if (currentQuestion >= totalQuestions) {
+                finishSimulation();
+                return;
             }
 
-            // Navigation
-            prevBtn.onclick = () => {
-                if (currentQuestion > 0) {
-                    currentQuestion--;
-                    displayQuestion();
-                }
-            };
+            // Update display
+            document.getElementById('questionText').textContent = `Soal ${currentQuestion + 1} dari ${totalQuestions}`;
+            document.getElementById('progressText').textContent = `Soal ${currentQuestion + 1}/${totalQuestions}`;
 
-            nextBtn.onclick = () => {
-                if (currentQuestion < questions.length - 1) {
-                    currentQuestion++;
-                    displayQuestion();
-                } else {
-                    submitExam();
-                }
-            };
+            // Update progress bar
+            const progress = ((currentQuestion + 1) / totalQuestions) * 100;
+            document.getElementById('progressFill').style.width = progress + '%';
 
-            // Submit Exam
-            function submitExam() {
+            // Reset selection
+            selectedOption = null;
+            document.querySelectorAll('.option').forEach(opt => {
+                opt.classList.remove('selected');
+            });
+        }
+
+        function finishSimulation() {
+            clearInterval(timerInterval);
+            // Save results to localStorage (in real app: save to Supabase)
+            localStorage.setItem('simulasi_selesai', 'true');
+            localStorage.setItem('skor_membaca', '15');
+            localStorage.setItem('skor_mendengar', '12');
+            localStorage.setItem('skor_total', '27');
+
+            // Redirect to results page
+            window.location.href = 'hasil-simulasi.html';
+        }
+
+        function confirmExit() {
+            if (confirm('Kamu yakin ingin keluar? Progress simulasi akan hilang.')) {
                 clearInterval(timerInterval);
-
-                // Calculate score
-                score = 0;
-                questions.forEach((q, index) => {
-                    if (
-                        userAnswers[index] === q.correct ||
-                        userAnswers[index] === q.correctAnswer
-                    ) {
-                        score++;
-                    }
-                });
-
-                // Show result
-                finalScore.textContent = `${score}/${questions.length}`;
-
-                let message = "";
-                const percentage = (score / questions.length) * 100;
-                if (percentage >= 90) {
-                    message = "Luar biasa! Anda siap untuk ujian sebenarnya!";
-                } else if (percentage >= 70) {
-                    message =
-                        "Bagus! Teruskan belajar untuk meningkatkan skor Anda.";
-                } else if (percentage >= 50) {
-                    message =
-                        "Tidak buruk! Coba lagi untuk hasil yang lebih baik.";
-                } else {
-                    message =
-                        "Terus belajar! Anda bisa melakukannya lebih baik!";
-                }
-                resultMessage.textContent = message;
-
-                // Save to history
-                const history = JSON.parse(
-                    localStorage.getItem("quizHistory") || "[]",
-                );
-                history.push({
-                    type: "Simulasi Ujian EPS-TOPIK",
-                    score: score,
-                    total: questions.length,
-                    date: new Date().toISOString(),
-                });
-                localStorage.setItem("quizHistory", JSON.stringify(history));
-
-                resultModal.style.display = "flex";
+                window.location.href = 'home.html';
             }
+        }
 
-            submitBtn.onclick = submitExam;
-
-            // Start exam
-            init();
-        </script>
-    </body>
+        // Initialize
+        startTimer();
+        updateTimerDisplay();
+    </script>
+</body>
 </html>

@@ -1,0 +1,132 @@
+{
+  "unit": 53,
+  "title_ko": "산업 안전 및 보건 표지",
+  "title_id": "Tanda Keselamatan",
+  "file": "unit_53_industrial_safety_signs.pdf",
+  "total_halaman": 10,
+  "halaman": {
+    "hal1": {
+      "kategori": "vocab",
+      "chars": 1245,
+      "gambar_count": 0
+    },
+    "hal2": {
+      "kategori": "grammar",
+      "chars": 782,
+      "gambar_count": 0
+    },
+    "hal3": {
+      "kategori": "conversation",
+      "chars": 1346,
+      "gambar_count": 3
+    },
+    "hal4": {
+      "kategori": "vocab",
+      "chars": 1283,
+      "gambar_count": 0
+    },
+    "hal5": {
+      "kategori": "grammar",
+      "chars": 727,
+      "gambar_count": 1
+    },
+    "hal6": {
+      "kategori": "conversation",
+      "chars": 1405,
+      "gambar_count": 2
+    },
+    "hal7": {
+      "kategori": "culture",
+      "chars": 1493,
+      "gambar_count": 0
+    },
+    "hal8": {
+      "kategori": "soal_membaca",
+      "chars": 402,
+      "gambar_count": 0
+    },
+    "hal9": {
+      "kategori": "soal_listening",
+      "chars": 858,
+      "gambar_count": 0
+    }
+  },
+  "soal": [
+    {
+      "id": "u53_m1",
+      "nomor": 1,
+      "tipe": "membaca",
+      "teks_soal": "표면이 뜨거우니까 조심하십시오.",
+      "pilihan_a": "②",
+      "pilihan_b": "③",
+      "pilihan_c": "④",
+      "pilihan_d": "",
+      "jawaban": "d",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u53_m2",
+      "nomor": 2,
+      "tipe": "membaca",
+      "teks_soal": "통행하지 마십시오.",
+      "pilihan_a": "②",
+      "pilihan_b": "③",
+      "pilihan_c": "④",
+      "pilihan_d": "",
+      "jawaban": "a",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u53_m3",
+      "nomor": 3,
+      "tipe": "membaca",
+      "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "pilihan_a": "장갑을 끼면 안 됩니다.",
+      "pilihan_b": "담배를 마시면 안 됩니다.",
+      "pilihan_c": "사진을 켜면 안 됩니다.",
+      "pilihan_d": "물로 불을 뿌리면 안 됩니다.",
+      "jawaban": "a",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u53_m4",
+      "nomor": 4,
+      "tipe": "membaca",
+      "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n우리 회사에는 작업장 밖에도 금연 표지가 붙어 있습니다. 작업장 밖에서도 담배를\n안 됩니다.",
+      "pilihan_a": "바꾸면",
+      "pilihan_b": "옮기면",
+      "pilihan_c": "피우면",
+      "pilihan_d": "만들면",
+      "jawaban": "c",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u53_m5",
+      "nomor": 5,
+      "tipe": "membaca",
+      "teks_soal": "다음은 무엇에 대한 설명입니까?\n위험한 것을 조심할 수 있도록 미리 주의를 주기 위하여 만든 표지입니다.",
+      "pilihan_a": "안내 표지",
+      "pilihan_b": "경고 표지",
+      "pilihan_c": "지시 표지",
+      "pilihan_d": "금지 표지",
+      "jawaban": "b",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    }
+  ],
+  "gambar_soal": {}
+}

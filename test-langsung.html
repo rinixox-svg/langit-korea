@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Test Langsung - Langit Korea</title>
+
+        <!-- Supabase SDK -->
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+        <!-- Supabase Config -->
+        <script src="js/supabase-config.js"></script>
+
+        <!-- Database Operations -->
+        <script src="js/langit-korea-db.js"></script>
+
+        <style>
+            body {
+                font-family: sans-serif;
+                padding: 20px;
+                background: #f0f0f0;
+            }
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                background: white;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            .soal-item {
+                border: 1px solid #ddd;
+                padding: 15px;
+                margin-bottom: 15px;
+                border-radius: 8px;
+            }
+            .soal-teks {
+                font-size: 1.2rem;
+                font-family: "Noto Sans KR", sans-serif;
+                margin-bottom: 10px;
+            }
+            .pilihan {
+                margin: 5px 0;
+                padding: 8px;
+                background: #f9f9f9;
+                border-radius: 5px;
+            }
+            .error {
+                color: red;
+            }
+            .success {
+                color: green;
+            }
+            button {
+                padding: 10px 20px;
+                margin: 5px;
+                cursor: pointer;
+            }
+            pre {
+                background: #f5f5f5;
+                padding: 10px;
+                border-radius: 5px;
+                overflow-x: auto;
+                font-size: 0.8rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Test Langsung ke Supabase</h1>
+
+            <div>
+                <button onclick="testKoneksi()">1. Test Koneksi</button>
+                <button onclick="ambilSoalLangsung()">
+                    2. Ambil Soal Unit 31
+                </button>
+                <button onclick="cekSample()">3. Cek Sample Data</button>
+            </div>
+
+            <div id="status"></div>
+            <div id="hasil"></div>
+        </div>
+
+        <script>
+            async function testKoneksi() {
+                const statusEl = document.getElementById("status");
+                statusEl.innerHTML = "Testing koneksi...";
+
+                try {
+                    if (!window.db) {
+                        statusEl.innerHTML =
+                            '<p class="error">❌ Supabase client belum siap! Cek supabase-config.js</p>';
+                        return;
+                    }
+
+                    const { data, error } = await db
+                        .from("soal_eps")
+                        .select("count")
+                        .limit(1);
+
+                    if (error) {
+                        statusEl.innerHTML = `<p class="error">❌ Error: ${error.message}</p>`;
+                    } else {
+                        statusEl.innerHTML =
+                            '<p class="success">✅ Koneksi berhasil!</p>';
+                    }
+                } catch (err) {
+                    statusEl.innerHTML = `<p class="error">❌ Exception: ${err.message}</p>`;
+                }
+            }
+
+            async function ambilSoalLangsung() {
+                const hasilEl = document.getElementById("hasil");
+                hasilEl.innerHTML = "Mengambil soal Unit 31...";
+
+                try {
+                    if (!window.LangitDB) {
+                        hasilEl.innerHTML =
+                            '<p class="error">❌ LangitDB belum siap!</p>';
+                        return;
+                    }
+
+                    const soalList = await LangitDB.ambilSoalEPS(
+                        31,
+                        "membaca",
+                        5,
+                    );
+
+                    if (!soalList || soalList.length === 0) {
+                        hasilEl.innerHTML =
+                            '<p class="error">❌ Tidak ada soal ditemukan!</p>';
+                        return;
+                    }
+
+                    let html = `<h3>✅ Berhasil ambil ${soalList.length} soal:</h3>`;
+                    soalList.forEach((soal, index) => {
+                        html += `
+                        <div class="soal-item">
+                            <h4>Soal ${index + 1}</h4>
+                            <div class="soal-teks">${soal.teks_soal}</div>
+                            <div><strong>A.</strong> ${soal.pilihan_a || '<span style="color:red">KOSONG!</span>'}</div>
+                            <div><strong>B.</strong> ${soal.pilihan_b || '<span style="color:red">KOSONG!</span>'}</div>
+                            <div><strong>C.</strong> ${soal.pilihan_c || '<span style="color:red">KOSONG!</span>'}</div>
+                            <div><strong>D.</strong> ${soal.pilihan_d || '<span style="color:red">KOSONG!</span>'}</div>
+                            <div>Jawaban: <strong>${soal.jawaban}</strong> | Akses: ${soal.akses || "KOSONG"}</div>
+                            <details>
+                                <summary>Debug Info</summary>
+                                <pre>${JSON.stringify(soal, null, 2)}</pre>
+                            </details>
+                        </div>
+                    `;
+                    });
+
+                    hasilEl.innerHTML = html;
+                } catch (err) {
+                    hasilEl.innerHTML = `<p class="error">❌ Error: ${err.message}</p>`;
+                }
+            }
+
+            async function cekSample() {
+                const hasilEl = document.getElementById("hasil");
+                hasilEl.innerHTML = "Mengecek sample data...";
+
+                try {
+                    if (!window.db) return;
+
+                    const { data, error } = await db
+                        .from("soal_eps")
+                        .select("*")
+                        .limit(1);
+
+                    if (error) {
+                        hasilEl.innerHTML = `<p class="error">❌ Error: ${error.message}</p>`;
+                        return;
+                    }
+
+                    if (!data || data.length === 0) {
+                        hasilEl.innerHTML =
+                            '<p class="error">❌ Tabel kosong!</p>';
+                        return;
+                    }
+
+                    let html = "<h3>✅ Sample Data:</h3>";
+                    html +=
+                        "<pre>" + JSON.stringify(data[0], null, 2) + "</pre>";
+
+                    // Cek field akses
+                    if (data[0].akses === undefined) {
+                        html +=
+                            '<p class="error">❌ Field "akses" TIDAK ADA di tabel!</p>';
+                    } else {
+                        html += `<p class="success">✅ Field "akses" ADA, isinya: "${data[0].akses}"</p>`;
+                    }
+
+                    hasilEl.innerHTML = html;
+                } catch (err) {
+                    hasilEl.innerHTML = `<p class="error">❌ Error: ${err.message}</p>`;
+                }
+            }
+        </script>
+    </body>
+</html>

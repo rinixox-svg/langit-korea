@@ -1,0 +1,126 @@
+{
+  "unit": "ans",
+  "title_ko": "정답",
+  "title_id": "Kunci Jawaban",
+  "file": "appendix-answers.pdf",
+  "total_halaman": 23,
+  "halaman": {
+    "hal1": {
+      "kategori": "vocab",
+      "chars": 110,
+      "gambar_count": 0
+    },
+    "hal2": {
+      "kategori": "grammar",
+      "chars": 787,
+      "gambar_count": 4
+    },
+    "hal3": {
+      "kategori": "conversation",
+      "chars": 1109,
+      "gambar_count": 0
+    },
+    "hal4": {
+      "kategori": "vocab",
+      "chars": 1198,
+      "gambar_count": 5
+    },
+    "hal5": {
+      "kategori": "grammar",
+      "chars": 880,
+      "gambar_count": 5
+    },
+    "hal6": {
+      "kategori": "conversation",
+      "chars": 1150,
+      "gambar_count": 4
+    },
+    "hal7": {
+      "kategori": "culture",
+      "chars": 1090,
+      "gambar_count": 0
+    },
+    "hal8": {
+      "kategori": "soal_membaca",
+      "chars": 1430,
+      "gambar_count": 0
+    },
+    "hal9": {
+      "kategori": "soal_listening",
+      "chars": 1287,
+      "gambar_count": 0
+    },
+    "hal10": {
+      "kategori": "lainnya",
+      "chars": 1089,
+      "gambar_count": 0
+    },
+    "hal11": {
+      "kategori": "lainnya",
+      "chars": 1277,
+      "gambar_count": 0
+    },
+    "hal12": {
+      "kategori": "lainnya",
+      "chars": 1110,
+      "gambar_count": 0
+    },
+    "hal13": {
+      "kategori": "lainnya",
+      "chars": 637,
+      "gambar_count": 0
+    },
+    "hal14": {
+      "kategori": "lainnya",
+      "chars": 489,
+      "gambar_count": 0
+    },
+    "hal15": {
+      "kategori": "lainnya",
+      "chars": 548,
+      "gambar_count": 0
+    },
+    "hal16": {
+      "kategori": "lainnya",
+      "chars": 556,
+      "gambar_count": 0
+    },
+    "hal17": {
+      "kategori": "lainnya",
+      "chars": 503,
+      "gambar_count": 0
+    },
+    "hal18": {
+      "kategori": "lainnya",
+      "chars": 1833,
+      "gambar_count": 0
+    },
+    "hal19": {
+      "kategori": "lainnya",
+      "chars": 1890,
+      "gambar_count": 0
+    },
+    "hal20": {
+      "kategori": "lainnya",
+      "chars": 1765,
+      "gambar_count": 0
+    },
+    "hal21": {
+      "kategori": "lainnya",
+      "chars": 1948,
+      "gambar_count": 0
+    },
+    "hal22": {
+      "kategori": "lainnya",
+      "chars": 1734,
+      "gambar_count": 0
+    },
+    "hal23": {
+      "kategori": "lainnya",
+      "chars": 1774,
+      "gambar_count": 0
+    }
+  },
+  "soal": [],
+  "gambar_soal": {}
+}

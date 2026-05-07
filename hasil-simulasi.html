@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langit Korea - Hasil Simulasi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --langit-utama: #A0D2FF;
+            --langit-aksen: #FFD19A;
+            --langit-bg: #F0F4F8;
+            --langit-hijau: #4CAF82;
+            --langit-merah: #E05C5C;
+            --langit-abu: #D0D0D0;
+            --langit-biru-muda: #D1E8FF;
+            --teks-utama: #1E2A3A;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--langit-bg);
+            color: var(--teks-utama);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: var(--teks-utama);
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .score-card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .score-total {
+            font-size: 48px;
+            font-weight: bold;
+            color: var(--langit-utama);
+            margin-bottom: 8px;
+        }
+
+        .score-label {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .score-breakdown {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 20px;
+            border-top: 2px solid #f0f0f0;
+        }
+
+        .score-item {
+            text-align: center;
+        }
+
+        .score-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--langit-utama);
+        }
+
+        .score-item-label {
+            font-size: 12px;
+            color: #666;
+            margin-top: 4px;
+        }
+
+        .status-card {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .status-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+
+        .status-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .status-item:last-child {
+            border-bottom: none;
+        }
+
+        .status-label {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .status-value {
+            font-weight: 600;
+        }
+
+        .recommendation {
+            background: #fff3e0;
+            border: 2px solid var(--langit-aksen);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+
+        .recommendation-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #e65100;
+        }
+
+        .recommendation-text {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .btn-primary {
+            background-color: var(--langit-utama);
+            color: #000;
+            font-size: 18px;
+            padding: 16px;
+            border: none;
+            border-radius: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            margin-bottom: 12px;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background-color: white;
+            color: var(--teks-utama);
+            font-size: 16px;
+            padding: 14px;
+            border: 2px solid var(--langit-abu);
+            border-radius: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--langit-utama);
+            background: #f8fbff;
+        }
+
+        .lulus {
+            color: var(--langit-hijau);
+        }
+
+        .tidak-lulus {
+            color: var(--langit-merah);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎉 Hasil Simulasi</h1>
+        <p class="subtitle">Berikut adalah hasil ujian simulasi kamu</p>
+    </div>
+
+    <div class="score-card">
+        <div class="score-total" id="skorTotal">27</div>
+        <div class="score-label">Skor Total (dari 40)</div>
+        <div class="score-breakdown">
+            <div class="score-item">
+                <div class="score-number" id="skorMembaca">15</div>
+                <div class="score-item-label">Membaca</div>
+            </div>
+            <div class="score-item">
+                <div class="score-number" id="skorMendengar">12</div>
+                <div class="score-item-label">Mendengarkan</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="status-card">
+        <div class="status-title">Status Kelulusan</div>
+        <div class="status-item">
+            <span class="status-label">Skor Minimum</span>
+            <span class="status-value">28 (70%)</span>
+        </div>
+        <div class="status-item">
+            <span class="status-label">Status</span>
+            <span class="status-value tidak-lulus" id="statusLulus">Belum Lulus</span>
+        </div>
+        <div class="status-item">
+            <span class="status-label">Durasi</span>
+            <span class="status-value">45 menit</span>
+        </div>
+    </div>
+
+    <div class="recommendation">
+        <div class="recommendation-title">💡 Rekomendasi</div>
+        <div class="recommendation-text" id="rekomendasi">
+            Skor kamu masih di bawah ambang batas. Fokus perbanyak latihan bagian Mendengarkan (Listening) karena skor kamu lebih rendah di sana. Coba pelajari ulang Bab 1-18 untuk memperkuat dasar.
+        </div>
+    </div>
+
+    <button class="btn-primary" onclick="window.location.href='latihan-eps.html'">
+        🔄 Ulangi Simulasi
+    </button>
+    <button class="btn-secondary" onclick="window.location.href='home.html'">
+        ← Kembali ke Home
+    </button>
+
+    <script>
+        // Ambil data dari localStorage (di aplikasi nyata: dari URL params atau Supabase)
+        const skorTotal = localStorage.getItem('skor_total') || 27;
+        const skorMembaca = localStorage.getItem('skor_membaca') || 15;
+        const skorMendengar = localStorage.getItem('skor_mendengar') || 12;
+
+        // Update tampilan
+        document.getElementById('skorTotal').textContent = skorTotal;
+        document.getElementById('skorMembaca').textContent = skorMembaca;
+        document.getElementById('skorMendengar').textContent = skorMendengar;
+
+        // Cek kelulusan (minimal 28 dari 40)
+        const lulus = parseInt(skorTotal) >= 28;
+        const statusEl = document.getElementById('statusLulus');
+        if (lulus) {
+            statusEl.textContent = 'Lulus ✅';
+            statusEl.className = 'status-value lulus';
+            document.getElementById('rekomendasi').textContent =
+                'Selamat! Kamu lulus simulasi dengan skor ' + skorTotal + '. Pertahankan prestasi ini dan terus berlatih untuk hasil maksimal!';
+        }
+    </script>
+</body>
+</html>

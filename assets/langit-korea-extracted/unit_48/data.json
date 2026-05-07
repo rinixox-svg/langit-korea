@@ -1,0 +1,132 @@
+{
+  "unit": 48,
+  "title_ko": "선체 건조",
+  "title_id": "Konstruksi Lambung Kapal",
+  "file": "unit_48_ship_hull_construction.pdf",
+  "total_halaman": 10,
+  "halaman": {
+    "hal1": {
+      "kategori": "vocab",
+      "chars": 809,
+      "gambar_count": 10
+    },
+    "hal2": {
+      "kategori": "grammar",
+      "chars": 912,
+      "gambar_count": 0
+    },
+    "hal3": {
+      "kategori": "conversation",
+      "chars": 1440,
+      "gambar_count": 3
+    },
+    "hal4": {
+      "kategori": "vocab",
+      "chars": 664,
+      "gambar_count": 4
+    },
+    "hal5": {
+      "kategori": "grammar",
+      "chars": 1074,
+      "gambar_count": 0
+    },
+    "hal6": {
+      "kategori": "conversation",
+      "chars": 1430,
+      "gambar_count": 3
+    },
+    "hal7": {
+      "kategori": "culture",
+      "chars": 2267,
+      "gambar_count": 2
+    },
+    "hal8": {
+      "kategori": "soal_membaca",
+      "chars": 720,
+      "gambar_count": 0
+    },
+    "hal9": {
+      "kategori": "soal_listening",
+      "chars": 779,
+      "gambar_count": 4
+    }
+  },
+  "soal": [
+    {
+      "id": "u48_m1",
+      "nomor": 1,
+      "tipe": "membaca",
+      "teks_soal": "다음 단어와 관계있는 것은 무엇입니까?\n도료 호스",
+      "pilihan_a": "재료",
+      "pilihan_b": "원료",
+      "pilihan_c": "기계",
+      "pilihan_d": "도구",
+      "jawaban": "a",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u48_m2",
+      "nomor": 2,
+      "tipe": "membaca",
+      "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "pilihan_a": "표면의 물기를 주웠어요.",
+      "pilihan_b": "선체 표면의 녹을 제거했어요.",
+      "pilihan_c": "선체 내부의 온도를 처리했어요.",
+      "pilihan_d": "오늘 사용할 도료를 조립했어요.",
+      "jawaban": "c",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u48_m3",
+      "nomor": 3,
+      "tipe": "membaca",
+      "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n도장 작업을 할 때는 작업장을 환기시켜야 합니다. 그래서 도장 작업을 하기 전에 을/를\n열어야 합니다.",
+      "pilihan_a": "창문",
+      "pilihan_b": "줄자",
+      "pilihan_c": "송풍기",
+      "pilihan_d": "사다리",
+      "jawaban": "a",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u48_m4",
+      "nomor": 4,
+      "tipe": "membaca",
+      "teks_soal": "다음은 무엇에 대한 설명입니까?\n에어리스 스프레이 건으로 페인트를 분사한 후 붓으로 페인트칠을 마무리합니다.",
+      "pilihan_a": "포장 작업",
+      "pilihan_b": "도장 작업",
+      "pilihan_c": "연마 작업",
+      "pilihan_d": "재단 작업",
+      "jawaban": "a",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u48_m5",
+      "nomor": 5,
+      "tipe": "membaca",
+      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국은 세계적으로 경쟁력 있는 조선업 국가로, 대형 선박 및 특수 선박 건조에서 높은 기술력을\n갖추고 있습니다. 특히 가스운반선, 유조선, 컨테이너선 분야에서 강점을 보입니다. 최근 경기 침체로\n어려움을 겪고 있지만, 기술 혁신과 구조 개선을 통해 경쟁력을 강화하고 있습니다.",
+      "pilihan_a": "한국의 조선업체들은 주로 소형 선박을 만듭니다.",
+      "pilihan_b": "한국의 조선업은 유조선 분야에서는 기술력이 약합니다.",
+      "pilihan_c": "한국의 조선업은 경기 침체에도 불구하고 큰 어려움 없이 성장하고 있습니다.",
+      "pilihan_d": "한국은 세계적으로 특수 선박 건조 분야에서 높은 기술력을 보유하고 있습니다.",
+      "jawaban": "d",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    }
+  ],
+  "gambar_soal": {}
+}

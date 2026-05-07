@@ -1,0 +1,28 @@
+어휘 VOCABULARY 경고 표지 W arning Signs
+※ 산업표준심의회의 KS S ISO 7010:2019를 따라 제시하였습니다.
+일반 경고표지 경고: 방사능 물질 또는 이온화 방사선
+general warning sign warning: radioactive materials or ionizing radiation
+위험한 곳이니까 조심하세요. 방사능이 나오는 물질이 있으니까 조심하세요.
+Be careful as this place is dangerous. Be careful as there is radioactive material.
+경고: 바닥면 장애물 경고: 추락
+warning: obstacle on floor warning: fall
+바닥에 장애물이 있으니까 조심하세요. 떨어지면 허리나 머리를 다칠 수 있으니까 조심하세요.
+Be careful as there are obstacles on the floor. Be careful as you may hurt your back or head if you fall.
+경고: 전기 경고: 미끄러운 표면
+warning: electricity warning: slippery surface
+감전될 수 있으니까 조심하세요. 바닥이 미끄러우니까 조심하세요.
+Be careful as you can get electrocuted. Be careful as the floor is slippery.
+경고: 생물학적 위해 경고: 지게차와 산업용 운반기계
+warning: biological hazard warning: forklift trucks and other industrial vehicles
+지게차와 산업용 운반기계가
+생물에 있는 세균이나 바이러스가
+다니는 곳이니까 조심하세요.
+유출될 수 있으니까 조심하세요.
+Be careful as there are forklifts and industrial equipment
+Be careful as live bacteria or viruses may leak out.
+moving around.
+경고: 독성 물질 경고: 뜨거운 표면
+warning: toxic substances warning: hot surface
+독성이 있는 물질이니까 조심하세요. 표면이 뜨거우니까 조심하세요.
+Be careful as there are toxic substances. Be careful as the surface is hot.
+53 산업 안전 및 보건 표지 INDUSTRIAL SAFETY AND HEALTH SIGNS 237

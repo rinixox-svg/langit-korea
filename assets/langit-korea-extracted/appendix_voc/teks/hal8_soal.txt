@@ -1,0 +1,45 @@
+선수부 bow section 187 송기 마스크 air supply mask 257
+선원실 crew’s quarters 187 송부 forwarding 280
+선체 hull 187 쇠톱 hacksaw 97
+선탄장 coal washery 197 수갱 drainage shaft 197
+설명(하다) explanation, to explain 270 수건 towel 217
+설치(하다) assembly, to assemble 140 수고(하다) putting in effort, to put in effort 70
+섭취(하다) intake, to eat 247 수당 extra pay, allowance 287
+성 인지 감수성 gender sensitivity 50 수량 quantity 70
+성범죄 sex crime 50 수령(하다) receival, to receive 297
+성별 gender 50 수로 waterway 147
+성실하다 to be diligent 20 수리(하다) repair, to repair 250
+성적 sexual 47 수선(하다) mending, to mend 177
+성차별적 sexist 47 수수료 processing fees 297
+성추행 sexual assault 50 수습 probationary 287
+성토(하다) piling up soil, to pile the soil 150 수조 tank 180
+성형 molding 110 수준기 level instrument 90
+성희롱 sexual harassment 47 수직 vertical 190
+세균 bacteria 230 수질 water quality 180
+세금 tax 290 수치심 shame 47
+세다 to be strong 100 수칙 regulations 247
+세로 vertical length 107 수평 horizontal 190
+세우다 to set up 190 수평갱 horizontal shaft 197
+세척(하다) washing, to wash 120 수확(하다) harvest, to harvest 160
+세탁실 laundry room 27 숙식 room and board 287
+센티미터 centimeters 127 순서 order 207
+소 cow 167 스낵 snacks 220
+소득세 income tax 290 스위치 switch 77
+소리를 지르다 to yell 40 스크레이퍼 scraper 200
+소모품 consumable 217 스패너 wrench 87
+소방 장비 fire safety equipment 267 스프레이 spray 130
+소방서 fire department (119) 270 습도 humidity 117
+소분(하다) small pack, to divide up 227 습하다 to be humid 117
+소비 기한 expiration date 227 승강기 lift 240
+소스 sauce 227 승객용 for people 240
+소식 news 300 시공 construction 150
+소음 noisy 57 시들다 to wilt 227
+소형 small 207 시멘트 cement 137
+소화기 fire extinguisher 100 시설 facilities 197
+소화전 fire hydrant 267 시트 bed sheet 217
+속도 speed 100 식권 meal ticket 30
+손상되다 to get damaged 67 식단표 menu board 30
+손자국이 남다 to have handprints 160 식대 meal expense 290
+손전등 flashlight 137 식수대 water station 30
+손질하다 to trim 230 식자재 food ingredients 227
+346 한국어 표준교재 2

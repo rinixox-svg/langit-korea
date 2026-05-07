@@ -1,0 +1,36 @@
+{
+  "unit": "scr",
+  "title_ko": "듣기 지문",
+  "title_id": "Skrip Audio",
+  "file": "appendix-scripts.pdf",
+  "total_halaman": 5,
+  "halaman": {
+    "hal1": {
+      "kategori": "vocab",
+      "chars": 1890,
+      "gambar_count": 0
+    },
+    "hal2": {
+      "kategori": "grammar",
+      "chars": 1765,
+      "gambar_count": 0
+    },
+    "hal3": {
+      "kategori": "conversation",
+      "chars": 1948,
+      "gambar_count": 0
+    },
+    "hal4": {
+      "kategori": "vocab",
+      "chars": 1734,
+      "gambar_count": 0
+    },
+    "hal5": {
+      "kategori": "grammar",
+      "chars": 1774,
+      "gambar_count": 0
+    }
+  },
+  "soal": [],
+  "gambar_soal": {}
+}

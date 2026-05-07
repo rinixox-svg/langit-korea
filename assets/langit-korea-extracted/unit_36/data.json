@@ -1,0 +1,136 @@
+{
+  "unit": 36,
+  "title_ko": "출하 관리",
+  "title_id": "Manajemen Pengiriman",
+  "file": "unit_36_shipment_management.pdf",
+  "total_halaman": 10,
+  "halaman": {
+    "hal1": {
+      "kategori": "vocab",
+      "chars": 739,
+      "gambar_count": 17
+    },
+    "hal2": {
+      "kategori": "grammar",
+      "chars": 1092,
+      "gambar_count": 0
+    },
+    "hal3": {
+      "kategori": "conversation",
+      "chars": 1532,
+      "gambar_count": 3
+    },
+    "hal4": {
+      "kategori": "vocab",
+      "chars": 661,
+      "gambar_count": 14
+    },
+    "hal5": {
+      "kategori": "grammar",
+      "chars": 1292,
+      "gambar_count": 5
+    },
+    "hal6": {
+      "kategori": "conversation",
+      "chars": 1385,
+      "gambar_count": 3
+    },
+    "hal7": {
+      "kategori": "culture",
+      "chars": 2130,
+      "gambar_count": 1
+    },
+    "hal8": {
+      "kategori": "soal_membaca",
+      "chars": 723,
+      "gambar_count": 3
+    },
+    "hal9": {
+      "kategori": "soal_listening",
+      "chars": 726,
+      "gambar_count": 4
+    }
+  },
+  "soal": [
+    {
+      "id": "u36_m1",
+      "nomor": 1,
+      "tipe": "membaca",
+      "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n지게차입니다.",
+      "pilihan_a": "②",
+      "pilihan_b": "③",
+      "pilihan_c": "④",
+      "pilihan_d": "",
+      "jawaban": "d",
+      "audio_teks": "",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/hal8_soal/soal_r1_a.jpeg",
+        "b": "images/hal8_soal/soal_r1_b.jpeg",
+        "c": "images/hal8_soal/soal_r1_c.jpeg"
+      },
+      "akses": "free"
+    },
+    {
+      "id": "u36_m2",
+      "nomor": 2,
+      "tipe": "membaca",
+      "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "pilihan_a": "냉장 창고의 온도를 덮어요.",
+      "pilihan_b": "포장한 상자에 라벨을 붙여요.",
+      "pilihan_c": "드릴을 사용해서 구멍을 박아요.",
+      "pilihan_d": "날씨가 좋으면 콘크리트를 조립해요.",
+      "jawaban": "b",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u36_m3",
+      "nomor": 3,
+      "tipe": "membaca",
+      "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n제품 포장이 끝나면 크기별로 를 합니다. 큰 것은 큰 것끼리, 작은 것은 작은 것끼리 나눠서\n쌓습니다.",
+      "pilihan_a": "검수",
+      "pilihan_b": "연마",
+      "pilihan_c": "분류",
+      "pilihan_d": "중지",
+      "jawaban": "c",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u36_m4",
+      "nomor": 4,
+      "tipe": "membaca",
+      "teks_soal": "다음은 무엇에 대한 설명입니까?\n제품이 운송 중에 손상되지 않도록 보호하는 데 사용하는 재료입니다.",
+      "pilihan_a": "바이스",
+      "pilihan_b": "첨가제",
+      "pilihan_c": "파렛트",
+      "pilihan_d": "완충재",
+      "jawaban": "d",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u36_m5",
+      "nomor": 5,
+      "tipe": "membaca",
+      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국은 천연자원이 부족하고 내수 시장이 작아 정부에서 지속적으로 수출 주도 정책을 펴 왔습니다.\n주요 수출 품목은 반도체, 스마트폰 등이고 원유, 천연가스 등을 주로 수입합니다. 한국의 무역 상대국\n1위는 중국이며, 미국, 일본 등이 그 뒤를 잇고 있습니다. 한국은 다양한 국가와 자유무역협정을 체결하여\n무역의 장벽을 줄이고, 새로운 시장으로 진출하고자 노력하고 있습니다.",
+      "pilihan_a": "한국은 주로 원유, 천연가스 등을 수출합니다.",
+      "pilihan_b": "한국은 미국과 무역 거래를 가장 많이 합니다.",
+      "pilihan_c": "한국은 무역 시장을 넓히기 위해 노력하고 있습니다.",
+      "pilihan_d": "한국은 자유무역협정으로 인해 무역에 어려움이 있습니다.",
+      "jawaban": "c",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    }
+  ],
+  "gambar_soal": {}
+}

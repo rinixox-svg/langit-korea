@@ -1,208 +1,479 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
-    <head>
-        <meta charset="UTF-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-        />
-        <title>Selamat Datang - Langit Korea</title>
-        <style>
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onboarding - Langit Korea</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --langit-utama: #A0D2FF;
+            --langit-aksen: #FFD19A;
+            --langit-bg: #F0F4F8;
+            --langit-hijau: #4CAF82;
+            --langit-merah: #E05C5C;
+            --langit-abu: #D0D0D0;
+            --langit-biru-muda: #D1E8FF;
+            --teks-utama: #1E2A3A;
+        }
 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--langit-bg);
+            color: var(--teks-utama);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .korean-text {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--langit-utama);
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .progress-container {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .progress-bar {
+            height: 10px;
+            background: var(--langit-abu);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--langit-utama);
+            width: 33%;
+            border-radius: 5px;
+            transition: width 0.5s ease;
+        }
+
+        .step-content {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
+            margin-bottom: 20px;
+            text-align: center;
+            display: none;
+        }
+
+        .step-content.active {
+            display: block;
+        }
+
+        .step-content h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--teks-utama);
+            margin-bottom: 12px;
+        }
+
+        .step-content p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .options-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+        .option-card {
+            background: var(--langit-bg);
+            border: 2px solid var(--langit-biru-muda);
+            border-radius: 12px;
+            padding: 16px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: left;
+        }
+
+        .option-card:hover {
+            border-color: var(--langit-utama);
+            background: #f8fbff;
+            transform: translateY(-2px);
+        }
+
+        .option-card.selected {
+            border-color: var(--langit-utama);
+            background: var(--langit-biru-muda);
+        }
+
+        .option-card h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--teks-utama);
+            margin-bottom: 4px;
+        }
+
+        .option-card p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+
+        .level-indicator {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .level-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--langit-abu);
+            transition: all 0.3s;
+        }
+
+        .level-dot.active {
+            background: var(--langit-utama);
+            transform: scale(1.2);
+        }
+
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            padding: 16px;
+            border: none;
+            border-radius: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            transition: transform 0.2s;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .btn-primary {
+            background-color: var(--langit-utama);
+            color: #000;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn-primary:disabled {
+            background-color: var(--langit-abu);
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-secondary {
+            background-color: white;
+            color: var(--teks-utama);
+            border: 2px solid var(--langit-abu);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--langit-utama);
+            background: #f8fbff;
+        }
+
+        @media (max-width: 480px) {
             body {
-                font-family: Arial, sans-serif;
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                min-height: 100vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                padding: 1.5rem 1rem;
-                color: white;
+                padding: 16px;
             }
 
-            .container {
-                width: 100%;
-                max-width: 400px;
-                text-align: center;
+            .step-content {
+                padding: 20px 16px;
             }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🌌 Langit Korea</div>
+            <p>Mari kenali kamu dulu sebelum mulai belajar</p>
+        </div>
 
-            .logo {
-                font-size: 2.5rem;
-                font-weight: 700;
-                margin-bottom: 0.5rem;
-            }
-
-            .tagline {
-                font-size: 1rem;
-                opacity: 0.9;
-                margin-bottom: 2rem;
-            }
-
-            .features {
-                background: rgba(255, 255, 255, 0.95);
-                border-radius: 16px;
-                padding: 1.5rem;
-                margin-bottom: 2rem;
-                color: #333;
-                text-align: left;
-                box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-            }
-
-            .features h3 {
-                color: #667eea;
-                margin-bottom: 1rem;
-                text-align: center;
-                font-size: 1.1rem;
-            }
-
-            .feature-item {
-                display: flex;
-                align-items: center;
-                gap: 0.8rem;
-                margin-bottom: 1rem;
-                font-size: 0.9rem;
-            }
-
-            .feature-item:last-child {
-                margin-bottom: 0;
-            }
-
-            .feature-icon {
-                width: 40px;
-                height: 40px;
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                border-radius: 50%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: white;
-                font-size: 1.2rem;
-                flex-shrink: 0;
-            }
-
-            .buttons {
-                width: 100%;
-            }
-
-            .btn {
-                display: block;
-                width: 100%;
-                padding: 1rem;
-                border: none;
-                border-radius: 12px;
-                font-size: 1rem;
-                font-weight: 600;
-                cursor: pointer;
-                text-decoration: none;
-                transition: all 0.3s ease;
-                margin-bottom: 1rem;
-            }
-
-            .btn-primary {
-                background: white;
-                color: #667eea;
-            }
-
-            .btn-primary:hover {
-                transform: translateY(-2px);
-                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-            }
-
-            .btn-secondary {
-                background: rgba(255, 255, 255, 0.2);
-                color: white;
-                border: 2px solid rgba(255, 255, 255, 0.3);
-            }
-
-            .btn-secondary:hover {
-                background: rgba(255, 255, 255, 0.3);
-            }
-
-            .footer {
-                margin-top: 1rem;
-                font-size: 0.8rem;
-                opacity: 0.8;
-            }
-
-            .footer a {
-                color: white;
-                text-decoration: none;
-            }
-
-            @media (min-width: 768px) {
-                .logo {
-                    font-size: 3rem;
-                }
-
-                .tagline {
-                    font-size: 1.2rem;
-                }
-
-                .features {
-                    padding: 2rem;
-                }
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="logo">Langit Korea</div>
-            <div class="tagline">EPS-TOPIK Learning Platform</div>
-
-            <div class="features">
-                <h3><i class="fas fa-star"></i> Fitur Unggulan</h3>
-                <div class="feature-item">
-                    <div class="feature-icon">📖</div>
-                    <div>Reading Practice (5 soal)</div>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">🎧</div>
-                    <div>Listening Practice (3 soal)</div>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">⏱</div>
-                    <div>Simulasi Ujian 50 Menit (45 soal)</div>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">📚</div>
-                    <div>Vocabulary Builder (20 kata)</div>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">🔤</div>
-                    <div>Hangul Learning Path (24 pelajaran)</div>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">👤</div>
-                    <div>User Profile & Statistics</div>
-                </div>
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-label">
+                <span>Step <span id="currentStep">1</span>/3</span>
+                <span id="stepLabel">Tujuan</span>
             </div>
-
-            <div class="buttons">
-                <a href="login.html" class="btn btn-primary">
-                    <i class="fas fa-sign-in-alt"></i> Mulai Belajar Sekarang
-                </a>
-                <a href="modul.html" class="btn btn-secondary">
-                    <i class="fas fa-book"></i> Modul Pembelajaran
-                </a>
-            </div>
-
-            <div class="footer">
-                <a
-                    href="https://github.com/rinixox-svg/langit-korea"
-                    target="_blank"
-                >
-                    <i class="fab fa-github"></i> View on GitHub
-                </a>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
             </div>
         </div>
 
-        <!-- Font Awesome -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
-    </body>
+        <!-- Step 1: Welcome -->
+        <div class="step-content active" id="step1">
+            <h2>Selamat Datang di Langit Korea! 👋</h2>
+            <p>Kami akan membantumu belajar bahasa Korea secara mandiri untuk ujian EPS-TOPIK. Tapi sebelum itu, ceritakan sedikit tentang dirimu ya!</p>
+
+            <div class="options-grid">
+                <div class="option-card" onclick="selectOption('tujuan', this)">
+                    <h3>🎯 Tujuan Belajar</h3>
+                    <p>Mengapa kamu ingin belajar bahasa Korea?</p>
+                </div>
+                <div class="option-card" onclick="selectOption('pengalaman', this)">
+                    <h3>📚 Pengalaman Belajar</h3>
+                    <p>Pernah belajar bahasa Korea sebelumnya?</p>
+                </div>
+                <div class="option-card" onclick="selectOption('waktu', this)">
+                    <h3>⏰</h3> Kesiapan Waktu</h3>
+                    <p>Berapa lama waktu yang bisa kamu sisihkan per hari?</p>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button class="btn btn-secondary" onclick="goToStep(2)">Lanjut ➡️</button>
+            </div>
+        </div>
+
+        <!-- Step 2: Level Check -->
+        <div class="step-content" id="step2">
+            <h2>Cek Level Awalmu</h2>
+            <p>Berdasarkan jawabanmu, kami akan menyesuaikan materi belajarmu.</p>
+
+            <div class="options-grid">
+                <div class="option-card" onclick="selectLevel('pemula', this)">
+                    <h3>🔰 Pemula Total</h3>
+                    <p>Belum pernah belajar huruf Korea sama sekali</p>
+                </div>
+                <div class="option-card" onclick="selectLevel('sedikit', this)">
+                    <h3>📖 Sedikit Pengalaman</h3>
+                    <p>Sudah sedikit tahu huruf Korea atau pernah belajar</p>
+                </div>
+                <div class="option-card" onclick="selectLevel('menengah', this)">
+                    <h3>📈 Menengah</h3>
+                    <p>Sudah bisa baca tulis huruf Korea dan sedikit kosakata</p>
+                </div>
+            </div>
+
+            <div class="level-indicator">
+                <div class="level-dot</h3> active"></div>
+                <div class="level-dot"></div>
+                <div class="level-dot"></div>
+            </div>
+
+            <div class="btn-group">
+                <button class="btn btn-secondary" onclick="goToStep(1)">← Kembali</button>
+                <button class="btn btn-primary" id="nextStep2" onclick="goToStep(3)" disabled>Lanjut ➡️</button>
+            </div>
+        </div>
+
+        <!-- Step 3: Ready -->
+        <div class="step-content" id="step3">
+            <h2>Kamu Siap Belajar! 🎉</h2>
+            <p>Berdasarkan jawabanmu, kami akan menyesuaikan materi belajar yang paling cocok untukmu.</p>
+
+            <div style="background: var(--langit-biru-muda); border-radius: 12px; padding: 20px; margin: 20px 0;">
+                <h3 style="color: var(--teks-utama); margin-bottom: 8px;">Level Rekomendasi:</h3>
+                <div style="background: var(--langit-utama); padding: 16px; border-radius: 8px; color: #000;" id="recommendedLevel">
+                    <strong>Hangul Path (Level 0)</strong>
+                    <p style="color: #000; margin-top: 8px; font-size: 13px;">Karena kamu pemula, kamu akan mulai dari belajar huruf Korea dulu</p>
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button class="btn btn-secondary" onclick="goToStep(2)">← Kembali</button>
+                <button class="btn btn-primary" onclick="startLearning()">Mulai Belajar 🚀</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Supabase SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <!-- Supabase Config -->
+    <script src="js/supabase-config.js"></script>
+
+    <script>
+        let currentStep = 1;
+        let selectedLevel = '';
+        let userChoices = {};
+
+        function goToStep(step) {
+            // Hide all steps
+            document.querySelectorAll('.step-content').forEach(el => {
+                el.classList.remove('active');
+            });
+
+            // Show selected step
+            document.getElementById('step' + step).classList.add('active');
+            currentStep = step;
+
+            // Update progress bar
+            const progressPercent = (step / 3) * 100;
+            document.getElementById('progressFill').style.width = progressPercent + '%';
+
+            // Update step label
+            const labels = ['', 'Tujuan', 'Level', 'Siap'];
+            document.getElementById('currentStep').textContent = step;
+            document.getElementById('stepLabel').textContent = labels[step];
+
+            // Update level dots
+            document.querySelectorAll('.level-dot').forEach((dot, index) => {
+                if (index < step) {
+                    dot.classList.add('active');
+                } else {
+                    dot.classList.remove('active');
+                }
+            });
+        }
+
+        function selectOption(type, element) {
+            // Remove selected class from all options
+            element.parentElement.querySelectorAll('.option-card').forEach(card => {
+                card.classList.remove('selected');
+            });
+
+            // Add selected class to clicked element
+            element.classList.add('selected');
+
+            // Store user choice
+            userChoices[type] = element.querySelector('h3').textContent;
+        }
+
+        function selectLevel(level, element) {
+            // Remove selected class from all options
+            element.parentElement.querySelectorAll('.option-card').forEach(card => {
+                card.classList.remove('selected');
+            });
+
+            // Add selected class to clicked element
+            element.classList.add('selected');
+
+            // Store selected level
+            selectedLevel = level;
+
+            // Enable next button
+            document.getElementById('nextStep2').disabled = false;
+
+            // Update recommendation
+            updateRecommendation();
+        }
+
+        function updateRecommendation() {
+            const recEl = document.getElementById('recommendedLevel');
+            if (selectedLevel === 'pemula') {
+                recEl.innerHTML = '<strong>Hangul Path (Level 0)</strong><p style="color: #000; margin-top: 8px; font-size: 13px;">Karena kamu pemula, kamu akan mulai dari belajar huruf Korea dulu</p>';
+            } else if (selectedLevel === 'sedikit') {
+                recEl.innerHTML = '<strong>EPS-TOPIK Basic (Level 1)</strong><p style="color: #000; margin-top: 8px; font-size: 13px;">Kamu sudah tahu huruf, langsung ke latihan soal dasar</p>';
+            } else {
+                recEl.innerHTML = '<strong>EPS-TOPIK Advanced (Level 2)</strong><p style="color: #000; margin-top: 8px; font-size: 13px;">Kamu sudah siap untuk latihan soal menengah</p>';
+            }
+        }
+
+        async function startLearning() {
+            try {
+                // Cek apakah Supabase sudah terinisialisasi
+                if (typeof supabase === 'undefined') {
+                    console.warn('Supabase belum dikonfigurasi');
+                    // Simulasi saja untuk testing
+                    simulateStartLearning();
+                    return;
+                }
+
+                // Simpan data user ke Supabase
+                const { data: { user }, error: userError } = await supabase.auth.getUser();
+
+                if (userError || !user) {
+                    console.log('User belum login, simpan ke localStorage');
+                    // Simpan ke localStorage sebagai cache
+                    localStorage.setItem('user_level', selectedLevel || 'pemula');
+                    localStorage.setItem('user_choices', JSON.stringify(userChoices));
+                } else {
+                    // Simpan ke tabel users di Supabase
+                    const { error } = await supabase
+                        .from('users')
+                        .update({
+                            level_awal: selectedLevel || 'pemula'
+                        })
+                        .eq('id', user.id);
+
+                    if (error) {
+                        console.error('Error simpan data:', error.message);
+                    }
+                }
+
+                // Redirect ke halaman yang sesuai
+                if (selectedLevel === 'pemula') {
+                    window.location.href = 'hangul-path.html';
+                } else {
+                    window.location.href = 'home.html';
+                }
+            } catch (err) {
+                console.error('Exception:', err);
+                // Fallback ke simulasi
+                simulateStartLearning();
+            }
+        }
+
+        function simulateStartLearning() {
+            // Simpan ke localStorage
+            localStorage.setItem('user_level', selectedLevel || 'pemula');
+            localStorage.setItem('user_choices', JSON.stringify(userChoices));
+
+            // Redirect
+            if (selectedLevel === 'pemula') {
+                window.location.href = 'hangul-path.html';
+            } else {
+                window.location.href = 'home.html';
+            }
+        }
+
+        // Initialize first step
+        document.addEventListener('DOMContentLoaded', function() {
+            goToStep(1);
+        });
+    </script>
+</body>
 </html>

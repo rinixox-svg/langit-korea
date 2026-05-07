@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langit Korea - Progress Belajar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --langit-utama: #A0D2FF;
+            --langit-aksen: #FFD19A;
+            --langit-bg: #F0F4F8;
+            --langit-hijau: #4CAF82;
+            --langit-merah: #E05C5C;
+            --langit-abu: #D0D0D0;
+            --langit-biru-muda: #D1E8FF;
+            --teks-utama: #1E2A3A;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--langit-bg);
+            color: var(--teks-utama);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .back-btn {
+            background: white;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 8px 12px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 20px;
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 32px;
+            font-weight: bold;
+            color: var(--langit-utama);
+            margin-bottom: 4px;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .chart-card {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+        }
+
+        .chart-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        .progress-item {
+            margin-bottom: 16px;
+        }
+
+        .progress-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .progress-bar {
+            height: 10px;
+            background: var(--langit-abu);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            border-radius: 5px;
+            transition: width 0.5s ease;
+        }
+
+        .fill-reading {
+            background: var(--langit-utama);
+        }
+
+        .fill-listening {
+            background: var(--langit-aksen);
+        }
+
+        .fill-hangul {
+            background: var(--langit-hijau);
+        }
+
+        .streak-card {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .streak-number {
+            font-size: 48px;
+            font-weight: bold;
+            color: var(--langit-aksen);
+            margin-bottom: 8px;
+        }
+
+        .streak-label {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .btn-primary {
+            background-color: var(--langit-utama);
+            color: #000;
+            font-size: 18px;
+            padding: 16px;
+            border: none;
+            border-radius: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <button class="back-btn" onclick="window.location.href='home.html'">←</button>
+        <h1>📊 Progress Belajar</h1>
+        <div style="width: 40px;"></div>
+    </div>
+
+    <div class="streak-card">
+        <div class="streak-number">5</div>
+        <div class="streak-label">Hari Berturut-turut Belajar 🔥</div>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-number">120</div>
+            <div class="stat-label">Total Soal Dikerjakan</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">85</div>
+            <div class="stat-label">Jawaban Benar</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">70%</div>
+            <div class="stat-label">Persentase Kelulusan</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">18</div>
+            <div class="stat-label">Bab Diselesaikan</div>
+        </div>
+    </div>
+
+    <div class="chart-card">
+        <div class="chart-title">Progress per Kategori</div>
+
+        <div class="progress-item">
+            <div class="progress-header">
+                <span>Membaca (Reading)</span>
+                <span>75%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill fill-reading" style="width: 75%;"></div>
+            </div>
+        </div>
+
+        <div class="progress-item">
+            <div class="progress-header">
+                <span>Mendengarkan (Listening)</span>
+                <span>60%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill fill-listening" style="width: 60%;"></div>
+            </div>
+        </div>
+
+        <div class="progress-item">
+            <div class="progress-header">
+                <span>Hangul (Huruf Korea)</span>
+                <span>100%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill fill-hangul" style="width: 100%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <button class="btn-primary" onclick="window.location.href='latihan-eps.html'">
+        📖 Lanjutkan Latihan
+    </button>
+
+    <script>
+        // Data statistik (nanti diambil dari Supabase)
+        console.log('Progress page loaded');
+
+        // Contoh: Ambil data dari localStorage untuk demo
+        const totalSoal = localStorage.getItem('total_soal') || 120;
+        const benar = localStorage.getItem('jawaban_benar') || 85;
+
+        // Update tampilan jika ada data
+        if (totalSoal && benar) {
+            document.querySelectorAll('.stat-number')[0].textContent = totalSoal;
+            document.querySelectorAll('.stat-number')[1].textContent = benar;
+        }
+    </script>
+</body>
+</html>

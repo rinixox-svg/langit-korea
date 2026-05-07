@@ -1,0 +1,91 @@
+{
+  "unit": "voc",
+  "title_ko": "어휘 색인",
+  "title_id": "Indeks Kosakata",
+  "file": "appendix-vocab.pdf",
+  "total_halaman": 16,
+  "halaman": {
+    "hal1": {
+      "kategori": "vocab",
+      "chars": 1774,
+      "gambar_count": 0
+    },
+    "hal2": {
+      "kategori": "grammar",
+      "chars": 1705,
+      "gambar_count": 0
+    },
+    "hal3": {
+      "kategori": "conversation",
+      "chars": 1554,
+      "gambar_count": 0
+    },
+    "hal4": {
+      "kategori": "vocab",
+      "chars": 1524,
+      "gambar_count": 0
+    },
+    "hal5": {
+      "kategori": "grammar",
+      "chars": 1715,
+      "gambar_count": 0
+    },
+    "hal6": {
+      "kategori": "conversation",
+      "chars": 1941,
+      "gambar_count": 0
+    },
+    "hal7": {
+      "kategori": "culture",
+      "chars": 1721,
+      "gambar_count": 0
+    },
+    "hal8": {
+      "kategori": "soal_membaca",
+      "chars": 1828,
+      "gambar_count": 0
+    },
+    "hal9": {
+      "kategori": "soal_listening",
+      "chars": 1746,
+      "gambar_count": 0
+    },
+    "hal10": {
+      "kategori": "lainnya",
+      "chars": 1885,
+      "gambar_count": 0
+    },
+    "hal11": {
+      "kategori": "lainnya",
+      "chars": 1850,
+      "gambar_count": 0
+    },
+    "hal12": {
+      "kategori": "lainnya",
+      "chars": 1921,
+      "gambar_count": 0
+    },
+    "hal13": {
+      "kategori": "lainnya",
+      "chars": 1853,
+      "gambar_count": 0
+    },
+    "hal14": {
+      "kategori": "lainnya",
+      "chars": 1745,
+      "gambar_count": 0
+    },
+    "hal15": {
+      "kategori": "lainnya",
+      "chars": 1733,
+      "gambar_count": 0
+    },
+    "hal16": {
+      "kategori": "lainnya",
+      "chars": 1097,
+      "gambar_count": 6
+    }
+  },
+  "soal": [],
+  "gambar_soal": {}
+}

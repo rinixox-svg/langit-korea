@@ -1,0 +1,137 @@
+{
+  "unit": 47,
+  "title_ko": "연안 어업과 양식",
+  "title_id": "Perikanan dan Budidaya",
+  "file": "unit_47_coastal_fishing_aquaculture.pdf",
+  "total_halaman": 10,
+  "halaman": {
+    "hal1": {
+      "kategori": "vocab",
+      "chars": 604,
+      "gambar_count": 16
+    },
+    "hal2": {
+      "kategori": "grammar",
+      "chars": 901,
+      "gambar_count": 0
+    },
+    "hal3": {
+      "kategori": "conversation",
+      "chars": 1232,
+      "gambar_count": 3
+    },
+    "hal4": {
+      "kategori": "vocab",
+      "chars": 681,
+      "gambar_count": 14
+    },
+    "hal5": {
+      "kategori": "grammar",
+      "chars": 901,
+      "gambar_count": 0
+    },
+    "hal6": {
+      "kategori": "conversation",
+      "chars": 1460,
+      "gambar_count": 4
+    },
+    "hal7": {
+      "kategori": "culture",
+      "chars": 2140,
+      "gambar_count": 2
+    },
+    "hal8": {
+      "kategori": "soal_membaca",
+      "chars": 659,
+      "gambar_count": 4
+    },
+    "hal9": {
+      "kategori": "soal_listening",
+      "chars": 743,
+      "gambar_count": 4
+    }
+  },
+  "soal": [
+    {
+      "id": "u47_m1",
+      "nomor": 1,
+      "tipe": "membaca",
+      "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n통발입니다.",
+      "pilihan_a": "②",
+      "pilihan_b": "③",
+      "pilihan_c": "④",
+      "pilihan_d": "",
+      "jawaban": "c",
+      "audio_teks": "",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/hal8_soal/soal_r1_a.jpeg",
+        "b": "images/hal8_soal/soal_r1_b.jpeg",
+        "c": "images/hal8_soal/soal_r1_c.jpeg",
+        "d": "images/hal8_soal/soal_r1_d.jpeg"
+      },
+      "akses": "free"
+    },
+    {
+      "id": "u47_m2",
+      "nomor": 2,
+      "tipe": "membaca",
+      "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n젖은 그물은 햇빛에 후에 보관해야 합니다.",
+      "pilihan_a": "데운",
+      "pilihan_b": "말린",
+      "pilihan_c": "태운",
+      "pilihan_d": "녹인",
+      "jawaban": "b",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u47_m3",
+      "nomor": 3,
+      "tipe": "membaca",
+      "teks_soal": "빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.\n지금 사용하는 펌프의 소음이 심합니다. 그래서 새로운 펌프를 .",
+      "pilihan_a": "청소하려고 합니다",
+      "pilihan_b": "측정하려고 합니다",
+      "pilihan_c": "보관하려고 합니다",
+      "pilihan_d": "설치하려고 합니다",
+      "jawaban": "d",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u47_m4",
+      "nomor": 4,
+      "tipe": "membaca",
+      "teks_soal": "다음은 무엇에 대한 설명입니까?\n양식장에서 물고기를 크기와 건강 상태에 따라 분류하는 작업입니다.",
+      "pilihan_a": "제거 작업",
+      "pilihan_b": "선별 작업",
+      "pilihan_c": "출하 작업",
+      "pilihan_d": "교체 작업",
+      "jawaban": "d",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u47_m5",
+      "nomor": 5,
+      "tipe": "membaca",
+      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n양식업은 조개, 해조류, 어류 등을 기르는 산업을 말합니다. 한국에서는 굴, 새우, 조개 등 다양한\n수산물이 양식되고 있는데, 고부가가치의 수산물로 범위가 확대되고 있습니다. 한국의 양식업은\n생산량을 기준으로 이미 어업의 생산량을 넘어섰으며, 다양한 기술을 도입하여 양식의 효율성을 높이고\n있습니다.",
+      "pilihan_a": "한국에서는 조개를 양식하지 않습니다.",
+      "pilihan_b": "한국은 양식업보다 어업의 생산량이 많습니다.",
+      "pilihan_c": "한국에서 양식되는 수산물은 해조류에 한정됩니다.",
+      "pilihan_d": "한국은 효율적인 양식을 위해 다양한 기술을 도입하고 있습니다.",
+      "jawaban": "c",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    }
+  ],
+  "gambar_soal": {}
+}

@@ -1,0 +1,37 @@
+대화 CONVERSATION
+238
+반장님 유수프 씨, 지금부터 철근을 결속해야 되는데 결속하는 방법은 알고 있죠?
+Yusuf, we will need to tie the rebar now. You know how to do it, right?
+유수프 네, 지난번에 해 봤습니다. 가로 철근과 세로 철근이 만나는
+교차점에 결속선을 묶으면 되죠?
+Y es, I’ve done it before. I just need to tie the binding wire at the
+intersections of the horizontal and vertical rebar, right?
+반장님 맞아요. 철근이 움직이지 않게 결속선을 꽉 묶어야 돼요.
+잘못 묶으면 콘크리트 무게 때문에 철근이 움직여요.
+결속 핸들하고 결속선은 가져왔죠?
+E xactly. You need to tie the wire tightly so the rebar doesn’t move.
+If you tie it wrong, the rebar will shift due to the weight of the concrete.
+You brought the rebar tying handle and binding wire, right?
+유수프 아, 아직 안 들고 왔습니다. 지금 바로 가지러 가겠습니다.
+Oh, I didn't bring them yet. I’ll go get them right now.
+반장님 창고 안이 복잡해서 찾기 힘들 텐데 내가 다녀올게요.
+T he warehouse is so cluttered it might be hard to find them. I’ll go and
+look for it myself.
+대답해 봐요! ANSWER ME!
+1 결속선은 어디에 묶어야 돼요? Where should the binding wire be tied?
+2 결 속선을 잘못 묶으면 어떻게 돼요? What happens if the binding wire is not tied properly?
+제시된 표현을 활용하여 대화해 보세요.P ractice speaking using the provided expressions.
+•내 일 비가 오다, 콘크리트를 타설하다
+•결 속선이 더 없다, 오늘 철근 결속 작업을 완료하다
+가 : 내일 비가 올 텐데 콘크리트를 타설할 수 있을까요?
+나 : 아마 못 할 거예요. 어떻게 할지 반장님께 물어볼게요.
+가 : 물어보고 저한테도 어떻게 할지 말해 주세요.
+발음 │ PRONUNCIATION
+239
+한자어에서 ‘ㄹ’ 받침 뒤에 결합되는 ‘ㄷ, ㅅ, ㅈ’는 된소리로 발음한다.
+When initial consonants ‘ㄷ, ㅅ, ㅈ’ are preceded by the final consonant ‘ㄹ’ in Sino-Korean words,
+these consonants are pronounced as tense sounds.
+⑴ 갈등[ ] 발달[발딸] 열심[열씸]
+갈뜽
+⑵ 발전[발쩐] 갈증[갈쯩] 물질[물찔]
+43 건축 시공 BUILDING CONSTRUCTION 139

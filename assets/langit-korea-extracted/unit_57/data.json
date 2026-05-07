@@ -1,0 +1,132 @@
+{
+  "unit": 57,
+  "title_ko": "고용허가제",
+  "title_id": "Sistem Izin Kerja G2G",
+  "file": "unit_57_employment_permit_system.pdf",
+  "total_halaman": 10,
+  "halaman": {
+    "hal1": {
+      "kategori": "vocab",
+      "chars": 495,
+      "gambar_count": 15
+    },
+    "hal2": {
+      "kategori": "grammar",
+      "chars": 1170,
+      "gambar_count": 0
+    },
+    "hal3": {
+      "kategori": "conversation",
+      "chars": 1874,
+      "gambar_count": 3
+    },
+    "hal4": {
+      "kategori": "vocab",
+      "chars": 1463,
+      "gambar_count": 0
+    },
+    "hal5": {
+      "kategori": "grammar",
+      "chars": 990,
+      "gambar_count": 3
+    },
+    "hal6": {
+      "kategori": "conversation",
+      "chars": 1247,
+      "gambar_count": 3
+    },
+    "hal7": {
+      "kategori": "culture",
+      "chars": 3109,
+      "gambar_count": 0
+    },
+    "hal8": {
+      "kategori": "soal_membaca",
+      "chars": 921,
+      "gambar_count": 0
+    },
+    "hal9": {
+      "kategori": "soal_listening",
+      "chars": 857,
+      "gambar_count": 0
+    }
+  },
+  "soal": [
+    {
+      "id": "u57_m1",
+      "nomor": 1,
+      "tipe": "membaca",
+      "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "pilihan_a": "작업장이 더럽은 줄 몰랐어요.",
+      "pilihan_b": "지금 밖에 비가 오는 줄 몰랐어요.",
+      "pilihan_c": "벌써 퇴근 시간이 되는 줄 몰랐어요.",
+      "pilihan_d": "왕민 씨가 키가 작는 줄 몰랐어요.",
+      "jawaban": "b",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u57_m2",
+      "nomor": 2,
+      "tipe": "membaca",
+      "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n저는 배를 만드는 회사에서 일해 본 적이 있어요. 그래서 을 신청했어요.",
+      "pilihan_a": "제조업",
+      "pilihan_b": "조선업",
+      "pilihan_c": "건설업",
+      "pilihan_d": "축산업",
+      "jawaban": "b",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u57_m3",
+      "nomor": 3,
+      "tipe": "membaca",
+      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국어능력시험(EPS-TOPIK)",
+      "pilihan_a": "이 시험은 9월 23일에 칩니다.",
+      "pilihan_b": "이 시험은 한국에서 실시됩니다.\n● 시험 국가 : 중국",
+      "pilihan_c": "이 시험은 사흘 동안 접수가 가능합니다.\n● 접수 기간 : 2024년 9월 13일 ~ 2024년 9월 15일\n● 시험 공고일 : 2024년 9월 23일",
+      "pilihan_d": "이 시험의 결과는 9월 26일에 알 수 있습니다.\n● 시험일 : 2024년 9월 26일",
+      "jawaban": "c",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u57_m4",
+      "nomor": 4,
+      "tipe": "membaca",
+      "teks_soal": "다음은 무엇에 대한 설명입니까?\n고용허가제의 업종 중 하나로 곡식이나 채소, 과일을 재배하는 업종입니다.",
+      "pilihan_a": "임업",
+      "pilihan_b": "농업",
+      "pilihan_c": "광업",
+      "pilihan_d": "어업",
+      "jawaban": "b",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u57_m5",
+      "nomor": 5,
+      "tipe": "membaca",
+      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n고용허가제는 고용노동부가 한국 내의 인력 부족 문제를 해결하고 외국인 노동자를 합법적으로\n고용하기 위해 마련한 제도입니다. 자국에서 선발 시험을 통과한 지원자들은 사업주와 계약 후 한국\n비자를 받을 수 있습니다. 한국에 온 후에는 한국인 노동자들과 동등하게 노동법이 정한 기본적인 권리를\n보장 받으며 일할 수 있습니다.",
+      "pilihan_a": "지원자들은 한국에 입국한 후 사업주와 고용 계약을 합니다.",
+      "pilihan_b": "고용허가제는 한국에 살고 있는 외국인을 위한 취업 제도입니다.",
+      "pilihan_c": "지원자들은 시험에 통과해야 한국에서 일할 기회를 얻을 수 있습니다.",
+      "pilihan_d": "고용허가제로 한국에 온 외국인은 한국인들과 다른 노동법의 보호를 받습니다.",
+      "jawaban": "c",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    }
+  ],
+  "gambar_soal": {}
+}

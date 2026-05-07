@@ -1,216 +1,357 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
-    <head>
-        <meta charset="UTF-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-        />
-        <title>Login - Langit Korea</title>
-        <style>
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Langit Korea</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --langit-utama: #A0D2FF;
+            --langit-aksen: #FFD19A;
+            --langit-bg: #F0F4F8;
+            --langit-hijau: #4CAF82;
+            --langit-merah: #E05C5C;
+            --langit-abu: #D0D0D0;
+            --langit-biru-muda: #D1E8FF;
+            --teks-utama: #1E2A3A;
+        }
 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--langit-bg);
+            color: var(--teks-utama);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .korean-text {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        .container {
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--langit-utama);
+            margin-bottom: 8px;
+        }
+
+        .app-subtitle {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .login-card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px 24px;
+            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .welcome-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--teks-utama);
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        .welcome-subtitle {
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .btn-google {
+            background: white;
+            color: #333;
+            border: 2px solid var(--langit-abu);
+            padding: 16px 20px;
+            border-radius: 12px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            font-weight: 600;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            transition: all 0.3s;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .btn-google:hover {
+            border-color: var(--langit-utama);
+            background: #f8fbff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .google-icon {
+            width: 24px;
+            height: 24px;
+            background: linear-gradient(135deg, #4285F4, #34A853, #FBBC05, #EA4335);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .divider {
+            text-align: center;
+            margin: 25px 0;
+            position: relative;
+            color: #999;
+            font-size: 14px;
+        }
+
+        .divider::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: var(--langit-abu);
+            z-index: 1;
+        }
+
+        .divider span {
+            position: relative;
+            background: white;
+            padding: 0 15px;
+            z-index: 2;
+        }
+
+        .features {
+            margin: 20px 0;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .feature-item:last-child {
+            border-bottom: none;
+        }
+
+        .feature-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--langit-biru-muda);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+
+        .feature-text {
+            flex: 1;
+            text-align: left;
+        }
+
+        .feature-title {
+            font-weight: 600;
+            font-size: 14px;
+            color: var(--teks-utama);
+            margin-bottom: 2px;
+        }
+
+        .feature-desc {
+            font-size: 12px;
+            color: #666;
+            line-height: 1.4;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .footer a {
+            color: var(--langit-utama);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 480px) {
             body {
-                font-family: Arial, sans-serif;
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                min-height: 100vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                padding: 1rem;
+                padding: 16px;
             }
 
-            .container {
-                background: white;
-                border-radius: 12px;
-                padding: 2rem 1.5rem;
-                width: 100%;
-                max-width: 400px;
-                text-align: center;
-                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            .login-card {
+                padding: 24px 20px;
             }
-
-            h1 {
-                color: #667eea;
-                font-size: 1.8rem;
-                margin-bottom: 0.5rem;
-            }
-
-            .subtitle {
-                color: #666;
-                margin-bottom: 1.5rem;
-                font-size: 0.9rem;
-            }
-
-            .hint {
-                background: #fff3cd;
-                border: 1px solid #ffeaa7;
-                border-radius: 8px;
-                padding: 0.8rem;
-                margin-bottom: 1rem;
-                font-size: 0.85rem;
-                color: #856404;
-                display: none;
-            }
-
-            @media (max-width: 768px) {
-                .hint {
-                    display: block !important;
-                }
-            }
-
-            button {
-                display: block !important;
-                width: 100% !important;
-                padding: 1rem !important;
-                margin: 0.8rem 0 !important;
-                border: none !important;
-                border-radius: 8px !important;
-                font-size: 1rem !important;
-                font-weight: 600 !important;
-                cursor: pointer !important;
-                text-decoration: none !important;
-                font-family: Arial, sans-serif !important;
-            }
-
-            .google-btn {
-                background: white !important;
-                color: #333 !important;
-                border: 2px solid #ddd !important;
-            }
-
-            .google-btn:hover {
-                background: #f5f5f5 !important;
-            }
-
-            .anon-btn {
-                background: #4caf50 !important;
-                color: white !important;
-            }
-
-            .anon-btn:hover {
-                background: #45a049 !important;
-            }
-
-            .divider {
-                margin: 1.5rem 0;
-                color: #999;
-                font-size: 0.9rem;
-            }
-        </style>
-
-        <!-- Firebase SDK -->
-        <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
-        <script src="js/auth/firebase-config.js"></script>
-    </head>
-    <body>
-        <div class="container">
-            <h1>Langit Korea</h1>
-            <div class="subtitle">EPS-TOPIK Learning Platform</div>
-
-            <div class="hint">
-                <strong>📱 Untuk HP:</strong> Jika tombol Google tidak bisa,
-                gunakan "Login Tanpa Akun" di bawah.
-            </div>
-
-            <!-- Google Login -->
-            <button class="google-btn" id="googleBtn">
-                🚀 Login dengan Google
-            </button>
-
-            <div class="divider">ATAU</div>
-
-            <!-- Anonymous Login -->
-            <button class="anon-btn" id="anonBtn">
-                🤔 Login Tanpa Akun (Testing)
-            </button>
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🌌 Langit Korea</div>
+            <p class="app-subtitle">Platform Belajar Bahasa Korea untuk Ujian EPS-TOPIK</p>
         </div>
 
-        <script>
-            // Pastikan Firebase sudah load
-            if (typeof firebase !== "undefined" && firebase.auth) {
-                const auth = firebase.auth();
-                const provider = new firebase.auth.GoogleAuthProvider();
+        <div class="login-card">
+            <div class="welcome-title">Selamat Datang! 👋</div>
+            <p class="welcome-subtitle">Masuk untuk mulai belajar gratis dan wujudkan impian kerja di Korea</p>
 
-                // Google Login
-                document
-                    .getElementById("googleBtn")
-                    .addEventListener("click", function () {
-                        // Coba popup dulu
-                        auth.signInWithPopup(provider)
-                            .then(function (result) {
-                                console.log("Login berhasil:", result.user);
-                                window.location.href = "home.html";
-                            })
-                            .catch(function (error) {
-                                console.error("Popup error:", error);
+            <button class="btn-google" onclick="signInWithGoogle()">
+                <div class="google-icon">G</div>
+                <span>Masuk dengan Google</span>
+            </button>
 
-                                // Jika popup diblokir, gunakan redirect
-                                if (
-                                    error.code === "auth/popup-blocked" ||
-                                    error.code ===
-                                        "auth/cancelled-popup-request"
-                                ) {
-                                    console.log(
-                                        "Popup diblokir, menggunakan redirect...",
-                                    );
-                                    auth.signInWithRedirect(provider);
-                                } else {
-                                    alert("Login gagal: " + error.message);
-                                }
-                            });
-                    });
+            <div class="features">
+                <div class="feature-item">
+                    <div class="feature-icon">📚</div>
+                    <div class="feature-text">
+                        <div class="feature-title">Belajar Mandiri</div>
+                        <div class="feature-desc">Akses materi belajar kapan saja, di mana saja</div>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🎯</div>
+                    <div class="feature-text">
+                        <div class="feature-title">Fokus EPS-TOPIK</div>
+                        <div class="feature-desc">Mempersiapkan ujian EPS-TOPIK dengan tepat</div>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🚀</div>
+                    <div class="feature-text">
+                        <div class="feature-title">Gratis & Terjangkau</div>
+                        <div class="feature-desc">Belajar tanpa biaya untuk siapa pun yang berharap</div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                // Anonymous Login
-                document
-                    .getElementById("anonBtn")
-                    .addEventListener("click", function () {
-                        auth.signInAnonymously()
-                            .then(function () {
-                                console.log("Anonymous login berhasil");
-                                window.location.href = "home.html";
-                            })
-                            .catch(function (error) {
-                                console.error("Anonymous error:", error);
-                                alert("Login gagal: " + error.message);
-                            });
-                    });
+        <div class="footer">
+            <p>Langit Korea - Teman belajar mandiri untuk ujian EPS-TOPIK</p>
+            <p>Dengan menggunakan platform ini, kamu menyetujui <a href="#">Syarat & Ketentuan</a></p>
+        </div>
+    </div>
 
-                // Handle redirect result (untuk mobile)
-                firebase
-                    .auth()
-                    .getRedirectResult()
-                    .then(function (result) {
-                        if (result.user) {
-                            console.log(
-                                "Redirect login berhasil:",
-                                result.user,
-                            );
-                            window.location.href = "home.html";
-                        }
-                    })
-                    .catch(function (error) {
-                        console.error("Redirect error:", error);
-                    });
+    <!-- Supabase SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <!-- Supabase Config -->
+    <script src="js/supabase-config.js"></script>
 
-                // Check jika sudah login
-                firebase.auth().onAuthStateChanged(function (user) {
-                    if (user) {
-                        console.log("Sudah login:", user.displayName);
-                        window.location.href = "home.html";
-                    }
+    <script>
+        // Fungsi untuk sign in dengan Google menggunakan Supabase Auth
+        async function signInWithGoogle() {
+            try {
+                // Cek apakah Supabase sudah terinisialisasi
+                if (typeof supabase === 'undefined') {
+                    alert('Supabase belum dikonfigurasi. Silakan ganti URL dan Anon Key di js/supabase-config.js');
+                    console.error('Supabase client tidak ditemukan');
+                    return;
+                }
+
+                // Login dengan Google via Supabase Auth
+                const { data, error } = await supabase.auth.signInWithOAuth({
+                    provider: 'google'
                 });
-            } else {
-                // Firebase tidak load
-                document.body.innerHTML =
-                    '<div style="color:white; text-align:center; padding:2rem;">Error: Firebase SDK gagal dimuat. Silakan refresh halaman.</div>';
+
+                if (error) {
+                    console.error('Error login Google:', error.message);
+                    alert('Gagal login dengan Google: ' + error.message);
+                }
+                // Redirect otomatis ditangani oleh Supabase setelah login berhasil
+            } catch (err) {
+                console.error('Exception:', err);
+                alert('Terjadi kesalahan: ' + err.message);
             }
-        </script>
-    </body>
+        }
+
+            // Simulasi login berhasil (untuk testing)
+            const simulasiLogin = confirm('Simulasi: Login berhasil? Klik OK untuk masuk ke Home.');
+            if (simulasiLogin) {
+                // Simpan status login di localStorage (simulasi)
+                localStorage.setItem('user_logged_in', 'true');
+                localStorage.setItem('user_name', 'Budi Santoso');
+                localStorage.setItem('user_email', 'budi.santoso@gmail.com');
+                window.location.href = 'home.html';
+            }
+        }
+
+        // Cek status login saat halaman dimuat
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                if (typeof supabase === 'undefined') {
+                    console.warn('Supabase belum diinisialisasi');
+                    return;
+                }
+
+                // Cek session yang ada
+                const { data: { session }, error } = await supabase.auth.getSession();
+
+                if (session) {
+                    // User sudah login, redirect ke home
+                    console.log('User sudah login:', session.user.email);
+                    window.location.href = 'home.html';
+                }
+            } catch (err) {
+                console.error('Error cek session:', err);
+            }
+        });
+
+        // Listener untuk perubahan auth state
+        if (typeof supabase !== 'undefined') {
+            supabase.auth.onAuthStateChange((event, session) => {
+                console.log('Auth state changed:', event);
+                if (event === 'SIGNED_IN' && session) {
+                    console.log('Login berhasil:', session.user.email);
+                    // Simpan info user ke localStorage sebagai cache
+                    localStorage.setItem('user_logged_in', 'true');
+                    localStorage.setItem('user_email', session.user.email);
+                    localStorage.setItem('user_name', session.user.user_metadata?.full_name || 'User');
+                    // Redirect ke home
+                    window.location.href = 'home.html';
+                }
+            });
+        }
+    </script>
+</body>
 </html>

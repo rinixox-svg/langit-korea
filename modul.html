@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langit Korea - Maintenance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --langit-utama: #A0D2FF;
+            --langit-aksen: #FFD19A;
+            --langit-bg: #F0F4F8;
+            --teks-utama: #1E2A3A;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--langit-bg);
+            color: var(--teks-utama);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .maintenance-card {
+            background: white;
+            border-radius: 16px;
+            padding: 40px 30px;
+            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--langit-utama);
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #666;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 14px 28px;
+            border: none;
+            border-radius: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 15px;
+            transition: transform 0.2s;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            width: 100%;
+        }
+
+        .btn-primary {
+            background-color: var(--langit-utama);
+            color: #000;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+    <script>
+        // Redirect otomatis ke home setelah 5 detik
+        setTimeout(() => {
+            window.location.href = 'home.html';
+        }, 5000);
+
+        function goHome() {
+            window.location.href = 'home.html';
+        }
+    </script>
+</head>
+<body>
+    <div class="maintenance-card">
+        <div class="icon">🚧🔧</div>
+        <h1>Modul Pembelajaran</h1>
+        <p>
+            Halaman ini sedang dalam pengembangan lebih lanjut.<br>
+            Kami sedang mengintegrasikan aset (gambar, audio, PDF) ke Supabase.<br><br>
+            <strong>Kamu akan diarahkan ke Beranda dalam 5 detik...</strong>
+        </p>
+        <button class="btn btn-primary" onclick="goHome()">
+            ← Kembali ke Beranda Sekarang
+        </button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+{
+  "unit": 34,
+  "title_ko": "성희롱 및 성추행 예방",
+  "title_id": "Pencegahan Pelecehan Seksual",
+  "file": "unit_34_sexual_harassment_prevention.pdf",
+  "total_halaman": 10,
+  "halaman": {
+    "hal1": {
+      "kategori": "vocab",
+      "chars": 627,
+      "gambar_count": 13
+    },
+    "hal2": {
+      "kategori": "grammar",
+      "chars": 885,
+      "gambar_count": 0
+    },
+    "hal3": {
+      "kategori": "conversation",
+      "chars": 1509,
+      "gambar_count": 3
+    },
+    "hal4": {
+      "kategori": "vocab",
+      "chars": 649,
+      "gambar_count": 12
+    },
+    "hal5": {
+      "kategori": "grammar",
+      "chars": 1097,
+      "gambar_count": 1
+    },
+    "hal6": {
+      "kategori": "conversation",
+      "chars": 1400,
+      "gambar_count": 3
+    },
+    "hal7": {
+      "kategori": "culture",
+      "chars": 2329,
+      "gambar_count": 6
+    },
+    "hal8": {
+      "kategori": "soal_membaca",
+      "chars": 776,
+      "gambar_count": 0
+    },
+    "hal9": {
+      "kategori": "soal_listening",
+      "chars": 796,
+      "gambar_count": 0
+    }
+  },
+  "soal": [
+    {
+      "id": "u34_m1",
+      "nomor": 1,
+      "tipe": "membaca",
+      "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "pilihan_a": "오늘 성희롱 예방 교육이 있는다고 합니다.",
+      "pilihan_b": "불필요한 신체 접촉을 하면 안되 는다고 합니다.",
+      "pilihan_c": "나의 농담에 상대방은 불쾌감을 느낄 수 있다고 합니다.",
+      "pilihan_d": "직장 내 성희롱 예방을 위해 성 인지 감수성이필 요한다고 합니다.\n[2~3] 빈칸에 들어갈 알맞은 단어를 고르십시오.",
+      "jawaban": "c",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u34_m2",
+      "nomor": 2,
+      "tipe": "membaca",
+      "teks_soal": "상대방이 불쾌감을 느낄 수 있는 을/를 하면 안 됩니다.",
+      "pilihan_a": "규칙",
+      "pilihan_b": "농담",
+      "pilihan_c": "초대",
+      "pilihan_d": "이사",
+      "jawaban": "b",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u34_m3",
+      "nomor": 3,
+      "tipe": "membaca",
+      "teks_soal": "성희롱을 당했을 때는 을/를 확보하고 신고해야 합니다.",
+      "pilihan_a": "장비",
+      "pilihan_b": "시간",
+      "pilihan_c": "증거",
+      "pilihan_d": "재료",
+      "jawaban": "c",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u34_m4",
+      "nomor": 4,
+      "tipe": "membaca",
+      "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n직장 동료에게 농담을 했습니다. 그런데 내 농담을 듣고 직장 동료의 표정이 안 좋았습니다. 내 농담이\n불쾌하다고 해서 .",
+      "pilihan_a": "빨리 사과했습니다",
+      "pilihan_b": "먼저 준비했습니다",
+      "pilihan_c": "미리 예방했습니다",
+      "pilihan_d": "자주 화를 냈습니다",
+      "jawaban": "a",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u34_m5",
+      "nomor": 5,
+      "tipe": "membaca",
+      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n직장 내 성희롱은 직장에서 발생하는 성적인 괴롭힘이나 성적인 강요를 말합니다. 이는 성적인 언어나\n행동, 원치 않는 신체 접촉 등을 포함합니다. 성희롱은 피해자에게 심각한 정신적 고통을 줄 수 있으며,\n직장 분위기를 나쁘게 만듭니다. 이를 예방하기 위해 회사는 성희롱 예방 교육을 실시하고 있습니다.",
+      "pilihan_a": "성희롱은 신체 접촉만 포함합니다.",
+      "pilihan_b": "성희롱은 피해자에게 정신적 고통을 줄 수 있습니다.",
+      "pilihan_c": "성희롱 문제가 발생하면 성희롱 예방 교육을 합니다.",
+      "pilihan_d": "직장 분위기가 나쁘면 성희롱이 발생할 수 있습니다.",
+      "jawaban": "b",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    }
+  ],
+  "gambar_soal": {}
+}

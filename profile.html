@@ -4,260 +4,432 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil - Langit Korea</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        .profile-header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 2rem;
-            text-align: center;
-            border-radius: 0 0 20px 20px;
-            margin-bottom: 1.5rem;
+        :root {
+            --langit-utama: #A0D2FF;
+            --langit-aksen: #FFD19A;
+            --langit-bg: #F0F4F8;
+            --langit-hijau: #4CAF82;
+            --langit-merah: #E05C5C;
+            --langit-abu: #D0D0D0;
+            --langit-biru-muda: #D1E8FF;
+            --teks-utama: #1E2A3A;
         }
 
-        .profile-pic {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--langit-bg);
+            color: var(--teks-utama);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .korean-text {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .back-btn {
+            background: white;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 8px 12px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 20px;
+            text-align: center;
+            flex-grow: 1;
+            color: var(--teks-utama);
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .profile-card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .profile-image {
             width: 100px;
             height: 100px;
             border-radius: 50%;
-            border: 4px solid white;
-            object-fit: cover;
-            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--langit-utama), var(--langit-aksen));
+            margin: 0 auto 15px;
+            border: 3px solid var(--langit-aksen);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
         }
 
-        .profile-name {
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
+        .profile-info {
+            margin: 20px 0;
         }
 
-        .profile-email {
-            font-size: 0.9rem;
-            opacity: 0.9;
+        .info-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 16px;
+            margin-bottom: 8px;
+            background: var(--langit-bg);
+            border-radius: 12px;
         }
 
-        .stats-container {
+        .info-label {
+            font-weight: 600;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .info-value {
+            color: var(--teks-utama);
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .stats-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1rem;
-            padding: 0 1rem;
-            margin-bottom: 1.5rem;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 20px;
         }
 
         .stat-card {
             background: white;
-            padding: 1.5rem;
-            border-radius: 12px;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
             text-align: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
-        .stat-card i {
-            font-size: 2rem;
-            color: #667eea;
-            margin-bottom: 0.5rem;
-        }
-
-        .stat-value {
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: #333;
+        .stat-number {
+            font-size: 28px;
+            font-weight: bold;
+            color: var(--langit-utama);
+            margin-bottom: 4px;
         }
 
         .stat-label {
-            font-size: 0.85rem;
+            font-size: 12px;
             color: #666;
-            margin-top: 0.3rem;
         }
 
-        .history-section {
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+            color: var(--teks-utama);
+        }
+
+        .progress-container {
             background: white;
-            margin: 0 1rem 1.5rem;
-            padding: 1.5rem;
-            border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
+            margin-bottom: 20px;
         }
 
-        .history-section h3 {
-            color: #667eea;
-            margin-bottom: 1rem;
+        .progress-item {
+            margin-bottom: 16px;
         }
 
-        .history-item {
+        .progress-header {
             display: flex;
             justify-content: space-between;
-            padding: 0.8rem 0;
-            border-bottom: 1px solid #eee;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 14px;
         }
 
-        .history-item:last-child {
-            border-bottom: none;
+        .progress-bar {
+            height: 10px;
+            background: var(--langit-abu);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            border-radius: 5px;
+            transition: width 0.5s ease;
+        }
+
+        .fill-utama {
+            background: var(--langit-utama);
+        }
+
+        .fill-aksen {
+            background: var(--langit-aksen);
+        }
+
+        .fill-hijau {
+            background: var(--langit-hijau);
+        }
+
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            padding: 16px;
+            border: none;
+            border-radius: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            transition: transform 0.2s;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .btn-primary {
+            background-color: var(--langit-utama);
+            color: #000;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background-color: white;
+            color: var(--teks-utama);
+            border: 2px solid var(--langit-abu);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--langit-utama);
+            background: #f8fbff;
         }
 
         .btn-logout {
-            display: block;
-            width: calc(100% - 2rem);
-            margin: 0 1rem 2rem;
-            padding: 1rem;
-            background: #ff6b6b;
+            background-color: var(--langit-merah);
             color: white;
-            border: none;
-            border-radius: 12px;
-            font-size: 1rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
         .btn-logout:hover {
-            background: #ff5252;
+            transform: translateY(-2px);
+            background-color: #d32f2f;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: 8px;
+        }
+
+        .status-free {
+            background: var(--langit-abu);
+            color: var(--teks-utama);
+        }
+
+        .status-premium {
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            color: white;
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 16px;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+            }
         }
     </style>
 </head>
 <body>
-    <!-- Profile Header -->
-    <div class="profile-header">
-        <img id="profilePic" src="" alt="Profile" class="profile-pic">
-        <h2 id="profileName" class="profile-name">Loading...</h2>
-        <p id="profileEmail" class="profile-email"></p>
+    <div class="header">
+        <button class="back-btn" onclick="window.location.href='home.html'">←</button>
+        <h1>👤 Profil</h1>
+        <div style="width: 40px;"></div>
     </div>
 
-    <!-- Stats -->
-    <div class="stats-container">
-        <div class="stat-card">
-            <i class="fas fa-book-open"></i>
-            <div class="stat-value" id="readingScore">0</div>
-            <div class="stat-label">Skor Reading</div>
-        </div>
-        <div class="stat-card">
-            <i class="fas fa-headphones"></i>
-            <div class="stat-value" id="listeningScore">0</div>
-            <div class="stat-label">Skor Listening</div>
-        </div>
-        <div class="stat-card">
-            <i class="fas fa-spell-check"></i>
-            <div class="stat-value" id="vocabLearned">0</div>
-            <div class="stat-label">Vocab Dipelajari</div>
-        </div>
-        <div class="stat-card">
-            <i class="fas fa-calendar-check"></i>
-            <div class="stat-value" id="daysLearning">0</div>
-            <div class="stat-label">Hari Belajar</div>
-        </div>
-    </div>
-
-    <!-- History -->
-    <div class="history-section">
-        <h3><i class="fas fa-history"></i> Riwayat Terakhir</h3>
-        <div id="historyList">
-            <div class="history-item">
-                <span>Belum ada riwayat</span>
+    <div class="container">
+        <div class="profile-card">
+            <div class="profile-image">👤</div>
+            <div class="profile-info">
+                <div class="info-item">
+                    <span class="info-label">Nama:</span>
+                    <span class="info-value" id="user-name">Budi Santoso</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Email:</span>
+                    <span class="info-value" id="user-email">budi.santoso@email.com</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Level:</span>
+                    <span class="info-value" id="user-level">Pemula</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Status:</span>
+                    <span class="status-badge status-free" id="user-status">Free</span>
+                </div>
             </div>
         </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" id="total-soal">50</div>
+                <div class="stat-label">Total Soal</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="streak">7</div>
+                <div class="stat-label">Hari Streak</div>
+            </div>
+        </div>
+
+        <div class="progress-container">
+            <div class="section-title">📊 Progress Belajar</div>
+
+            <div class="progress-item">
+                <div class="progress-header">
+                    <span>Huruf Korea (Hangul)</span>
+                    <span>100%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill fill-hijau" style="width: 100%;"></div>
+                </div>
+            </div>
+
+            <div class="progress-item">
+                <div class="progress-header">
+                    <span>EPS-TOPIK Bab 1-20</span>
+                    <span>75%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill fill-utama" style="width: 75%;"></div>
+                </div>
+            </div>
+
+            <div class="progress-item">
+                <div class="progress-header">
+                    <span>EPS-TOPIK Bab 21-40</span>
+                    <span>40%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill fill-aksen" style="width: 40%;"></div>
+                </div>
+            </div>
+
+            <div class="progress-item" style="margin-bottom: 0;">
+                <div class="progress-header">
+                    <span>EPS-TOPIK Bab 41-60</span>
+                    <span>0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill fill-utama" style="width: 0%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-group">
+            <button class="btn btn-primary" onclick="alert('Fitur edit profil akan segera tersedia')">
+                ✏️ Edit Profil
+            </button>
+            <button class="btn btn-secondary" onclick="alert('Fitur ubah password akan segera tersedia')">
+                🔒 Ubah Password
+            </button>
+            <button class="btn btn-logout" onclick="logout()">
+                🚪 Logout
+            </button>
+        </div>
     </div>
 
-    <!-- Logout Button -->
-    <button class="btn-logout" onclick="logout()">
-        <i class="fas fa-sign-out-alt"></i> Logout
-    </button>
-
-    <!-- Bottom Navigation -->
-    <nav class="bottom-nav">
-        <a href="home.html" class="nav-item">
-            <i class="fas fa-home"></i>
-            <span>Home</span>
-        </a>
-        <a href="listening.html" class="nav-item">
-            <i class="fas fa-headphones"></i>
-            <span>Listening</span>
-        </a>
-        <a href="reading.html" class="nav-item">
-            <i class="fas fa-book-open"></i>
-            <span>Reading</span>
-        </a>
-        <a href="vocabulary.html" class="nav-item">
-            <i class="fas fa-spell-check"></i>
-            <span>Vocab</span>
-        </a>
-        <a href="profile.html" class="nav-item active">
-            <i class="fas fa-user"></i>
-            <span>Profile</span>
-        </a>
-    </nav>
-
-    <!-- Firebase -->
-    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
-    <script src="js/auth/firebase-config.js"></script>
-
     <script>
-        // Load user data
-        function loadUserData() {
-            const user = getCurrentUser();
-            if (!user) {
-                window.location.href = 'login.html';
-                return;
+        // Inisialisasi Supabase - GANTI DENGAN MILIKMU
+        // const supabaseUrl = 'https://xyz.supabase.co';
+        // const supabaseKey = 'your-anon-key';
+        // const supabase = supabase.createClient(supabaseUrl, supabaseKey);
+
+        // Load data user dari Supabase atau localStorage
+        function loadUserProfile() {
+            // Contoh data dari localStorage (nanti dari Supabase)
+            const userName = localStorage.getItem('user_name') || 'Budi Santoso';
+            const userEmail = localStorage.getItem('user_email') || 'budi.santoso@email.com';
+            const userLevel = localStorage.getItem('user_level') || 'Pemula';
+            const userStatus = localStorage.getItem('user_status') || 'free';
+            const totalSoal = localStorage.getItem('total_soal') || 50;
+            const streak = localStorage.getItem('streak') || 7;
+
+            // Update tampilan
+            document.getElementById('user-name').textContent = userName;
+            document.getElementById('user-email').textContent = userEmail;
+            document.getElementById('user-level').textContent = userLevel;
+            document.getElementById('total-soal').textContent = totalSoal;
+            document.getElementById('streak').textContent = streak;
+
+            // Update status badge
+            const statusEl = document.getElementById('user-status');
+            if (userStatus === 'premium') {
+                statusEl.textContent = 'Premium ✨';
+                statusEl.className = 'status-badge status-premium';
+            } else {
+                statusEl.textContent = 'Free';
+                statusEl.className = 'status-badge status-free';
             }
-
-            // Set profile info
-            document.getElementById('profilePic').src = user.photoURL || 'https://via.placeholder.com/100';
-            document.getElementById('profileName').textContent = user.name || 'User';
-            document.getElementById('profileEmail').textContent = user.email || '';
-
-            // Load stats from localStorage
-            const readingScore = localStorage.getItem('readingScore') || 0;
-            const listeningScore = localStorage.getItem('listeningScore') || 0;
-            const vocabLearned = localStorage.getItem('vocabLearned') || 0;
-            const daysLearning = localStorage.getItem('daysLearning') || 1;
-
-            document.getElementById('readingScore').textContent = readingScore;
-            document.getElementById('listeningScore').textContent = listeningScore;
-            document.getElementById('vocabLearned').textContent = vocabLearned;
-            document.getElementById('daysLearning').textContent = daysLearning;
-
-            // Load history
-            loadHistory();
-        }
-
-        function loadHistory() {
-            const history = JSON.parse(localStorage.getItem('quizHistory') || '[]');
-            const historyList = document.getElementById('historyList');
-
-            if (history.length === 0) {
-                historyList.innerHTML = '<div class="history-item"><span>Belum ada riwayat</span></div>';
-                return;
-            }
-
-            historyList.innerHTML = history.slice(-5).reverse().map(item => `
-                <div class="history-item">
-                    <span>${item.type} - Skor: ${item.score}/${item.total}</span>
-                    <span>${new Date(item.date).toLocaleDateString('id-ID')}</span>
-                </div>
-            `).join('');
         }
 
         function logout() {
-            if (typeof signOut === 'function') {
-                signOut();
-            } else {
-                localStorage.removeItem('user');
-                window.location.href = 'login.html';
+            if (confirm('Yakin ingin logout?')) {
+                // Supabase signOut (nanti)
+                // await supabase.auth.signOut();
+                localStorage.clear();
+                window.location.href = 'index.html';
             }
         }
 
-        // Check auth state
-        if (typeof auth !== 'undefined') {
-            auth.onAuthStateChanged((user) => {
-                if (user) {
-                    loadUserData();
-                } else {
-                    window.location.href = 'login.html';
-                }
+        // Animasi saat halaman dimuat
+        function animateProgressBars() {
+            const fills = document.querySelectorAll('.progress-fill');
+            fills.forEach((fill, index) => {
+                const width = fill.style.width;
+                fill.style.width = '0%';
+                setTimeout(() => {
+                    fill.style.width = width;
+                }, 100 * (index + 1));
             });
-        } else {
-            // Fallback if Firebase not loaded
-            window.addEventListener('load', loadUserData);
         }
+
+        // Inisialisasi saat halaman dimuat
+        document.addEventListener('DOMContentLoaded', () => {
+            loadUserProfile();
+            setTimeout(animateProgressBars, 300);
+        });
     </script>
 </body>
 </html>

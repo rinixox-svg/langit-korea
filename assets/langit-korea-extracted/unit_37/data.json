@@ -1,0 +1,132 @@
+{
+  "unit": 37,
+  "title_ko": "기계 가공",
+  "title_id": "Pemrosesan Mesin",
+  "file": "unit_37_machine_processing.pdf",
+  "total_halaman": 10,
+  "halaman": {
+    "hal1": {
+      "kategori": "vocab",
+      "chars": 790,
+      "gambar_count": 19
+    },
+    "hal2": {
+      "kategori": "grammar",
+      "chars": 818,
+      "gambar_count": 5
+    },
+    "hal3": {
+      "kategori": "conversation",
+      "chars": 1492,
+      "gambar_count": 3
+    },
+    "hal4": {
+      "kategori": "vocab",
+      "chars": 579,
+      "gambar_count": 15
+    },
+    "hal5": {
+      "kategori": "grammar",
+      "chars": 887,
+      "gambar_count": 5
+    },
+    "hal6": {
+      "kategori": "conversation",
+      "chars": 1519,
+      "gambar_count": 3
+    },
+    "hal7": {
+      "kategori": "culture",
+      "chars": 2494,
+      "gambar_count": 1
+    },
+    "hal8": {
+      "kategori": "soal_membaca",
+      "chars": 723,
+      "gambar_count": 1
+    },
+    "hal9": {
+      "kategori": "soal_listening",
+      "chars": 741,
+      "gambar_count": 4
+    }
+  },
+  "soal": [
+    {
+      "id": "u37_m1",
+      "nomor": 1,
+      "tipe": "membaca",
+      "teks_soal": "다음 그림과 관계있는 내용은 무엇입니까?",
+      "pilihan_a": "밀링 머신 – 철판을 구부려요.",
+      "pilihan_b": "밀링 머신 – 공작물을 갈아요.",
+      "pilihan_c": "프레스 기계 – 철판을 구부려요.",
+      "pilihan_d": "프레스 기계 – 공작물을 갈아요.",
+      "jawaban": "a",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u37_m2",
+      "nomor": 2,
+      "tipe": "membaca",
+      "teks_soal": "다음 단어와 관계있는 것은 무엇입니까?\n선반 기계",
+      "pilihan_a": "기계 가공",
+      "pilihan_b": "상품 포장",
+      "pilihan_c": "제품 운반",
+      "pilihan_d": "자재 관리",
+      "jawaban": "d",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u37_m3",
+      "nomor": 3,
+      "tipe": "membaca",
+      "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "pilihan_a": "전원을 끄도 멈추지 않아요.",
+      "pilihan_b": "비가 안 와도 덮개를 덮으세요.",
+      "pilihan_c": "창문을 열도 냄새가 계속 나요.",
+      "pilihan_d": "스위치를 올리도 작동이 안 돼요.",
+      "jawaban": "d",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u37_m4",
+      "nomor": 4,
+      "tipe": "membaca",
+      "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n선반 기계의 높이가 좀 낮아요. 그래서 을/를 돌려 높이를 맞췄어요.",
+      "pilihan_a": "핸들",
+      "pilihan_b": "커터",
+      "pilihan_c": "스위치",
+      "pilihan_d": "환풍기",
+      "jawaban": "c",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u37_m5",
+      "nomor": 5,
+      "tipe": "membaca",
+      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국의 가전제품은 최신 기능과 세련된 디자인으로 세계인들의 사랑을 받고 있습니다. 텔레비전,\n냉장고, 세탁기, 에어컨 등과 같은 다양한 가전제품이 전 세계 가전제품 시장을 휩쓸고 있습니다. 2023년\n미국 가전제품 시장에서 한국 상품의 시장 점유율이 40%를 차지할 정도로 인기가 많습니다.",
+      "pilihan_a": "한국의 가전제품은 세계 여러 나라에서 인기가 있습니다.",
+      "pilihan_b": "한국의 기업은 아직 미국 시장으로는 진출하지 않았습니다.",
+      "pilihan_c": "한국의 가전제품은 디자인보다는 기능에 집중하고 있습니다.",
+      "pilihan_d": "한국의 기업들은 소형 가전제품 개발에 중점을 두고 있습니다.",
+      "jawaban": "a",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    }
+  ],
+  "gambar_soal": {}
+}

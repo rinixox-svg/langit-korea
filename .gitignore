@@ -26,3 +26,22 @@ build/
 assets/textbook1_extracted/*
 assets/textbook2_extracted/*
 EPS-TOPIK tdxfkg tlnkxzmz_2xt(npmxhvuw tdxfkg)(25.06.ionk).pdf
+
+# Environment variables & sensitive files
+.env
+.env.local
+.env.*.local
+
+# Supabase sensitive files
+js/supabase-config.js
+supabase/*.key
+service-key.json
+*.service.role.key
+
+# Private folders
+private/
+secrets/
+
+# Logs may contain sensitive data
+*.log
+npm-debug.log*

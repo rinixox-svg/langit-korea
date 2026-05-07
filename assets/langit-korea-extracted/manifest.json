@@ -1,0 +1,199 @@
+{
+  "total_unit": 27,
+  "units": [
+    {
+      "unit": 31,
+      "gambar": 74,
+      "jawaban_r": 3,
+      "jawaban_l": 0,
+      "skrip": 0
+    },
+    {
+      "unit": 32,
+      "gambar": 50,
+      "jawaban_r": 3,
+      "jawaban_l": 0,
+      "skrip": 0
+    },
+    {
+      "unit": 33,
+      "gambar": 49,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 0
+    },
+    {
+      "unit": 34,
+      "gambar": 38,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 0
+    },
+    {
+      "unit": 35,
+      "gambar": 54,
+      "jawaban_r": 3,
+      "jawaban_l": 0,
+      "skrip": 0
+    },
+    {
+      "unit": 36,
+      "gambar": 50,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 0
+    },
+    {
+      "unit": 37,
+      "gambar": 56,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 5
+    },
+    {
+      "unit": 38,
+      "gambar": 45,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 5
+    },
+    {
+      "unit": 39,
+      "gambar": 75,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 3
+    },
+    {
+      "unit": 40,
+      "gambar": 58,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 1
+    },
+    {
+      "unit": 41,
+      "gambar": 40,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 2
+    },
+    {
+      "unit": 42,
+      "gambar": 44,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 2
+    },
+    {
+      "unit": 43,
+      "gambar": 50,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 2
+    },
+    {
+      "unit": 44,
+      "gambar": 31,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 5
+    },
+    {
+      "unit": 45,
+      "gambar": 63,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 5
+    },
+    {
+      "unit": 47,
+      "gambar": 47,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 0
+    },
+    {
+      "unit": 48,
+      "gambar": 26,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 0
+    },
+    {
+      "unit": 49,
+      "gambar": 49,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 4
+    },
+    {
+      "unit": 50,
+      "gambar": 40,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 5
+    },
+    {
+      "unit": 51,
+      "gambar": 28,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 0
+    },
+    {
+      "unit": 52,
+      "gambar": 45,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 0
+    },
+    {
+      "unit": 53,
+      "gambar": 6,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 0
+    },
+    {
+      "unit": 54,
+      "gambar": 22,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 5
+    },
+    {
+      "unit": 55,
+      "gambar": 56,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 5
+    },
+    {
+      "unit": 57,
+      "gambar": 24,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 0
+    },
+    {
+      "unit": 59,
+      "gambar": 44,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 0
+    },
+    {
+      "unit": 60,
+      "gambar": 30,
+      "jawaban_r": 0,
+      "jawaban_l": 0,
+      "skrip": 5
+    }
+  ],
+  "struktur_folder": {
+    "unit_XX/": "folder per unit",
+    "unit_XX/data.json": "teks + metadata + posisi gambar + jawaban + skrip",
+    "unit_XX/images/": "semua gambar diekstrak"
+  }
+}

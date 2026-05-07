@@ -1,0 +1,40 @@
+대화 CONVERSATION
+213
+반장님 조립할 때 쓸 부품하고 공구는 준비됐어요?
+Are the parts and tools ready for assembly?
+마 두 네, 볼트하고 너트, 토크 렌치를 준비해 놓았습니다.
+그리고 이게 오늘 조립할 기계의 도면입니다.
+그런데 반장님, 여기 있는 토크 값이 뭐예요?
+Y es, I’ve prepared the bolts, nuts, and torque wrench,
+and here is the blueprint for today’s machine assembly.
+By the way, what does the torque value here mean?
+반장님 볼트를 돌릴 때 들어가는 힘을 말해요. 여기 있는
+토크 값대로 조여야 볼트가 파손되지 않아요.
+I t refers to the amount of force needed to tighten the bolt. You must tighten it according to the torque value
+to not damage the bolt.
+마 두 아, 그래서 토크 렌치가 있어야 되네요.
+Ah, so that’s why the torque wrench is necessary.
+반장님 네, 맞아요. 토크 렌치가 있으면 토크 값을 미리 설정해서 볼트를 조일 수 있어요.
+Y es, with the torque wrench, you can set the torque value in advance and tighten the bolt accordingly.
+마 두 아, 이제 이해했습니다. 그럼 도면을 보면서 토크 값을 먼저 확인하겠습니다.
+I understand now. I will check the torque value first while reading the blueprint.
+대답해 봐요! ANSWER ME!
+1 오 늘 조립 작업에 필요한 부품과 공구는 뭐예요?
+What are the parts and tools needed for today’s assembly work?
+2 토 크 렌치의 기능은 뭐예요? What is the function of a torque wrench?
+제시된 표현을 활용하여 대화해 보세요.P ractice speaking using the provided expressions.
+•도 면을 보다, 기계 부품을 조립하다, 스패너
+•기 계를 분해하다, 고장 원인을 찾다, 육각 렌치
+가 : 지금 무슨 작업을 하고 있어요?
+나 : 도면을 보면서 기계 부품을 조립하고 있어요.
+가 : 무슨 공구로 작업하고 있어요?
+나 : 스패너로 작업하고 있어요.
+발음 │ PRONUNCIATION
+214
+받침 ‘ㅄ, ㄵ, ㄼ’ 뒤에 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’가 연결되는 경우, 겹자음 중 앞의 것만 발음하고 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’는 된소리로
+발음한다.
+When ‘ㅄ, ㄵ, ㄼ’ are followed by ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’, only the first consonant of the cluster is pronounced,
+and ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’ are pronounced as tense sounds.
+⑴ 값지다[갑찌다] 앉자[안짜] 얹고[언꼬]
+⑵ 넓다[널따] 여덟 개[여덜깨]
+38 기계 조립 MACHINE ASSEMBLY 89

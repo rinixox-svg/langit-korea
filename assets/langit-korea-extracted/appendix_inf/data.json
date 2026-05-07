@@ -1,0 +1,26 @@
+{
+  "unit": "inf",
+  "title_ko": "고용허가제 정보",
+  "title_id": "Info EPS-TOPIK",
+  "file": "appendix-info.pdf",
+  "total_halaman": 3,
+  "halaman": {
+    "hal1": {
+      "kategori": "vocab",
+      "chars": 1097,
+      "gambar_count": 6
+    },
+    "hal2": {
+      "kategori": "grammar",
+      "chars": 590,
+      "gambar_count": 5
+    },
+    "hal3": {
+      "kategori": "conversation",
+      "chars": 4,
+      "gambar_count": 6
+    }
+  },
+  "soal": [],
+  "gambar_soal": {}
+}

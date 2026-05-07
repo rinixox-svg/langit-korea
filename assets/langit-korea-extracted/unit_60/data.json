@@ -1,0 +1,132 @@
+{
+  "unit": 60,
+  "title_ko": "근로자 보험",
+  "title_id": "Asuransi Pekerja",
+  "file": "unit_60_workers_insurance.pdf",
+  "total_halaman": 10,
+  "halaman": {
+    "hal1": {
+      "kategori": "vocab",
+      "chars": 897,
+      "gambar_count": 8
+    },
+    "hal2": {
+      "kategori": "grammar",
+      "chars": 952,
+      "gambar_count": 5
+    },
+    "hal3": {
+      "kategori": "conversation",
+      "chars": 1740,
+      "gambar_count": 3
+    },
+    "hal4": {
+      "kategori": "vocab",
+      "chars": 973,
+      "gambar_count": 8
+    },
+    "hal5": {
+      "kategori": "grammar",
+      "chars": 1056,
+      "gambar_count": 1
+    },
+    "hal6": {
+      "kategori": "conversation",
+      "chars": 1833,
+      "gambar_count": 3
+    },
+    "hal7": {
+      "kategori": "culture",
+      "chars": 2436,
+      "gambar_count": 0
+    },
+    "hal8": {
+      "kategori": "soal_membaca",
+      "chars": 953,
+      "gambar_count": 2
+    },
+    "hal9": {
+      "kategori": "soal_listening",
+      "chars": 868,
+      "gambar_count": 0
+    }
+  },
+  "soal": [
+    {
+      "id": "u60_m1",
+      "nomor": 1,
+      "tipe": "membaca",
+      "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "pilihan_a": "벼를 베으려면 낫이 있어야 돼요.",
+      "pilihan_b": "철사를 펴으려면 플라이어가 필요해요.",
+      "pilihan_c": "체류 기간을 연장해려면 신청서를 내야 돼요.",
+      "pilihan_d": "보험금을 받으려면 통장 사본을 주셔야 해요.",
+      "jawaban": "d",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u60_m2",
+      "nomor": 2,
+      "tipe": "membaca",
+      "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n일을 하다가 허리를 다쳐서 지난달부터 회사에 나가지 못하고 있습니다. 일을 못 하고 있지만 산재보험에\n가입돼 있어서 을/를 받을 수 있다고 합니다.",
+      "pilihan_a": "퇴직금",
+      "pilihan_b": "휴업 급여",
+      "pilihan_c": "실업 급여",
+      "pilihan_d": "체불 임금",
+      "jawaban": "b",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u60_m3",
+      "nomor": 3,
+      "tipe": "membaca",
+      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n19:30",
+      "pilihan_a": "자야 씨는 지금 고향에 있습니다.\n귀국하기 전에 보험금 신청을 해야 한다",
+      "pilihan_b": "아궁 씨는 출국예정신고를 해야 합니다.\n면서? 내일 나랑 보험사에 같이 가자.\n자야",
+      "pilihan_c": "자야 씨는 보험금 신청서를 준비해야 합니다.\n어제 출국예정신고를 했다고 했지? 그럼",
+      "pilihan_d": "아궁 씨는 출국예정사실 확인서를 가지고 올 겁니다.\n내일 출국예정사실 확인서하고 보험금\n아궁\n신청서 꼭 가지고 와.",
+      "jawaban": "c",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u60_m4",
+      "nomor": 4,
+      "tipe": "membaca",
+      "teks_soal": "다음은 무엇에 대한 설명입니까?\n사고가 나거나 질병에 걸렸을 때를 대비해 매달 보험사에 내는 돈입니다.",
+      "pilihan_a": "보상금",
+      "pilihan_b": "보험료",
+      "pilihan_c": "의료비",
+      "pilihan_d": "퇴직금",
+      "jawaban": "b",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "id": "u60_m5",
+      "nomor": 5,
+      "tipe": "membaca",
+      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n고용허가제로 입국하는 모든 외국인 근로자는 4대 사회보험과 외국인 근로자 전용 보험에 가입해야\n합니다. 4대 사회보험 중 산재보험은 사업주만 가입하면 되지만 국민연금, 건강보험, 고용보험은\n사업주와 근로자가 같이 가입해야 합니다. 그리고 외국인 근로자 전용 보험 중 귀국비용보험과\n상해보험은 외국인 근로자만 가입할 수 있습니다.",
+      "pilihan_a": "산재보험은 근로자도 가입할 수 있습니다.",
+      "pilihan_b": "사업주는 4대 사회보험 모두 가입해야 합니다.",
+      "pilihan_c": "근로자는 외국인 근로자 전용 보험만 가입하면 됩니다.",
+      "pilihan_d": "고용보험과 상해보험은 외국인 근로자 전용 보험입니다.",
+      "jawaban": "b",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    }
+  ],
+  "gambar_soal": {}
+}

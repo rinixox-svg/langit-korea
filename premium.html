@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langit Korea - Premium</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --langit-utama: #A0D2FF;
+            --langit-aksen: #FFD19A;
+            --langit-bg: #F0F4F8;
+            --langit-hijau: #4CAF82;
+            --langit-merah: #E05C5C;
+            --langit-abu: #D0D0D0;
+            --langit-biru-muda: #D1E8FF;
+            --teks-utama: #1E2A3A;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--langit-bg);
+            color: var(--teks-utama);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .back-btn {
+            background: white;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 8px 12px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 20px;
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        .hero-card {
+            background: linear-gradient(135deg, var(--langit-utama), var(--langit-aksen));
+            border-radius: 20px;
+            padding: 30px 24px;
+            text-align: center;
+            color: #000;
+            margin-bottom: 24px;
+            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.3);
+        }
+
+        .hero-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .hero-subtitle {
+            font-size: 14px;
+            opacity: 0.8;
+            line-height: 1.5;
+        }
+
+        .features-card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .features-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .feature-item:last-child {
+            border-bottom: none;
+        }
+
+        .feature-icon {
+            font-size: 24px;
+            min-width: 32px;
+        }
+
+        .feature-text h3 {
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+        .feature-text p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+
+        .unlock-card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .unlock-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+
+        .unlock-option {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            border: 2px solid var(--langit-biru-muda);
+        }
+
+        .unlock-option h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: var(--langit-utama);
+        }
+
+        .unlock-option p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+            margin-bottom: 12px;
+        }
+
+        .btn-unlock {
+            background-color: var(--langit-aksen);
+            color: #000;
+            font-size: 14px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.2s;
+        }
+
+        .btn-unlock:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn-primary {
+            background-color: var(--langit-utama);
+            color: #000;
+            font-size: 18px;
+            padding: 16px;
+            border: none;
+            border-radius: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            margin-bottom: 12px;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+        }
+
+        .note {
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+            line-height: 1.4;
+            margin-top: 16px;
+        }
+
+        .premium-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #FFD700, #FFA500);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <button class="back-btn" onclick="window.location.href='home.html'">←</button>
+        <h1>👑 Premium</h1>
+        <div style="width: 40px;"></div>
+    </div>
+
+    <div class="hero-card">
+        <div class="premium-badge">✨ PREMIUM</div>
+        <div class="hero-title">Buka Akses Penuh</div>
+        <div class="hero-subtitle">
+            Dapatkan semua soal EPS-TOPIK (60 bab), simulasi lengkap, dan evaluasi detail untuk memaksimalkan peluang kelulusan kamu.
+        </div>
+    </div>
+
+    <div class="features-card">
+        <div class="features-title">🎁 Fasilitas Premium</div>
+
+        <div class="feature-item">
+            <div class="feature-icon">📚</div>
+            <div class="feature-text">
+                <h3>60 Bab Penuh</h3>
+                <p>Semua soal EPS-TOPIK dari Bab 1 sampai Bab 60 (bukan cuma 18 bab)</p>
+            </div>
+        </div>
+
+        <div class="feature-item">
+            <div class="feature-icon">⏱️</div>
+            <div class="feature-text">
+                <h3>Simulasi Lengkap</h3>
+                <p>40 soal format asli dengan timer 50 menit dan hasil evaluasi detail</p>
+            </div>
+        </div>
+
+        <div class="feature-item">
+            <div class="feature-icon">📊</div>
+            <div class="feature-text">
+                <h3>Evaluasi Detail</h3>
+                <p>Breakdown nilai per bagian, rekomendasi belajar, dan analisis kelemahan</p>
+            </div>
+        </div>
+
+        <div class="feature-item">
+            <div class="feature-icon">🤖</div>
+            <div class="feature-text">
+                <h3>AI Writing Feedback</h3>
+                <p>Koreksi tulisan bahasa Korea kamu dengan bantuan AI Claude API</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="unlock-card">
+        <div class="unlock-title">🔓 Cara Unlock Premium</div>
+
+        <div class="unlock-option">
+            <h3>📺 Tonton Video YouTube</h3>
+            <p>Tonton video edukasi Langit Korea (min. 40 detik untuk video pendek, 8 menit untuk video panjang)</p>
+            <button class="btn-unlock" onclick="alert('Fitur ini akan terhubung ke YouTube API.')">
+                Saya Sudah Tonton ✅
+            </button>
+        </div>
+
+        <div class="unlock-option">
+            <h3>💰 Bayar Terjangkau</h3>
+            <p>Pembayaran sekali untuk akses selamanya (harga akan diumumkan nanti)</p>
+            <button class="btn-unlock" onclick="alert('Fitur pembayaran akan tersedia segera.')">
+                Bayar Sekarang 💳
+            </button>
+        </div>
+    </div>
+
+    <button class="btn-primary" onclick="window.location.href='home.html'">
+        ← Kembali ke Home
+    </button>
+
+    <div class="note">
+        💡 Tips: Sistem "Tonton Video" bersifat honor-based untuk MVP. Kami percaya kamu jujur dan ingin belajar sungguh-sungguh.
+    </div>
+
+    <script>
+        // Cek status premium user (dari Supabase)
+        const isPremium = localStorage.getItem('user_status') === 'premium';
+
+        if (isPremium) {
+            document.querySelector('.hero-title').textContent = 'Kamu Sudah Premium! ✨';
+            document.querySelector('.hero-subtitle').textContent =
+                'Nikmati semua fasilitas premium untuk maksimalkan persiapan EPS-TOPIK kamu.';
+        }
+    </script>
+</body>
+</html>
