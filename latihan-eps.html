@@ -3,330 +3,356 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Langit Korea - Latihan EPS-TOPIK</title>
+    <title>Langit Korea - Latihan EPS</title>
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Supabase Client -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase-config.js"></script>
+
     <style>
         :root {
-            --langit-utama: #A0D2FF;
-            --langit-aksen: #FFD19A;
-            --langit-bg: #F0F4F8;
-            --langit-hijau: #4CAF82;
-            --langit-merah: #E05C5C;
-            --langit-abu: #D0D0D0;
-            --langit-biru-muda: #D1E8FF;
+            --langit-biru: #4A90D9;
+            --langit-fajar: #FF8C61;
+            --putih-bersih: #F8F9FF;
             --teks-utama: #1E2A3A;
+            --teks-sekunder: #6B7A8D;
+            --hijau-berhasil: #4CAF82;
+            --merah-salah: #E05C5C;
+            --kuning-sedang: #F5A623;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: var(--langit-bg);
+            background-color: var(--putih-bersih);
             color: var(--teks-utama);
-            min-height: 100vh;
             padding: 20px;
+            max-width: 480px;
+            margin: 0 auto;
         }
 
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
+        .header { text-align: center; margin-bottom: 20px; }
+        .logo { font-size: 24px; font-weight: 700; color: var(--langit-biru); }
+        .subtitle { font-size: 14px; color: var(--teks-sekunder); margin-top: 5px; }
 
-        .back-btn {
-            background: white;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-            padding: 8px 12px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
+        .progress-bar { height: 8px; background: #E0E0E0; border-radius: 4px; margin: 20px 0; overflow: hidden; }
+        .progress-fill { height: 100%; background: var(--langit-biru); width: 0%; transition: width 0.5s ease; }
 
-        h1 {
-            font-size: 20px;
-            text-align: center;
-            flex-grow: 1;
-        }
-
-        .progress-container {
-            background: white;
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-        }
-
-        .progress-label {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 8px;
-            font-size: 14px;
-            color: #666;
-        }
-
-        .progress-bar {
-            height: 10px;
-            background: var(--langit-abu);
-            border-radius: 5px;
-            overflow: hidden;
-        }
-
-        .progress-fill {
-            height: 100%;
-            background: var(--langit-utama);
-            width: 25%;
-            border-radius: 5px;
-            transition: width 0.5s ease;
-        }
-
-        .card {
+        /* Pilihan Bab */
+        .bab-selector {
             background: white;
             border-radius: 16px;
-            padding: 24px;
-            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
             margin-bottom: 20px;
         }
 
-        .question-number {
-            font-size: 14px;
-            color: #666;
+        .bab-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 8px;
+            margin-top: 15px;
+        }
+
+        .bab-btn {
+            padding: 10px 0;
+            border: 2px solid #E0E0E0;
+            border-radius: 8px;
+            background: white;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .bab-btn:hover, .bab-btn.active {
+            background: var(--langit-biru);
+            color: white;
+            border-color: var(--langit-biru);
+        }
+
+        /* Kartu Soal */
+        .soal-card {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 8px 24px rgba(74, 144, 217, 0.15);
+            margin-bottom: 20px;
+        }
+
+        .soal-info {
+            font-size: 12px;
+            color: var(--teks-sekunder);
             margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
         }
 
-        .question-text {
+        .soal-teks {
             font-size: 18px;
-            line-height: 1.6;
+            font-weight: 600;
             margin-bottom: 20px;
-            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.5;
         }
 
-        .options {
+        .soal-teks .korean {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 20px;
+            color: var(--langit-biru);
+        }
+
+        .pilihan-grid {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 10px;
         }
 
-        .option {
-            padding: 16px;
-            border: 2px solid var(--langit-biru-muda);
+        .pilihan-btn {
+            padding: 15px;
+            border: 2px solid #E0E0E0;
             border-radius: 12px;
             background: white;
             font-size: 16px;
+            text-align: left;
             cursor: pointer;
             transition: all 0.3s;
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
         }
 
-        .option:hover {
-            border-color: var(--langit-utama);
-            background: #f8fbff;
-        }
+        .pilihan-btn:hover { border-color: var(--langit-biru); }
+        .pilihan-btn .label { font-weight: 700; color: var(--langit-biru); }
 
-        .option.correct {
-            border-color: var(--langit-hijau);
-            background: #e8f5e9;
+        .pilihan-btn.correct {
+            background-color: var(--hijau-berhasil);
+            color: white;
+            border-color: var(--hijau-berhasil);
         }
+        .pilihan-btn.correct .label { color: white; }
 
-        .option.wrong {
-            border-color: var(--langit-merah);
-            background: #ffebee;
+        .pilihan-btn.wrong {
+            background-color: var(--merah-salah);
+            color: white;
+            border-color: var(--merah-salah);
         }
+        .pilihan-btn.wrong .label { color: white; }
 
-        .option-label {
-            font-weight: bold;
-            color: var(--langit-utama);
-            min-width: 30px;
-        }
-
-        .feedback {
-            margin-top: 20px;
-            padding: 16px;
+        .penjelasan {
+            margin-top: 15px;
+            padding: 15px;
+            background: #F8F9FF;
             border-radius: 12px;
+            font-size: 14px;
+            color: var(--teks-sekunder);
             display: none;
         }
 
-        .feedback.correct {
-            background: #e8f5e9;
-            border: 2px solid var(--langit-hijau);
-            display: block;
-        }
-
-        .feedback.wrong {
-            background: #ffebee;
-            border: 2px solid var(--langit-merah);
-            display: block;
-        }
-
-        .feedback-title {
-            font-weight: bold;
-            margin-bottom: 8px;
-        }
-
-        .btn-primary {
-            background-color: var(--langit-utama);
-            color: #000;
-            font-size: 18px;
-            padding: 16px;
-            border: none;
+        /* Navigasi */
+        .nav-buttons { display: flex; justify-content: space-between; margin-top: 20px; }
+        .btn {
+            padding: 12px 24px;
             border-radius: 12px;
-            font-weight: bold;
+            font-size: 16px;
+            font-weight: 600;
             cursor: pointer;
-            width: 100%;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border: none;
             transition: transform 0.2s;
-            margin-top: 10px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
         }
-
-        .btn-primary:hover {
-            transform: translateY(-2px);
-        }
-
-        .btn-primary:disabled {
-            background-color: var(--langit-abu);
-            cursor: not-allowed;
-        }
-
-        .hidden {
-            display: none;
-        }
+        .btn:hover { transform: translateY(-2px); }
+        .btn-prev { background: #E0E0E0; color: var(--teks-utama); }
+        .btn-next { background: var(--langit-biru); color: white; }
+        .hidden { display: none; }
     </style>
 </head>
 <body>
-    <div class="header">
-        <button class="back-btn" onclick="window.location.href='home.html'">←</button>
-        <h1>📖 Latihan EPS-TOPIK</h1>
-        <div style="width: 40px;"></div>
+
+<div class="header">
+    <div class="logo">🌌 Langit Korea</div>
+    <div class="subtitle">Latihan EPS-TOPIK</div>
+</div>
+
+<div class="progress-bar">
+    <div class="progress-fill" id="progressFill"></div>
+</div>
+
+<!-- Pilihan Bab -->
+<div id="babSelector" class="bab-selector">
+    <div style="font-weight:600; font-size:16px;">Pilih Bab (Unit)</div>
+    <div class="bab-grid" id="babGrid">
+        <!-- Diisi JS -->
     </div>
+    <button class="btn btn-next" style="margin-top:15px; width:100%;" onclick="startQuiz()">Mulai Latihan</button>
+</div>
 
-    <div class="progress-container">
-        <div class="progress-label">
-            <span>Progress Latihan</span>
-            <span id="progressText">Soal 1/10</span>
+<!-- Area Latihan -->
+<div id="quizArea" class="hidden">
+    <div class="soal-card">
+        <div class="soal-info">
+            <span id="soalBab">Bab 1</span>
+            <span id="soalCount">1/5</span>
         </div>
-        <div class="progress-bar">
-            <div class="progress-fill" id="progressFill"></div>
+        <div class="soal-teks">
+            <span id="soalTeks">Apa arti dari <span class="korean">안녕하세요?</span></span>
         </div>
-    </div>
-
-    <div class="card" id="questionCard">
-        <div class="question-number">Bab 1 - Membaca</div>
-        <div class="question-text" id="questionText">다음 중 '사과'의 뜻으로 알맞은 것은?</div>
-
-        <div class="options" id="optionsContainer">
-            <div class="option" onclick="checkAnswer(this, 'a')">
-                <span class="option-label">A</span>
-                <span>사과 (Apel)</span>
-            </div>
-            <div class="option" onclick="checkAnswer(this, 'b')">
-                <span class="option-label">B</span>
-                <span>배 (Pir)</span>
-            </div>
-            <div class="option" onclick="checkAnswer(this, 'c')">
-                <span class="option-label">C</span>
-                <span>포도 (Anggur)</span>
-            </div>
-            <div class="option" onclick="checkAnswer(this, 'd')">
-                <span class="option-label">D</span>
-                <span>바나나 (Pisang)</span>
-            </div>
+        <div class="pilihan-grid" id="pilihanGrid">
+            <!-- Diisi JS -->
         </div>
-
-        <div class="feedback" id="feedback">
-            <div class="feedback-title" id="feedbackTitle"></div>
-            <div id="feedbackText"></div>
+        <div class="penjelasan" id="penjelasan">
+            <!-- Diisi JS -->
         </div>
     </div>
 
-    <button class="btn-primary" id="nextBtn" onclick="nextQuestion()" disabled>
-        Lanjut ke Soal Berikutnya ➡️
-    </button>
+    <div class="nav-buttons">
+        <button class="btn btn-prev" onclick="prevSoal()">← Sebelumnya</button>
+        <button class="btn btn-next" onclick="nextSoal()">Lanjut →</button>
+    </div>
+</div>
 
-    <script>
-        // Data soal contoh (nanti diambil dari Supabase)
-        const soalData = [
-            {
-                bab: 1,
-                tipe: 'membaca',
-                soal: "다음 중 '사과'의 뜻으로 알맞은 것은?",
-                pilihan: ['사과 (Apel)', '배 (Pir)', '포도 (Anggur)', '바나나 (Pisang)'],
-                jawaban: 'a',
-                penjelasan: "'사과' (sa-gwa) berarti apel dalam bahasa Korea."
-            },
-            {
-                bab: 1,
-                tipe: 'membaca',
-                soal: "다음 중 '학교'의 뜻으로 알맞은 것은?",
-                pilihan: ['집 (Rumah)', '학교 (Sekolah)', '병원 (Rumah Sakit)', '회사 (Kantor)'],
-                jawaban: 'b',
-                penjelasan: "'학교' (hak-gyo) berarti sekolah dalam bahasa Korea."
-            }
-        ];
-
-        let currentQuestion = 0;
-        let answered = false;
-
-        function loadQuestion() {
-            const soal = soalData[currentQuestion];
-            document.getElementById('questionText').textContent = soal.soal;
-
-            const options = document.querySelectorAll('.option');
-            options.forEach((opt, idx) => {
-                opt.className = 'option';
-                opt.innerHTML = `<span class="option-label">${String.fromCharCode(65 + idx)}</span><span>${soal.pilihan[idx]}</span>`;
-                opt.onclick = () => checkAnswer(opt, String.fromCharCode(97 + idx));
-            });
-
-            // Update progress
-            const progress = ((currentQuestion + 1) / soalData.length) * 100;
-            document.getElementById('progressFill').style.width = progress + '%';
-            document.getElementById('progressText').textContent = `Soal ${currentQuestion + 1}/${soalData.length}`;
-
-            // Reset state
-            answered = false;
-            document.getElementById('feedback').className = 'feedback';
-            document.getElementById('nextBtn').disabled = true;
+<script>
+    // Data Dummy (Contoh Soal - Nanti diganti fetch dari Supabase)
+    const soalData = [
+        {
+            bab: 31,
+            teks: 'Apa arti dari <span class="korean">안녕하세요?</span>',
+            pilihan: [
+                { label: 'A', text: 'Terima kasih' },
+                { label: 'B', text: 'Selamat tinggal' },
+                { label: 'C', text: 'Apa kabar?' },
+                { label: 'D', text: 'Sampai jumpa' }
+            ],
+            jawaban: 'C',
+            penjelasan: '안녕하세요 (Annyeonghaseyo) artinya "Apa kabar?" atau "Halo". Biasanya digunakan untuk menyapa orang yang lebih tua atau formal.'
+        },
+        {
+            bab: 31,
+            teks: '<span class="korean">고기</span> artinya?',
+            pilihan: [
+                { label: 'A', text: 'Ikan' },
+                { label: 'B', text: 'Daging' },
+                { label: 'C', text: 'Sayur' },
+                { label: 'D', text: 'Buah' }
+            ],
+            jawaban: 'B',
+            penjelasan: '고기 (Gogi) artinya Daging. Contoh: 돼지고기 (Dwaeji-gogi - Daging babi).'
+        },
+        {
+            bab: 32,
+            teks: 'Bacaan: <span class="korean">도서관</span>',
+            pilihan: [
+                { label: 'A', text: 'Sekolah' },
+                { label: 'B', text: 'Kantor' },
+                { label: 'C', text: 'Perpustakaan' },
+                { label: 'D', text: 'Rumah Sakit' }
+            ],
+            jawaban: 'C',
+            penjelasan: '도서관 (Doseogwan) artinya Perpustakaan.'
         }
+    ];
 
-        function checkAnswer(element, answer) {
-            if (answered) return;
-            answered = true;
+    let currentSoal = 0;
+    let selectedBab = 31; // Default
 
-            const soal = soalData[currentQuestion];
-            const options = document.querySelectorAll('.option');
+    // Render Bab Grid
+    function renderBabGrid() {
+        const grid = document.getElementById('babGrid');
+        grid.innerHTML = '';
+        // Tampilkan 10 bab pertama sebagai contoh
+        for (let i = 31; i <= 40; i++) {
+            const btn = document.createElement('button');
+            btn.className = 'bab-btn' + (i === selectedBab ? ' active' : '');
+            btn.innerText = i;
+            btn.onclick = () => selectBab(i);
+            grid.appendChild(btn);
+        }
+    }
 
-            // Tampilkan jawaban benar
-            options.forEach((opt, idx) => {
-                if (String.fromCharCode(97 + idx) === soal.jawaban) {
-                    opt.classList.add('correct');
+    function selectBab(bab) {
+        selectedBab = bab;
+        renderBabGrid(); // Re-render to update active state
+    }
+
+    function startQuiz() {
+        document.getElementById('babSelector').classList.add('hidden');
+        document.getElementById('quizArea').classList.remove('hidden');
+        currentSoal = 0;
+        loadSoal();
+    }
+
+    function loadSoal() {
+        const soal = soalData[currentSoal];
+        document.getElementById('soalBab').innerText = 'Bab ' + soal.bab;
+        document.getElementById('soalCount').innerText = (currentSoal + 1) + '/' + soalData.length;
+        document.getElementById('soalTeks').innerHTML = soal.teks;
+
+        const grid = document.getElementById('pilihanGrid');
+        grid.innerHTML = '';
+        soal.pilihan.forEach(p => {
+            const btn = document.createElement('button');
+            btn.className = 'pilihan-btn';
+            btn.innerHTML = `<span class="label">${p.label}</span> ${p.text}`;
+            btn.onclick = () => checkAnswer(btn, p.label, soal.jawaban, soal.penjelasan);
+            grid.appendChild(btn);
+        });
+
+        // Reset penjelasan
+        document.getElementById('penjelasan').style.display = 'none';
+
+        // Update progress
+        const progress = ((currentSoal + 1) / soalData.length) * 100;
+        document.getElementById('progressFill').style.width = progress + '%';
+    }
+
+    function checkAnswer(button, selected, correct, explanation) {
+        // Disable all buttons
+        document.querySelectorAll('.pilihan-btn').forEach(btn => {
+            btn.onclick = null;
+            btn.style.cursor = 'default';
+        });
+
+        if (selected === correct) {
+            button.classList.add('correct');
+        } else {
+            button.classList.add('wrong');
+            // Tampilkan yang benar
+            document.querySelectorAll('.pilihan-btn').forEach(btn => {
+                if(btn.innerText.includes(correct)) {
+                    btn.classList.add('correct');
                 }
             });
-
-            // Cek jawaban user
-            if (answer === soal.jawaban) {
-                element.classList.add('correct');
-                document.getElementById('feedback').className = 'feedback correct';
-                document.getElementById('feedbackTitle').textContent = '✅ Benar!';
-            } else {
-                element.classList.add('wrong');
-                document.getElementById('feedback').className = 'feedback wrong';
-                document.getElementById('feedbackTitle').textContent = '❌ Salah';
-            }
-
-            document.getElementById('feedbackText').textContent = soal.penjelasan;
-            document.getElementById('nextBtn').disabled = false;
         }
 
-        function nextQuestion() {
-            currentQuestion = (currentQuestion + 1) % soalData.length;
-            loadQuestion();
-        }
+        // Tampilkan penjelasan
+        const penjelasanEl = document.getElementById('penjelasan');
+        penjelasanEl.innerHTML = '<strong>Penjelasan:</strong> ' + explanation;
+        penjelasanEl.style.display = 'block';
+    }
 
-        // Inisialisasi
-        loadQuestion();
-    </script>
+    function nextSoal() {
+        if (currentSoal < soalData.length - 1) {
+            currentSoal++;
+            loadSoal();
+        } else {
+            alert('Latihan selesai! Kamu hebat! 🎉');
+            // Kembali ke home atau reset
+            window.location.href = 'home.html';
+        }
+    }
+
+    function prevSoal() {
+        if (currentSoal > 0) {
+            currentSoal--;
+            loadSoal();
+        }
+    }
+
+    // Init
+    renderBabGrid();
+</script>
+
 </body>
 </html>

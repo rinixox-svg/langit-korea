@@ -4,340 +4,377 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Langit Korea - Simulasi Ujian</title>
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Supabase Client -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase-config.js"></script>
+
     <style>
         :root {
-            --langit-utama: #A0D2FF;
-            --langit-aksen: #FFD19A;
-            --langit-bg: #F0F4F8;
-            --langit-hijau: #4CAF82;
-            --langit-merah: #E05C5C;
-            --langit-abu: #D0D0D0;
-            --langit-biru-muda: #D1E8FF;
+            --langit-biru: #4A90D9;
+            --langit-fajar: #FF8C61;
+            --putih-bersih: #F8F9FF;
             --teks-utama: #1E2A3A;
+            --teks-sekunder: #6B7A8D;
+            --hijau-berhasil: #4CAF82;
+            --merah-salah: #E05C5C;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: var(--langit-bg);
+            background-color: var(--putih-bersih);
             color: var(--teks-utama);
-            min-height: 100vh;
             padding: 20px;
+            max-width: 480px;
+            margin: 0 auto;
         }
 
-        .header {
+        .header { text-align: center; margin-bottom: 20px; }
+        .logo { font-size: 24px; font-weight: 700; color: var(--langit-biru); }
+        .subtitle { font-size: 14px; color: var(--teks-sekunder); margin-top: 5px; }
+
+        /* Timer & Info */
+        .exam-info {
+            background: white;
+            border-radius: 16px;
+            padding: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 20px;
         }
 
-        .back-btn {
-            background: white;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-            padding: 8px 12px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        h1 {
-            font-size: 20px;
-            text-align: center;
-            flex-grow: 1;
-        }
-
-        .timer-container {
-            background: white;
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        .timer-box {
             text-align: center;
         }
 
-        .timer {
-            font-size: 32px;
-            font-weight: bold;
-            color: var(--langit-utama);
-            margin-bottom: 8px;
-        }
+        .timer-label { font-size: 12px; color: var(--teks-sekunder); }
+        .timer { font-size: 28px; font-weight: 700; color: var(--langit-biru); }
+        .timer.warning { color: var(--langit-fajar); }
+        .timer.danger { color: var(--merah-salah); animation: blink 1s infinite; }
 
-        .timer-label {
-            font-size: 14px;
-            color: #666;
-        }
+        @keyframes blink { 50% { opacity: 0.5; } }
 
-        .progress-container {
-            background: white;
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-        }
+        .soal-counter { font-size: 14px; font-weight: 600; }
 
-        .progress-label {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 8px;
-            font-size: 14px;
-            color: #666;
-        }
-
-        .progress-bar {
-            height: 10px;
-            background: var(--langit-abu);
-            border-radius: 5px;
-            overflow: hidden;
-        }
-
-        .progress-fill {
-            height: 100%;
-            background: var(--langit-utama);
-            width: 5%;
-            border-radius: 5px;
-            transition: width 0.5s ease;
-        }
-
-        .card {
+        /* Soal Card */
+        .soal-card {
             background: white;
             border-radius: 16px;
-            padding: 24px;
-            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
+            padding: 20px;
+            box-shadow: 0 8px 24px rgba(74, 144, 217, 0.15);
             margin-bottom: 20px;
+            min-height: 200px;
         }
 
-        .question-number {
-            font-size: 14px;
-            color: #666;
+        .soal-number {
+            font-size: 12px;
+            color: var(--teks-sekunder);
             margin-bottom: 10px;
         }
 
-        .question-text {
+        .soal-teks {
             font-size: 18px;
-            line-height: 1.6;
+            font-weight: 600;
             margin-bottom: 20px;
-            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.5;
         }
 
-        .options {
+        .soal-teks .korean {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 20px;
+            color: var(--langit-biru);
+        }
+
+        .pilihan-grid {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 10px;
         }
 
-        .option {
-            padding: 16px;
-            border: 2px solid var(--langit-biru-muda);
+        .pilihan-btn {
+            padding: 15px;
+            border: 2px solid #E0E0E0;
             border-radius: 12px;
             background: white;
             font-size: 16px;
+            text-align: left;
             cursor: pointer;
             transition: all 0.3s;
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
         }
 
-        .option:hover {
-            border-color: var(--langit-utama);
-            background: #f8fbff;
-        }
+        .pilihan-btn:hover { border-color: var(--langit-biru); }
+        .pilihan-btn.selected { border-color: var(--langit-biru); background: #f0f7ff; }
+        .pilihan-btn .label { font-weight: 700; color: var(--langit-biru); }
 
-        .option.selected {
-            border-color: var(--langit-utama);
-            background: var(--langit-biru-muda);
-        }
-
-        .option-label {
-            font-weight: bold;
-            color: var(--langit-utama);
-            min-width: 30px;
-        }
-
-        .btn-primary {
-            background-color: var(--langit-utama);
-            color: #000;
-            font-size: 18px;
-            padding: 16px;
-            border: none;
-            border-radius: 12px;
-            font-weight: bold;
-            cursor: pointer;
-            width: 100%;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: transform 0.2s;
-            margin-top: 10px;
-        }
-
-        .btn-primary:hover {
-            transform: translateY(-2px);
-        }
-
-        .btn-primary:disabled {
-            background-color: var(--langit-abu);
-            cursor: not-allowed;
-        }
-
-        .warning {
-            background: #fff3e0;
-            border: 2px solid #FFD19A;
-            padding: 12px;
-            border-radius: 8px;
+        /* Navigasi Soal */
+        .nav-soal {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 8px;
             margin-bottom: 20px;
-            font-size: 14px;
-            color: #666;
         }
+
+        .nav-soal-btn {
+            padding: 8px 0;
+            border: 2px solid #E0E0E0;
+            border-radius: 8px;
+            background: white;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 12px;
+            transition: all 0.2s;
+        }
+
+        .nav-soal-btn:hover, .nav-soal-btn.active {
+            background: var(--langit-biru);
+            color: white;
+            border-color: var(--langit-biru);
+        }
+
+        .nav-soal-btn.answered {
+            background: var(--hijau-berhasil);
+            color: white;
+            border-color: var(--hijau-berhasil);
+        }
+
+        /* Tombol Bawah */
+        .action-buttons { display: flex; gap: 10px; margin-top: 20px; }
+        .btn {
+            flex: 1;
+            padding: 14px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            transition: transform 0.2s;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .btn:hover { transform: translateY(-2px); }
+        .btn-prev { background: #E0E0E0; color: var(--teks-utama); }
+        .btn-next { background: var(--langit-biru); color: white; }
+        .btn-submit { background: var(--langit-fajar); color: white; }
+
+        .hidden { display: none; }
     </style>
 </head>
 <body>
-    <div class="header">
-        <button class="back-btn" onclick="confirmExit()">←</button>
-        <h1>⏱️ Simulasi Ujian</h1>
-        <div style="width: 40px;"></div>
-    </div>
 
-    <div class="timer-container">
+<div class="header">
+    <div class="logo">🌌 Langit Korea</div>
+    <div class="subtitle">Simulasi EPS-TOPIK</div>
+</div>
+
+<div class="exam-info">
+    <div class="timer-box">
+        <div class="timer-label">Sisa Waktu</div>
         <div class="timer" id="timer">50:00</div>
-        <div class="timer-label">Waktu Tersisa</div>
     </div>
-
-    <div class="warning">
-        ⚠️ Simulasi ujian EPS-TOPIK: 40 soal (20 Membaca, 20 Mendengarkan), durasi 50 menit.
+    <div class="soal-counter">
+        <span id="currentSoal">1</span> / <span id="totalSoal">40</span>
     </div>
+</div>
 
-    <div class="progress-container">
-        <div class="progress-label">
-            <span>Progress Simulasi</span>
-            <span id="progressText">Soal 1/40</span>
-        </div>
-        <div class="progress-bar">
-            <div class="progress-fill" id="progressFill"></div>
-        </div>
+<!-- Navigasi Cepat -->
+<div class="nav-soal" id="navSoal">
+    <!-- Diisi JS -->
+</div>
+
+<!-- Area Soal -->
+<div class="soal-card">
+    <div class="soal-number">Soal <span id="soalNum">1</span> - <span id="soalTipe">Membaca</span></div>
+    <div class="soal-teks" id="soalTeks">
+        <!-- Diisi JS -->
     </div>
-
-    <div class="card" id="questionCard">
-        <div class="question-number">Bagian Membaca - Soal 1</div>
-        <div class="question-text" id="questionText">다음 글의 주제로 알맞은 것은?</div>
-
-        <div class="options" id="optionsContainer">
-            <div class="option" onclick="selectOption(this, 'a')">
-                <span class="option-label">A</span>
-                <span>한국어 공부</span>
-            </div>
-            <div class="option" onclick="selectOption(this, 'b')">
-                <span class="option-label">B</span>
-                <span>취미 생활</span>
-            </div>
-            <div class="option" onclick="selectOption(this, 'c')">
-                <span class="option-label">C</span>
-                <span>운동 방법</span>
-            </div>
-            <div class="option" onclick="selectOption(this, 'd')">
-                <span class="option-label">D</span>
-                <span>음식 요리</span>
-            </div>
-        </div>
+    <div class="pilihan-grid" id="pilihanGrid">
+        <!-- Diisi JS -->
     </div>
+</div>
 
-    <button class="btn-primary" id="nextBtn" onclick="nextQuestion()">
-        Lanjut ke Soal Berikutnya ➡️
-    </button>
+<div class="action-buttons">
+    <button class="btn btn-prev" onclick="prevSoal()">← Sebelumnya</button>
+    <button class="btn btn-next" onclick="nextSoal()">Lanjut →</button>
+</div>
 
-    <script>
-        let currentQuestion = 0;
-        let selectedOption = null;
-        let timeLeft = 50 * 60; // 50 minutes in seconds
-        let timerInterval;
+<button class="btn btn-submit" style="width:100%; margin-top:10px;" onclick="confirmSubmit()">🏁 Selesai & Submit</button>
 
-        // Data soal contoh (40 soal)
-        const totalQuestions = 40;
+<script>
+    // Konfigurasi Ujian
+    const TOTAL_SOAL = 40;
+    const DURASI_MENIT = 50;
 
-        function startTimer() {
-            timerInterval = setInterval(() => {
-                timeLeft--;
-                updateTimerDisplay();
-                if (timeLeft <= 0) {
-                    clearInterval(timerInterval);
-                    finishSimulation();
-                }
-            }, 1000);
-        }
+    let currentSoal = 0;
+    let waktuSisa = DURASI_MENIT * 60; // dalam detik
+    let timerInterval;
+    let jawabanUser = new Array(TOTAL_SOAL).fill(null); // [null, 'a', null, 'b', ...]
 
-        function updateTimerDisplay() {
-            const minutes = Math.floor(timeLeft / 60);
-            const seconds = timeLeft % 60;
-            document.getElementById('timer').textContent =
-                `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+    // Data Dummy (Nanti diganti fetch Supabase)
+    const soalData = [];
+    for (let i = 1; i <= TOTAL_SOAL; i++) {
+        soalData.push({
+            tipe: i <= 20 ? 'Membaca' : 'Mendengarkan',
+            teks: `Ini adalah soal nomor ${i}. Apa arti dari <span class="korean">안녕</span>?`,
+            pilihan: ['A. Halo', 'B. Terima kasih', 'C. Selamat tinggal', 'D. Sampai jumpa'],
+            jawaban: 'a'
+        });
+    }
 
-            // Change color when time is low
-            if (timeLeft < 300) { // Less than 5 minutes
-                document.getElementById('timer').style.color = var('--langit-merah');
-            }
-        }
-
-        function selectOption(element, option) {
-            // Remove previous selection
-            document.querySelectorAll('.option').forEach(opt => {
-                opt.classList.remove('selected');
-            });
-            // Add new selection
-            element.classList.add('selected');
-            selectedOption = option;
-        }
-
-        function nextQuestion() {
-            if (selectedOption === null && currentQuestion < totalQuestions - 1) {
-                alert('Silakan pilih jawaban terlebih dahulu!');
-                return;
-            }
-
-            currentQuestion++;
-            if (currentQuestion >= totalQuestions) {
-                finishSimulation();
-                return;
-            }
-
-            // Update display
-            document.getElementById('questionText').textContent = `Soal ${currentQuestion + 1} dari ${totalQuestions}`;
-            document.getElementById('progressText').textContent = `Soal ${currentQuestion + 1}/${totalQuestions}`;
-
-            // Update progress bar
-            const progress = ((currentQuestion + 1) / totalQuestions) * 100;
-            document.getElementById('progressFill').style.width = progress + '%';
-
-            // Reset selection
-            selectedOption = null;
-            document.querySelectorAll('.option').forEach(opt => {
-                opt.classList.remove('selected');
-            });
-        }
-
-        function finishSimulation() {
-            clearInterval(timerInterval);
-            // Save results to localStorage (in real app: save to Supabase)
-            localStorage.setItem('simulasi_selesai', 'true');
-            localStorage.setItem('skor_membaca', '15');
-            localStorage.setItem('skor_mendengar', '12');
-            localStorage.setItem('skor_total', '27');
-
-            // Redirect to results page
-            window.location.href = 'hasil-simulasi.html';
-        }
-
-        function confirmExit() {
-            if (confirm('Kamu yakin ingin keluar? Progress simulasi akan hilang.')) {
-                clearInterval(timerInterval);
-                window.location.href = 'home.html';
-            }
-        }
-
-        // Initialize
+    // Inisialisasi
+    function init() {
+        renderNavSoal();
+        loadSoal();
         startTimer();
+    }
+
+    // Timer
+    function startTimer() {
         updateTimerDisplay();
-    </script>
+        timerInterval = setInterval(() => {
+            waktuSisa--;
+            updateTimerDisplay();
+            if (waktuSisa <= 300) { // 5 menit terakhir
+                document.getElementById('timer').classList.add('warning');
+            }
+            if (waktuSisa <= 60) { // 1 menit terakhir
+                document.getElementById('timer').classList.remove('warning');
+                document.getElementById('timer').classList.add('danger');
+            }
+            if (waktuSisa <= 0) {
+                clearInterval(timerInterval);
+                alert('Waktu habis! Jawaban akan disubmit otomatis.');
+                submitExam();
+            }
+        }, 1000);
+    }
+
+    function updateTimerDisplay() {
+        const menit = Math.floor(waktuSisa / 60);
+        const detik = waktuSisa % 60;
+        document.getElementById('timer').innerText =
+            `${menit.toString().padStart(2, '0')}:${detik.toString().padStart(2, '0')}`;
+    }
+
+    // Render Navigasi
+    function renderNavSoal() {
+        const nav = document.getElementById('navSoal');
+        nav.innerHTML = '';
+        for (let i = 0; i < TOTAL_SOAL; i++) {
+            const btn = document.createElement('button');
+            btn.className = 'nav-soal-btn';
+            if (i === currentSoal) btn.classList.add('active');
+            if (jawabanUser[i] !== null) btn.classList.add('answered');
+            btn.innerText = i + 1;
+            btn.onclick = () => goToSoal(i);
+            nav.appendChild(btn);
+        }
+    }
+
+    // Load Soal
+    function loadSoal() {
+        const soal = soalData[currentSoal];
+        document.getElementById('soalNum').innerText = currentSoal + 1;
+        document.getElementById('totalSoal').innerText = TOTAL_SOAL;
+        document.getElementById('currentSoal').innerText = currentSoal + 1;
+        document.getElementById('soalTipe').innerText = soal.tipe;
+        document.getElementById('soalTeks').innerHTML = soal.teks;
+
+        const grid = document.getElementById('pilihanGrid');
+        grid.innerHTML = '';
+        soal.pilihan.forEach((p, idx) => {
+            const label = String.fromCharCode(65 + idx); // A, B, C, D
+            const btn = document.createElement('button');
+            btn.className = 'pilihan-btn' + (jawabanUser[currentSoal] === label.toLowerCase() ? ' selected' : '');
+            btn.innerHTML = `<span class="label">${label}</span> ${p}`;
+            btn.onclick = () => selectAnswer(label.toLowerCase());
+            grid.appendChild(btn);
+        });
+
+        renderNavSoal(); // Update active state
+    }
+
+    function selectAnswer(answer) {
+        jawabanUser[currentSoal] = answer;
+        loadSoal(); // Re-render to show selection
+    }
+
+    function nextSoal() {
+        if (currentSoal < TOTAL_SOAL - 1) {
+            currentSoal++;
+            loadSoal();
+        }
+    }
+
+    function prevSoal() {
+        if (currentSoal > 0) {
+            currentSoal--;
+            loadSoal();
+        }
+    }
+
+    function goToSoal(index) {
+        currentSoal = index;
+        loadSoal();
+    }
+
+    function confirmSubmit() {
+        const belumDijawab = jawabanUser.filter(j => j === null).length;
+        if (!confirm(`Kamu masih ada ${belumDijawab} soal yang belum dijawab. Yakin mau submit sekarang?`)) {
+            return;
+        }
+        submitExam();
+    }
+
+    async function submitExam() {
+        clearInterval(timerInterval);
+        alert('Mengirim hasil ujian... (Fitur simpan ke DB nanti diaktifkan)');
+
+        // Hitung skor
+        let skorMembaca = 0;
+        let skorMendengar = 0;
+
+        jawabanUser.forEach((jwb, idx) => {
+            if (jwb === soalData[idx].jawaban) {
+                if (idx < 20) skorMembaca++;
+                else skorMendengar++;
+            }
+        });
+
+        const totalSkor = skorMembaca + skorMendengar;
+        alert(`Hasil Ujian:\nSkor Membaca: ${skorMembaca}/20\nSkor Mendengar: ${skorMendengar}/20\nTotal: ${totalSkor}/40`);
+
+        // Simpan ke Supabase (Contoh)
+        /*
+        const { data: { user } } = await supabase.auth.getUser();
+        if (user) {
+            await supabase.from('simulasi_hasil').insert([
+                {
+                    user_id: user.id,
+                    skor_membaca: skorMembaca,
+                    skor_mendengar: skorMendengar,
+                    skor_total: totalSkor,
+                    total_soal: TOTAL_SOAL,
+                    durasi_detik: (DURASI_MENIT * 60) - waktuSisa
+                }
+            ]);
+        }
+        */
+
+        window.location.href = 'hasil-simulasi.html';
+    }
+
+    // Mulai
+    init();
+</script>
+
 </body>
 </html>

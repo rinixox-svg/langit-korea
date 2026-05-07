@@ -3,248 +3,449 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Langit Korea - Belajar Huruf Korea</title>
+    <title>Langit Korea - Belajar Huruf Korea (Lengkap)</title>
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Supabase Client -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase-config.js"></script>
+
     <style>
         :root {
-            --langit-utama: #A0D2FF;
-            --langit-aksen: #FFD19A;
-            --langit-bg: #F0F4F8;
-            --langit-hijau: #4CAF82;
-            --langit-merah: #E05C5C;
-            --langit-abu: #D0D0D0;
-            --langit-biru-muda: #D1E8FF;
+            --langit-biru: #4A90D9;
+            --langit-fajar: #FF8C61;
+            --putih-bersih: #F8F9FF;
             --teks-utama: #1E2A3A;
+            --teks-sekunder: #6B7A8D;
+            --hijau-berhasil: #4CAF82;
+            --merah-salah: #E05C5C;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: var(--langit-bg);
+            background-color: var(--putih-bersih);
             color: var(--teks-utama);
-            min-height: 100vh;
             padding: 20px;
+            max-width: 480px;
+            margin: 0 auto;
         }
 
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+        .header { text-align: center; margin-bottom: 20px; }
+        .logo { font-size: 24px; font-weight: 700; color: var(--langit-biru); }
+        .subtitle { font-size: 14px; color: var(--teks-sekunder); margin-top: 5px; }
+
+        .progress-bar { height: 8px; background: #E0E0E0; border-radius: 4px; margin: 20px 0; overflow: hidden; }
+        .progress-fill { height: 100%; background: var(--langit-biru); width: 5%; transition: width 0.5s ease; }
+
+        .section-title { font-size: 20px; font-weight: 700; margin-bottom: 20px; text-align: center; }
+
+        /* Kartu Huruf Grid */
+        .huruf-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
             margin-bottom: 20px;
         }
 
-        .back-btn {
-            background: white;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-            padding: 8px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        h1 {
-            font-size: 20px;
-            text-align: center;
-            flex-grow: 1;
-        }
-
-        .progress-container {
-            background: white;
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-        }
-
-        .progress-label {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 8px;
-            font-size: 14px;
-            color: #666;
-        }
-
-        .progress-bar {
-            height: 10px;
-            background: var(--langit-abu);
-            border-radius: 5px;
-            overflow: hidden;
-        }
-
-        .progress-fill {
-            height: 100%;
-            background: var(--langit-utama);
-            width: 10%;
-            border-radius: 5px;
-            transition: width 0.5s ease;
-        }
-
-        .card {
+        .huruf-card {
             background: white;
             border-radius: 16px;
-            padding: 24px;
-            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
+            padding: 15px;
+            box-shadow: 0 4px 12px rgba(74, 144, 217, 0.1);
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .huruf-card:hover { transform: translateY(-4px); }
+
+        .huruf-korea {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--langit-biru);
+        }
+
+        .huruf-roman {
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+
+        .huruf-contoh {
+            font-size: 12px;
+            color: var(--teks-sekunder);
+            margin-top: 4px;
+        }
+
+        /* Gabungan (Syllable) */
+        .gabungan-box {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 8px 24px rgba(74, 144, 217, 0.15);
             margin-bottom: 20px;
             text-align: center;
         }
 
-        .section-title {
-            font-size: 18px;
-            margin-bottom: 16px;
-            color: var(--teks-utama);
-        }
-
-        .korean-char {
+        .gabungan-demo {
             font-family: 'Noto Sans KR', sans-serif;
-            font-size: 80px;
+            font-size: 60px;
             font-weight: 700;
-            color: var(--langit-utama);
-            margin: 20px 0;
+            color: var(--langit-fajar);
+            margin: 15px 0;
         }
 
-        .romanization {
-            font-size: 24px;
-            color: #666;
-            margin-bottom: 10px;
+        .gabungan-text {
+            font-size: 16px;
+            color: var(--teks-sekunder);
         }
 
-        .example-word {
-            font-family: 'Noto Sans KR', sans-serif;
-            font-size: 18px;
-            margin: 10px 0;
-        }
-
-        .example-meaning {
-            font-size: 14px;
-            color: #666;
-        }
-
-        .btn-primary {
-            background-color: var(--langit-utama);
-            color: #000;
-            font-size: 18px;
-            padding: 16px;
-            border: none;
+        /* Navigasi */
+        .nav-buttons { display: flex; justify-content: space-between; margin-top: 20px; }
+        .btn {
+            padding: 12px 24px;
             border-radius: 12px;
-            font-weight: bold;
+            font-size: 16px;
+            font-weight: 600;
             cursor: pointer;
-            width: 100%;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border: none;
             transition: transform 0.2s;
-            margin-top: 10px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
         }
+        .btn:hover { transform: translateY(-2px); }
+        .btn-prev { background: #E0E0E0; color: var(--teks-utama); }
+        .btn-next { background: var(--langit-biru); color: white; }
 
-        .btn-primary:hover {
-            transform: translateY(-2px);
-        }
-
-        .checkpoint {
-            display: flex;
-            justify-content: space-around;
+        /* Latihan */
+        .quiz-container {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 8px 24px rgba(74, 144, 217, 0.15);
             margin-top: 20px;
         }
-
-        .checkpoint-btn {
-            padding: 12px 20px;
+        .quiz-question { font-size: 16px; font-weight: 600; margin-bottom: 15px; text-align: center; }
+        .options-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .option-btn {
+            padding: 15px;
+            border: 2px solid #E0E0E0;
             border-radius: 12px;
-            border: 2px solid var(--langit-abu);
             background: white;
+            font-size: 18px;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s;
         }
+        .option-btn:hover { border-color: var(--langit-biru); }
+        .option-btn.correct { background-color: var(--hijau-berhasil); color: white; border-color: var(--hijau-berhasil); }
+        .option-btn.wrong { background-color: var(--merah-salah); color: white; border-color: var(--merah-salah); }
 
-        .checkpoint-btn:hover {
-            border-color: var(--langit-utama);
+        /* Checkpoint */
+        .checkpoint { text-align: center; margin-top: 30px; }
+        .checkpoint-btn {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 16px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            border: 2px solid;
+            background: white;
         }
+        .btn-red { border-color: var(--merah-salah); color: var(--merah-salah); }
+        .btn-yellow { border-color: #F5A623; color: #F5A623; }
+        .btn-green { border-color: var(--hijau-berhasil); color: var(--hijau-berhasil); }
 
-        .red { color: var(--langit-merah); }
-        .yellow { color: #F5A623; }
-        .green { color: var(--langit-hijau); }
+        .hidden { display: none; }
     </style>
 </head>
 <body>
-    <div class="header">
-        <button class="back-btn" onclick="window.location.href='onboarding.html'">←</button>
-        <h1>🔤 Belajar Huruf Korea</h1>
-        <div style="width: 40px;"></div> <!-- Spacer -->
+
+<div class="header">
+    <div class="logo">🌌 Langit Korea</div>
+    <div class="subtitle">Level 0: Mengenal Huruf Korea (SNU Standard)</div>
+</div>
+
+<div class="progress-bar">
+    <div class="progress-fill" id="progressFill"></div>
+</div>
+
+<!-- Section 1: Vokal Dasar -->
+<div id="section-vokal" class="section">
+    <div class="section-title">Vokal Dasar (모음)</div>
+    <div class="huruf-grid" id="vokalGrid"></div>
+    <div class="nav-buttons">
+        <button class="btn btn-prev" disabled>← Sebelumnya</button>
+        <button class="btn btn-next" onclick="showSection('konsonan')">Lanjut Konsonan →</button>
+    </div>
+</div>
+
+<!-- Section 2: Konsonan Dasar -->
+<div id="section-konsonan" class="section hidden">
+    <div class="section-title">Konsonan Dasar (자음)</div>
+    <div class="huruf-grid" id="konsonanGrid"></div>
+    <div class="nav-buttons">
+        <button class="btn btn-prev" onclick="showSection('vokal')">← Kembali</button>
+        <button class="btn btn-next" onclick="showSection('gabungan')">Cara Penggabungan →</button>
+    </div>
+</div>
+
+<!-- Section 3: Cara Penggabungan (Syllable Formation) -->
+<div id="section-gabungan" class="section hidden">
+    <div class="section-title">Cara Penggabungan (Suku Kata)</div>
+
+    <div class="gabungan-box">
+        <p style="font-size:14px; color:var(--teks-sekunder);">Contoh: Konsonan + Vokal (C + V)</p>
+        <div class="gabungan-demo">ㄱ + ㅏ = 가</div>
+        <div class="gabungan-text">Bacaan: <strong>Ga</</strong>strong> (Artinya: Pergi - dari kata 가다)</div>
     </div>
 
-    <div class="progress-container">
-        <div class="progress-label">
-            <span>Progress Belajar</span>
-            <span id="progressText">1/10</span>
+    <div class="gabungan-box">
+        <p style="font-size:14px; color:var(--teks-sekunder);">Contoh: Konsonan (ㅇ) + Vokal</p>
+        <div class="gabungan-demo">ㅇ + ㅏ = 아</div>
+        <div class="gabungan-text">Bacaan: <strong>A</strong> (Contoh kata: 아기 - Bayi)</div>
+    </div>
+
+    <div class="gabungan-box">
+        <p style="font-size:14px; color:var(--teks-sekunder);">Gabungan 3 Huruf (C + V + C)</p>
+        <div class="gabungan-demo">한 (Han)</div>
+        <div class="gabungan-text">Bacaan: <strong>Han</strong> (Struktur: ㅎ+ㅏ+ㄴ)</div>
+    </div>
+
+    <div class="gabungan-box">
+        <p style="font-size:14px; color:var(--teks-sekunder);">Contoh Kata: 한국 (2 Suku Kata)</p>
+        <div class="gabungan-demo">한국 (Hanguk)</div>
+        <div class="gabungan-text">Bacaan: <strong>Han-guk</strong> (Artinya: Korea)</div>
+        <div style="font-size:12px; margin-top:8px; color:var(--teks-sekunder);">Struktur: (ㅎ+ㅏ+ㄴ) + (ㄱ+ㅜ+ㄱ)</div>
+    </div>
+
+    <div class="gabungan-box">
+        <p style="font-size:14px; color:var(--teks-sekunder);">Gabungan 4 Huruf (2 Suku Kata)</p>
+        <div class="gabungan-demo">한국어 (Hangugeo)</div>
+        <div class="gabungan-text">Bacaan: <strong>Han-guk-eo</strong> (Artinya: Bahasa Korea)</div>
+        <div style="font-size:12px; margin-top:8px; color:var(--teks-sekunder);">Struktur: (ㅎ+ㅏ+ㄴ) + (ㄱ+ㅜ+ㄱ) + (ㅇ+ㅓ)</div>
+    </div>
+
+    <p style="text-align:center; margin: 20px 0; font-weight:600;">Coba Gabungkan (Dasar):</p>
+    <div class="huruf-grid">
+        <div class="huruf-card" onclick="alert('ㄴ + ㅏ = 나 (Na)')">
+            <div class="huruf-korea">ㄴ + ㅏ</div>
+            <div class="huruf-roman">?</div>
         </div>
-        <div class="progress-bar">
-            <div class="progress-fill" id="progressFill"></div>
+        <div class="huruf-card" onclick="alert('ㅁ + ㅗ = 모 (Mo)')">
+            <div class="huruf-korea">ㅁ + ㅗ</div>
+            <div class="huruf-roman">?</div>
         </div>
     </div>
 
-    <div class="card">
-        <div class="section-title">Vokal Dasar</div>
-        <div class="korean-char" id="koreanChar">ㅏ</div>
-        <div class="romanization" id="romanization">a</div>
-        <div class="example-word" id="exampleWord">아기 (a-gi)</div>
-        <div class="example-meaning" id="exampleMeaning">Artinya: Bayi</div>
-    </div>
-
-    <button class="btn-primary" onclick="nextChar()">Lanjut Belajar ➡️</button>
-
-    <div class="card" style="margin-top: 20px;">
-        <div class="section-title">Kamu Sudah Paham?</div>
-        <div class="checkpoint">
-            <button class="checkpoint-btn red" onclick="setCheckpoint('belum')">🔴 Belum</button>
-            <button class="checkpoint-btn yellow" onclick="setCheckpoint('mulai')">🟡 Mulai Paham</button>
-            <button class="checkpoint-btn green" onclick="setCheckpoint('siap')">🟢 Siap Lanjut</button>
+    <p style="text-align:center; margin: 20px 0 10px; font-weight:600;">Coba Gabungkan (Lanjut - 3 Huruf):</p>
+    <div class="huruf-grid">
+        <div class="huruf-card" onclick="alert('ㅅ + ㅗ + ㄱ = 속 (Sok - Dalam)')">
+            <div class="huruf-korea">ㅅ+ㅗ+ㄱ</div>
+            <div class="huruf-roman">C+V+C (Sok)</div>
+        </div>
+        <div class="huruf-card" onclick="alert('ㅎ + ㅏ + ㄴ = 한 (Han)')">
+            <div class="huruf-korea">ㅎ+ㅏ+ㄴ</div>
+            <div class="huruf-roman">C+V+C (Han)</div>
         </div>
     </div>
 
-    <script>
-        // Data huruf Korea (Vokal dasar)
-        const hurufData = [
-            { char: 'ㅏ', roman: 'a', word: '아기 (a-gi)', meaning: 'Bayi' },
-            { char: 'ㅑ', roman: 'ya', word: '야구 (ya-gu)', meaning: 'Baseball' },
-            { char: 'ㅓ', roman: 'eo', word: '어머니 (eo-meo-ni)', meaning: 'Ibu' },
-            { char: 'ㅕ', roman: 'yeo', word: '여자 (yeo-ja)', meaning: 'Wanita' },
-            { char: 'ㅗ', roman: 'o', word: '오늘 (o-neul)', meaning: 'Hari ini' },
-            { char: 'ㅛ', roman: 'yo', word: '요리 (yo-ri)', meaning: 'Memasak' },
-            { char: 'ㅜ', roman: 'u', word: '우유 (u-yu)', meaning: 'Susu' },
-            { char: 'ㅠ', roman: 'yu', word: '유리 (yu-ri)', meaning: 'Kaca' },
-            { char: 'ㅡ', roman: 'eu', word: '그림 (geu-rim)', meaning: 'Lukisan' },
-            { char: 'ㅣ', roman: 'i', word: '이름 (i-reum)', meaning: 'Nama' }
-        ];
+    <p style="text-align:center; margin: 20px 0 10px; font-weight:600;">Coba Gabungkan (Lanjut - 4 Huruf):</p>
+    <div class="huruf-grid">
+        <div class="huruf-card" onclick="alert('ㅎ + ㅏ + ㄴ + ㅏ = 하나 (Hana - Satu)')">
+            <div class="huruf-korea">ㅎ+ㅏ+ㄴ+ㅏ</div>
+            <div class="huruf-roman">C+V+C+V (Hana)</div>
+        </div>
+        <div class="huruf-card" onclick="alert('ㄱ + ㅗ + ㄱ + ㅣ = 고기 (Gogi - Daging)')">
+            <div class="huruf-korea">ㄱ+ㅗ+ㄱ+ㅣ</div>
+            <div class="huruf-roman">C+V+C+V (Gogi)</div>
+        </div>
+    </div>
 
-        let currentIndex = 0;
+    <div class="nav-buttons">
+        <button class="btn btn-prev" onclick="showSection('konsonan')">← Kembali</button>
+        <button class="btn btn-next" onclick="showSection('latihan')">Mulai Latihan →</button>
+    </div>
+</div>
 
-        function updateDisplay() {
-            const data = hurufData[currentIndex];
-            document.getElementById('koreanChar').textContent = data.char;
-            document.getElementById('romanization').textContent = data.roman;
-            document.getElementById('exampleWord').textContent = data.word;
-            document.getElementById('exampleMeaning').textContent = 'Artinya: ' + data.meaning;
+<!-- Section 4: Latihan -->
+<div id="section-latihan" class="section hidden">
+    <div class="section-title">Latihan Cocokkan</div>
 
-            // Update progress
-            const progress = ((currentIndex + 1) / hurufData.length) * 100;
-            document.getElementById('progressFill').style.width = progress + '%';
-            document.getElementById('progressText').textContent = (currentIndex + 1) + '/' + hurufData.length;
-        }
+    <div class="quiz-container">
+        <div class="quiz-question">Huruf apakah ini: <span style="font-family: 'Noto Sans KR'; font-size: 24px;">ㅗ</span>?</div>
+        <div class="options-grid">
+            <button class="option-btn" onclick="checkAnswer(this, false, this)">A</button>
+            <button class="option-btn" onclick="checkAnswer(this, false, this)">E</button>
+            <button class="option-btn" onclick="checkAnswer(this, true, this)">O</button>
+            <button class="option-btn" onclick="checkAnswer(this, false, this)">U</button>
+        </div>
+        <p class="quiz-feedback" style="text-align:center; margin-top:10px; font-size:14px;"></p>
+    </div>
 
-        function nextChar() {
-            currentIndex = (currentIndex + 1) % hurufData.length;
-            updateDisplay();
-        }
+    <div class="quiz-container" style="margin-top:15px;">
+        <div class="quiz-question">Bacaan dari <span style="font-family: 'Noto Sans KR'; font-size: 24px;">ㄱ</span>?</div>
+        <div class="options-grid">
+            <button class="option-btn" onclick="checkAnswer(this, true, this)">G/K</button>
+            <button class="option-btn" onclick="checkAnswer(this, false, this)">N</button>
+            <button class="option-btn" onclick="checkAnswer(this, false, this)">D</button>
+            <button class="option-btn" onclick="checkAnswer(this, false, this)">L</button>
+        </div>
+        <p class="quiz-feedback" style="text-align:center; margin-top:10px; font-size:14px;"></p>
+    </div>
 
-        function setCheckpoint(status) {
-            alert('Kamu memilih: ' + status + '. Tetap semangat belajar! 💪');
-            if (status === 'siap') {
-                window.location.href = 'latihan-eps.html';
+    <div class="quiz-container" style="margin-top:15px;">
+        <div class="quiz-question">Gabungan: <span style="font-family: 'Noto Sans KR'; font-size: 24px;">한국</span> artinya?</div>
+        <div class="options-grid">
+            <button class="option-btn" onclick="checkAnswer(this, false, this)">Jepang</button>
+            <button class="option-btn" onclick="checkAnswer(this, true, this)">Korea</button>
+            <button class="option-btn" onclick="checkAnswer(this, false, this)">Cina</button>
+            <button class="option-btn" onclick="checkAnswer(this, false, this)">Amerika</button>
+        </div>
+        <p class="quiz-feedback" style="text-align:center; margin-top:10px; font-size:14px;"></p>
+    </div>
+
+    <div class="quiz-container" style="margin-top:15px;">
+        <div class="quiz-question">Bacaan <span style="font-family: 'Noto Sans KR'; font-size: 24px;">가다</span>?</div>
+        <div class="options-grid">
+            <button class="option-btn" onclick="checkAnswer(this, true, this)">Gada (Pergi)</button>
+            <button class="option-btn" onclick="checkAnswer(this, false, this)">Makan</button>
+            <button class="option-btn" onclick="checkAnswer(this, false, this)">Tidur</button>
+            <button class="option-btn" onclick="checkAnswer(this, false, this)">Minum</button>
+        </div>
+        <p class="quiz-feedback" style="text-align:center; margin-top:10px; font-size:14px;"></p>
+    </div>
+
+    <div class="nav-buttons">
+        <button class="btn btn-prev" onclick="showSection('gabungan')">← Kembali</button>
+        <button class="btn btn-next" onclick="showSection('checkpoint')">Selesai →</button>
+    </div>
+</div>
+
+<!-- Section 5: Checkpoint -->
+<div id="section-checkpoint" class="section hidden">
+    <div class="section-title">🔍 Checkpoint Belajar</div>
+    <p style="text-align:center; color: var(--teks-sekunder); margin-bottom:20px;">Seberapa paham kamu sekarang?</p>
+
+    <div class="checkpoint">
+        <button class="checkpoint-btn btn-red" onclick="setCheckpoint('belum')">🔴 Belum Siap<br><small>Saya masih bingung</small></button>
+        <button class="checkpoint-btn btn-yellow" onclick="setCheckpoint('mulai')">🟡 Mulai Paham<br><small>Masih perlu latihan lagi</small></button>
+        <button class="checkpoint-btn btn-green" onclick="setCheckpoint('siap')">🟢 Siap Lanjut!<br><small>Ayo ujian EPS-TOPIK!</small></button>
+    </div>
+</div>
+
+<script>
+    // Data Vokal (Ref: SNU Korean Level 1)
+    const vokalData = [
+        { char: 'ㅏ', roman: 'A', ex: '아기 (Agi - Bayi)' },
+        { char: 'ㅑ', roman: 'Ya', ex: '야구 (Yagu - Baseball)' },
+        { char: 'ㅓ', roman: 'Eo', ex: '어머니 (Eomeoni - Ibu)' },
+        { char: 'ㅕ', roman: 'Yeo', ex: '여자 (Yeoja - Wanita)' },
+        { char: 'ㅗ', roman: 'O', ex: '오늘 (Oneul - Hari ini)' },
+        { char: 'ㅛ', roman: 'Yo', ex: '요리 (Yori - Memasak)' },
+        { char: 'ㅜ', roman: 'U', ex: '우유 (Uyu - Susu)' },
+        { char: 'ㅠ', roman: 'Yu', ex: '유리 (Yuri - Kaca)' },
+        { char: 'ㅡ', roman: 'Eu', ex: '그림 (Geurim - Lukisan)' },
+        { char: 'ㅣ', roman: 'I', ex: '이름 (Ireum - Nama)' }
+    ];
+
+    // Data Konsonan (Ref: SNU Korean Level 1)
+    const konsonanData = [
+        { char: 'ㄱ', roman: 'G / K', ex: '고기 (Gogi - Daging)' },
+        { char: 'ㄴ', roman: 'N', ex: '나비 (Nabi - Kupu-kupu)' },
+        { char: 'ㄷ', roman: 'D / T', ex: '다리 (Dari - Jembatan)' },
+        { char: 'ㄹ', roman: 'R / L', ex: '라디오 (Radio - Radio)' },
+        { char: 'ㅁ', roman: 'M', ex: '머리 (Meori - Kepala)' },
+        { char: 'ㅂ', roman: 'B / P', ex: '바다 (Bada - Laut)' },
+        { char: 'ㅅ', roman: 'S', ex: '사과 (Sagwa - Apel)' },
+        { char: 'ㅇ', roman: 'Ng / Kosong', ex: '아기 (Agi - Bayi)' },
+        { char: 'ㅈ', roman: 'J', ex: '자다 (Jada - Tidur)' },
+        { char: 'ㅎ', roman: 'H', ex: '하늘 (Haneul - Langit)' }
+    ];
+
+    // Render Grid
+    function renderGrid(elementId, data) {
+        const grid = document.getElementById(elementId);
+        grid.innerHTML = '';
+        data.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'huruf-card';
+            card.innerHTML = `
+                <div class="huruf-korea">${item.char}</div>
+                <div class="huruf-roman">${item.roman}</div>
+                <div class="huruf-contoh">${item.ex}</div>
+            `;
+            grid.appendChild(card);
+        });
+    }
+
+    // Inisialisasi Grid
+    renderGrid('vokalGrid', vokalData);
+    renderGrid('konsonanGrid', konsonanData);
+
+    // Navigasi Section
+    function showSection(sectionName) {
+        document.querySelectorAll('.section').forEach(el => el.classList.add('hidden'));
+        document.getElementById('section-' + sectionName).classList.remove('hidden');
+
+        let progress = 0;
+        if (sectionName === 'vokal') progress = 5;
+        if (sectionName === 'konsonan') progress = 30;
+        if (sectionName === 'gabungan') progress = 60;
+        if (sectionName === 'latihan') progress = 85;
+        if (sectionName === 'checkpoint') progress = 100;
+
+        document.getElementById('progressFill').style.width = progress + '%';
+    }
+
+    // Quiz Logic - Diperbaiki agar bisa multiple quiz
+    function checkAnswer(button, isCorrect, context) {
+        // Cari container quiz terdekat
+        const quizContainer = context.closest('.quiz-container');
+        const feedback = quizContainer.querySelector('.quiz-feedback');
+
+        // Reset semua button di container ini saja
+        quizContainer.querySelectorAll('.option-btn').forEach(btn => {
+            btn.classList.remove('correct', 'wrong');
+        });
+
+        if (isCorrect) {
+            button.classList.add('correct');
+            if(feedback) {
+                feedback.innerText = "Benar! 🎉";
+                feedback.style.color = "var(--hijau-berhasil)";
+            }
+        } else {
+            button.classList.add('wrong');
+            if(feedback) {
+                feedback.innerText = "Coba lagi ya!";
+                feedback.style.color = "var(--merah-salah)";
             }
         }
+    }
 
-        // Inisialisasi
-        updateDisplay();
-    </script>
+    // Checkpoint
+    function setCheckpoint(status) {
+        localStorage.setItem('hangul_status', status);
+        if (status === 'siap') {
+            alert("Luar biasa! Kamu sudah siap lanjut ke EPS-TOPIK. Semangat! 🚀");
+            window.location.href = 'latihan-eps.html';
+        } else {
+            alert("Tidak apa-apa! Teruslah berlatih di sini sampai kamu merasa siap. Kamu pasti bisa! 💪");
+            window.location.href = 'home.html';
+        }
+    }
+
+    // Default show vokal
+    showSection('vokal');
+</script>
+
 </body>
 </html>

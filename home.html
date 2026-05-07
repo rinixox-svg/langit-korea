@@ -4,75 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Langit Korea - Home</title>
+
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase-config.js"></script>
+
     <style>
         :root {
-            --langit-utama: #A0D2FF;
-            --langit-aksen: #FFD19A;
-            --langit-bg: #F0F4F8;
-            --langit-hijau: #4CAF82;
-            --langit-merah: #E05C5C;
-            --langit-abu: #D0D0D0;
-            --langit-biru-muda: #D1E8FF;
+            --langit-biru: #4A90D9;
+            --langit-fajar: #FF8C61;
+            --putih-bersih: #F8F9FF;
             --teks-utama: #1E2A3A;
+            --teks-sekunder: #6B7A8D;
+            --hijau-berhasil: #4CAF82;
+            --merah-salah: #E05C5C;
+            --kuning-sedang: #F5A623;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: var(--langit-bg);
+            background-color: var(--putih-bersih);
             color: var(--teks-utama);
-            min-height: 100vh;
             padding: 20px;
+            max-width: 480px;
+            margin: 0 auto;
         }
 
-        .header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
+        .header { text-align: center; margin-bottom: 20px; }
+        .logo { font-size: 24px; font-weight: 700; color: var(--langit-biru); }
+        .welcome { font-size: 14px; color: var(--teks-sekunder); margin-top: 5px; }
 
-        .logo {
-            font-size: 28px;
-            font-weight: 700;
-            color: var(--langit-utama);
-            margin-bottom: 8px;
-        }
-
-        .welcome {
-            font-size: 16px;
-            color: #666;
-        }
-
+        /* Stats Card */
         .stats-card {
             background: white;
             border-radius: 16px;
             padding: 20px;
-            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
+            box-shadow: 0 8px 24px rgba(74, 144, 217, 0.2);
             margin-bottom: 20px;
             display: flex;
             justify-content: space-around;
         }
 
-        .stat-item {
-            text-align: center;
-        }
+        .stat-item { text-align: center; }
+        .stat-number { font-size: 24px; font-weight: 700; color: var(--langit-biru); }
+        .stat-label { font-size: 12px; color: var(--teks-sekunder); margin-top: 4px; }
 
-        .stat-number {
-            font-size: 24px;
-            font-weight: bold;
-            color: var(--langit-utama);
-        }
-
-        .stat-label {
-            font-size: 12px;
-            color: #666;
-            margin-top: 4px;
-        }
-
+        /* Menu Grid */
         .section-title {
             font-size: 18px;
-            font-weight: bold;
+            font-weight: 700;
             margin-bottom: 16px;
         }
 
@@ -101,24 +83,18 @@
 
         .menu-item:hover {
             transform: translateY(-4px);
-            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.3);
+            box-shadow: 0 8px 24px rgba(74, 144, 217, 0.3);
         }
 
-        .menu-icon {
-            font-size: 32px;
-            margin-bottom: 4px;
-        }
+        .menu-icon { font-size: 32px; }
+        .menu-label { font-size: 14px; font-weight: 600; }
 
-        .menu-label {
-            font-size: 14px;
-            font-weight: 600;
-        }
-
+        /* Target Card */
         .target-card {
             background: white;
             border-radius: 16px;
             padding: 20px;
-            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
+            box-shadow: 0 8px 24px rgba(74, 144, 217, 0.2);
             margin-bottom: 20px;
         }
 
@@ -129,22 +105,19 @@
             margin-bottom: 12px;
         }
 
-        .target-title {
-            font-size: 16px;
-            font-weight: bold;
-        }
-
+        .target-title { font-size: 16px; font-weight: 700; }
         .target-badge {
-            background: var(--langit-biru-muda);
+            background: rgba(74, 144, 217, 0.1);
             padding: 4px 12px;
             border-radius: 20px;
             font-size: 12px;
             font-weight: 600;
+            color: var(--langit-biru);
         }
 
         .progress-bar {
             height: 10px;
-            background: var(--langit-abu);
+            background: #E0E0E0;
             border-radius: 5px;
             overflow: hidden;
             margin-bottom: 8px;
@@ -152,135 +125,143 @@
 
         .progress-fill {
             height: 100%;
-            background: var(--langit-utama);
-            width: 35%;
+            background: var(--langit-biru);
+            width: 35%; /* Default */
             border-radius: 5px;
             transition: width 0.5s ease;
         }
 
         .progress-text {
             font-size: 12px;
-            color: #666;
+            color: var(--teks-sekunder);
             text-align: right;
         }
 
+        /* Buttons */
         .btn-primary {
-            background-color: var(--langit-utama);
-            color: #000;
+            background-color: var(--langit-biru);
+            color: white;
             font-size: 18px;
             padding: 16px;
             border: none;
             border-radius: 12px;
-            font-weight: bold;
+            font-weight: 700;
             cursor: pointer;
             width: 100%;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             transition: transform 0.2s;
             margin-bottom: 12px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
         }
 
-        .btn-primary:hover {
-            transform: translateY(-2px);
-        }
+        .btn-primary:hover { transform: translateY(-2px); }
 
         .btn-secondary {
             background-color: white;
             color: var(--teks-utama);
             font-size: 16px;
             padding: 14px;
-            border: 2px solid var(--langit-abu);
+            border: 2px solid #E0E0E0;
             border-radius: 12px;
             font-weight: 600;
             cursor: pointer;
             width: 100%;
             transition: all 0.3s;
+            font-family: 'Plus Jakarta Sans', sans-serif;
         }
 
         .btn-secondary:hover {
-            border-color: var(--langit-utama);
+            border-color: var(--langit-biru);
             background: #f8fbff;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <div class="logo">🌌 Langit Korea</div>
-        <div class="welcome">Selamat datang, Pembelajar! 👋</div>
+
+<div class="header">
+    <div class="logo">🌌 Langit Korea</div>
+    <div class="welcome" id="welcomeText">Selamat datang! 👋</div>
+</div>
+
+<div class="stats-card">
+    <div class="stat-item">
+        <div class="stat-number" id="streakCount">5</div>
+        <div class="stat-label">Hari Streak</div>
     </div>
-
-    <div class="stats-card">
-        <div class="stat-item">
-            <div class="stat-number">5</div>
-            <div class="stat-label">Hari Streak</div>
-        </div>
-        <div class="stat-item">
-            <div class="stat-number">120</div>
-            <div class="stat-label">Soal Dikerjakan</div>
-        </div>
-        <div class="stat-item">
-            <div class="stat-number">70%</div>
-            <div class="stat-label">Persentase</div>
-        </div>
+    <div class="stat-item">
+        <div class="stat-number" id="soalCount">120</div>
+        <div class="stat-label">Soal Dikerjakan</div>
     </div>
-
-    <div class="menu-grid">
-        <a href="hangul-path.html" class="menu-item">
-            <div class="menu-icon">🔤</div>
-            <div class="menu-label">Belajar<br>Hangul</div>
-        </a>
-        <a href="latihan-eps.html" class="menu-item">
-            <div class="menu-icon">📖</div>
-            <div class="menu-label">Latihan<br>EPS</div>
-        </a>
-        <a href="listening.html" class="menu-item">
-            <div class="menu-icon">🎧</div>
-            <div class="menu-label">Latihan<br>Listening</div>
-        </a>
-        <a href="simulasi.html" class="menu-item">
-            <div class="menu-icon">⏱️</div>
-            <div class="menu-label">Simulasi<br>Ujian</div>
-        </a>
-        <a href="progress.html" class="menu-item">
-            <div class="menu-icon">📊</div>
-            <div class="menu-label">Progress<br>Belajar</div>
-        </a>
-        <a href="premium.html" class="menu-item">
-            <div class="menu-icon">👑</div>
-            <div class="menu-label">Premium<br>Access</div>
-        </a>
+    <div class="stat-item">
+        <div class="stat-number" id="skorPercent">70%</div>
+        <div class="stat-label">Persentase</div>
     </div>
+</div>
 
-    <div class="target-card">
-        <div class="target-header">
-            <div class="target-title">🎯 Target Hari Ini</div>
-            <div class="target-badge">35% Selesai</div>
-        </div>
-        <div class="progress-bar">
-            <div class="progress-fill"></div>
-        </div>
-        <div class="progress-text">7/20 soal EPS-TOPIK</div>
+<div class="menu-grid">
+    <a href="hangul-path.html" class="menu-item">
+        <div class="menu-icon">🔤</div>
+        <div class="menu-label">Belajar<br>Hangul</div>
+    </a>
+    <a href="latihan-eps.html" class="menu-item">
+        <div class="menu-icon">📖</div>
+        <div class="menu-label">Latihan<br>EPS</div>
+    </a>
+    <a href="listening.html" class="menu-item">
+        <div class="menu-icon">🎧</div>
+        <div class="menu-label">Latihan<br>Listening</div>
+    </a>
+    <a href="simulasi.html" class="menu-item">
+        <div class="menu-icon">⏱️</div>
+        <div class="menu-label">Simulasi<br>Ujian</div>
+    </a>
+    <a href="progress.html" class="menu-item">
+        <div class="menu-icon">📊</div>
+        <div class="menu-label">Progress<br>Belajar</div>
+    </a>
+    <a href="premium.html" class="menu-item">
+        <div class="menu-icon">👑</div>
+        <div class="menu-label">Premium<br>Access</div>
+    </a>
+</div>
+
+<div class="target-card">
+    <div class="target-header">
+        <div class="target-title">🎯 Target Hari Ini</div>
+        <div class="target-badge" id="targetBadge">35% Selesai</div>
     </div>
+    <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+    <div class="progress-text" id="progressText">7/20 soal EPS-TOPIK</div>
+</div>
 
-    <button class="btn-primary" onclick="window.location.href='latihan-eps.html'">
-        🚀 Lanjutkan Latihan
-    </button>
+<button class="btn-primary" onclick="window.location.href='latihan-eps.html'">
+    🚀 Lanjutkan Latihan
+</button>
 
-    <button class="btn-secondary" onclick="window.location.href='premium.html'">
-        👑 Upgrade ke Premium
-    </button>
+<button class="btn-secondary" onclick="window.location.href='premium.html'">
+    👑 Upgrade ke Premium
+</button>
 
-    <script>
-        // Cek status login (nanti integrasi dengan Supabase Auth)
-        console.log('Home page loaded');
+<script>
+    // Load user data dari localStorage (atau Supabase nanti)
+    document.addEventListener('DOMContentLoaded', function() {
+        const nama = localStorage.getItem('user_nama') || 'Pembelajar';
+        document.getElementById('welcomeText').innerText = `Selamat datang, ${nama}! 👋`;
 
-        // Contoh: Update statistik dari localStorage
+        // Simulasi data (nanti ambil dari Supabase)
         const streak = localStorage.getItem('streak') || 5;
         const totalSoal = localStorage.getItem('total_soal') || 120;
 
-        // Update tampilan jika ada data
-        if (streak) {
-            document.querySelectorAll('.stat-number')[0].textContent = streak;
-        }
-    </script>
+        document.getElementById('streakCount').innerText = streak;
+        document.getElementById('soalCount').innerText = totalSoal;
+
+        // Update progress bar target
+        const progress = 35; // 7 dari 20
+        document.getElementById('progressFill').style.width = progress + '%';
+    });
+</script>
+
 </body>
 </html>

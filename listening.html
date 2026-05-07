@@ -3,289 +3,347 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Langit Korea - Latihan Mendengarkan</title>
+    <title>Langit Korea - Latihan Listening</title>
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Supabase Client -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabase-config.js"></script>
+
     <style>
         :root {
-            --langit-utama: #A0D2FF;
-            --langit-aksen: #FFD19A;
-            --langit-bg: #F0F4F8;
-            --langit-hijau: #4CAF82;
-            --langit-merah: #E05C5C;
-            --langit-abu: #D0D0D0;
-            --langit-biru-muda: #D1E8FF;
+            --langit-biru: #4A90D9;
+            --langit-fajar: #FF8C61;
+            --putih-bersih: #F8F9FF;
             --teks-utama: #1E2A3A;
+            --teks-sekunder: #6B7A8D;
+            --hijau-berhasil: #4CAF82;
+            --merah-salah: #E05C5C;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: var(--langit-bg);
+            background-color: var(--putih-bersih);
             color: var(--teks-utama);
-            min-height: 100vh;
             padding: 20px;
+            max-width: 480px;
+            margin: 0 auto;
         }
 
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
+        .header { text-align: center; margin-bottom: 20px; }
+        .logo { font-size: 24px; font-weight: 700; color: var(--langit-biru); }
+        .subtitle { font-size: 14px; color: var(--teks-sekunder); margin-top: 5px; }
 
-        .back-btn {
-            background: white;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-            padding: 8px 12px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
+        .progress-bar { height: 8px; background: #E0E0E0; border-radius: 4px; margin: 20px 0; overflow: hidden; }
+        .progress-fill { height: 100%; background: var(--langit-biru); width: 0%; transition: width 0.5s ease; }
 
-        h1 {
-            font-size: 20px;
-            text-align: center;
-            flex-grow: 1;
-        }
-
-        .card {
+        /* Audio Player */
+        .audio-card {
             background: white;
             border-radius: 16px;
-            padding: 24px;
-            box-shadow: 0 8px 24px rgba(160, 210, 255, 0.2);
-            margin-bottom: 20px;
-        }
-
-        .audio-player {
-            background: #f8f9fa;
-            border-radius: 12px;
             padding: 20px;
-            text-align: center;
+            box-shadow: 0 8px 24px rgba(74, 144, 217, 0.15);
             margin-bottom: 20px;
-        }
-
-        .play-btn {
-            width: 64px;
-            height: 64px;
-            border-radius: 50%;
-            border: none;
-            background-color: var(--langit-utama);
-            color: #000;
-            font-size: 24px;
-            cursor: pointer;
-            transition: transform 0.2s;
-            margin-bottom: 12px;
-        }
-
-        .play-btn:hover {
-            transform: scale(1.05);
+            text-align: center;
         }
 
         .audio-info {
-            font-size: 14px;
-            color: #666;
+            font-size: 12px;
+            color: var(--teks-sekunder);
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
         }
 
-        .question-text {
-            font-size: 18px;
-            line-height: 1.6;
+        .audio-player {
+            width: 100%;
+            margin-bottom: 15px;
+            /* Styling the audio element */
+            filter: sepia(1) hue-rotate(190deg) saturate(2) contrast(0.8);
+        }
+
+        .btn-play {
+            background-color: var(--langit-biru);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .btn-play:hover { transform: translateY(-2px); }
+
+        /* Soal Card */
+        .soal-card {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 8px 24px rgba(74, 144, 217, 0.15);
             margin-bottom: 20px;
-            font-family: 'Noto Sans KR', sans-serif;
         }
 
-        .options {
+        .soal-info {
+            font-size: 12px;
+            color: var(--teks-sekunder);
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .soal-teks {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .soal-teks .korean {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 20px;
+            color: var(--langit-biru);
+        }
+
+        .pilihan-grid {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 10px;
         }
 
-        .option {
-            padding: 16px;
-            border: 2px solid var(--langit-biru-muda);
+        .pilihan-btn {
+            padding: 15px;
+            border: 2px solid #E0E0E0;
             border-radius: 12px;
             background: white;
             font-size: 16px;
+            text-align: left;
             cursor: pointer;
             transition: all 0.3s;
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
         }
 
-        .option:hover {
-            border-color: var(--langit-utama);
-            background: #f8fbff;
-        }
+        .pilihan-btn:hover { border-color: var(--langit-biru); }
+        .pilihan-btn .label { font-weight: 700; color: var(--langit-biru); }
 
-        .option.correct {
-            border-color: var(--langit-hijau);
-            background: #e8f5e9;
+        .pilihan-btn.correct {
+            background-color: var(--hijau-berhasil);
+            color: white;
+            border-color: var(--hijau-berhasil);
         }
+        .pilihan-btn.correct .label { color: white; }
 
-        .option.wrong {
-            border-color: var(--langit-merah);
-            background: #ffebee;
+        .pilihan-btn.wrong {
+            background-color: var(--merah-salah);
+            color: white;
+            border-color: var(--merah-salah);
         }
+        .pilihan-btn.wrong .label { color: white; }
 
-        .option-label {
-            font-weight: bold;
-            color: var(--langit-utama);
-            min-width: 30px;
-        }
-
-        .feedback {
-            margin-top: 20px;
-            padding: 16px;
+        .penjelasan {
+            margin-top: 15px;
+            padding: 15px;
+            background: #F8F9FF;
             border-radius: 12px;
+            font-size: 14px;
+            color: var(--teks-sekunder);
             display: none;
         }
 
-        .feedback.correct {
-            background: #e8f5e9;
-            border: 2px solid var(--langit-hijau);
-            display: block;
-        }
-
-        .feedback.wrong {
-            background: #ffebee;
-            border: 2px solid var(--langit-merah);
-            display: block;
-        }
-
-        .btn-primary {
-            background-color: var(--langit-utama);
-            color: #000;
-            font-size: 18px;
-            padding: 16px;
-            border: none;
+        /* Navigasi */
+        .nav-buttons { display: flex; justify-content: space-between; margin-top: 20px; }
+        .btn {
+            padding: 12px 24px;
             border-radius: 12px;
-            font-weight: bold;
+            font-size: 16px;
+            font-weight: 600;
             cursor: pointer;
-            width: 100%;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border: none;
             transition: transform 0.2s;
-            margin-top: 10px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
         }
-
-        .btn-primary:hover {
-            transform: translateY(-2px);
-        }
-
-        .btn-primary:disabled {
-            background-color: var(--langit-abu);
-            cursor: not-allowed;
-        }
+        .btn:hover { transform: translateY(-2px); }
+        .btn-prev { background: #E0E0E0; color: var(--teks-utama); }
+        .btn-next { background: var(--langit-biru); color: white; }
+        .hidden { display: none; }
     </style>
 </head>
 <body>
-    <div class="header">
-        <button class="back-btn" onclick="window.location.href='home.html'">←</button>
-        <h1>🎧 Latihan Mendengarkan</h1>
-        <div style="width: 40px;"></div>
+
+<div class="header">
+    <div class="logo">🌌 Langit Korea</div>
+    <div class="subtitle">Latihan Mendengarkan (Listening)</div>
+</div>
+
+<div class="progress-bar">
+    <div class="progress-fill" id="progressFill"></div>
+</div>
+
+<!-- Audio Player Section -->
+<div class="audio-card">
+    <div class="audio-info">
+        <span id="audioStatus">Bab 31 - Listening 1</span>
+        <span id="audioTime">00:30</span>
     </div>
+    <!-- Audio Player (Source akan diambil dari Supabase Storage) -->
+    <audio id="audioPlayer" class="audio-player" controls>
+        <source src="https://example.com/audio/unit31_listening1.mp3" type="audio/mpeg">
+        Browser kamu tidak mendukung audio player.
+    </audio>
+    <p style="font-size:12px; color:var(--teks-sekunder); margin-top:10px;">Dengarkan audio dengan saksama, lalu jawab soal di bawah.</p>
+</div>
 
-    <div class="card">
-        <div class="audio-player">
-            <button class="play-btn" id="playBtn" onclick="toggleAudio()">▶</button>
-            <div class="audio-info">Klik untuk memutar audio (durasi: 10 detik)</div>
-            <div class="audio-info" id="audioStatus">Belum diputar</div>
-        </div>
-
-        <div class="question-text" id="questionText">다음 대화를 듣고 알맞은 대답을 고르십시오.</div>
-
-        <div class="options" id="optionsContainer">
-            <div class="option" onclick="checkAnswer(this, 'a')">
-                <span class="option-label">A</span>
-                <span>네, 좋아요.</span>
-            </div>
-            <div class="option" onclick="checkAnswer(this, 'b')">
-                <span class="option-label">B</span>
-                <span>아니요, 바빠요.</span>
-            </div>
-            <div class="option" onclick="checkAnswer(this, 'c')">
-                <span class="option-label">C</span>
-                <span>감사합니다.</span>
-            </div>
-            <div class="option" onclick="checkAnswer(this, 'd')">
-                <span class="option-label">D</span>
-                <span>죄송합니다.</span>
-            </div>
-        </div>
-
-        <div class="feedback" id="feedback">
-            <div class="feedback-title" id="feedbackTitle"></div>
-            <div id="feedbackText">Jawaban yang benar adalah B. "아니요, 바빠요" (Tidak, saya sibuk).</div>
-        </div>
+<!-- Soal Section -->
+<div class="soal-card">
+    <div class="soal-info">
+        <span id="soalNumber">Soal 1/3</span>
+        <span>Tipe: Mendengarkan</span>
     </div>
+    <div class="soal-teks">
+        <span id="soalTeks">Apa arti dari ucapan tersebut?</span>
+    </div>
+    <div class="pilihan-grid" id="pilihanGrid">
+        <!-- Diisi JS -->
+    </div>
+    <div class="penjelasan" id="penjelasan">
+        <!-- Diisi JS -->
+    </div>
+</div>
 
-    <button class="btn-primary" id="nextBtn" onclick="nextQuestion()" disabled>
-        Lanjut ke Soal Berikutnya ➡️
-    </button>
+<div class="nav-buttons">
+    <button class="btn btn-prev" onclick="prevSoal()">← Sebelumnya</button>
+    <button class="btn btn-next" onclick="nextSoal()">Lanjut →</button>
+</div>
 
-    <script>
-        let audioPlaying = false;
-        let answered = false;
-
-        function toggleAudio() {
-            const btn = document.getElementById('playBtn');
-            const status = document.getElementById('audioStatus');
-
-            if (!audioPlaying) {
-                btn.textContent = '⏸';
-                status.textContent = 'Sedang diputar...';
-                audioPlaying = true;
-                // Di aplikasi nyata, gunakan: new Audio('url-audio.mp3').play()
-                setTimeout(() => {
-                    btn.textContent = '▶';
-                    status.textContent = 'Pemutaran selesai';
-                    audioPlaying = false;
-                }, 3000);
-            } else {
-                btn.textContent = '▶';
-                status.textContent = 'Dijeda';
-                audioPlaying = false;
-            }
+<script>
+    // Data Dummy Listening (Nanti diganti fetch dari Supabase)
+    const soalData = [
+        {
+            bab: 31,
+            audio_url: 'https://example.com/audio/unit31_1.mp3', // Ganti dengan URL Supabase Storage
+            teks: 'Apa arti dari ucapan tersebut?',
+            pilihan: [
+                { label: 'A', text: 'Terima kasih' },
+                { label: 'B', text: 'Selamat tinggal' },
+                { label: 'C', text: 'Apa kabar?' },
+                { label: 'D', text: 'Sampai jumpa' }
+            ],
+            jawaban: 'C',
+            penjelasan: 'Audio tersebut berisi "안녕하세요" (Annyeonghaseyo) yang artinya "Apa kabar?" atau "Halo".'
+        },
+        {
+            bab: 31,
+            audio_url: 'https://example.com/audio/unit31_2.mp3',
+            teks: 'Kapan dia berangkat?',
+            pilihan: [
+                { label: 'A', text: 'Pagi' },
+                { label: 'B', text: 'Siang' },
+                { label: 'C', text: 'Sore' },
+                { label: 'D', text: 'Malam' }
+            ],
+            jawaban: 'A',
+            penjelasan: 'Dalam audio disebutkan "아침" (Achim) yang artinya Pagi.'
+        },
+        {
+            bab: 32,
+            audio_url: 'https://example.com/audio/unit32_1.mp3',
+            teks: 'Di mana dia bekerja?',
+            pilihan: [
+                { label: 'A', text: 'Sekolah' },
+                { label: 'B', text: 'Kantor' },
+                { label: 'C', text: 'Pabrik' },
+                { label: 'D', text: 'Rumah' }
+            ],
+            jawaban: 'C',
+            penjelasan: 'Terdengar kata "공장" (Gongjang) yang artinya Pabrik.'
         }
+    ];
 
-        function checkAnswer(element, answer) {
-            if (answered) return;
-            answered = true;
+    let currentSoal = 0;
 
-            const correctAnswer = 'b';
+    function loadSoal() {
+        const soal = soalData[currentSoal];
 
-            // Tampilkan jawaban benar
-            document.querySelectorAll('.option').forEach((opt, idx) => {
-                if (String.fromCharCode(97 + idx) === correctAnswer) {
-                    opt.classList.add('correct');
+        // Update Audio
+        const audioPlayer = document.getElementById('audioPlayer');
+        audioPlayer.src = soal.audio_url; // Ganti dengan URL asli jika ada
+        document.getElementById('audioStatus').innerText = `Bab ${soal.bab} - Listening ${currentSoal + 1}`;
+
+        // Update Soal
+        document.getElementById('soalNumber').innerText = `Soal ${currentSoal + 1}/${soalData.length}`;
+        document.getElementById('soalTeks').innerText = soal.teks;
+
+        // Render Pilihan
+        const grid = document.getElementById('pilihanGrid');
+        grid.innerHTML = '';
+        soal.pilihan.forEach(p => {
+            const btn = document.createElement('button');
+            btn.className = 'pilihan-btn';
+            btn.innerHTML = `<span class="label">${p.label}</span> ${p.text}`;
+            btn.onclick = () => checkAnswer(btn, p.label, soal.jawaban, soal.penjelasan);
+            grid.appendChild(btn);
+        });
+
+        // Reset penjelasan
+        document.getElementById('penjelasan').style.display = 'none';
+
+        // Update progress
+        const progress = ((currentSoal + 1) / soalData.length) * 100;
+        document.getElementById('progressFill').style.width = progress + '%';
+    }
+
+    function checkAnswer(button, selected, correct, explanation) {
+        // Disable all buttons
+        document.querySelectorAll('.pilihan-btn').forEach(btn => {
+            btn.onclick = null;
+            btn.style.cursor = 'default';
+        });
+
+        if (selected === correct) {
+            button.classList.add('correct');
+        } else {
+            button.classList.add('wrong');
+            // Tampilkan yang benar
+            document.querySelectorAll('.pilihan-btn').forEach(btn => {
+                if(btn.innerText.includes(correct)) {
+                    btn.classList.add('correct');
                 }
             });
-
-            // Cek jawaban user
-            if (answer === correctAnswer) {
-                element.classList.add('correct');
-                document.getElementById('feedback').className = 'feedback correct';
-                document.getElementById('feedbackTitle').textContent = '✅ Benar!';
-            } else {
-                element.classList.add('wrong');
-                document.getElementById('feedback').className = 'feedback wrong';
-                document.getElementById('feedbackTitle').textContent = '❌ Salah';
-            }
-
-            document.getElementById('nextBtn').disabled = false;
         }
 
-        function nextQuestion() {
-            alert('Soal berikutnya akan dimuat. (Integrasi dengan Supabase)');
-            // Reset state
-            answered = false;
-            document.querySelectorAll('.option').forEach(opt => {
-                opt.className = 'option';
-            });
-            document.getElementById('feedback').className = 'feedback';
-            document.getElementById('nextBtn').disabled = true;
+        // Tampilkan penjelasan
+        const penjelasanEl = document.getElementById('penjelasan');
+        penjelasanEl.innerHTML = '<strong>Penjelasan:</strong> ' + explanation;
+        penjelasanEl.style.display = 'block';
+    }
+
+    function nextSoal() {
+        if (currentSoal < soalData.length - 1) {
+            currentSoal++;
+            loadSoal();
+        } else {
+            alert('Latihan Listening selesai! 🎉');
+            window.location.href = 'home.html';
         }
-    </script>
+    }
+
+    function prevSoal() {
+        if (currentSoal > 0) {
+            currentSoal--;
+            loadSoal();
+        }
+    }
+
+    // Init
+    loadSoal();
+</script>
+
 </body>
 </html>

@@ -1,5 +1,6 @@
 -- =============================================
 -- SCRIPT SETUP ROW LEVEL SECURITY (RLS) - LANGIT KOREA
+-- Versi: Safe Re-run (Bisa dijalankan berkali-kali)
 -- Jalankan script ini di Supabase Dashboard > SQL Editor
 -- =============================================
 
@@ -10,7 +11,10 @@ ALTER TABLE progress_user ENABLE ROW LEVEL SECURITY;
 ALTER TABLE simulasi_hasil ENABLE ROW LEVEL SECURITY;
 
 -- 2. POLICY UNTUK TABEL users
--- User hanya bisa melihat dan mengupdate data mereka sendiri
+-- Hapus policy lama jika ada, lalu buat baru
+DROP POLICY IF EXISTS "User can view own profile" ON users;
+DROP POLICY IF EXISTS "User can update own profile" ON users;
+
 CREATE POLICY "User can view own profile"
 ON users FOR SELECT
 USING (auth.uid() = id);
@@ -20,18 +24,17 @@ ON users FOR UPDATE
 USING (auth.uid() = id);
 
 -- 3. POLICY UNTUK TABEL soal_eps
--- Semua user (termasuk yang belum login) bisa baca soal 'free'
+DROP POLICY IF EXISTS "Public can read free questions" ON soal_eps;
+
 CREATE POLICY "Public can read free questions"
 ON soal_eps FOR SELECT
 USING (akses = 'free');
 
--- Opsi tambahan: Jika ingin user login bisa baca semua soal (premium logic di client)
--- CREATE POLICY "Authenticated users can read all questions"
--- ON soal_eps FOR SELECT
--- USING (auth.role() = 'authenticated');
-
 -- 4. POLICY UNTUK TABEL progress_user
--- User hanya bisa insert/update progress milik sendiri
+DROP POLICY IF EXISTS "User can insert own progress" ON progress_user;
+DROP POLICY IF EXISTS "User can view own progress" ON progress_user;
+DROP POLICY IF EXISTS "User can update own progress" ON progress_user;
+
 CREATE POLICY "User can insert own progress"
 ON progress_user FOR INSERT
 WITH CHECK (auth.uid() = user_id);
@@ -45,7 +48,9 @@ ON progress_user FOR UPDATE
 USING (auth.uid() = user_id);
 
 -- 5. POLICY UNTUK TABEL simulasi_hasil
--- User hanya bisa melihat hasil simulasi mereka sendiri
+DROP POLICY IF EXISTS "User can view own results" ON simulasi_hasil;
+DROP POLICY IF EXISTS "User can insert own results" ON simulasi_hasil;
+
 CREATE POLICY "User can view own results"
 ON simulasi_hasil FOR SELECT
 USING (auth.uid() = user_id);
@@ -57,22 +62,15 @@ WITH CHECK (auth.uid() = user_id);
 -- =============================================
 -- STORAGE POLICY (UNTUK AUDIO MP3)
 -- =============================================
--- Pastikan bucket 'audio-listening' sudah dibuat di Storage
+DROP POLICY IF EXISTS "Authenticated users can download audio" ON storage.objects;
 
--- Hanya user login yang bisa download audio
 CREATE POLICY "Authenticated users can download audio"
 ON storage.objects FOR SELECT
 USING (bucket_id = 'audio-listening' AND auth.role() = 'authenticated');
 
 -- =============================================
--- CATATAN PENTING
+-- VERIFIKASI
 -- =============================================
--- 1. Jalankan script ini di Supabase Dashboard > SQL Editor
--- 2. Pastikan RLS sudah aktif di setiap tabel (centang hijau di Dashboard)
--- 3. Jangan gunakan SERVICE ROLE KEY di frontend, gunakan ANON KEY saja
--- 4. Test kebijakan dengan login sebagai user berbeda
-
--- VERIFIKASI: Cek apakah RLS sudah aktif
 SELECT tablename, rowsecurity
 FROM pg_tables
 WHERE schemaname = 'public'
