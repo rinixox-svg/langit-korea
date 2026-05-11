@@ -119,13 +119,14 @@
         </div>
 
         <script type="module">
-            import { navigateTo } from "./assets/js/utils.js";
-            import { loadProgress } from "./assets/js/utils.js";
+            import { supabase } from './assets/js/supabase.js';
+            import { checkAuthState } from './assets/js/auth.js';
+            import { navigateTo, loadProgress } from './assets/js/utils.js';
 
             window.navigateTo = navigateTo;
 
-            // ========== INIT ==========
-            (function init() {
+            (async function init() {
+                await checkAuthState();
                 loadProgressData();
             })();
 

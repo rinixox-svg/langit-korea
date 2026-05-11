@@ -848,6 +848,7 @@
 
             // ========== INIT ==========
             (async function init() {
+                await checkAuthState();
                 await loadQuestions();
             })();
         </script>

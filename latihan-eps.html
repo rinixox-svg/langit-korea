@@ -129,106 +129,18 @@
 
         <script type="module">
             import { supabase } from "./assets/js/supabase.js";
+            import { checkAuthState } from "./assets/js/auth.js";
             import { navigateTo } from "./assets/js/utils.js";
 
             window.navigateTo = navigateTo;
 
+            (async function init() {
+                await checkAuthState();
+                loadAllQuestions();
+            })();
+
             let allQuestions = [];
             let filteredQuestions = [];
-
-            // Dummy data untuk testing
-            const dummyQuestions = [
-                {
-                    id: "u31_r1",
-                    unit: 31,
-                    nomor: 1,
-                    tipe: "membaca",
-                    teks_soal: "(텍스트 한국어)",
-                    teks_soal_id: "(Teks Indonesia)",
-                    pilihan_a: "Pilihan A",
-                    pilihan_b: "Pilihan B",
-                    pilihan_c: "Pilihan C",
-                    pilihan_d: "Pilihan D",
-                    jawaban: "b",
-                    tingkat: "sedang",
-                    akses: "free",
-                    audio_url: null,
-                    penjelasan: "Penjelasan soal.",
-                },
-                {
-                    id: "u31_r2",
-                    unit: 31,
-                    nomor: 2,
-                    tipe: "membaca",
-                    teks_soal: "(텍스트 한국어)",
-                    teks_soal_id: "(Teks Indonesia)",
-                    pilihan_a: "Pilihan A",
-                    pilihan_b: "Pilihan B",
-                    pilihan_c: "Pilihan C",
-                    pilihan_d: "Pilihan D",
-                    jawaban: "c",
-                    tingkat: "mudah",
-                    akses: "free",
-                    audio_url: null,
-                    penjelasan: "Penjelasan soal.",
-                },
-                {
-                    id: "u31_l1",
-                    unit: 31,
-                    nomor: 1,
-                    tipe: "mendengarkan",
-                    teks_soal: "(텍스트 한국어)",
-                    teks_soal_id: "(Teks Indonesia)",
-                    pilihan_a: "Pilihan A",
-                    pilihan_b: "Pilihan B",
-                    pilihan_c: "Pilihan C",
-                    pilihan_d: "Pilihan D",
-                    jawaban: "a",
-                    tingkat: "sedang",
-                    akses: "free",
-                    audio_url: "https://example.com/audio.mp3",
-                    penjelasan: "Penjelasan soal.",
-                },
-                {
-                    id: "u32_r1",
-                    unit: 32,
-                    nomor: 1,
-                    tipe: "membaca",
-                    teks_soal: "(텍스트 한국어)",
-                    teks_soal_id: "(Teks Indonesia)",
-                    pilihan_a: "Pilihan A",
-                    pilihan_b: "Pilihan B",
-                    pilihan_c: "Pilihan C",
-                    pilihan_d: "Pilihan D",
-                    jawaban: "a",
-                    tingkat: "sulit",
-                    akses: "free",
-                    audio_url: null,
-                    penjelasan: "Penjelasan soal.",
-                },
-                {
-                    id: "u32_l1",
-                    unit: 32,
-                    nomor: 1,
-                    tipe: "mendengarkan",
-                    teks_soal: "(텍스트 한국어)",
-                    teks_soal_id: "(Teks Indonesia)",
-                    pilihan_a: "Pilihan A",
-                    pilihan_b: "Pilihan B",
-                    pilihan_c: "Pilihan C",
-                    pilihan_d: "Pilihan D",
-                    jawaban: "d",
-                    tingkat: "sedang",
-                    akses: "free",
-                    audio_url: "https://example.com/audio.mp3",
-                    penjelasan: "Penjelasan soal.",
-                },
-            ];
-
-            // ========== INIT ==========
-            document.addEventListener("DOMContentLoaded", () => {
-                loadAllQuestions();
-            });
 
             // ========== LOAD ALL QUESTIONS ==========
             async function loadAllQuestions() {

@@ -130,10 +130,16 @@
 
     <script type="module">
         import { supabase } from './assets/js/supabase.js';
-        import { navigateTo } from './assets/js/utils.js';
-        import { loadProgress, saveProgress } from './assets/js/utils.js';
+        import { checkAuthState, getCurrentUser } from './assets/js/auth.js';
+        import { navigateTo, loadProgress, saveProgress, showToast } from './assets/js/utils.js';
 
         window.navigateTo = navigateTo;
+        window.showToast = showToast;
+
+        (async function init() {
+            await checkAuthState();
+            await renderUnitGrid();
+        })();
 
         let currentUnit = null;
         let unitData = {};
@@ -701,9 +707,7 @@
         };
 
         // ========== INIT ==========
-        (async function init() {
-            await renderUnitGrid();
-        })();
+        window.markUnitComplete = function() {
     </script>
 </body>
 </html>

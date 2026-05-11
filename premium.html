@@ -111,15 +111,19 @@
         </div>
     </div>
 
-    <script type="module">
-        import { navigateTo } from './assets/js/utils.js';
-        import { showToast } from './assets/js/utils.js';
+        <script type="module">
+            import { checkAuthState } from './assets/js/auth.js';
+            import { navigateTo, showToast } from './assets/js/utils.js';
 
-        window.navigateTo = navigateTo;
+            window.navigateTo = navigateTo;
 
-        function showComingSoon() {
-            showToast('Fitur ini akan segera hadir! Stay tuned 🚀', 'info');
-        }
-    </script>
+            (async function init() {
+                await checkAuthState();
+            })();
+
+            function showComingSoon() {
+                showToast('Fitur ini akan segera hadir! Stay tuned 🚀', 'info');
+            }
+        </script>
 </body>
 </html>

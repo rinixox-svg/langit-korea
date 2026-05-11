@@ -103,24 +103,20 @@
     </div>
 
     <script type="module">
-        import { navigateTo } from './assets/js/utils.js';
-        import { logout, getCurrentUser } from './assets/js/auth.js';
-        import { loadProgress, saveProgress } from './assets/js/utils.js';
+        import { checkAuthState, getCurrentUser, logout } from './assets/js/auth.js';
+        import { navigateTo, loadProgress } from './assets/js/utils.js';
 
         window.navigateTo = navigateTo;
 
-        // Cek session & tampilkan nama user
         (async function init() {
+            await checkAuthState();
+
             const { data: { user } } = await getCurrentUser();
-            if (!user) {
-                navigateTo('onboarding.html');
-                return;
-            }
+            if (!user) return;
 
             const nama = user.user_metadata?.nama || user.email?.split('@')[0] || 'Pembelajar';
             document.getElementById('greeting').textContent = `Selamat datang, ${nama}!`;
 
-            // Load progress dari localStorage
             loadDashboardProgress();
         })();
 
@@ -146,12 +142,10 @@
             }
         }
 
-        async function handleLogout() {
+        window.handleLogout = async function() {
             await logout();
-            navigateTo('onboarding.html');
-        }
-
-        window.handleLogout = handleLogout;
+            window.location.href = 'onboarding.html';
+        };
     </script>
 </body>
 </html>

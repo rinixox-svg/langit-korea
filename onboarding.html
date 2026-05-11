@@ -174,6 +174,30 @@
                     </div>
 
                     <div class="form-group">
+                        <label class="form-label" for="regSekolah"
+                            >Sekolah / Institusi</label
+                        >
+                        <input
+                            type="text"
+                            id="regSekolah"
+                            class="form-input"
+                            placeholder="Nama sekolah atau institusi"
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="regTujuan"
+                            >Tujuan Belajar</label
+                        >
+                        <textarea
+                            id="regTujuan"
+                            class="form-input"
+                            rows="3"
+                            placeholder="Ceritakan tujuan kamu belajar bahasa Korea..."
+                        ></textarea>
+                    </div>
+
+                    <div class="form-group">
                         <label class="form-label" for="regLevel"
                             >Level Awal</label
                         >
@@ -256,11 +280,10 @@
         </div>
 
         <script type="module">
-            import { login, register } from "./assets/js/auth.js";
+            import { handleLogin, handleRegister, checkAuthState } from "./assets/js/auth.js";
             import { showToast } from "./assets/js/utils.js";
-            import { navigateTo } from "./assets/js/utils.js";
 
-            window.navigateTo = navigateTo;
+            checkAuthState();
 
             function switchTab(tab) {
                 document
@@ -279,94 +302,32 @@
 
             window.switchTab = switchTab;
 
-            async function handleLogin() {
-                const email = document
-                    .getElementById("loginEmail")
-                    .value.trim();
-                const password = document.getElementById("loginPassword").value;
-                const btn = document.getElementById("loginBtn");
-
-                if (!email || !password) {
-                    showToast("Silakan isi email dan kata sandi", "error");
-                    return;
-                }
-
-                btn.disabled = true;
-                btn.textContent = "Memuat...";
-
-                const result = await login(email, password);
-
+            window.handleLogin = async function() {
+                const result = await handleLogin();
                 if (result.success) {
                     showToast("Berhasil masuk!", "success");
-                    navigateTo("dashboard.html");
+                    window.location.href = "dashboard.html";
                 } else {
                     const errorDiv = document.getElementById("loginError");
-                    errorDiv.textContent =
-                        result.error ||
-                        "Gagal masuk. Periksa email dan kata sandi.";
+                    errorDiv.textContent = result.error || "Gagal masuk. Periksa email dan kata sandi.";
                     errorDiv.parentElement.classList.remove("hidden");
                     showToast("Gagal masuk", "error");
                 }
+            };
 
-                btn.disabled = false;
-                btn.textContent = "Masuk";
-            }
-
-            window.handleLogin = handleLogin;
-
-            async function handleRegister() {
-                const nama = document.getElementById("regNama").value.trim();
-                const email = document.getElementById("regEmail").value.trim();
-                const password = document.getElementById("regPassword").value;
-                const level = document.getElementById("regLevel").value;
-                const btn = document.getElementById("registerBtn");
-
-                if (!nama || !email || !password) {
-                    showToast("Silakan lengkapi semua field", "error");
-                    return;
-                }
-
-                if (password.length < 6) {
-                    showToast("Kata sandi minimal 6 karakter", "error");
-                    return;
-                }
-
-                btn.disabled = true;
-                btn.textContent = "Mendaftarkan...";
-
-                const result = await register(email, password, nama);
-
+            window.handleRegister = async function() {
+                const result = await handleRegister();
                 if (result.success) {
-                    showToast(
-                        "Akun berhasil dibuat! Silakan cek email untuk verifikasi.",
-                        "success",
-                    );
+                    showToast("Akun berhasil dibuat! Silakan masuk.", "success");
                     switchTab("login");
+                    document.getElementById("loginEmail").value = document.getElementById("regEmail").value;
                 } else {
                     const errorDiv = document.getElementById("registerError");
-                    errorDiv.textContent =
-                        result.error || "Gagal mendaftar. Silakan coba lagi.";
+                    errorDiv.textContent = result.error || "Gagal mendaftar. Silakan coba lagi.";
                     errorDiv.parentElement.classList.remove("hidden");
                     showToast("Gagal mendaftar", "error");
                 }
-
-                btn.disabled = false;
-                btn.textContent = "Buat Akun";
-            }
-
-            window.handleRegister = handleRegister;
-
-            // Cek apakah sudah login
-            (async function checkSession() {
-                const {
-                    data: { user },
-                } = await import("./assets/js/auth.js").then((m) =>
-                    m.getCurrentUser(),
-                );
-                if (user) {
-                    navigateTo("dashboard.html");
-                }
-            })();
+            };
         </script>
     </body>
 </html>
