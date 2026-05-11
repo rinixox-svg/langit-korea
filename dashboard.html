@@ -2,98 +2,117 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0</head>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Langit Korea — Dashboard</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script type="module" src="assets/js/supabase.js"></script>
     <script type="module" src="assets/js/auth.js"></script>
     <script type="module" src="assets/js/utils.js"></script>
+    <script type="module" src="assets/js/dashboard.js"></script>
 </head>
 <body>
-    <a href="#main" class="skip-link">Langsung ke konten</body></a>
+    <a href="#main" class="skip-link">Langsung ke konten</a>
 
     <div class="container">
         <!-- Header -->
-        <div class="header">
-            <h1>🌌 Langit Korea</h1>
-            <p id="greeting">Selamat datang, pembelajar!</p>
-        </div>
-
-        <!-- Stats -->
-        <div class="stats">
-            <div class="stat-card">
-                <div class="stat-number" id="statUnit">0</div>
-                <div class="stat-label">Unit Selesai</div>
+        <div class="dashboard-header">
+            <div class="header-left">
+                <h1>🌌 Langit Korea</h1>
+                <p id="greeting">Halo, pembelajar!</p>
             </div>
-            <div class="stat-card">
-                <div class="stat-number" id="statSoal">0</div>
-                <div class="stat-label">Soal Dikerjakan</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="statAkurasi">0%</div>
-                <div class="stat-label">Akurasi</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="statStreak">🔥 0</div>
-                <div class="stat-label">Hari Berturut-turut</div>
-            </div>
-        </div>
-
-        <!-- Lanjutkan Belajar -->
-        <div class="card">
-            <div class="section-header">
-                <span class="section-icon">📖</span>
-                <span class="section-title">Lanjutkan Belajar</span>
-            </div>
-            <div id="continueSection">
-                <p style="color: var(--teks-sekunder); font-size: 0.9rem;">Memuat progress...</p>
-            </div>
-        </div>
-
-        <!-- Menu Navigasi -->
-        <div class="card">
-            <div class="section-header">
-                <span class="section-icon">📂</span>
-                <span class="section-title">Menu Belajar</span>
-            </div>
-
-            <div class="flex-col" style="gap: 10px;">
-                <button class="btn btn-primary" onclick="navigateTo('modul-unit.html')">
-                    📚 Modul Belajar (Unit 31-60)
-                </button>
-                <button class="btn btn-secondary" onclick="navigateTo('latihan-eps.html')">
-                    ✏️ Latihan Soal EPS-TOPIK
-                </button>
-                <button class="btn btn-secondary" onclick="navigateTo('simulasi.html')">
-                    📝 Simulasi Ujian Penuh
-                </button>
-                <button class="btn btn-secondary" onclick="navigateTo('progress.html')">
-                    📊 Lihat Progress
-                </button>
-            </div>
-        </div>
-
-        <!-- Target Harian -->
-        <div class="card">
-            <div class="section-header">
-                <span class="section-icon">🎯</span>
-                <span class="section-title">Target Harian</span>
-            </div>
-            <div class="progress-bar">
-                <div class="progress-fill" id="dailyProgress" style="width: 0%;"></div>
-            </div>
-            <p class="progress-text" id="dailyProgressText">0 / 10 soal hari ini</p>
-            <p style="color: var(--teks-sekunder); font-size: 0.85rem; margin-top: 8px;">
-                💡 Kerjakan minimal 10 soal per hari untuk persiapan optimal!
-            </p>
-        </div>
-
-        <!-- Tombol Logout -->
-        <div style="margin-top: 8px; margin-bottom: 24px;">
-            <button class="btn btn-secondary" onclick="handleLogout()" style="background: white; color: var(--merah-salah); border-color: var(--merah-salah);">
-                🚪 Keluar
+            <button class="btn-logout" onclick="handleLogout()" title="Keluar">
+                🚪
             </button>
+        </div>
+
+        <!-- Tab Navigation (Radio Hack) -->
+        <div class="tab-container">
+            <input type="radio" name="tab" id="tab-belajar" class="tab-input" checked>
+            <input type="radio" name="tab" id="tab-simulasi" class="tab-input">
+            <input type="radio" name="tab" id="tab-progress" class="tab-input">
+            
+            <div class="tab-nav">
+                <label for="tab-belajar" class="tab-label">📚 Belajar</label>
+                <label for="tab-simulasi" class="tab-label">📝 Simulasi</label>
+                <label for="tab-progress" class="tab-label">📊 Progress</label>
+            </div>
+
+            <!-- Tab: Belajar -->
+            <div class="tab-content" id="content-belajar">
+                <div class="section-header">
+                    <span class="section-icon">📖</span>
+                    <span class="section-title">Pilih Unit untuk Belajar</span>
+                </div>
+                <div id="unitGrid" class="unit-grid-container">
+                    <p class="loading-text">Memuat unit...</p>
+                </div>
+            </div>
+
+            <!-- Tab: Simulasi -->
+            <div class="tab-content" id="content-simulasi">
+                <div class="card text-center">
+                    <div style="font-size: 3rem; margin-bottom: 12px;">📝</div>
+                    <h3>Simulasi Open Test</h3>
+                    <p style="color: var(--teks-sekunder); font-size: 0.9rem; margin-bottom: 20px;">
+                        Uji kemampuanmu dengan simulasi ujian EPS-TOPIK format asli. 
+                        40 soal, 50 menit, seperti ujian sungguhan!
+                    </p>
+                    <button class="btn btn-primary" onclick="startSimulasi()">
+                        🚀 Mulai Simulasi Open Test
+                    </button>
+                </div>
+                
+                <div class="card" style="margin-top: 16px;">
+                    <h4 style="margin-bottom: 12px;">📋 Informasi Simulasi</h4>
+                    <ul style="color: var(--teks-sekunder); font-size: 0.9rem; line-height: 2;">
+                        <li>⏱️ <strong>40 soal</strong> — 25 Membaca + 15 Mendengarkan</li>
+                        <li>⏰ <strong>50 menit</strong> — Timer aktif saat mulai</li>
+                        <li>📊 <strong>Passing score:</strong> 60% (24/40 benar)</li>
+                        <li>🎧 Audio tersedia untuk soal mendengarkan</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Tab: Progress -->
+            <div class="tab-content" id="content-progress">
+                <div class="card">
+                    <div class="section-header">
+                        <span class="section-icon">📊</span>
+                        <span class="section-title">Progress Belajar</span>
+                    </div>
+                    <div id="progressStats" class="progress-container">
+                        <div class="progress-ring-container" id="progressRingContainer">
+                            <svg class="progress-ring" viewBox="0 0 120 120">
+                                <circle class="progress-ring-bg" cx="60" cy="60" r="50" />
+                                <circle class="progress-ring-fill" cx="60" cy="60" r="50" id="progressRingFill" />
+                            </svg>
+                            <div class="progress-ring-text">
+                                <div class="progress-ring-number" id="progressPercent">0%</div>
+                                <div class="progress-ring-label">Selesai</div>
+                            </div>
+                        </div>
+                        <div class="progress-details">
+                            <div class="stat-row">
+                                <span>Unit Selesai</span>
+                                <span id="statCompleted">0 / 30</span>
+                            </div>
+                            <div class="stat-row">
+                                <span>Soal Dikerjakan</span>
+                                <span id="statQuestions">0</span>
+                            </div>
+                            <div class="stat-row">
+                                <span>Akurasi</span>
+                                <span id="statAccuracy">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar" style="margin-top: 20px;">
+                        <div class="progress-fill" id="progressBar" style="width: 0%;"></div>
+                    </div>
+                    <p class="progress-text" id="progressText">0 / 30 unit selesai</p>
+                </div>
+            </div>
         </div>
 
         <!-- Footer -->
@@ -104,43 +123,60 @@
 
     <script type="module">
         import { checkAuthState, getCurrentUser, logout } from './assets/js/auth.js';
-        import { navigateTo, loadProgress } from './assets/js/utils.js';
+        import { navigateTo } from './assets/js/utils.js';
+        import { 
+            fetchUserProfile, 
+            fetchProgressUnit, 
+            calculateUnitProgress, 
+            calculateOverallStats,
+            renderUnitGrid
+        } from './assets/js/dashboard.js';
 
         window.navigateTo = navigateTo;
 
+        let userProfile = null;
+        let unitProgress = [];
+
         (async function init() {
             await checkAuthState();
+            
+            userProfile = await fetchUserProfile();
+            document.getElementById('greeting').textContent = `Halo, ${userProfile?.nama || 'Pembelajar'}!`;
 
-            const { data: { user } } = await getCurrentUser();
-            if (!user) return;
-
-            const nama = user.user_metadata?.nama || user.email?.split('@')[0] || 'Pembelajar';
-            document.getElementById('greeting').textContent = `Selamat datang, ${nama}!`;
-
-            loadDashboardProgress();
+            const progressData = await fetchProgressUnit();
+            unitProgress = calculateUnitProgress(progressData);
+            
+            const overallStats = calculateOverallStats(progressData);
+            updateProgressUI(overallStats);
+            
+            renderUnitGrid('unitGrid', unitProgress, 'loadUnit');
         })();
 
-        function loadDashboardProgress() {
-            const progress = loadProgress('dashboard');
-            const today = new Date().toISOString().split('T')[0];
+        function updateProgressUI(stats) {
+            document.getElementById('progressPercent').textContent = `${stats.completionPercent}%`;
+            document.getElementById('progressBar').style.width = `${stats.completionPercent}%`;
+            document.getElementById('progressText').textContent = `${stats.completedUnits} / ${stats.totalUnits} unit selesai`;
+            document.getElementById('statCompleted').textContent = `${stats.completedUnits} / ${stats.totalUnits}`;
+            document.getElementById('statQuestions').textContent = stats.totalQuestions;
+            document.getElementById('statAccuracy').textContent = `${stats.accuracy}%`;
 
-            if (progress && progress.date === today) {
-                document.getElementById('statUnit').textContent = progress.units || 0;
-                document.getElementById('statSoal').textContent = progress.questions || 0;
-                document.getElementById('statAkurasi').textContent = progress.accuracy || '0%';
-                document.getElementById('statStreak').textContent = '🔥 ' + (progress.streak || 0);
-
-                const dailyDone = progress.dailyDone || 0;
-                const dailyTarget = 10;
-                const pct = Math.min((dailyDone / dailyTarget) * 100, 100);
-                document.getElementById('dailyProgress').style.width = pct + '%';
-                document.getElementById('dailyProgressText').textContent =
-                    `${dailyDone} / ${dailyTarget} soal hari ini`;
-            } else {
-                document.getElementById('dailyProgress').style.width = '0%';
-                document.getElementById('dailyProgressText').textContent = '0 / 10 soal hari ini';
-            }
+            const ringFill = document.getElementById('progressRingFill');
+            const circumference = 2 * Math.PI * 50;
+            const dashArray = (stats.completionPercent / 100) * circumference;
+            ringFill.setAttribute('stroke-dasharray', `${dashArray} ${circumference}`);
         }
+
+        function loadUnit(unitId) {
+            navigateTo(`modul-unit.html?unit=${unitId}`);
+        }
+
+        window.loadUnit = loadUnit;
+
+        function startSimulasi() {
+            navigateTo('simulasi.html');
+        }
+
+        window.startSimulasi = startSimulasi;
 
         window.handleLogout = async function() {
             await logout();

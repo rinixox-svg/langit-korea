@@ -139,11 +139,279 @@ input[type="button"] {
   margin-top: 10px;
 }
 
-/* Mobile-First Styles - Akan ditambahkan sesuai kebutuhan di file ini */
-/* Contoh:
+/* Mobile-First Styles */
 @media (min-width: 768px) {
   .container {
     width: 85%;
   }
 }
-*/
+
+/* Dashboard Header */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.dashboard-header #greeting {
+  font-size: 1rem;
+  color: var(--teks-sekunder);
+  margin: 0;
+}
+
+.btn-logout {
+  background: transparent;
+  border: 2px solid var(--merah-salah);
+  color: var(--merah-salah);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-logout:hover {
+  background: var(--merah-salah);
+  color: white;
+}
+
+/* Tab Navigation - Radio Hack */
+.tab-container {
+  position: relative;
+}
+
+.tab-input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.tab-nav {
+  display: flex;
+  gap: 0;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--putih-bersih);
+  border: 1px solid #e0e0e0;
+}
+
+.tab-label {
+  flex: 1;
+  text-align: center;
+  padding: 12px 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: var(--teks-sekunder);
+  background: transparent;
+}
+
+.tab-label:hover {
+  background: #f0f0f0;
+}
+
+.tab-input:checked + .tab-nav + .tab-content,
+.tab-input:checked + .tab-nav ~ .tab-content {
+  display: none;
+}
+
+.tab-input:checked + .tab-nav label[for="tab-belajar"] {
+  color: white;
+  background: var(--langit-biru);
+}
+
+.tab-input:checked + .tab-nav label[for="tab-simulasi"] {
+  color: white;
+  background: var(--langit-biru);
+}
+
+.tab-input:checked + .tab-nav label[for="tab-progress"] {
+  color: white;
+  background: var(--langit-biru);
+}
+
+#tab-belajar:checked ~ .tab-content#content-belajar,
+#tab-simulasi:checked ~ .tab-content#content-simulasi,
+#tab-progress:checked ~ .tab-content#content-progress {
+  display: block;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content:first-of-type {
+  display: block;
+}
+
+/* Unit Grid - Mobile First */
+.unit-grid-container {
+  margin: 0 -5px;
+}
+
+.unit-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 0 5px;
+}
+
+@media (min-width: 768px) {
+  .unit-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .unit-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.unit-card {
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 16px 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.unit-card:not(.locked):hover {
+  border-color: var(--langit-biru);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(74, 144, 217, 0.2);
+}
+
+.unit-card.locked {
+  background: #f5f5f5;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.unit-card.completed {
+  border-color: var(--hijau-berhasil);
+  background: rgba(76, 175, 130, 0.05);
+}
+
+.unit-number {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.unit-label {
+  font-size: 0.8rem;
+  color: var(--teks-sekunder);
+}
+
+.mini-progress {
+  height: 4px;
+  background: #e0e0e0;
+  border-radius: 2px;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.mini-progress-fill {
+  height: 100%;
+  background: var(--langit-biru);
+  border-radius: 2px;
+  transition: width 0.3s;
+}
+
+/* Progress Ring */
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.progress-ring-container {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+}
+
+.progress-ring {
+  transform: rotate(-90deg);
+  width: 100%;
+  height: 100%;
+}
+
+.progress-ring-bg {
+  fill: none;
+  stroke: #e0e0e0;
+  stroke-width: 10;
+}
+
+.progress-ring-fill {
+  fill: none;
+  stroke: var(--langit-biru);
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-dasharray: 0 314;
+  transition: stroke-dasharray 0.5s ease;
+}
+
+.progress-ring-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.progress-ring-number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--langit-biru);
+}
+
+.progress-ring-label {
+  font-size: 0.75rem;
+  color: var(--teks-sekunder);
+}
+
+.progress-details {
+  flex: 1;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.9rem;
+}
+
+.stat-row:last-child {
+  border-bottom: none;
+}
+
+.stat-row span:last-child {
+  font-weight: 600;
+  color: var(--langit-biru);
+}
+
+.loading-text {
+  text-align: center;
+  padding: 40px;
+  color: var(--teks-sekunder);
+}
