@@ -45,3 +45,6 @@ secrets/
 # Logs may contain sensitive data
 *.log
 npm-debug.log*
+
+# Extracted data
+data/
