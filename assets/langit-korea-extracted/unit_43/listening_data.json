@@ -1,0 +1,114 @@
+{
+  "unit": 43,
+  "title_ko": "건축 시공",
+  "title_id": "Konstruksi Bangunan",
+  "file": "unit_43_building_construction.pdf",
+  "total_halaman": 10,
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 유수프 씨는 지금 무슨 일을 하고 있어요? 여 : 철근을 배근하고 있어요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u43_l1",
+      "jawaban": "b",
+      "audio_teks": "1. 남 : 유수프 씨는 지금 무슨 일을 하고 있어요?\n여 : 철근을 배근하고 있어요.\n2. 남 : 거푸집 설치하는 방법을 알아요?\n3. 여 : 철근을 묶을 때 뭐가 필요해요?\n4. 남 : 가장 아래층 거푸집을 설치할 때에는 플랫타이가 여러 개 필요해요.\n5. 여 : 거푸집 설치 작업도 끝났으니까 이제 콘크리트를 타설하겠네요.\n남 : 네, 내일 오후에 콘크리트 믹서가 도착할걸요.\n여 : 아, 그럼 오늘은 콘크리트 타설 작업이 없는 거네요.\n43 건축 시공 BUILDING CONSTRUCTION 145",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u43_h9_soal_listening_0a.jpeg",
+        "b": "images/u43_h9_soal_listening_02.jpeg",
+        "c": "images/u43_h9_soal_listening_03.jpeg",
+        "d": "images/u43_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_43/listening_1.mp3"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 거푸집 설치하는 방법을 알아요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u43_l2",
+      "jawaban": "b",
+      "audio_teks": "1. 남 : 유수프 씨는 지금 무슨 일을 하고 있어요?\n여 : 철근을 배근하고 있어요.\n2. 남 : 거푸집 설치하는 방법을 알아요?\n3. 여 : 철근을 묶을 때 뭐가 필요해요?\n4. 남 : 가장 아래층 거푸집을 설치할 때에는 플랫타이가 여러 개 필요해요.\n5. 여 : 거푸집 설치 작업도 끝났으니까 이제 콘크리트를 타설하겠네요.\n남 : 네, 내일 오후에 콘크리트 믹서가 도착할걸요.\n여 : 아, 그럼 오늘은 콘크리트 타설 작업이 없는 거네요.\n43 건축 시공 BUILDING CONSTRUCTION 145",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u43_h9_soal_listening_02.jpeg",
+        "b": "images/u43_h9_soal_listening_02.jpeg",
+        "c": "images/u43_h9_soal_listening_02.jpeg",
+        "d": "images/u43_h9_soal_listening_02.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_43/listening_2.mp3"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 철근을 묶을 때 뭐가 필요해요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u43_l3",
+      "jawaban": "c",
+      "audio_teks": "1. 남 : 유수프 씨는 지금 무슨 일을 하고 있어요?\n여 : 철근을 배근하고 있어요.\n2. 남 : 거푸집 설치하는 방법을 알아요?\n3. 여 : 철근을 묶을 때 뭐가 필요해요?\n4. 남 : 가장 아래층 거푸집을 설치할 때에는 플랫타이가 여러 개 필요해요.\n5. 여 : 거푸집 설치 작업도 끝났으니까 이제 콘크리트를 타설하겠네요.\n남 : 네, 내일 오후에 콘크리트 믹서가 도착할걸요.\n여 : 아, 그럼 오늘은 콘크리트 타설 작업이 없는 거네요.\n43 건축 시공 BUILDING CONSTRUCTION 145",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u43_h9_soal_listening_03.jpeg",
+        "b": "images/u43_h9_soal_listening_03.jpeg",
+        "c": "images/u43_h9_soal_listening_03.jpeg",
+        "d": "images/u43_h9_soal_listening_03.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_43/listening_3.mp3"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 가장 아래층 거푸집을 설치할 때에는 플랫타이가 여러 개 필요해요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u43_l4",
+      "jawaban": "a",
+      "audio_teks": "1. 남 : 유수프 씨는 지금 무슨 일을 하고 있어요?\n여 : 철근을 배근하고 있어요.\n2. 남 : 거푸집 설치하는 방법을 알아요?\n3. 여 : 철근을 묶을 때 뭐가 필요해요?\n4. 남 : 가장 아래층 거푸집을 설치할 때에는 플랫타이가 여러 개 필요해요.\n5. 여 : 거푸집 설치 작업도 끝났으니까 이제 콘크리트를 타설하겠네요.\n남 : 네, 내일 오후에 콘크리트 믹서가 도착할걸요.\n여 : 아, 그럼 오늘은 콘크리트 타설 작업이 없는 거네요.\n43 건축 시공 BUILDING CONSTRUCTION 145",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u43_h9_soal_listening_04.jpeg",
+        "b": "images/u43_h9_soal_listening_04.jpeg",
+        "c": "images/u43_h9_soal_listening_04.jpeg",
+        "d": "images/u43_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_43/listening_4.mp3"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 거푸집 설치 작업도 끝났으니까 이제 콘크리트를 타설하겠네요. 남 : 네, 내일 오후에 콘크리트 믹서가 도착할걸요. 여 : 아, 그럼 오늘은 콘크리트 타설 작업이 없는 거네요. 43 건축 시공 BUILDING CONSTRUCTION 145",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u43_l5",
+      "jawaban": "a",
+      "audio_teks": "1. 남 : 유수프 씨는 지금 무슨 일을 하고 있어요?\n여 : 철근을 배근하고 있어요.\n2. 남 : 거푸집 설치하는 방법을 알아요?\n3. 여 : 철근을 묶을 때 뭐가 필요해요?\n4. 남 : 가장 아래층 거푸집을 설치할 때에는 플랫타이가 여러 개 필요해요.\n5. 여 : 거푸집 설치 작업도 끝났으니까 이제 콘크리트를 타설하겠네요.\n남 : 네, 내일 오후에 콘크리트 믹서가 도착할걸요.\n여 : 아, 그럼 오늘은 콘크리트 타설 작업이 없는 거네요.\n43 건축 시공 BUILDING CONSTRUCTION 145",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_43/listening_5.mp3"
+    }
+  ]
+}

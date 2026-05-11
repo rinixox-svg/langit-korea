@@ -1,0 +1,114 @@
+{
+  "unit": 47,
+  "title_ko": "연안 어업과 양식",
+  "title_id": "Perikanan dan Budidaya",
+  "file": "unit_47_coastal_fishing_aquaculture.pdf",
+  "total_halaman": 10,
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 선장님, 지금 무슨 작업을 해야 돼요? 남 : 그물을 끌어올려야 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u47_l1",
+      "jawaban": "b",
+      "audio_teks": "1. 여 : 선장님, 지금 무슨 작업을 해야 돼요?\n남 : 그물을 끌어올려야 돼요.\n2. 남 : 수조가 깨끗해요?\n3. 여 : 배에 오르기 전에 구명조끼를 입으세요.\n남 : 네, 빨리 입고 오겠습니다.\n4. 남 : 이제 그물 세척을 시작합시다.\n5. 여 : 그물 위치를 확인했으니 양망기를 준비하고 로프를 연결해 주세요.\n남 : 네, 그럼 로프를 연결하고 바로 그물을 끌어올릴까요?\n여 : 좋아요. 부표도 같이 올려 주세요. 그리고 끌어올릴 때 로프에 발이 걸리지 않게 조심하세요.\n47 연안 어업과 양식 COASTAL FISHERY AND AQUACULTURE 185",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u47_h9_soal_listening_0a.jpeg",
+        "b": "images/u47_h9_soal_listening_02.jpeg",
+        "c": "images/u47_h9_soal_listening_03.jpeg",
+        "d": "images/u47_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_47/listening_1.mp3"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 수조가 깨끗해요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u47_l2",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 선장님, 지금 무슨 작업을 해야 돼요?\n남 : 그물을 끌어올려야 돼요.\n2. 남 : 수조가 깨끗해요?\n3. 여 : 배에 오르기 전에 구명조끼를 입으세요.\n남 : 네, 빨리 입고 오겠습니다.\n4. 남 : 이제 그물 세척을 시작합시다.\n5. 여 : 그물 위치를 확인했으니 양망기를 준비하고 로프를 연결해 주세요.\n남 : 네, 그럼 로프를 연결하고 바로 그물을 끌어올릴까요?\n여 : 좋아요. 부표도 같이 올려 주세요. 그리고 끌어올릴 때 로프에 발이 걸리지 않게 조심하세요.\n47 연안 어업과 양식 COASTAL FISHERY AND AQUACULTURE 185",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u47_h9_soal_listening_02.jpeg",
+        "b": "images/u47_h9_soal_listening_02.jpeg",
+        "c": "images/u47_h9_soal_listening_02.jpeg",
+        "d": "images/u47_h9_soal_listening_02.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_47/listening_2.mp3"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 배에 오르기 전에 구명조끼를 입으세요. 남 : 네, 빨리 입고 오겠습니다.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u47_l3",
+      "jawaban": "d",
+      "audio_teks": "1. 여 : 선장님, 지금 무슨 작업을 해야 돼요?\n남 : 그물을 끌어올려야 돼요.\n2. 남 : 수조가 깨끗해요?\n3. 여 : 배에 오르기 전에 구명조끼를 입으세요.\n남 : 네, 빨리 입고 오겠습니다.\n4. 남 : 이제 그물 세척을 시작합시다.\n5. 여 : 그물 위치를 확인했으니 양망기를 준비하고 로프를 연결해 주세요.\n남 : 네, 그럼 로프를 연결하고 바로 그물을 끌어올릴까요?\n여 : 좋아요. 부표도 같이 올려 주세요. 그리고 끌어올릴 때 로프에 발이 걸리지 않게 조심하세요.\n47 연안 어업과 양식 COASTAL FISHERY AND AQUACULTURE 185",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u47_h9_soal_listening_03.jpeg",
+        "b": "images/u47_h9_soal_listening_03.jpeg",
+        "c": "images/u47_h9_soal_listening_03.jpeg",
+        "d": "images/u47_h9_soal_listening_03.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_47/listening_3.mp3"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 이제 그물 세척을 시작합시다.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u47_l4",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 선장님, 지금 무슨 작업을 해야 돼요?\n남 : 그물을 끌어올려야 돼요.\n2. 남 : 수조가 깨끗해요?\n3. 여 : 배에 오르기 전에 구명조끼를 입으세요.\n남 : 네, 빨리 입고 오겠습니다.\n4. 남 : 이제 그물 세척을 시작합시다.\n5. 여 : 그물 위치를 확인했으니 양망기를 준비하고 로프를 연결해 주세요.\n남 : 네, 그럼 로프를 연결하고 바로 그물을 끌어올릴까요?\n여 : 좋아요. 부표도 같이 올려 주세요. 그리고 끌어올릴 때 로프에 발이 걸리지 않게 조심하세요.\n47 연안 어업과 양식 COASTAL FISHERY AND AQUACULTURE 185",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u47_h9_soal_listening_04.jpeg",
+        "b": "images/u47_h9_soal_listening_04.jpeg",
+        "c": "images/u47_h9_soal_listening_04.jpeg",
+        "d": "images/u47_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_47/listening_4.mp3"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 그물 위치를 확인했으니 양망기를 준비하고 로프를 연결해 주세요. 남 : 네, 그럼 로프를 연결하고 바로 그물을 끌어올릴까요? 여 : 좋아요. 부표도 같이 올려 주세요. 그리고 끌어올릴 때 로프에 발이 걸리지 않게 조심하세요. 47 연안 어업과 양식 COASTAL FISHERY AND AQUACULTURE 185",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u47_l5",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 선장님, 지금 무슨 작업을 해야 돼요?\n남 : 그물을 끌어올려야 돼요.\n2. 남 : 수조가 깨끗해요?\n3. 여 : 배에 오르기 전에 구명조끼를 입으세요.\n남 : 네, 빨리 입고 오겠습니다.\n4. 남 : 이제 그물 세척을 시작합시다.\n5. 여 : 그물 위치를 확인했으니 양망기를 준비하고 로프를 연결해 주세요.\n남 : 네, 그럼 로프를 연결하고 바로 그물을 끌어올릴까요?\n여 : 좋아요. 부표도 같이 올려 주세요. 그리고 끌어올릴 때 로프에 발이 걸리지 않게 조심하세요.\n47 연안 어업과 양식 COASTAL FISHERY AND AQUACULTURE 185",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_47/listening_5.mp3"
+    }
+  ]
+}

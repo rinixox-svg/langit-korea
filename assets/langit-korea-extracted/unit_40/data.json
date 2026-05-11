@@ -1,132 +1,169 @@
 {
   "unit": 40,
   "title_ko": "플라스틱 고무 성형",
-  "title_id": "Plastik dan Karet",
+  "title_id": "Pembentukan Plastik dan Karet",
   "file": "unit_40_plastic_rubber_molding.pdf",
   "total_halaman": 10,
-  "halaman": {
-    "hal1": {
-      "kategori": "vocab",
-      "chars": 564,
-      "gambar_count": 15
-    },
-    "hal2": {
-      "kategori": "grammar",
-      "chars": 929,
-      "gambar_count": 7
-    },
-    "hal3": {
-      "kategori": "conversation",
-      "chars": 1272,
-      "gambar_count": 3
-    },
-    "hal4": {
-      "kategori": "vocab",
-      "chars": 865,
-      "gambar_count": 20
-    },
-    "hal5": {
-      "kategori": "grammar",
-      "chars": 938,
-      "gambar_count": 4
-    },
-    "hal6": {
-      "kategori": "conversation",
-      "chars": 1089,
-      "gambar_count": 3
-    },
-    "hal7": {
-      "kategori": "culture",
-      "chars": 2377,
-      "gambar_count": 1
-    },
-    "hal8": {
-      "kategori": "soal_membaca",
-      "chars": 705,
-      "gambar_count": 1
-    },
-    "hal9": {
-      "kategori": "soal_listening",
-      "chars": 706,
-      "gambar_count": 4
-    }
-  },
   "soal": [
     {
-      "id": "u40_m1",
       "nomor": 1,
       "tipe": "membaca",
-      "teks_soal": "다음 그림과 관계있는 내용은 무엇입니까?",
+      "teks_soal": "",
+      "instruksi": "다음 그림과 관계있는 내용은 무엇입니까?",
       "pilihan_a": "저울 – 무게를 재요.",
       "pilihan_b": "저울 – 철사를 펴요.",
       "pilihan_c": "줄자 – 무게를 재요.",
       "pilihan_d": "줄자 - 철사를 펴요.",
-      "jawaban": "c",
+      "id": "u40_m1",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u40_m2",
       "nomor": 2,
       "tipe": "membaca",
-      "teks_soal": "다음 단어와 의미가 비슷한 말은 무엇입니까?\n혼합하다",
+      "teks_soal": "다음 단어와 의미가 비슷한 말은 무엇입니까? 혼합하다",
+      "instruksi": "",
       "pilihan_a": "담다",
       "pilihan_b": "묶다",
       "pilihan_c": "섞다",
       "pilihan_d": "쌓다",
-      "jawaban": "b",
+      "id": "u40_m2",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u40_m3",
       "nomor": 3,
       "tipe": "membaca",
-      "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "teks_soal": "",
+      "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
       "pilihan_a": "불꽃의 크기를 절단해요.",
       "pilihan_b": "기계의 압력을 조절해요.",
       "pilihan_c": "창고의 온도를 보관해요.",
       "pilihan_d": "작업장의 창문을 지시해요.",
-      "jawaban": "b",
+      "id": "u40_m3",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u40_m4",
       "nomor": 4,
       "tipe": "membaca",
-      "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n이 나왔습니다. 제품의 생산을 중지하고 원인을 찾아야 합니다.",
+      "teks_soal": "이 나왔습니다. 제품의 생산을 중지하고 원인을 찾아야 합니다.",
+      "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "pilihan_a": "소모품",
       "pilihan_b": "신제품",
       "pilihan_c": "생산품",
       "pilihan_d": "불량품",
-      "jawaban": "a",
+      "id": "u40_m4",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u40_m5",
       "nomor": 5,
       "tipe": "membaca",
-      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n세계 각국은 화석 연료의 사용으로 인한 환경 파괴와 기후 변화에 대응하기 위하여 친환경 에너지\n개발에 힘쓰고 있습니다. 친환경 에너지는 초기 설치 비용이 높아 경제적으로 부담이 될 수 있지만, 운영\n비용이 낮고 무제한으로 사용할 수 있다는 장점이 있습니다. 또한 화석 연료의 고갈을 막고 온실가스를\n줄여 급격한 기후 변화에 따른 재난에 대비할 수 있게 해 줍니다.",
+      "teks_soal": "세계 각국은 화석 연료의 사용으로 인한 환경 파괴와 기후 변화에 대응하기 위하여 친환경 에너지 개발에 힘쓰고 있습니다. 친환경 에너지는 초기 설치 비용이 높아 경제적으로 부담이 될 수 있지만, 운영 비용이 낮고 무제한으로 사용할 수 있다는 장점이 있습니다. 또한 화석 연료의 고갈을 막고 온실가스를 줄여 급격한 기후 변화에 따른 재난에 대비할 수 있게 해 줍니다. 114 한국어 표준교재 2",
+      "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
       "pilihan_a": "세계 각국은 화석 연료 개발에 힘쓰고 있습니다.",
       "pilihan_b": "화석 연료 사용으로 기후 변화에 대비할 수 있습니다.",
       "pilihan_c": "친환경 에너지 사용으로 온실가스를 줄일 수 있습니다.",
       "pilihan_d": "친환경 에너지는 설치에 대한 경제적 부담이 적습니다.",
-      "jawaban": "d",
+      "id": "u40_m5",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 반장님, 이제 뭘 할까요? 여 : 여기 있는 부품의 길이를 재 주세요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u40_l1",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 기계 작동을 중지했어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u40_l2",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 누가 혼합기를 청소했어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u40_l3",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 제품에 검은 줄이 생겼어요. 어떡하죠?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u40_l4",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 혼합기에 첨가제를 넣었어요? 남 : 아직 안 넣었어요. 지금 비율을 계산하는 중이에요. 여 : 비율도 중요하지만 혼합기가 깨끗해야 정확한 색깔이 나올 수 있어요. 남 : 그럼 첨가제 무게를 재고 나서 혼합기를 청소할게요. 40 플라스틱 고무 성형 KOREAN POPULAR CULTURE 115",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u40_l5",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     }
-  ],
-  "gambar_soal": {}
+  ]
 }

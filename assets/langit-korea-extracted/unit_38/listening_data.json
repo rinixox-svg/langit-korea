@@ -1,0 +1,114 @@
+{
+  "unit": 38,
+  "title_ko": "기계 조립",
+  "title_id": "Perakitan Mesin",
+  "file": "unit_38_machine_assembly.pdf",
+  "total_halaman": 10,
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 플라이어가 의자 위에 있어요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u38_l1",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 플라이어가 의자 위에 있어요.\n2. 남 : 언제 부품 조립을 시작할 거예요?\n3. 여 : 이 나사는 뭐로 조여야 돼요?\n남 : 나사가 커서 제일 큰 드라이버로 조여야 돼요.\n4. 남 : 기계에서 소음이 나요.\n5. 남 : 지금 무슨 작업을 하고 있어요?\n여 : 이 부품을 조여야 되는데 잘 안 되네요.\n남 : 스패너 치수가 안 맞는 것 같아요. 아주 작은 치수의 스패너로 해 보세요.\n여 : 알겠어요. 작은 스패너로 해 볼게요.\n38 기계 조립 MACHINE ASSEMBLY 95",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u38_h9_soal_listening_0a.jpeg",
+        "b": "images/u38_h9_soal_listening_02.jpeg",
+        "c": "images/u38_h9_soal_listening_03.jpeg",
+        "d": "images/u38_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_38/listening_1.mp3"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 언제 부품 조립을 시작할 거예요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u38_l2",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 플라이어가 의자 위에 있어요.\n2. 남 : 언제 부품 조립을 시작할 거예요?\n3. 여 : 이 나사는 뭐로 조여야 돼요?\n남 : 나사가 커서 제일 큰 드라이버로 조여야 돼요.\n4. 남 : 기계에서 소음이 나요.\n5. 남 : 지금 무슨 작업을 하고 있어요?\n여 : 이 부품을 조여야 되는데 잘 안 되네요.\n남 : 스패너 치수가 안 맞는 것 같아요. 아주 작은 치수의 스패너로 해 보세요.\n여 : 알겠어요. 작은 스패너로 해 볼게요.\n38 기계 조립 MACHINE ASSEMBLY 95",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u38_h9_soal_listening_02.jpeg",
+        "b": "images/u38_h9_soal_listening_02.jpeg",
+        "c": "images/u38_h9_soal_listening_02.jpeg",
+        "d": "images/u38_h9_soal_listening_02.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_38/listening_2.mp3"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 이 나사는 뭐로 조여야 돼요? 남 : 나사가 커서 제일 큰 드라이버로 조여야 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u38_l3",
+      "jawaban": "a",
+      "audio_teks": "1. 여 : 플라이어가 의자 위에 있어요.\n2. 남 : 언제 부품 조립을 시작할 거예요?\n3. 여 : 이 나사는 뭐로 조여야 돼요?\n남 : 나사가 커서 제일 큰 드라이버로 조여야 돼요.\n4. 남 : 기계에서 소음이 나요.\n5. 남 : 지금 무슨 작업을 하고 있어요?\n여 : 이 부품을 조여야 되는데 잘 안 되네요.\n남 : 스패너 치수가 안 맞는 것 같아요. 아주 작은 치수의 스패너로 해 보세요.\n여 : 알겠어요. 작은 스패너로 해 볼게요.\n38 기계 조립 MACHINE ASSEMBLY 95",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u38_h9_soal_listening_03.png",
+        "b": "images/u38_h9_soal_listening_03.png",
+        "c": "images/u38_h9_soal_listening_03.png",
+        "d": "images/u38_h9_soal_listening_03.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_38/listening_3.mp3"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 기계에서 소음이 나요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u38_l4",
+      "jawaban": "b",
+      "audio_teks": "1. 여 : 플라이어가 의자 위에 있어요.\n2. 남 : 언제 부품 조립을 시작할 거예요?\n3. 여 : 이 나사는 뭐로 조여야 돼요?\n남 : 나사가 커서 제일 큰 드라이버로 조여야 돼요.\n4. 남 : 기계에서 소음이 나요.\n5. 남 : 지금 무슨 작업을 하고 있어요?\n여 : 이 부품을 조여야 되는데 잘 안 되네요.\n남 : 스패너 치수가 안 맞는 것 같아요. 아주 작은 치수의 스패너로 해 보세요.\n여 : 알겠어요. 작은 스패너로 해 볼게요.\n38 기계 조립 MACHINE ASSEMBLY 95",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u38_h9_soal_listening_04.png",
+        "b": "images/u38_h9_soal_listening_04.png",
+        "c": "images/u38_h9_soal_listening_04.png",
+        "d": "images/u38_h9_soal_listening_04.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_38/listening_4.mp3"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 지금 무슨 작업을 하고 있어요? 여 : 이 부품을 조여야 되는데 잘 안 되네요. 남 : 스패너 치수가 안 맞는 것 같아요. 아주 작은 치수의 스패너로 해 보세요. 여 : 알겠어요. 작은 스패너로 해 볼게요. 38 기계 조립 MACHINE ASSEMBLY 95",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u38_l5",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 플라이어가 의자 위에 있어요.\n2. 남 : 언제 부품 조립을 시작할 거예요?\n3. 여 : 이 나사는 뭐로 조여야 돼요?\n남 : 나사가 커서 제일 큰 드라이버로 조여야 돼요.\n4. 남 : 기계에서 소음이 나요.\n5. 남 : 지금 무슨 작업을 하고 있어요?\n여 : 이 부품을 조여야 되는데 잘 안 되네요.\n남 : 스패너 치수가 안 맞는 것 같아요. 아주 작은 치수의 스패너로 해 보세요.\n여 : 알겠어요. 작은 스패너로 해 볼게요.\n38 기계 조립 MACHINE ASSEMBLY 95",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_38/listening_5.mp3"
+    }
+  ]
+}

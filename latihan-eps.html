@@ -1,358 +1,520 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Langit Korea - Latihan EPS</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Langit Korea — Latihan Soal EPS-TOPIK</title>
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+        <script type="module" src="assets/js/supabase.js"></script>
+        <script type="module" src="assets/js/auth.js"></script>
+        <script type="module" src="assets/js/utils.js"></script>
+    </head>
+    <body>
+        <a href="#main" class="skip-link">Langsung ke konten</a>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+        <div class="container">
+            <!-- Header -->
+            <div class="header">
+                <h1>✏️ Latihan Soal EPS-TOPIK</h1>
+                <p id="subtitle">Pilih unit untuk mulai latihan</p>
+            </div>
 
-    <!-- Supabase Client -->
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="js/supabase-config.js"></script>
+            <!-- Filter Section -->
+            <div class="card">
+                <div class="section-header">
+                    <span class="section-icon">🔍</span>
+                    <span class="section-title">Filter Soal</span>
+                </div>
 
-    <style>
-        :root {
-            --langit-biru: #4A90D9;
-            --langit-fajar: #FF8C61;
-            --putih-bersih: #F8F9FF;
-            --teks-utama: #1E2A3A;
-            --teks-sekunder: #6B7A8D;
-            --hijau-berhasil: #4CAF82;
-            --merah-salah: #E05C5C;
-            --kuning-sedang: #F5A623;
-        }
+                <div class="form-group">
+                    <label class="form-label" for="unitFilter"
+                        >Pilih Unit (31-60)</label
+                    >
+                    <select
+                        id="unitFilter"
+                        class="form-input"
+                        onchange="applyFilter()"
+                    >
+                        <option value="all">Semua Unit (31-60)</option>
+                    </select>
+                </div>
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+                <div class="form-group">
+                    <label class="form-label" for="typeFilter">Tipe Soal</label>
+                    <select
+                        id="typeFilter"
+                        class="form-input"
+                        onchange="applyFilter()"
+                    >
+                        <option value="all">Semua Tipe</option>
+                        <option value="membaca">Membaca</option>
+                        <option value="mendengarkan">Mendengarkan</option>
+                    </select>
+                </div>
 
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: var(--putih-bersih);
-            color: var(--teks-utama);
-            padding: 20px;
-            max-width: 480px;
-            margin: 0 auto;
-        }
+                <div class="form-group">
+                    <label class="form-label" for="levelFilter"
+                        >Tingkat Kesulitan</label
+                    >
+                    <select
+                        id="levelFilter"
+                        class="form-input"
+                        onchange="applyFilter()"
+                    >
+                        <option value="all">Semua Level</option>
+                        <option value="mudah">Mudah</option>
+                        <option value="sedang">Sedang</option>
+                        <option value="sulit">Sulit</option>
+                    </select>
+                </div>
+            </div>
 
-        .header { text-align: center; margin-bottom: 20px; }
-        .logo { font-size: 24px; font-weight: 700; color: var(--langit-biru); }
-        .subtitle { font-size: 14px; color: var(--teks-sekunder); margin-top: 5px; }
+            <!-- Stats -->
+            <div class="stats" id="statsSection" style="display: none">
+                <div class="stat-card">
+                    <div class="stat-number" id="statTotal">0</div>
+                    <div class="stat-label">Total Soal</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="statMembaca">0</div>
+                    <div class="stat-label">Membaca</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="statListening">0</div>
+                    <div class="stat-label">Mendengarkan</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="statValid">0%</div>
+                    <div class="stat-label">Soal Valid</div>
+                </div>
+            </div>
 
-        .progress-bar { height: 8px; background: #E0E0E0; border-radius: 4px; margin: 20px 0; overflow: hidden; }
-        .progress-fill { height: 100%; background: var(--langit-biru); width: 0%; transition: width 0.5s ease; }
+            <!-- Loading -->
+            <div id="loadingDiv">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p id="loadingText">Memuat soal...</p>
+                </div>
+            </div>
 
-        /* Pilihan Bab */
-        .bab-selector {
-            background: white;
-            border-radius: 16px;
-            padding: 20px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-            margin-bottom: 20px;
-        }
+            <!-- Content -->
+            <div id="content"></div>
 
-        .bab-grid {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 8px;
-            margin-top: 15px;
-        }
+            <!-- Tombol Kembali -->
+            <div style="margin-bottom: 24px">
+                <button
+                    class="btn btn-secondary"
+                    onclick="navigateTo('dashboard.html')"
+                >
+                    ← Kembali ke Dashboard
+                </button>
+            </div>
 
-        .bab-btn {
-            padding: 10px 0;
-            border: 2px solid #E0E0E0;
-            border-radius: 8px;
-            background: white;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .bab-btn:hover, .bab-btn.active {
-            background: var(--langit-biru);
-            color: white;
-            border-color: var(--langit-biru);
-        }
-
-        /* Kartu Soal */
-        .soal-card {
-            background: white;
-            border-radius: 16px;
-            padding: 20px;
-            box-shadow: 0 8px 24px rgba(74, 144, 217, 0.15);
-            margin-bottom: 20px;
-        }
-
-        .soal-info {
-            font-size: 12px;
-            color: var(--teks-sekunder);
-            margin-bottom: 10px;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .soal-teks {
-            font-size: 18px;
-            font-weight: 600;
-            margin-bottom: 20px;
-            line-height: 1.5;
-        }
-
-        .soal-teks .korean {
-            font-family: 'Noto Sans KR', sans-serif;
-            font-size: 20px;
-            color: var(--langit-biru);
-        }
-
-        .pilihan-grid {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .pilihan-btn {
-            padding: 15px;
-            border: 2px solid #E0E0E0;
-            border-radius: 12px;
-            background: white;
-            font-size: 16px;
-            text-align: left;
-            cursor: pointer;
-            transition: all 0.3s;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .pilihan-btn:hover { border-color: var(--langit-biru); }
-        .pilihan-btn .label { font-weight: 700; color: var(--langit-biru); }
-
-        .pilihan-btn.correct {
-            background-color: var(--hijau-berhasil);
-            color: white;
-            border-color: var(--hijau-berhasil);
-        }
-        .pilihan-btn.correct .label { color: white; }
-
-        .pilihan-btn.wrong {
-            background-color: var(--merah-salah);
-            color: white;
-            border-color: var(--merah-salah);
-        }
-        .pilihan-btn.wrong .label { color: white; }
-
-        .penjelasan {
-            margin-top: 15px;
-            padding: 15px;
-            background: #F8F9FF;
-            border-radius: 12px;
-            font-size: 14px;
-            color: var(--teks-sekunder);
-            display: none;
-        }
-
-        /* Navigasi */
-        .nav-buttons { display: flex; justify-content: space-between; margin-top: 20px; }
-        .btn {
-            padding: 12px 24px;
-            border-radius: 12px;
-            font-size: 16px;
-            font-weight: 600;
-            cursor: pointer;
-            border: none;
-            transition: transform 0.2s;
-            font-family: 'Plus Jakarta Sans', sans-serif;
-        }
-        .btn:hover { transform: translateY(-2px); }
-        .btn-prev { background: #E0E0E0; color: var(--teks-utama); }
-        .btn-next { background: var(--langit-biru); color: white; }
-        .hidden { display: none; }
-    </style>
-</head>
-<body>
-
-<div class="header">
-    <div class="logo">🌌 Langit Korea</div>
-    <div class="subtitle">Latihan EPS-TOPIK</div>
-</div>
-
-<div class="progress-bar">
-    <div class="progress-fill" id="progressFill"></div>
-</div>
-
-<!-- Pilihan Bab -->
-<div id="babSelector" class="bab-selector">
-    <div style="font-weight:600; font-size:16px;">Pilih Bab (Unit)</div>
-    <div class="bab-grid" id="babGrid">
-        <!-- Diisi JS -->
-    </div>
-    <button class="btn btn-next" style="margin-top:15px; width:100%;" onclick="startQuiz()">Mulai Latihan</button>
-</div>
-
-<!-- Area Latihan -->
-<div id="quizArea" class="hidden">
-    <div class="soal-card">
-        <div class="soal-info">
-            <span id="soalBab">Bab 1</span>
-            <span id="soalCount">1/5</span>
+            <!-- Footer -->
+            <div
+                style="
+                    text-align: center;
+                    padding: 16px 0;
+                    color: var(--teks-sekunder);
+                    font-size: 0.8rem;
+                "
+            >
+                <p>
+                    Langit Korea © 2025 — Dibuat dengan ❤️ untuk pekerja migran
+                    Indonesia
+                </p>
+            </div>
         </div>
-        <div class="soal-teks">
-            <span id="soalTeks">Apa arti dari <span class="korean">안녕하세요?</span></span>
-        </div>
-        <div class="pilihan-grid" id="pilihanGrid">
-            <!-- Diisi JS -->
-        </div>
-        <div class="penjelasan" id="penjelasan">
-            <!-- Diisi JS -->
-        </div>
-    </div>
 
-    <div class="nav-buttons">
-        <button class="btn btn-prev" onclick="prevSoal()">← Sebelumnya</button>
-        <button class="btn btn-next" onclick="nextSoal()">Lanjut →</button>
-    </div>
-</div>
+        <script type="module">
+            import { supabase } from "./assets/js/supabase.js";
+            import { navigateTo } from "./assets/js/utils.js";
 
-<script>
-    // Data Dummy (Contoh Soal - Nanti diganti fetch dari Supabase)
-    const soalData = [
-        {
-            bab: 31,
-            teks: 'Apa arti dari <span class="korean">안녕하세요?</span>',
-            pilihan: [
-                { label: 'A', text: 'Terima kasih' },
-                { label: 'B', text: 'Selamat tinggal' },
-                { label: 'C', text: 'Apa kabar?' },
-                { label: 'D', text: 'Sampai jumpa' }
-            ],
-            jawaban: 'C',
-            penjelasan: '안녕하세요 (Annyeonghaseyo) artinya "Apa kabar?" atau "Halo". Biasanya digunakan untuk menyapa orang yang lebih tua atau formal.'
-        },
-        {
-            bab: 31,
-            teks: '<span class="korean">고기</span> artinya?',
-            pilihan: [
-                { label: 'A', text: 'Ikan' },
-                { label: 'B', text: 'Daging' },
-                { label: 'C', text: 'Sayur' },
-                { label: 'D', text: 'Buah' }
-            ],
-            jawaban: 'B',
-            penjelasan: '고기 (Gogi) artinya Daging. Contoh: 돼지고기 (Dwaeji-gogi - Daging babi).'
-        },
-        {
-            bab: 32,
-            teks: 'Bacaan: <span class="korean">도서관</span>',
-            pilihan: [
-                { label: 'A', text: 'Sekolah' },
-                { label: 'B', text: 'Kantor' },
-                { label: 'C', text: 'Perpustakaan' },
-                { label: 'D', text: 'Rumah Sakit' }
-            ],
-            jawaban: 'C',
-            penjelasan: '도서관 (Doseogwan) artinya Perpustakaan.'
-        }
-    ];
+            window.navigateTo = navigateTo;
 
-    let currentSoal = 0;
-    let selectedBab = 31; // Default
+            let allQuestions = [];
+            let filteredQuestions = [];
 
-    // Render Bab Grid
-    function renderBabGrid() {
-        const grid = document.getElementById('babGrid');
-        grid.innerHTML = '';
-        // Tampilkan 10 bab pertama sebagai contoh
-        for (let i = 31; i <= 40; i++) {
-            const btn = document.createElement('button');
-            btn.className = 'bab-btn' + (i === selectedBab ? ' active' : '');
-            btn.innerText = i;
-            btn.onclick = () => selectBab(i);
-            grid.appendChild(btn);
-        }
-    }
+            // Dummy data untuk testing
+            const dummyQuestions = [
+                {
+                    id: "u31_r1",
+                    unit: 31,
+                    nomor: 1,
+                    tipe: "membaca",
+                    teks_soal: "(텍스트 한국어)",
+                    teks_soal_id: "(Teks Indonesia)",
+                    pilihan_a: "Pilihan A",
+                    pilihan_b: "Pilihan B",
+                    pilihan_c: "Pilihan C",
+                    pilihan_d: "Pilihan D",
+                    jawaban: "b",
+                    tingkat: "sedang",
+                    akses: "free",
+                    audio_url: null,
+                    penjelasan: "Penjelasan soal.",
+                },
+                {
+                    id: "u31_r2",
+                    unit: 31,
+                    nomor: 2,
+                    tipe: "membaca",
+                    teks_soal: "(텍스트 한국어)",
+                    teks_soal_id: "(Teks Indonesia)",
+                    pilihan_a: "Pilihan A",
+                    pilihan_b: "Pilihan B",
+                    pilihan_c: "Pilihan C",
+                    pilihan_d: "Pilihan D",
+                    jawaban: "c",
+                    tingkat: "mudah",
+                    akses: "free",
+                    audio_url: null,
+                    penjelasan: "Penjelasan soal.",
+                },
+                {
+                    id: "u31_l1",
+                    unit: 31,
+                    nomor: 1,
+                    tipe: "mendengarkan",
+                    teks_soal: "(텍스트 한국어)",
+                    teks_soal_id: "(Teks Indonesia)",
+                    pilihan_a: "Pilihan A",
+                    pilihan_b: "Pilihan B",
+                    pilihan_c: "Pilihan C",
+                    pilihan_d: "Pilihan D",
+                    jawaban: "a",
+                    tingkat: "sedang",
+                    akses: "free",
+                    audio_url: "https://example.com/audio.mp3",
+                    penjelasan: "Penjelasan soal.",
+                },
+                {
+                    id: "u32_r1",
+                    unit: 32,
+                    nomor: 1,
+                    tipe: "membaca",
+                    teks_soal: "(텍스트 한국어)",
+                    teks_soal_id: "(Teks Indonesia)",
+                    pilihan_a: "Pilihan A",
+                    pilihan_b: "Pilihan B",
+                    pilihan_c: "Pilihan C",
+                    pilihan_d: "Pilihan D",
+                    jawaban: "a",
+                    tingkat: "sulit",
+                    akses: "free",
+                    audio_url: null,
+                    penjelasan: "Penjelasan soal.",
+                },
+                {
+                    id: "u32_l1",
+                    unit: 32,
+                    nomor: 1,
+                    tipe: "mendengarkan",
+                    teks_soal: "(텍스트 한국어)",
+                    teks_soal_id: "(Teks Indonesia)",
+                    pilihan_a: "Pilihan A",
+                    pilihan_b: "Pilihan B",
+                    pilihan_c: "Pilihan C",
+                    pilihan_d: "Pilihan D",
+                    jawaban: "d",
+                    tingkat: "sedang",
+                    akses: "free",
+                    audio_url: "https://example.com/audio.mp3",
+                    penjelasan: "Penjelasan soal.",
+                },
+            ];
 
-    function selectBab(bab) {
-        selectedBab = bab;
-        renderBabGrid(); // Re-render to update active state
-    }
-
-    function startQuiz() {
-        document.getElementById('babSelector').classList.add('hidden');
-        document.getElementById('quizArea').classList.remove('hidden');
-        currentSoal = 0;
-        loadSoal();
-    }
-
-    function loadSoal() {
-        const soal = soalData[currentSoal];
-        document.getElementById('soalBab').innerText = 'Bab ' + soal.bab;
-        document.getElementById('soalCount').innerText = (currentSoal + 1) + '/' + soalData.length;
-        document.getElementById('soalTeks').innerHTML = soal.teks;
-
-        const grid = document.getElementById('pilihanGrid');
-        grid.innerHTML = '';
-        soal.pilihan.forEach(p => {
-            const btn = document.createElement('button');
-            btn.className = 'pilihan-btn';
-            btn.innerHTML = `<span class="label">${p.label}</span> ${p.text}`;
-            btn.onclick = () => checkAnswer(btn, p.label, soal.jawaban, soal.penjelasan);
-            grid.appendChild(btn);
-        });
-
-        // Reset penjelasan
-        document.getElementById('penjelasan').style.display = 'none';
-
-        // Update progress
-        const progress = ((currentSoal + 1) / soalData.length) * 100;
-        document.getElementById('progressFill').style.width = progress + '%';
-    }
-
-    function checkAnswer(button, selected, correct, explanation) {
-        // Disable all buttons
-        document.querySelectorAll('.pilihan-btn').forEach(btn => {
-            btn.onclick = null;
-            btn.style.cursor = 'default';
-        });
-
-        if (selected === correct) {
-            button.classList.add('correct');
-        } else {
-            button.classList.add('wrong');
-            // Tampilkan yang benar
-            document.querySelectorAll('.pilihan-btn').forEach(btn => {
-                if(btn.innerText.includes(correct)) {
-                    btn.classList.add('correct');
-                }
+            // ========== INIT ==========
+            document.addEventListener("DOMContentLoaded", () => {
+                loadAllQuestions();
             });
-        }
 
-        // Tampilkan penjelasan
-        const penjelasanEl = document.getElementById('penjelasan');
-        penjelasanEl.innerHTML = '<strong>Penjelasan:</strong> ' + explanation;
-        penjelasanEl.style.display = 'block';
-    }
+            // ========== LOAD ALL QUESTIONS ==========
+            async function loadAllQuestions() {
+                try {
+                    let data = [];
+                    try {
+                        const { data: supabaseData, error: supabaseError } =
+                            await supabase
+                                .from("soal_eps")
+                                .select("*")
+                                .gte("unit", 31)
+                                .lte("unit", 60)
+                                .order("unit", { ascending: true })
+                                .order("id", { ascending: true });
 
-    function nextSoal() {
-        if (currentSoal < soalData.length - 1) {
-            currentSoal++;
-            loadSoal();
-        } else {
-            alert('Latihan selesai! Kamu hebat! 🎉');
-            // Kembali ke home atau reset
-            window.location.href = 'home.html';
-        }
-    }
+                        if (supabaseError) throw supabaseError;
+                        data = supabaseData || [];
+                        console.log(
+                            "Data loaded from Supabase:",
+                            data.length,
+                            "questions",
+                        );
+                    } catch (e) {
+                        console.warn(
+                            "Supabase load failed, using dummy data:",
+                            e,
+                        );
+                        data = dummyQuestions;
+                    }
 
-    function prevSoal() {
-        if (currentSoal > 0) {
-            currentSoal--;
-            loadSoal();
-        }
-    }
+                    allQuestions = data;
+                    console.log(`Total questions: ${allQuestions.length}`);
 
-    // Init
-    renderBabGrid();
-</script>
+                    const unitsInDb = [
+                        ...new Set(allQuestions.map((q) => q.unit)),
+                    ];
+                    console.log("Units available:", unitsInDb);
 
-</body>
+                    document.getElementById("loadingText").textContent =
+                        `Memuat ${allQuestions.length} soal dari ${unitsInDb.length} unit...`;
+
+                    populateUnitFilter();
+                    applyFilter();
+                    document.getElementById("loadingDiv").style.display =
+                        "none";
+                } catch (error) {
+                    console.error("Error loading questions:", error);
+                    document.getElementById("content").innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">⚠️</div>
+                        <p>Gagal memuat soal. Pastikan koneksi internet aktif.</p>
+                    </div>
+                `;
+                    document.getElementById("loadingDiv").style.display =
+                        "none";
+                }
+            }
+
+            // ========== POPULATE UNIT FILTER ==========
+            function populateUnitFilter() {
+                const unitFilter = document.getElementById("unitFilter");
+                while (unitFilter.options.length > 1) unitFilter.remove(1);
+
+                const unitsInDb = [...new Set(allQuestions.map((q) => q.unit))];
+
+                for (let u = 31; u <= 60; u++) {
+                    const option = document.createElement("option");
+                    option.value = u;
+                    option.textContent = `Unit ${u}`;
+                    if (!unitsInDb.includes(u)) {
+                        option.disabled = true;
+                        option.textContent += " (belum tersedia)";
+                        option.style.color = "#999";
+                    }
+                    unitFilter.appendChild(option);
+                }
+            }
+
+            // ========== APPLY FILTER ==========
+            function applyFilter() {
+                const unit = document.getElementById("unitFilter").value;
+                const type = document.getElementById("typeFilter").value;
+                const level = document.getElementById("levelFilter").value;
+
+                filteredQuestions = allQuestions.filter((q) => {
+                    if (unit !== "all" && q.unit != unit) return false;
+                    if (type !== "all" && q.tipe !== type) return false;
+                    if (level !== "all" && q.tingkat !== level) return false;
+                    return true;
+                });
+
+                // Update stats
+                const membaca = filteredQuestions.filter(
+                    (q) => q.tipe === "membaca",
+                ).length;
+                const listening = filteredQuestions.filter(
+                    (q) => q.tipe === "mendengarkan",
+                ).length;
+                const valid = filteredQuestions.filter((q) => {
+                    if (q.tipe === "mendengarkan") return !!q.audio_url;
+                    return !q.audio_url;
+                }).length;
+
+                document.getElementById("statsSection").style.display = "grid";
+                document.getElementById("statTotal").textContent =
+                    filteredQuestions.length;
+                document.getElementById("statMembaca").textContent = membaca;
+                document.getElementById("statListening").textContent =
+                    listening;
+                document.getElementById("statValid").textContent =
+                    filteredQuestions.length > 0
+                        ? Math.round((valid / filteredQuestions.length) * 100) +
+                          "%"
+                        : "0%";
+
+                // Update header
+                const subtitle = document.getElementById("subtitle");
+                if (unit === "all") {
+                    subtitle.textContent = `${filteredQuestions.length} soal dari semua unit`;
+                } else {
+                    subtitle.textContent = `Unit ${unit} - ${filteredQuestions.length} soal`;
+                }
+
+                renderQuestions();
+            }
+
+            // ========== RENDER QUESTIONS ==========
+            function renderQuestions() {
+                const content = document.getElementById("content");
+
+                if (filteredQuestions.length === 0) {
+                    content.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">📭</div>
+                        <p>Tidak ada soal yang sesuai filter.</p>
+                        <p style="font-size: 14px; color: var(--teks-sekunder); margin-top: 8px;">Coba ubah filter atau pilih unit lain.</p>
+                    </div>
+                `;
+                    return;
+                }
+
+                // Group by unit
+                const grouped = {};
+                filteredQuestions.forEach((q) => {
+                    if (!grouped[q.unit]) grouped[q.unit] = [];
+                    grouped[q.unit].push(q);
+                });
+
+                let html = "";
+
+                Object.keys(grouped)
+                    .sort((a, b) => a - b)
+                    .forEach((unit) => {
+                        const questions = grouped[unit];
+
+                        html += `
+                    <div class="card" style="margin-bottom: 16px;">
+                        <div class="section-header">
+                            <span class="section-icon">📝</span>
+                            <span class="section-title">Unit ${unit}</span>
+                            <span class="badge badge-free">${questions.length} Soal</span>
+                        </div>
+                `;
+
+                        questions.forEach((q, idx) => {
+                            const isListening = q.tipe === "mendengarkan";
+                            const isValid =
+                                (isListening && q.audio_url) ||
+                                (!isListening && !q.audio_url);
+
+                            html += `
+                        <div class="card" style="margin-bottom: 8px; border-left: 4px solid ${isListening ? "var(--langit-fajar)" : "var(--langit-biru)"};">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span style="font-weight: 600; font-size: 0.9rem;">Soal ${q.nomor || idx + 1}</span>
+                                <span class="badge ${isListening ? "badge-premium" : "badge-free"}">${isListening ? "Mendengarkan" : "Membaca"}</span>
+                            </div>
+                            <p class="korean-text" style="margin-bottom: 12px;">${q.teks_soal || q.teks_soal_id || "(Teks tidak tersedia)"}</p>
+                    `;
+
+                            // Options
+                            html += `<div class="options-grid">`;
+                            const options = [
+                                {
+                                    key: "a",
+                                    text: q.pilihan_a,
+                                    correct: q.jawaban === "a",
+                                },
+                                {
+                                    key: "b",
+                                    text: q.pilihan_b,
+                                    correct: q.jawaban === "b",
+                                },
+                                {
+                                    key: "c",
+                                    text: q.pilihan_c,
+                                    correct: q.jawaban === "c",
+                                },
+                                {
+                                    key: "d",
+                                    text: q.pilihan_d,
+                                    correct: q.jawaban === "d",
+                                },
+                            ];
+
+                            options.forEach((opt) => {
+                                if (!opt.text) return;
+                                html += `
+                            <div class="option-card" onclick="revealAnswer(this, '${opt.key}', '${q.jawaban}', '${q.id}')">
+                                <span class="option-letter">${opt.key.toUpperCase()}</span>
+                                <span class="korean-text">${opt.text}</span>
+                            </div>
+                        `;
+                            });
+
+                            html += `</div>`;
+
+                            // Answer
+                            html += `
+                        <div id="answer_${q.id}" style="display:none; margin-top: 8px; padding: 10px; background: rgba(76, 175, 130, 0.08); border-radius: 8px; border-left: 3px solid var(--hijau-berhasil);">
+                            <strong style="color: var(--hijau-berhasil);">✅ Jawaban Benar: ${q.jawaban ? q.jawaban.toUpperCase() : "(kosong)"}</strong>
+                            ${q.penjelasan ? `<p style="font-size: 0.85rem; color: var(--teks-sekunder); margin-top: 6px;">${q.penjelasan}</p>` : ""}
+                        </div>
+                    `;
+
+                            // Audio untuk listening
+                            if (isListening && q.audio_url) {
+                                html += `
+                            <div class="audio-player">
+                                <button class="audio-btn" onclick="this.nextElementSibling.play()">▶</button>
+                                <audio src="${q.audio_url}" style="display:none;"></audio>
+                                <span style="font-size: 0.85rem; color: var(--teks-sekunder);">🔊 Klik untuk dengarkan</span>
+                            </div>
+                        `;
+                            } else if (isListening && !q.audio_url) {
+                                html += `
+                            <div style="font-size: 13px; color: var(--merah-salah); margin-top: 8px;">
+                                ⚠️ Audio belum tersedia
+                            </div>
+                        `;
+                            }
+
+                            // Verification
+                            html += `
+                        <div style="margin-top: 8px; font-size: 0.8rem; color: ${isValid ? "var(--hijau-berhasil)" : "var(--merah-salah)"};">
+                            ${isValid ? "✅ Valid" : "❌ Invalid - Periksa data soal"}
+                        </div>
+                    `;
+
+                            html += `</div>`; // Close inner card
+                        });
+
+                        html += `</div>`; // Close unit card
+                    });
+
+                content.innerHTML = html;
+            }
+
+            // ========== REVEAL ANSWER ==========
+            window.revealAnswer = function (
+                element,
+                selectedKey,
+                correctAnswer,
+                questionId,
+            ) {
+                const allCards =
+                    element.parentElement.querySelectorAll(".option-card");
+                const answerDiv = document.getElementById(
+                    "answer_" + questionId,
+                );
+
+                allCards.forEach((c) => {
+                    c.style.pointerEvents = "none";
+                    const letter = c.querySelector(".option-letter");
+                    const key = letter.textContent.toLowerCase();
+
+                    if (key === correctAnswer) {
+                        c.classList.add("correct");
+                        letter.className = "option-letter option-correct";
+                    } else if (key === selectedKey && key !== correctAnswer) {
+                        c.classList.add("wrong");
+                        letter.className = "option-letter option-wrong";
+                    }
+                });
+
+                answerDiv.style.display = "block";
+            };
+        </script>
+    </body>
 </html>

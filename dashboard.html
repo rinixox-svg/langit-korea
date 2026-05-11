@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0</head>">
+    <title>Langit Korea — Dashboard</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="module" src="assets/js/supabase.js"></script>
+    <script type="module" src="assets/js/auth.js"></script>
+    <script type="module" src="assets/js/utils.js"></script>
+</head>
+<body>
+    <a href="#main" class="skip-link">Langsung ke konten</body></a>
+
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🌌 Langit Korea</h1>
+            <p id="greeting">Selamat datang, pembelajar!</p>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="statUnit">0</div>
+                <div class="stat-label">Unit Selesai</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="statSoal">0</div>
+                <div class="stat-label">Soal Dikerjakan</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="statAkurasi">0%</div>
+                <div class="stat-label">Akurasi</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="statStreak">🔥 0</div>
+                <div class="stat-label">Hari Berturut-turut</div>
+            </div>
+        </div>
+
+        <!-- Lanjutkan Belajar -->
+        <div class="card">
+            <div class="section-header">
+                <span class="section-icon">📖</span>
+                <span class="section-title">Lanjutkan Belajar</span>
+            </div>
+            <div id="continueSection">
+                <p style="color: var(--teks-sekunder); font-size: 0.9rem;">Memuat progress...</p>
+            </div>
+        </div>
+
+        <!-- Menu Navigasi -->
+        <div class="card">
+            <div class="section-header">
+                <span class="section-icon">📂</span>
+                <span class="section-title">Menu Belajar</span>
+            </div>
+
+            <div class="flex-col" style="gap: 10px;">
+                <button class="btn btn-primary" onclick="navigateTo('modul-unit.html')">
+                    📚 Modul Belajar (Unit 31-60)
+                </button>
+                <button class="btn btn-secondary" onclick="navigateTo('latihan-eps.html')">
+                    ✏️ Latihan Soal EPS-TOPIK
+                </button>
+                <button class="btn btn-secondary" onclick="navigateTo('simulasi.html')">
+                    📝 Simulasi Ujian Penuh
+                </button>
+                <button class="btn btn-secondary" onclick="navigateTo('progress.html')">
+                    📊 Lihat Progress
+                </button>
+            </div>
+        </div>
+
+        <!-- Target Harian -->
+        <div class="card">
+            <div class="section-header">
+                <span class="section-icon">🎯</span>
+                <span class="section-title">Target Harian</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="dailyProgress" style="width: 0%;"></div>
+            </div>
+            <p class="progress-text" id="dailyProgressText">0 / 10 soal hari ini</p>
+            <p style="color: var(--teks-sekunder); font-size: 0.85rem; margin-top: 8px;">
+                💡 Kerjakan minimal 10 soal per hari untuk persiapan optimal!
+            </p>
+        </div>
+
+        <!-- Tombol Logout -->
+        <div style="margin-top: 8px; margin-bottom: 24px;">
+            <button class="btn btn-secondary" onclick="handleLogout()" style="background: white; color: var(--merah-salah); border-color: var(--merah-salah);">
+                🚪 Keluar
+            </button>
+        </div>
+
+        <!-- Footer -->
+        <div style="text-align: center; padding: 16px 0; color: var(--teks-sekunder); font-size: 0.8rem;">
+            <p>Langit Korea © 2025 — Dibuat dengan ❤️ untuk pekerja migran Indonesia</p>
+        </div>
+    </div>
+
+    <script type="module">
+        import { navigateTo } from './assets/js/utils.js';
+        import { logout, getCurrentUser } from './assets/js/auth.js';
+        import { loadProgress, saveProgress } from './assets/js/utils.js';
+
+        window.navigateTo = navigateTo;
+
+        // Cek session & tampilkan nama user
+        (async function init() {
+            const { data: { user } } = await getCurrentUser();
+            if (!user) {
+                navigateTo('onboarding.html');
+                return;
+            }
+
+            const nama = user.user_metadata?.nama || user.email?.split('@')[0] || 'Pembelajar';
+            document.getElementById('greeting').textContent = `Selamat datang, ${nama}!`;
+
+            // Load progress dari localStorage
+            loadDashboardProgress();
+        })();
+
+        function loadDashboardProgress() {
+            const progress = loadProgress('dashboard');
+            const today = new Date().toISOString().split('T')[0];
+
+            if (progress && progress.date === today) {
+                document.getElementById('statUnit').textContent = progress.units || 0;
+                document.getElementById('statSoal').textContent = progress.questions || 0;
+                document.getElementById('statAkurasi').textContent = progress.accuracy || '0%';
+                document.getElementById('statStreak').textContent = '🔥 ' + (progress.streak || 0);
+
+                const dailyDone = progress.dailyDone || 0;
+                const dailyTarget = 10;
+                const pct = Math.min((dailyDone / dailyTarget) * 100, 100);
+                document.getElementById('dailyProgress').style.width = pct + '%';
+                document.getElementById('dailyProgressText').textContent =
+                    `${dailyDone} / ${dailyTarget} soal hari ini`;
+            } else {
+                document.getElementById('dailyProgress').style.width = '0%';
+                document.getElementById('dailyProgressText').textContent = '0 / 10 soal hari ini';
+            }
+        }
+
+        async function handleLogout() {
+            await logout();
+            navigateTo('onboarding.html');
+        }
+
+        window.handleLogout = handleLogout;
+    </script>
+</body>
+</html>

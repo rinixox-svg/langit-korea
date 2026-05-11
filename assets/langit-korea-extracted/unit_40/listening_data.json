@@ -1,0 +1,114 @@
+{
+  "unit": 40,
+  "title_ko": "플라스틱 고무 성형",
+  "title_id": "Pembentukan Plastik dan Karet",
+  "file": "unit_40_plastic_rubber_molding.pdf",
+  "total_halaman": 10,
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 반장님, 이제 뭘 할까요? 여 : 여기 있는 부품의 길이를 재 주세요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u40_l1",
+      "jawaban": "b",
+      "audio_teks": "1. 남 : 반장님, 이제 뭘 할까요?\n여 : 여기 있는 부품의 길이를 재 주세요.\n2. 남 : 기계 작동을 중지했어요?\n3. 여 : 누가 혼합기를 청소했어요?\n4. 남 : 제품에 검은 줄이 생겼어요. 어떡하죠?\n5. 여 : 혼합기에 첨가제를 넣었어요?\n남 : 아직 안 넣었어요. 지금 비율을 계산하는 중이에요.\n여 : 비율도 중요하지만 혼합기가 깨끗해야 정확한 색깔이 나올 수 있어요.\n남 : 그럼 첨가제 무게를 재고 나서 혼합기를 청소할게요.\n40 플라스틱 고무 성형 KOREAN POPULAR CULTURE 115",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u40_h9_soal_listening_0a.jpeg",
+        "b": "images/u40_h9_soal_listening_02.jpeg",
+        "c": "images/u40_h9_soal_listening_03.jpeg",
+        "d": "images/u40_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_40/listening_1.mp3"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 기계 작동을 중지했어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u40_l2",
+      "jawaban": "a",
+      "audio_teks": "1. 남 : 반장님, 이제 뭘 할까요?\n여 : 여기 있는 부품의 길이를 재 주세요.\n2. 남 : 기계 작동을 중지했어요?\n3. 여 : 누가 혼합기를 청소했어요?\n4. 남 : 제품에 검은 줄이 생겼어요. 어떡하죠?\n5. 여 : 혼합기에 첨가제를 넣었어요?\n남 : 아직 안 넣었어요. 지금 비율을 계산하는 중이에요.\n여 : 비율도 중요하지만 혼합기가 깨끗해야 정확한 색깔이 나올 수 있어요.\n남 : 그럼 첨가제 무게를 재고 나서 혼합기를 청소할게요.\n40 플라스틱 고무 성형 KOREAN POPULAR CULTURE 115",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u40_h9_soal_listening_02.jpeg",
+        "b": "images/u40_h9_soal_listening_02.jpeg",
+        "c": "images/u40_h9_soal_listening_02.jpeg",
+        "d": "images/u40_h9_soal_listening_02.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_40/listening_2.mp3"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 누가 혼합기를 청소했어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u40_l3",
+      "jawaban": "a",
+      "audio_teks": "1. 남 : 반장님, 이제 뭘 할까요?\n여 : 여기 있는 부품의 길이를 재 주세요.\n2. 남 : 기계 작동을 중지했어요?\n3. 여 : 누가 혼합기를 청소했어요?\n4. 남 : 제품에 검은 줄이 생겼어요. 어떡하죠?\n5. 여 : 혼합기에 첨가제를 넣었어요?\n남 : 아직 안 넣었어요. 지금 비율을 계산하는 중이에요.\n여 : 비율도 중요하지만 혼합기가 깨끗해야 정확한 색깔이 나올 수 있어요.\n남 : 그럼 첨가제 무게를 재고 나서 혼합기를 청소할게요.\n40 플라스틱 고무 성형 KOREAN POPULAR CULTURE 115",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u40_h9_soal_listening_03.jpeg",
+        "b": "images/u40_h9_soal_listening_03.jpeg",
+        "c": "images/u40_h9_soal_listening_03.jpeg",
+        "d": "images/u40_h9_soal_listening_03.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_40/listening_3.mp3"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 제품에 검은 줄이 생겼어요. 어떡하죠?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u40_l4",
+      "jawaban": "d",
+      "audio_teks": "1. 남 : 반장님, 이제 뭘 할까요?\n여 : 여기 있는 부품의 길이를 재 주세요.\n2. 남 : 기계 작동을 중지했어요?\n3. 여 : 누가 혼합기를 청소했어요?\n4. 남 : 제품에 검은 줄이 생겼어요. 어떡하죠?\n5. 여 : 혼합기에 첨가제를 넣었어요?\n남 : 아직 안 넣었어요. 지금 비율을 계산하는 중이에요.\n여 : 비율도 중요하지만 혼합기가 깨끗해야 정확한 색깔이 나올 수 있어요.\n남 : 그럼 첨가제 무게를 재고 나서 혼합기를 청소할게요.\n40 플라스틱 고무 성형 KOREAN POPULAR CULTURE 115",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u40_h9_soal_listening_04.jpeg",
+        "b": "images/u40_h9_soal_listening_04.jpeg",
+        "c": "images/u40_h9_soal_listening_04.jpeg",
+        "d": "images/u40_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_40/listening_4.mp3"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 혼합기에 첨가제를 넣었어요? 남 : 아직 안 넣었어요. 지금 비율을 계산하는 중이에요. 여 : 비율도 중요하지만 혼합기가 깨끗해야 정확한 색깔이 나올 수 있어요. 남 : 그럼 첨가제 무게를 재고 나서 혼합기를 청소할게요. 40 플라스틱 고무 성형 KOREAN POPULAR CULTURE 115",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u40_l5",
+      "jawaban": "c",
+      "audio_teks": "1. 남 : 반장님, 이제 뭘 할까요?\n여 : 여기 있는 부품의 길이를 재 주세요.\n2. 남 : 기계 작동을 중지했어요?\n3. 여 : 누가 혼합기를 청소했어요?\n4. 남 : 제품에 검은 줄이 생겼어요. 어떡하죠?\n5. 여 : 혼합기에 첨가제를 넣었어요?\n남 : 아직 안 넣었어요. 지금 비율을 계산하는 중이에요.\n여 : 비율도 중요하지만 혼합기가 깨끗해야 정확한 색깔이 나올 수 있어요.\n남 : 그럼 첨가제 무게를 재고 나서 혼합기를 청소할게요.\n40 플라스틱 고무 성형 KOREAN POPULAR CULTURE 115",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_40/listening_5.mp3"
+    }
+  ]
+}

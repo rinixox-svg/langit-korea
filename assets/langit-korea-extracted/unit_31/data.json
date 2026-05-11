@@ -4,129 +4,166 @@
   "title_id": "Pakaian dan Sikap Kerja",
   "file": "unit_31_attire_work_attitude.pdf",
   "total_halaman": 10,
-  "halaman": {
-    "hal1": {
-      "kategori": "vocab",
-      "chars": 494,
-      "gambar_count": 16
-    },
-    "hal2": {
-      "kategori": "grammar",
-      "chars": 846,
-      "gambar_count": 4
-    },
-    "hal3": {
-      "kategori": "conversation",
-      "chars": 1260,
-      "gambar_count": 4
-    },
-    "hal4": {
-      "kategori": "vocab",
-      "chars": 653,
-      "gambar_count": 18
-    },
-    "hal5": {
-      "kategori": "grammar",
-      "chars": 804,
-      "gambar_count": 4
-    },
-    "hal6": {
-      "kategori": "conversation",
-      "chars": 1120,
-      "gambar_count": 3
-    },
-    "hal7": {
-      "kategori": "culture",
-      "chars": 2243,
-      "gambar_count": 21
-    },
-    "hal8": {
-      "kategori": "soal_membaca",
-      "chars": 781,
-      "gambar_count": 0
-    },
-    "hal9": {
-      "kategori": "soal_listening",
-      "chars": 723,
-      "gambar_count": 4
-    }
-  },
   "soal": [
     {
-      "id": "u31_m1",
       "nomor": 1,
       "tipe": "membaca",
-      "teks_soal": "다음 단어의 반대말은 무엇입니까?\n잠그다",
+      "teks_soal": "잠그다",
+      "instruksi": "다음 단어의 반대말은 무엇입니까?",
       "pilihan_a": "벗다",
       "pilihan_b": "풀다",
       "pilihan_c": "올리다",
       "pilihan_d": "내리다",
-      "jawaban": "b",
+      "id": "u31_m1",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u31_m2",
       "nomor": 2,
       "tipe": "membaca",
-      "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "teks_soal": "",
+      "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
       "pilihan_a": "셔츠를 입고 넥타이를 잠갔어요.",
       "pilihan_b": "작업복이 불편해서 지퍼를 맸어요.",
       "pilihan_c": "출근한 후에 유니폼으로 내렸어요.",
-      "pilihan_d": "날씨가 더워서 작업복 단추를 풀었어요.\n[3~4] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "jawaban": "d",
+      "pilihan_d": "날씨가 더워서 작업복 단추를 풀었어요.",
+      "id": "u31_m2",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u31_m3",
       "nomor": 3,
       "tipe": "membaca",
-      "teks_soal": "어제 공장장님께서 항상 성실하게 일한다고 을/를 해 주셨습니다. 그 말을 들으니까\n기분이 좋았습니다. 앞으로 더 열심히 일할 겁니다.",
+      "teks_soal": "어제 공장장님께서 항상 성실하게 일한다고 을/를 해 주셨습니다. 그 말을 들으니까 기분이 좋았습니다. 앞으로 더 열심히 일할 겁니다.",
+      "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "pilihan_a": "사과",
       "pilihan_b": "축하",
       "pilihan_c": "칭찬",
       "pilihan_d": "인사",
-      "jawaban": "a",
+      "id": "u31_m3",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u31_m4",
       "nomor": 4,
       "tipe": "membaca",
-      "teks_soal": "작업장에서 일할 때는 항상 작업복을 입어야 합니다. 그래서 출근한 후에 바로 작업복으로\n일을 시작합니다.",
+      "teks_soal": "작업장에서 일할 때는 항상 작업복을 입어야 합니다. 그래서 출근한 후에 바로 작업복으로 일을 시작합니다.",
+      "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "pilihan_a": "만들고",
       "pilihan_b": "부르고",
       "pilihan_c": "갈아입고",
       "pilihan_d": "건너가고",
-      "jawaban": "d",
+      "id": "u31_m4",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u31_m5",
       "nomor": 5,
       "tipe": "membaca",
-      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국에서는 직장 상사에게 ‘반장님’처럼 직책 다음에 ‘-님’을 붙여 부릅니다. 만약 ‘과장님’이 여러\n명이라면 구분을 위해 ‘김 과장님’, ‘이민주 과장님’과 같이 이름이나 성을 붙여 부르면 됩니다. 동료나\n후배를 부를 때는 이름 뒤에 ‘씨’를 붙여서 ‘진수 씨’, ‘유진 씨’처럼 부릅니다. 친한 동료일 경우 직장\n밖에서 ‘형’, ‘누나’와 같은 가족 호칭을 써서 부르기도 합니다.",
+      "teks_soal": "한국에서는 직장 상사에게 ‘반장님’처럼 직책 다음에 ‘-님’을 붙여 부릅니다. 만약 ‘과장님’이 여러 명이라면 구분을 위해 ‘김 과장님’, ‘이민주 과장님’과 같이 이름이나 성을 붙여 부르면 됩니다. 동료나 후배를 부를 때는 이름 뒤에 ‘씨’를 붙여서 ‘진수 씨’, ‘유진 씨’처럼 부릅니다. 친한 동료일 경우 직장 밖에서 ‘형’, ‘누나’와 같은 가족 호칭을 써서 부르기도 합니다. 24 한국어 표준교재 2",
+      "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
       "pilihan_a": "상사를 부를 때는 이름 뒤에 '씨'를 붙여 부릅니다.",
       "pilihan_b": "동료나 후배에게는 직책에 ‘-님’을 붙여 부릅니다.",
       "pilihan_c": "친한 사이일 경우 가족 호칭을 사용하지 않습니다.",
       "pilihan_d": "같은 직책인 사람이 여러 명이면 직책 앞에 성을 붙여 부릅니다.",
-      "jawaban": "c",
+      "id": "u31_m5",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 마두 씨 회사 작업복은 무슨 색이에요? 남 : 우리 회사는 파란색 작업복을 입어요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u31_l1",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 유니폼이 작아요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u31_l2",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 새로 온 직원은 어때요? 여 : 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u31_l3",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 지퍼를 목까지 올리니까 좀 불편해요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u31_l4",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 아궁 씨, 왜 작업복 단추를 안 잠갔어요? 남 : 작업장이 너무 더워서 조금 풀었어요. 여 : 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요. 남 : 알겠어요. 지금 잠글게요. 31 복장과 근무 태도 ATTIRE AND WORK ATTITUDE 25",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u31_l5",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     }
-  ],
-  "gambar_soal": {}
+  ]
 }

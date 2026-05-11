@@ -1,0 +1,114 @@
+{
+  "unit": 36,
+  "title_ko": "출하 관리",
+  "title_id": "Manajemen Pengiriman",
+  "file": "unit_36_shipment_management.pdf",
+  "total_halaman": 10,
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 오전에 무슨 작업을 했어요? 남 : 납품할 물건을 트럭에 실었어요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u36_l1",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 오전에 무슨 작업을 했어요?\n남 : 납품할 물건을 트럭에 실었어요.\n2. 여 : 어떻게 상자를 운반했어요?\n3. 남 : 상자를 차에 옮겨 실으면 될까요?\n여 : 네, 위험할 수 있으니까 너무 높게 쌓지 않도록 하세요.\n4. 여 : 상자와 완충재를 얼마나 준비할까요?\n5. 남 : 아까 부탁한 방청지 갖다 놓았지요?\n여 : 죄송해요. 제품을 분류하느라 아직 준비 못 했어요.\n남 : 곧 포장 작업을 시작해야 되니까 얼른 가져오세요.\n여 : 네, 바로 가서 준비하겠습니다.\n36 출하 관리 SHIPMENT MANAGEMENT 75",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u36_h9_soal_listening_0a.png",
+        "b": "images/u36_h9_soal_listening_02.png",
+        "c": "images/u36_h9_soal_listening_03.png",
+        "d": "images/u36_h9_soal_listening_04.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_36/listening_1.mp3"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 어떻게 상자를 운반했어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u36_l2",
+      "jawaban": "b",
+      "audio_teks": "1. 여 : 오전에 무슨 작업을 했어요?\n남 : 납품할 물건을 트럭에 실었어요.\n2. 여 : 어떻게 상자를 운반했어요?\n3. 남 : 상자를 차에 옮겨 실으면 될까요?\n여 : 네, 위험할 수 있으니까 너무 높게 쌓지 않도록 하세요.\n4. 여 : 상자와 완충재를 얼마나 준비할까요?\n5. 남 : 아까 부탁한 방청지 갖다 놓았지요?\n여 : 죄송해요. 제품을 분류하느라 아직 준비 못 했어요.\n남 : 곧 포장 작업을 시작해야 되니까 얼른 가져오세요.\n여 : 네, 바로 가서 준비하겠습니다.\n36 출하 관리 SHIPMENT MANAGEMENT 75",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u36_h9_soal_listening_02.jpeg",
+        "b": "images/u36_h9_soal_listening_02.jpeg",
+        "c": "images/u36_h9_soal_listening_02.jpeg",
+        "d": "images/u36_h9_soal_listening_02.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_36/listening_2.mp3"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 상자를 차에 옮겨 실으면 될까요? 여 : 네, 위험할 수 있으니까 너무 높게 쌓지 않도록 하세요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u36_l3",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 오전에 무슨 작업을 했어요?\n남 : 납품할 물건을 트럭에 실었어요.\n2. 여 : 어떻게 상자를 운반했어요?\n3. 남 : 상자를 차에 옮겨 실으면 될까요?\n여 : 네, 위험할 수 있으니까 너무 높게 쌓지 않도록 하세요.\n4. 여 : 상자와 완충재를 얼마나 준비할까요?\n5. 남 : 아까 부탁한 방청지 갖다 놓았지요?\n여 : 죄송해요. 제품을 분류하느라 아직 준비 못 했어요.\n남 : 곧 포장 작업을 시작해야 되니까 얼른 가져오세요.\n여 : 네, 바로 가서 준비하겠습니다.\n36 출하 관리 SHIPMENT MANAGEMENT 75",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u36_h9_soal_listening_03.jpeg",
+        "b": "images/u36_h9_soal_listening_03.jpeg",
+        "c": "images/u36_h9_soal_listening_03.jpeg",
+        "d": "images/u36_h9_soal_listening_03.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_36/listening_3.mp3"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 상자와 완충재를 얼마나 준비할까요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u36_l4",
+      "jawaban": "d",
+      "audio_teks": "1. 여 : 오전에 무슨 작업을 했어요?\n남 : 납품할 물건을 트럭에 실었어요.\n2. 여 : 어떻게 상자를 운반했어요?\n3. 남 : 상자를 차에 옮겨 실으면 될까요?\n여 : 네, 위험할 수 있으니까 너무 높게 쌓지 않도록 하세요.\n4. 여 : 상자와 완충재를 얼마나 준비할까요?\n5. 남 : 아까 부탁한 방청지 갖다 놓았지요?\n여 : 죄송해요. 제품을 분류하느라 아직 준비 못 했어요.\n남 : 곧 포장 작업을 시작해야 되니까 얼른 가져오세요.\n여 : 네, 바로 가서 준비하겠습니다.\n36 출하 관리 SHIPMENT MANAGEMENT 75",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u36_h9_soal_listening_04.jpeg",
+        "b": "images/u36_h9_soal_listening_04.jpeg",
+        "c": "images/u36_h9_soal_listening_04.jpeg",
+        "d": "images/u36_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_36/listening_4.mp3"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 아까 부탁한 방청지 갖다 놓았지요? 여 : 죄송해요. 제품을 분류하느라 아직 준비 못 했어요. 남 : 곧 포장 작업을 시작해야 되니까 얼른 가져오세요. 여 : 네, 바로 가서 준비하겠습니다. 36 출하 관리 SHIPMENT MANAGEMENT 75",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u36_l5",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 오전에 무슨 작업을 했어요?\n남 : 납품할 물건을 트럭에 실었어요.\n2. 여 : 어떻게 상자를 운반했어요?\n3. 남 : 상자를 차에 옮겨 실으면 될까요?\n여 : 네, 위험할 수 있으니까 너무 높게 쌓지 않도록 하세요.\n4. 여 : 상자와 완충재를 얼마나 준비할까요?\n5. 남 : 아까 부탁한 방청지 갖다 놓았지요?\n여 : 죄송해요. 제품을 분류하느라 아직 준비 못 했어요.\n남 : 곧 포장 작업을 시작해야 되니까 얼른 가져오세요.\n여 : 네, 바로 가서 준비하겠습니다.\n36 출하 관리 SHIPMENT MANAGEMENT 75",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_36/listening_5.mp3"
+    }
+  ]
+}

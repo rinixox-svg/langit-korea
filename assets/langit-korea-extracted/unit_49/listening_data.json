@@ -1,0 +1,114 @@
+{
+  "unit": 49,
+  "title_ko": "광물 자원 개발 생산",
+  "title_id": "Pengembangan Sumber Daya Mineral",
+  "file": "unit_49_mineral_resource_development.pdf",
+  "total_halaman": 10,
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 작업장까지 어떻게 가요? 여 : 인차를 타고 갈 거예요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u49_l1",
+      "jawaban": "a",
+      "audio_teks": "1. 남 : 작업장까지 어떻게 가요?\n여 : 인차를 타고 갈 거예요.\n2. 남 : 지금 발파할 거예요?\n3. 남 : 석탄을 너무 많이 실으면 안 돼요.\n4. 여 : 반장님, 레일을 깔기 시작할까요?\n남 : 지주부터 세우고 레일을 깔아야 해요.\n5. 여 : 왕민 씨, 발파한다는 소리 못 들었어요?\n남 : 죄송합니다, 반장님. 기계 소리 때문에 못 들었어요.\n여 : 5분 후에 발파할 거니까 하던 일 멈추고 얼른 나가세요.\n49 광물 자원 개발 생산 MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 205",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u49_h9_soal_listening_0a.jpeg",
+        "b": "images/u49_h9_soal_listening_02.jpeg",
+        "c": "images/u49_h9_soal_listening_03.jpeg",
+        "d": "images/u49_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_49/listening_1.mp3"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 지금 발파할 거예요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u49_l2",
+      "jawaban": "d",
+      "audio_teks": "1. 남 : 작업장까지 어떻게 가요?\n여 : 인차를 타고 갈 거예요.\n2. 남 : 지금 발파할 거예요?\n3. 남 : 석탄을 너무 많이 실으면 안 돼요.\n4. 여 : 반장님, 레일을 깔기 시작할까요?\n남 : 지주부터 세우고 레일을 깔아야 해요.\n5. 여 : 왕민 씨, 발파한다는 소리 못 들었어요?\n남 : 죄송합니다, 반장님. 기계 소리 때문에 못 들었어요.\n여 : 5분 후에 발파할 거니까 하던 일 멈추고 얼른 나가세요.\n49 광물 자원 개발 생산 MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 205",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u49_h9_soal_listening_02.jpeg",
+        "b": "images/u49_h9_soal_listening_02.jpeg",
+        "c": "images/u49_h9_soal_listening_02.jpeg",
+        "d": "images/u49_h9_soal_listening_02.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_49/listening_2.mp3"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 석탄을 너무 많이 실으면 안 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u49_l3",
+      "jawaban": "c",
+      "audio_teks": "1. 남 : 작업장까지 어떻게 가요?\n여 : 인차를 타고 갈 거예요.\n2. 남 : 지금 발파할 거예요?\n3. 남 : 석탄을 너무 많이 실으면 안 돼요.\n4. 여 : 반장님, 레일을 깔기 시작할까요?\n남 : 지주부터 세우고 레일을 깔아야 해요.\n5. 여 : 왕민 씨, 발파한다는 소리 못 들었어요?\n남 : 죄송합니다, 반장님. 기계 소리 때문에 못 들었어요.\n여 : 5분 후에 발파할 거니까 하던 일 멈추고 얼른 나가세요.\n49 광물 자원 개발 생산 MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 205",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u49_h9_soal_listening_03.png",
+        "b": "images/u49_h9_soal_listening_03.png",
+        "c": "images/u49_h9_soal_listening_03.png",
+        "d": "images/u49_h9_soal_listening_03.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_49/listening_3.mp3"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 반장님, 레일을 깔기 시작할까요? 남 : 지주부터 세우고 레일을 깔아야 해요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u49_l4",
+      "jawaban": "a",
+      "audio_teks": "1. 남 : 작업장까지 어떻게 가요?\n여 : 인차를 타고 갈 거예요.\n2. 남 : 지금 발파할 거예요?\n3. 남 : 석탄을 너무 많이 실으면 안 돼요.\n4. 여 : 반장님, 레일을 깔기 시작할까요?\n남 : 지주부터 세우고 레일을 깔아야 해요.\n5. 여 : 왕민 씨, 발파한다는 소리 못 들었어요?\n남 : 죄송합니다, 반장님. 기계 소리 때문에 못 들었어요.\n여 : 5분 후에 발파할 거니까 하던 일 멈추고 얼른 나가세요.\n49 광물 자원 개발 생산 MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 205",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u49_h9_soal_listening_04.png",
+        "b": "images/u49_h9_soal_listening_04.png",
+        "c": "images/u49_h9_soal_listening_04.png",
+        "d": "images/u49_h9_soal_listening_04.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_49/listening_4.mp3"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 왕민 씨, 발파한다는 소리 못 들었어요? 남 : 죄송합니다, 반장님. 기계 소리 때문에 못 들었어요. 여 : 5분 후에 발파할 거니까 하던 일 멈추고 얼른 나가세요. 49 광물 자원 개발 생산 MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 205",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u49_l5",
+      "jawaban": "d",
+      "audio_teks": "1. 남 : 작업장까지 어떻게 가요?\n여 : 인차를 타고 갈 거예요.\n2. 남 : 지금 발파할 거예요?\n3. 남 : 석탄을 너무 많이 실으면 안 돼요.\n4. 여 : 반장님, 레일을 깔기 시작할까요?\n남 : 지주부터 세우고 레일을 깔아야 해요.\n5. 여 : 왕민 씨, 발파한다는 소리 못 들었어요?\n남 : 죄송합니다, 반장님. 기계 소리 때문에 못 들었어요.\n여 : 5분 후에 발파할 거니까 하던 일 멈추고 얼른 나가세요.\n49 광물 자원 개발 생산 MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 205",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_49/listening_5.mp3"
+    }
+  ]
+}

@@ -1,231 +1,257 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Langit Korea - Progress Belajar</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Langit Korea — Progress Belajar</title>
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+        <script type="module" src="assets/js/supabase.js"></script>
+        <script type="module" src="assets/js/auth.js"></script>
+        <script type="module" src="assets/js/utils.js"></script>
+    </head>
+    <body>
+        <a href="#main" class="skip-link">Langsung ke konten</a>
 
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+        <div class="container">
+            <!-- Header -->
+            <div class="header">
+                <h1>📊 Progress Belajar</h1>
+                <p>Lihat kemajuan belajar kamu dari waktu ke waktu</p>
+            </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="js/supabase-config.js"></script>
+            <!-- Overall Stats -->
+            <div class="stats" style="margin-bottom: 20px">
+                <div class="stat-card">
+                    <div class="stat-number" id="totalDone">0</div>
+                    <div class="stat-label">Unit Selesai</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="totalQuestions">0</div>
+                    <div class="stat-label">Soal Dikerjakan</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="avgAccuracy">0%</div>
+                    <div class="stat-label">Rata-rata Akurasi</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="longestStreak">🔥 0</div>
+                    <div class="stat-label">Streak Terpanjang</div>
+                </div>
+            </div>
 
-    <style>
-        :root {
-            --langit-biru: #4A90D9;
-            --langit-fajar: #FF8C61;
-            --putih-bersih: #F8F9FF;
-            --teks-utama: #1E2A3A;
-            --teks-sekunder: #6B7A8D;
-            --hijau-berhasil: #4CAF82;
-            --merah-salah: #E05C5C;
-        }
+            <!-- Progress per Unit -->
+            <div class="card">
+                <div class="section-header">
+                    <span class="section-icon">📚</span>
+                    <span class="section-title">Progress per Unit</span>
+                </div>
+                <div id="unitProgressList">
+                    <p style="color: var(--teks-sekunder); font-size: 0.9rem">
+                        Memuat progress...
+                    </p>
+                </div>
+            </div>
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+            <!-- Simulasi History -->
+            <div class="card">
+                <div class="section-header">
+                    <span class="section-icon">📝</span>
+                    <span class="section-title">Riwayat Simulasi</span>
+                </div>
+                <div id="simHistory">
+                    <p style="color: var(--teks-sekunder); font-size: 0.9rem">
+                        Belum ada simulasi yang dikerjakan.
+                    </p>
+                </div>
+            </div>
 
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: var(--putih-bersih);
-            color: var(--teks-utama);
-            padding: 20px;
-            max-width: 480px;
-            margin: 0 auto;
-        }
+            <!-- Daily Target -->
+            <div class="card">
+                <div class="section-header">
+                    <span class="section-icon">🎯</span>
+                    <span class="section-title">Target Harian</span>
+                </div>
+                <div class="progress-bar">
+                    <div
+                        class="progress-fill"
+                        id="dailyBar"
+                        style="width: 0%"
+                    ></div>
+                </div>
+                <p class="progress-text" id="dailyText">0 / 10 soal hari ini</p>
+                <p
+                    style="
+                        color: var(--teks-sekunder);
+                        font-size: 0.85rem;
+                        margin-top: 8px;
+                    "
+                >
+                    💡 Kerjakan minimal 10 soal per hari untuk persiapan
+                    optimal!
+                </p>
+            </div>
 
-        .header { text-align: center; margin-bottom: 20px; }
-        .logo { font-size: 24px; font-weight: 700; color: var(--langit-biru); }
-        .subtitle { font-size: 14px; color: var(--teks-sekunder); margin-top: 5px; }
+            <!-- Tombol Kembali -->
+            <div style="margin-bottom: 24px">
+                <button
+                    class="btn btn-secondary"
+                    onclick="navigateTo('dashboard.html')"
+                >
+                    ← Kembali ke Dashboard
+                </button>
+            </div>
 
-        .stats-card {
-            background: white;
-            border-radius: 16px;
-            padding: 20px;
-            box-shadow: 0 8px 24px rgba(74, 144, 217, 0.15);
-            margin-bottom: 20px;
-            display: flex;
-            justify-content: space-around;
-        }
-
-        .stat-item { text-align: center; }
-        .stat-number { font-size: 24px; font-weight: 700; color: var(--langit-biru); }
-        .stat-label { font-size: 12px; color: var(--teks-sekunder); margin-top: 4px; }
-
-        .section-title {
-            font-size: 18px;
-            font-weight: 700;
-            margin: 24px 0 16px 0;
-        }
-
-        .progress-list { display: flex; flex-direction: column; gap: 12px; }
-
-        .progress-item {
-            background: white;
-            border-radius: 12px;
-            padding: 16px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-        }
-
-        .progress-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 8px;
-        }
-
-        .progress-title { font-size: 14px; font-weight: 600; }
-        .progress-percent { font-size: 14px; font-weight: 700; color: var(--langit-biru); }
-
-        .progress-bar {
-            height: 8px;
-            background: #E0E0E0;
-            border-radius: 4px;
-            overflow: hidden;
-        }
-
-        .progress-fill {
-            height: 100%;
-            background: var(--langit-biru);
-            border-radius: 4px;
-            transition: width 0.5s ease;
-        }
-
-        .history-card {
-            background: white;
-            border-radius: 16px;
-            padding: 20px;
-            box-shadow: 0 8px 24px rgba(74, 144, 217, 0.15);
-            margin-bottom: 20px;
-        }
-
-        .history-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 12px 0;
-            border-bottom: 1px solid #f0f0f0;
-        }
-
-        .history-item:last-child { border-bottom: none; }
-
-        .history-info { display: flex; flex-direction: column; gap: 4px; }
-        .history-bab { font-size: 14px; font-weight: 600; }
-        .history-date { font-size: 12px; color: var(--teks-sekunder); }
-        .history-score { font-size: 16px; font-weight: 700; color: var(--hijau-berhasil); }
-
-        .btn-back {
-            background: white;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-            padding: 8px 12px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
-
-<button class="btn-back" onclick="window.location.href='home.html'">←</button>
-
-<div class="header">
-    <div class="logo">🌌 Langit Korea</div>
-    <div class="subtitle">Statistik Belajar</div>
-</div>
-
-<div class="stats-card">
-    <div class="stat-item">
-        <div class="stat-number" id="streakCount">5</div>
-        <div class="stat-label">Hari Streak</div>
-    </div>
-    <div class="stat-item">
-        <div class="stat-number" id="soalCount">120</div>
-        <div class="stat-label">Soal Dikerjakan</div>
-    </div>
-    <div class="stat-item">
-        <div class="stat-number" id="avgScore">85%</div>
-        <div class="stat-label">Rata-rata</div>
-    </div>
-</div>
-
-<div class="section-title">📊 Progress per Kategori</div>
-<div class="progress-list">
-    <div class="progress-item">
-        <div class="progress-header">
-            <div class="progress-title">📚 Dasar & Perkenalan</div>
-            <div class="progress-percent">100%</div>
+            <!-- Footer -->
+            <div
+                style="
+                    text-align: center;
+                    padding: 16px 0;
+                    color: var(--teks-sekunder);
+                    font-size: 0.8rem;
+                "
+            >
+                <p>
+                    Langit Korea © 2025 — Dibuat dengan ❤️ untuk pekerja migran
+                    Indonesia
+                </p>
+            </div>
         </div>
-        <div class="progress-bar">
-            <div class="progress-fill" style="width: 100%;"></div>
-        </div>
-    </div>
-    <div class="progress-item">
-        <div class="progress-header">
-            <div class="progress-title">🏢 Lingkungan Kerja</div>
-            <div class="progress-percent">65%</div>
-        </div>
-        <div class="progress-bar">
-            <div class="progress-fill" style="width: 65%;"></div>
-        </div>
-    </div>
-    <div class="progress-item">
-        <div class="progress-header">
-            <div class="progress-title">🏭 Industri</div>
-            <div class="progress-percent">0%</div>
-        </div>
-        <div class="progress-bar">
-            <div class="progress-fill" style="width: 0%; background: var(--teks-sekunder);"></div>
-        </div>
-    </div>
-    <div class="progress-item">
-        <div class="progress-header">
-            <div class="progress-title">🌾 Pertanian</div>
-            <div class="progress-percent">0%</div>
-        </div>
-        <div class="progress-bar">
-            <div class="progress-fill" style="width: 0%; background: var(--teks-sekunder);"></div>
-        </div>
-    </div>
-</div>
 
-<div class="section-title">🕒 Riwayat Terakhir</div>
-<div class="history-card">
-    <div class="history-item">
-        <div class="history-info">
-            <div class="history-bab">Simulasi Ujian - Bab 31</div>
-            <div class="history-date">12 Jun 2024</div>
-        </div>
-        <div class="history-score">32/40</div>
-    </div>
-    <div class="history-item">
-        <div class="history-info">
-            <div class="history-bab">Latihan EPS - Bab 5</div>
-            <div class="history-date">11 Jun 2024</div>
-        </div>
-        <div class="history-score">18/20</div>
-    </div>
-    <div class="history-item">
-        <div class="history-info">
-            <div class="history-bab">Listening - Bab 31</div>
-            <div class="history-date">10 Jun 2024</div>
-        </div>
-        <div class="history-score">15/20</div>
-    </div>
-</div>
+        <script type="module">
+            import { navigateTo } from "./assets/js/utils.js";
+            import { loadProgress } from "./assets/js/utils.js";
 
-<script>
-    // Load data dari localStorage atau Supabase
-    document.addEventListener('DOMContentLoaded', function() {
-        // Contoh data statis (nanti diganti fetch dari Supabase)
-        const streak = localStorage.getItem('streak') || 5;
-        const totalSoal = localStorage.getItem('total_soal') || 120;
-        const avg = localStorage.getItem('avg_score') || '85%';
+            window.navigateTo = navigateTo;
 
-        document.getElementById('streakCount').innerText = streak;
-        document.getElementById('soalCount').innerText = totalSoal;
-        document.getElementById('avgScore').innerText = avg;
-    });
-</script>
+            // ========== INIT ==========
+            (function init() {
+                loadProgressData();
+            })();
 
-</body>
+            // ========== LOAD PROGRESS DATA ==========
+            function loadProgressData() {
+                // Unit progress
+                const unitProgress = loadProgress("units") || {};
+                const unitProgressList =
+                    document.getElementById("unitProgressList");
+
+                let completedUnits = 0;
+                let totalQuestions = 0;
+                let totalCorrect = 0;
+
+                let html = "";
+                for (let i = 31; i <= 60; i++) {
+                    const data = unitProgress[`unit_${i}`];
+                    if (data) {
+                        completedUnits++;
+                        totalQuestions += 10;
+                        const unitScore = data.score || 0;
+                        totalCorrect += Math.round((unitScore / 100) * 10);
+
+                        const barWidth = Math.min(unitScore, 100);
+                        const barColor =
+                            unitScore >= 60
+                                ? "var(--hijau-berhasil)"
+                                : unitScore >= 40
+                                  ? "var(--kuning-sedang)"
+                                  : "var(--merah-salah)";
+
+                        html += `
+                        <div style="display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid #F1F5F9;">
+                            <span style="font-weight: 600; width: 50px; color: var(--teks-utama);">Unit ${i}</span>
+                            <div class="progress-bar" style="flex: 1;">
+                                <div class="progress-fill" style="width: ${barWidth}%; background: ${barColor};"></div>
+                            </div>
+                            <span style="font-size: 0.85rem; color: var(--teks-sekunder); width: 60px; text-align: right;">${unitScore}%</span>
+                            <span style="font-size: 0.8rem; color: ${data.completed ? "var(--hijau-berhasil)" : "var(--teks-sekunder)"};">
+                                ${data.completed ? "✅" : "⏳"}
+                            </span>
+                        </div>
+                    `;
+                    } else {
+                        html += `
+                        <div style="display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid #F1F5F9; opacity: 0.4;">
+                            <span style="font-weight: 600; width: 50px; color: var(--teks-sekunder);">Unit ${i}</span>
+                            <div class="progress-bar" style="flex: 1;">
+                                <div class="progress-fill" style="width: 0%;"></div>
+                            </div>
+                            <span style="font-size: 0.85rem; color: var(--teks-sekunder); width: 60px; text-align: right;">—</span>
+                            <span style="font-size: 0.8rem;">🔒</span>
+                        </div>
+                    `;
+                    }
+                }
+
+                unitProgressList.innerHTML = html;
+
+                // Update overall stats
+                document.getElementById("totalDone").textContent =
+                    completedUnits;
+                document.getElementById("totalQuestions").textContent =
+                    totalQuestions;
+                document.getElementById("avgAccuracy").textContent =
+                    totalQuestions > 0
+                        ? Math.round((totalCorrect / totalQuestions) * 100) +
+                          "%"
+                        : "0%";
+
+                // Streak
+                const dailyProgress = loadProgress("daily_progress");
+                let streak = 0;
+                if (dailyProgress) {
+                    const today = new Date().toISOString().split("T")[0];
+                    const yesterday = new Date(Date.now() - 86400000)
+                        .toISOString()
+                        .split("T")[0];
+                    if (dailyProgress.lastDate === today) {
+                        streak = dailyProgress.streak || 0;
+                    } else if (dailyProgress.lastDate === yesterday) {
+                        streak = dailyProgress.streak || 0;
+                    }
+                }
+                document.getElementById("longestStreak").textContent =
+                    `🔥 ${streak}`;
+
+                // Daily target
+                const today = new Date().toISOString().split("T")[0];
+                const daily = loadProgress("daily_progress");
+                if (daily && daily.date === today) {
+                    const done = daily.dailyDone || 0;
+                    const pct = Math.min((done / 10) * 100, 100);
+                    document.getElementById("dailyBar").style.width = pct + "%";
+                    document.getElementById("dailyText").textContent =
+                        `${done} / 10 soal hari ini`;
+                } else {
+                    document.getElementById("dailyBar").style.width = "0%";
+                    document.getElementById("dailyText").textContent =
+                        "0 / 10 soal hari ini";
+                }
+
+                // Simulasi history
+                const simHistory = loadProgress("simulasi_history") || [];
+                const simHistoryContainer =
+                    document.getElementById("simHistory");
+
+                if (simHistory.length > 0) {
+                    let simHtml = "";
+                    simHistory.forEach((item, idx) => {
+                        const circleClass = item.score >= 60 ? "pass" : "fail";
+                        simHtml += `
+                        <div style="display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid #F1F5F9;">
+                            <div class="score-circle ${circleClass}" style="width: 40px; height: 40px; margin: 0;">
+                                <div class="score-number" style="font-size: 0.8rem;">${item.score}%</div>
+                            </div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600; font-size: 0.9rem; color: var(--teks-utama);">${item.date}</div>
+                                <div style="font-size: 0.8rem; color: var(--teks-sekunder);">${item.correct}/${item.total} benar • ${Math.round(item.duration / 60)} menit</div>
+                            </div>
+                        </div>
+                    `;
+                    });
+                    simHistoryContainer.innerHTML = simHtml;
+                }
+            }
+        </script>
+    </body>
 </html>

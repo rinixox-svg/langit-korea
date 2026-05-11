@@ -1,0 +1,428 @@
+{
+  "waktu": "2026-05-08T12:14:09.768069",
+  "total_unit": 30,
+  "unit_berhasil": 30,
+  "unit_gagal": [],
+  "detail": {
+    "unit_31": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_32": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_33": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 0,
+        "error": "",
+        "gambar_di_folder": 0
+      }
+    },
+    "unit_34": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 0,
+        "error": "",
+        "gambar_di_folder": 0
+      }
+    },
+    "unit_35": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_36": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_37": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_38": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_39": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 5,
+        "error": "",
+        "gambar_di_folder": 10
+      }
+    },
+    "unit_40": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_41": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_42": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_43": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_44": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 2,
+        "error": "",
+        "gambar_di_folder": 2
+      }
+    },
+    "unit_45": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_46": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 0,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 1,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_47": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_48": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_49": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_50": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_51": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 1,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_52": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 4,
+        "error": "",
+        "gambar_di_folder": 8
+      }
+    },
+    "unit_53": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 0,
+        "error": "",
+        "gambar_di_folder": 0
+      }
+    },
+    "unit_54": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 0,
+        "error": "",
+        "gambar_di_folder": 0
+      }
+    },
+    "unit_55": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 0,
+        "error": "",
+        "gambar_di_folder": 0
+      }
+    },
+    "unit_56": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 0,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 1,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_57": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 0,
+        "error": "",
+        "gambar_di_folder": 0
+      }
+    },
+    "unit_58": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 0,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 1,
+        "error": "",
+        "gambar_di_folder": 4
+      }
+    },
+    "unit_59": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 0,
+        "error": "",
+        "gambar_di_folder": 0
+      }
+    },
+    "unit_60": {
+      "reading": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "error": ""
+      },
+      "listening": {
+        "ada": true,
+        "jumlah_soal": 5,
+        "gambar_terkait": 0,
+        "error": "",
+        "gambar_di_folder": 0
+      }
+    }
+  }
+}

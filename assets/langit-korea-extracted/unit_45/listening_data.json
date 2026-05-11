@@ -1,0 +1,114 @@
+{
+  "unit": 45,
+  "title_ko": "농작물 재배",
+  "title_id": "Budidaya Tanaman",
+  "file": "unit_45_crop_cultivation.pdf",
+  "total_halaman": 10,
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 사장님, 이제 뭘 할까요? 남 : 저쪽에 있는 사과를 따 주세요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u45_l1",
+      "jawaban": "d",
+      "audio_teks": "1. 여 : 사장님, 이제 뭘 할까요?\n남 : 저쪽에 있는 사과를 따 주세요.\n2. 남 : 배추를 뽑을까요?\n3. 여 : 언제 농약을 칠 거예요?\n4. 여 : 밤마다 야생 동물이 자꾸 내려와서 울타리망을 설치할까 해요.\n5. 남 : 수레 위에 있던 비닐 못 봤어요? 밭에 가져가야 하는데 없네요.\n여 : 제가 미리 가져다 두었어요. 창고에서 삽도 꺼내 놓고요.\n남 : 고마워요. 그럼 삽 챙겨서 밭에 먼저 가 있을게요.\n45 농작물 재배 CROP CULTIVATION 165",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u45_h9_soal_listening_0a.jpeg",
+        "b": "images/u45_h9_soal_listening_02.jpeg",
+        "c": "images/u45_h9_soal_listening_03.jpeg",
+        "d": "images/u45_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_45/listening_1.mp3"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 배추를 뽑을까요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u45_l2",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 사장님, 이제 뭘 할까요?\n남 : 저쪽에 있는 사과를 따 주세요.\n2. 남 : 배추를 뽑을까요?\n3. 여 : 언제 농약을 칠 거예요?\n4. 여 : 밤마다 야생 동물이 자꾸 내려와서 울타리망을 설치할까 해요.\n5. 남 : 수레 위에 있던 비닐 못 봤어요? 밭에 가져가야 하는데 없네요.\n여 : 제가 미리 가져다 두었어요. 창고에서 삽도 꺼내 놓고요.\n남 : 고마워요. 그럼 삽 챙겨서 밭에 먼저 가 있을게요.\n45 농작물 재배 CROP CULTIVATION 165",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u45_h9_soal_listening_02.jpeg",
+        "b": "images/u45_h9_soal_listening_02.jpeg",
+        "c": "images/u45_h9_soal_listening_02.jpeg",
+        "d": "images/u45_h9_soal_listening_02.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_45/listening_2.mp3"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 언제 농약을 칠 거예요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u45_l3",
+      "jawaban": "a",
+      "audio_teks": "1. 여 : 사장님, 이제 뭘 할까요?\n남 : 저쪽에 있는 사과를 따 주세요.\n2. 남 : 배추를 뽑을까요?\n3. 여 : 언제 농약을 칠 거예요?\n4. 여 : 밤마다 야생 동물이 자꾸 내려와서 울타리망을 설치할까 해요.\n5. 남 : 수레 위에 있던 비닐 못 봤어요? 밭에 가져가야 하는데 없네요.\n여 : 제가 미리 가져다 두었어요. 창고에서 삽도 꺼내 놓고요.\n남 : 고마워요. 그럼 삽 챙겨서 밭에 먼저 가 있을게요.\n45 농작물 재배 CROP CULTIVATION 165",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u45_h9_soal_listening_03.jpeg",
+        "b": "images/u45_h9_soal_listening_03.jpeg",
+        "c": "images/u45_h9_soal_listening_03.jpeg",
+        "d": "images/u45_h9_soal_listening_03.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_45/listening_3.mp3"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 밤마다 야생 동물이 자꾸 내려와서 울타리망을 설치할까 해요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u45_l4",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 사장님, 이제 뭘 할까요?\n남 : 저쪽에 있는 사과를 따 주세요.\n2. 남 : 배추를 뽑을까요?\n3. 여 : 언제 농약을 칠 거예요?\n4. 여 : 밤마다 야생 동물이 자꾸 내려와서 울타리망을 설치할까 해요.\n5. 남 : 수레 위에 있던 비닐 못 봤어요? 밭에 가져가야 하는데 없네요.\n여 : 제가 미리 가져다 두었어요. 창고에서 삽도 꺼내 놓고요.\n남 : 고마워요. 그럼 삽 챙겨서 밭에 먼저 가 있을게요.\n45 농작물 재배 CROP CULTIVATION 165",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u45_h9_soal_listening_04.jpeg",
+        "b": "images/u45_h9_soal_listening_04.jpeg",
+        "c": "images/u45_h9_soal_listening_04.jpeg",
+        "d": "images/u45_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_45/listening_4.mp3"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 수레 위에 있던 비닐 못 봤어요? 밭에 가져가야 하는데 없네요. 여 : 제가 미리 가져다 두었어요. 창고에서 삽도 꺼내 놓고요. 남 : 고마워요. 그럼 삽 챙겨서 밭에 먼저 가 있을게요. 45 농작물 재배 CROP CULTIVATION 165",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u45_l5",
+      "jawaban": "d",
+      "audio_teks": "1. 여 : 사장님, 이제 뭘 할까요?\n남 : 저쪽에 있는 사과를 따 주세요.\n2. 남 : 배추를 뽑을까요?\n3. 여 : 언제 농약을 칠 거예요?\n4. 여 : 밤마다 야생 동물이 자꾸 내려와서 울타리망을 설치할까 해요.\n5. 남 : 수레 위에 있던 비닐 못 봤어요? 밭에 가져가야 하는데 없네요.\n여 : 제가 미리 가져다 두었어요. 창고에서 삽도 꺼내 놓고요.\n남 : 고마워요. 그럼 삽 챙겨서 밭에 먼저 가 있을게요.\n45 농작물 재배 CROP CULTIVATION 165",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_45/listening_5.mp3"
+    }
+  ]
+}

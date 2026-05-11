@@ -4,134 +4,166 @@
   "title_id": "Perakitan Mesin",
   "file": "unit_38_machine_assembly.pdf",
   "total_halaman": 10,
-  "halaman": {
-    "hal1": {
-      "kategori": "vocab",
-      "chars": 730,
-      "gambar_count": 16
-    },
-    "hal2": {
-      "kategori": "grammar",
-      "chars": 895,
-      "gambar_count": 0
-    },
-    "hal3": {
-      "kategori": "conversation",
-      "chars": 1622,
-      "gambar_count": 3
-    },
-    "hal4": {
-      "kategori": "vocab",
-      "chars": 610,
-      "gambar_count": 13
-    },
-    "hal5": {
-      "kategori": "grammar",
-      "chars": 915,
-      "gambar_count": 0
-    },
-    "hal6": {
-      "kategori": "conversation",
-      "chars": 1411,
-      "gambar_count": 3
-    },
-    "hal7": {
-      "kategori": "culture",
-      "chars": 2219,
-      "gambar_count": 2
-    },
-    "hal8": {
-      "kategori": "soal_membaca",
-      "chars": 651,
-      "gambar_count": 4
-    },
-    "hal9": {
-      "kategori": "soal_listening",
-      "chars": 684,
-      "gambar_count": 4
-    }
-  },
   "soal": [
     {
-      "id": "u38_m1",
       "nomor": 1,
       "tipe": "membaca",
-      "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n드라이버입니다.",
-      "pilihan_a": "②",
-      "pilihan_b": "③",
-      "pilihan_c": "④",
+      "teks_soal": "드라이버입니다.",
+      "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
       "pilihan_d": "",
-      "jawaban": "b",
+      "id": "u38_m1",
+      "jawaban": "",
       "audio_teks": "",
-      "ada_gambar_pilihan": true,
-      "gambar_pilihan": {
-        "a": "images/hal8_soal/soal_r1_a.png",
-        "b": "images/hal8_soal/soal_r1_b.png",
-        "c": "images/hal8_soal/soal_r1_c.png",
-        "d": "images/hal8_soal/soal_r1_d.png"
-      },
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u38_m2",
       "nomor": 2,
       "tipe": "membaca",
-      "teks_soal": "다음 단어와 관계있는 것은 무엇입니까?\n스패너",
+      "teks_soal": "다음 단어와 관계있는 것은 무엇입니까? 스패너",
+      "instruksi": "",
       "pilihan_a": "기계",
       "pilihan_b": "공구",
       "pilihan_c": "자재",
       "pilihan_d": "부품",
-      "jawaban": "b",
+      "id": "u38_m2",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u38_m3",
       "nomor": 3,
       "tipe": "membaca",
-      "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "teks_soal": "",
+      "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
       "pilihan_a": "펜치로 철사를 재요.",
       "pilihan_b": "니퍼로 철사를 뚫어요.",
       "pilihan_c": "스패너로 너트를 묶어요.",
       "pilihan_d": "드라이버로 나사를 돌려요.",
-      "jawaban": "d",
+      "id": "u38_m3",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u38_m4",
       "nomor": 4,
       "tipe": "membaca",
-      "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n오늘은 기계 을/를 하는 날입니다. 제대로 작동하는지 확인해야 합니다.",
+      "teks_soal": "오늘은 기계 을/를 하는 날입니다. 제대로 작동하는지 확인해야 합니다.",
+      "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "pilihan_a": "청소",
       "pilihan_b": "포장",
       "pilihan_c": "점검",
       "pilihan_d": "분류",
-      "jawaban": "a",
+      "id": "u38_m4",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u38_m5",
       "nomor": 5,
       "tipe": "membaca",
-      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국의 자동차 산업은 한국 경제 성장을 이끄는 중요한 산업 중 하나입니다. 2023년 기준 한국의\n자동차 시장 점유율은 일본, 유럽, 중국, 미국에 이어 세계 5위입니다. 한국의 자동차 회사들은 미래의\n자동차 기술인 전기차, 수소차와 같은 친환경 자동차기술과 자율주행 기술 개발에 많은 투자를 하고\n있습니다.",
+      "teks_soal": "한국의 자동차 산업은 한국 경제 성장을 이끄는 중요한 산업 중 하나입니다. 2023년 기준 한국의 자동차 시장 점유율은 일본, 유럽, 중국, 미국에 이어 세계 5위입니다. 한국의 자동차 회사들은 미래의 자동차 기술인 전기차, 수소차와 같은 친환경 자동차기술과 자율주행 기술 개발에 많은 투자를 하고 있습니다. 94 한국어 표준교재 2",
+      "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
       "pilihan_a": "미국은 2023년에 세계에서 가장 많은 자동차를 생산했습니다.",
       "pilihan_b": "한국의 자동차 기업들은 수소차 개발에 투자를 하지 않습니다.",
       "pilihan_c": "한국의 자동차 기업들은 자율주행 기술 개발에 관심이 없습니다.",
       "pilihan_d": "2023년 한국의 자동차 시장 점유율은 세계에서 다섯 번째로 높습니다.",
-      "jawaban": "d",
+      "id": "u38_m5",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 플라이어가 의자 위에 있어요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u38_l1",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 언제 부품 조립을 시작할 거예요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u38_l2",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 이 나사는 뭐로 조여야 돼요? 남 : 나사가 커서 제일 큰 드라이버로 조여야 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u38_l3",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 기계에서 소음이 나요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u38_l4",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 지금 무슨 작업을 하고 있어요? 여 : 이 부품을 조여야 되는데 잘 안 되네요. 남 : 스패너 치수가 안 맞는 것 같아요. 아주 작은 치수의 스패너로 해 보세요. 여 : 알겠어요. 작은 스패너로 해 볼게요. 38 기계 조립 MACHINE ASSEMBLY 95",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u38_l5",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     }
-  ],
-  "gambar_soal": {}
+  ]
 }

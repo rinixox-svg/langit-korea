@@ -4,129 +4,166 @@
   "title_id": "Konstruksi Bangunan",
   "file": "unit_43_building_construction.pdf",
   "total_halaman": 10,
-  "halaman": {
-    "hal1": {
-      "kategori": "vocab",
-      "chars": 646,
-      "gambar_count": 16
-    },
-    "hal2": {
-      "kategori": "grammar",
-      "chars": 1098,
-      "gambar_count": 0
-    },
-    "hal3": {
-      "kategori": "conversation",
-      "chars": 1507,
-      "gambar_count": 3
-    },
-    "hal4": {
-      "kategori": "vocab",
-      "chars": 557,
-      "gambar_count": 6
-    },
-    "hal5": {
-      "kategori": "grammar",
-      "chars": 1232,
-      "gambar_count": 4
-    },
-    "hal6": {
-      "kategori": "conversation",
-      "chars": 1567,
-      "gambar_count": 3
-    },
-    "hal7": {
-      "kategori": "culture",
-      "chars": 2327,
-      "gambar_count": 13
-    },
-    "hal8": {
-      "kategori": "soal_membaca",
-      "chars": 755,
-      "gambar_count": 1
-    },
-    "hal9": {
-      "kategori": "soal_listening",
-      "chars": 764,
-      "gambar_count": 4
-    }
-  },
   "soal": [
     {
-      "id": "u43_m1",
       "nomor": 1,
       "tipe": "membaca",
-      "teks_soal": "다음 그림과 관계있는 내용은 무엇입니까?",
+      "teks_soal": "",
+      "instruksi": "다음 그림과 관계있는 내용은 무엇입니까?",
       "pilihan_a": "굴착기 - 땅을 파요.",
       "pilihan_b": "굴착기 - 흙을 깎아요.",
       "pilihan_c": "콘크리트 믹서 - 콘크리트를 다져요.",
-      "pilihan_d": "콘크리트 믹서 - 콘크리트를 운반해요.\n[2~3] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "jawaban": "d",
+      "pilihan_d": "콘크리트 믹서 - 콘크리트를 운반해요.",
+      "id": "u43_m1",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u43_m2",
       "nomor": 2,
       "tipe": "membaca",
       "teks_soal": "이제 을/를 설치해야 합니다. 이 작업에는 플랫타이와 웨지핀이 필요합니다.",
+      "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "pilihan_a": "철근",
       "pilihan_b": "건물",
       "pilihan_c": "시멘트",
       "pilihan_d": "거푸집",
-      "jawaban": "d",
+      "id": "u43_m2",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u43_m3",
       "nomor": 3,
       "tipe": "membaca",
       "teks_soal": "오늘은 콘크리트를 날입니다. 곧 공사장에 콘크리트 믹서 트럭이 도착할 겁니다.",
+      "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "pilihan_a": "타설하는",
       "pilihan_b": "해체하는",
       "pilihan_c": "검사하는",
       "pilihan_d": "체결하는",
-      "jawaban": "a",
+      "id": "u43_m3",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u43_m4",
       "nomor": 4,
       "tipe": "membaca",
-      "teks_soal": "빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.\n철근을 튼튼하게 고정하면 콘크리트를 부어도 철근이 움직이지 않습니다. 철근을 고정할 때에는\n결속선과 결속 핸들로 잘 .",
+      "teks_soal": "철근을 튼튼하게 고정하면 콘크리트를 부어도 철근이 움직이지 않습니다. 철근을 고정할 때에는 결속선과 결속 핸들로 잘 .",
+      "instruksi": "빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.",
       "pilihan_a": "묶어야 고정할 수 있습니다",
       "pilihan_b": "갈아야 고정할 수 있습니다",
       "pilihan_c": "구부려야 고정할 수 있습니다",
       "pilihan_d": "도려내야 고정할 수 있습니다",
-      "jawaban": "a",
+      "id": "u43_m4",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u43_m5",
       "nomor": 5,
       "tipe": "membaca",
-      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n교량이나 도로, 큰 건물을 짓는 대규모의 공사 현장에서는 다양한 중장비가 사용됩니다. 건설 중장비는\n사용 목적에 따라 분류됩니다. 크게 토목 장비, 운반 장비, 포장 장비로 나누는데 무엇보다 안전하게\n사용하는 것이 중요합니다.",
+      "teks_soal": "교량이나 도로, 큰 건물을 짓는 대규모의 공사 현장에서는 다양한 중장비가 사용됩니다. 건설 중장비는 사용 목적에 따라 분류됩니다. 크게 토목 장비, 운반 장비, 포장 장비로 나누는데 무엇보다 안전하게 사용하는 것이 중요합니다. 144 한국어 표준교재 2",
+      "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
       "pilihan_a": "큰 공사 현장에서는 다양한 중장비를 사용합니다.",
       "pilihan_b": "건설 중장비는 크게 두 종류로 분류할 수 있습니다.",
       "pilihan_c": "공사 규모에 따라 건설 중장비를 분류할 수 있습니다.",
       "pilihan_d": "건설 중장비는 고장 없이 사용하는 것이 가장 중요합니다.",
-      "jawaban": "a",
+      "id": "u43_m5",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 유수프 씨는 지금 무슨 일을 하고 있어요? 여 : 철근을 배근하고 있어요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u43_l1",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 거푸집 설치하는 방법을 알아요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u43_l2",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 철근을 묶을 때 뭐가 필요해요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u43_l3",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 가장 아래층 거푸집을 설치할 때에는 플랫타이가 여러 개 필요해요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u43_l4",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 거푸집 설치 작업도 끝났으니까 이제 콘크리트를 타설하겠네요. 남 : 네, 내일 오후에 콘크리트 믹서가 도착할걸요. 여 : 아, 그럼 오늘은 콘크리트 타설 작업이 없는 거네요. 43 건축 시공 BUILDING CONSTRUCTION 145",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u43_l5",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     }
-  ],
-  "gambar_soal": {}
+  ]
 }

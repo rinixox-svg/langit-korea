@@ -1,0 +1,114 @@
+{
+  "unit": 52,
+  "title_ko": "음식 조리",
+  "title_id": "Persiapan Makanan",
+  "file": "unit_52_food_preparation.pdf",
+  "total_halaman": 10,
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 딜로바 씨가 지금 무슨 일을 하고 있어요? 여 : 양파를 다듬고 있어요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u52_l1",
+      "jawaban": "c",
+      "audio_teks": "1. 남 : 딜로바 씨가 지금 무슨 일을 하고 있어요?\n여 : 양파를 다듬고 있어요.\n2. 남 : 지퍼백이 얼마나 있어요?\n3. 여 : 며칠 전에 만든 빵인데 벌써 곰팡이가 폈어요.\n남 : 빵은 실온에 오래 두면 안 돼요. 밀봉해서 냉동실에 보관해야 돼요.\n4. 여 : 채소를 썬 칼로 고기를 손질하면 안 돼요.\n5. 남 : 오전에 배달된 상추는 어디에 있어요?\n여 : 씻어서 바구니에 담아 냉장고에 넣어 두었습니다.\n남 : 씻은 상추는 밀폐용기에 담아서 보관해야 돼요.\n여 : 몰랐습니다. 다음부터 주의하겠습니다.\n52 음식 조리 FOOD PREPARATION 235",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u52_h9_soal_listening_0a.png",
+        "b": "images/u52_h9_soal_listening_02.png",
+        "c": "images/u52_h9_soal_listening_03.png",
+        "d": "images/u52_h9_soal_listening_04.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_52/listening_1.mp3"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 지퍼백이 얼마나 있어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u52_l2",
+      "jawaban": "b",
+      "audio_teks": "1. 남 : 딜로바 씨가 지금 무슨 일을 하고 있어요?\n여 : 양파를 다듬고 있어요.\n2. 남 : 지퍼백이 얼마나 있어요?\n3. 여 : 며칠 전에 만든 빵인데 벌써 곰팡이가 폈어요.\n남 : 빵은 실온에 오래 두면 안 돼요. 밀봉해서 냉동실에 보관해야 돼요.\n4. 여 : 채소를 썬 칼로 고기를 손질하면 안 돼요.\n5. 남 : 오전에 배달된 상추는 어디에 있어요?\n여 : 씻어서 바구니에 담아 냉장고에 넣어 두었습니다.\n남 : 씻은 상추는 밀폐용기에 담아서 보관해야 돼요.\n여 : 몰랐습니다. 다음부터 주의하겠습니다.\n52 음식 조리 FOOD PREPARATION 235",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u52_h9_soal_listening_02.png",
+        "b": "images/u52_h9_soal_listening_02.png",
+        "c": "images/u52_h9_soal_listening_02.png",
+        "d": "images/u52_h9_soal_listening_02.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_52/listening_2.mp3"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 며칠 전에 만든 빵인데 벌써 곰팡이가 폈어요. 남 : 빵은 실온에 오래 두면 안 돼요. 밀봉해서 냉동실에 보관해야 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u52_l3",
+      "jawaban": "c",
+      "audio_teks": "1. 남 : 딜로바 씨가 지금 무슨 일을 하고 있어요?\n여 : 양파를 다듬고 있어요.\n2. 남 : 지퍼백이 얼마나 있어요?\n3. 여 : 며칠 전에 만든 빵인데 벌써 곰팡이가 폈어요.\n남 : 빵은 실온에 오래 두면 안 돼요. 밀봉해서 냉동실에 보관해야 돼요.\n4. 여 : 채소를 썬 칼로 고기를 손질하면 안 돼요.\n5. 남 : 오전에 배달된 상추는 어디에 있어요?\n여 : 씻어서 바구니에 담아 냉장고에 넣어 두었습니다.\n남 : 씻은 상추는 밀폐용기에 담아서 보관해야 돼요.\n여 : 몰랐습니다. 다음부터 주의하겠습니다.\n52 음식 조리 FOOD PREPARATION 235",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u52_h9_soal_listening_03.png",
+        "b": "images/u52_h9_soal_listening_03.png",
+        "c": "images/u52_h9_soal_listening_03.png",
+        "d": "images/u52_h9_soal_listening_03.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_52/listening_3.mp3"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 채소를 썬 칼로 고기를 손질하면 안 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u52_l4",
+      "jawaban": "c",
+      "audio_teks": "1. 남 : 딜로바 씨가 지금 무슨 일을 하고 있어요?\n여 : 양파를 다듬고 있어요.\n2. 남 : 지퍼백이 얼마나 있어요?\n3. 여 : 며칠 전에 만든 빵인데 벌써 곰팡이가 폈어요.\n남 : 빵은 실온에 오래 두면 안 돼요. 밀봉해서 냉동실에 보관해야 돼요.\n4. 여 : 채소를 썬 칼로 고기를 손질하면 안 돼요.\n5. 남 : 오전에 배달된 상추는 어디에 있어요?\n여 : 씻어서 바구니에 담아 냉장고에 넣어 두었습니다.\n남 : 씻은 상추는 밀폐용기에 담아서 보관해야 돼요.\n여 : 몰랐습니다. 다음부터 주의하겠습니다.\n52 음식 조리 FOOD PREPARATION 235",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u52_h9_soal_listening_04.png",
+        "b": "images/u52_h9_soal_listening_04.png",
+        "c": "images/u52_h9_soal_listening_04.png",
+        "d": "images/u52_h9_soal_listening_04.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_52/listening_4.mp3"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 오전에 배달된 상추는 어디에 있어요? 여 : 씻어서 바구니에 담아 냉장고에 넣어 두었습니다. 남 : 씻은 상추는 밀폐용기에 담아서 보관해야 돼요. 여 : 몰랐습니다. 다음부터 주의하겠습니다. 52 음식 조리 FOOD PREPARATION 235",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u52_l5",
+      "jawaban": "b",
+      "audio_teks": "1. 남 : 딜로바 씨가 지금 무슨 일을 하고 있어요?\n여 : 양파를 다듬고 있어요.\n2. 남 : 지퍼백이 얼마나 있어요?\n3. 여 : 며칠 전에 만든 빵인데 벌써 곰팡이가 폈어요.\n남 : 빵은 실온에 오래 두면 안 돼요. 밀봉해서 냉동실에 보관해야 돼요.\n4. 여 : 채소를 썬 칼로 고기를 손질하면 안 돼요.\n5. 남 : 오전에 배달된 상추는 어디에 있어요?\n여 : 씻어서 바구니에 담아 냉장고에 넣어 두었습니다.\n남 : 씻은 상추는 밀폐용기에 담아서 보관해야 돼요.\n여 : 몰랐습니다. 다음부터 주의하겠습니다.\n52 음식 조리 FOOD PREPARATION 235",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_52/listening_5.mp3"
+    }
+  ]
+}

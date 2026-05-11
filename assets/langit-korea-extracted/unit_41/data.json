@@ -4,134 +4,166 @@
   "title_id": "Manufaktur Tekstil",
   "file": "unit_41_textile_manufacturing.pdf",
   "total_halaman": 10,
-  "halaman": {
-    "hal1": {
-      "kategori": "vocab",
-      "chars": 620,
-      "gambar_count": 16
-    },
-    "hal2": {
-      "kategori": "grammar",
-      "chars": 1259,
-      "gambar_count": 0
-    },
-    "hal3": {
-      "kategori": "conversation",
-      "chars": 1592,
-      "gambar_count": 3
-    },
-    "hal4": {
-      "kategori": "vocab",
-      "chars": 589,
-      "gambar_count": 8
-    },
-    "hal5": {
-      "kategori": "grammar",
-      "chars": 1055,
-      "gambar_count": 0
-    },
-    "hal6": {
-      "kategori": "conversation",
-      "chars": 1424,
-      "gambar_count": 3
-    },
-    "hal7": {
-      "kategori": "culture",
-      "chars": 2716,
-      "gambar_count": 2
-    },
-    "hal8": {
-      "kategori": "soal_membaca",
-      "chars": 787,
-      "gambar_count": 4
-    },
-    "hal9": {
-      "kategori": "soal_listening",
-      "chars": 649,
-      "gambar_count": 4
-    }
-  },
   "soal": [
     {
-      "id": "u41_m1",
       "nomor": 1,
       "tipe": "membaca",
-      "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n온도를 측정하고 있어요.",
-      "pilihan_a": "②",
-      "pilihan_b": "③",
-      "pilihan_c": "④",
+      "teks_soal": "온도를 측정하고 있어요.",
+      "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
       "pilihan_d": "",
-      "jawaban": "b",
+      "id": "u41_m1",
+      "jawaban": "",
       "audio_teks": "",
-      "ada_gambar_pilihan": true,
-      "gambar_pilihan": {
-        "a": "images/hal8_soal/soal_r1_a.jpeg",
-        "b": "images/hal8_soal/soal_r1_b.png",
-        "c": "images/hal8_soal/soal_r1_c.png",
-        "d": "images/hal8_soal/soal_r1_d.jpeg"
-      },
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u41_m2",
       "nomor": 2,
       "tipe": "membaca",
-      "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "teks_soal": "",
+      "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
       "pilihan_a": "원사 창고의 습도를 조절해요.",
       "pilihan_b": "근무 중에 자주 짜증을 질러요.",
       "pilihan_c": "날씨가 더우면 넥타이를 잠가요.",
       "pilihan_d": "작업에 필요한 공구를 데려가요.",
-      "jawaban": "c",
+      "id": "u41_m2",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u41_m3",
       "nomor": 3,
       "tipe": "membaca",
-      "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n염색 작업을 할 때 원단이 엉키면 염색이 잘되지 않습니다. 그래서 막대기로 저어서 원단을 .",
+      "teks_soal": "염색 작업을 할 때 원단이 엉키면 염색이 잘되지 않습니다. 그래서 막대기로 저어서 원단을 .",
+      "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "pilihan_a": "켜 줘야 합니다",
       "pilihan_b": "잘라 줘야 합니다",
       "pilihan_c": "펴 줘야 합니다",
       "pilihan_d": "갈아 줘야 합니다",
-      "jawaban": "c",
+      "id": "u41_m3",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u41_m4",
       "nomor": 4,
       "tipe": "membaca",
-      "teks_soal": "다음은 무엇에 대한 설명입니까?\n염색이 끝난 후에 원단을 물로 헹궈서 남아 있는 염료를 제거하는 작업입니다.",
+      "teks_soal": "염색이 끝난 후에 원단을 물로 헹궈서 남아 있는 염료를 제거하는 작업입니다.",
+      "instruksi": "다음은 무엇에 대한 설명입니까?",
       "pilihan_a": "표백 작업",
       "pilihan_b": "세척 작업",
       "pilihan_c": "도장 작업",
       "pilihan_d": "건조 작업",
-      "jawaban": "b",
+      "id": "u41_m4",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u41_m5",
       "nomor": 5,
       "tipe": "membaca",
-      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국의 섬유 산업과 방직 산업은 한국전쟁 이후 경제 재건을 위한 산업화 시기에 시작되었습니다. 그\n후 지속적으로 성장하였으며, 2000년대에 이르러 한국의 섬유 산업에 첨단 기술이 도입되면서 기능성\n섬유와 같은 고품질의 소재를 생산할 수 있게 되었습니다. 그 결과, 2022년 한국의 섬유 산업은 화학\n섬유와 편직물을 중심으로 세계 시장 점유율 6위를 차지하게 되었습니다.",
+      "teks_soal": "한국의 섬유 산업과 방직 산업은 한국전쟁 이후 경제 재건을 위한 산업화 시기에 시작되었습니다. 그 후 지속적으로 성장하였으며, 2000년대에 이르러 한국의 섬유 산업에 첨단 기술이 도입되면서 기능성 섬유와 같은 고품질의 소재를 생산할 수 있게 되었습니다. 그 결과, 2022년 한국의 섬유 산업은 화학 섬유와 편직물을 중심으로 세계 시장 점유율 6위를 차지하게 되었습니다. 124 한국어 표준교재 2",
+      "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
       "pilihan_a": "한국의 섬유 산업은 한국의 산업화 시기에 시작됐습니다.",
       "pilihan_b": "한국은 기능성 섬유 생산에 필요한 기술을 도입할 예정입니다.",
       "pilihan_c": "한국의 섬유 산업은 2000년대 이전까지 어려움을 겪었습니다.",
       "pilihan_d": "한국의 화학 섬유와 편직물은 세계 시장 진출을 앞두고 있습니다.",
-      "jawaban": "d",
+      "id": "u41_m5",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 오늘은 무슨 작업을 해요? 여 : 원사를 파란색으로 염색해야 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u41_l1",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 염색 과정이 간단해요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u41_l2",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 누가 염료를 넣었어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u41_l3",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 종류가 다른 원사를 함께 보관하면 안 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u41_l4",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 날씨가 덥거나 습하면 원사가 변색될 수 있어요. 남 : 주기적으로 보관 창고의 온도와 습도를 확인하겠습니다. 여 : 확인 후 관리 대장에도 꼭 기록해 놓으세요. 41 섬유 제조 TEXTILE MANUFACTURING 125",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u41_l5",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     }
-  ],
-  "gambar_soal": {}
+  ]
 }

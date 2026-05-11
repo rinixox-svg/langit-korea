@@ -1,0 +1,307 @@
+{
+  "waktu": "2026-05-08T12:18:35.046800",
+  "total_converted": 3,
+  "total_failed": 272,
+  "detail": {
+    "unit_31": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_32": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_33": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_34": {
+      "reading": {
+        "converted": 1,
+        "failed": 4
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_35": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 1,
+        "failed": 4
+      }
+    },
+    "unit_36": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 1,
+        "failed": 4
+      }
+    },
+    "unit_37": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_38": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_39": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_40": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_41": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_42": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_43": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_44": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_45": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_46": {
+      "reading": {
+        "converted": 0,
+        "failed": 0
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_47": {
+      "reading": {
+        "converted": 0,
+        "failed": 0
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_48": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_49": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_50": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_51": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_52": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_53": {
+      "reading": {
+        "converted": 0,
+        "failed": 0
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_54": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_55": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_56": {
+      "reading": {
+        "converted": 0,
+        "failed": 0
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_57": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_58": {
+      "reading": {
+        "converted": 0,
+        "failed": 0
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_59": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    },
+    "unit_60": {
+      "reading": {
+        "converted": 0,
+        "failed": 5
+      },
+      "listening": {
+        "converted": 0,
+        "failed": 5
+      }
+    }
+  }
+}

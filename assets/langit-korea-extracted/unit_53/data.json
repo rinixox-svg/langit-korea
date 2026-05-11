@@ -1,132 +1,169 @@
 {
   "unit": 53,
   "title_ko": "산업 안전 및 보건 표지",
-  "title_id": "Tanda Keselamatan",
+  "title_id": "Tanda Keselamatan Industri",
   "file": "unit_53_industrial_safety_signs.pdf",
   "total_halaman": 10,
-  "halaman": {
-    "hal1": {
-      "kategori": "vocab",
-      "chars": 1245,
-      "gambar_count": 0
-    },
-    "hal2": {
-      "kategori": "grammar",
-      "chars": 782,
-      "gambar_count": 0
-    },
-    "hal3": {
-      "kategori": "conversation",
-      "chars": 1346,
-      "gambar_count": 3
-    },
-    "hal4": {
-      "kategori": "vocab",
-      "chars": 1283,
-      "gambar_count": 0
-    },
-    "hal5": {
-      "kategori": "grammar",
-      "chars": 727,
-      "gambar_count": 1
-    },
-    "hal6": {
-      "kategori": "conversation",
-      "chars": 1405,
-      "gambar_count": 2
-    },
-    "hal7": {
-      "kategori": "culture",
-      "chars": 1493,
-      "gambar_count": 0
-    },
-    "hal8": {
-      "kategori": "soal_membaca",
-      "chars": 402,
-      "gambar_count": 0
-    },
-    "hal9": {
-      "kategori": "soal_listening",
-      "chars": 858,
-      "gambar_count": 0
-    }
-  },
   "soal": [
     {
-      "id": "u53_m1",
       "nomor": 1,
       "tipe": "membaca",
       "teks_soal": "표면이 뜨거우니까 조심하십시오.",
-      "pilihan_a": "②",
-      "pilihan_b": "③",
-      "pilihan_c": "④",
+      "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
       "pilihan_d": "",
-      "jawaban": "d",
+      "id": "u53_m1",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u53_m2",
       "nomor": 2,
       "tipe": "membaca",
       "teks_soal": "통행하지 마십시오.",
-      "pilihan_a": "②",
-      "pilihan_b": "③",
-      "pilihan_c": "④",
+      "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
       "pilihan_d": "",
-      "jawaban": "a",
+      "id": "u53_m2",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u53_m3",
       "nomor": 3,
       "tipe": "membaca",
-      "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "teks_soal": "",
+      "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
       "pilihan_a": "장갑을 끼면 안 됩니다.",
       "pilihan_b": "담배를 마시면 안 됩니다.",
       "pilihan_c": "사진을 켜면 안 됩니다.",
       "pilihan_d": "물로 불을 뿌리면 안 됩니다.",
-      "jawaban": "a",
+      "id": "u53_m3",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u53_m4",
       "nomor": 4,
       "tipe": "membaca",
-      "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n우리 회사에는 작업장 밖에도 금연 표지가 붙어 있습니다. 작업장 밖에서도 담배를\n안 됩니다.",
+      "teks_soal": "우리 회사에는 작업장 밖에도 금연 표지가 붙어 있습니다. 작업장 밖에서도 담배를 안 됩니다.",
+      "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "pilihan_a": "바꾸면",
       "pilihan_b": "옮기면",
       "pilihan_c": "피우면",
       "pilihan_d": "만들면",
-      "jawaban": "c",
+      "id": "u53_m4",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u53_m5",
       "nomor": 5,
       "tipe": "membaca",
-      "teks_soal": "다음은 무엇에 대한 설명입니까?\n위험한 것을 조심할 수 있도록 미리 주의를 주기 위하여 만든 표지입니다.",
+      "teks_soal": "위험한 것을 조심할 수 있도록 미리 주의를 주기 위하여 만든 표지입니다. 244 한국어 표준교재 2",
+      "instruksi": "다음은 무엇에 대한 설명입니까?",
       "pilihan_a": "안내 표지",
       "pilihan_b": "경고 표지",
       "pilihan_c": "지시 표지",
       "pilihan_d": "금지 표지",
-      "jawaban": "b",
+      "id": "u53_m5",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 기계가 뜨거워요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u53_l1",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 왜 넘어졌어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u53_l2",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 작업장 안에서는 담배를 피우면 안 돼요. 불이 붙기 쉬운 것들이 많이 있어요. 남 : 죄송합니다. 앞으로는 작업장 안에서 담배를 피우지 않겠습니다.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u53_l3",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 여기는 지게차를 타고 지나가면 안 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u53_l4",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 대리님, 말씀하신 대로 안전화도 신고 안전장갑도 꼈습니다. 여 : 잘했어요. 어, 그런데 왜 안전모를 손에 들고 있어요? 남 : 날씨가 너무 더워서 벗었습니다. 여 : 저기에 붙어 있는 안전 표지를 보세요. 건설 현장에서는 위에서 물체가 떨어질 수 있기 때문에 항상 안전모를 써야 돼요. 53 산업 안전 및 보건 표지 INDUSTRIAL SAFETY AND HEALTH SIGNS 245",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u53_l5",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     }
-  ],
-  "gambar_soal": {}
+  ]
 }

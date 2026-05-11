@@ -1,0 +1,114 @@
+{
+  "unit": 32,
+  "title_ko": "회사 시설 이용",
+  "title_id": "Penggunaan Fasilitas Perusahaan",
+  "file": "unit_32_use_of_company_facilities.pdf",
+  "total_halaman": 10,
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 아궁 씨는 지금 뭐 하고 있어요? 남 : 계단을 청소하고 있어요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u32_l1",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 아궁 씨는 지금 뭐 하고 있어요?\n남 : 계단을 청소하고 있어요.\n2. 남 : 어디에서 밥을 먹어요?\n3. 남 : 구내식당에서 밥을 먹으려고 하는데 현금으로 계산하면 돼요?\n여 : 아니요. 먼저 식권을 산 다음에 식당 직원한테 식권을 줘야 돼요.\n4. 남 : 이렇게 늦은 시간에는 세탁실을 이용하면 안 돼요.\n5. 여 : 유수프 씨, 여기서 요리하면 안 돼요.\n남 : 어, 휴게실에서 요리하면 안 되는지 몰랐어요.\n여 : 요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어요. 아, 요리한 음식을 휴게실에서 먹는 건 괜찮아요.\n남 : 아, 그래요? 알려주셔서 감사합니다.\n32 회사 시설 이용 USE OF COMPANY FACILITIES 35",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u32_h9_soal_listening_0a.jpeg",
+        "b": "images/u32_h9_soal_listening_02.jpeg",
+        "c": "images/u32_h9_soal_listening_03.jpeg",
+        "d": "images/u32_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_32/listening_1.mp3"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 어디에서 밥을 먹어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u32_l2",
+      "jawaban": "d",
+      "audio_teks": "1. 여 : 아궁 씨는 지금 뭐 하고 있어요?\n남 : 계단을 청소하고 있어요.\n2. 남 : 어디에서 밥을 먹어요?\n3. 남 : 구내식당에서 밥을 먹으려고 하는데 현금으로 계산하면 돼요?\n여 : 아니요. 먼저 식권을 산 다음에 식당 직원한테 식권을 줘야 돼요.\n4. 남 : 이렇게 늦은 시간에는 세탁실을 이용하면 안 돼요.\n5. 여 : 유수프 씨, 여기서 요리하면 안 돼요.\n남 : 어, 휴게실에서 요리하면 안 되는지 몰랐어요.\n여 : 요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어요. 아, 요리한 음식을 휴게실에서 먹는 건 괜찮아요.\n남 : 아, 그래요? 알려주셔서 감사합니다.\n32 회사 시설 이용 USE OF COMPANY FACILITIES 35",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u32_h9_soal_listening_02.jpeg",
+        "b": "images/u32_h9_soal_listening_02.jpeg",
+        "c": "images/u32_h9_soal_listening_02.jpeg",
+        "d": "images/u32_h9_soal_listening_02.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_32/listening_2.mp3"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 구내식당에서 밥을 먹으려고 하는데 현금으로 계산하면 돼요? 여 : 아니요. 먼저 식권을 산 다음에 식당 직원한테 식권을 줘야 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u32_l3",
+      "jawaban": "d",
+      "audio_teks": "1. 여 : 아궁 씨는 지금 뭐 하고 있어요?\n남 : 계단을 청소하고 있어요.\n2. 남 : 어디에서 밥을 먹어요?\n3. 남 : 구내식당에서 밥을 먹으려고 하는데 현금으로 계산하면 돼요?\n여 : 아니요. 먼저 식권을 산 다음에 식당 직원한테 식권을 줘야 돼요.\n4. 남 : 이렇게 늦은 시간에는 세탁실을 이용하면 안 돼요.\n5. 여 : 유수프 씨, 여기서 요리하면 안 돼요.\n남 : 어, 휴게실에서 요리하면 안 되는지 몰랐어요.\n여 : 요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어요. 아, 요리한 음식을 휴게실에서 먹는 건 괜찮아요.\n남 : 아, 그래요? 알려주셔서 감사합니다.\n32 회사 시설 이용 USE OF COMPANY FACILITIES 35",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u32_h9_soal_listening_03.jpeg",
+        "b": "images/u32_h9_soal_listening_03.jpeg",
+        "c": "images/u32_h9_soal_listening_03.jpeg",
+        "d": "images/u32_h9_soal_listening_03.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_32/listening_3.mp3"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 이렇게 늦은 시간에는 세탁실을 이용하면 안 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u32_l4",
+      "jawaban": "a",
+      "audio_teks": "1. 여 : 아궁 씨는 지금 뭐 하고 있어요?\n남 : 계단을 청소하고 있어요.\n2. 남 : 어디에서 밥을 먹어요?\n3. 남 : 구내식당에서 밥을 먹으려고 하는데 현금으로 계산하면 돼요?\n여 : 아니요. 먼저 식권을 산 다음에 식당 직원한테 식권을 줘야 돼요.\n4. 남 : 이렇게 늦은 시간에는 세탁실을 이용하면 안 돼요.\n5. 여 : 유수프 씨, 여기서 요리하면 안 돼요.\n남 : 어, 휴게실에서 요리하면 안 되는지 몰랐어요.\n여 : 요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어요. 아, 요리한 음식을 휴게실에서 먹는 건 괜찮아요.\n남 : 아, 그래요? 알려주셔서 감사합니다.\n32 회사 시설 이용 USE OF COMPANY FACILITIES 35",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u32_h9_soal_listening_04.jpeg",
+        "b": "images/u32_h9_soal_listening_04.jpeg",
+        "c": "images/u32_h9_soal_listening_04.jpeg",
+        "d": "images/u32_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_32/listening_4.mp3"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 유수프 씨, 여기서 요리하면 안 돼요. 남 : 어, 휴게실에서 요리하면 안 되는지 몰랐어요. 여 : 요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어요. 아, 요리한 음식을 휴게실에서 먹는 건 괜찮아요. 남 : 아, 그래요? 알려주셔서 감사합니다. 32 회사 시설 이용 USE OF COMPANY FACILITIES 35",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u32_l5",
+      "jawaban": "b",
+      "audio_teks": "1. 여 : 아궁 씨는 지금 뭐 하고 있어요?\n남 : 계단을 청소하고 있어요.\n2. 남 : 어디에서 밥을 먹어요?\n3. 남 : 구내식당에서 밥을 먹으려고 하는데 현금으로 계산하면 돼요?\n여 : 아니요. 먼저 식권을 산 다음에 식당 직원한테 식권을 줘야 돼요.\n4. 남 : 이렇게 늦은 시간에는 세탁실을 이용하면 안 돼요.\n5. 여 : 유수프 씨, 여기서 요리하면 안 돼요.\n남 : 어, 휴게실에서 요리하면 안 되는지 몰랐어요.\n여 : 요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어요. 아, 요리한 음식을 휴게실에서 먹는 건 괜찮아요.\n남 : 아, 그래요? 알려주셔서 감사합니다.\n32 회사 시설 이용 USE OF COMPANY FACILITIES 35",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_32/listening_5.mp3"
+    }
+  ]
+}

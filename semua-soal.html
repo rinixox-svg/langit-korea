@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semua Soal EPS-TOPIK - Langit Korea</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Supabase JS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <style>
+        :root {
+            --langit-biru: #4A90D9;
+            --langit-fajar: #FF8C61;
+            --putih-bersih: #F8F9FF;
+            --teks-utama: #1E2A3A;
+            --teks-sekunder: #6B7A8D;
+            --hijau-berhasil: #4CAF82;
+            --merah-salah: #E05C5C;
+            --kuning-sedang: #F5A623;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: var(--putih-bersih);
+            color: var(--teks-utama);
+            min-height: 100vh;
+            padding: 16px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--langit-biru);
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            font-size: 14px;
+            color: var(--teks-sekunder);
+        }
+
+        /* Filters */
+        .filters {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            align-items: flex-end;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .filter-label {
+            font-size: 12px;
+            color: var(--teks-sekunder);
+            font-weight: 500;
+        }
+
+        select, input {
+            padding: 8px 12px;
+            border: 2px solid #E0E0E0;
+            border-radius: 8px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 14px;
+            color: var(--teks-utama);
+            background: white;
+            cursor: pointer;
+        }
+
+        select:focus, input:focus {
+            outline: none;
+            border-color: var(--langit-biru);
+        }
+
+        .filter-btn {
+            padding: 10px 20px;
+            background: var(--langit-fajar);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .filter-btn:hover {
+            background: #e67e50;
+            transform: translateY(-2px);
+        }
+
+        /* Stats */
+        .stats {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .stat-card {
+            flex: 1;
+            min-width: 150px;
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--langit-biru);
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: var(--teks-sekunder);
+            margin-top: 4px;
+        }
+
+        /* Unit Section */
+        .unit-section {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .unit-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid #F0F0F0;
+        }
+
+        .unit-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--langit-biru);
+        }
+
+        .unit-badge {
+            background: var(--langit-biru);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        /* Question Card */
+        .question-card {
+            background: #F8F9FF;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            border-left: 4px solid var(--langit-biru);
+        }
+
+        .question-card.listening {
+            border-left-color: var(--langit-fajar);
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .question-number {
+            font-size: 14px;
+            color: var(--teks-sekunder);
+            font-weight: 500;
+        }
+
+        .question-type {
+            font-size: 12px;
+            padding: 4px 10px;
+            border-radius: 16px;
+            font-weight: 600;
+        }
+
+        .question-type.membaca {
+            background: #E8F5E9;
+            color: var(--hijau-berhasil);
+        }
+
+        .question-type.mendengarkan {
+            background: #FFF3E0;
+            color: var(--kuning-sedang);
+        }
+
+        .question-text {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 16px;
+            color: var(--teks-utama);
+        }
+
+        /* Options */
+        .options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .option {
+            padding: 12px;
+            border: 2px solid #E0E0E0;
+            border-radius: 8px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .option.correct {
+            background: #E8F5E9;
+            border-color: var(--hijau-berhasil);
+        }
+
+        .option-label {
+            font-weight: 700;
+            color: var(--langit-biru);
+            min-width: 20px;
+        }
+
+        /* Verification */
+        .verification {
+            background: #F8F9FF;
+            border-radius: 8px;
+            padding: 12px;
+            margin-top: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 13px;
+        }
+
+        .verification.valid {
+            background: #E8F5E9;
+            color: var(--hijau-berhasil);
+        }
+
+        .verification.invalid {
+            background: #FFEBEE;
+            color: var(--merah-salah);
+        }
+
+        .verification-icon {
+            font-size: 18px;
+        }
+
+        .audio-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            background: white;
+            border: 1px solid #E0E0E0;
+            border-radius: 6px;
+            font-size: 12px;
+            color: var(--langit-biru);
+            text-decoration: none;
+            margin-top: 8px;
+        }
+
+        .audio-link:hover {
+            background: #F0F7FF;
+            border-color: var(--langit-biru);
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--teks-sekunder);
+        }
+
+        .spinner {
+            border: 4px solid #E0E0E0;
+            border-top: 4px solid var(--langit-biru);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 16px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--teks-sekunder);
+        }
+
+        .empty-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>📚</h1> Semua Soal EPS-TOPIK</h1>
+            <p>Verifikasi 300 soal (30 unit × 10 soal) - Pilih unit dari dropdown</p>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters">
+            <div class="filter-group">
+                <label class="filter-label">Pilih Unit</label>
+                <select id="unitFilter" onchange="applyFilter()">
+                    <option value="all">Semua Unit (31-60)</option>
+                    <!-- option unit 31-60 akan diisi otomatis oleh populateUnitFilter() -->
+                </select>
+            </div>
+            <div class="filter-group">
+                <button class="filter-btn" onclick="loadAllQuestions()">
+                    🔄 Refresh Data
+                </button>
+            </div>
+        </div>
+
+
+
+        <!-- Content -->
+        <div id="content">
+            <div class="loading" id="loadingDiv">
+                <div class="spinner"></div>
+                <p id="loadingText">Memuat soal...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ========== KONFIGURASI SUPABASE ==========
+        const SUPABASE_URL = "https://mozmuwrkfsipzfupybwh.supabase.co";
+        const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1vem11d3JrZnNpcHpmdXB5YndoIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NzY5NTk1NCwiZXhwIjoyMDkzMjcxOTU0fQ.SZSNk6xV-vq17beo_LwWzsZSp9UVGdqfR-R35cGxawE";
+
+        const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
+        // ========== VARIABEL GLOBAL ==========
+        let allQuestions = [];
+        let filteredQuestions = [];
+
+        // ========== DUMMY DATA UNTUK TESTING ==========
+        const dummyQuestions = [
+            // Unit 31
+            {
+                id: "u31_r1",
+                unit: 31,
+                nomor: 1,
+                tipe: "membaca",
+                teks_soal: "(텍스트 한국어)",
+                teks_soal_id: "(Teks Indonesia)",
+                pilihan_a: "Pilihan A",
+                pilihan_b: "Pilihan B",
+                pilihan_c: "Pilihan C",
+                pilihan_d: "Pilihan D",
+                jawaban: "b"
+            },
+            {
+                id: "u31_r2",
+                unit: 31,
+                nomor: 2,
+                tipe: "membaca",
+                teks_soal: "(텍스트 한국어)",
+                teks_soal_id: "(Teks Indonesia)",
+                pilihan_a: "Pilihan A",
+                pilihan_b: "Pilihan B",
+                pilihan_c: "Pilihan C",
+                pilihan_d: "Pilihan D",
+                jawaban: "c"
+            },
+            {
+                id: "u31_l1",
+                unit: 31,
+                nomor: 1,
+                tipe: "mendengarkan",
+                teks_soal: "(텍스트 한국어)",
+                teks_soal_id: "(Teks Indonesia)",
+                audio_url: "https://example.com/audio.mp3",
+                pilihan_a: "Pilihan A",
+                pilihan_b: "Pilihan B",
+                pilihan_c: "Pilihan C",
+                pilihan_d: "Pilihan D",
+                jawaban: "a"
+            },
+            // Unit 32
+            {
+                id: "u32_r1",
+                unit: 32,
+                nomor: 1,
+                tipe: "membaca",
+                teks_soal: "(텍스트 한국어)",
+                teks_soal_id: "(Teks Indonesia)",
+                pilihan_a: "Pilihan A",
+                pilihan_b: "Pilihan B",
+                pilihan_c: "Pilihan C",
+                pilihan_d: "Pilihan D",
+                jawaban: "a"
+            },
+            {
+                id: "u32_l1",
+                unit: 32,
+                nomor: 1,
+                tipe: "mendengarkan",
+                teks_soal: "(텍스트 한국어)",
+                teks_soal_id: "(Teks Indonesia)",
+                audio_url: "https://example.com/audio.mp3",
+                pilihan_a: "Pilihan A",
+                pilihan_b: "Pilihan B",
+                pilihan_c: "Pilihan C",
+                pilihan_d: "Pilihan D",
+                jawaban: "d"
+            }
+        ];
+
+        // ========== INIT ==========
+        document.addEventListener('DOMContentLoaded', () => {
+            loadAllQuestions();
+        });
+
+        // ========== LOAD ALL QUESTIONS ==========
+        async function loadAllQuestions() {
+            // Tampilkan loading
+            const loadingDiv = document.getElementById('loadingDiv');
+            const loadingText = document.getElementById('loadingText');
+            const refreshBtn = document.querySelector('.filter-btn');
+
+            loadingDiv.style.display = 'block';
+            loadingText.textContent = 'Memuat ulang data...';
+            refreshBtn.disabled = true;
+            refreshBtn.innerHTML = '<span style="animation: spin 1s linear infinite;">🔄</span> Memuat...';
+
+            try {
+                // Coba load dari Supabase, jika gagal pakai dummy data
+                let data = [];
+                let error = null;
+
+                try {
+                    const { data: supabaseData, error: supabaseError } = await supabase
+                        .from('soal_eps')
+                        .select('*')
+                        .order('unit', { ascending: true })
+                        .order('id', { ascending: true });
+
+                    if (supabaseError) throw supabaseError;
+                    data = supabaseData || [];
+                    console.log('Data loaded from Supabase');
+                } catch (e) {
+                    console.error('Failed to load from Supabase, using dummy data:', e);
+                    error = e;
+                    data = dummyQuestions;
+                }
+
+                allQuestions = data;
+                console.log(`Loaded ${allQuestions.length} questions`);
+                console.log('Sample questions:', allQuestions.slice(0, 3));
+
+                // Cek unit yang tersedia
+                const unitsInDb = [...new Set(allQuestions.map(q => q.unit))];
+                console.log('Units in database:', unitsInDb);
+
+                // Update loading text
+                loadingText.textContent = `Memuat ${allQuestions.length} soal dari ${unitsInDb.length} unit tersedia...`;
+
+                // Populate unit filter
+                populateUnitFilter();
+
+                // Show all questions
+                filteredQuestions = allQuestions;
+                renderQuestions();
+
+                loadingDiv.style.display = 'none';
+
+                // Reset tombol refresh
+                refreshBtn.disabled = false;
+                refreshBtn.innerHTML = '🔄 Refresh Data';
+
+            } catch (error) {
+                console.error('Error loading questions:', error);
+                loadingText.textContent = 'Gagal memuat soal. Pastikan koneksi internet aktif.';
+
+                // Reset tombol refresh
+                refreshBtn.disabled = false;
+                refreshBtn.innerHTML = '🔄 Refresh Data';
+            }
+        }
+
+        // ========== POPULATE UNIT FILTER ==========
+        function populateUnitFilter() {
+            const unitFilter = document.getElementById('unitFilter');
+            // Hapus semua option kecuali 'all'
+            while (unitFilter.options.length > 1) unitFilter.remove(1);
+
+            // Tambahkan Unit 31-60
+            for (let u = 31; u <= 60; u++) {
+                const option = document.createElement('option');
+                option.value = u;
+                option.textContent = `Unit ${u}`;
+                unitFilter.appendChild(option);
+            }
+        }
+
+        // ========== APPLY FILTER ==========
+        function applyFilter() {
+            const unit = document.getElementById('unitFilter').value;
+
+            if (unit === 'all') {
+                // Tampilkan semua soal dari Unit 31-60
+                filteredQuestions = allQuestions.filter(q => q.unit >= 31 && q.unit <= 60);
+            } else {
+                // Tampilkan tepat 10 soal untuk unit yang dipilih
+                filteredQuestions = allQuestions.filter(q => q.unit == unit).slice(0, 10);
+            }
+
+            // Update header
+            const headerText = document.querySelector('.header p');
+            headerText.textContent =
+                unit === 'all'
+                    ? 'Verifikasi 300 soal (30 unit × 10 soal) - Pilih unit dari dropdown'
+                    : `Unit ${unit} - ${filteredQuestions.length} soal`;
+
+            renderQuestions();
+        }
+
+
+
+
+
+        // ========== RENDER QUESTIONS ==========
+        function renderQuestions() {
+            const content = document.getElementById('content');
+
+            if (filteredQuestions.length === 0) {
+                content.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">📭</div>
+                        <p>Tidak ada soal yang sesuai filter.</p>
+                        <p style="font-size: 14px; color: var(--teks-sekendar);">Coba pilih unit lain atau tunggu data soal selesai dimuat.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            // Group by unit
+            const grouped = {};
+            filteredQuestions.forEach(q => {
+                if (!grouped[q.unit]) grouped[q.unit] = [];
+                grouped[q.unit].push(q);
+            });
+
+            let html = '';
+
+            Object.keys(grouped).sort((a, b) => a - b).forEach(unit => {
+                const questions = grouped[unit];
+                const firstQ = questions[0];
+
+                html += `
+                    <div class="unit-section">
+                        <div class="unit-header">
+                            <div>
+                                <div class="unit-title">Unit ${unit}</div>
+                            </div>
+                            <span class="unit-badge">${questions.length} Soal</span>
+                        </div>
+                `;
+
+                questions.forEach((q, idx) => {
+                    const isListening = q.tipe === 'mendengarkan';
+                    const isValid = (isListening && q.audio_url) || (!isListening && !q.audio_url);
+
+                    html += `
+                        <div class="question-card ${isListening ? 'listening' : ''}">
+                            <div class="question-header">
+                                <span class="question-number">Soal ${q.nomor || idx + 1}</span>
+                                <span class="question-type ${q.tipe}">${q.tipe === 'membaca' ? 'Membaca' : 'Mendengarkan'}</span>
+                            </div>
+                            <div class="question-text">${q.teks_soal || q.teks_soal_id || ''}</div>
+                    `;
+
+                    // Options
+                    html += `<div class="options">`;
+                    const options = [
+                        { key: 'a', text: q.pilihan_a, correct: q.jawaban === 'a' },
+                        { key: 'b', text: q.pilihan_b, correct: q.jawaban === 'b' },
+                        { key: 'c', text: q.pilihan_c, correct: q.jawaban === 'c' },
+                        { key: 'd', text: q.pilihan_d, correct: q.jawaban === 'd' }
+                    ];
+
+                    options.forEach(opt => {
+                        if (!opt.text) return;
+                        html += `
+                            <div class="option ${opt.correct ? 'correct' : ''}">
+                                <span class="option-label">${opt.key.toUpperCase()}</span>
+                                <span>${opt.text}</span>
+                            </div>
+                        `;
+                    });
+
+                    html += `</div>`;
+
+                    // Correct answer
+                    html += `
+                        <div style="font-size: 14px; color: var(--hijau-berhasil); margin-top: 8px;">
+                            <strong>Jawaban Benar: ${q.jawaban ? q.jawaban.toUpperCase() : '(kosong)'}</strong>
+                        </div>
+                    `;
+
+                    // Audio URL (for listening)
+                    if (isListening) {
+                        if (q.audio_url) {
+                            html += `
+                                <a href="${q.audio_url}" target="_blank" class="audio-link">
+                                    🔊 Buka Audio URL
+                                </a>
+                            `;
+                        } else {
+                            html += `
+                                <div style="font-size: 13px; color: var(--merah-salah); margin-top: 8px;">
+                                    ⚠️ Soal listening tapi audio_url kosong!
+                                </div>
+                            `;
+                        }
+                    } else if (q.audio_url) {
+                        html += `
+                            <div style="font-size: 13px; color: var(--merah-salah); margin-top: 8px;">
+                                ⚠️ Soal membaca tapi punya audio_url!
+                            </div>
+                        `;
+                    }
+
+                    // Verification
+                    html += `
+                        <div class="verification ${isValid ? 'valid' : 'invalid'}">
+                            <span class="verification-icon">${isValid ? '✅' : '❌'}</span>
+                            <span>${isValid ? 'Valid' : 'Invalid'} - ${isListening ? 'Mendengarkan dengan audio' : 'Membaca tanpa audio'}</span>
+                        </div>
+                    `;
+
+                    html += `</div>`; // Close question-card
+                });
+
+                html += `</div>`; // Close unit-section
+            });
+
+            content.innerHTML = html;
+        }
+    </script>
+</body>
+</html>

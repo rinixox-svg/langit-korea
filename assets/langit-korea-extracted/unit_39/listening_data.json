@@ -1,0 +1,119 @@
+{
+  "unit": 39,
+  "title_ko": "금속 가공",
+  "title_id": "Pengolahan Logam",
+  "file": "unit_39_metal_processing.pdf",
+  "total_halaman": 10,
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 공구함에 망치가 있을 거예요. 몇 개 갖다줄까요? 남 : 두 개 갖다주세요. 고맙습니다.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u39_l1",
+      "jawaban": "a",
+      "audio_teks": "1. 여 : 공구함에 망치가 있을 거예요. 몇 개 갖다줄까요?\n남 : 두 개 갖다주세요. 고맙습니다.\n2. 여 : 용접이 힘들어요?\n3. 남 : 반장님이 표면을 깎으라고 하셨는데, 뭘로 깎아야 돼요?\n여 : 이건 금속이라서 줄로 깎아야 돼요. 공구함에 줄이 있을 거예요.\n4. 남 : 용접할 때 불꽃이 튈 수 있으니까 조심하세요.\n5. 여 : 마두 씨, 절단 작업은 다 끝났어요?\n남 : 네, 방금 다 했어요.\n여 : 그럼 자하라 씨한테 용접봉 좀 가져다주세요. 아까부터 찾고 있었어요.\n39 금속 가공 METAL PROCESSING 105",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u39_h9_soal_listening_0a.png",
+        "b": "images/u39_h9_soal_listening_02.png",
+        "c": "images/u39_h9_soal_listening_03.png",
+        "d": "images/u39_h9_soal_listening_04.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_39/listening_1.mp3"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 용접이 힘들어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u39_l2",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 공구함에 망치가 있을 거예요. 몇 개 갖다줄까요?\n남 : 두 개 갖다주세요. 고맙습니다.\n2. 여 : 용접이 힘들어요?\n3. 남 : 반장님이 표면을 깎으라고 하셨는데, 뭘로 깎아야 돼요?\n여 : 이건 금속이라서 줄로 깎아야 돼요. 공구함에 줄이 있을 거예요.\n4. 남 : 용접할 때 불꽃이 튈 수 있으니까 조심하세요.\n5. 여 : 마두 씨, 절단 작업은 다 끝났어요?\n남 : 네, 방금 다 했어요.\n여 : 그럼 자하라 씨한테 용접봉 좀 가져다주세요. 아까부터 찾고 있었어요.\n39 금속 가공 METAL PROCESSING 105",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u39_h9_soal_listening_02.png",
+        "b": "images/u39_h9_soal_listening_02.png",
+        "c": "images/u39_h9_soal_listening_02.png",
+        "d": "images/u39_h9_soal_listening_02.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_39/listening_2.mp3"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 반장님이 표면을 깎으라고 하셨는데, 뭘로 깎아야 돼요? 여 : 이건 금속이라서 줄로 깎아야 돼요. 공구함에 줄이 있을 거예요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u39_l3",
+      "jawaban": "b",
+      "audio_teks": "1. 여 : 공구함에 망치가 있을 거예요. 몇 개 갖다줄까요?\n남 : 두 개 갖다주세요. 고맙습니다.\n2. 여 : 용접이 힘들어요?\n3. 남 : 반장님이 표면을 깎으라고 하셨는데, 뭘로 깎아야 돼요?\n여 : 이건 금속이라서 줄로 깎아야 돼요. 공구함에 줄이 있을 거예요.\n4. 남 : 용접할 때 불꽃이 튈 수 있으니까 조심하세요.\n5. 여 : 마두 씨, 절단 작업은 다 끝났어요?\n남 : 네, 방금 다 했어요.\n여 : 그럼 자하라 씨한테 용접봉 좀 가져다주세요. 아까부터 찾고 있었어요.\n39 금속 가공 METAL PROCESSING 105",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u39_h9_soal_listening_03.png",
+        "b": "images/u39_h9_soal_listening_03.png",
+        "c": "images/u39_h9_soal_listening_03.png",
+        "d": "images/u39_h9_soal_listening_03.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_39/listening_3.mp3"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 용접할 때 불꽃이 튈 수 있으니까 조심하세요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u39_l4",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 공구함에 망치가 있을 거예요. 몇 개 갖다줄까요?\n남 : 두 개 갖다주세요. 고맙습니다.\n2. 여 : 용접이 힘들어요?\n3. 남 : 반장님이 표면을 깎으라고 하셨는데, 뭘로 깎아야 돼요?\n여 : 이건 금속이라서 줄로 깎아야 돼요. 공구함에 줄이 있을 거예요.\n4. 남 : 용접할 때 불꽃이 튈 수 있으니까 조심하세요.\n5. 여 : 마두 씨, 절단 작업은 다 끝났어요?\n남 : 네, 방금 다 했어요.\n여 : 그럼 자하라 씨한테 용접봉 좀 가져다주세요. 아까부터 찾고 있었어요.\n39 금속 가공 METAL PROCESSING 105",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u39_h9_soal_listening_04.png",
+        "b": "images/u39_h9_soal_listening_04.png",
+        "c": "images/u39_h9_soal_listening_04.png",
+        "d": "images/u39_h9_soal_listening_04.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_39/listening_4.mp3"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 마두 씨, 절단 작업은 다 끝났어요? 남 : 네, 방금 다 했어요. 여 : 그럼 자하라 씨한테 용접봉 좀 가져다주세요. 아까부터 찾고 있었어요. 39 금속 가공 METAL PROCESSING 105",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u39_l5",
+      "jawaban": "a",
+      "audio_teks": "1. 여 : 공구함에 망치가 있을 거예요. 몇 개 갖다줄까요?\n남 : 두 개 갖다주세요. 고맙습니다.\n2. 여 : 용접이 힘들어요?\n3. 남 : 반장님이 표면을 깎으라고 하셨는데, 뭘로 깎아야 돼요?\n여 : 이건 금속이라서 줄로 깎아야 돼요. 공구함에 줄이 있을 거예요.\n4. 남 : 용접할 때 불꽃이 튈 수 있으니까 조심하세요.\n5. 여 : 마두 씨, 절단 작업은 다 끝났어요?\n남 : 네, 방금 다 했어요.\n여 : 그럼 자하라 씨한테 용접봉 좀 가져다주세요. 아까부터 찾고 있었어요.\n39 금속 가공 METAL PROCESSING 105",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u39_h9_soal_listening_05.png",
+        "b": "images/u39_h9_soal_listening_05.png",
+        "c": "images/u39_h9_soal_listening_05.png",
+        "d": "images/u39_h9_soal_listening_05.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_39/listening_5.mp3"
+    }
+  ]
+}

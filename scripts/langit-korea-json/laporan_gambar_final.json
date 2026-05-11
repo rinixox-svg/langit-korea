@@ -1,0 +1,104 @@
+{
+  "waktu": "2026-05-08T12:11:06.518885",
+  "berhasil": 22,
+  "gagal": [
+    33,
+    34,
+    53,
+    54,
+    55,
+    57,
+    59,
+    60
+  ],
+  "detail": {
+    "31": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "32": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "35": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "36": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "37": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "38": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "39": {
+      "gambar_count": 10,
+      "message": "Updated 5 soal dengan gambar"
+    },
+    "40": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "41": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "42": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "43": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "44": {
+      "gambar_count": 2,
+      "message": "Updated 2 soal dengan gambar"
+    },
+    "45": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "46": {
+      "gambar_count": 4,
+      "message": "Updated 1 soal dengan gambar"
+    },
+    "47": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "48": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "49": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "50": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "51": {
+      "gambar_count": 4,
+      "message": "Updated 1 soal dengan gambar"
+    },
+    "52": {
+      "gambar_count": 4,
+      "message": "Updated 4 soal dengan gambar"
+    },
+    "56": {
+      "gambar_count": 4,
+      "message": "Updated 1 soal dengan gambar"
+    },
+    "58": {
+      "gambar_count": 4,
+      "message": "Updated 1 soal dengan gambar"
+    }
+  }
+}

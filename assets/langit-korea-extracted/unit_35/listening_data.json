@@ -1,0 +1,114 @@
+{
+  "unit": 35,
+  "title_ko": "작업장 관리",
+  "title_id": "Manajemen Tempat Kerja",
+  "file": "unit_35_workplace_management.pdf",
+  "total_halaman": 10,
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 작업장 청소 좀 해야겠어요. 남 : 그럼 저는 바닥을 닦을게요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u35_l1",
+      "jawaban": "a",
+      "audio_teks": "1. 여 : 작업장 청소 좀 해야겠어요.\n남 : 그럼 저는 바닥을 닦을게요.\n2. 여 : 작업장 소음이 심해요?\n3. 남 : 왜 온도를 자주 확인하세요?\n여 : 식품 창고는 온도 유지가 중요해요. 온도가 올라가면 안 되니까 자주 확인해야 돼요.\n4. 남 : 이 자재들은 밖에 두면 안 돼요. 창고에 보관해야 돼요.\n5. 여 : 작업장이 엉망이네요. 냄새도 많이 나고요.\n남 : 어제 페인트 작업을 했거든요. 너무 늦어서 청소를 못 하고 퇴근했어요.\n여 : 일 시작하기 전에 환기부터 해야겠어요. 아궁 씨는 청소 도구 좀 가져오세요.\n35 작업장 관리 WORKPLACE MANAGEMENT 65",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u35_h9_soal_listening_0a.jpeg",
+        "b": "images/u35_h9_soal_listening_02.jpeg",
+        "c": "images/u35_h9_soal_listening_03.jpeg",
+        "d": "images/u35_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_35/listening_1.mp3"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 작업장 소음이 심해요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u35_l2",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 작업장 청소 좀 해야겠어요.\n남 : 그럼 저는 바닥을 닦을게요.\n2. 여 : 작업장 소음이 심해요?\n3. 남 : 왜 온도를 자주 확인하세요?\n여 : 식품 창고는 온도 유지가 중요해요. 온도가 올라가면 안 되니까 자주 확인해야 돼요.\n4. 남 : 이 자재들은 밖에 두면 안 돼요. 창고에 보관해야 돼요.\n5. 여 : 작업장이 엉망이네요. 냄새도 많이 나고요.\n남 : 어제 페인트 작업을 했거든요. 너무 늦어서 청소를 못 하고 퇴근했어요.\n여 : 일 시작하기 전에 환기부터 해야겠어요. 아궁 씨는 청소 도구 좀 가져오세요.\n35 작업장 관리 WORKPLACE MANAGEMENT 65",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u35_h9_soal_listening_02.jpeg",
+        "b": "images/u35_h9_soal_listening_02.jpeg",
+        "c": "images/u35_h9_soal_listening_02.jpeg",
+        "d": "images/u35_h9_soal_listening_02.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_35/listening_2.mp3"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 왜 온도를 자주 확인하세요? 여 : 식품 창고는 온도 유지가 중요해요. 온도가 올라가면 안 되니까 자주 확인해야 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u35_l3",
+      "jawaban": "b",
+      "audio_teks": "1. 여 : 작업장 청소 좀 해야겠어요.\n남 : 그럼 저는 바닥을 닦을게요.\n2. 여 : 작업장 소음이 심해요?\n3. 남 : 왜 온도를 자주 확인하세요?\n여 : 식품 창고는 온도 유지가 중요해요. 온도가 올라가면 안 되니까 자주 확인해야 돼요.\n4. 남 : 이 자재들은 밖에 두면 안 돼요. 창고에 보관해야 돼요.\n5. 여 : 작업장이 엉망이네요. 냄새도 많이 나고요.\n남 : 어제 페인트 작업을 했거든요. 너무 늦어서 청소를 못 하고 퇴근했어요.\n여 : 일 시작하기 전에 환기부터 해야겠어요. 아궁 씨는 청소 도구 좀 가져오세요.\n35 작업장 관리 WORKPLACE MANAGEMENT 65",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u35_h9_soal_listening_03.jpeg",
+        "b": "images/u35_h9_soal_listening_03.jpeg",
+        "c": "images/u35_h9_soal_listening_03.jpeg",
+        "d": "images/u35_h9_soal_listening_03.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_35/listening_3.mp3"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 이 자재들은 밖에 두면 안 돼요. 창고에 보관해야 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u35_l4",
+      "jawaban": "a",
+      "audio_teks": "1. 여 : 작업장 청소 좀 해야겠어요.\n남 : 그럼 저는 바닥을 닦을게요.\n2. 여 : 작업장 소음이 심해요?\n3. 남 : 왜 온도를 자주 확인하세요?\n여 : 식품 창고는 온도 유지가 중요해요. 온도가 올라가면 안 되니까 자주 확인해야 돼요.\n4. 남 : 이 자재들은 밖에 두면 안 돼요. 창고에 보관해야 돼요.\n5. 여 : 작업장이 엉망이네요. 냄새도 많이 나고요.\n남 : 어제 페인트 작업을 했거든요. 너무 늦어서 청소를 못 하고 퇴근했어요.\n여 : 일 시작하기 전에 환기부터 해야겠어요. 아궁 씨는 청소 도구 좀 가져오세요.\n35 작업장 관리 WORKPLACE MANAGEMENT 65",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u35_h9_soal_listening_04.jpeg",
+        "b": "images/u35_h9_soal_listening_04.jpeg",
+        "c": "images/u35_h9_soal_listening_04.jpeg",
+        "d": "images/u35_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_35/listening_4.mp3"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 작업장이 엉망이네요. 냄새도 많이 나고요. 남 : 어제 페인트 작업을 했거든요. 너무 늦어서 청소를 못 하고 퇴근했어요. 여 : 일 시작하기 전에 환기부터 해야겠어요. 아궁 씨는 청소 도구 좀 가져오세요. 35 작업장 관리 WORKPLACE MANAGEMENT 65",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u35_l5",
+      "jawaban": "a",
+      "audio_teks": "1. 여 : 작업장 청소 좀 해야겠어요.\n남 : 그럼 저는 바닥을 닦을게요.\n2. 여 : 작업장 소음이 심해요?\n3. 남 : 왜 온도를 자주 확인하세요?\n여 : 식품 창고는 온도 유지가 중요해요. 온도가 올라가면 안 되니까 자주 확인해야 돼요.\n4. 남 : 이 자재들은 밖에 두면 안 돼요. 창고에 보관해야 돼요.\n5. 여 : 작업장이 엉망이네요. 냄새도 많이 나고요.\n남 : 어제 페인트 작업을 했거든요. 너무 늦어서 청소를 못 하고 퇴근했어요.\n여 : 일 시작하기 전에 환기부터 해야겠어요. 아궁 씨는 청소 도구 좀 가져오세요.\n35 작업장 관리 WORKPLACE MANAGEMENT 65",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_35/listening_5.mp3"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "total_unit_diproses": 30,
+  "unit_berhasil": 9,
+  "unit_gagal": [
+    31,
+    33,
+    36,
+    37,
+    38,
+    40,
+    41,
+    42,
+    44,
+    46,
+    47,
+    48,
+    50,
+    52,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+  ],
+  "total_soal_diproses": 135,
+  "detail_per_unit": {
+    "unit_31": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_32": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_33": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_34": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_35": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_36": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_37": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_38": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_39": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_40": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_41": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_42": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_43": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_44": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_45": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_46": {
+      "reading": 0,
+      "listening": 10
+    },
+    "unit_47": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_48": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_49": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_50": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_51": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_52": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_53": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_54": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_55": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_56": {
+      "reading": 0,
+      "listening": 10
+    },
+    "unit_57": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_58": {
+      "reading": 0,
+      "listening": 10
+    },
+    "unit_59": {
+      "reading": 5,
+      "listening": 10
+    },
+    "unit_60": {
+      "reading": 5,
+      "listening": 10
+    }
+  }
+}

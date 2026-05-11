@@ -1,0 +1,114 @@
+{
+  "unit": 37,
+  "title_ko": "기계 가공",
+  "title_id": "Pemrosesan Mesin",
+  "file": "unit_37_machine_processing.pdf",
+  "total_halaman": 10,
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 무슨 버튼을 눌러야 돼요? 여 : 빨간색 버튼을 누르세요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u37_l1",
+      "jawaban": "b",
+      "audio_teks": "1. 남 : 무슨 버튼을 눌러야 돼요?\n여 : 빨간색 버튼을 누르세요.\n2. 남 : 커터를 좀 교체해 주세요.\n3. 남 : 작업하고 나서 칩을 안 치웠네요.\n4. 여 : 반장님, 밀링 머신의 먼지를 털고 작업해야 되지요?\n남 : 그럼요, 밀링 작업을 할 때는 작업대 위를 깨끗이 치우고 해야 돼요.\n5. 여 : 마두 씨, 손 괜찮아요? 프레스 기계는 조금만 방심해도 큰 사고가 날 수 있어요.\n남 : 네, 괜찮아요. 잠깐 딴생각을 했어요. 다칠 뻔했네요.\n여 : 많이 놀랐죠? 좀 쉬었다가 하세요.\n37 기계 가공 MACHINE PROCESSING 85",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u37_h9_soal_listening_0a.jpeg",
+        "b": "images/u37_h9_soal_listening_02.jpeg",
+        "c": "images/u37_h9_soal_listening_03.jpeg",
+        "d": "images/u37_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_37/listening_1.mp3"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 커터를 좀 교체해 주세요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u37_l2",
+      "jawaban": "a",
+      "audio_teks": "1. 남 : 무슨 버튼을 눌러야 돼요?\n여 : 빨간색 버튼을 누르세요.\n2. 남 : 커터를 좀 교체해 주세요.\n3. 남 : 작업하고 나서 칩을 안 치웠네요.\n4. 여 : 반장님, 밀링 머신의 먼지를 털고 작업해야 되지요?\n남 : 그럼요, 밀링 작업을 할 때는 작업대 위를 깨끗이 치우고 해야 돼요.\n5. 여 : 마두 씨, 손 괜찮아요? 프레스 기계는 조금만 방심해도 큰 사고가 날 수 있어요.\n남 : 네, 괜찮아요. 잠깐 딴생각을 했어요. 다칠 뻔했네요.\n여 : 많이 놀랐죠? 좀 쉬었다가 하세요.\n37 기계 가공 MACHINE PROCESSING 85",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u37_h9_soal_listening_02.jpeg",
+        "b": "images/u37_h9_soal_listening_02.jpeg",
+        "c": "images/u37_h9_soal_listening_02.jpeg",
+        "d": "images/u37_h9_soal_listening_02.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_37/listening_2.mp3"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 작업하고 나서 칩을 안 치웠네요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u37_l3",
+      "jawaban": "a",
+      "audio_teks": "1. 남 : 무슨 버튼을 눌러야 돼요?\n여 : 빨간색 버튼을 누르세요.\n2. 남 : 커터를 좀 교체해 주세요.\n3. 남 : 작업하고 나서 칩을 안 치웠네요.\n4. 여 : 반장님, 밀링 머신의 먼지를 털고 작업해야 되지요?\n남 : 그럼요, 밀링 작업을 할 때는 작업대 위를 깨끗이 치우고 해야 돼요.\n5. 여 : 마두 씨, 손 괜찮아요? 프레스 기계는 조금만 방심해도 큰 사고가 날 수 있어요.\n남 : 네, 괜찮아요. 잠깐 딴생각을 했어요. 다칠 뻔했네요.\n여 : 많이 놀랐죠? 좀 쉬었다가 하세요.\n37 기계 가공 MACHINE PROCESSING 85",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u37_h9_soal_listening_03.png",
+        "b": "images/u37_h9_soal_listening_03.png",
+        "c": "images/u37_h9_soal_listening_03.png",
+        "d": "images/u37_h9_soal_listening_03.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_37/listening_3.mp3"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 반장님, 밀링 머신의 먼지를 털고 작업해야 되지요? 남 : 그럼요, 밀링 작업을 할 때는 작업대 위를 깨끗이 치우고 해야 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u37_l4",
+      "jawaban": "b",
+      "audio_teks": "1. 남 : 무슨 버튼을 눌러야 돼요?\n여 : 빨간색 버튼을 누르세요.\n2. 남 : 커터를 좀 교체해 주세요.\n3. 남 : 작업하고 나서 칩을 안 치웠네요.\n4. 여 : 반장님, 밀링 머신의 먼지를 털고 작업해야 되지요?\n남 : 그럼요, 밀링 작업을 할 때는 작업대 위를 깨끗이 치우고 해야 돼요.\n5. 여 : 마두 씨, 손 괜찮아요? 프레스 기계는 조금만 방심해도 큰 사고가 날 수 있어요.\n남 : 네, 괜찮아요. 잠깐 딴생각을 했어요. 다칠 뻔했네요.\n여 : 많이 놀랐죠? 좀 쉬었다가 하세요.\n37 기계 가공 MACHINE PROCESSING 85",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u37_h9_soal_listening_04.png",
+        "b": "images/u37_h9_soal_listening_04.png",
+        "c": "images/u37_h9_soal_listening_04.png",
+        "d": "images/u37_h9_soal_listening_04.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_37/listening_4.mp3"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 마두 씨, 손 괜찮아요? 프레스 기계는 조금만 방심해도 큰 사고가 날 수 있어요. 남 : 네, 괜찮아요. 잠깐 딴생각을 했어요. 다칠 뻔했네요. 여 : 많이 놀랐죠? 좀 쉬었다가 하세요. 37 기계 가공 MACHINE PROCESSING 85",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u37_l5",
+      "jawaban": "a",
+      "audio_teks": "1. 남 : 무슨 버튼을 눌러야 돼요?\n여 : 빨간색 버튼을 누르세요.\n2. 남 : 커터를 좀 교체해 주세요.\n3. 남 : 작업하고 나서 칩을 안 치웠네요.\n4. 여 : 반장님, 밀링 머신의 먼지를 털고 작업해야 되지요?\n남 : 그럼요, 밀링 작업을 할 때는 작업대 위를 깨끗이 치우고 해야 돼요.\n5. 여 : 마두 씨, 손 괜찮아요? 프레스 기계는 조금만 방심해도 큰 사고가 날 수 있어요.\n남 : 네, 괜찮아요. 잠깐 딴생각을 했어요. 다칠 뻔했네요.\n여 : 많이 놀랐죠? 좀 쉬었다가 하세요.\n37 기계 가공 MACHINE PROCESSING 85",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_37/listening_5.mp3"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "unit": 42,
+  "title_ko": "가구 제작",
+  "title_id": "Pembuatan Furnitur",
+  "file": "unit_42_furniture_making.pdf",
+  "total_halaman": 10,
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 오후에는 무슨 작업을 해야 돼요? 여 : 도색 작업을 해야 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u42_l1",
+      "jawaban": "c",
+      "audio_teks": "1. 남 : 오후에는 무슨 작업을 해야 돼요?\n여 : 도색 작업을 해야 돼요.\n2. 남 : 그라인더를 사용해 봤어요?\n3. 여 : 페인트가 얼마나 있어요?\n4. 남 : 마스크 꼭 쓰고 스프레이를 뿌리세요.\n5. 여 : 작업한 후에 뚜껑을 안 닫아 둬서 페인트가 좀 굳었어요.\n남 : 한번 봐요. 아, 너무 굳어서 새 페인트를 가져와야겠네요.\n여 : 제가 창고에 가서 가져올게요. 빨간색 한 통이랑 흰색 한 통 가져오면 되죠?\n남 : 네, 그러면 될 것 같아요. 전 작업 도구를 준비해 놓을게요.\n42 가구 제작 FURNITURE MAKING 135",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u42_h9_soal_listening_0a.png",
+        "b": "images/u42_h9_soal_listening_02.png",
+        "c": "images/u42_h9_soal_listening_03.png",
+        "d": "images/u42_h9_soal_listening_04.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_42/listening_1.mp3"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 그라인더를 사용해 봤어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u42_l2",
+      "jawaban": "b",
+      "audio_teks": "1. 남 : 오후에는 무슨 작업을 해야 돼요?\n여 : 도색 작업을 해야 돼요.\n2. 남 : 그라인더를 사용해 봤어요?\n3. 여 : 페인트가 얼마나 있어요?\n4. 남 : 마스크 꼭 쓰고 스프레이를 뿌리세요.\n5. 여 : 작업한 후에 뚜껑을 안 닫아 둬서 페인트가 좀 굳었어요.\n남 : 한번 봐요. 아, 너무 굳어서 새 페인트를 가져와야겠네요.\n여 : 제가 창고에 가서 가져올게요. 빨간색 한 통이랑 흰색 한 통 가져오면 되죠?\n남 : 네, 그러면 될 것 같아요. 전 작업 도구를 준비해 놓을게요.\n42 가구 제작 FURNITURE MAKING 135",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u42_h9_soal_listening_02.jpeg",
+        "b": "images/u42_h9_soal_listening_02.jpeg",
+        "c": "images/u42_h9_soal_listening_02.jpeg",
+        "d": "images/u42_h9_soal_listening_02.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_42/listening_2.mp3"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 페인트가 얼마나 있어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u42_l3",
+      "jawaban": "a",
+      "audio_teks": "1. 남 : 오후에는 무슨 작업을 해야 돼요?\n여 : 도색 작업을 해야 돼요.\n2. 남 : 그라인더를 사용해 봤어요?\n3. 여 : 페인트가 얼마나 있어요?\n4. 남 : 마스크 꼭 쓰고 스프레이를 뿌리세요.\n5. 여 : 작업한 후에 뚜껑을 안 닫아 둬서 페인트가 좀 굳었어요.\n남 : 한번 봐요. 아, 너무 굳어서 새 페인트를 가져와야겠네요.\n여 : 제가 창고에 가서 가져올게요. 빨간색 한 통이랑 흰색 한 통 가져오면 되죠?\n남 : 네, 그러면 될 것 같아요. 전 작업 도구를 준비해 놓을게요.\n42 가구 제작 FURNITURE MAKING 135",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u42_h9_soal_listening_03.jpeg",
+        "b": "images/u42_h9_soal_listening_03.jpeg",
+        "c": "images/u42_h9_soal_listening_03.jpeg",
+        "d": "images/u42_h9_soal_listening_03.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_42/listening_3.mp3"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 마스크 꼭 쓰고 스프레이를 뿌리세요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u42_l4",
+      "jawaban": "a",
+      "audio_teks": "1. 남 : 오후에는 무슨 작업을 해야 돼요?\n여 : 도색 작업을 해야 돼요.\n2. 남 : 그라인더를 사용해 봤어요?\n3. 여 : 페인트가 얼마나 있어요?\n4. 남 : 마스크 꼭 쓰고 스프레이를 뿌리세요.\n5. 여 : 작업한 후에 뚜껑을 안 닫아 둬서 페인트가 좀 굳었어요.\n남 : 한번 봐요. 아, 너무 굳어서 새 페인트를 가져와야겠네요.\n여 : 제가 창고에 가서 가져올게요. 빨간색 한 통이랑 흰색 한 통 가져오면 되죠?\n남 : 네, 그러면 될 것 같아요. 전 작업 도구를 준비해 놓을게요.\n42 가구 제작 FURNITURE MAKING 135",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u42_h9_soal_listening_04.png",
+        "b": "images/u42_h9_soal_listening_04.png",
+        "c": "images/u42_h9_soal_listening_04.png",
+        "d": "images/u42_h9_soal_listening_04.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_42/listening_4.mp3"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 작업한 후에 뚜껑을 안 닫아 둬서 페인트가 좀 굳었어요. 남 : 한번 봐요. 아, 너무 굳어서 새 페인트를 가져와야겠네요. 여 : 제가 창고에 가서 가져올게요. 빨간색 한 통이랑 흰색 한 통 가져오면 되죠? 남 : 네, 그러면 될 것 같아요. 전 작업 도구를 준비해 놓을게요. 42 가구 제작 FURNITURE MAKING 135",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u42_l5",
+      "jawaban": "b",
+      "audio_teks": "1. 남 : 오후에는 무슨 작업을 해야 돼요?\n여 : 도색 작업을 해야 돼요.\n2. 남 : 그라인더를 사용해 봤어요?\n3. 여 : 페인트가 얼마나 있어요?\n4. 남 : 마스크 꼭 쓰고 스프레이를 뿌리세요.\n5. 여 : 작업한 후에 뚜껑을 안 닫아 둬서 페인트가 좀 굳었어요.\n남 : 한번 봐요. 아, 너무 굳어서 새 페인트를 가져와야겠네요.\n여 : 제가 창고에 가서 가져올게요. 빨간색 한 통이랑 흰색 한 통 가져오면 되죠?\n남 : 네, 그러면 될 것 같아요. 전 작업 도구를 준비해 놓을게요.\n42 가구 제작 FURNITURE MAKING 135",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_42/listening_5.mp3"
+    }
+  ]
+}

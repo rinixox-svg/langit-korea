@@ -1,0 +1,114 @@
+{
+  "unit": 41,
+  "title_ko": "섬유 제조",
+  "title_id": "Manufaktur Tekstil",
+  "file": "unit_41_textile_manufacturing.pdf",
+  "total_halaman": 10,
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 오늘은 무슨 작업을 해요? 여 : 원사를 파란색으로 염색해야 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u41_l1",
+      "jawaban": "c",
+      "audio_teks": "1. 남 : 오늘은 무슨 작업을 해요?\n여 : 원사를 파란색으로 염색해야 돼요.\n2. 남 : 염색 과정이 간단해요?\n3. 여 : 누가 염료를 넣었어요?\n4. 남 : 종류가 다른 원사를 함께 보관하면 안 돼요.\n5. 여 : 날씨가 덥거나 습하면 원사가 변색될 수 있어요.\n남 : 주기적으로 보관 창고의 온도와 습도를 확인하겠습니다.\n여 : 확인 후 관리 대장에도 꼭 기록해 놓으세요.\n41 섬유 제조 TEXTILE MANUFACTURING 125",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u41_h9_soal_listening_0a.jpeg",
+        "b": "images/u41_h9_soal_listening_02.jpeg",
+        "c": "images/u41_h9_soal_listening_03.jpeg",
+        "d": "images/u41_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_41/listening_1.mp3"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 염색 과정이 간단해요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u41_l2",
+      "jawaban": "d",
+      "audio_teks": "1. 남 : 오늘은 무슨 작업을 해요?\n여 : 원사를 파란색으로 염색해야 돼요.\n2. 남 : 염색 과정이 간단해요?\n3. 여 : 누가 염료를 넣었어요?\n4. 남 : 종류가 다른 원사를 함께 보관하면 안 돼요.\n5. 여 : 날씨가 덥거나 습하면 원사가 변색될 수 있어요.\n남 : 주기적으로 보관 창고의 온도와 습도를 확인하겠습니다.\n여 : 확인 후 관리 대장에도 꼭 기록해 놓으세요.\n41 섬유 제조 TEXTILE MANUFACTURING 125",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u41_h9_soal_listening_02.png",
+        "b": "images/u41_h9_soal_listening_02.png",
+        "c": "images/u41_h9_soal_listening_02.png",
+        "d": "images/u41_h9_soal_listening_02.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_41/listening_2.mp3"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 누가 염료를 넣었어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u41_l3",
+      "jawaban": "b",
+      "audio_teks": "1. 남 : 오늘은 무슨 작업을 해요?\n여 : 원사를 파란색으로 염색해야 돼요.\n2. 남 : 염색 과정이 간단해요?\n3. 여 : 누가 염료를 넣었어요?\n4. 남 : 종류가 다른 원사를 함께 보관하면 안 돼요.\n5. 여 : 날씨가 덥거나 습하면 원사가 변색될 수 있어요.\n남 : 주기적으로 보관 창고의 온도와 습도를 확인하겠습니다.\n여 : 확인 후 관리 대장에도 꼭 기록해 놓으세요.\n41 섬유 제조 TEXTILE MANUFACTURING 125",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u41_h9_soal_listening_03.jpeg",
+        "b": "images/u41_h9_soal_listening_03.jpeg",
+        "c": "images/u41_h9_soal_listening_03.jpeg",
+        "d": "images/u41_h9_soal_listening_03.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_41/listening_3.mp3"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 종류가 다른 원사를 함께 보관하면 안 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u41_l4",
+      "jawaban": "d",
+      "audio_teks": "1. 남 : 오늘은 무슨 작업을 해요?\n여 : 원사를 파란색으로 염색해야 돼요.\n2. 남 : 염색 과정이 간단해요?\n3. 여 : 누가 염료를 넣었어요?\n4. 남 : 종류가 다른 원사를 함께 보관하면 안 돼요.\n5. 여 : 날씨가 덥거나 습하면 원사가 변색될 수 있어요.\n남 : 주기적으로 보관 창고의 온도와 습도를 확인하겠습니다.\n여 : 확인 후 관리 대장에도 꼭 기록해 놓으세요.\n41 섬유 제조 TEXTILE MANUFACTURING 125",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u41_h9_soal_listening_04.png",
+        "b": "images/u41_h9_soal_listening_04.png",
+        "c": "images/u41_h9_soal_listening_04.png",
+        "d": "images/u41_h9_soal_listening_04.png"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_41/listening_4.mp3"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 날씨가 덥거나 습하면 원사가 변색될 수 있어요. 남 : 주기적으로 보관 창고의 온도와 습도를 확인하겠습니다. 여 : 확인 후 관리 대장에도 꼭 기록해 놓으세요. 41 섬유 제조 TEXTILE MANUFACTURING 125",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u41_l5",
+      "jawaban": "b",
+      "audio_teks": "1. 남 : 오늘은 무슨 작업을 해요?\n여 : 원사를 파란색으로 염색해야 돼요.\n2. 남 : 염색 과정이 간단해요?\n3. 여 : 누가 염료를 넣었어요?\n4. 남 : 종류가 다른 원사를 함께 보관하면 안 돼요.\n5. 여 : 날씨가 덥거나 습하면 원사가 변색될 수 있어요.\n남 : 주기적으로 보관 창고의 온도와 습도를 확인하겠습니다.\n여 : 확인 후 관리 대장에도 꼭 기록해 놓으세요.\n41 섬유 제조 TEXTILE MANUFACTURING 125",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_41/listening_5.mp3"
+    }
+  ]
+}

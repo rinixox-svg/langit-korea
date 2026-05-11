@@ -1,309 +1,125 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
+<head></head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Langit Korea - Premium Access</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
-
+    <title>Langit Korea — Premium</title>
+    <link rel="stylesheet" href="assets/css/main.css">
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="js/supabase-config.js"></script>
-
-    <style>
-        :root {
-            --langit-biru: #4A90D9;
-            --langit-fajar: #FF8C61;
-            --putih-bersih: #F8F9FF;
-            --teks-utama: #1E2A3A;
-            --teks-sekunder: #6B7A8D;
-            --hijau-berhasil: #4CAF82;
-            --merah-salah: #E05C5C;
-            --kuning-sedang: #F5A623;
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: var(--putih-bersih);
-            color: var(--teks-utama);
-            padding: 20px;
-            max-width: 480px;
-            margin: 0 auto;
-        }
-
-        .header { text-align: center; margin-bottom: 20px; }
-        .logo { font-size: 24px; font-weight: 700; color: var(--langit-biru); }
-        .subtitle { font-size: 14px; color: var(--teks-sekunder); margin-top: 5px; }
-
-        .hero-card {
-            background: linear-gradient(135deg, var(--langit-biru), #3A7BC8);
-            color: white;
-            border-radius: 20px;
-            padding: 30px 20px;
-            text-align: center;
-            margin-bottom: 24px;
-            box-shadow: 0 10px 30px rgba(74, 144, 217, 0.3);
-        }
-
-        .hero-icon { font-size: 48px; margin-bottom: 10px; }
-        .hero-title { font-size: 22px; font-weight: 700; margin-bottom: 8px; }
-        .hero-desc { font-size: 14px; opacity: 0.9; line-height: 1.5; }
-
-        .section-title {
-            font-size: 18px;
-            font-weight: 700;
-            margin-bottom: 16px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .comparison-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 12px;
-            margin-bottom: 24px;
-        }
-
-        .plan-card {
-            background: white;
-            border-radius: 16px;
-            padding: 20px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-            text-align: center;
-        }
-
-        .plan-card.premium {
-            border: 2px solid var(--langit-fajar);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .popular-badge {
-            position: absolute;
-            top: 10px;
-            right: -30px;
-            background: var(--langit-fajar);
-            color: white;
-            padding: 4px 40px;
-            font-size: 12px;
-            font-weight: 600;
-            transform: rotate(45deg);
-        }
-
-        .plan-name { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
-        .plan-price { font-size: 28px; font-weight: 700; color: var(--langit-biru); margin-bottom: 4px; }
-        .plan-price span { font-size: 14px; color: var(--teks-sekunder); font-weight: 400; }
-        .plan-desc { font-size: 12px; color: var(--teks-sekunder); margin-bottom: 16px; }
-
-        .feature-list {
-            list-style: none;
-            text-align: left;
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-
-        .feature-list li {
-            padding: 6px 0;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .feature-list .icon { font-size: 16px; }
-
-        .btn-primary {
-            background-color: var(--langit-biru);
-            color: white;
-            font-size: 18px;
-            padding: 16px;
-            border: none;
-            border-radius: 12px;
-            font-weight: 700;
-            cursor: pointer;
-            width: 100%;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: transform 0.2s;
-            font-family: 'Plus Jakarta Sans', sans-serif;
-        }
-
-        .btn-primary:hover { transform: translateY(-2px); }
-
-        .youtube-card {
-            background: white;
-            border-radius: 16px;
-            padding: 20px;
-            box-shadow: 0 8px 24px rgba(74, 144, 217, 0.15);
-            margin-bottom: 20px;
-        }
-
-        .youtube-steps {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-            margin: 20px 0;
-        }
-
-        .step-item {
-            display: flex;
-            gap: 12px;
-            align-items: flex-start;
-        }
-
-        .step-number {
-            background: var(--langit-biru);
-            color: white;
-            width: 28px;
-            height: 28px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 700;
-            font-size: 14px;
-            flex-shrink: 0;
-        }
-
-        .step-content { font-size: 14px; line-height: 1.5; }
-        .step-content strong { color: var(--langit-biru); }
-
-        .btn-youtube {
-            background-color: #FF0000;
-            color: white;
-            font-size: 16px;
-            padding: 14px;
-            border: none;
-            border-radius: 12px;
-            font-weight: 600;
-            cursor: pointer;
-            width: 100%;
-            transition: transform 0.2s;
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-        }
-
-        .btn-youtube:hover { transform: translateY(-2px); opacity: 0.9; }
-
-        .btn-back {
-            background: white;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-            padding: 8px 12px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin-bottom: 10px;
-        }
-
-        .hidden { display: none; }
-    </style>
+    <script type="module" src="assets/js/supabase.js"></script>
+    <script type="module" src="assets/js/auth.js"></script>
+    <script type="module" src="assets/js/utils.js"></script>
 </head>
-<body>
+<body></body>
+    <a href="#main" class="skip-link">Langsung ke konten</a>
 
-<button class="btn-back" onclick="window.location.href='home.html'">←</button>
-
-<div class="header">
-    <div class="logo">🌌 Langit Korea</div>
-    <div class="subtitle">Akses Premium</div>
-</div>
-
-<!-- Hero Section -->
-<div class="hero-card">
-    <div class="hero-icon">👑</div>
-    <div class="hero-title">Tingkatkan Belajarmu!</div>
-    <div class="hero-desc">Dapatkan akses penuh ke semua soal EPS-TOPIK dan fitur AI Writing.</div>
-</div>
-
-<!-- Comparison -->
-<div class="section-title">⚖️ Perbandingan Fitur</div>
-<div class="comparison-grid">
-    <div class="plan-card">
-        <div class="plan-name">Free</div>
-        <div class="plan-desc">Untuk pemula</div>
-        <ul class="feature-list">
-            <li><span class="icon">✅</span> Belajar Hangul</li>
-            <li><span class="icon">✅</span> 30% Soal EPS</li>
-            <li><span class="icon">✅</span> Simulasi Singkat</li>
-            <li><span class="icon">❌</span> <span style="color:var(--teks-sekunder);">Simulasi Penuh</span></li>
-            <li><span class="icon">❌</span> <span style="color:var(--teks-sekunder);">AI Feedback</span></li>
-        </ul>
-    </div>
-    <div class="plan-card premium">
-        <div class="popular-badge">POPULER</div>
-        <div class="plan-name">Premium</div>
-        <div class="plan-price">Gratis<span> (Tonton</span>)</span></div>
-        <div class="plan-desc">Untuk calon pekerja</div>
-        <ul class="feature-list">
-            <li><span class="icon">✅</span> Semua Soal (60 Bab)</li>
-            <li><span class="icon">✅</span> Simulasi 40 Soal</li>
-            <li><span class="icon">✅</span> Hasil Detail</li>
-            <li><span class="icon">✅</span> AI Writing</li>
-            <li><span class="icon">✅</span> Support Prioritas</li>
-        </ul>
-    </div>
-</div>
-
-<!-- YouTube Unlock -->
-<div class="section-title">📺 Cara Unlock Premium</div>
-<div class="youtube-card">
-    <p style="font-size:14px; color:var(--teks-sekunder); margin-bottom: 20px; text-align:center;">
-        Tonton video YouTube kami minimal 40 detik untuk mendapatkan token premium secara gratis!
-    </p>
-
-    <div class="youtube-steps">
-        <div class="step-item">
-            <div class="step-number">1</div>
-            <div class="step-content">Klik tombol <strong>"Tonton Video"</strong> di bawah.</div>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>⭐ Premium</h1>
+            <p>Unlock semua fitur untuk belajar maksimal</p>
         </div>
-        <div class="step-item">
-            <div class="step-number">2</div>
-            <div class="step-content">Tonton video selama <strong>minimal 40 detik</strong> (Jangan di-skip).</div>
+
+        <!-- Status Card -->
+        <div class="card text-center" id="statusCard">
+            <div style="font-size: 3rem; margin-bottom: 12px;">🔓</div>
+            <h3 id="statusTitle">Kamu adalah pengguna Free</h3>
+            <p id="statusDesc">Upgrade ke Premium untuk unlock semua fitur</p>
         </div>
-        <div class="step-item">
-            <div class="step-number">3</div>
-            <div class="step-content">Kembali ke sini dan klik <strong>"Saya Sudah Tonton"</strong>.</div>
+
+        <!-- Free vs Premium -->
+        <div class="grid-2" style="margin-bottom: 20px; gap: 12px;">
+            <div class="card" style="opacity: 0.6;">
+                <h3 style="font-size: 1rem; margin-bottom: 12px;">🆓 Free</h3>
+                <ul style="list-style: none; padding: 0; font-size: 0.9rem;">
+                    <li style="padding: 6px 0;">✅ Seluruh Hangul Path</li>
+                    <li style="padding: 6px 0;">✅ 30% soal EPS-TOPIK (Bab 31-48)</li>
+                    <li style="padding: 6px 0;">✅ Simulasi singkat (20 soal)</li>
+                    <li style="padding: 6px 0;">✅ Lihat skor simulasi</li>
+                    <li style="padding: 6px 0; opacity: 0.5;">⛔ Evaluasi detail</li>
+                    <li style="padding: 6px 0; opacity: 0.5;">⛔ AI Writing Feedback</li>
+                    <li style="padding: 6px 0; opacity: 0.5;">⛔ Semua soal (60 bab)</li>
+                </ul>
+            </div>
+            <div class="card" style="border: 2px solid var(--langit-fajar); background: linear-gradient(135deg, rgba(255,140,97,0.05), white);">
+                <div style="text-align: center; margin-bottom: 12px;">
+                    <span style="background: var(--langit-fajar); color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 700;">REKOMENDASI</span>
+                </div>
+                <h3 style="font-size: 1rem; margin-bottom: 12px; color: var(--langit-fajar);">⭐ Premium</h3>
+                <ul style="list-style: none; padding: 0; font-size: 0.9rem;">
+                    <li style="padding: 6px 0;">✅ Semua soal EPS-TOPIK (60 bab penuh)</li>
+                    <li style="padding: 6px 0;">✅ Simulasi ujian penuh (40 soal)</li>
+                    <li style="padding: 6px 0;">✅ Evaluasi detail + breakdown per bagian</li>
+                    <li style="padding: 6px 0;">✅ Rekomendasi belajar personal</li>
+                    <li style="padding: 6px 0;">✅ AI Writing Feedback (via Claude API)</li>
+                    <li style="padding: 6px 0;">✅ Unlock via YouTube (tanpa bayar)</li>
+                </ul>
+            </div>
         </div>
-        <div class="step-item">
-            <div class="step-number">4</div>
-            <div class="step-content">Status akun akan otomatis menjadi <strong>Premium</strong>!</div>
+
+        <!-- Unlock via YouTube -->
+        <div class="card">
+            <div class="section-header">
+                <span class="section-icon">🎬</span>
+                <span class="section-title">Unlock Gratis via YouTube</span>
+            </div>
+            <p style="color: var(--teks-sekunder); font-size: 0.9rem; margin-bottom: 16px;">
+                Nonton video YouTube yang kami sediakan, lalu dapatkan token unlock gratis!
+            </p>
+            <div style="display: grid; gap: 10px;">
+                <div style="padding: 12px; background: #F8F9FF; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <strong style="font-size: 0.9rem;">Video Pendek (≤60 detik)</strong>
+                        <p style="font-size: 0.8rem; color: var(--teks-sekunder);">Tonton minimal 40 detik</p>
+                    </div>
+                    <span class="badge badge-free">+1 Token</span>
+                </div>
+                <div style="padding: 12px; background: #F8F9FF; border-radius: 8px; display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <strong style="font-size: 0.9rem;">Video Panjang (≥8 menit)</strong>
+                        <p style="font-size: 0.8rem; color: var(--teks-sekunder);">Tonton minimal 8 menit</p>
+                    </div>
+                    <span class="badge badge-premium">+5 Token</span>
+                </div>
+            </div>
+            <button class="btn btn-primary" style="margin-top: 16px;" onclick="showComingSoon()">
+                🎬 Mulai Nonton & Unlock
+            </button>
+        </div>
+
+        <!-- Upgrade CTA -->
+        <div style="background: linear-gradient(135deg, var(--langit-fajar), #FF7033); border-radius: var(--border-radius); padding: 24px; text-align: center; margin: 20px 0;">
+            <h3 style="color: white; margin-bottom: 8px;">🔓 Upgrade ke Premium Sekarang</h3>
+            <p style="color: rgba(255,255,255,0.9); font-size: 0.9rem; margin-bottom: 16px;">
+                Dapatkan akses penuh ke semua soal dan fitur evaluasi detail
+            </p>
+            <button class="btn btn-primary" style="background: white; color: var(--langit-fajar); max-width: 250px; margin: 0 auto;" onclick="showComingSoon()">
+                Upgrade Premium
+            </button>
+        </div>
+
+        <!-- Tombol Kembali -->
+        <div style="margin-bottom: 24px;">
+            <button class="btn btn-secondary" onclick="navigateTo('dashboard.html')">
+                ← Kembali ke Dashboard
+            </button>
+        </div>
+
+        <!-- Footer -->
+        <div style="text-align: center; padding: 16px 0; color: var(--teks-sekunder); font-size: 0.8rem;">
+            <p>Langit Korea © 2025 — Dibuat dengan ❤️ untuk pekerja migran Indonesia</p>
         </div>
     </div>
 
-    <button class="btn-youtube" onclick="openYouTube()">
-        ▶️ Buka Video YouTube
-    </button>
+    <script type="module">
+        import { navigateTo } from './assets/js/utils.js';
+        import { showToast } from './assets/js/utils.js';
 
-    <div style="text-align:center; margin-top:15px;">
-        <button class="btn-primary" style="background-color:var(--hijau-berhasil);" onclick="confirmWatch()">
-            ✅ Saya Sudah Tonton
-        </button>
-    </div>
-</div>
+        window.navigateTo = navigateTo;
 
-<script>
-    function openYouTube() {
-        // Ganti dengan link video YouTube asli kamu
-        window.open('https://youtube.com/shorts/xxxx', '_blank');
-        alert('Silakan tonton video minimal 40 detik, lalu klik "Saya Sudah Tonton" di bawah.');
-    }
-
-    function confirmWatch() {
-        // Simulasi (Nanti integrasi dengan Supabase untuk update token_unlock)
-        const confirmed = confirm('Apakah kamu yakin sudah menonton video minimal 40 detik?');
-        if (confirmed) {
-            // Simulasi update status
-            localStorage.setItem('user_status', 'premium');
-            localStorage.setItem('token_unlock', '10');
-            alert('Selamat! Akun kamu sekarang Premium. 🎉');
-            window.location.href = 'home.html';
+        function showComingSoon() {
+            showToast('Fitur ini akan segera hadir! Stay tuned 🚀', 'info');
         }
-    }
-</script>
-
+    </script>
 </body>
 </html>

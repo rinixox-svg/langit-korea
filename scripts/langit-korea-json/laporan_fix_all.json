@@ -1,0 +1,128 @@
+{
+  "waktu": "2026-05-08T11:49:09.273672",
+  "total_unit": 30,
+  "berhasil": 30,
+  "gagal": [],
+  "detail": {
+    "31": {
+      "reading": 5,
+      "listening": 10
+    },
+    "32": {
+      "reading": 5,
+      "listening": 10
+    },
+    "33": {
+      "reading": 5,
+      "listening": 10
+    },
+    "34": {
+      "reading": 5,
+      "listening": 10
+    },
+    "35": {
+      "reading": 5,
+      "listening": 10
+    },
+    "36": {
+      "reading": 5,
+      "listening": 10
+    },
+    "37": {
+      "reading": 5,
+      "listening": 10
+    },
+    "38": {
+      "reading": 5,
+      "listening": 10
+    },
+    "39": {
+      "reading": 5,
+      "listening": 10
+    },
+    "40": {
+      "reading": 5,
+      "listening": 10
+    },
+    "41": {
+      "reading": 5,
+      "listening": 10
+    },
+    "42": {
+      "reading": 5,
+      "listening": 10
+    },
+    "43": {
+      "reading": 5,
+      "listening": 10
+    },
+    "44": {
+      "reading": 5,
+      "listening": 10
+    },
+    "45": {
+      "reading": 5,
+      "listening": 10
+    },
+    "46": {
+      "reading": 0,
+      "listening": 10
+    },
+    "47": {
+      "reading": 5,
+      "listening": 10
+    },
+    "48": {
+      "reading": 5,
+      "listening": 10
+    },
+    "49": {
+      "reading": 5,
+      "listening": 10
+    },
+    "50": {
+      "reading": 5,
+      "listening": 10
+    },
+    "51": {
+      "reading": 5,
+      "listening": 10
+    },
+    "52": {
+      "reading": 5,
+      "listening": 10
+    },
+    "53": {
+      "reading": 5,
+      "listening": 10
+    },
+    "54": {
+      "reading": 5,
+      "listening": 10
+    },
+    "55": {
+      "reading": 5,
+      "listening": 10
+    },
+    "56": {
+      "reading": 0,
+      "listening": 10
+    },
+    "57": {
+      "reading": 5,
+      "listening": 10
+    },
+    "58": {
+      "reading": 0,
+      "listening": 10
+    },
+    "59": {
+      "reading": 5,
+      "listening": 10
+    },
+    "60": {
+      "reading": 5,
+      "listening": 10
+    }
+  }
+}

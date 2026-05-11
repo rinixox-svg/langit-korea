@@ -4,134 +4,166 @@
   "title_id": "Layanan Akomodasi",
   "file": "unit_51_accommodation_services.pdf",
   "total_halaman": 10,
-  "halaman": {
-    "hal1": {
-      "kategori": "vocab",
-      "chars": 800,
-      "gambar_count": 9
-    },
-    "hal2": {
-      "kategori": "grammar",
-      "chars": 964,
-      "gambar_count": 0
-    },
-    "hal3": {
-      "kategori": "conversation",
-      "chars": 1400,
-      "gambar_count": 3
-    },
-    "hal4": {
-      "kategori": "vocab",
-      "chars": 668,
-      "gambar_count": 5
-    },
-    "hal5": {
-      "kategori": "grammar",
-      "chars": 1427,
-      "gambar_count": 4
-    },
-    "hal6": {
-      "kategori": "conversation",
-      "chars": 1507,
-      "gambar_count": 3
-    },
-    "hal7": {
-      "kategori": "culture",
-      "chars": 3031,
-      "gambar_count": 0
-    },
-    "hal8": {
-      "kategori": "soal_membaca",
-      "chars": 740,
-      "gambar_count": 4
-    },
-    "hal9": {
-      "kategori": "soal_listening",
-      "chars": 748,
-      "gambar_count": 0
-    }
-  },
   "soal": [
     {
-      "id": "u51_m1",
       "nomor": 1,
       "tipe": "membaca",
-      "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n시트를 교체하고 있습니다.",
-      "pilihan_a": "②",
-      "pilihan_b": "③",
-      "pilihan_c": "④\n[2~3] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "pilihan_d": "[2~3] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-      "jawaban": "c",
+      "teks_soal": "시트를 교체하고 있습니다.",
+      "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u51_m1",
+      "jawaban": "",
       "audio_teks": "",
-      "ada_gambar_pilihan": true,
-      "gambar_pilihan": {
-        "a": "images/hal8_soal/soal_r1_a.jpeg",
-        "b": "images/hal8_soal/soal_r1_b.png",
-        "c": "images/hal8_soal/soal_r1_c.png",
-        "d": "images/hal8_soal/soal_r1_d.png"
-      },
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u51_m2",
       "nomor": 2,
       "tipe": "membaca",
-      "teks_soal": "욕조나 세면대에 있는 이/가 지워지지 않을 때는 세제를 뿌립니다. 그리고 조금 후에\n마른걸레로 닦으면 깨끗하게 지울 수 있습니다.",
+      "teks_soal": "욕조나 세면대에 있는 이/가 지워지지 않을 때는 세제를 뿌립니다. 그리고 조금 후에 마른걸레로 닦으면 깨끗하게 지울 수 있습니다.",
+      "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "pilihan_a": "냄새",
       "pilihan_b": "얼룩",
       "pilihan_c": "물건",
       "pilihan_d": "칫솔",
-      "jawaban": "b",
+      "id": "u51_m2",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u51_m3",
       "nomor": 3,
       "tipe": "membaca",
-      "teks_soal": "청소를 하기 전에 먼저 객실에 손님이 있는지 확인해야 합니다. 객실 문이 닫혀 있거나 DND 카드가\n없으면 먼저 벨을 .",
+      "teks_soal": "청소를 하기 전에 먼저 객실에 손님이 있는지 확인해야 합니다. 객실 문이 닫혀 있거나 DND 카드가 없으면 먼저 벨을 .",
+      "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "pilihan_a": "세워야 합니다",
       "pilihan_b": "눌러야 합니다",
       "pilihan_c": "요청해야 합니다",
       "pilihan_d": "확인해야 합니다",
-      "jawaban": "b",
+      "id": "u51_m3",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u51_m4",
       "nomor": 4,
       "tipe": "membaca",
-      "teks_soal": "다음은 무엇에 대한 설명입니까?\n객실 청소에 필요한 청소용품과 리넨류 등을 싣고 이동할 수 있는 작업 도구입니다.",
+      "teks_soal": "객실 청소에 필요한 청소용품과 리넨류 등을 싣고 이동할 수 있는 작업 도구입니다.",
+      "instruksi": "다음은 무엇에 대한 설명입니까?",
       "pilihan_a": "수레",
       "pilihan_b": "경운기",
       "pilihan_c": "컨베이어 벨트",
       "pilihan_d": "하우스키핑 카트",
-      "jawaban": "d",
+      "id": "u51_m4",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u51_m5",
       "nomor": 5,
       "tipe": "membaca",
-      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국의 대도시는 도시마다 다른 특색을 지니고 있습니다. 서울은 한국의 과거와 현대가 공존하는 곳이며\n밤늦게까지 쇼핑을 즐길 수 있어 여행객이 가장 많이 찾는 도시입니다. 부산은 바다가 아름답고 맛집들이\n많아 인기가 많습니다. 그리고 근대사의 흔적이 남아 있는 대구는 골목길을 따라 걷는 근대골목 투어가\n관광객들의 발길을 끌고 있습니다.",
+      "teks_soal": "한국의 대도시는 도시마다 다른 특색을 지니고 있습니다. 서울은 한국의 과거와 현대가 공존하는 곳이며 밤늦게까지 쇼핑을 즐길 수 있어 여행객이 가장 많이 찾는 도시입니다. 부산은 바다가 아름답고 맛집들이 많아 인기가 많습니다. 그리고 근대사의 흔적이 남아 있는 대구는 골목길을 따라 걷는 근대골목 투어가 관광객들의 발길을 끌고 있습니다. 224 한국어 표준교재 2",
+      "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
       "pilihan_a": "한국의 대도시는 보통 분위기가 비슷합니다.",
       "pilihan_b": "서울에서는 근대골목투어를 즐길 수 있습니다.",
       "pilihan_c": "부산은 바다가 아름다워 여행객이 좋아합니다.",
       "pilihan_d": "맛집 여행을 하고 싶을 때는 대구에 가면 됩니다.",
-      "jawaban": "c",
+      "id": "u51_m5",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 객실에 생수를 몇 병씩 두면 돼요? 남 : 삼 층 객실은 두 병씩이에요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u51_l1",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 청소기 플러그를 꽂았어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u51_l2",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 객실에 올라가면 욕실부터 청소하면 되지요? 남 : 아니요, 창문을 열어 환기를 시키고 객실 청소부터 하세요. 욕실 청소는 마지막에 하세요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u51_l3",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 곧 객실 점검인데 쓰레기통을 못 비웠어요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u51_l4",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 유니폼이 잘 어울리네요. 오늘이 청소하는 첫날이지요? 여 : 네. 그런데 제가 청소할 오 층 객실 출입 열쇠는 누구에게서 받아요? 남 : 이따가 실장님이 주실 거예요. 그전에 하우스키핑 카트 정리부터 하세요. 51 숙박 서비스 ACCOMODATION SERVICES 225",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u51_l5",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     }
-  ],
-  "gambar_soal": {}
+  ]
 }

@@ -1,37 +1,97 @@
 <!DOCTYPE html>
 <html lang="id">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Langit Korea - EPS-TOPIK Learning</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+    <title>Langit Korea — Belajar Bahasa Korea Gratis</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="module" src="assets/js/supabase.js"></script>
+    <script type="module" src="assets/js/auth.js"></script>
+    <script type="module" src="assets/js/utils.js"></script>
+</head>
+<body>
+    <a href="#main" class="skip-link">Langsung ke konten</a>
 
-        <!-- Supabase Client (CDN) -->
-        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-        <!-- Konfigurasi Supabase -->
-        <script src="js/supabase-config.js"></script>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🌌 Langit Korea</h1>
+            <p>Belajar bahasa Korea mandiri — dari nol hingga siap ujian EPS-TOPIK</p>
+        </div>
 
-        <script>
-            // Cek status login
-            document.addEventListener('DOMContentLoaded', async function() {
-                try {
-                    const { data: { session } = await supabase.auth.getSession();
+        <!-- Hero Section -->
+        <div class="card text-center">
+            <div style="font-size: 3rem; margin-bottom: 12px;">🇰🇷</div>
+            <h2 class="card-title">Siap Belajar Bahasa Korea?</h2>
+            <p>Platform gratis untuk menguasai bahasa Korea langkah demi langkah, dari huruf Hangul hingga siap ujian EPS-TOPIK.</p>
+        </div>
 
-                    if (session) {
-                        // Sudah login, arahkan ke home
-                        window.location.href = "home.html";
-                    } else {
-                        // Belum login, arahkan ke ONBOARDING (Daftar)
-                        window.location.href = "onboarding.html";
-                    }
-                } catch (error) {
-                    console.error('Error cek session:', error);
-                    // Default ke onboarding jika error
-                    window.location.href = "onboarding.html";
-                }
-            });
-        </script>
-    </head>
-    <body>
-        <p>Memuat Langit Korea...</p>
-    </body>
+        <!-- Menu Utama -->
+        <div class="grid-2" style="margin-bottom: 20px;">
+            <div class="card" onclick="navigateTo('onboarding.html')" style="cursor: pointer; text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: 8px;">🚀</div>
+                <h3 style="font-size: 1rem;">Mulai Belajar</h3>
+                <p class="text-sm">Pilih level & mulai dari Hangul</p>
+            </div>
+            <div class="card" onclick="navigateTo('modul-unit.html')" style="cursor: pointer; text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: 8px;">📚</div>
+                <h3 style="font-size: 1rem;">Modul Belajar</h3>
+                <p class="text-sm">60 unit lengkap dengan grammar & kosakata</p>
+            </div>
+        </div>
+
+        <div class="grid-2" style="margin-bottom: 20px;">
+            <div class="card" onclick="navigateTo('latihan-eps.html')" style="cursor: pointer; text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: 8px;">✏️</div>
+                <h3 style="font-size: 1rem;">Latihan Soal</h3>
+                <p class="text-sm">Latihan membaca & mendengarkan EPS-TOPIK</p>
+            </div>
+            <div class="card" onclick="navigateTo('simulasi.html')" style="cursor: pointer; text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: 8px;">📝</div>
+                <h3 style="font-size: 1rem;">Simulasi Ujian</h3>
+                <p class="text-sm">Simulasi ujian penuh 40 soal, 50 menit</p>
+            </div>
+        </div>
+
+        <div class="grid-2" style="margin-bottom: 20px;">
+            <div class="card" onclick="navigateTo('progress.html')" style="cursor: pointer; text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: 8px;">📊</div>
+                <h3 style="font-size: 1rem;">Progress</h3>
+                <p class="text-sm">Pantau kemajuan belajarmu</p>
+            </div>
+            <div class="card" onclick="navigateTo('premium.html')" style="cursor: pointer; text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: 8px;">⭐</div>
+                <h3 style="font-size: 1rem;">Premium</h3>
+                <p class="text-sm">Unlock semua fitur premium</p>
+            </div>
+        </div>
+
+        <!-- Info Section -->
+        <div class="card">
+            <div class="section-header">
+                <span class="section-icon">💡</span>
+                <span class="section-title">Mengapa Langit Korea?</span>
+            </div>
+            <ul style="padding-left: 20px; color: var(--teks-sekunder); font-size: 0.9rem; line-height: 2;">
+                <li>✅ Gratis — tidak ada biaya berlangganan</li>
+                <li>✅ Terarah — dari nol hingga siap ujian</li>
+                <li>✅ Interaktif — latihan soal & flashcard</li>
+                <li>✅ Offline-first — bisa belajar tanpa internet</li>
+                <li>✅ Berbasis textbook resmi HRD Korea</li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <div style="text-align: center; padding: 24px 0; color: var(--teks-sekunder); font-size: 0.8rem;">
+            <p>Langit Korea © 2025 — Dibuat dengan ❤️ untuk pekerja migran Indonesia</p>
+        </div>
+    </div>
+
+    <script type="module">
+        import { navigateTo } from './assets/js/utils.js';
+        // Make navigateTo globally accessible
+        window.navigateTo = navigateTo;
+    </script>
+</body>
 </html>

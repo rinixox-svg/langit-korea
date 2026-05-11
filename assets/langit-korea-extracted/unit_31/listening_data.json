@@ -1,0 +1,114 @@
+{
+  "unit": 31,
+  "title_ko": "복장과 근무 태도",
+  "title_id": "Pakaian dan Sikap Kerja",
+  "file": "unit_31_attire_work_attitude.pdf",
+  "total_halaman": 10,
+  "soal": [
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 마두 씨 회사 작업복은 무슨 색이에요? 남 : 우리 회사는 파란색 작업복을 입어요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u31_l1",
+      "jawaban": "a",
+      "audio_teks": "1. 여 : 마두 씨 회사 작업복은 무슨 색이에요?\n남 : 우리 회사는 파란색 작업복을 입어요.\n2. 남 : 유니폼이 작아요?\n3. 남 : 새로 온 직원은 어때요?\n여 : 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.\n4. 남 : 지퍼를 목까지 올리니까 좀 불편해요.\n5. 여 : 아궁 씨, 왜 작업복 단추를 안 잠갔어요?\n남 : 작업장이 너무 더워서 조금 풀었어요.\n여 : 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.\n남 : 알겠어요. 지금 잠글게요.\n31 복장과 근무 태도 ATTIRE AND WORK ATTITUDE 25",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u31_h9_soal_listening_0a.jpeg",
+        "b": "images/u31_h9_soal_listening_02.jpeg",
+        "c": "images/u31_h9_soal_listening_03.jpeg",
+        "d": "images/u31_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_31/listening_1.mp3"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 유니폼이 작아요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u31_l2",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 마두 씨 회사 작업복은 무슨 색이에요?\n남 : 우리 회사는 파란색 작업복을 입어요.\n2. 남 : 유니폼이 작아요?\n3. 남 : 새로 온 직원은 어때요?\n여 : 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.\n4. 남 : 지퍼를 목까지 올리니까 좀 불편해요.\n5. 여 : 아궁 씨, 왜 작업복 단추를 안 잠갔어요?\n남 : 작업장이 너무 더워서 조금 풀었어요.\n여 : 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.\n남 : 알겠어요. 지금 잠글게요.\n31 복장과 근무 태도 ATTIRE AND WORK ATTITUDE 25",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u31_h9_soal_listening_02.jpeg",
+        "b": "images/u31_h9_soal_listening_02.jpeg",
+        "c": "images/u31_h9_soal_listening_02.jpeg",
+        "d": "images/u31_h9_soal_listening_02.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_31/listening_2.mp3"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 새로 온 직원은 어때요? 여 : 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u31_l3",
+      "jawaban": "a",
+      "audio_teks": "1. 여 : 마두 씨 회사 작업복은 무슨 색이에요?\n남 : 우리 회사는 파란색 작업복을 입어요.\n2. 남 : 유니폼이 작아요?\n3. 남 : 새로 온 직원은 어때요?\n여 : 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.\n4. 남 : 지퍼를 목까지 올리니까 좀 불편해요.\n5. 여 : 아궁 씨, 왜 작업복 단추를 안 잠갔어요?\n남 : 작업장이 너무 더워서 조금 풀었어요.\n여 : 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.\n남 : 알겠어요. 지금 잠글게요.\n31 복장과 근무 태도 ATTIRE AND WORK ATTITUDE 25",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u31_h9_soal_listening_03.jpeg",
+        "b": "images/u31_h9_soal_listening_03.jpeg",
+        "c": "images/u31_h9_soal_listening_03.jpeg",
+        "d": "images/u31_h9_soal_listening_03.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_31/listening_3.mp3"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 지퍼를 목까지 올리니까 좀 불편해요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u31_l4",
+      "jawaban": "c",
+      "audio_teks": "1. 여 : 마두 씨 회사 작업복은 무슨 색이에요?\n남 : 우리 회사는 파란색 작업복을 입어요.\n2. 남 : 유니폼이 작아요?\n3. 남 : 새로 온 직원은 어때요?\n여 : 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.\n4. 남 : 지퍼를 목까지 올리니까 좀 불편해요.\n5. 여 : 아궁 씨, 왜 작업복 단추를 안 잠갔어요?\n남 : 작업장이 너무 더워서 조금 풀었어요.\n여 : 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.\n남 : 알겠어요. 지금 잠글게요.\n31 복장과 근무 태도 ATTIRE AND WORK ATTITUDE 25",
+      "ada_gambar_pilihan": true,
+      "gambar_pilihan": {
+        "a": "images/u31_h9_soal_listening_04.jpeg",
+        "b": "images/u31_h9_soal_listening_04.jpeg",
+        "c": "images/u31_h9_soal_listening_04.jpeg",
+        "d": "images/u31_h9_soal_listening_04.jpeg"
+      },
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_31/listening_4.mp3"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 아궁 씨, 왜 작업복 단추를 안 잠갔어요? 남 : 작업장이 너무 더워서 조금 풀었어요. 여 : 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요. 남 : 알겠어요. 지금 잠글게요. 31 복장과 근무 태도 ATTIRE AND WORK ATTITUDE 25",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u31_l5",
+      "jawaban": "a",
+      "audio_teks": "1. 여 : 마두 씨 회사 작업복은 무슨 색이에요?\n남 : 우리 회사는 파란색 작업복을 입어요.\n2. 남 : 유니폼이 작아요?\n3. 남 : 새로 온 직원은 어때요?\n여 : 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.\n4. 남 : 지퍼를 목까지 올리니까 좀 불편해요.\n5. 여 : 아궁 씨, 왜 작업복 단추를 안 잠갔어요?\n남 : 작업장이 너무 더워서 조금 풀었어요.\n여 : 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.\n남 : 알겠어요. 지금 잠글게요.\n31 복장과 근무 태도 ATTIRE AND WORK ATTITUDE 25",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free",
+      "audio_url": "https://mozmuwrkfsipzfupybwh.supabase.co/storage/v1/object/public/audio-mp3/unit_31/listening_5.mp3"
+    }
+  ]
+}

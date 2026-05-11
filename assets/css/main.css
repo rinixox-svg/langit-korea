@@ -1,0 +1,149 @@
+/* Langit Korea - Global Styles */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+
+:root {
+  /* Palet Warna Langit Korea */
+  --langit-biru: #4A90D9;       /* warna utama — biru langit siang */
+  --langit-fajar: #FF8C61;      /* aksen — oranye fajar, harapan */
+  --langit-malam: #1A2340;      /* background gelap (opsional dark mode) */
+  --putih-bersih: #F8F9FF;      /* background utama */
+  --teks-utama: #1E2A3A;        /* teks hitam hangat */
+  --teks-sekunder: #6B7A8D;     /* teks abu-abu */
+  --hijau-berhasil: #4CAF82;    /* feedback benar */
+  --merah-salah: #E05C5C;       /* feedback salah */
+  --kuning-sedang: #F5A623;     /* status dalam proses */
+
+  /* Tipografi */
+  --font-utama: 'Plus Jakarta Sans', sans-serif;
+  --font-korea: 'Noto Sans KR', sans-serif;
+}
+
+/* Reset CSS Dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-utama);
+  color: var(--teks-utama);
+  background-color: var(--putih-bersih);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Konten Utama */
+.container {
+  width: 90%;
+  max-width: 1200px; /* Lebar maksimum container */
+  margin: 0 auto;    /* Pusatkan container */
+  padding: 20px 0;
+}
+
+/* Tipografi Dasar */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-utama);
+  margin-bottom: 1rem;
+  color: var(--teks-utama);
+}
+
+h1 { font-size: 2.5rem; } /* Ukuran judul utama */
+h2 { font-size: 2rem; }   /* Ukuran sub-judul */
+h3 { font-size: 1.75rem; } /* Ukuran sub-sub-judul */
+
+p {
+  margin-bottom: 1rem; /* Jarak antar paragraf */
+}
+
+/* Link Styling */
+a {
+  color: var(--langit-biru);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Garis bawah saat hover */
+}
+
+/* Tombol Dasar */
+button,
+input[type="submit"],
+input[type="button"] {
+  display: inline-block;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px; /* Sudut tombol yang sedikit membulat */
+  cursor: pointer;
+  font-family: var(--font-utama);
+  font-weight: 700; /* Teks tebal untuk tombol */
+  font-size: 1rem;
+  transition: background-color 0.3s ease; /* Transisi halus untuk hover effect */
+  min-height: 48px; /* Memastikan tombol cukup besar untuk jari (mobile-first) */
+}
+
+/* Warna Tombol Spesifik */
+.btn-primary {
+  background-color: var(--langit-biru);
+  color: var(--putih-bersih);
+}
+
+.btn-primary:hover {
+  background-color: #3a7bc7; /* Warna biru sedikit lebih gelap saat hover */
+  text-decoration: none; /* Hilangkan garis bawah saat hover pada tombol */
+}
+
+.btn-secondary {
+  background-color: var(--langit-fajar);
+  color: var(--putih-bersih);
+}
+
+.btn-secondary:hover {
+  background-color: #e07a51; /* Warna oranye sedikit lebih gelap saat hover */
+  text-decoration: none;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--langit-biru);
+  border: 2px solid var(--langit-biru); /* Border sesuai warna utama */
+}
+
+.btn-outline:hover {
+  background-color: var(--langit-biru);
+  color: var(--putih-bersih);
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.text-center { text-align: center; } /* Pusatkan teks */
+.text-secondary { color: var(--teks-sekunder); } /* Warna teks sekunder */
+
+/* Indikator Loading */
+.loading-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* Tambahkan styling untuk spinner atau pesan loading di sini jika diperlukan */
+  /* Contoh: min-height: 100px; */
+}
+
+/* Pesan Error */
+.error-message {
+  color: var(--merah-salah);
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+/* Mobile-First Styles - Akan ditambahkan sesuai kebutuhan di file ini */
+/* Contoh:
+@media (min-width: 768px) {
+  .container {
+    width: 85%;
+  }
+}
+*/

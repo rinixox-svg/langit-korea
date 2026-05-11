@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1</head>.0">
+    <title>Langit Korea — Modul Belajar</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="module" src="assets/js/supabase.js"></script>
+    <script type="module" src="assets/js/auth.js"></script>
+    <script type="module" src="assets/js/utils.js"></script>
+</head>
+<body>
+    <a href="#main" class="skip-link">Langsung ke konten</a></body>
+
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>📚 Modul Belajar</h1>
+            <p id="unitTitle">Pilih unit untuk mulai belajar</p>
+        </div>
+
+        <!-- Pilih Unit -->
+        <div class="card">
+            <div class="section-header">
+                <span class="section-icon">📂</span>
+                <span class="section-title">Pilih Unit</span>
+            </div>
+            <div class="unit-grid" id="unitGrid">
+                <!-- Unit cards akan di-generate oleh JS -->
+            </div>
+        </div>
+
+        <!-- Konten Unit -->
+        <div id="unitContent" class="hidden">
+            <!-- Navigation Tabs -->
+            <div class="nav-tabs" id="unitTabs">
+                <button class="nav-tab active" onclick="switchUnitTab('kosakata')">🔤 Kosakata</button>
+                <button class="nav-tab" onclick="switchUnitTab('grammar')">📖 Grammar</button>
+                <button class="nav-tab" onclick="switchUnitTab('percakapan')">💬 Percakapan</button>
+                <button class="nav-tab" onclick="switchUnitTab('budaya')">🌏 Budaya</button>
+                <button class="nav-tab" onclick="switchUnitTab('minitest')">✅ Mini Test</button>
+            </div>
+
+            <!-- Kosakata Section -->
+            <div id="section-kosakata">
+                <div class="card">
+                    <div class="section-header">
+                        <span class="section-icon">🔤</span>
+                        <span class="section-title">Kosakata Unit <span id="vocabUnitNum"></span></span>
+                    </div>
+                    <div id="vocabContent">
+                        <p style="color: var(--teks-sekunder); font-size: 0.9rem;">Memuat kosakata...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grammar Section -->
+            <div id="section-grammar" class="hidden">
+                <div class="card">
+                    <div class="section-header">
+                        <span class="section-icon">📖</span>
+                        <span class="section-title">Grammar Unit <span id="grammarUnitNum"></span></span>
+                    </div>
+                    <div id="grammarContent">
+                        <p style="color: var(--teks-sekunder); font-size: 0.9rem;">Memuat grammar...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Percakapan Section -->
+            <div id="section-percakapan" class="hidden">
+                <div class="card">
+                    <div class="section-header">
+                        <span class="section-icon">💬</span>
+                        <span class="section-title">Percakapan Unit <span id="convUnitNum"></span></span>
+                    </div>
+                    <div id="convContent">
+                        <p style="color: var(--teks-sekunder); font-size: 0.9rem;">Memuat percakapan...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Budaya Section -->
+            <div id="section-budaya" class="hidden">
+                <div class="card">
+                    <div class="section-header">
+                        <span class="section-icon">🌏</span>
+                        <span class="section-title">Budaya & Info Unit <span id="cultureUnitNum"></span></span>
+                    </div>
+                    <div id="cultureContent">
+                        <p style="color: var(--teks-sekunder); font-size: 0.9rem;">Memuat info budaya...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mini Test Section -->
+            <div id="section-minitest" class="hidden">
+                <div class="card">
+                    <div class="section-header">
+                        <span class="section-icon">✅</span>
+                        <span class="section-title">Mini Test Unit <span id="testUnitNum"></span></span>
+                    </div>
+                    <div id="testContent">
+                        <p style="color: var(--teks-sekunder); font-size: 0.9rem;">Memuat soal test...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tombol Selesai -->
+            <div style="margin-top: 16px; margin-bottom: 24px;">
+                <button class="btn btn-success" onclick="markUnitComplete()" id="btnComplete">
+                    ✅ Tandai Unit Selesai
+                </button>
+            </div>
+        </div>
+
+        <!-- Tombol Kembali -->
+        <div style="margin-bottom: 24px;">
+            <button class="btn btn-secondary" onclick="navigateTo('dashboard.html')">
+                ← Kembali ke Dashboard
+            </button>
+        </div>
+
+        <!-- Footer -->
+        <div style="text-align: center; padding: 16px 0; color: var(--teks-sekunder); font-size: 0.8rem;">
+            <p>Langit Korea © 2025 — Dibuat dengan ❤️ untuk pekerja migran Indonesia</p>
+        </div>
+    </div>
+
+    <script type="module">
+        import { supabase } from './assets/js/supabase.js';
+        import { navigateTo } from './assets/js/utils.js';
+        import { loadProgress, saveProgress } from './assets/js/utils.js';
+
+        window.navigateTo = navigateTo;
+
+        let currentUnit = null;
+        let unitData = {};
+
+        // Daftar unit 31-60 dengan judul (akan diganti data dari Supabase)
+        const unitList = [
+            {id:31, judul:"복장과 근무 태도", tema:"Pakaian & Sikap Kerja"},
+            {id:32, judul:"회사 시설 이용", tema:"Penggunaan Fasilitas Perusahaan"},
+            {id:33, judul:"동료와의 관계", tema:"Hubungan dengan Rekan Kerja"},
+            {id:34, judul:"성희롱 및 성추행 예방", tema:"Pencegahan Pelecehan Seksual"},
+            {id:35, judul:"작업장 관리", tema:"Manajemen Tempat Kerja"},
+            {id:36, judul:"출하 관리", tema:"Manajemen Pengiriman"},
+            {id:37, judul:"기계 가공", tema:"Pemrosesan Mesin"},
+            {id:38, judul:"기계 조립", tema:"Perakitan Mesin"},
+            {id:39, judul:"금속 가공", tema:"Pengolahan Logam"},
+            {id:40, judul:"플라스틱 고무 성형", tema:"Pembentukan Plastik dan Karet"},
+            {id:41, judul:"섬유 제조", tema:"Manufaktur Tekstil"},
+            {id:42, judul:"가구 제작", tema:"Pembuatan Furnitur"},
+            {id:43, judul:"건축 시공", tema:"Konstruksi Bangunan"},
+            {id:44, judul:"토목 시공", tema:"Teknik Sipil"},
+            {id:45, judul:"농작물 재배", tema:"Budidaya Tanaman"},
+            {id:46, judul:"사육 관리", tema:"Peternakan"},
+            {id:47, judul:"연안 어업과 양식", tema:"Perikanan dan Budidaya"},
+            {id:48, judul:"선체 건조", tema:"Konstruksi Lambung Kapal"},
+            {id:49, judul:"광물 자원 개발 생산", tema:"Pengembangan Sumber Daya Mineral"},
+            {id:50, judul:"산림 자원 조성", tema:"Pengembangan Sumber Daya Hutan"},
+            {id:51, judul:"숙박 서비스", tema:"Layanan Akomodasi"},
+            {id:52, judul:"음식 조리", tema:"Persiapan Makanan"},
+            {id:53, judul:"산업 안전 및 보건 표지", tema:"Tanda Keselamatan Industri"},
+            {id:54, judul:"산업 안전 및 보건 수칙", tema:"Aturan Keselamatan Industri"},
+            {id:55, judul:"산업 안전 및 위생 장비", tema:"Peralatan K3"},
+            {id:56, judul:"산업 재해 및 응급 처치", tema:"Kecelakaan Industri dan P3K"},
+            {id:57, judul:"고용허가제", tema:"Sistem Izin Kerja G2G"},
+            {id:58, judul:"근로기준법", tema:"UU Ketenagakerjaan Korea"},
+            {id:59, judul:"출입국관리법", tema:"UU Imigrasi Korea"},
+            {id:60, judul:"근로자 보험", tema:"Asuransi Pekerja"}
+        ];
+
+        // ========== RENDER UNIT GRID ==========
+        async function renderUnitGrid() {
+            const grid = document.getElementById('unitGrid');
+            const progress = loadProgress('units') || {};
+
+            // Cek data dari Supabase
+            try {
+                const { data, error } = await supabase
+                    .from('soal_eps')
+                    .select('unit')
+                    .gte('unit', 31)
+                    .lte('unit', 60)
+                    .limit(1);
+
+                if (!error) {
+                    const availableUnits = [...new Set(data.map(d => d.unit))];
+                    unitList.forEach(u => {
+                        u.available = availableUnits.includes(u.id);
+                    });
+                }
+            } catch (e) {
+                console.warn('Gagal cek ketersediaan unit:', e);
+                // Default semua tersedia
+                unitList.forEach(u => u.available = true);
+            }
+
+            grid.innerHTML = unitList.map(u => {
+                const isCompleted = progress[`unit_${u.id}`]?.completed;
+                const status = isCompleted ? 'completed' : (u.available ? '' : 'locked');
+                const icon = isCompleted ? '✅' : (u.available ? '📘' : '🔒');
+                return `
+                    <div class="unit-card ${status}" onclick="${u.available ? `loadUnit(${u.id})` : ''}">
+                        <div class="unit-number">${icon} ${u.id}</div>
+                        <div class="unit-label">${u.judul}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // ========== LOAD UNIT ==========
+        async function loadUnit(unitId) {
+            currentUnit = unitId;
+            document.getElementById('unitContent').classList.remove('hidden');
+            document.getElementById('unitTitle').textContent = `Unit ${unitId}`;
+
+            // Update nav tabs
+            document.querySelectorAll('#unitTabs .nav-tab').forEach(t => t.classList.remove('active'));
+            document.querySelector('#unitTabs .nav-tab').classList.add('active');
+            document.querySelectorAll('#unitTabs .nav-tab')[0].classList.add('active');
+
+            // Show sections
+            document.getElementById('section-kosakata').classList.remove('hidden');
+            document.getElementById('section-grammar').classList.add('hidden');
+            document.getElementById('section-percakapan').classList.add('hidden');
+            document.getElementById('section-budaya').classList.add('hidden');
+            document.getElementById('section-minitest').classList.add('hidden');
+
+            document.getElementById('vocabUnitNum').textContent = unitId;
+            document.getElementById('grammarUnitNum').textContent = unitId;
+            document.getElementById('convUnitNum').textContent = unitId;
+            document.getElementById('cultureUnitNum').textContent = unitId;
+            document.getElementById('testUnitNum').textContent = unitId;
+
+            // Load soal untuk unit ini
+            await loadVocab(unitId);
+            await loadGrammar(unitId);
+            await loadConversation(unitId);
+            await loadCulture(unitId);
+            await loadMiniTest(unitId);
+        }
+
+        window.loadUnit = loadUnit;
+
+        // ========== LOAD VOCAB ==========
+        async function loadVocab(unitId) {
+            const container = document.getElementById('vocabContent');
+            try {
+                const { data, error } = await supabase
+                    .from('soal_eps')
+                    .select('*')
+                    .eq('unit', unitId)
+                    .order('id', { ascending: true });
+
+                if (error) throw error;
+
+                if (data.length === 0) {
+                    container.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-icon">📭</div>
+                            <p>Belum ada soal untuk unit ini.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                // Pisahkan membaca dan listening
+                const reading = data.filter(q => q.tipe === 'membaca');
+                const listening = data.filter(q => q.tipe === 'mendengarkan');
+
+                let html = '<h4 style="margin-bottom: 12px; color: var(--teks-utama);">📝 Latihan Membaca</h4>';
+                reading.forEach(q => {
+                    html += renderQuestionCard(q);
+                });
+
+                if (listening.length > 0) {
+                    html += '<h4 style="margin: 20px 0 12px; color: var(--teks-utama);">🔊 Latihan Mendengarkan</h4>';
+                    listening.forEach(q => {
+                        html += renderQuestionCard(q);
+                    });
+                }
+
+                container.innerHTML = html;
+            } catch (error) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">⚠️</div>
+                        <p>Gagal memuat soal. Pastikan koneksi internet aktif.</p>
+                    </div>
+                `;
+            }
+        }
+
+        // ========== LOAD GRAMMAR ==========
+        async function loadGrammar(unitId) {
+            const container = document.getElementById('grammarContent');
+            try {
+                const { data, error } = await supabase
+                    .from('soal_eps')
+                    .select('*')
+                    .eq('unit', unitId)
+                    .order('id', { ascending: true });
+
+                if (error) throw error;
+
+                if (data.length === 0) {
+                    container.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-icon">📭</div>
+                            <p>Belum ada materi grammar untuk unit ini.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                let html = '<p style="color: var(--teks-sekunder); font-size: 0.9rem; margin-bottom: 16px;">Materi grammar akan ditampilkan di sini berdasarkan data soal unit ini.</p>';
+                data.forEach(q => {
+                    html += `
+                        <div style="padding: 12px; background: #F8F9FF; border-radius: 8px; margin-bottom: 8px;">
+                            <strong style="font-family: 'Noto Sans KR', sans-serif;">${q.teks_soal || 'Teks Soal'}</strong>
+                            ${q.teks_soal_id ? `<p style="color: var(--teks-sekunder); font-size: 0.85rem; margin-top: 4px;">${q.teks_soal_id}</p>` : ''}
+                        </div>
+                    `;
+                });
+
+                container.innerHTML = html;
+            } catch (error) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">⚠️</div>
+                        <p>Gagal memuat grammar.</p>
+                    </div>
+                `;
+            }
+        }
+
+        // ========== LOAD CONVERSATION ==========
+        async function loadConversation(unitId) {
+            const container = document.getElementById('convContent');
+            try {
+                const { data, error } = await supabase
+                    .from('soal_eps')
+                    .select('*')
+                    .eq('unit', unitId)
+                    .eq('tipe', 'mendengarkan')
+                    .order('id', { ascending: true });
+
+                if (error) throw error;
+
+                if (data.length === 0) {
+                    container.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-icon">📭</div>
+                            <p>Belum ada materi percakapan untuk unit ini.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                let html = '<p style="color: var(--teks-sekunder); font-size: 0.9rem; margin-bottom: 16px;">Dialog dan percakapan akan ditampilkan di sini.</p>';
+                data.forEach(q => {
+                    html += `
+                        <div class="dialog-box">
+                            <div class="dialog-speaker">🔊 Soal Listening</div>
+                            <div class="dialog-text korean-text">${q.teks_soal || 'Teks audio'}</div>
+                            ${q.audio_url ? `
+                                <audio controls style="width: 100%; margin-top: 8px;">
+                                    <source src="${q.audio_url}" type="audio/mpeg">
+                                    Browser kamu tidak support audio.
+                                </audio>
+                            ` : '<p style="color: var(--merah-salah); font-size: 0.85rem; margin-top: 8px;">⚠️ Audio belum tersedia</p>'}
+                        </div>
+                    `;
+                });
+
+                container.innerHTML = html;
+            } catch (error) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">⚠️</div>
+                        <p>Gagal memuat percakapan.</p>
+                    </div>
+                `;
+            }
+        }
+
+        // ========== LOAD CULTURE ==========
+        async function loadCulture(unitId) {
+            const container = document.getElementById('cultureContent');
+            try {
+                const { data, error } = await supabase
+                    .from('soal_eps')
+                    .select('*')
+                    .eq('unit', unitId)
+                    .order('id', { ascending: true })
+                    .limit(3);
+
+                if (error) throw error;
+
+                if (data.length === 0) {
+                    container.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-icon">📭</div>
+                            <p>Belum ada info budaya untuk unit ini.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                let html = '<p style="color: var(--teks-sekunder); font-size: 0.9rem; margin-bottom: 16px;">Informasi budaya dan tips untuk unit ini.</p>';
+                data.forEach(q => {
+                    html += `
+                        <div style="padding: 12px; background: #F8F9FF; border-radius: 8px; margin-bottom: 8px; border-left: 3px solid var(--langit-fajar);">
+                            ${q.teks_soal ? `<p class="korean-text" style="margin-bottom: 4px;">${q.teks_soal}</p>` : ''}
+                            ${q.teks_soal_id ? `<p style="color: var(--teks-sekunder); font-size: 0.85rem;">${q.teks_soal_id}</p>` : ''}
+                        </div>
+                    `;
+                });
+
+                // Self Assessment Checklist
+                html += `
+                    <div style="margin-top: 20px;">
+                        <h4 style="margin-bottom: 12px;">📋 Self Assessment</h4>
+                        <div class="checklist-item">
+                            <div class="checklist-checkbox" onclick="this.classList.toggle('checked'); this.innerHTML = this.classList.contains('checked') ? '✓' : '';">✓</div>
+                            <span>Saya memahami kosakata utama unit ini</span>
+                        </div>
+                        <div class="checklist-item">
+                            <div class="checklist-checkbox" onclick="this.classList.toggle('checked'); this.innerHTML = this.classList.contains('checked') ? '✓' : '';">✓</div>
+                            <span>Saya memahami pola grammar unit ini</span>
+                        </div>
+                        <div class="checklist-item">
+                            <div class="checklist-checkbox" onclick="this.classList.toggle('checked'); this.innerHTML = this.classList.contains('checked') ? '✓' : '';">✓</div>
+                            <span>Saya bisa mengikuti percakapan unit ini</span>
+                        </div>
+                        <div class="checklist-item">
+                            <div class="checklist-checkbox" onclick="this.classList.toggle('checked'); this.innerHTML = this.classList.contains('checked') ? '✓' : '';">✓</div>
+                            <span>Saya siap mengerjakan mini test</span>
+                        </div>
+                    </div>
+                `;
+
+                container.innerHTML = html;
+            } catch (error) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">⚠️</div>
+                        <p>Gagal memuat info budaya.</p>
+                    </div>
+                `;
+            }
+        }
+
+        // ========== LOAD MINI TEST ==========
+        async function loadMiniTest(unitId) {
+            const container = document.getElementById('testContent');
+            try {
+                const { data, error } = await supabase
+                    .from('soal_eps')
+                    .select('*')
+                    .eq('unit', unitId)
+                    .order('id', { ascending: true });
+
+                if (error) throw error;
+
+                if (data.length === 0) {
+                    container.innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-icon">📭</div>
+                            <p>Belum ada soal mini test untuk unit ini.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                let html = '<p style="color: var(--teks-sekunder); font-size: 0.9rem; margin-bottom: 16px;">Kerjakan soal berikut untuk menguji pemahamanmu!</p>';
+                data.forEach((q, idx) => {
+                    html += `
+                        <div style="padding: 16px; background: #F8F9FF; border-radius: 8px; margin-bottom: 12px;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span style="font-weight: 600; color: var(--teks-utama);">Soal ${idx + 1}</span>
+                                <span class="badge ${q.tipe === 'mendengarkan' ? 'badge-premium' : 'badge-free'}">${q.tipe === 'mendengarkan' ? 'Mendengarkan' : 'Membaca'}</span>
+                            </div>
+                            <p class="korean-text" style="margin-bottom: 12px;">${q.teks_soal || 'Teks soal'}</p>
+                            <div class="options-grid">
+                                ${generateOptionHTML(q, `mini_${unitId}_${idx}`)}
+                            </div>
+                            ${q.penjelasan ? `<div class="explanation" style="display:none;" id="explain_mini_${unitId}_${idx}">${q.penjelasan}</div>` : ''}
+                        </div>
+                    `;
+                });
+
+                html += `
+                    <button class="btn btn-success" onclick="checkMiniTestResults()" style="margin-top: 16px;">
+                        📊 Cek Hasil
+                    </button>
+                    <div id="miniTestResult" style="margin-top: 16px;"></div>
+                `;
+
+                container.innerHTML = html;
+            } catch (error) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-icon">⚠️</div>
+                        <p>Gagal memuat soal test.</p>
+                    </div>
+                `;
+            }
+        }
+
+        // ========== RENDER QUESTION CARD ==========
+        function renderQuestionCard(q) {
+            const isListening = q.tipe === 'mendengarkan';
+            let html = `
+                <div class="card" style="margin-bottom: 12px;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                        <span style="font-weight: 600; color: var(--teks-utama);">Soal #${q.nomor || q.id}</span>
+                        <span class="badge ${isListening ? 'badge-premium' : 'badge-free'}">${isListening ? '🔊 Mendengarkan' : '📝 Membaca'}</span>
+                    </div>
+                    <p class="korean-text" style="margin-bottom: 12px;">${q.teks_soal || 'Teks soal'}</p>
+                    <div class="options-grid">
+            `;
+
+            const options = [
+                {key: 'a', text: q.pilihan_a},
+                {key: 'b', text: q.pilihan_b},
+                {key: 'c', text: q.pilihan_c},
+                {key: 'd', text: q.pilihan_d}
+            ];
+
+            options.forEach(opt => {
+                if (opt.text) {
+                    html += `
+                        <div class="option-card" onclick="selectOption(this, '${q.jawaban}', '${q.id}')">
+                            <span class="option-letter">${opt.key.toUpperCase()}</span>
+                            <span class="korean-text">${opt.text}</span>
+                        </div>
+                    `;
+                }
+            });
+
+            html += `</div>`;
+
+            if (q.audio_url && isListening) {
+                html += `
+                    <div class="audio-player" style="margin-top: 12px;">
+                        <button class="audio-btn" onclick="playAudio('${q.audio_url}')">▶</button>
+                        <span style="font-size: 0.85rem; color: var(--teks-sekunder);">Dengarkan soal</span>
+                    </div>
+                `;
+            }
+
+            html += `<div id="feedback_${q.id}" style="display:none; margin-top: 8px;"></div>`;
+            html += `</div>`;
+            return html;
+        }
+
+        // ========== GENERATE OPTION HTML ==========
+        function generateOptionHTML(q, prefix) {
+            const options = [
+                {key: 'a', text: q.pilihan_a},
+                {key: 'b', text: q.pilihan_b},
+                {key: 'c', text: q.pilihan_c},
+                {key: 'd', text: q.pilihan_d}
+            ];
+
+            return options.map(opt => {
+                if (!opt.text) return '';
+                return `
+                    <div class="option-card" onclick="selectMiniOption(this, '${opt.key}', '${q.jawaban}', '${prefix}')">
+                        <span class="option-letter">${opt.key.toUpperCase()}</span>
+                        <span class="korean-text">${opt.text}</span>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // ========== SELECT OPTION ==========
+        window.selectOption = function(element, correctAnswer, questionId) {
+            const card = element.closest('.option-card');
+            const allCards = card.parentElement.querySelectorAll('.option-card');
+            const feedback = document.getElementById('feedback_' + questionId);
+
+            // Reset semua
+            allCards.forEach(c => {
+                c.classList.remove('correct', 'wrong', 'selected');
+                const letter = c.querySelector('.option-letter');
+                if (letter) letter.className = 'option-letter';
+            });
+
+            // Tandai jawaban yang dipilih
+            card.classList.add('selected');
+
+            // Tunggu sebentar lalu tunjukkan hasil
+            setTimeout(() => {
+                const selectedKey = card.querySelector('.option-letter').textContent.toLowerCase();
+                const isCorrect = selectedKey === correctAnswer;
+
+                // Tandai benar/salah
+                allCards.forEach(c => {
+                    const letter = c.querySelector('.option-letter');
+                    const key = letter.textContent.toLowerCase();
+                    if (key === correctAnswer) {
+                        c.classList.add('correct');
+                        letter.className = 'option-letter option-correct';
+                    } else if (key === selectedKey && !isCorrect) {
+                        c.classList.add('wrong');
+                        letter.className = 'option-letter option-wrong';
+                    }
+                });
+
+                // Tampilkan feedback
+                feedback.innerHTML = isCorrect
+                    ? '<div class="feedback-correct">✅ Benar!</div>'
+                    : `<div class="feedback-wrong">❌ Salah. Jawaban: ${correctAnswer.toUpperCase()}</div>`;
+                feedback.style.display = 'block';
+
+                // Simpan progress
+                if (isCorrect) {
+                    saveProgress(`q_${questionId}`, { correct: true, unit: currentUnit });
+                }
+            }, 300);
+        };
+
+        // ========== SELECT MINI OPTION ==========
+        window.selectMiniOption = function(element, selectedKey, correctAnswer, prefix) {
+            const card = element.closest('.option-card');
+            const allCards = card.parentElement.querySelectorAll('.option-card');
+            const isCorrect = selectedKey === correctAnswer;
+
+            // Reset
+            allCards.forEach(c => {
+                c.classList.remove('correct', 'wrong', 'selected');
+                const letter = c.querySelector('.option-letter');
+                if (letter) letter.className = 'option-letter';
+            });
+
+            // Tandai
+            card.classList.add(isCorrect ? 'correct' : 'wrong');
+            const letter = card.querySelector('.option-letter');
+            letter.className = isCorrect ? 'option-letter option-correct' : 'option-letter option-wrong';
+
+            // Tandai jawaban benar
+            allCards.forEach(c => {
+                const l = c.querySelector('.option-letter');
+                if (l.textContent.toLowerCase() === correctAnswer && c !== card) {
+                    c.classList.add('correct');
+                    l.className = 'option-letter option-correct';
+                }
+            });
+
+            card.style.pointerEvents = 'none';
+        };
+
+        // ========== CHECK MINI TEST ==========
+        window.checkMiniTestResults = function() {
+            const container = document.getElementById('miniTestResult');
+            const correctCards = document.querySelectorAll('#section-minitest .option-card.correct');
+            const totalCards = document.querySelectorAll('#section-minitest .option-card');
+            const score = Math.round((correctCards.length / totalCards.length) * 100);
+
+            container.innerHTML = `
+                <div class="score-circle ${score >= 60 ? 'pass' : 'fail'}">
+                    <div class="score-number">${score}%</div>
+                    <div style="font-size: 0.85rem; color: var(--teks-sekunder);">${correctCards.length}/${totalCards.length} benar</div>
+                </div>
+                <p style="text-align: center; color: var(--teks-sekunder); font-size: 0.9rem; margin-top: 8px;">
+                    ${score >= 60 ? '🎉 Bagus! Kamu memahami unit ini dengan baik.' : '💪 Jangan menyerah, coba pelajari lagi materinya!'}
+                </p>
+            `;
+
+            // Simpan progress
+            if (score >= 60) {
+                const progress = loadProgress('units') || {};
+                progress[`unit_${currentUnit}`] = { completed: true, score: score, date: new Date().toISOString() };
+                saveProgress('units', progress);
+            }
+        };
+
+        // ========== SWITCH UNIT TAB ==========
+        window.switchUnitTab = function(tab) {
+            document.querySelectorAll('#unitTabs .nav-tab').forEach(t => t.classList.remove('active'));
+            event.target.classList.add('active');
+
+            ['kosakata', 'grammar', 'percakapan', 'budaya', 'minitest'].forEach(t => {
+                document.getElementById(`section-${t}`).classList.add('hidden');
+            });
+            document.getElementById(`section-${tab}`).classList.remove('hidden');
+        };
+
+        // ========== MARK UNIT COMPLETE ==========
+        window.markUnitComplete = function() {
+            if (!currentUnit) return;
+            const progress = loadProgress('units') || {};
+            progress[`unit_${currentUnit}`] = { completed: true, score: 100, date: new Date().toISOString() };
+            saveProgress('units', progress);
+            showToast(`Unit ${currentUnit} ditandai selesai! 🎉`, 'success');
+        };
+
+        // ========== INIT ==========
+        (async function init() {
+            await renderUnitGrid();
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "waktu": "2026-05-08T15:44:10.405701",
+  "total_soal": 300,
+  "uploaded_mp3": 0,
+  "updated_audio_url": 0,
+  "contoh_data": [
+    {
+      "id": "u31_m1",
+      "bab": 31,
+      "tipe": "membaca",
+      "teks_soal": "잠그다",
+      "gambar_url": "",
+      "audio_url": "",
+      "pilihan_a": "벗다",
+      "pilihan_b": "풀다",
+      "pilihan_c": "올리다",
+      "pilihan_d": "내리다",
+      "jawaban_benar": "a",
+      "audio_teks": "",
+      "penjelasan": "",
+      "tingkat": "sedang",
+      "akses": "premium",
+      "sumber_url": "unit_31_reading"
+    },
+    {
+      "id": "u31_m2",
+      "bab": 31,
+      "tipe": "membaca",
+      "teks_soal": "",
+      "gambar_url": "",
+      "audio_url": "",
+      "pilihan_a": "셔츠를 입고 넥타이를 잠갔어요.",
+      "pilihan_b": "작업복이 불편해서 지퍼를 맸어요.",
+      "pilihan_c": "출근한 후에 유니폼으로 내렸어요.",
+      "pilihan_d": "날씨가 더워서 작업복 단추를 풀었어요.",
+      "jawaban_benar": "b",
+      "audio_teks": "",
+      "penjelasan": "",
+      "tingkat": "sedang",
+      "akses": "premium",
+      "sumber_url": "unit_31_reading"
+    }
+  ]
+}

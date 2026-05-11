@@ -1,271 +1,372 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Langit Korea - Daftar Akun</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=</head>1.0"
+        />
+        <title>Langit Korea — Mulai Belajar</title>
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+        <script type="module" src="assets/js/supabase.js"></script>
+        <script type="module" src="assets/js/auth.js"></script>
+        <script type="module" src="assets/js/utils.js"></script>
+    </head>
+    <body>
+        <a href="#main" class="skip-link">Langsung ke konten</a>
 
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+        <div class="container">
+            <!-- Header -->
+            <div class="header">
+                <h1>🌌 Langit Korea</h1>
+                <p>Mulai perjalanan belajar bahasa Korea kamu</p>
+            </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="js/supabase-config.js"></script>
+            <!-- Auth Tabs -->
+            <div class="nav-tabs" id="authTabs">
+                <button
+                    class="nav-tab active"
+                    onclick="switchTab('login')"
+                    id="tab-login"
+                >
+                    Masuk
+                </button>
+                <button
+                    class="nav-tab"
+                    onclick="switchTab('register')"
+                    id="tab-register"
+                >
+                    Daftar
+                </button>
+            </div>
 
-    <style>
-        :root {
-            --langit-biru: #4A90D9;
-            --langit-fajar: #FF8C61;
-            --putih-bersih: #F8F9FF;
-            --teks-utama: #1E2A3A;
-            --teks-sekunder: #6B7A8D;
-            --hijau-berhasil: #4CAF82;
-            --merah-salah: #E05C5C;
-        }
+            <!-- Login Form -->
+            <div id="loginForm">
+                <div class="card">
+                    <div class="section-header">
+                        <span class="section-icon">🔑</span>
+                        <span class="section-title">Masuk ke Akun</span>
+                    </div>
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+                    <div
+                        id="loginError"
+                        class="hidden"
+                        style="
+                            background: rgba(224, 92, 92, 0.1);
+                            border-radius: 8px;
+                            padding: 12px;
+                            margin-bottom: 16px;
+                            color: var(--merah-salah);
+                            font-size: 0.9rem;
+                        "
+                    ></div>
 
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: var(--putih-bersih);
-            color: var(--teks-utama);
-            padding: 20px;
-            max-width: 480px;
-            margin: 0 auto;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
+                    <div class="form-group">
+                        <label class="form-label" for="loginEmail">Email</label>
+                        <input
+                            type="email"
+                            id="loginEmail"
+                            class="form-input"
+                            placeholder="contoh@email.com"
+                            autocomplete="email"
+                        />
+                    </div>
 
-        .header { text-align: center; margin-bottom: 30px; }
-        .logo { font-size: 28px; font-weight: 700; color: var(--langit-biru); }
-        .subtitle { font-size: 14px; color: var(--teks-sekunder); margin-top: 8px; }
+                    <div class="form-group">
+                        <label class="form-label" for="loginPassword"
+                            >Kata Sandi</label
+                        >
+                        <input
+                            type="password"
+                            id="loginPassword"
+                            class="form-input"
+                            placeholder="Kata sandi kamu"
+                            autocomplete="current-password"
+                        />
+                    </div>
 
-        .form-card {
-            background: white;
-            border-radius: 20px;
-            padding: 30px 25px;
-            box-shadow: 0 10px 30px rgba(74, 144, 217, 0.1);
-            margin-bottom: 20px;
-        }
+                    <button
+                        class="btn btn-primary"
+                        onclick="handleLogin()"
+                        id="loginBtn"
+                    >
+                        Masuk
+                    </button>
 
-        .form-group { margin-bottom: 20px; }
+                    <p
+                        style="
+                            text-align: center;
+                            margin-top: 16px;
+                            font-size: 0.85rem;
+                        "
+                    >
+                        Belum punya akun?
+                        <a
+                            href="#"
+                            onclick="
+                                switchTab('register');
+                                return false;
+                            "
+                            style="color: var(--langit-biru); font-weight: 600"
+                            >Daftar di sini</a
+                        >
+                    </p>
+                </div>
+            </div>
 
-        label {
-            display: block;
-            font-size: 14px;
-            font-weight: 600;
-            margin-bottom: 8px;
-            color: var(--teks-utama);
-        }
+            <!-- Register Form -->
+            <div id="registerForm" class="hidden">
+                <div class="card">
+                    <div class="section-header">
+                        <span class="section-icon">✍️</span>
+                        <span class="section-title">Daftar Akun Baru</span>
+                    </div>
 
-        input[type="text"],
-        input[type="email"],
-        input[type="password"] {
-            width: 100%;
-            padding: 14px;
-            border: 2px solid #E0E0E0;
-            border-radius: 12px;
-            font-size: 16px;
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            transition: border-color 0.3s;
-        }
+                    <div
+                        id="registerError"
+                        class="hidden"
+                        style="
+                            background: rgba(224, 92, 92, 0.1);
+                            border-radius: 8px;
+                            padding: 12px;
+                            margin-bottom: 16px;
+                            color: var(--merah-salah);
+                            font-size: 0.9rem;
+                        "
+                    ></div>
 
-        input:focus {
-            outline: none;
-            border-color: var(--langit-biru);
-        }
+                    <div class="form-group">
+                        <label class="form-label" for="regNama"
+                            >Nama Lengkap</label
+                        >
+                        <input
+                            type="text"
+                            id="regNama"
+                            class="form-input"
+                            placeholder="Nama lengkap kamu"
+                            autocomplete="name"
+                        />
+                    </div>
 
-        .level-options { display: flex; gap: 12px; }
-        .level-btn {
-            flex: 1;
-            padding: 15px;
-            border: 2px solid #E0E0E0;
-            border-radius: 12px;
-            background: white;
-            font-size: 14px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s;
-            text-align: center;
-        }
-        .level-btn:hover { border-color: var(--langit-biru); }
-        .level-btn.selected {
-            background-color: var(--langit-biru);
-            color: white;
-            border-color: var(--langit-biru);
-        }
+                    <div class="form-group">
+                        <label class="form-label" for="regEmail">Email</label>
+                        <input
+                            type="email"
+                            id="regEmail"
+                            class="form-input"
+                            placeholder="contoh@email.com"
+                            autocomplete="email"
+                        />
+                    </div>
 
-        .btn-daftar {
-            width: 100%;
-            padding: 16px;
-            background-color: var(--langit-biru);
-            color: white;
-            border: none;
-            border-radius: 12px;
-            font-size: 18px;
-            font-weight: 700;
-            cursor: pointer;
-            margin-top: 10px;
-            transition: transform 0.2s;
-            font-family: 'Plus Jakarta Sans', sans-serif;
-        }
-        .btn-daftar:hover { transform: translateY(-2px); }
-        .btn-daftar:disabled { background-color: #D0D0D0; cursor: not-allowed; transform: none; }
+                    <div class="form-group">
+                        <label class="form-label" for="regPassword"
+                            >Kata Sandi</label
+                        >
+                        <input
+                            type="password"
+                            id="regPassword"
+                            class="form-input"
+                            placeholder="Minimal 6 karakter"
+                            autocomplete="new-password"
+                        />
+                    </div>
 
-        .loading { display: none; text-align: center; margin-top: 15px; color: var(--teks-sekunder); font-size: 14px; }
+                    <div class="form-group">
+                        <label class="form-label" for="regLevel"
+                            >Level Awal</label
+                        >
+                        <select id="regLevel" class="form-input">
+                            <option value="pemula">
+                                Pemula — Belum pernah belajar Korea
+                            </option>
+                            <option value="menengah">
+                                Menengah — Sudah tahu dasar Hangul
+                            </option>
+                        </select>
+                    </div>
 
-        .error-msg {
-            background: #ffebee;
-            color: var(--merah-salah);
-            padding: 12px;
-            border-radius: 12px;
-            font-size: 14px;
-            margin-bottom: 15px;
-            display: none;
-        }
+                    <button
+                        class="btn btn-fajar"
+                        onclick="handleRegister()"
+                        id="registerBtn"
+                    >
+                        Buat Akun
+                    </button>
 
-        .success-msg {
-            background: #e8f5e9;
-            color: var(--hijau-berhasil);
-            padding: 12px;
-            border-radius: 12px;
-            font-size: 14px;
-            margin-bottom: 15px;
-            display: none;
-        }
+                    <p
+                        style="
+                            text-align: center;
+                            margin-top: 16px;
+                            font-size: 0.85rem;
+                        "
+                    >
+                        Sudah punya akun?
+                        <a
+                            href="#"
+                            onclick="
+                                switchTab('login');
+                                return false;
+                            "
+                            style="color: var(--langit-biru); font-weight: 600"
+                            >Masuk di sini</a
+                        >
+                    </p>
+                </div>
+            </div>
 
-        .login-link { text-align: center; font-size: 14px; color: var(--teks-sekunder); margin-top: 20px; }
-        .login-link a { color: var(--langit-biru); text-decoration: none; font-weight: 600; }
-        .login-link a:hover { text-decoration: underline; }
-    </style>
-</head>
-<body>
+            <!-- Info Box -->
+            <div class="card" style="margin-top: 20px">
+                <div class="section-header">
+                    <span class="section-icon">ℹ️</span>
+                    <span class="section-title">Tentang Platform Ini</span>
+                </div>
+                <ul
+                    style="
+                        padding-left: 20px;
+                        color: var(--teks-sekunder);
+                        font-size: 0.9rem;
+                        line-height: 2;
+                    "
+                >
+                    <li>🎯 Persiapan ujian <strong>EPS-TOPIK</strong></li>
+                    <li>
+                        📚 60 unit modul belajar berbasis textbook HRD Korea
+                    </li>
+                    <li>🆓 Gratis — tidak perlu bayar</li>
+                    <li>📊 Progress belajar otomatis tersimpan</li>
+                </ul>
+            </div>
 
-<div class="header">
-    <div class="logo">🌌 Langit Korea</div>
-    <div class="subtitle">Daftar akun baru untuk mulai belajar</div>
-</div>
-
-<div class="form-card">
-    <div class="error-msg" id="errorMsg"></div>
-    <div class="success-msg" id="successMsg"></div>
-
-    <div class="form-group">
-        <label for="nama">Nama Lengkap</label>
-        <input type="text" id="nama" placeholder="Masukkan nama kamu">
-    </div>
-
-    <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="email@contoh.com">
-    </div>
-
-    <div class="form-group">
-        <label for="password">Password</label>
-        <input type="password" id="password" placeholder="Minimal 8 karakter">
-    </div>
-
-    <div class="form-group">
-        <label>Seberapa jauh kamu sudah belajar Korea?</label>
-        <div class="level-options">
-            <div class="level-btn" data-level="pemula" onclick="selectLevel(this)">Belum Sama Sekali (Pemula)</div>
-            <div class="level-btn" data-level="menengah" onclick="selectLevel(this)">Sudah Sedikit (Menengah)</div>
+            <!-- Footer -->
+            <div
+                style="
+                    text-align: center;
+                    padding: 24px 0;
+                    color: var(--teks-sekunder);
+                    font-size: 0.8rem;
+                "
+            >
+                <p>
+                    Langit Korea © 2025 — Dibuat dengan ❤️ untuk pekerja migran
+                    Indonesia
+                </p>
+            </div>
         </div>
-    </div>
 
-    <button class="btn-daftar" id="daftarBtn" onclick="daftar()">🚀 Daftar Sekarang</button>
-    <div class="loading" id="loading">Mendaftarkan akun...</div>
-</div>
+        <script type="module">
+            import { login, register } from "./assets/js/auth.js";
+            import { showToast } from "./assets/js/utils.js";
+            import { navigateTo } from "./assets/js/utils.js";
 
-<div class="login-link">
-    Sudah punya akun? <a href="login.html">Masuk Sekarang</a>
-</div>
+            window.navigateTo = navigateTo;
 
-<script>
-    let selectedLevel = null;
-
-    function selectLevel(element) {
-        document.querySelectorAll('.level-btn').forEach(btn => btn.classList.remove('selected'));
-        element.classList.add('selected');
-        selectedLevel = element.getAttribute('data-level');
-    }
-
-    async function daftar() {
-        const nama = document.getElementById('nama').value;
-        const email = document.getElementById('email').value;
-        const password = document.getElementById('password').value;
-        const daftarBtn = document.getElementById('daftarBtn');
-        const loading = document.getElementById('loading');
-        const errorMsg = document.getElementById('errorMsg');
-        const successMsg = document.getElementById('successMsg');
-
-        // Reset messages
-        errorMsg.style.display = 'none';
-        successMsg.style.display = 'none';
-
-        // Validasi
-        if (!nama || !email || !password || !selectedLevel) {
-            errorMsg.innerText = 'Semua kolom harap diisi ya!';
-            errorMsg.style.display = 'block';
-            return;
-        }
-
-        if (password.length < 8) {
-            errorMsg.innerText = 'Password minimal 8 karakter!';
-            errorMsg.style.display = 'block';
-            return;
-        }
-
-        // Disable button & show loading
-        daftarBtn.disabled = true;
-        loading.style.display = 'block';
-
-        try {
-            // 1. Daftar via Supabase Auth
-            const { data: authData, error: authError } = await supabase.auth.signUp({
-                email: email,
-                password: password
-            });
-
-            if (authError) throw authError;
-
-            // 2. Simpan data tambahan ke tabel 'users'
-            if (authData.user) {
-                const { error: dbError } = await supabase
-                    .from('users')
-                    .insert([
-                        {
-                            id: authData.user.id, // ID harus sama dengan Auth ID
-                            email: email,
-                            nama: nama,
-                            level_awal: selectedLevel,
-                            status: 'free',
-                            token_unlock: 0
-                        }
-                    ]);
-
-                if (dbError) throw dbError;
+            function switchTab(tab) {
+                document
+                    .getElementById("loginForm")
+                    .classList.toggle("hidden", tab !== "login");
+                document
+                    .getElementById("registerForm")
+                    .classList.toggle("hidden", tab !== "register");
+                document
+                    .getElementById("tab-login")
+                    .classList.toggle("active", tab === "login");
+                document
+                    .getElementById("tab-register")
+                    .classList.toggle("active", tab === "register");
             }
 
-            // 3. Sukses
-            successMsg.innerText = 'Pendaftaran berhasil! Mengarahkan ke beranda...';
-            successMsg.style.display = 'block';
-            loading.style.display = 'none';
+            window.switchTab = switchTab;
 
-            // 4. Redirect ke home
-            setTimeout(() => {
-                window.location.href = 'home.html';
-            }, 2000);
+            async function handleLogin() {
+                const email = document
+                    .getElementById("loginEmail")
+                    .value.trim();
+                const password = document.getElementById("loginPassword").value;
+                const btn = document.getElementById("loginBtn");
 
-        } catch (error) {
-            loading.style.display = 'none';
-            daftarBtn.disabled = false;
-            errorMsg.innerText = 'Gagal mendaftar: ' + error.message;
-            errorMsg.style.display = 'block';
-            console.error('Error:', error);
-        }
-    }
-</script>
+                if (!email || !password) {
+                    showToast("Silakan isi email dan kata sandi", "error");
+                    return;
+                }
 
-</body>
+                btn.disabled = true;
+                btn.textContent = "Memuat...";
+
+                const result = await login(email, password);
+
+                if (result.success) {
+                    showToast("Berhasil masuk!", "success");
+                    navigateTo("dashboard.html");
+                } else {
+                    const errorDiv = document.getElementById("loginError");
+                    errorDiv.textContent =
+                        result.error ||
+                        "Gagal masuk. Periksa email dan kata sandi.";
+                    errorDiv.parentElement.classList.remove("hidden");
+                    showToast("Gagal masuk", "error");
+                }
+
+                btn.disabled = false;
+                btn.textContent = "Masuk";
+            }
+
+            window.handleLogin = handleLogin;
+
+            async function handleRegister() {
+                const nama = document.getElementById("regNama").value.trim();
+                const email = document.getElementById("regEmail").value.trim();
+                const password = document.getElementById("regPassword").value;
+                const level = document.getElementById("regLevel").value;
+                const btn = document.getElementById("registerBtn");
+
+                if (!nama || !email || !password) {
+                    showToast("Silakan lengkapi semua field", "error");
+                    return;
+                }
+
+                if (password.length < 6) {
+                    showToast("Kata sandi minimal 6 karakter", "error");
+                    return;
+                }
+
+                btn.disabled = true;
+                btn.textContent = "Mendaftarkan...";
+
+                const result = await register(email, password, nama);
+
+                if (result.success) {
+                    showToast(
+                        "Akun berhasil dibuat! Silakan cek email untuk verifikasi.",
+                        "success",
+                    );
+                    switchTab("login");
+                } else {
+                    const errorDiv = document.getElementById("registerError");
+                    errorDiv.textContent =
+                        result.error || "Gagal mendaftar. Silakan coba lagi.";
+                    errorDiv.parentElement.classList.remove("hidden");
+                    showToast("Gagal mendaftar", "error");
+                }
+
+                btn.disabled = false;
+                btn.textContent = "Buat Akun";
+            }
+
+            window.handleRegister = handleRegister;
+
+            // Cek apakah sudah login
+            (async function checkSession() {
+                const {
+                    data: { user },
+                } = await import("./assets/js/auth.js").then((m) =>
+                    m.getCurrentUser(),
+                );
+                if (user) {
+                    navigateTo("dashboard.html");
+                }
+            })();
+        </script>
+    </body>
 </html>

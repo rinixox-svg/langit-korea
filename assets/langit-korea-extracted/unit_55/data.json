@@ -4,129 +4,166 @@
   "title_id": "Peralatan K3",
   "file": "unit_55_safety_hygiene_equipment.pdf",
   "total_halaman": 10,
-  "halaman": {
-    "hal1": {
-      "kategori": "vocab",
-      "chars": 693,
-      "gambar_count": 20
-    },
-    "hal2": {
-      "kategori": "grammar",
-      "chars": 942,
-      "gambar_count": 4
-    },
-    "hal3": {
-      "kategori": "conversation",
-      "chars": 1695,
-      "gambar_count": 7
-    },
-    "hal4": {
-      "kategori": "vocab",
-      "chars": 1112,
-      "gambar_count": 18
-    },
-    "hal5": {
-      "kategori": "grammar",
-      "chars": 1341,
-      "gambar_count": 0
-    },
-    "hal6": {
-      "kategori": "conversation",
-      "chars": 1493,
-      "gambar_count": 7
-    },
-    "hal7": {
-      "kategori": "culture",
-      "chars": 1871,
-      "gambar_count": 0
-    },
-    "hal8": {
-      "kategori": "soal_membaca",
-      "chars": 852,
-      "gambar_count": 0
-    },
-    "hal9": {
-      "kategori": "soal_listening",
-      "chars": 864,
-      "gambar_count": 0
-    }
-  },
   "soal": [
     {
-      "id": "u55_m1",
       "nomor": 1,
       "tipe": "membaca",
-      "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n마스크를 착용하시오.",
-      "pilihan_a": "②",
-      "pilihan_b": "③",
-      "pilihan_c": "④",
+      "teks_soal": "마스크를 착용하시오.",
+      "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
       "pilihan_d": "",
-      "jawaban": "d",
+      "id": "u55_m1",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u55_m2",
       "nomor": 2,
       "tipe": "membaca",
-      "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+      "teks_soal": "",
+      "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
       "pilihan_a": "높은 곳에서 작업할 때는 안전대를 착용하세요.",
       "pilihan_b": "오늘 작업은 소음이 심하니까 귀마개를 지키세요.",
       "pilihan_c": "날카로운 물건을 만질 때는 안전 장갑을 끼우세요.",
       "pilihan_d": "작업장 안에는 공기가 좋지 않으니까 마스크를 입으세요.",
-      "jawaban": "a",
+      "id": "u55_m2",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u55_m3",
       "nomor": 3,
       "tipe": "membaca",
-      "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n무거운 물건을 옮길 때는 안전화를 안전사고를 예방할 수 있습니다.",
+      "teks_soal": "무거운 물건을 옮길 때는 안전화를 안전사고를 예방할 수 있습니다.",
+      "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
       "pilihan_a": "닦아야",
       "pilihan_b": "받아야",
       "pilihan_c": "잡아야",
       "pilihan_d": "신어야",
-      "jawaban": "d",
+      "id": "u55_m3",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u55_m4",
       "nomor": 4,
       "tipe": "membaca",
-      "teks_soal": "빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.\n기계 작업을 할 때에는 안전 장갑과 보안경을 반드시 착용해야 합니다. 작업 전에는 기계를 점검하고,\n기계가 작동 중일 때는 기계에 가까이 가지 않도록 주의해야 합니다. 기계의\n전원을 반드시 꺼야 안전사고를 예방할 수 있습니다.",
+      "teks_soal": "기계 작업을 할 때에는 안전 장갑과 보안경을 반드시 착용해야 합니다. 작업 전에는 기계를 점검하고, 기계가 작동 중일 때는 기계에 가까이 가지 않도록 주의해야 합니다. 기계의 전원을 반드시 꺼야 안전사고를 예방할 수 있습니다.",
+      "instruksi": "빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.",
       "pilihan_a": "작업이 끝나면",
       "pilihan_b": "작업이 필요하면",
       "pilihan_c": "기계가 설치되면",
       "pilihan_d": "기계가 작동하면",
-      "jawaban": "d",
+      "id": "u55_m4",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     },
     {
-      "id": "u55_m5",
       "nomor": 5,
       "tipe": "membaca",
-      "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n작업 현장에서 안전 장비를 착용하는 것은 작업자의 생명과 건강을 지키기 위해 반드시 필요합니다.\n소음이 심한 환경에서는 귀마개나 귀덮개를 사용하여 청력을 보호해야 합니다. 또한 화학 물질이나\n먼지가 많은 환경에서는 방독 마스크나 송기 마스크를 반드시 착용해야 하며, 고온에서 작업할 때는 방열\n보호구를 착용해야 합니다.",
+      "teks_soal": "작업 현장에서 안전 장비를 착용하는 것은 작업자의 생명과 건강을 지키기 위해 반드시 필요합니다. 소음이 심한 환경에서는 귀마개나 귀덮개를 사용하여 청력을 보호해야 합니다. 또한 화학 물질이나 먼지가 많은 환경에서는 방독 마스크나 송기 마스크를 반드시 착용해야 하며, 고온에서 작업할 때는 방열 보호구를 착용해야 합니다. 264 한국어 표준교재 2",
+      "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
       "pilihan_a": "방열 보호구는 고온으로부터 작업자를 보호합니다.",
       "pilihan_b": "소음이 심한 작업장에서는 방독 마스크를 써야 합니다.",
       "pilihan_c": "작업장에 화학 물질이 있으면 귀덮개를 착용해야 합니다.",
       "pilihan_d": "작업 현장에서 안전 장비를 착용하는 것은 선택 사항입니다.",
-      "jawaban": "d",
+      "id": "u55_m5",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 1,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 오늘 안전 교육이 있어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u55_l1",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 2,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 몇 시에 전기 작업을 해요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u55_l2",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 3,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 전원을 꼭 차단해야 돼요? 여 : 그럼요. 전기 작업을 할 때에는 전원을 차단해야 돼요. 그리고 절연 장갑과 절연화도 꼭 착용해야 돼요.",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u55_l3",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 4,
+      "tipe": "mendengarkan",
+      "teks_soal": "여 : 안전 교육 시간에 무엇에 대해 배웠어요?",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u55_l4",
+      "jawaban": "",
+      "audio_teks": "",
+      "ada_gambar_pilihan": false,
+      "gambar_pilihan": {},
+      "akses": "free"
+    },
+    {
+      "nomor": 5,
+      "tipe": "mendengarkan",
+      "teks_soal": "남 : 반장님, 오늘 작업할 때 마스크도 써야 돼요? 여 : 네, 작업 중에 먼지가 많이 발생할 테니까 방진 마스크를 꼭 쓰세요. 다른 보호 장비는 다 챙겼어요? 남 : 네, 안전화는 신었고, 안전모하고 보안경은 챙겼습니다. 여 : 좋아요. 마스크도 잊지 말고 챙기세요. 55 산업 안전 및 위생 장비 INDUSTRIAL SAFETY AND HYGIENE EQUIPMENT 265",
+      "instruksi": "",
+      "pilihan_a": "",
+      "pilihan_b": "",
+      "pilihan_c": "",
+      "pilihan_d": "",
+      "id": "u55_l5",
+      "jawaban": "",
       "audio_teks": "",
       "ada_gambar_pilihan": false,
       "gambar_pilihan": {},
       "akses": "free"
     }
-  ],
-  "gambar_soal": {}
+  ]
 }
