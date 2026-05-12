@@ -231,11 +231,27 @@ def main():
         if args.pdf:
             try:
                 import fitz
-                from epstopik_forensic_scraper.scraper.parsing_rules import (
-                    split_reading_questions, split_listening_items,
-                    extract_options, is_question_start, clean_block_text
+                import sys as _sys_for_path
+                # Add both project root and forensic package to path
+                _script_dir = os.path.dirname(os.path.abspath(__file__))
+                _project_root = os.path.abspath(os.path.join(_script_dir, ".."))
+                _forensic_dir = os.path.join(_project_root, "epstopik_forensic_scraper")
+                for _p in [_forensic_dir, _project_root]:
+                    if _p not in _sys_for_path.path:
+                        _sys_for_path.path.insert(0, _p)
+                # Import directly from file path to avoid package init chain
+                import importlib.util as _imp_util
+                _spec = _imp_util.spec_from_file_location(
+                    "parsing_rules",
+                    os.path.join(_forensic_dir, "scraper", "parsing_rules.py")
                 )
-                from epstopik_forensic_scraper.models.extraction_models import Question, Option
+                _parsing_rules = _imp_util.module_from_spec(_spec)
+                _spec.loader.exec_module(_parsing_rules)
+                split_reading_questions = _parsing_rules.split_reading_questions
+                split_listening_items = _parsing_rules.split_listening_items
+                extract_options = _parsing_rules.extract_options
+                is_question_start = _parsing_rules.is_question_start
+                clean_block_text = _parsing_rules.clean_block_text
                 for path in _glob.glob(args.pdf):
                     safe = path.encode("ascii", errors="replace").decode("ascii")
                     print("PDF:", safe[:80])
@@ -265,7 +281,7 @@ def main():
                     if qgroups:
                         print(f"  Reading: {len(qgroups)} question groups")
                         for qg in qgroups:
-                            qtext = ""
+                            qtext_parts = []
                             opts = []
                             qnum = None
                             for b in qg:
@@ -273,16 +289,19 @@ def main():
                                 is_q, n = is_question_start(t)
                                 if is_q and n:
                                     qnum = n
-                                    m = re.match(r"^\s*\d{1,2}\s*[\.\s\)]\s*(.*)", t)
-                                    if m:
-                                        qtext = m.group(1).strip()
-                                ex = extract_options(t)
-                                if ex:
-                                    opts.extend(ex)
+                                    m = re.match(r"^\s*\d{1,2}\s*[\.\s\)]\s*(.*)", t, re.DOTALL)
+                                    if m and m.group(1).strip():
+                                        qtext_parts.append(m.group(1).strip())
+                                else:
+                                    ex = extract_options(t)
+                                    if ex:
+                                        opts.extend(ex)
+                                    elif t.strip():
+                                        qtext_parts.append(t.strip())
                             if qnum:
                                 reading_items.append({
                                     "number": qnum,
-                                    "text": qtext,
+                                    "text": " ".join(qtext_parts),
                                     "options": opts,
                                 })
                         reading_text = passage or ""
@@ -312,14 +331,26 @@ def main():
                 for path in _glob.glob(single_pat.strip()):
                     safe = path.encode("ascii", errors="replace").decode("ascii")
                     print("Answers:", safe[:80])
-                    data = Path(path).read_bytes()
-                    prv = hwp_prvtext(data)
-                    if prv:
-                        answer_text += prv + "\n"
+                    if path.endswith(".pdf"):
+                        try:
+                            doc = fitz.open(path)
+                            txt = ""
+                            for page in doc:
+                                txt += page.get_text()
+                            doc.close()
+                            if txt:
+                                answer_text += txt + "\n"
+                        except:
+                            pass
                     else:
-                        txt = hwp_text(data)
-                        if txt:
-                            answer_text += txt + "\n"
+                        data = Path(path).read_bytes()
+                        prv = hwp_prvtext(data)
+                        if prv:
+                            answer_text += prv + "\n"
+                        else:
+                            txt = hwp_text(data)
+                            if txt:
+                                answer_text += txt + "\n"
         if args.audio_zip:
             for path in _glob.glob(args.audio_zip):
                 safe = path.encode("ascii", errors="replace").decode("ascii")
@@ -434,14 +465,17 @@ def main():
         opts = ["", "", "", ""]
 
         if num <= 20:
-            # Prefer parsed reading items (from PDF parsing_rules)
             found = False
             for ri in reading_items:
                 if ri["number"] == num:
                     q_text = ri.get("text", "")
                     ropts = ri.get("options", [])
-                    for i, opt in enumerate(ropts[:4]):
-                        opts[i] = opt["text"][:500]
+                    if ropts:
+                        for i, opt in enumerate(ropts[:4]):
+                            if isinstance(opt, dict):
+                                opts[i] = opt.get("text", "")[:500]
+                            else:
+                                opts[i] = str(opt)[:500]
                     found = True
                     break
             if not found and reading_text:
@@ -509,11 +543,12 @@ def main():
         skip = 0
         for row in rows:
             try:
-                # Check if already exists
-                exists = supabase.table("soal_eps").select("id").eq("sumber", "open_test").eq("tahun_soal", row["tahun_soal"]).eq("nomor_asli", row["nomor_asli"]).execute()
-                if exists.data and len(exists.data) > 0:
-                    skip += 1
-                    print("  SKIP q{:02d} (already exists)".format(row["nomor_asli"]))
+                exist = supabase.table("soal_eps").select("id").eq("sumber", "open_test").eq("tahun_soal", year).eq("nomor_asli", row["nomor_asli"]).execute()
+                if exist.data and len(exist.data) > 0:
+                    # Update existing record with new data (text, options, audio)
+                    supabase.table("soal_eps").update(row).eq("sumber", "open_test").eq("tahun_soal", year).eq("nomor_asli", row["nomor_asli"]).execute()
+                    ok += 1
+                    print("  UPD q{:02d} ({})".format(row["nomor_asli"], row["tipe"]))
                     continue
                 supabase.table("soal_eps").insert(row).execute()
                 ok += 1
