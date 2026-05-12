@@ -41,7 +41,25 @@ def download_files():
 # ── HWP Text ──
 
 def hwp_text(data):
-    """Extract text from HWP PrvText (clean preview text)."""
+    """Extract body text via hwp-hwpx-parser."""
+    try:
+        from hwp_hwpx_parser import extract_hwp5
+        import tempfile
+        with tempfile.NamedTemporaryFile(suffix=".hwp", delete=False) as tmp:
+            tmp.write(data)
+            tmp_path = tmp.name
+        result = extract_hwp5(tmp_path)
+        os.unlink(tmp_path)
+        if isinstance(result, tuple) and result[0]:
+            return result[0]
+        if isinstance(result, str) and result:
+            return result
+    except:
+        pass
+    return ""
+
+def hwp_prvtext(data):
+    """Extract PrvText (preview text) via olefile — best for answer keys."""
     try:
         ole = olefile.OleFileIO(io.BytesIO(data))
         if ole.exists("PrvText"):
@@ -57,25 +75,35 @@ def hwp_text(data):
 
 def parse_answers_file(text):
     """Parse answers from PrvText of answer HWP.
-    Format: <1번><4> or <1번><①> or just: 1. ②  2. ④ ...
+    Format: <1번><2번>...<10번>
+            <④><①>...<③>
     """
     answers = {}
-    # Pattern 1: <1번><④> or <1><④>
-    for m in re.finditer(r"<(\d+)[번]?>?\s*><[①-④a-dA-D①②③④]", text):
+    # Pattern: <1번><④> or <1><4>
+    for m in re.finditer(r"<(\d+)\uBC88>\s*<([\u2460-\u2463])>", text):
         num = int(m.group(1))
-        num = num if num <= 40 else (num - 1)  # handle off-by-one
-        # Extract answer from context
-        ctx = text[m.start():m.start()+20]
-        for c in "①②③④":
-            if c in ctx:
-                answers[num] = {"①":"a","②":"b","③":"c","④":"d"}[c]
-                break
-    # Pattern 2: 1. ② or 1② etc
+        ans = m.group(2)
+        if 1 <= num <= 40:
+            answers[num] = {"\u2460":"a","\u2461":"b","\u2462":"c","\u2463":"d"}.get(ans, "")
+    # Pattern: consecutive <1번><2번>... then on next line: <④><①>...
     if len(answers) < 5:
-        for m in re.finditer(r"(\d{1,2})\s*[.)\s]*\s*([①-④])", text):
+        nums = [int(m.group(1)) for m in re.finditer(r"<(\d+)\uBC88>", text)]
+        opts = [m.group(1) for m in re.finditer(r"<([\u2460-\u2463a-dA-D])>", text) 
+                if m.group(1) in "\u2460\u2461\u2462\u2463abcdABCD"]
+        opts = [{"\u2460":"a","\u2461":"b","\u2462":"c","\u2463":"d",
+                 "a":"a","b":"b","c":"c","d":"d",
+                 "A":"a","B":"b","C":"c","D":"d"}.get(o,o) for o in opts]
+        for i, num in enumerate(nums):
+            if i < len(opts) and 1 <= num <= 40:
+                answers[num] = opts[i]
+    # Pattern: 1. ②  2. ④  etc
+    if len(answers) < 5:
+        for m in re.finditer(r"(\d{1,2})\s*[.)\s]*\s*([①-④a-d])", text, re.IGNORECASE):
             num = int(m.group(1))
+            ans = m.group(2)
             if 1 <= num <= 40:
-                answers[num] = {"①":"a","②":"b","③":"c","④":"d"}[m.group(2)]
+                answers[num] = {"①":"a","②":"b","③":"c","④":"d",
+                                "a":"a","b":"b","c":"c","d":"d"}.get(ans.lower(), "")
     return answers
 
 # ── Parse Questions ──
@@ -186,18 +214,18 @@ def main():
 
     for i, f in enumerate(files):
         txt = hwp_text(f["data"])
-        if not txt:
-            continue
-
-        if i == 0:
+        # Body text: prefer hwp-hwpx-parser
+        if i == 0 and txt:
             reading_text = txt
-        elif i == 4:
+        elif i == 4 and txt:
             listening_text = txt
-        elif i == 6:
+        elif i == 6 and txt:
             listening_script_text = txt
-            answer_text += txt + "\n"
-        elif i in (2, 3, 7):
-            answer_text += txt + "\n"
+        
+        # Answers: use PrvText (cleaner format with answer table)
+        prv = hwp_prvtext(f["data"])
+        if i in (2, 3, 6, 7) and prv:
+            answer_text += prv + "\n"
 
     print("")
     print("Reading text: {} chars".format(len(reading_text)))
