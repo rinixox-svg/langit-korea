@@ -57,6 +57,10 @@ class Orchestrator:
         while True:
             if max_pages > 0 and page > start_page + max_pages - 1:
                 break
+            # EPS-TOPIK is single-page (no pagination). Stop after page 1.
+            if page > 1 and max_pages == 0:
+                logger.info("Single-page site detected. Stopping after page 1.")
+                break
 
             logger.info(f"--- Page {page} ---")
             try:
