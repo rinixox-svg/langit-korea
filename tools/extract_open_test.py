@@ -405,8 +405,15 @@ def main():
 
     if ans.lower() == "y":
         ok = 0
+        skip = 0
         for row in rows:
             try:
+                # Check if already exists
+                exists = supabase.table("soal_eps").select("id").eq("sumber", "open_test").eq("tahun_soal", row["tahun_soal"]).eq("nomor_asli", row["nomor_asli"]).execute()
+                if exists.data and len(exists.data) > 0:
+                    skip += 1
+                    print("  SKIP q{:02d} (already exists)".format(row["nomor_asli"]))
+                    continue
                 supabase.table("soal_eps").insert(row).execute()
                 ok += 1
                 print("  OK q{:02d} ({})".format(row["nomor_asli"], row["tipe"]))
