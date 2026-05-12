@@ -59,17 +59,32 @@ def hwp_text(data):
     return ""
 
 def hwp_prvtext(data):
-    """Extract PrvText (preview text) via olefile — best for answer keys."""
+    """Extract preview text via olefile PrvText, fallback to BodyText zlib."""
     try:
         ole = olefile.OleFileIO(io.BytesIO(data))
+        txt = ""
         if ole.exists("PrvText"):
             txt = ole.openstream("PrvText").read().decode("utf-16-le", errors="replace")
-            ole.close()
-            return txt
+        # Also try BodyText for answers that might be missing from PrvText
+        if ole.exists("BodyText/Section0"):
+            raw = ole.openstream("BodyText/Section0").read()
+            try:
+                d = zlib.decompress(raw, -zlib.MAX_WBITS)
+                body = d.decode("utf-16-le", errors="replace")
+                # Extract lines with answer patterns (number + circled option)
+                body_answers = []
+                for line in body.split("\n"):
+                    line = line.strip()
+                    if re.search(r"\d{1,2}\s*[.)]\s*[\u2460-\u2463]", line):
+                        body_answers.append(line)
+                if body_answers:
+                    txt += "\n" + "\n".join(body_answers)
+            except:
+                pass
         ole.close()
+        return txt
     except:
-        pass
-    return ""
+        return ""
 
 # ── Parse Answers ──
 
