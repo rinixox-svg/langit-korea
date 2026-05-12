@@ -1,55 +1,94 @@
 #!/usr/bin/env python3
-import os
-import re
-import sys
-import json
-import argparse
+import os, re, io, sys, json, zipfile, argparse
 from pathlib import Path
 from dotenv import load_dotenv
 
 try:
-    import fitz
+    import requests, olefile
     from supabase import create_client
-    import requests
 except ImportError as e:
-    print(f"Error: {e}")
-    print("Install: pip install pymupdf supabase-py python-dotenv requests")
+    print("Error:", e)
     sys.exit(1)
 
 load_dotenv()
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_SERVICE_KEY = os.getenv("SUPABASE_SERVICE_KEY")
 STORAGE_BUCKET = "audio-mp3"
+BASE_URL = "https://epstopik.hrdkorea.or.kr"
 
-if not SUPABASE_URL or not SUPABASE_SERVICE_KEY:
-    print("SUPABASE_URL and SUPABASE_SERVICE_KEY must be set in .env")
-    sys.exit(1)
+# ── Download ──
 
-supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
+def download_files():
+    s = requests.Session()
+    s.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
+    s.get(BASE_URL + "/epstopik/book/pub/publicWorkBookList.do?lang=en", timeout=30)
+    main = s.get(BASE_URL + "/epstopik/book/pub/publicWorkBookList.do?lang=en", timeout=30)
+    links = re.findall(r'href="([^"]*\.(?:hwp|zip))"', main.text)
+    files = []
+    for l in links:
+        url = BASE_URL + l
+        try:
+            r = s.get(url, timeout=60)
+            if r.status_code == 200 and len(r.content) > 5000:
+                name = l.split("/")[-1]
+                files.append({"name": name, "data": r.content, "url": url, "size": len(r.content)})
+                fname = name.encode("ascii", errors="replace").decode("ascii")
+                print("  {} bytes: {}".format(len(r.content), fname[:60]))
+        except Exception as e:
+            pass
+    return files
 
-# ── Config ──
-QUESTION_COUNT = 40
-READING_COUNT = 20
-LISTENING_START = 21
+# ── HWP Text ──
 
-def parse_pdf(pdf_path):
-    """Parse open test PDF, extract questions 1-40."""
-    doc = fitz.open(str(pdf_path))
-    full_text = ""
-    for page in doc:
-        full_text += page.get_text() + "\n"
-    doc.close()
-    return full_text
+def hwp_text(data):
+    try:
+        ole = olefile.OleFileIO(io.BytesIO(data))
+        if ole.exists("PrvText"):
+            txt = ole.openstream("PrvText").read().decode("utf-16-le", errors="replace")
+            ole.close()
+            return txt
+        ole.close()
+    except:
+        pass
+    return ""
 
-def find_questions(text):
-    """Extract questions from parsed PDF text.
-    
-    EPS-TOPIK open test format:
-    - Questions numbered 1-40
-    - Each question has 4 options labeled ① ② ③ ④ or (a) (b) (c) (d)
+# ── Parse Answers ──
+
+def parse_answers_file(text):
+    """Parse answers from PrvText of answer HWP.
+    Format: <1번><4> or <1번><①> or just: 1. ②  2. ④ ...
     """
-    lines = text.split("\n")
+    answers = {}
+    # Pattern 1: <1번><④> or <1><④>
+    for m in re.finditer(r"<(\d+)[번]?>?\s*><[①-④a-dA-D①②③④]", text):
+        num = int(m.group(1))
+        num = num if num <= 40 else (num - 1)  # handle off-by-one
+        # Extract answer from context
+        ctx = text[m.start():m.start()+20]
+        for c in "①②③④":
+            if c in ctx:
+                answers[num] = {"①":"a","②":"b","③":"c","④":"d"}[c]
+                break
+    # Pattern 2: 1. ② or 1② etc
+    if len(answers) < 5:
+        for m in re.finditer(r"(\d{1,2})\s*[.)\s]*\s*([①-④])", text):
+            num = int(m.group(1))
+            if 1 <= num <= 40:
+                answers[num] = {"①":"a","②":"b","③":"c","④":"d"}[m.group(2)]
+    return answers
+
+# ── Parse Questions ──
+
+def parse_listening_questions(text):
+    """Parse listening questions from answer+script HWP.
+    Format:
+    21. ①
+    Some text or dialog
+    22. ②
+    ...
+    """
     questions = {}
+    lines = text.split("\n")
     current_q = None
     current_lines = []
 
@@ -57,284 +96,218 @@ def find_questions(text):
         line = line.strip()
         if not line:
             continue
-
-        q_match = re.match(r"^\s*(\d{1,2})\s*[.)]\s*(.+)$", line)
-        if q_match:
-            num = int(q_match.group(1))
-            if 1 <= num <= QUESTION_COUNT:
-                if current_q is not None and current_lines:
-                    questions[current_q] = "\n".join(current_lines).strip()
+        m = re.match(r"^(\d{1,2})\s*[.)]\s*$", line)
+        if m:
+            num = int(m.group(1))
+            if 21 <= num <= 40:
+                if current_q and current_lines:
+                    questions[current_q] = "\n".join(current_lines)
                 current_q = num
-                current_lines = [q_match.group(2).strip()]
+                current_lines = []
                 continue
-
+            elif 21 > num >= 1:
+                # Check if next line has answer pattern
+                pass
+        # Check for answer on same line: "21. ①"
+        m2 = re.match(r"^(\d{1,2})\s*[.)]\s*([①-④])\s*(.*)$", line)
+        if m2:
+            num = int(m2.group(1))
+            if 21 <= num <= 40:
+                if current_q and current_lines:
+                    questions[current_q] = "\n".join(current_lines)
+                current_q = num
+                current_lines = [m2.group(3).strip()] if m2.group(3).strip() else []
+                continue
         if current_q is not None:
             current_lines.append(line)
-
-    if current_q is not None and current_lines:
-        questions[current_q] = "\n".join(current_lines).strip()
-
+    if current_q and current_lines:
+        questions[current_q] = "\n".join(current_lines)
     return questions
 
-def split_question_options(text):
-    """Split question text from its options.
-    
-    Options may be marked as:
-    ① ② ③ ④, (a) (b) (c) (d), a. b. c. d., etc.
-    """
-    if not text:
-        return "", ["", "", "", ""]
 
-    option_patterns = [
-        re.split(r"[①\s]*[②\s]*[③\s]*[④\s]*", text),
-        re.split(r"\([a-d]\)|\b[a-d]\.\)", text, flags=re.IGNORECASE),
-        re.split(r"\b[a-d]\.\s", text),
-    ]
+def build_question(num, text, answers, qtype):
+    """Build question data for a number."""
+    ans = answers.get(num, "")
+    opts = ["", "", "", ""]
+    q_text = text or ""
 
-    parts = None
-    for pattern in option_patterns:
-        if len(pattern) >= 5:
-            parts = pattern
-            break
-
-    if parts and len(parts) >= 5:
-        question = parts[0].strip()
-        options = [p.strip() for p in parts[1:5]]
-        return question, options
-
-    return text, ["", "", "", ""]
-
-def extract_answers(text):
-    """Extract answer key from the end of PDF (usually on last page).
-    
-    Format examples:
-    [정답] 1. ② 2. ④ 3. ① ...
-    or
-    <정답> 1-② 2-④ 3-① ...
-    """
-    answers = {}
-    lines = text.split("\n")
-    in_answer = False
-
-    for line in lines:
-        line = line.strip()
-        if not line:
-            continue
-
-        if "정답" in line or "ANSWER" in line.upper():
-            in_answer = True
-
-        if in_answer:
-            ans_matches = re.findall(
-                r"(\d{1,2})\s*[-:.]?\s*[①②③④a-dA-D①②③④]",
-                line
-            )
-            for match in ans_matches:
-                num = int(match[0])
-                ans_char = match[1]
-                if 1 <= num <= QUESTION_COUNT:
-                    mapping = {"①": "a", "②": "b", "③": "c", "④": "d",
-                               "a": "a", "b": "b", "c": "c", "d": "d",
-                               "A": "a", "B": "b", "C": "c", "D": "d"}
-                    answers[num] = mapping.get(ans_char, "")
-
-            # Also try: "1②", "1-②", "1.②"
-            ans_matches2 = re.findall(
-                r"(\d{1,2})\s*[-:.)\s]*\s*([①-④a-dA-D])",
-                line
-            )
-            for num_str, ans_str in ans_matches2:
-                num = int(num_str)
-                if 1 <= num <= QUESTION_COUNT and num not in answers:
-                    mapping = {"①": "a", "②": "b", "③": "c", "④": "d",
-                               "a": "a", "b": "b", "c": "c", "d": "d",
-                               "A": "a", "B": "b", "C": "c", "D": "d"}
-                    answers[num] = mapping.get(ans_str, "")
-
-    return answers
-
-def find_mp3_files(mp3_dir, year):
-    """Find MP3 files for listening questions (21-40).
-    
-    Expected naming: open_test_{year}_{question}.mp3
-    or                   {year}_{question}.mp3
-    """
-    mp3_dir = Path(mp3_dir)
-    if not mp3_dir.exists():
-        return {}
-
-    found = {}
-    patterns = [
-        f"open_test_{year}_*.mp3",
-        f"*_{year}_*.mp3",
-        f"*.mp3",
-    ]
-
-    for pat in patterns:
-        for f in sorted(mp3_dir.glob(pat)):
-            q_match = re.search(r"(\d{2})", f.stem)
-            if q_match:
-                num = int(q_match.group(1))
-                if LISTENING_START <= num <= QUESTION_COUNT:
-                    found[num] = str(f)
-    return found
-
-def upload_mp3(mp3_path, year, question_num):
-    """Upload MP3 to Supabase Storage."""
-    storage_path = f"open_test/{year}/q{question_num:02d}.mp3"
-    try:
-        with open(mp3_path, "rb") as f:
-            data = f.read()
-        supabase.storage.from_(STORAGE_BUCKET).upload(
-            storage_path, data, {"content-type": "audio/mpeg"}
-        )
-    except Exception:
-        # File may already exist; try to get public URL anyway
-        pass
-    
-    public_url = supabase.storage.from_(STORAGE_BUCKET).get_public_url(storage_path)
-    return public_url
-
-def build_row(num, question, options, answers, year, mp3_urls, q_type):
-    """Build a row dict for soal_eps insertion."""
-    q_text, opts = question, options
-    answer = answers.get(num, "")
-    letters = ["a", "b", "c", "d"]
+    # Try to split options from text if they look like dialog options
+    opt_lines = [l for l in q_text.split("\n") if l.strip()]
+    if qtype == "mendengarkan" and len(opt_lines) >= 3:
+        # Use first line as question, rest as context
+        q_text = opt_lines[0]
+        opts = opt_lines[-4:] if len(opt_lines) >= 6 else ["", "", "", ""]
+        # Pad options
+        opts = opts + [""] * (4 - len(opts))
 
     return {
-        "unit": year,
-        "tipe": q_type,
+        "unit": 2023, "tipe": qtype,
         "teks_soal": q_text[:2000] if q_text else "",
         "pilihan_a": opts[0] if len(opts) > 0 else "",
         "pilihan_b": opts[1] if len(opts) > 1 else "",
         "pilihan_c": opts[2] if len(opts) > 2 else "",
         "pilihan_d": opts[3] if len(opts) > 3 else "",
-        "jawaban": answer,
-        "audio_url": mp3_urls.get(num, ""),
-        "sumber": "open_test",
-        "tahun_soal": year,
-        "nomor_asli": num,
-        "tingkat": "sedang",
-        "akses": "free",
+        "jawaban": ans,
+        "audio_url": "",
+        "sumber": "open_test", "tahun_soal": 2023, "nomor_asli": num,
+        "tingkat": "sedang", "akses": "free",
     }
 
-def insert_soal(rows):
-    """Insert rows into soal_eps table."""
-    inserted = 0
-    for row in rows:
-        try:
-            result = supabase.table("soal_eps").insert(row).execute()
-            if result.data:
-                inserted += 1
-                print(f"  OK q{row['nomor_asli']:02d} ({row['tipe']})")
-            else:
-                print(f"  FAIL q{row['nomor_asli']:02d}: no data returned")
-        except Exception as e:
-            print(f"  FAIL q{row['nomor_asli']:02d}: {e}")
-    return inserted
+# ── Main ──
 
 def main():
-    parser = argparse.ArgumentParser(description="Extract EPS-TOPIK open test PDF")
-    parser.add_argument("pdf", help="Path to open test PDF file")
-    parser.add_argument("--year", type=int, default=2023, help="Test year (default: 2023)")
-    parser.add_argument("--mp3-dir", default="open_test_mp3", help="Directory with MP3 audio files")
+    parser = argparse.ArgumentParser(description="EPS-TOPIK Open Test Extractor")
+    parser.add_argument("--download", action="store_true", help="Download from eps.go.kr")
+    parser.add_argument("--no-insert", action="store_true", help="Save JSON only")
+    parser.add_argument("--year", type=int, default=2023)
     args = parser.parse_args()
 
-    pdf_path = Path(args.pdf)
-    if not pdf_path.exists():
-        print(f"PDF not found: {pdf_path}")
-        sys.exit(1)
+    if not args.download:
+        print("Use --download to fetch from eps.go.kr")
+        print("Or provide: --pdf FILE [--answers FILE] [--audio-zip FILE]")
+        return
 
-    year = args.year
-    mp3_dir = args.mp3_dir
+    print("Downloading open test files...")
+    files = download_files()
+    if not files:
+        print("No files downloaded.")
+        return
 
-    print(f"=== Extracting Open Test {year} ===\n")
-    print(f"PDF: {pdf_path}")
-    print(f"MP3: {mp3_dir}")
-    print()
+    # Extract content from each file type
+    # File order: 0=reading1, 1=reading2, 2=reading_ans1, 3=reading_ans2,
+    #             4=listening1, 5=listening2, 6=listening_ans1, 7=listening_ans2,
+    #             8=audio1, 9=audio2
+    reading_text = ""
+    listening_text = ""
+    answer_text = ""
+    listening_script_text = ""
 
-    # 1. Parse PDF
-    print("Parsing PDF...")
-    text = parse_pdf(pdf_path)
-    print(f"  Pages: {len(fitz.open(str(pdf_path)))}")
+    for i, f in enumerate(files):
+        txt = hwp_text(f["data"])
+        if not txt:
+            continue
 
-    # 2. Find questions
-    print("Finding questions...")
-    raw_questions = find_questions(text)
-    print(f"  Found: {len(raw_questions)} questions")
+        if i == 0:
+            reading_text = txt
+        elif i == 4:
+            listening_text = txt
+        elif i == 6:
+            listening_script_text = txt
+            answer_text += txt + "\n"
+        elif i in (2, 3, 7):
+            answer_text += txt + "\n"
 
-    if len(raw_questions) < 10:
-        print("  Too few questions found. Trying alternative parsing...")
-        # Fallback: use raw line-by-line extraction
-        lines = text.split("\n")
-        q_count = 0
-        for line in lines:
-            m = re.match(r"\s*(\d{1,2})\s*[.)]", line)
-            if m:
-                num = int(m.group(1))
-                if 1 <= num <= QUESTION_COUNT:
-                    if num not in raw_questions:
-                        raw_questions[num] = line.strip()
-                        q_count += 1
-        print(f"  After fallback: {len(raw_questions)} questions")
+    print("")
+    print("Reading text: {} chars".format(len(reading_text)))
+    print("Listening text: {} chars".format(len(listening_text)))
+    print("Answers text: {} chars".format(len(answer_text)))
+    print("Listening scripts: {} chars".format(len(listening_script_text)))
 
-    # 3. Find answers
-    print("Finding answers...")
-    answers = extract_answers(text)
-    print(f"  Found: {len(answers)} answers")
+    # Parse answers
+    print("\nParsing answers...")
+    answers = parse_answers_file(answer_text)
+    print("  Found: {} answers".format(len(answers)))
+    for n in sorted(answers)[:10]:
+        sys.stdout.buffer.write("    Q{} -> {}\n".format(n, answers[n]).encode())
 
-    # If no answers in PDF, try reading from answers file
-    if len(answers) < 10:
-        ans_txt = pdf_path.with_suffix(".txt")
-        if ans_txt.exists():
-            print(f"  Trying answers file: {ans_txt}")
-            answers = extract_answers(ans_txt.read_text())
-            print(f"  Found: {len(answers)} answers")
+    # Parse listening questions from script
+    print("\nParsing listening questions...")
+    listen_qs = {}
+    if listening_script_text:
+        listen_qs = parse_listening_questions(listening_script_text)
+        print("  Parsed: {} questions".format(len(listen_qs)))
+    else:
+        print("  No script text available")
 
-    # 4. Find MP3 files
-    print("Finding MP3 files...")
-    mp3_files = find_mp3_files(mp3_dir, year)
-    print(f"  Found: {len(mp3_files)} MP3 files")
+    # MP3 from ZIP
+    mp3_data = {}
+    for f in files:
+        if f["name"].endswith(".zip"):
+            try:
+                with zipfile.ZipFile(io.BytesIO(f["data"])) as z:
+                    for name in z.namelist():
+                        if name.endswith(".mp3"):
+                            m = re.search(r"(\d{2})", name)
+                            num = int(m.group(1)) if m else 0
+                            if 21 <= num <= 40:
+                                mp3_data[num] = z.read(name)
+            except:
+                pass
 
-    # 5. Upload MP3 files
-    print("Uploading MP3 files...")
+    print("\nMP3 files: {}".format(len(mp3_data)))
+
+    # Upload MP3 & build rows
+    supabase = None
+    if not args.no_insert and SUPABASE_URL and SUPABASE_SERVICE_KEY:
+        supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_KEY)
+
     mp3_urls = {}
-    for q_num, mp3_path in mp3_files.items():
-        url = upload_mp3(mp3_path, year, q_num)
-        mp3_urls[q_num] = url
-        print(f"  q{q_num:02d}: uploaded")
+    for num, data in mp3_data.items():
+        if supabase:
+            path = "open_test/{}/q{:02d}.mp3".format(args.year, num)
+            try:
+                supabase.storage.from_(STORAGE_BUCKET).upload(path, data, {"content-type": "audio/mpeg"})
+            except:
+                pass
+            try:
+                mp3_urls[num] = supabase.storage.from_(STORAGE_BUCKET).get_public_url(path)
+            except:
+                mp3_urls[num] = ""
 
-    # 6. Build rows
-    print("\nBuilding soal_eps rows...")
     rows = []
-    for num in range(1, QUESTION_COUNT + 1):
-        q_type = "membaca" if num <= READING_COUNT else "mendengarkan"
-        raw = raw_questions.get(num, "")
-        q_text, options = split_question_options(raw)
-        row = build_row(num, q_text, options, answers, year, mp3_urls, q_type)
+    for num in range(1, 41):
+        qtype = "membaca" if num <= 20 else "mendengarkan"
+        q_text = ""
+        if num <= 20:
+            # Reading: extract from reading text if available
+            if reading_text:
+                for line in reading_text.split("\n"):
+                    if line.strip().startswith(str(num)):
+                        q_text = line.strip()
+        else:
+            q_text = listen_qs.get(num, "")
+
+        row = build_question(num, q_text, answers, qtype)
+        if num in mp3_urls:
+            row["audio_url"] = mp3_urls[num]
         rows.append(row)
 
-    # 7. Report
-    print("\n─── Summary ───")
-    print(f"Questions parsed: {len([r for r in rows if r['teks_soal']])}/{QUESTION_COUNT}")
-    print(f"Reading (1-20): {len([r for r in rows[:20] if r['teks_soal']])}/20")
-    print(f"Listening (21-40): {len([r for r in rows[20:] if r['teks_soal']])}/20")
-    print(f"Answers found: {len(answers)}/{QUESTION_COUNT}")
-    print(f"MP3 files: {len(mp3_files)}/20")
+    # Summary
+    r_ok = len([r for r in rows[:20] if r["teks_soal"]])
+    l_ok = len([r for r in rows[20:] if r["teks_soal"]])
+    a_ok = len(answers)
+    m_ok = len(mp3_data)
 
-    # 8. Insert
-    ans = input("\nInsert into Supabase? (y/N): ")
-    if ans.lower() == "y":
-        print("\nInserting...")
-        ok = insert_soal(rows)
-        print(f"\nInserted: {ok}/{len(rows)}")
-    else:
-        # Save as JSON instead
-        out_path = pdf_path.with_suffix(".json")
-        with open(out_path, "w", encoding="utf-8") as f:
+    print("\n\u2500\u2500\u2500 Summary \u2500\u2500\u2500".encode("ascii", errors="replace").decode("ascii"))
+    print("Reading (1-20): {}/20".format(r_ok))
+    print("Listening (21-40): {}/20".format(l_ok))
+    print("Answers: {}/40".format(a_ok))
+    print("MP3: {}/20".format(m_ok))
+
+    if args.no_insert:
+        out = "open_test_{}.json".format(args.year)
+        with open(out, "w", encoding="utf-8") as f:
             json.dump(rows, f, ensure_ascii=False, indent=2)
-        print(f"Saved to {out_path}")
-        print("Run with --insert to upload to Supabase.")
+        print("\nSaved to", out)
+        return
+
+    ans = input("\nInsert {} questions into Supabase? (y/N): ".format(len(rows)))
+    if ans.lower() == "y":
+        ok = 0
+        for row in rows:
+            try:
+                supabase.table("soal_eps").insert(row).execute()
+                ok += 1
+                print("  OK q{:02d} ({})".format(row["nomor_asli"], row["tipe"]))
+            except Exception as e:
+                print("  FAIL q{:02d}: {}".format(row["nomor_asli"], e))
+        print("Inserted: {}/{}".format(ok, len(rows)))
+    else:
+        out = "open_test_{}.json".format(args.year)
+        with open(out, "w", encoding="utf-8") as f:
+            json.dump(rows, f, ensure_ascii=False, indent=2)
+        print("Saved to", out)
+
 
 if __name__ == "__main__":
     main()
