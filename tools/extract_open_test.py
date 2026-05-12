@@ -154,31 +154,19 @@ def parse_listening_questions(text):
     return questions
 
 
-def build_question(num, text, answers, qtype):
-    """Build question data for a number."""
-    ans = answers.get(num, "")
-    opts = ["", "", "", ""]
-    q_text = text or ""
-
-    # Try to split options from text if they look like dialog options
-    opt_lines = [l for l in q_text.split("\n") if l.strip()]
-    if qtype == "mendengarkan" and len(opt_lines) >= 3:
-        # Use first line as question, rest as context
-        q_text = opt_lines[0]
-        opts = opt_lines[-4:] if len(opt_lines) >= 6 else ["", "", "", ""]
-        # Pad options
-        opts = opts + [""] * (4 - len(opts))
-
+def build_row(num, q_text, opts, answers, year, mp3_urls, qtype):
+    """Build soal_eps row."""
+    ans = answers.get(num)
     return {
-        "unit": 2023, "tipe": qtype,
+        "unit": year, "tipe": qtype,
         "teks_soal": q_text[:2000] if q_text else "",
         "pilihan_a": opts[0] if len(opts) > 0 else "",
         "pilihan_b": opts[1] if len(opts) > 1 else "",
         "pilihan_c": opts[2] if len(opts) > 2 else "",
         "pilihan_d": opts[3] if len(opts) > 3 else "",
-        "jawaban": ans,
-        "audio_url": "",
-        "sumber": "open_test", "tahun_soal": 2023, "nomor_asli": num,
+        "jawaban": ans if ans in ("a","b","c","d") else None,
+        "audio_url": mp3_urls.get(num, ""),
+        "sumber": "open_test", "tahun_soal": year, "nomor_asli": num,
         "tingkat": "sedang", "akses": "free",
     }
 
@@ -190,42 +178,110 @@ def main():
     parser.add_argument("--no-insert", action="store_true", help="Save JSON only")
     parser.add_argument("--yes", action="store_true", help="Auto-confirm insert")
     parser.add_argument("--year", type=int, default=2023)
+    parser.add_argument("--pdf", help="Path to reading PDF file (or glob pattern)")
+    parser.add_argument("--hwp", help="Path to reading HWP file (or glob pattern)")
+    parser.add_argument("--answers", help="Path to answer file(s) (PDF/HWP, comma-separated)")
+    parser.add_argument("--audio-zip", help="Path to audio ZIP file")
     args = parser.parse_args()
+    year = args.year
 
-    if not args.download:
+    if not args.download and not args.pdf and not args.hwp:
         print("Use --download to fetch from eps.go.kr")
-        print("Or provide: --pdf FILE [--answers FILE] [--audio-zip FILE]")
+        print("Or provide: --hwp FILE [--answers FILE] [--audio-zip FILE]")
         return
 
-    print("Downloading open test files...")
-    files = download_files()
-    if not files:
-        print("No files downloaded.")
-        return
-
-    # Extract content from each file type
-    # File order: 0=reading1, 1=reading2, 2=reading_ans1, 3=reading_ans2,
-    #             4=listening1, 5=listening2, 6=listening_ans1, 7=listening_ans2,
-    #             8=audio1, 9=audio2
     reading_text = ""
     listening_text = ""
     answer_text = ""
     listening_script_text = ""
+    mp3_data = {}
 
-    for i, f in enumerate(files):
-        txt = hwp_text(f["data"])
-        # Body text: prefer hwp-hwpx-parser
-        if i == 0 and txt:
-            reading_text = txt
-        elif i == 4 and txt:
-            listening_text = txt
-        elif i == 6 and txt:
-            listening_script_text = txt
-        
-        # Answers: use PrvText (cleaner format with answer table)
-        prv = hwp_prvtext(f["data"])
-        if i in (2, 3, 6, 7) and prv:
-            answer_text += prv + "\n"
+    # ── Local file mode ──
+    if args.hwp or args.pdf or args.audio_zip:
+        import glob as _glob
+        reading_text = ""
+        if args.hwp:
+            for path in _glob.glob(args.hwp):
+                safe = path.encode("ascii", errors="replace").decode("ascii")
+                print("Reading:", safe[:80])
+                data = Path(path).read_bytes()
+                txt = hwp_text(data)
+                if len(txt) > len(reading_text):
+                    reading_text = txt
+                if not answer_text:
+                    prv = hwp_prvtext(data)
+                    if len(prv) > len(answer_text):
+                        answer_text = prv
+        if args.answers:
+            for path in _glob.glob(args.answers):
+                safe = path.encode("ascii", errors="replace").decode("ascii")
+                print("Answers:", safe[:80])
+                data = Path(path).read_bytes()
+                if path.endswith(".pdf"):
+                    import fitz
+                    doc = fitz.open(stream=data, filetype="pdf")
+                    txt = "".join(page.get_text() for page in doc)
+                    doc.close()
+                else:
+                    txt = hwp_text(data)
+                    prv = hwp_prvtext(data)
+                    if len(prv) > len(txt):
+                        txt = prv
+                answer_text += txt + "\n"
+        if args.audio_zip:
+            for path in _glob.glob(args.audio_zip):
+                safe = path.encode("ascii", errors="replace").decode("ascii")
+                print("Audio:", safe[:80])
+                try:
+                    with zipfile.ZipFile(path) as z:
+                        for name in z.namelist():
+                            if name.endswith(".mp3"):
+                                m = re.search(r"(\d{2})", name)
+                                num = int(m.group(1)) if m else 0
+                                if 21 <= num <= 40:
+                                    mp3_data[num] = z.read(name)
+                except Exception as e:
+                    print("  ZIP error:", e)
+        if not reading_text and not answer_text and not mp3_data:
+            print("No data extracted. Check file paths.")
+            return
+
+    # ── Download mode ──
+    else:
+        print("Downloading open test files...")
+        files = download_files()
+        if not files:
+            print("No files downloaded.")
+            return
+
+        # File order: 0=reading1, 1=reading2, 2=reading_ans1, 3=reading_ans2,
+        #             4=listening1, 5=listening2, 6=listening_ans1, 7=listening_ans2,
+        #             8=audio1, 9=audio2
+        for i, f in enumerate(files):
+            txt = hwp_text(f["data"])
+            if i == 0 and txt:
+                reading_text = txt
+            elif i == 4 and txt:
+                listening_text = txt
+            elif i == 6 and txt:
+                listening_script_text = txt
+            
+            prv = hwp_prvtext(f["data"])
+            if i in (2, 3, 6, 7) and prv:
+                answer_text += prv + "\n"
+
+        for f in files:
+            if f["name"].endswith(".zip"):
+                try:
+                    with zipfile.ZipFile(io.BytesIO(f["data"])) as z:
+                        for name in z.namelist():
+                            if name.endswith(".mp3"):
+                                m = re.search(r"(\d{2})", name)
+                                num = int(m.group(1)) if m else 0
+                                if 21 <= num <= 40:
+                                    mp3_data[num] = z.read(name)
+                except:
+                    pass
 
     print("")
     print("Reading text: {} chars".format(len(reading_text)))
@@ -248,21 +304,6 @@ def main():
         print("  Parsed: {} questions".format(len(listen_qs)))
     else:
         print("  No script text available")
-
-    # MP3 from ZIP
-    mp3_data = {}
-    for f in files:
-        if f["name"].endswith(".zip"):
-            try:
-                with zipfile.ZipFile(io.BytesIO(f["data"])) as z:
-                    for name in z.namelist():
-                        if name.endswith(".mp3"):
-                            m = re.search(r"(\d{2})", name)
-                            num = int(m.group(1)) if m else 0
-                            if 21 <= num <= 40:
-                                mp3_data[num] = z.read(name)
-            except:
-                pass
 
     print("\nMP3 files: {}".format(len(mp3_data)))
 
@@ -289,7 +330,6 @@ def main():
         qtype = "membaca" if num <= 20 else "mendengarkan"
         q_text = ""
         if num <= 20:
-            # Reading: extract from reading text if available
             if reading_text:
                 for line in reading_text.split("\n"):
                     if line.strip().startswith(str(num)):
@@ -297,7 +337,8 @@ def main():
         else:
             q_text = listen_qs.get(num, "")
 
-        row = build_question(num, q_text, answers, qtype)
+        opts = ["", "", "", ""]
+        row = build_row(num, q_text, opts, answers, year, mp3_urls, qtype)
         if num in mp3_urls:
             row["audio_url"] = mp3_urls[num]
         rows.append(row)
@@ -338,7 +379,8 @@ def main():
                 ok += 1
                 print("  OK q{:02d} ({})".format(row["nomor_asli"], row["tipe"]))
             except Exception as e:
-                print("  FAIL q{:02d}: {}".format(row["nomor_asli"], e))
+                err = str(e).encode("ascii", errors="replace").decode("ascii")
+                print("  FAIL q{:02d}: {}".format(row["nomor_asli"], err[:150]))
         print("Inserted: {}/{}".format(ok, len(rows)))
     else:
         out = "open_test_{}.json".format(args.year)
