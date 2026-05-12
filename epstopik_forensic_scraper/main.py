@@ -261,6 +261,6 @@ class Orchestrator:
                 report["jobs"].append(job_data)
 
         report_path = settings.ARTIFACTS_DIR / "audit_manifest.json"
-        report_path.write_text(json.dumps(report, indent=2, ensure_ascii=False))
+        report_path.write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
         logger.info(f"Audit report saved: {report_path}")
         return report
