@@ -33,10 +33,10 @@ def scrape(
     try:
         orch.run(start_page=start_page, max_pages=max_pages)
         logger.info("Scrape completed successfully")
-        typer.echo("✅ Scrape complete. Run: epstopik verify")
+        typer.echo("[OK] Scrape complete. Run: epstopik verify")
     except Exception as e:
         logger.exception(f"Scrape failed: {e}")
-        typer.echo(f"❌ Scrape failed: {e}", err=True)
+        typer.echo(f"[FAIL] Scrape failed: {e}", err=True)
         raise typer.Exit(code=1)
 
 
@@ -47,9 +47,9 @@ def verify():
     orch = Orchestrator()
     mismatches = orch.verify_integrity()
     if not mismatches:
-        typer.echo("✅ All files verified (SHA256 matches)")
+        typer.echo("[OK] All files verified (SHA256 matches)")
     else:
-        typer.echo(f"⚠️  Found {len(mismatches)} integrity issues:")
+        typer.echo(f"[WARN] Found {len(mismatches)} integrity issues:")
         for m in mismatches:
             typer.echo(f"  - [{m['status']}] {m['path']}")
 
@@ -61,7 +61,7 @@ def report():
     orch = Orchestrator()
     report = orch.generate_report()
     path = settings.ARTIFACTS_DIR / "audit_manifest.json"
-    typer.echo(f"✅ Audit report saved: {path}")
+    typer.echo(f"[OK] Audit report saved: {path}")
     typer.echo(f"   Jobs: {len(report['jobs'])}")
     total_files = sum(len(j.get("files", [])) for j in report["jobs"])
     typer.echo(f"   Files: {total_files}")

@@ -66,12 +66,13 @@ class Orchestrator:
                 break
 
             # Save raw HTML
-            raw_path = forensics_mod.save_raw_page(html, self.fetcher.client.url or "", page, self._job_id)
+            page_url = self.fetcher._build_list_url(page)
+            raw_path = forensics_mod.save_raw_page(html, page_url, page, self._job_id)
             html_sha256 = forensics_mod.compute_checksum(Path(raw_path))
 
             page_record = RawPage(
                 job_id=self._job_id,
-                url=self.fetcher.client.url or "",
+                url=page_url,
                 page_num=page,
                 fetch_method=method,
                 raw_html_path=raw_path,
