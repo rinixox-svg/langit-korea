@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, re, io, sys, json, zipfile, argparse
+import os, re, io, sys, json, zipfile, argparse, zlib
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -41,6 +41,7 @@ def download_files():
 # ── HWP Text ──
 
 def hwp_text(data):
+    """Extract text from HWP PrvText (clean preview text)."""
     try:
         ole = olefile.OleFileIO(io.BytesIO(data))
         if ole.exists("PrvText"):
