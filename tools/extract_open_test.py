@@ -159,6 +159,7 @@ def main():
     parser = argparse.ArgumentParser(description="EPS-TOPIK Open Test Extractor")
     parser.add_argument("--download", action="store_true", help="Download from eps.go.kr")
     parser.add_argument("--no-insert", action="store_true", help="Save JSON only")
+    parser.add_argument("--yes", action="store_true", help="Auto-confirm insert")
     parser.add_argument("--year", type=int, default=2023)
     args = parser.parse_args()
 
@@ -291,7 +292,15 @@ def main():
         print("\nSaved to", out)
         return
 
-    ans = input("\nInsert {} questions into Supabase? (y/N): ".format(len(rows)))
+    auto_yes = "--yes" in sys.argv or os.environ.get("EXTRACT_AUTO_YES") == "1"
+    if auto_yes:
+        ans = "y"
+    else:
+        try:
+            ans = input("\nInsert {} questions into Supabase? (y/N): ".format(len(rows)))
+        except (EOFError, KeyboardInterrupt):
+            ans = "n"
+
     if ans.lower() == "y":
         ok = 0
         for row in rows:
