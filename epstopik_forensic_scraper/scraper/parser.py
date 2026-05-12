@@ -51,19 +51,37 @@ def parse_workbook_list(html: str, page_num: int = 1) -> list[WorkbookItem]:
 
 
 def _extract_rows_from_table(table: Tag) -> list[Tag]:
-    """Extract data rows from a table element, skipping header rows."""
+    """Extract data rows from a table element.
+
+    EPS-TOPIK table uses rowspan for category grouping:
+    - Row 1: <td rowspan=3> for category spanning multiple sub-rows
+    - Data rows contain <td> with download links
+    - Header rows contain <th>
+    """
     tbody = table.find("tbody")
     if tbody:
         rows = tbody.find_all("tr")
     else:
         rows = table.find_all("tr")
 
-    # Filter out header rows (contain <th>)
-    return [r for r in rows if r.find("td") and not r.find("th")]
+    # Filter: keep rows with <td> that contain <a> links (data rows)
+    data_rows = []
+    for r in rows:
+        tds = r.find_all("td")
+        has_links = any(td.find("a", href=True) for td in tds)
+        if tds and has_links:
+            data_rows.append(r)
+
+    return data_rows if data_rows else [r for r in rows if r.find("td") and not r.find("th")]
 
 
 def _parse_row(row: Tag, index: int, page_num: int) -> WorkbookItem:
-    """Parse a single table row into a WorkbookItem."""
+    """Parse a single table row into a WorkbookItem.
+
+    EPS-TOPIK row structure:
+    - Row may have <td rowspan=N> for category (no. column)
+    - Content TDs have download <a> links
+    """
     cells = row.find_all("td")
     item = WorkbookItem(
         row_index=index,
@@ -71,61 +89,43 @@ def _parse_row(row: Tag, index: int, page_num: int) -> WorkbookItem:
         page_num=page_num,
     )
 
-    # Title cell
-    title_cell = cells[C.TITLE_CELL_INDEX] if len(cells) > C.TITLE_CELL_INDEX else None
-    if title_cell:
-        link = title_cell.select_one(C.TITLE_LINK_SELECTOR) if C.TITLE_LINK_SELECTOR else None
-        if link:
-            item.title = link.get_text(strip=True) or title_cell.get_text(strip=True)
+    # Extract category/title from the first TDs
+    for td in cells[:2]:
+        txt = td.get_text(strip=True)
+        if txt and len(txt) > 1:
+            item.title = txt
+            break
 
-            # Extract detail URL or JS call
-            href = link.get("href", "")
-            onclick = link.get("onclick", "")
-            if href and href.startswith("javascript:"):
-                item.detail_js = href
-            elif href and href not in ("#", ""):
-                item.detail_url = href
-            if onclick:
-                m = re.search(C.DETAIL_JS_PATTERN, onclick)
-                if m:
-                    item.detail_js = f"fn_select_cm('{m.group(1)}')"
-                    item.detail_url = (
-                        f"/epstopik/book/pub/publicWorkBookCmList.do"
-                        f"?lang=en&tmp_revCd={m.group(1)}"
-                    )
-        else:
-            item.title = title_cell.get_text(strip=True)
-
-    # Extract download links from entire row
+    # Extract ALL download links from this row
     for a in row.find_all("a", href=True):
         href = a["href"]
+        text = a.get_text(strip=True)
+
+        # Check for JavaScript-based navigation
+        onclick = a.get("onclick", "")
+        m = re.search(C.DETAIL_JS_PATTERN, onclick or href)
+        if m:
+            item.detail_js = f"fn_select_cm('{m.group(1)}')"
+            item.detail_url = (
+                f"/epstopik/book/pub/publicWorkBookCmList.do"
+                f"?lang=en&tmp_revCd={m.group(1)}"
+            )
+
+        # Categorize by file extension
         if ".hwp" in href.lower():
-            item.hwp_urls.append(href)
+            if href not in item.hwp_urls:
+                item.hwp_urls.append(href)
         elif ".pdf" in href.lower():
-            item.pdf_urls.append(href)
+            if href not in item.pdf_urls:
+                item.pdf_urls.append(href)
         elif ".zip" in href.lower():
             item.audio_zip_url = href
 
-    # Date cell
-    if len(cells) > C.DATE_CELL_INDEX:
-        date_text = cells[C.DATE_CELL_INDEX].get_text(strip=True)
-        if date_text:
-            item.published_date = date_text
-
-    # View count cell
-    if len(cells) > C.VIEW_CELL_INDEX:
-        view_text = cells[C.VIEW_CELL_INDEX].get_text(strip=True)
-        if view_text:
+    # View count
+    if len(cells) > 2:
+        view_text = cells[-1].get_text(strip=True)
+        if view_text and view_text.isdigit():
             item.view_count = view_text
-
-    # Fallback: use onclick for detail JS
-    if not item.detail_url and not item.detail_js:
-        for td in cells:
-            onclick = td.get("onclick", "")
-            m = re.search(C.DETAIL_JS_PATTERN, onclick)
-            if m:
-                item.detail_js = f"fn_select_cm('{m.group(1)}')"
-                break
 
     return item
 
