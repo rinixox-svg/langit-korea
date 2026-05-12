@@ -309,5 +309,83 @@ def main():
         print("Saved to", out)
 
 
+def try_convert_hwp_to_pdf(hwp_path, out_dir):
+    """Try to convert HWP to PDF using available converters."""
+    import subprocess
+    # Check soffice.com (LibreOffice console)
+    lo_paths = [
+        "soffice.com", "soffice",
+        r"C:\Program Files\LibreOffice\program\soffice.com",
+        r"C:\Program Files (x86)\LibreOffice\program\soffice.com",
+    ]
+    for lo in lo_paths:
+        try:
+            subprocess.run([lo, "--version"], capture_output=True, timeout=10)
+            result = subprocess.run(
+                [lo, "--headless", "--convert-to", "pdf", "--outdir", out_dir, hwp_path],
+                capture_output=True, timeout=120
+            )
+            if result.returncode == 0:
+                pdf_path = Path(out_dir) / (Path(hwp_path).stem + ".pdf")
+                if pdf_path.exists() and pdf_path.stat().st_size > 1000:
+                    return str(pdf_path)
+        except (FileNotFoundError, subprocess.TimeoutExpired):
+            continue
+    return None
+
+def convert_hwp_command(args):
+    """--convert-hwp subcommand: download HWP files and try to convert to PDF."""
+    if not args.download:
+        print("Downloading first (--download is implied with --convert-hwp)...")
+        args.download = True
+    return "proceed"
+
 if __name__ == "__main__":
+    # Add --convert-hwp arg
+    import sys as _sys
+    if "--convert-hwp" in _sys.argv:
+        # Run download + conversion
+        import subprocess, tempfile
+        _sys.argv.remove("--convert-hwp")
+        print("Step 1: Downloading HWP files from eps.go.kr...")
+        # Quick download
+        _s = requests.Session()
+        _s.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
+        _s.get(BASE_URL + "/epstopik/book/pub/publicWorkBookList.do?lang=en", timeout=30)
+        _m = _s.get(BASE_URL + "/epstopik/book/pub/publicWorkBookList.do?lang=en", timeout=30)
+        _links = re.findall(r'href="([^"]*\.(?:hwp|zip))"', _m.text)
+        os.makedirs("downloads", exist_ok=True)
+        for _l in _links:
+            _url = BASE_URL + _l
+            _name = _l.split("/")[-1]
+            try:
+                _r = _s.get(_url, timeout=60)
+                if _r.status_code == 200 and len(_r.content) > 5000:
+                    with open(os.path.join("downloads", _name), "wb") as _f:
+                        _f.write(_r.content)
+                    _safe = _name.encode("ascii", errors="replace").decode("ascii")
+                    print("  OK: {} ({} bytes)".format(_safe[:60], len(_r.content)))
+            except Exception:
+                pass
+        print("\nStep 2: Converting HWP to PDF...")
+        _converted = 0
+        _out = Path("downloads")
+        for _f in sorted(_out.glob("*.hwp")):
+            _pdf = try_convert_hwp_to_pdf(str(_f), str(_out))
+            _safe = _f.name.encode("ascii", errors="replace").decode("ascii")
+            if _pdf:
+                print("  OK: {} -> {}".format(_safe[:50], Path(_pdf).name))
+                _converted += 1
+            else:
+                print("  FAIL: {} (no converter)".format(_safe[:50]))
+        if _converted == 0:
+            print("\n" + "="*60)
+            print("TIDAK BISA KONVERSI HWP KE PDF OTOMATIS.")
+            print("Solusi: online converter https://www.zamzar.com/convert/hwp-to-pdf/")
+            print("Atau install Hancom Viewer: https://www.hancom.com/cs_center/csDownload.do")
+            print("="*60)
+        else:
+            print("\n{} PDF files created in downloads/".format(_converted))
+            print("Sekarang jalankan: python tools/extract_open_test.py --pdf downloads/*.pdf")
+        _sys.exit(0)
     main()
