@@ -226,6 +226,75 @@ def main():
     if args.hwp or args.pdf or args.audio_zip:
         import glob as _glob
         reading_text = ""
+        reading_items = []  # For parsed questions from PDF
+        listening_items = []
+        if args.pdf:
+            try:
+                import fitz
+                from epstopik_forensic_scraper.scraper.parsing_rules import (
+                    split_reading_questions, split_listening_items,
+                    extract_options, is_question_start, clean_block_text
+                )
+                from epstopik_forensic_scraper.models.extraction_models import Question, Option
+                for path in _glob.glob(args.pdf):
+                    safe = path.encode("ascii", errors="replace").decode("ascii")
+                    print("PDF:", safe[:80])
+                    doc = fitz.open(path)
+                    blocks = []
+                    for page_num in range(len(doc)):
+                        page = doc[page_num]
+                        page_dict = page.get_text("dict")
+                        for block in page_dict.get("blocks", []):
+                            if block["type"] == 0:
+                                for line in block.get("lines", []):
+                                    text = "".join(s["text"] for s in line.get("spans", []))
+                                    if text.strip():
+                                        bbox = line["bbox"]
+                                        blocks.append({
+                                            "text": text.strip(),
+                                            "x0": round(bbox[0], 1),
+                                            "y0": round(bbox[1], 1),
+                                            "x1": round(bbox[2], 1),
+                                            "y1": round(bbox[3], 1),
+                                            "page": page_num + 1,
+                                        })
+                    doc.close()
+                    print(f"  Extracted {len(blocks)} text blocks")
+                    # Try reading mode
+                    passage, qgroups = split_reading_questions(blocks)
+                    if qgroups:
+                        print(f"  Reading: {len(qgroups)} question groups")
+                        for qg in qgroups:
+                            qtext = ""
+                            opts = []
+                            qnum = None
+                            for b in qg:
+                                t = b.get("text", "")
+                                is_q, n = is_question_start(t)
+                                if is_q and n:
+                                    qnum = n
+                                    m = re.match(r"^\s*\d{1,2}\s*[\.\s\)]\s*(.*)", t)
+                                    if m:
+                                        qtext = m.group(1).strip()
+                                ex = extract_options(t)
+                                if ex:
+                                    opts.extend(ex)
+                            if qnum:
+                                reading_items.append({
+                                    "number": qnum,
+                                    "text": qtext,
+                                    "options": opts,
+                                })
+                        reading_text = passage or ""
+                    # Also try listening mode
+                    litems = split_listening_items(blocks)
+                    if litems:
+                        listening_items = litems
+                        print(f"  Listening: {len(litems)} items")
+            except ImportError as e:
+                print(f"  PDF mode requires PyMuPDF + parsing_rules: {e}")
+            except Exception as e:
+                print(f"  PDF processing error (non-fatal): {e}")
         if args.hwp:
             for path in _glob.glob(args.hwp):
                 safe = path.encode("ascii", errors="replace").decode("ascii")
@@ -264,7 +333,8 @@ def main():
                                 if 21 <= num <= 40:
                                     mp3_data[num] = z.read(name)
                 except Exception as e:
-                    print("  ZIP error:", e)
+                    err = str(e).encode("ascii", errors="replace").decode("ascii")
+                    print("  ZIP error:", err[:80])
         if not reading_text and not answer_text and not mp3_data:
             print("No data extracted. Check file paths.")
             return
@@ -361,15 +431,46 @@ def main():
     for num in range(1, 41):
         qtype = "membaca" if num <= 20 else "mendengarkan"
         q_text = ""
+        opts = ["", "", "", ""]
+
         if num <= 20:
-            if reading_text:
+            # Prefer parsed reading items (from PDF parsing_rules)
+            found = False
+            for ri in reading_items:
+                if ri["number"] == num:
+                    q_text = ri.get("text", "")
+                    ropts = ri.get("options", [])
+                    for i, opt in enumerate(ropts[:4]):
+                        opts[i] = opt["text"][:500]
+                    found = True
+                    break
+            if not found and reading_text:
                 for line in reading_text.split("\n"):
                     if line.strip().startswith(str(num)):
                         q_text = line.strip()
+                        break
         else:
-            q_text = listen_qs.get(num, "")
+            # Listening: prefer parsed listening items (from PDF parsing_rules)
+            found = False
+            for li in listening_items:
+                if li["number"] == num:
+                    q_text = li.get("question", "")
+                    if not q_text:
+                        q_text = li.get("dialog_script", "")[:100]
+                    lopts = li.get("options", [])
+                    if lopts:
+                        script = li.get("dialog_script", "")
+                        q_text = li.get("question", "") or script[:2000]
+                        for i, opt in enumerate(lopts[:4]):
+                            if isinstance(opt, dict):
+                                opts[i] = opt["text"][:500]
+                            else:
+                                opts[i] = str(opt)[:500]
+                    found = True
+                    break
+            if not found:
+                q_text = listen_qs.get(num, "")
 
-        opts = ["", "", "", ""]
         row = build_row(num, q_text, opts, answers, year, mp3_urls, qtype)
         if num in mp3_urls:
             row["audio_url"] = mp3_urls[num]
@@ -381,9 +482,9 @@ def main():
     a_ok = len(answers)
     m_ok = len(mp3_data)
 
-    print("\n\u2500\u2500\u2500 Summary \u2500\u2500\u2500".encode("ascii", errors="replace").decode("ascii"))
-    print("Reading (1-20): {}/20".format(r_ok))
-    print("Listening (21-40): {}/20".format(l_ok))
+    print("\n===================================".encode("ascii", errors="replace").decode("ascii"))
+    print("Reading (1-20): {}/20  (from PDF blocks: {})".format(r_ok, len(reading_items)))
+    print("Listening (21-40): {}/20  (from PDF blocks: {})".format(l_ok, len(listening_items)))
     print("Answers: {}/40".format(a_ok))
     print("MP3: {}/20".format(m_ok))
 
