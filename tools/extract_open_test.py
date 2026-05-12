@@ -75,35 +75,44 @@ def hwp_prvtext(data):
 
 def parse_answers_file(text):
     """Parse answers from PrvText of answer HWP.
-    Format: <1번><2번>...<10번>
-            <④><①>...<③>
+    Formats:
+    - <1번><④> (reading answers)
+    - 21. ① (listening answers) 
+    - 1. ②  2. ④ 
     """
     answers = {}
-    # Pattern: <1번><④> or <1><4>
+    ans_map = {"\u2460":"a","\u2461":"b","\u2462":"c","\u2463":"d",
+               "①":"a","②":"b","③":"c","④":"d",
+               "a":"a","b":"b","c":"c","d":"d",
+               "A":"a","B":"b","C":"c","D":"d"}
+
+    # Pattern 1: <1번><④>
     for m in re.finditer(r"<(\d+)\uBC88>\s*<([\u2460-\u2463])>", text):
         num = int(m.group(1))
+        if 1 <= num <= 40 and m.group(2) in ans_map:
+            answers[num] = ans_map[m.group(2)]
+
+    # Pattern 2: consecutive <1번><2번>... then <④><①>...
+    nums = [int(m.group(1)) for m in re.finditer(r"<(\d+)\uBC88>", text)]
+    opts = [ans_map.get(m.group(1)) for m in re.finditer(r"<([\u2460-\u2463abcdABCD])>", text)
+            if m.group(1) in ans_map]
+    for i, num in enumerate(nums):
+        if i < len(opts) and opts[i] and 1 <= num <= 40 and num not in answers:
+            answers[num] = opts[i]
+
+    # Pattern 3: 21. ① (listening answers format)
+    for m in re.finditer(r"(\d{1,2})\s*[.)]\s*([\u2460-\u2463])", text):
+        num = int(m.group(1))
+        if 1 <= num <= 40 and m.group(2) in ans_map and num not in answers:
+            answers[num] = ans_map[m.group(2)]
+
+    # Pattern 4: 1. ② or 1② etc
+    for m in re.finditer(r"(\d{1,2})\s*[.)\s]*\s*([①-④a-d])", text, re.IGNORECASE):
+        num = int(m.group(1))
         ans = m.group(2)
-        if 1 <= num <= 40:
-            answers[num] = {"\u2460":"a","\u2461":"b","\u2462":"c","\u2463":"d"}.get(ans, "")
-    # Pattern: consecutive <1번><2번>... then on next line: <④><①>...
-    if len(answers) < 5:
-        nums = [int(m.group(1)) for m in re.finditer(r"<(\d+)\uBC88>", text)]
-        opts = [m.group(1) for m in re.finditer(r"<([\u2460-\u2463a-dA-D])>", text) 
-                if m.group(1) in "\u2460\u2461\u2462\u2463abcdABCD"]
-        opts = [{"\u2460":"a","\u2461":"b","\u2462":"c","\u2463":"d",
-                 "a":"a","b":"b","c":"c","d":"d",
-                 "A":"a","B":"b","C":"c","D":"d"}.get(o,o) for o in opts]
-        for i, num in enumerate(nums):
-            if i < len(opts) and 1 <= num <= 40:
-                answers[num] = opts[i]
-    # Pattern: 1. ②  2. ④  etc
-    if len(answers) < 5:
-        for m in re.finditer(r"(\d{1,2})\s*[.)\s]*\s*([①-④a-d])", text, re.IGNORECASE):
-            num = int(m.group(1))
-            ans = m.group(2)
-            if 1 <= num <= 40:
-                answers[num] = {"①":"a","②":"b","③":"c","④":"d",
-                                "a":"a","b":"b","c":"c","d":"d"}.get(ans.lower(), "")
+        if 1 <= num <= 40 and num not in answers:
+            answers[num] = ans_map.get(ans, "")
+
     return answers
 
 # ── Parse Questions ──
@@ -195,6 +204,8 @@ def main():
     answer_text = ""
     listening_script_text = ""
     mp3_data = {}
+    import collections
+    answer_sources = collections.OrderedDict()
 
     # ── Local file mode ──
     if args.hwp or args.pdf or args.audio_zip:
@@ -213,21 +224,18 @@ def main():
                     if len(prv) > len(answer_text):
                         answer_text = prv
         if args.answers:
-            for path in _glob.glob(args.answers):
-                safe = path.encode("ascii", errors="replace").decode("ascii")
-                print("Answers:", safe[:80])
-                data = Path(path).read_bytes()
-                if path.endswith(".pdf"):
-                    import fitz
-                    doc = fitz.open(stream=data, filetype="pdf")
-                    txt = "".join(page.get_text() for page in doc)
-                    doc.close()
-                else:
-                    txt = hwp_text(data)
+            for single_pat in args.answers.split(","):
+                for path in _glob.glob(single_pat.strip()):
+                    safe = path.encode("ascii", errors="replace").decode("ascii")
+                    print("Answers:", safe[:80])
+                    data = Path(path).read_bytes()
                     prv = hwp_prvtext(data)
-                    if len(prv) > len(txt):
-                        txt = prv
-                answer_text += txt + "\n"
+                    if prv:
+                        answer_text += prv + "\n"
+                    else:
+                        txt = hwp_text(data)
+                        if txt:
+                            answer_text += txt + "\n"
         if args.audio_zip:
             for path in _glob.glob(args.audio_zip):
                 safe = path.encode("ascii", errors="replace").decode("ascii")
@@ -268,7 +276,7 @@ def main():
             
             prv = hwp_prvtext(f["data"])
             if i in (2, 3, 6, 7) and prv:
-                answer_text += prv + "\n"
+                answer_sources[i] = prv
 
         for f in files:
             if f["name"].endswith(".zip"):
@@ -283,16 +291,25 @@ def main():
                 except:
                     pass
 
+    # Parse answers: read from each file, only keep first answer per question
+    answers = {}
+    if answer_sources:
+        for src_idx in sorted(answer_sources.keys(), reverse=True):
+            src_answers = parse_answers_file(answer_sources[src_idx])
+            for num, ans in src_answers.items():
+                if num not in answers:
+                    answers[num] = ans
+        answer_text = "\n".join(answer_sources.values())
+    elif answer_text:
+        answers = parse_answers_file(answer_text)
+
     print("")
     print("Reading text: {} chars".format(len(reading_text)))
     print("Listening text: {} chars".format(len(listening_text)))
     print("Answers text: {} chars".format(len(answer_text)))
     print("Listening scripts: {} chars".format(len(listening_script_text)))
 
-    # Parse answers
-    print("\nParsing answers...")
-    answers = parse_answers_file(answer_text)
-    print("  Found: {} answers".format(len(answers)))
+    print("\nAnswers: {} found".format(len(answers)))
     for n in sorted(answers)[:10]:
         sys.stdout.buffer.write("    Q{} -> {}\n".format(n, answers[n]).encode())
 
