@@ -47,9 +47,10 @@ def extract_options(text: str) -> List[Dict[str, str]]:
     """Extract multiple-choice options from text.
 
     Supports formats:
-    - ① text ② text ③ text ④ text  (Korean standard, single line)
-    - ① text\n② text\n③ text\n④ text (Korean standard, multi line)
-    - (A) text (B) text (C) text (D) text
+    - ① text (circled + text on same line)
+    - ①\n text (circled on its own line, text on next)
+    - ① text ② text (multiple on same line)
+    - (A) text (B) text
     - Fallback: split by newlines
 
     Returns list of {"label": "①"/"(A)", "text": "..."}
@@ -57,53 +58,77 @@ def extract_options(text: str) -> List[Dict[str, str]]:
     if not text or not text.strip():
         return []
 
+    lines = text.split("\n")
     opts = []
 
-    # Strategy 1: Find all circled numbers on separate lines
-    lines = text.split("\n")
-    for line in lines:
-        line = line.strip()
+    # Strategy 1: circled number on its own line, text on next line
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
         if not line:
+            i += 1
             continue
-        # Match: ① text (circled at start of line)
-        m = re.match(r"^([\u2460-\u2463])\s*(.*)", line)
+        m = re.match(r"^([\u2460-\u2463])\s*$", line)
         if m:
-            opt_text = m.group(2).strip().rstrip("|").strip()
-            if opt_text:
-                opts.append({"label": m.group(1), "text": opt_text})
+            label = m.group(1)
+            # Look ahead: text on the next non-empty line
+            next_text = ""
+            j = i + 1
+            while j < len(lines):
+                nxt = lines[j].strip()
+                if nxt and not re.match(r"^[\u2460-\u2463]", nxt):
+                    next_text = nxt.rstrip("|").strip()
+                    break
+                elif nxt and re.match(r"^[\u2460-\u2463]", nxt):
+                    break
+                j += 1
+            if next_text:
+                opts.append({"label": label, "text": next_text})
+                i = j
                 continue
+        i += 1
 
     if len(opts) >= 2:
         return opts
 
-    # Strategy 2: Find all circled numbers inline (same line)
+    # Strategy 2: circled + text on same line
+    for line in lines:
+        m = re.match(r"^([\u2460-\u2463])\s*(.*)", line.strip())
+        if m:
+            opt_text = m.group(2).strip().rstrip("|").strip()
+            if opt_text and not any(o["label"] == m.group(1) for o in opts):
+                opts.append({"label": m.group(1), "text": opt_text})
+
+    if len(opts) >= 2:
+        return opts
+
+    # Strategy 3: inline circled (multiple per line)
     for m in OPTION_CIRCLED_RE.finditer(text):
         label = m.group(1)
         opt_text = m.group(2).strip().rstrip("|").strip()
         if opt_text and not any(o["label"] == label for o in opts):
             opts.append({"label": label, "text": opt_text})
-
     if len(opts) >= 2:
         return opts
 
-    # Strategy 3: (A)(B)(C)(D) format
-    opts_paren = []
+    # Strategy 4: (A)(B)(C)(D) format
     for m in OPTION_PAREN_RE.finditer(text):
         label = f"({m.group(1).upper()})"
         opt_text = m.group(2).strip()
-        if opt_text:
-            opts_paren.append({"label": label, "text": opt_text})
-    if len(opts_paren) >= 2:
-        return opts_paren
+        if opt_text and not any(o["label"] == label for o in opts):
+            opts.append({"label": label, "text": opt_text})
+    if len(opts) >= 2:
+        return opts
 
-    # Strategy 4: fallback — split by newlines
+    # Strategy 5: fallback — split by newlines
     clean_lines = [l.strip() for l in lines if l.strip()]
     if len(clean_lines) >= 2:
-        non_short = sum(1 for l in clean_lines if len(l.split()) > 8)
-        if non_short < len(clean_lines) // 2:
-            labels = ["①", "②", "③", "④"]
-            for i, line in enumerate(clean_lines[:4]):
-                opts.append({"label": labels[i], "text": line[:500]})
+        labels = ["①", "②", "③", "④"]
+        for i_cl, line in enumerate(clean_lines[:4]):
+            if not any(lbl in line for lbl in labels):
+                pass  # still add it
+            opts.append({"label": labels[i_cl], "text": line[:500]})
+        if any(o["text"] for o in opts):
             return opts
 
     return opts
