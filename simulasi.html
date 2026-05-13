@@ -1,856 +1,107 @@
 <!doctype html>
 <html lang="id">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Langit Korea — Simulasi Ujian EPS-TOPIK</title>
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-        <script type="module" src="assets/js/supabase.js"></script>
-        <script type="module" src="assets/js/auth.js"></script>
-        <script type="module" src="assets/js/utils.js"></script>
-    </head>
-    <body>
-        <a href="#main" class="skip-link">Langsung ke konten</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Langit Korea — Simulasi Open Test</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/modul-unit.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script type="module" src="assets/js/supabase.js"></script>
+  <script type="module" src="assets/js/auth.js"></script>
+  <script type="module" src="assets/js/utils.js"></script>
+  <script type="module" src="assets/js/simulasi.js"></script>
+  <style>
+    .sim-header { display:flex; justify-content:space-between; align-items:center; padding:12px 0; flex-wrap:wrap; gap:8px; }
+    .timer-bar { position:sticky; top:0; z-index:100; background:var(--putih-bersih); padding:8px 16px; border-bottom:2px solid #e0e0e0; }
+    .timer-display { font-size:1.5rem; font-weight:700; font-variant-numeric:tabular-nums; }
+    .timer-display.warning { color:var(--merah-salah); }
+    .timer-display.caution { color:var(--kuning-sedang); }
+    .section-badge { display:inline-block; padding:3px 10px; border-radius:4px; font-size:0.75rem; font-weight:600; }
+    .section-badge.membaca { background:rgba(74,144,217,0.12); color:var(--langit-biru); }
+    .section-badge.mendengarkan { background:rgba(255,140,97,0.12); color:var(--langit-fajar); }
+    .sim-nav { display:flex; gap:6px; flex-wrap:wrap; margin:12px 0; }
+    .sim-nav-btn { width:36px; height:36px; border-radius:50%; border:2px solid #e0e0e0; background:white; cursor:pointer; font-weight:700; font-size:0.85rem; transition:all 0.15s; display:flex; align-items:center; justify-content:center; }
+    .sim-nav-btn.answered { border-color:var(--langit-biru); background:rgba(74,144,217,0.1); }
+    .sim-nav-btn.active { border-color:var(--langit-biru); background:var(--langit-biru); color:white; }
+    .sim-nav-btn:disabled { opacity:0.4; cursor:not-allowed; }
+    .question-card { display:none; background:white; border-radius:12px; padding:20px; margin-bottom:16px; }
+    .question-card.active { display:block; }
+    .q-text { font-family:var(--font-korea); font-size:1.05rem; line-height:1.7; margin-bottom:16px; }
+    .q-image { max-width:100%; max-height:300px; margin:12px 0; border-radius:8px; }
+    .mc-option { display:flex; align-items:center; gap:12px; padding:14px 16px; border-radius:10px; border:2px solid #e0e0e0; margin:6px 0; cursor:pointer; transition:all 0.15s; min-height:48px; }
+    .mc-option:hover { border-color:var(--langit-biru); background:#f8faff; }
+    .mc-option.selected { border-color:var(--langit-biru); background:rgba(74,144,217,0.08); }
+    .mc-option.review-correct { border-color:var(--hijau-berhasil); background:rgba(76,175,130,0.08); }
+    .mc-option.review-wrong { border-color:var(--merah-salah); background:rgba(224,92,92,0.08); }
+    .mc-letter { display:flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:50%; background:#f0f0f0; font-weight:700; font-size:0.8rem; flex-shrink:0; }
+    .mc-option.selected .mc-letter { background:var(--langit-biru); color:white; }
+    .mc-option.review-correct .mc-letter { background:var(--hijau-berhasil); color:white; }
+    .mc-option.review-wrong .mc-letter { background:var(--merah-salah); color:white; }
+    .audio-btn { display:inline-flex; align-items:center; gap:8px; padding:10px 18px; border-radius:8px; border:1px solid #e0e0e0; background:white; cursor:pointer; font-size:0.9rem; margin-bottom:12px; min-height:44px; }
+    .audio-btn:hover { border-color:var(--langit-biru); background:#f8faff; }
+    .audio-btn.playing { border-color:var(--langit-biru); background:rgba(74,144,217,0.08); }
+    .result-screen { text-align:center; padding:40px 20px; }
+    .result-score { font-size:4rem; font-weight:800; margin:12px 0; }
+    .result-detail { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:24px 0; }
+    .result-stat { background:white; border-radius:12px; padding:16px; box-shadow:0 1px 4px rgba(0,0,0,0.06); }
+    .result-stat-value { font-size:1.8rem; font-weight:700; }
+    .review-list { max-height:500px; overflow-y:auto; }
+    @media (max-width:480px) { .sim-header { flex-direction:column; align-items:flex-start; } .result-detail { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sim-header">
+      <h1 style="font-size:1.2rem;margin:0">📝 Simulasi Open Test</h1>
+      <select id="yearSelect" class="form-input" style="min-width:100px">
+        <option value="2023">Tahun 2023</option>
+      </select>
+    </div>
 
-        <div class="container">
-            <!-- Header -->
-            <div class="header">
-                <h1>📝 Simulasi Ujian</h1>
-                <p id="simSubtitle">
-                    Simulasi ujian EPS-TOPIK format asli — 40 soal, 50 menit
-                </p>
-            </div>
+    <!-- Loading -->
+    <div id="loadingDiv" class="module-loading"><div class="spinner"></div><p>Memuat soal...</p></div>
+    <div id="errorDiv" class="module-empty" style="display:none"><p>Gagal memuat soal.</p><button class="btn btn-primary" onclick="location.reload()" style="margin-top:16px">Coba Lagi</button></div>
 
-            <!-- Info Simulasi -->
-            <div class="card" id="infoCard">
-                <div class="section-header">
-                    <span class="section-icon">📋</span>
-                    <span class="section-title">Informasi Simulasi</span>
-                </div>
-                <div
-                    style="
-                        display: grid;
-                        grid-template-columns: 1fr 1fr;
-                        gap: 12px;
-                        margin-bottom: 16px;
-                    "
-                >
-                    <div
-                        style="
-                            padding: 12px;
-                            background: #f8f9ff;
-                            border-radius: 8px;
-                            text-align: center;
-                        "
-                    >
-                        <div
-                            style="
-                                font-size: 1.5rem;
-                                font-weight: 800;
-                                color: var(--langit-biru);
-                            "
-                            id="totalSoal"
-                        >
-                            40
-                        </div>
-                        <div
-                            style="
-                                font-size: 0.8rem;
-                                color: var(--teks-sekunder);
-                            "
-                        >
-                            Total Soal
-                        </div>
-                    </div>
-                    <div
-                        style="
-                            padding: 12px;
-                            background: #f8f9ff;
-                            border-radius: 8px;
-                            text-align: center;
-                        "
-                    >
-                        <div
-                            style="
-                                font-size: 1.5rem;
-                                font-weight: 800;
-                                color: var(--langit-fajar);
-                            "
-                            id="waktu"
-                        >
-                            50:00
-                        </div>
-                        <div
-                            style="
-                                font-size: 0.8rem;
-                                color: var(--teks-sekunder);
-                            "
-                        >
-                            Waktu
-                        </div>
-                    </div>
-                </div>
-                <div
-                    style="
-                        padding: 12px;
-                        background: rgba(255, 140, 97, 0.08);
-                        border-radius: 8px;
-                        border-left: 3px solid var(--langit-fajar);
-                        margin-bottom: 12px;
-                    "
-                >
-                    <p
-                        style="
-                            font-size: 0.85rem;
-                            color: var(--teks-utama);
-                            margin-bottom: 8px;
-                        "
-                    >
-                        <strong>📊 Komposisi Ujian:</strong>
-                    </p>
-                    <p style="font-size: 0.85rem; color: var(--teks-sekunder)">
-                        • 20 soal Membaca (Tes Membaca Teks)<br />
-                        • 20 soal Mendengarkan (Tes Pemahaman Audio)<br />
-                        • Skor minimum kelulusan ditentukan oleh HRD Korea
-                    </p>
-                </div>
-                <div
-                    id="simulasiWarning"
-                    style="
-                        background: rgba(255, 140, 97, 0.1);
-                        padding: 12px;
-                        border-radius: 8px;
-                        margin-bottom: 16px;
-                        display: none;
-                    "
-                >
-                    <p style="font-size: 0.85rem; color: var(--langit-fajar)">
-                        ⚠️ <strong>Perhatian:</strong> Soal simulasi menggunakan
-                        soal Open Test tahun sebelumnya. Jangan bocorkan soal
-                        ini kepada orang lain!
-                    </p>
-                </div>
-            </div>
-
-            <!-- Tombol Mulai (Sebelum simulasi dimulai) -->
-            <div id="startSection">
-                <div class="card">
-                    <div class="section-header">
-                        <span class="section-icon">🚀</span>
-                        <span class="section-title"
-                            >Siap Mengerjakan Simulasi?</span
-                        >
-                    </div>
-                    <p
-                        style="
-                            color: var(--teks-sekunder);
-                            font-size: 0.9rem;
-                            margin-bottom: 16px;
-                        "
-                    >
-                        Simulasi ini menggunakan soal open test EPS-TOPIK tahun
-                        sebelumnya. Pastikan kamu sudah siap dan dalam
-                        lingkungan yang tenang sebelum mulai.
-                    </p>
-                    <div class="form-group">
-                        <label class="form-label" for="simType"
-                            >Pilih Tipe Simulasi</label
-                        >
-                        <select id="simType" class="form-input">
-                            <option value="full">
-                                Lengkap (40 soal — format asli)
-                            </option>
-                            <option value="reading">
-                                Hanya Membaca (20 soal)
-                            </option>
-                            <option value="listening">
-                                Hanya Mendengarkan (20 soal)
-                            </option>
-                        </select>
-                    </div>
-                    <button class="btn btn-fajar" onclick="startSimulation()">
-                        🚀 Mulai Simulasi Sekarang
-                    </button>
-                </div>
-            </div>
-
-            <!-- Progress Simulasi -->
-            <div id="simProgress" class="hidden" style="margin-bottom: 16px">
-                <div class="card">
-                    <div
-                        style="
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-                            margin-bottom: 8px;
-                        "
-                    >
-                        <span style="font-weight: 600">Progress Soal</span>
-                        <span
-                            style="
-                                font-size: 0.9rem;
-                                color: var(--teks-sekunder);
-                            "
-                            id="simProgressText"
-                            >Soal 1 dari 40</span
-                        >
-                    </div>
-                    <div class="progress-bar">
-                        <div
-                            class="progress-fill"
-                            id="simProgressBar"
-                            style="width: 0%"
-                        ></div>
-                    </div>
-                    <div
-                        style="
-                            display: flex;
-                            justify-content: space-between;
-                            margin-top: 8px;
-                        "
-                    >
-                        <span
-                            style="
-                                font-size: 0.8rem;
-                                color: var(--teks-sekunder);
-                            "
-                            >Sisa waktu:
-                            <strong id="simTime">50:00</strong></span
-                        >
-                        <span
-                            style="
-                                font-size: 0.8rem;
-                                color: var(--teks-sekunder);
-                            "
-                            >Skor sementara:
-                            <strong id="simScore">0</strong></span
-                        >
-                    </div>
-                </div>
-            </div>
-
-            <!-- Area Soal -->
-            <div id="simArea" class="hidden">
-                <div class="card" id="simQuestionCard">
-                    <div
-                        style="
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-                            margin-bottom: 12px;
-                        "
-                    >
-                        <span class="badge badge-free" id="simQType"
-                            >Membaca</span
-                        >
-                        <span
-                            style="
-                                font-size: 0.9rem;
-                                color: var(--teks-sekunder);
-                            "
-                            id="simQNum"
-                            >Soal 1</span
-                        >
-                    </div>
-                    <p
-                        class="korean-text"
-                        style="margin-bottom: 16px; font-size: 1.1rem"
-                        id="simQText"
-                    >
-                        Memuat soal...
-                    </p>
-
-                    <!-- Audio player untuk listening -->
-                    <div id="simAudioPlayer" class="audio-player hidden">
-                        <button class="audio-btn" id="simAudioBtn">▶</button>
-                        <audio id="simAudio" style="display: none"></audio>
-                        <span
-                            style="
-                                font-size: 0.85rem;
-                                color: var(--teks-sekunder);
-                            "
-                            >🔊 Putar audio soal</span
-                        >
-                    </div>
-
-                    <div class="options-grid" id="simOptions">
-                        <!-- Options diisi oleh JS -->
-                    </div>
-
-                    <div style="display: flex; gap: 10px; margin-top: 16px">
-                        <button
-                            class="btn btn-secondary"
-                            id="simPrevBtn"
-                            onclick="prevQuestion()"
-                            style="width: auto; padding: 12px 24px"
-                        >
-                            ← Sebelumnya
-                        </button>
-                        <button
-                            class="btn btn-primary"
-                            id="simNextBtn"
-                            onclick="nextQuestion()"
-                            style="flex: 1"
-                        >
-                            Selanjutnya →
-                        </button>
-                    </div>
-
-                    <div id="simFeedback" style="margin-top: 16px"></div>
-                </div>
-            </div>
-
-            <!-- Tombol Submit -->
-            <div
-                id="simSubmitSection"
-                class="hidden"
-                style="margin-bottom: 24px"
-            >
-                <button
-                    class="btn btn-success"
-                    onclick="submitSimulation()"
-                    id="simSubmitBtn"
-                >
-                    📊 Selesai & Lihat Hasil
-                </button>
-            </div>
-
-            <!-- Tombol Kembali -->
-            <div id="simBackSection" class="hidden" style="margin-bottom: 24px">
-                <button
-                    class="btn btn-secondary"
-                    onclick="navigateTo('dashboard.html')"
-                >
-                    ← Kembali ke Dashboard
-                </button>
-            </div>
-
-            <!-- Footer -->
-            <div
-                style="
-                    text-align: center;
-                    padding: 16px 0;
-                    color: var(--teks-sekunder);
-                    font-size: 0.8rem;
-                "
-            >
-                <p>
-                    Langit Korea © 2025 — Dibuat dengan ❤️ untuk pekerja migran
-                    Indonesia
-                </p>
-            </div>
+    <!-- Timer Bar -->
+    <div class="timer-bar" id="timerBar" style="display:none">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:4px">
+        <div>
+          <span class="section-badge membaca" id="sectionBadge">Membaca</span>
+          <span style="font-size:0.85rem;color:var(--teks-sekunder);margin-left:8px" id="progressText">Soal 1/40</span>
         </div>
+        <div class="timer-display" id="timerDisplay">50:00</div>
+      </div>
+      <div class="progress-track" style="margin-top:6px">
+        <div class="progress-fill" id="simProgress" style="width:0%"></div>
+      </div>
+    </div>
 
-        <script type="module">
-            import { supabase } from "./assets/js/supabase.js";
-            import { navigateTo } from "./assets/js/utils.js";
+    <!-- Navigation Dots -->
+    <div class="sim-nav" id="simNav" style="display:none"></div>
 
-            window.navigateTo = navigateTo;
+    <!-- Questions Container -->
+    <div id="questionArea"></div>
 
-            // ========== STATE ==========
-            let allQuestions = [];
-            let simQuestions = [];
-            let currentQIndex = 0;
-            let userAnswers = {};
-            let score = 0;
-            let timer = null;
-            let timeLeft = 50 * 60; // 50 menit dalam detik
-            let isRunning = false;
+    <!-- Navigation Buttons -->
+    <div id="navButtons" style="display:none;display:flex;justify-content:space-between;margin:16px 0;gap:12px">
+      <button class="btn btn-outline" id="prevBtn" onclick="Simulasi.prev()">← Sebelumnya</button>
+      <button class="btn btn-primary" id="nextBtn" onclick="Simulasi.next()">Berikutnya →</button>
+      <button class="btn btn-secondary" id="submitBtn" onclick="Simulasi.submit()" style="display:none">✅ Selesai & Submit</button>
+    </div>
+  </div>
 
-            // Dummy data untuk testing
-            const dummySimQuestions = [
-                {
-                    id: "st_01",
-                    tipe: "membaca",
-                    teks_soal: "(텍스트 한국어 읽기 1)",
-                    teks_soal_id: "(Teks bacaan 1)",
-                    pilihan_a: "A",
-                    pilihan_b: "B",
-                    pilihan_c: "C",
-                    pilihan_d: "D",
-                    jawaban: "b",
-                    penjelasan: "Penjelasan soal 1.",
-                },
-                {
-                    id: "st_02",
-                    tipe: "membaca",
-                    teks_soal: "(텍스트 한국어 읽기 2)",
-                    teks_soal_id: "(Teks bacaan 2)",
-                    pilihan_a: "A",
-                    pilihan_b: "B",
-                    pilihan_c: "C",
-                    pilihan_d: "D",
-                    jawaban: "c",
-                    penjelasan: "Penjelasan soal 2.",
-                },
-                {
-                    id: "st_03",
-                    tipe: "mendengarkan",
-                    teks_soal: "(듣기 텍스트 1)",
-                    teks_soal_id: "(Audio teks 1)",
-                    audio_url: "https://example.com/audio1.mp3",
-                    pilihan_a: "A",
-                    pilihan_b: "B",
-                    pilihan_c: "C",
-                    pilihan_d: "D",
-                    jawaban: "a",
-                    penjelasan: "Penjelasan soal 3.",
-                },
-                {
-                    id: "st_04",
-                    tipe: "membaca",
-                    teks_soal: "(텍스트 한국어 읽기 3)",
-                    teks_soal_id: "(Teks bacaan 3)",
-                    pilihan_a: "A",
-                    pilihan_b: "B",
-                    pilihan_c: "C",
-                    pilihan_d: "D",
-                    jawaban: "d",
-                    penjelasan: "Penjelasan soal 4.",
-                },
-                {
-                    id: "st_05",
-                    tipe: "mendengarkan",
-                    teks_soal: "(듣기 텍스트 2)",
-                    teks_soal_id: "(Audio teks 2)",
-                    audio_url: "https://example.com/audio2.mp3",
-                    pilihan_a: "A",
-                    pilihan_b: "B",
-                    pilihan_c: "C",
-                    pilihan_d: "D",
-                    jawaban: "b",
-                    penjelasan: "Penjelasan soal 5.",
-                },
-                {
-                    id: "st_06",
-                    tipe: "membaca",
-                    teks_soal: "(텍스트 한국어 읽기 4)",
-                    teks_soal_id: "(Teks bacaan 4)",
-                    pilihan_a: "A",
-                    pilihan_b: "B",
-                    pilihan_c: "C",
-                    pilihan_d: "D",
-                    jawaban: "a",
-                    penjelasan: "Penjelasan soal 6.",
-                },
-                {
-                    id: "st_07",
-                    tipe: "membaca",
-                    teks_soal: "(텍스트 한국어 읽기 5)",
-                    teks_soal_id: "(Teks bacaan 5)",
-                    pilihan_a: "A",
-                    pilihan_b: "B",
-                    pilihan_c: "C",
-                    pilihan_d: "D",
-                    jawaban: "c",
-                    penjelasan: "Penjelasan soal 7.",
-                },
-                {
-                    id: "st_08",
-                    tipe: "mendengarkan",
-                    teks_soal: "(듣기 텍스트 3)",
-                    teks_soal_id: "(Audio teks 3)",
-                    audio_url: null,
-                    pilihan_a: "A",
-                    pilihan_b: "B",
-                    pilihan_c: "C",
-                    pilihan_d: "D",
-                    jawaban: "d",
-                    penjelasan: "Penjelasan soal 8.",
-                },
-                {
-                    id: "st_09",
-                    tipe: "membaca",
-                    teks_soal: "(텍스트 한국어 읽기 6)",
-                    teks_soal_id: "(Teks bacaan 6)",
-                    pilihan_a: "A",
-                    pilihan_b: "B",
-                    pilihan_c: "C",
-                    pilihan_d: "D",
-                    jawaban: "b",
-                    penjelasan: "Penjelasan soal 9.",
-                },
-                {
-                    id: "st_10",
-                    tipe: "membaca",
-                    teks_soal: "(텍스트 한국어 읽기 7)",
-                    teks_soal_id: "(Teks bacaan 7)",
-                    pilihan_a: "A",
-                    pilihan_b: "B",
-                    pilihan_c: "C",
-                    pilihan_d: "D",
-                    jawaban: "a",
-                    penjelasan: "Penjelasan soal 10.",
-                },
-            ];
-
-            // ========== LOAD QUESTIONS ==========
-            async function loadQuestions() {
-                try {
-                    let data = [];
-                    try {
-                        const { data: supabaseData, error } = await supabase
-                            .from("soal_eps")
-                            .select("*")
-                            .eq("sumber", "open_test")
-                            .order("id", { ascending: true });
-
-                        if (error) throw error;
-                        data = supabaseData || [];
-                        console.log("Open test questions loaded:", data.length);
-                    } catch (e) {
-                        console.warn("Using dummy data for simulation:", e);
-                        data = dummySimQuestions;
-                    }
-
-                    allQuestions = data;
-
-                    // Jika data dari database kurang dari 40, tambahkan dummy
-                    if (allQuestions.length < 10) {
-                        allQuestions = [...allQuestions, ...dummySimQuestions];
-                    }
-
-                    console.log(
-                        "Total simulation questions:",
-                        allQuestions.length,
-                    );
-                } catch (error) {
-                    console.error("Error loading simulation questions:", error);
-                    allQuestions = dummySimQuestions;
-                }
-            }
-
-            // ========== START SIMULATION ==========
-            function startSimulation() {
-                const simType = document.getElementById("simType").value;
-
-                // Filter soal berdasarkan tipe
-                const readingQuestions = allQuestions.filter(
-                    (q) => q.tipe === "membaca",
-                );
-                const listeningQuestions = allQuestions.filter(
-                    (q) => q.tipe === "mendengarkan",
-                );
-
-                if (simType === "full") {
-                    simQuestions = [
-                        ...readingQuestions.slice(0, 10),
-                        ...listeningQuestions.slice(0, 10),
-                    ];
-                } else if (simType === "reading") {
-                    simQuestions = readingQuestions.slice(0, 10);
-                } else {
-                    simQuestions = listeningQuestions.slice(0, 10);
-                }
-
-                // Jika masih kurang, tambahkan dari dummy
-                if (simQuestions.length < 5) {
-                    simQuestions = dummySimQuestions.filter((q) => {
-                        if (simType === "reading") return q.tipe === "membaca";
-                        if (simType === "listening")
-                            return q.tipe === "mendengarkan";
-                        return true;
-                    });
-                }
-
-                // Acak soal
-                simQuestions = simQuestions.sort(() => Math.random() - 0.5);
-
-                // Reset state
-                currentQIndex = 0;
-                userAnswers = {};
-                score = 0;
-                timeLeft = 50 * 60;
-                isRunning = true;
-
-                // Update UI
-                document.getElementById("startSection").classList.add("hidden");
-                document.getElementById("infoCard").classList.add("hidden");
-                document
-                    .getElementById("simProgress")
-                    .classList.remove("hidden");
-                document.getElementById("simArea").classList.remove("hidden");
-                document
-                    .getElementById("simSubmitSection")
-                    .classList.remove("hidden");
-
-                // Mulai timer
-                startTimer();
-
-                // Tampilkan soal pertama
-                showQuestion();
-            }
-
-            // ========== TIMER ==========
-            function startTimer() {
-                clearInterval(timer);
-                timer = setInterval(() => {
-                    if (!isRunning) return;
-
-                    timeLeft--;
-                    if (timeLeft <= 0) {
-                        clearInterval(timer);
-                        isRunning = false;
-                        submitSimulation();
-                        return;
-                    }
-
-                    const minutes = Math.floor(timeLeft / 60);
-                    const seconds = timeLeft % 60;
-                    const timeStr = `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
-                    document.getElementById("simTime").textContent = timeStr;
-
-                    // Warning saat kurang dari 5 menit
-                    if (timeLeft <= 300) {
-                        document.getElementById("simTime").style.color =
-                            "var(--merah-salah)";
-                        document.getElementById("simTime").style.fontWeight =
-                            "800";
-                    } else if (timeLeft <= 600) {
-                        document.getElementById("simTime").style.color =
-                            "var(--kuning-sedang)";
-                    } else {
-                        document.getElementById("simTime").style.color =
-                            "var(--teks-utama)";
-                        document.getElementById("simTime").style.fontWeight =
-                            "400";
-                    }
-                }, 1000);
-            }
-
-            // ========== SHOW QUESTION ==========
-            function showQuestion() {
-                if (currentQIndex >= simQuestions.length) {
-                    submitSimulation();
-                    return;
-                }
-
-                const q = simQuestions[currentQIndex];
-                const isListening = q.tipe === "mendengarkan";
-
-                // Update progress
-                const progress =
-                    ((currentQIndex + 1) / simQuestions.length) * 100;
-                document.getElementById("simProgressBar").style.width =
-                    progress + "%";
-                document.getElementById("simProgressText").textContent =
-                    `Soal ${currentQIndex + 1} dari ${simQuestions.length}`;
-                document.getElementById("simScore").textContent = score;
-
-                // Update question display
-                document.getElementById("simQNum").textContent =
-                    `Soal ${currentQIndex + 1}`;
-                document.getElementById("simQType").textContent = isListening
-                    ? "Mendengarkan"
-                    : "Membaca";
-                document.getElementById("simQType").className =
-                    `badge ${isListening ? "badge-premium" : "badge-free"}`;
-                document.getElementById("simQText").textContent =
-                    q.teks_soal || q.teks_soal_id || "(Teks tidak tersedia)";
-
-                // Audio
-                const audioPlayer = document.getElementById("simAudioPlayer");
-                if (isListening && q.audio_url) {
-                    audioPlayer.classList.remove("hidden");
-                    document.getElementById("simAudio").src = q.audio_url;
-                } else {
-                    audioPlayer.classList.add("hidden");
-                }
-
-                // Options
-                const optionsContainer = document.getElementById("simOptions");
-                const options = [
-                    { key: "a", text: q.pilihan_a },
-                    { key: "b", text: q.pilihan_b },
-                    { key: "c", text: q.pilihan_c },
-                    { key: "d", text: q.pilihan_d },
-                ];
-
-                optionsContainer.innerHTML = options
-                    .map((opt) => {
-                        if (!opt.text) return "";
-                        const isSelected = userAnswers[q.id] === opt.key;
-                        return `
-                    <div class="option-card ${isSelected ? "selected" : ""}" onclick="selectSimAnswer('${q.id}', '${opt.key}', this)">
-                        <span class="option-letter">${opt.key.toUpperCase()}</span>
-                        <span class="korean-text">${opt.text}</span>
-                    </div>
-                `;
-                    })
-                    .join("");
-
-                // Navigation buttons
-                document.getElementById("simPrevBtn").style.display =
-                    currentQIndex === 0 ? "none" : "block";
-                document.getElementById("simNextBtn").textContent =
-                    currentQIndex === simQuestions.length - 1
-                        ? "📊 Selesai"
-                        : "Selanjutnya →";
-
-                // Clear feedback
-                document.getElementById("simFeedback").innerHTML = "";
-            }
-
-            // ========== SELECT ANSWER ==========
-            window.selectSimAnswer = function (questionId, answerKey, element) {
-                userAnswers[questionId] = answerKey;
-
-                // Update UI selection
-                const allCards =
-                    element.parentElement.querySelectorAll(".option-card");
-                allCards.forEach((c) => c.classList.remove("selected"));
-                element.classList.add("selected");
-            };
-
-            // ========== NEXT QUESTION ==========
-            function nextQuestion() {
-                if (currentQIndex < simQuestions.length - 1) {
-                    currentQIndex++;
-                    showQuestion();
-                } else {
-                    submitSimulation();
-                }
-            }
-
-            // ========== PREV QUESTION ==========
-            function prevQuestion() {
-                if (currentQIndex > 0) {
-                    currentQIndex--;
-                    showQuestion();
-                }
-            }
-
-            // ========== SUBMIT SIMULATION ==========
-            function submitSimulation() {
-                clearInterval(timer);
-                isRunning = false;
-
-                // Calculate score
-                score = 0;
-                const results = simQuestions.map((q) => {
-                    const userAnswer = userAnswers[q.id];
-                    const isCorrect = userAnswer === q.jawaban;
-                    if (isCorrect) score++;
-                    return { ...q, userAnswer, isCorrect };
-                });
-
-                const totalQuestions = simQuestions.length;
-                const percentage = Math.round((score / totalQuestions) * 100);
-                const readingCorrect = results.filter(
-                    (r) => r.tipe === "membaca" && r.isCorrect,
-                ).length;
-                const readingTotal = results.filter(
-                    (r) => r.tipe === "membaca",
-                ).length;
-                const listeningCorrect = results.filter(
-                    (r) => r.tipe === "mendengarkan" && r.isCorrect,
-                ).length;
-                const listeningTotal = results.filter(
-                    (r) => r.tipe === "mendengarkan",
-                ).length;
-
-                // Save result to Supabase (if logged in)
-                saveResult(score, totalQuestions, percentage);
-
-                // Show results
-                document.getElementById("simProgress").classList.add("hidden");
-                document.getElementById("simArea").classList.add("hidden");
-                document
-                    .getElementById("simSubmitSection")
-                    .classList.add("hidden");
-                document
-                    .getElementById("simBackSection")
-                    .classList.remove("hidden");
-
-                const resultHtml = `
-                <div class="card">
-                    <div class="section-header">
-                        <span class="section-icon">📊</span>
-                        <span class="section-title">Hasil Simulasi Ujian</span>
-                    </div>
-                    <div style="text-align: center; margin: 20px 0;">
-                        <div class="score-circle ${percentage >= 60 ? "pass" : "fail"}">
-                            <div class="score-number">${percentage}%</div>
-                            <div style="font-size: 0.85rem; color: var(--teks-sekunder);">${score}/${totalQuestions} benar</div>
-                        </div>
-                        <p style="font-size: 1.1rem; font-weight: 700; margin-top: 12px; color: ${percentage >= 60 ? "var(--hijau-berhasil)" : "var(--merah-salah)"};">
-                            ${percentage >= 60 ? "🎉 Selamat! Anda lulus!" : "💪 Jangan menyerah, coba lagi!"}
-                        </p>
-                    </div>
-
-                    <div class="stats" style="margin: 20px 0;">
-                        <div class="stat-card">
-                            <div class="stat-number">${readingCorrect}/${readingTotal}</div>
-                            <div class="stat-label">Membaca</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number">${listeningCorrect}/${listeningTotal}</div>
-                            <div class="stat-label">Mendengarkan</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number">${Math.round(timeLeft / 60)}:${(timeLeft % 60).toString().padStart(2, "0")}</div>
-                            <div class="stat-label">Sisa Waktu</div>
-                        </div>
-                    </div>
-
-                    <h4 style="margin: 16px 0 8px; color: var(--teks-utama);">📝 Review Soal</h4>
-                    ${results
-                        .map(
-                            (r, idx) => `
-                        <div style="padding: 12px; background: ${r.isCorrect ? "rgba(76,175,130,0.08)" : "rgba(224,92,92,0.08)"}; border-radius: 8px; margin-bottom: 8px; border-left: 3px solid ${r.isCorrect ? "var(--hijau-berhasil)" : "var(--merah-salah)"};">
-                            <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-                                <span style="font-weight: 600; font-size: 0.9rem;">Soal ${idx + 1} (${r.tipe === "mendengarkan" ? "🔊" : "📝"})</span>
-                                <span style="font-size: 0.85rem; color: ${r.isCorrect ? "var(--hijau-berhasil)" : "var(--merah-salah)"};">${r.isCorrect ? "✅ Benar" : "❌ Salah"}</span>
-                            </div>
-                            <p class="korean-text" style="font-size: 0.9rem; margin-bottom: 4px;">${r.teks_soal || r.teks_soal_id}</p>
-                            ${!r.isCorrect ? `<p style="font-size: 0.85rem; color: var(--teks-sekunder);">Jawaban Anda: ${r.userAnswer ? r.userAnswer.toUpperCase() : "(tidak dijawab)"} → Jawaban benar: ${r.jawaban.toUpperCase()}</p>` : ""}
-                            ${r.penjelasan ? `<p style="font-size: 0.8rem; color: var(--teks-sekunder); margin-top: 4px;">📖 ${r.penjelasan}</p>` : ""}
-                        </div>
-                    `,
-                        )
-                        .join("")}
-
-                    <div style="margin-top: 20px;">
-                        <button class="btn btn-primary" onclick="navigateTo('hasil-simulasi.html')">
-                            📊 Lihat Detail Hasil
-                        </button>
-                    </div>
-                </div>
-            `;
-
-                document.getElementById("startSection").innerHTML = resultHtml;
-                document.getElementById("simSubtitle").textContent =
-                    "Simulasi selesai!";
-            }
-
-            // ========== SAVE RESULT ==========
-            async function saveResult(score, total, percentage) {
-                try {
-                    const {
-                        data: { user },
-                    } = await supabase.auth.getUser();
-                    if (!user) return;
-
-                    await supabase.from("simulasi_hasil").insert({
-                        user_id: user.id,
-                        skor_membaca: 0,
-                        skor_mendengar: 0,
-                        skor_total: score,
-                        total_soal: total,
-                        durasi_detik: 50 * 60 - timeLeft,
-                        selesai_at: new Date(),
-                    });
-                } catch (e) {
-                    console.warn("Could not save result:", e);
-                }
-            }
-
-            // ========== INIT ==========
-            (async function init() {
-                await checkAuthState();
-                await loadQuestions();
-            })();
-        </script>
-    </body>
+  <script>
+    window.addEventListener('beforeunload', function(e) {
+      const state = localStorage.getItem('langitkorea_simulasi_state');
+      if (state) {
+        const parsed = JSON.parse(state);
+        if (!parsed.submitted) {
+          e.preventDefault();
+          e.returnValue = '';
+        }
+      }
+    });
+  </script>
+</body>
 </html>

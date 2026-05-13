@@ -58,6 +58,12 @@
                         Uji kemampuanmu dengan simulasi ujian EPS-TOPIK format asli. 
                         40 soal, 50 menit, seperti ujian sungguhan!
                     </p>
+                    <div style="margin-bottom: 16px;">
+                        <label style="font-size:0.9rem;font-weight:600;color:var(--teks-sekunder);margin-right:8px">Pilih Tahun:</label>
+                        <select id="simTahun" class="form-input" style="width:auto;display:inline-block;min-width:120px">
+                            <option value="2023">2023</option>
+                        </select>
+                    </div>
                     <button class="btn btn-primary" onclick="startSimulasi()">
                         🚀 Mulai Simulasi Open Test
                     </button>
@@ -66,7 +72,7 @@
                 <div class="card" style="margin-top: 16px;">
                     <h4 style="margin-bottom: 12px;">📋 Informasi Simulasi</h4>
                     <ul style="color: var(--teks-sekunder); font-size: 0.9rem; line-height: 2;">
-                        <li>⏱️ <strong>40 soal</strong> — 25 Membaca + 15 Mendengarkan</li>
+                        <li>⏱️ <strong>40 soal</strong> — 20 Membaca + 20 Mendengarkan</li>
                         <li>⏰ <strong>50 menit</strong> — Timer aktif saat mulai</li>
                         <li>📊 <strong>Passing score:</strong> 60% (24/40 benar)</li>
                         <li>🎧 Audio tersedia untuk soal mendengarkan</li>
@@ -173,7 +179,8 @@
         window.loadUnit = loadUnit;
 
         function startSimulasi() {
-            navigateTo('simulasi.html');
+            const year = document.getElementById('simTahun').value;
+            navigateTo(`simulasi.html?year=${year}`);
         }
 
         window.startSimulasi = startSimulasi;
