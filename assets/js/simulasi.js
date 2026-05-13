@@ -11,6 +11,17 @@ export const Simulasi = {
   letters: ['A','B','C','D'],
 
   async init() {
+    try {
+      // Check auth first
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) {
+        window.location.href = 'login.html';
+        return;
+      }
+    } catch (e) {
+      console.warn('Auth check failed, continuing anyway:', e);
+    }
+
     const params = new URLSearchParams(location.search);
     const year = parseInt(params.get('year')) || 2023;
     
@@ -404,16 +415,27 @@ export const Simulasi = {
   },
 };
 
-// Assign to window for onclick handlers
+// Assign to window for onclick handlers  
 window.Simulasi = Simulasi;
 
-// Init
-(async function() {
+// Hide JS loading indicator
+const jsStatus = document.getElementById('jsStatus');
+if (jsStatus) jsStatus.style.display = 'none';
+
+document.addEventListener('DOMContentLoaded', async () => {
   try {
+    const loading = document.getElementById('loadingDiv');
+    if (loading) loading.innerHTML = '<div class="spinner"></div><p>Memuat soal...</p>';
+
     await Simulasi.init();
   } catch (e) {
     console.error('Simulasi init error:', e);
-    document.getElementById('loadingDiv').style.display = 'none';
-    document.getElementById('errorDiv').style.display = 'block';
+    const loading = document.getElementById('loadingDiv');
+    const error = document.getElementById('errorDiv');
+    if (loading) loading.style.display = 'none';
+    if (error) {
+      error.style.display = 'block';
+      error.innerHTML = '<p>Gagal memuat: ' + e.message + '</p><button class="btn btn-primary" onclick="location.reload()">Coba Lagi</button>';
+    }
   }
-})();
+});
