@@ -232,6 +232,88 @@ def _process_listening_pdf(args, listening_items, _glob, split_listening_items_f
             err = str(e).encode("ascii", errors="replace").decode("ascii")
             print(f"  Listening PDF error: {err[:80]}")
 
+# ── Image Extraction ──
+
+def _extract_and_save_images(pdf_pattern, year, supabase):
+    """Extract images from reading PDF, match to questions, upload to Storage."""
+    import glob as _g, hashlib, os
+    import fitz
+    bucket = STORAGE_BUCKET
+    for path in _g.glob(pdf_pattern):
+        safe = path.encode("ascii", errors="replace").decode("ascii")
+        print("Images:", safe[:60])
+        doc = fitz.open(path)
+        
+        # Get text blocks with positions
+        all_blocks = []
+        for i in range(len(doc)):
+            pd = doc[i].get_text("dict")
+            for b in pd.get("blocks", []):
+                if b["type"] == 0:
+                    for line in b.get("lines", []):
+                        t = "".join(s["text"] for s in line.get("spans", []))
+                        if t.strip():
+                            bb = line["bbox"]
+                            all_blocks.append({"text": t.strip(), "page": i+1, "y0": bb[1]})
+        
+        # Build question y-ranges
+        q_ranges = []
+        cur = None
+        for blk in all_blocks:
+            m = re.match(r"\s*(\d{1,2})\s*[\.\s\)]", blk["text"])
+            if m:
+                n = int(m.group(1))
+                if 1 <= n <= 20:
+                    if cur:
+                        cur["y1"] = blk["y0"]
+                    cur = {"number": n, "y0": blk["y0"], "y1": float('inf'), "page": blk["page"]}
+                    q_ranges.append(cur)
+            if cur and cur["y1"] == float('inf'):
+                cur["y1"] = blk.get("y1", blk["y0"] + 20) if "y1" in blk else blk["y0"] + 20
+        
+        # Extract and match images
+        matched = 0
+        for i in range(len(doc)):
+            page = doc[i]
+            for img in page.get_images(full=True):
+                xref = img[0]
+                base = doc.extract_image(xref)
+                if base and base["width"] > 30 and base["height"] > 30:
+                    # Find image y-position
+                    img_y0, img_page = i * 200, i+1  # fallback: estimate by page
+                    try:
+                        for ib in page.get_image_bbox():
+                            if ib[0] == xref:
+                                img_y0 = ib[2]
+                                break
+                    except:
+                        pass
+                    
+                    matched_q = 0
+                    for qr in q_ranges:
+                        if img_page == qr["page"] and qr["y0"] - 50 <= img_y0 <= qr["y1"] + 200:
+                            matched_q = qr["number"]
+                            break
+                    
+                    sha = hashlib.sha256(base["image"]).hexdigest()[:16]
+                    ext = base["ext"]
+                    fname = "open_test_{}_q{}_img_{}.{}".format(year, matched_q, sha, ext)
+                    spath = "open_test/{}/images/{}".format(year, fname)
+                    
+                    try:
+                        supabase.storage.from_(bucket).upload(spath, base["image"], {"content-type": "image/{}".format(ext)})
+                    except:
+                        pass
+                    url = supabase.storage.from_(bucket).get_public_url(spath)
+                    
+                    if matched_q:
+                        supabase.table("soal_eps").update({"gambar_url": url}).eq("sumber", "open_test").eq("tahun_soal", year).eq("nomor_asli", matched_q).execute()
+                        matched += 1
+                        print("  Q{} <- image".format(matched_q))
+        
+        doc.close()
+        print("  {} images matched to questions".format(matched))
+
 # ── Main ──
 
 def main():
@@ -574,6 +656,9 @@ def main():
         except (EOFError, KeyboardInterrupt):
             ans = "n"
 
+    if args.pdf and not args.no_insert:
+        _extract_and_save_images(args.pdf, year, supabase)
+    
     if ans.lower() == "y":
         ok = 0
         skip = 0
@@ -581,7 +666,6 @@ def main():
             try:
                 exist = supabase.table("soal_eps").select("id").eq("sumber", "open_test").eq("tahun_soal", year).eq("nomor_asli", row["nomor_asli"]).execute()
                 if exist.data and len(exist.data) > 0:
-                    # Update existing record with new data (text, options, audio)
                     supabase.table("soal_eps").update(row).eq("sumber", "open_test").eq("tahun_soal", year).eq("nomor_asli", row["nomor_asli"]).execute()
                     ok += 1
                     print("  UPD q{:02d} ({})".format(row["nomor_asli"], row["tipe"]))
