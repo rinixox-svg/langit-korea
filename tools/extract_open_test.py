@@ -235,8 +235,8 @@ def _process_listening_pdf(args, listening_items, _glob, split_listening_items_f
 # ── Image Extraction ──
 
 def _extract_and_save_images(pdf_pattern, year, supabase):
-    """Extract images from reading PDF, match to questions by PAGE, upload to Storage."""
-    import glob as _g, hashlib, os
+    """Extract all images from PDF, store multiple per question via gambar_materi table + JSON array in gambar_url."""
+    import glob as _g, hashlib, os, json
     import fitz
     bucket = STORAGE_BUCKET
     for path in _g.glob(pdf_pattern):
@@ -244,7 +244,7 @@ def _extract_and_save_images(pdf_pattern, year, supabase):
         print("Images:", safe[:60])
         doc = fitz.open(path)
         
-        # Build page->question mapping
+        # Build page->question mapping (question numbers per page)
         page_q = {}
         for i in range(len(doc)):
             pd = doc[i].get_text("dict")
@@ -258,8 +258,10 @@ def _extract_and_save_images(pdf_pattern, year, supabase):
                             if 1 <= n <= 20:
                                 page_q.setdefault(i+1, []).append(n)
         
-        # Extract all images
-        matched = 0
+        # Track images per question for JSON array storage
+        question_images = {}  # qnum -> [url, url, ...]
+        image_sequence = {}   # qnum -> counter
+        
         for i in range(len(doc)):
             page = doc[i]
             pnum = i + 1
@@ -272,15 +274,17 @@ def _extract_and_save_images(pdf_pattern, year, supabase):
                     sha = hashlib.sha256(base["image"]).hexdigest()[:16]
                     ext = base["ext"]
                     
-                    # Assign to specific or first question on page
-                    if len(questions_on_page) == 1:
+                    if len(questions_on_page) >= 1:
                         matched_q = questions_on_page[0]
-                    elif len(questions_on_page) > 1:
-                        matched_q = questions_on_page[0]  # first question on page
                     else:
                         matched_q = 0
                     
-                    fname = "open_test_{}_q{}_img_{}.{}".format(year, matched_q, sha, ext)
+                    if matched_q not in image_sequence:
+                        image_sequence[matched_q] = 0
+                    image_sequence[matched_q] += 1
+                    seq = image_sequence[matched_q]
+                    
+                    fname = "open_test_{}_q{:02d}_img{}.{}".format(year, matched_q, seq, ext)
                     spath = "open_test/{}/images/{}".format(year, fname)
                     
                     try:
@@ -290,12 +294,37 @@ def _extract_and_save_images(pdf_pattern, year, supabase):
                     url = supabase.storage.from_(bucket).get_public_url(spath)
                     
                     if matched_q:
-                        supabase.table("soal_eps").update({"gambar_url": url}).eq("sumber", "open_test").eq("tahun_soal", year).eq("nomor_asli", matched_q).execute()
-                        matched += 1
-                        print("  Q{} <- image (page {})".format(matched_q, pnum))
+                        # Store in gambar_materi table
+                        try:
+                            supabase.table("gambar_materi").insert({
+                                "unit": year,
+                                "kategori": "open_test",
+                                "sub": matched_q,
+                                "urutan": seq,
+                                "storage_url": url,
+                                "lebar": base["width"],
+                                "tinggi": base["height"],
+                                "akses": "free",
+                            }).execute()
+                        except:
+                            pass
+                        
+                        # Track for JSON array update
+                        question_images.setdefault(matched_q, []).append(url)
+                        print("  Q{:02d} img{} <- {} ({}x{})".format(matched_q, seq, fname, base["width"], base["height"]))
         
+        # Update soal_eps with JSON array of all image URLs
+        for qnum, urls in question_images.items():
+            json_urls = json.dumps(urls)
+            try:
+                supabase.table("soal_eps").update({"gambar_url": json_urls}).eq("sumber", "open_test").eq("tahun_soal", year).eq("nomor_asli", qnum).execute()
+            except:
+                pass
+            print("  Q{:02d}: {} image(s) stored".format(qnum, len(urls)))
+        
+        total = sum(len(v) for v in question_images.values())
         doc.close()
-        print("  {} images matched to questions".format(matched))
+        print("  {} total images matched to questions".format(total))
 
 # ── Main ──
 
