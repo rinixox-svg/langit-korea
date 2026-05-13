@@ -47,49 +47,63 @@ def extract_options(text: str) -> List[Dict[str, str]]:
     """Extract multiple-choice options from text.
 
     Supports formats:
-    - ① text ② text ③ text ④ text  (Korean standard)
+    - ① text ② text ③ text ④ text  (Korean standard, single line)
+    - ① text\n② text\n③ text\n④ text (Korean standard, multi line)
     - (A) text (B) text (C) text (D) text
-    - Fallback: split by common patterns
+    - Fallback: split by newlines
 
     Returns list of {"label": "①"/"(A)", "text": "..."}
     """
     if not text or not text.strip():
         return []
 
-    # ASSUMPTION: Korean circled numbers are the primary format in EPS-TOPIK
-    # Try circled numbers ①②③④
     opts = []
+
+    # Strategy 1: Find all circled numbers on separate lines
+    lines = text.split("\n")
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+        # Match: ① text (circled at start of line)
+        m = re.match(r"^([\u2460-\u2463])\s*(.*)", line)
+        if m:
+            opt_text = m.group(2).strip().rstrip("|").strip()
+            if opt_text:
+                opts.append({"label": m.group(1), "text": opt_text})
+                continue
+
+    if len(opts) >= 2:
+        return opts
+
+    # Strategy 2: Find all circled numbers inline (same line)
     for m in OPTION_CIRCLED_RE.finditer(text):
         label = m.group(1)
-        opt_text = m.group(2).strip()
-        if opt_text:
+        opt_text = m.group(2).strip().rstrip("|").strip()
+        if opt_text and not any(o["label"] == label for o in opts):
             opts.append({"label": label, "text": opt_text})
 
     if len(opts) >= 2:
         return opts
 
-    # Try (A)(B)(C)(D) format
-    opts = []
+    # Strategy 3: (A)(B)(C)(D) format
+    opts_paren = []
     for m in OPTION_PAREN_RE.finditer(text):
         label = f"({m.group(1).upper()})"
         opt_text = m.group(2).strip()
         if opt_text:
-            opts.append({"label": label, "text": opt_text})
+            opts_paren.append({"label": label, "text": opt_text})
+    if len(opts_paren) >= 2:
+        return opts_paren
 
-    if len(opts) >= 2:
-        return opts
-
-    # ASSUMPTION: If no standard format found, try splitting by newlines
-    # Each line might be one option
-    lines = [l.strip() for l in text.split("\n") if l.strip()]
-    if len(lines) >= 2:
-        # Check if lines look like options (short phrases, no question numbers)
-        non_short = sum(1 for l in lines if len(l.split()) > 8)
-        if non_short < len(lines) // 2:
-            for i, line in enumerate(lines):
-                labels = ["①", "②", "③", "④"]
-                if i < 4:
-                    opts.append({"label": labels[i], "text": line[:500]})
+    # Strategy 4: fallback — split by newlines
+    clean_lines = [l.strip() for l in lines if l.strip()]
+    if len(clean_lines) >= 2:
+        non_short = sum(1 for l in clean_lines if len(l.split()) > 8)
+        if non_short < len(clean_lines) // 2:
+            labels = ["①", "②", "③", "④"]
+            for i, line in enumerate(clean_lines[:4]):
+                opts.append({"label": labels[i], "text": line[:500]})
             return opts
 
     return opts
