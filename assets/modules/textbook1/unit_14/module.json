@@ -4,7 +4,7 @@
   "unit": 14,
   "title_ko": "길 찾기",
   "title_en": "GETTING DIRECTIONS",
-  "title_id": "",
+  "title_id": "Mencari arah",
   "source_pdf": "assets/modules/textbook1/unit_14/source.pdf",
   "page_start": 181,
   "page_end": 190,
@@ -61,6 +61,165 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 181,
+        "image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "14 길 찾기 \n GETTING DIRECTIONS 181\n 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example.\n가 : 자동차가 어디에 있어요?\n나 : 건물 앞에 있어요.\n[ 보기 ]\n⑴\n가 : 병원이 어디에 있어요?\n나 : .\n⑵\n가 : 약국이 어디에 있어요?\n나 : .\n⑶\n가 : 가방이 어디에 있어요?\n나 : .\n어휘 VOCABULARY\n위치와 방향 Location and Directions\n(의자) 위\non (the chair)\n(의자) 아래/밑\nunder/beneath (the chair)\n(건물) 앞\nin front of (the building)\n(건물) 뒤\nbehind (the building)\n(건물) 안\ninside (the building)\n(건물) 밖\noutside (the building)\n(건물) 옆\nnext to (the building)\n(건물) 사이\nbetween (the buildings)\n왼쪽 \nleft hand side\n오른쪽 \nright hand side\n건너편/맞은편\nacross from/opposite\n이쪽 this way\n저쪽 that way\n그쪽 over there\n어느 쪽 which way\n층 floor\n위치 명사는 기준이 \n되는 사물 뒤에 온다.\nLocation nouns come \nafter the reference \nobject.\n예 의자 위\n \n건물 앞",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 182,
+        "image": "assets/modules/textbook1/unit_14/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "182 한국어 표준교재 1\n문법 GRAMMAR\n(으)로(방향)\n'(으)로'가 구체 명사에 붙으면 수단, \n방법, 도구, 재료를 나타낸다.\nWhen '(으)로' is attached to a concrete \nnoun, it indicates means, method, \ntool, or material.\n예 빗자루로 바닥을 쓸어요.\n \n자전거로 출퇴근해요.\n‘(으)로’가 장소 명사와 결합하면 행위의 방향이나 목적지를 \n나타낸다.\n‘(으)로’ combines with a noun to show the direction or \ndestination of an action.\n받침 ○\n으로\n오른쪽으로\n받침 ×, 받침 ‘ㄹ’\n로\n아래로\n서울로\n예 여기에서 오른쪽으로 가야 해요.\n \n마두 씨는 어디로 갔어요?\n \n이 기차는 서울로 가요.\n1. 맞는 것에 ◯ 하세요. Circle the correct option.\n⑴ 닛차난 씨는 어느 쪽( 으로 / 로 ) 갔어요?\n⑵ 마두 씨는 5층( 으로 / 로 ) 갔어요.\n⑶ 지금 사무실( 으로 / 로 ) 가야 돼요.\n⑷ 기숙사 안( 으로 / 로 ) 가야 돼요.\n⑸ 칼로 씨는 아래( 으로 / 로 ) 갔어요.\n⑹ 프엉 씨 방은 여기에서 왼쪽( 으로 / 로 ) 가야 돼요.\n2. [보기]와 같이 대화해 보세요. Practice speaking as shown in the example.\n가 : 어디로 가야 돼요?\n나 : 오른쪽으로 가야 돼요.\n[ 보기 ]\n⑴\n⑵\n⑶\n⑷",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 183,
+        "image": "assets/modules/textbook1/unit_14/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "14 길 찾기 \n GETTING DIRECTIONS 183\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•휴게실 건너편, 왼쪽\n•계단 옆, 오른쪽\n가 : 어디에 가요?\n나 : 디안 씨 방에 가요. \n디안 씨 방은 어디에 있어요?\n가 : 디안 씨 방은 휴게실 건너편에\n있어요. 왼쪽으로 가야 돼요.\n발음 │ PRONUNCIATION\nㅈ,ㅉ,ㅊ\n‘ㅈ, ㅉ, ㅊ’는 경구개 파열음이다. ‘ㅉ’는 공기의 세기가 가장 약한 자음이고, ‘ㅊ’는 공기\n의 세기가 가장 센 자음이다. ‘ㅈ’는 평음으로 공기의 세기가 두 자음의 중간 정도이다.\n‘ㅈ, ㅉ, ㅊ’ are palatal affricates. ‘ㅉ’ is pronounced with the weakest aspiration, \n‘ㅊ’ with the strongest, and ‘ㅈ’ with moderate aspiration.\n⑴ 자, 짜, 차 : 조, 쪼, 초\n⑵ 자주, 짜다, 치마\n대화 CONVERSATION\n칼 로 \n왕민 씨, 어디 가요?\n \nWangmin, where are you going?\n왕 민 \n마두 씨 방에 가요. 마두 씨 방은 어디에 \n있어요?\n \nI’m going to Madhu's room. Where is Madhu's \nroom?\n칼 로 \n마두 씨 방은 휴게실 옆에 있어요. \n2층으로 가야 돼요.\n \nMadhu's room is next to the lounge. You need to \ngo to the 2nd floor.\n왕 민 \n고마워요.\n \nThank you.\n대답해 봐요! ANSWER ME!\n1 왕민 씨는 어디에 가요? Where is Wangmin going?\n2 마두 씨의 방은 몇 층에 있어요? What floor is Madhu's room on?\n93\n94",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 184,
+        "image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "184 한국어 표준교재 1\n어휘 VOCABULARY\n이동 동사 Movement Verbs\n내려가다\nto go down\n올라가다\nto go up\n내려오다\nto come down\n올라오다\nto come up\n들어가다\nto go in\n나가다\nto go out\n들어오다\nto come in\n나오다\nto come out\n횡단보도\ncrosswalk\n육교\noverpass\n건너가다\nto cross \n(the street)\n옥상 rooftop\n지하 underground\n근처 nearby\n사거리 intersection\n마트 mart\n 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.\n⑴\n가 : 아지자 씨는 어디에 있어요?\n나 : 2층에 있어요. .\n⑵\n가 : 은행은 어디에 있어요?\n나 : 건너편에 있어요. . \n⑶\n가 : 화장실이 어디에 있어요?\n나 : 1층에 있어요. .\n⑷\n가 : 프엉 씨, 어디에 있어요?\n나 : 3층에 있어요. .\n※ S(Speaker, 화자)\n(가)\n(나)\n(나)\n(가)\n(가)\n(나)",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 185,
+        "image": "assets/modules/textbook1/unit_14/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "14 길 찾기 \n GETTING DIRECTIONS 185\n문법 GRAMMAR\n-(으)세요\n‘-(으)세요’는 명령할 때 주로 사용하\n고, ‘-아/어 주세요’는 부탁하거나 요\n청할 때 주로 사용한다.\n‘-(으)세요’ is typically used when \ngiving commands, and ‘-아/어 주세요’ \nis mainly used when making a request \nor asking for a favor.\n예 문을 좀 닫아 주세요.\n‘-(으)세요’는 동사에 붙여 듣는 사람에게 어떠한 행동을 할 \n것을 명령하거나 요청할 때 사용한다.\n‘-(으)세요’ is attached to a verb to command or request the \nlistener to perform a certain action.\n받침 ○\n-으세요\n \n닦다 → 닦으세요\n받침 ×, 받침 ‘ㄹ’\n-세요\n \n가다 → 가세요\n \n밀다 → 미세요\n예 창문을 닦으세요.\n \n2층으로 올라가세요.\n \n내일은 일찍 출근하세요.\n1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.\n오다 들어가다 건너가다 내려가다 \n \n⑴ 약국은 건물 안에 있어요. 건물 안으로 \n.\n \n⑵ 4층에는 화장실이 없어요. 3층으로 \n.\n \n⑶ 편의점은 맞은편에 있어요. 횡단보도를 \n.\n \n⑷ 내일 우리 집에서 프엉 씨 생일 파티를 할 거예요. 6시에 우리 집에 \n.\n2. 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the picture and complete the conversations as shown in the example.\n가 : 병원이 어디에 있어요?\n나 : 3층에 있어요. 3층으로 올라가세요.\n[ 보기 ]\n⑴가 : 편의점이 어디에 있어요?\n나 : . \n⑵가 : 우체국이 어디에 있어요?\n나 : .\n⑶가 : 약국이 어디에 있어요?\n나 : .\n⑷가 : 커피숍이 어디에 있어요?\n나 : .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 186,
+        "image": "assets/modules/textbook1/unit_14/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "186 한국어 표준교재 1\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•병원, \n오른쪽으로 가다\n•우체국, \n왼쪽으로 가다\n가 : 이 근처에 병원이 있어요?\n나 : 네. 사거리에서 오른쪽으로 가세요. \n가 : 감사합니다.\n가 : 말씀 좀 여쭙겠습니다. 지하철역에 어떻게 가요?\nExcuse me, may I ask you something? How do I get to the subway \nstation?\n나 : 저기 사거리에서 오른쪽으로 가세요.\nGo right at the intersection over there.\n유용한 표현 │ USEFUL EXPRESSION\n말씀 좀 \n여쭙겠습니다.\nExcuse me, may I ask \nyou something?\n대화 CONVERSATION\n유수프 \n회사 근처에 약국이 있어요?\n \nIs there a pharmacy near the office?\n프\n엉 \n네, 가까워요. 마트 안에 있어요.\n \nYes, it's close. It’s inside the mart.\n유수프 \n마트에 어떻게 가요?\n \nHow do I get to the mart?\n프\n엉 \n회사 앞 사거리에서 오른쪽으로 가세요.\n그러면 마트가 있어요.\n \nGo right at the intersection in front of the office. \nThen, you’ll see the mart.\n유수프 \n감사합니다.\n \nThank you.\n대답해 봐요! ANSWER ME!\n1 약국이 어디에 있어요? Where is the pharmacy?\n2 마트에 어떻게 가요? How do they get to the mart?\n95\n96",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 187,
+        "image": "assets/modules/textbook1/unit_14/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "14 길 찾기 \n GETTING DIRECTIONS 187\n문화와 정보 CULTURE & INFORMATION\n14 길 찾기 \n GETTING DIRECTIONS 187\n한국에서는 ‘도로명 주소’를 \n사용합니다. 도로명 주소란 지\n정된 도로명을 기준으로 주소를 \n표기하는 것을 말하는데, 도로\n의 이름이 기준이기 때문에 주\n소를 알기 쉽습니다. 그래서 도\n로명 주소만 있으면 원하는 곳\n을 찾아갈 수 있습니다. 위의 예를 보면 알 수 있듯이 한국의 도\n로명 주소는 영어와는 반대로 큰 단위부터 시작하여 점차 작은 \n단위로 적습니다. 도로명 주소는 다음과 같이 구성됩니다.\nIn Korea, ‘street name addresses’ are used. A street name \naddress refers to an address system based on designated \nstreet names, making it easy to find an address because the \nstreet name is the reference point. So, as long as you have \nthe street name, you can find your destination. As shown in \nthe example above, Korean addresses start with a large unit \nand gradually move to smaller units, which is the opposite of \nhow it is written in English. Addresses in Korea are structured \nas follows:\n•시/도 : 해당 건물이 위치한 ‘시’나 ‘도’를 나타냅니다. 위에\n서는 ‘서울특별시’와 ‘울산광역시’가 이에 해당합니다.\nCity/Province: Indicates the city or province where the \nbuilding is located. In the example, this is ‘Seoul’ and ‘Ulsan \nMetropolitan City’.\n•시/군/구 : ‘시’나 ‘도’의 하위 행정구역을 나타냅니다. 특별\n시나 광역시의 경우 ‘구’나 ‘군’, ‘도’의 경우 ‘시’ 또는 ‘군’이 \n쓰입니다. 위에서는 ‘종로구’와 ‘중구’가 이에 해당합니다.\nDistrict/County/Neighborhood: Refers to the administrative \ndistrict under the city or province. In the case of special cities \nor metropolitan cities, ‘구 (district)’ or ‘군 (county)’ is used and \nin the case of provinces, ‘시 (city)’ or ‘군 (county)’ is used. In \nthe example, this is ‘Jongno-gu’ and ‘Jung-gu’.\n•도로명 : 해당 건물이 위치한 도로의 이름을 나타냅니다. 8\n차로 이상일 경우에는 ‘대로’, 2차로에서 7차로까지는 ‘로’, \n‘로’보다 좁은 길은 ‘길’로 구분됩니다. 예를 들어, ‘달구벌대\n로’, ‘테헤란로’, ‘소담길’ 등이 있습니다. 위에서는 ‘사직로’와 \n‘종가로’가 이에 해당합니다.\nStreet Name: Indicates the name of the street where the \nbuilding is located. Roads with eight or more lanes are called \n‘daero’, roads with two to seven lanes are called ‘ro’, and \nsmaller roads are called ‘gil’. Examples include ‘Dalgubeol-\ndaero’, ‘Teharan-ro’, and ‘Sodam-gil’. In the example this is \n‘Sajik-ro’ and ‘Jongga-ro’.\n•건물 번호 : 해당 건물의 번호를 나타냅니다. 왼쪽 건물은 \n홀수, 오른쪽 건물은 짝수로 표시합니다. 위에서는 161과 \n345가 이에 해당합니다.\nBuilding Number: Indicates the number of the building. Odd \nnumbers are on the left side of the street, and even numbers \nare on the right side. In the example, this is 161 and 345.\n도로명 주소\nStreet Addresses\n장 소\n언어\n주소\n경복궁\n(한글)\n서울특별시 종로구 사직로 161\n(영어)\n161, Sajik-ro, Jongno-gu, Seoul, Republic of Korea\n한국산업\n인력공단\n(한글)\n울산광역시 중구 종가로 345\n(영어)\n345, Jongga-ro, Jung-gu, Ulsan, Republic of Korea\n• 위치와 방향에 대해 묻고 대답할 수 있다. I can ask and answer questions about location and directions. ↻\n• 명령형 문장을 사용해 다른 사람에게 지시할 수 있다. \nI can use imperative sentences to give instructions to others. \n↻\n• 이동 동사의 의미를 알고 상황에 맞게 사용할 수 있다. \nI can understand the meaning of movement verbs and use them appropriately in context. \n↻\n확인해요 │ self assessment",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 188,
+        "image": "assets/modules/textbook1/unit_14/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n188 한국어 표준교재 1\n[1~2] 다음 내용과 관계있는 그림을 고르십시오.\n1.\n내려와요.\n①\n②\n③\n④\n2.\n왼쪽으로 가요.\n①\n②\n③\n④\n3. 다음 내용과 관계있는 것을 고르십시오.\n아래\n① 위치 \n② 국적 \n③ 취미 \n④ 가족\n4. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.\n① 여기에 이름이 쓰세요. \n② 이 층으로 올라가세요.\n③ 여기에서 손에 씻으세요. \n④ 사무실 안에서 들어오세요.\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국에서는 ‘도로명 주소’를 사용합니다. 도로의 이름을 기준으로 주소를 표기하기 때문에 쉽게 위치를 \n파악할 수 있습니다. 한국의 도로명 주소는 영어 주소 표기 방식과 달리 ‘도시명, 구, 도로명, 건물 번호’와 \n같이 큰 단위에서 작은 단위의 순서로 표기합니다. \n① 한국의 도로명 주소를 쓰는 순서는 영어와 같습니다.\n② 한국의 도로명 주소를 보고 길을 찾는 것은 쉽지 않습니다.\n③ 한국의 도로명 주소에서는 도시의 이름을 표기하지 않습니다.\n④ 한국의 도로명 주소에는 건물의 번호가 가장 나중에 나옵니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 189,
+        "image": "assets/modules/textbook1/unit_14/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n14 길 찾기 \n GETTING DIRECTIONS 189\n[1~2] 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n1.\n① 병원이 있어요. \n② 오후에 병원에 가요.\n③ 마트 맞은편에 있어요. \n④ 마트는 여기에서 멀어요.\n2.\n① 환전하러 은행에 가요. \n② 신분증을 가지고 가세요.\n③ 은행은 네 시 반에 문을 닫아요. \n④ 편의점 앞에서 오른쪽으로 가세요.\n[3~5] 다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n3.\n①\n안내\n3F\n영화관\n2F\n편의점\n1F\n식당\nB1\n주차장\n②\n안내\n3F\n영화관\n2F\n식당\n1F\n편의점\nB1\n주차장\n③\n안내\n3F\n주차장\n2F\n영화관\n1F\n편의점\nB1\n식당\n④\n안내\n3F\n식당\n2F\n영화관\n1F\n편의점\nB1\n주차장\n4.\n①\n②\n③\n④\n5.\n①\n②\n③\n④\n1. \n남 : 병원이 어디에 있어요?\n2. 남 : 은행에 어떻게 가요?\n3. 남 : 식당은 몇 층에 있어요? \n여 : 식당은 2층에 있어요.\n4. 남 : 자동차가 어디에 있어요? \n여 : 건물 사이에 있어요.\n5. 남 : 약국이 어디에 있어요? \n \n여 : 약국이 병원 옆에 있어요.\n듣기지문\n97",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 190,
+        "image": "assets/modules/textbook1/unit_14/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "190 한국어 표준교재 1\n학습 목표\nLEARNING OBJECTIVES\n옷차림에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about clothing.\n물건의 색깔을 말할 수 있다.\nCan talk the color of objects.\n옷차림 \nClothing\nC H A P T E R 1 5\n-고 있다(상태)\n-(으)ㄴ\nGRAMMAR\n문법\n옷과 액세서리\nClothing and Accessories\n색깔\nColors\nVOCABULARY\n어휘\n한국의 전통 의상\nKorea's Traditional Clothing\nCULTURE & INFORMATION\n문화와 정보\n190 한국어 표준교재 1\n머리가 짧은 사람이에요. 검은색 옷을 입고 있어요. \n마두 씨가 누구예요?\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "audio": [
       {
         "track": 93,
@@ -88,16 +247,927 @@
         "audio_url": "assets/modules/textbook1/audio/unit_14/track_097.mp3"
       }
     ],
-    "vocab": [],
-    "grammar": [],
-    "conversation": [],
-    "culture": [],
-    "reading": [],
-    "listening": []
+    "vocab": [
+      {
+        "id": "vocab_1",
+        "front": "위치와 방향",
+        "back": "Location and Directions",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_2",
+        "front": "(의자) 위",
+        "back": "on (the chair)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_3",
+        "front": "(의자) 아래/밑",
+        "back": "under/beneath (the chair)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_4",
+        "front": "(건물) 앞",
+        "back": "in front of (the building)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_5",
+        "front": "(건물) 뒤",
+        "back": "behind (the building)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_6",
+        "front": "(건물) 안",
+        "back": "inside (the building)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_7",
+        "front": "(건물) 밖",
+        "back": "outside (the building)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_8",
+        "front": "(건물) 옆",
+        "back": "next to (the building)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_9",
+        "front": "(건물) 사이",
+        "back": "between (the buildings)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_10",
+        "front": "왼쪽",
+        "back": "left hand side",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_11",
+        "front": "오른쪽",
+        "back": "right hand side",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_12",
+        "front": "건너편/맞은편",
+        "back": "across from/opposite",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_13",
+        "front": "이쪽",
+        "back": "this way",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_14",
+        "front": "저쪽",
+        "back": "that way",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_15",
+        "front": "그쪽",
+        "back": "over there",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_16",
+        "front": "어느 쪽",
+        "back": "which way",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_17",
+        "front": "되는 사물 뒤에 온다.",
+        "back": "Location nouns come after the reference object.",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_18",
+        "front": "이동 동사",
+        "back": "Movement Verbs",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_19",
+        "front": "내려가다",
+        "back": "to go down",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_20",
+        "front": "올라가다",
+        "back": "to go up",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_21",
+        "front": "내려오다",
+        "back": "to come down",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_22",
+        "front": "올라오다",
+        "back": "to come up",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_23",
+        "front": "들어가다",
+        "back": "to go in",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_24",
+        "front": "나가다",
+        "back": "to go out",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_25",
+        "front": "들어오다",
+        "back": "to come in",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_26",
+        "front": "나오다",
+        "back": "to come out",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_27",
+        "front": "횡단보도",
+        "back": "crosswalk",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_28",
+        "front": "육교",
+        "back": "overpass",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_29",
+        "front": "건너가다",
+        "back": "to cross (the street)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_30",
+        "front": "옥상",
+        "back": "rooftop",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_31",
+        "front": "지하",
+        "back": "underground",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_32",
+        "front": "근처",
+        "back": "nearby",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_33",
+        "front": "사거리",
+        "back": "intersection",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_34",
+        "front": "마트",
+        "back": "mart",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar_1",
+        "front": "(으)로(방향)",
+        "back": "'(으)로'가 구체 명사에 붙으면 수단,\n방법, 도구, 재료를 나타낸다.\nWhen '(으)로' is attached to a concrete\nnoun, it indicates means, method,\ntool, or material.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
+      },
+      {
+        "id": "grammar_2",
+        "front": "-(으)세요",
+        "back": "‘-(으)세요’는 명령할 때 주로 사용하\n고, ‘-아/어 주세요’는 부탁하거나 요\n청할 때 주로 사용한다.\n‘-(으)세요’ is typically used when\ngiving commands, and ‘-아/어 주세요’\nis mainly used when making a request\nor asking for a favor.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conversation_1",
+        "front": "왕민 씨, 어디 가요?",
+        "back": "Wangmin, where are you going?",
+        "speaker": "칼 로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_2",
+        "front": "마두 씨 방에 가요. 마두 씨 방은 어디에\n있어요?",
+        "back": "I’m going to Madhu's room. Where is Madhu's room?",
+        "speaker": "왕 민",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_3",
+        "front": "마두 씨 방은 휴게실 옆에 있어요.\n2층으로 가야 돼요.",
+        "back": "Madhu's room is next to the lounge. You need to go to the 2nd floor.",
+        "speaker": "칼 로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_4",
+        "front": "고마워요.",
+        "back": "Thank you.",
+        "speaker": "왕 민",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_5",
+        "front": "회사 근처에 약국이 있어요?",
+        "back": "Is there a pharmacy near the office?",
+        "speaker": "유수프",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_6",
+        "front": "네, 가까워요. 마트 안에 있어요.",
+        "back": "Yes, it's close. It’s inside the mart.",
+        "speaker": "엉",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_7",
+        "front": "마트에 어떻게 가요?",
+        "back": "How do I get to the mart?",
+        "speaker": "유수프",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_8",
+        "front": "회사 앞 사거리에서 오른쪽으로 가세요.\n그러면 마트가 있어요.",
+        "back": "Go right at the intersection in front of the office. Then, you’ll see the mart.",
+        "speaker": "엉",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_9",
+        "front": "감사합니다.",
+        "back": "Thank you.",
+        "speaker": "유수프",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      }
+    ],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "14 길 찾기",
+        "back": "GETTING DIRECTIONS 187",
+        "body": "14 길 찾기\nGETTING DIRECTIONS 187\n한국에서는 ‘도로명 주소’를\n사용합니다. 도로명 주소란 지\n정된 도로명을 기준으로 주소를\n표기하는 것을 말하는데, 도로\n의 이름이 기준이기 때문에 주\n소를 알기 쉽습니다. 그래서 도\n로명 주소만 있으면 원하는 곳\n을 찾아갈 수 있습니다. 위의 예를 보면 알 수 있듯이 한국의 도\n로명 주소는 영어와는 반대로 큰 단위부터 시작하여 점차 작은\n단위로 적습니다. 도로명 주소는 다음과 같이 구성됩니다.\nIn Korea, ‘street name addresses’ are used. A street name\naddress refers to an address system based on designated\nstreet names, making it easy to find an address because the\nstreet name is the reference point. So, as long as you have",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook1/unit_14/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
+    "reading": [
+      {
+        "id": "u14_r1",
+        "nomor": 1,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n내려와요.",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r1_a.jpg",
+          "b": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r1_b.jpg",
+          "c": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r1_c.jpg",
+          "d": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_14/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u14_r2",
+        "nomor": 2,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n왼쪽으로 가요.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r2_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r2_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r2_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r2_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r2_a.jpg",
+          "b": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r2_b.jpg",
+          "c": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r2_c.jpg",
+          "d": "assets/modules/textbook1/unit_14/choice_images/reading/u14_r2_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_14/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u14_r3",
+        "nomor": 3,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 것을 고르십시오.\n아래",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "위치",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "국적",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "취미",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "가족",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_14/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u14_r4",
+        "nomor": 4,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "여기에 이름이 쓰세요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "이 층으로 올라가세요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "여기에서 손에 씻으세요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "사무실 안에서 들어오세요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_14/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u14_r5",
+        "nomor": 5,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국에서는 ‘도로명 주소’를 사용합니다. 도로의 이름을 기준으로 주소를 표기하기 때문에 쉽게 위치를\n파악할 수 있습니다. 한국의 도로명 주소는 영어 주소 표기 방식과 달리 ‘도시명, 구, 도로명, 건물 번호’와\n같이 큰 단위에서 작은 단위의 순서로 표기합니다.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "한국의 도로명 주소를 쓰는 순서는 영어와 같습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "한국의 도로명 주소를 보고 길을 찾는 것은 쉽지 않습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "한국의 도로명 주소에서는 도시의 이름을 표기하지 않습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "한국의 도로명 주소에는 건물의 번호가 가장 나중에 나옵니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_14/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ],
+    "listening": [
+      {
+        "id": "u14_l1",
+        "nomor": 1,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "",
+        "jawaban": "c",
+        "audio_teks": "남 : 병원이 어디에 있어요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_14/track_097.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "병원이 있어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "오후에 병원에 가요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "마트 맞은편에 있어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "마트는 여기에서 멀어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_14/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u14_l2",
+        "nomor": 2,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "",
+        "jawaban": "d",
+        "audio_teks": "남 : 은행에 어떻게 가요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_14/track_097.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "환전하러 은행에 가요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "신분증을 가지고 가세요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "은행은 네 시 반에 문을 닫아요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "편의점 앞에서 오른쪽으로 가세요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_14/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u14_l3",
+        "nomor": 3,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+        "jawaban": "b",
+        "audio_teks": "남 : 식당은 몇 층에 있어요?\n여 : 식당은 2층에 있어요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_14/track_097.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "안내 3F 영화관 2F 편의점 1F 식당 B1 주차장",
+            "image": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l3_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "안내 3F 영화관 2F 식당 1F 편의점 B1 주차장",
+            "image": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l3_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "안내 3F 주차장 2F 영화관 1F 편의점 B1 식당",
+            "image": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l3_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "안내 3F 식당 2F 영화관 1F 편의점 B1 주차장",
+            "image": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l3_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l3_a.jpg",
+          "b": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l3_b.jpg",
+          "c": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l3_c.jpg",
+          "d": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l3_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_14/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u14_l4",
+        "nomor": 4,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+        "jawaban": "c",
+        "audio_teks": "남 : 자동차가 어디에 있어요?\n여 : 건물 사이에 있어요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_14/track_097.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l4_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l4_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l4_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l4_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l4_a.jpg",
+          "b": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l4_b.jpg",
+          "c": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l4_c.jpg",
+          "d": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l4_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_14/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u14_l5",
+        "nomor": 5,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+        "jawaban": "a",
+        "audio_teks": "남 : 약국이 어디에 있어요?\n여 : 약국이 병원 옆에 있어요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_14/track_097.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l5_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l5_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l5_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l5_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l5_a.jpg",
+          "b": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l5_b.jpg",
+          "c": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l5_c.jpg",
+          "d": "assets/modules/textbook1/unit_14/choice_images/listening/u14_l5_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_14/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ]
   },
   "integrity": {
     "pdf_pages": 10,
     "lesson_audio": 5,
+    "lesson_flow": 10,
+    "vocab_cards": 34,
+    "grammar_cards": 2,
+    "conversation_cards": 9,
+    "culture_cards": 1,
+    "reading_questions": 5,
+    "listening_questions": 5,
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_scripts": 5,
     "source_page_start_index": 180,
     "source_page_end_index": 189
   }

@@ -4,7 +4,7 @@
   "unit": 44,
   "title_ko": "토목 시공",
   "title_en": "Civil Engineering",
-  "title_id": "Teknik Sipil",
+  "title_id": "Konstruksi sipil",
   "source_pdf": "assets/langit-korea-modules/unit_44_civil_engineering.pdf",
   "page_start": 147,
   "page_end": 156,
@@ -61,500 +61,784 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 147,
+        "image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "44 토목 시공 \n CIVIL ENGINEERING 147\n어휘 VOCABULARY\n준설 관련 어휘 Dredging\n흙/토사\nsoil/sediment\n침전물\nsilt\n수로\nwaterway \n준설하다\nto dredge \n쌓이다\nto pile up \n퍼내다\nto excavate \n제거하다/긁어내다\nto remove/scrape off \n토사를 처리하다\nto handle sediment \n빨아들이다/흡입하다\nto suck up \n물을 뿌리다\nto spray water \n물을 빼다\nto drain water \n하천 stream\n고압 high pressure\n호스 hose\n딱딱하다 to be hard\n미루다 to postpone\n구역 district \n나누다 to divide\n주문량 order quantity\n흐르다 to flow\n어서 quickly\n그동안 in the meantime\n부드럽다 to be soft\n펌프 pump\n굳다 to harden\n 알맞은 것을 골라 [보기]와 같이 대화를 완성하세요. \nComplete the conversations with the correct options as shown in the example.\n퍼내다 제거하다 빨아들이다 뿌리다\n가 : 침전물이 많은데 어떻게 할까요?\n나 : 흡입 호스로 빨아들입시다.\n[ 보기 ]\n⑴\n가 : 하천에 수풀이 많은데 어떻게 할까요?\n나 : 수풀을 .\n⑵\n가 : 하천 바닥이 딱딱한데 어떻게 할까요?\n나 : 고압 호스로 물을 .\n⑶\n가 : 하천 바닥에 토사가 많이 쌓였는데 어떻게 할까요?\n나 : 토사를 .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 148,
+        "image": "assets/modules/textbook2/unit_44/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "148 한국어 표준교재 2\n문법 GRAMMAR\n-아야겠/어야겠-\n‘-아야겠/어야겠-’은 동사에 붙\n어 말하는 사람의 강한 의지를 \n나타낸다. \n‘-아야겠/어야겠-’ is attached to \nverbs to express the speaker's \nstrong will. \n예 재고 정리할 사람이 부족하니까 \n제가 가 봐야겠어요.\n‘-아야겠/어야겠-’은 동사, 형용사에 붙어 말하는 사람의 생각을 근거\n로 상황이 어떻게 되어야 할 것이라고 추측함을 나타낸다. \n‘-아야겠/어야겠-’ is attached to verbs and adjectives to indicate a \nsupposition based on the speaker's thoughts about how a situation \nshould be.\nㅏ, ㅗ\n-아야겠-\n \n파다 → 파야겠어요\nㅓ, ㅜ, ㅣ…\n-어야겠-\n \n섞다 → 섞어야겠어요\n-하다\n-해야겠-\n \n처리하다 → 처리해야겠어요\n예 작업장에 냄새가 좀 심해서 창문을 열어야겠어요.\n \n유수프 씨, 콘크리트 타설 전에 철근을 결속해야겠어요.\n \n가 : 내일 새벽에 출근해야 돼요.\n \n나 : 그래요? 오늘 일찍 자야겠네요.\n1. 알맞은 것을 골라 [보기]와 같이 대화를 완성하세요. \nComplete the conversations with the correct options as shown in the example. \n퍼내다 미루다 뿌리다 작업하다\n가 : 준설해야 될 곳이 좀 넓어요.\n나 : 그럼 구역을 나눠서 작업해야겠어요.\n[ 보기 ]\n⑴가 : 호수 바닥에 침전물이 많이 쌓였네요.\n나 : 굴착기로 침전물을 .\n⑵가 : 하천 바닥이 너무 딱딱한데요.\n나 : 그럼 고압 호스로 물을 .\n⑶가 : 오늘 하루 종일 비가 온다고 해요.\n나 : 그럼 콘크리트 타설을 내일로 .\n2. [보기]와 같이 알맞은 것을 연결하고 문장을 쓰세요. \nConnect the related items and write the sentences as shown in the example.\n[보기]\n⑴\n⑵\n⑶\n⑷\n주문량이 많다 \n자재가 부족하다 \n물이 잘 흐르지 않다 \n제품이 손상될 수 있다\n물 때문에 작업하기 힘들다\n●\n●\n●\n●\n●\n●\n●\n●\n●\n●\n물부터 빼다\n하천을 준설하다\n작업을 서두르다\n창고에서 가져오다\n완충재로 포장하다\n [보기] \n 주문량이 많으니까 작업을 서둘러야겠어요 .\n \n⑴ \n .\n \n⑵ \n .\n \n⑶ \n .\n \n⑷ \n .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 149,
+        "image": "assets/modules/textbook2/unit_44/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "44 토목 시공 \n CIVIL ENGINEERING 149\n대화 CONVERSATION\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•토사가 많이 있다, 흡입 호스, 토사를 빨아들이다, \n호스를 연결하다\n•침전물이 많이 쌓여 있다, 펌프, 침전물을 제거하다, \n펌프를 작동시키다\n가 : 토사가 많이 있네요.\n나 : 흡입 호스로 토사를 빨아들여야겠어요.\n가 : 그럼 제가 가서 호스를 연결할게요.\n발음 │ PRONUNCIATION\n‘ㅎ’ 뒤에 모음으로 시작된 어미나 접미사가 결합되는 경우에는 ‘ㅎ’을 발음하지 않는다.\nWhen an ending or a suffix starting with a vowel is attached after ‘ㅎ’, the ‘ㅎ’ is not pronounced. \n⑴ 좋아요[조아요] \n낳아[나아] \n놓은[노은]\n⑵ 쌓이다[싸이다] \n놓이다[노이다] \n244\n유수프 \n여기가 오늘 준설 작업을 할 곳이에요?\n \nIs this the place where we will do the dredging work today? \n반장님 \n네. 하천에 토사가 많이 쌓여서 물이 잘 흐르지 \n못하네요. 시간이 많이 걸리겠어요. 어서 물부터 \n뺍시다.\n \nYes. There’s a lot of sediment piled up in the stream, so the \nwater isn’t flowing well. This will take a long time. Let’s \ndrain the water first. \n유수프 \n반장님, 수풀 때문에 작업하기 힘들 것 같아요. 물을 \n빼기 전에 굴착기로 수풀을 먼저 제거해야겠어요. \n \nBanjangnim, it seems like it will be difficut to work because of the bushes. We should remove the bushes with \nan excavator before draining the water. \n반장님 \n그렇게 하죠. 그다음에 흡입 호스로 토사를 빨아들이는 게 좋겠어요.\n \nLet’s do that. Then it’s better to suck the sediment with a suction hose. \n유수프 \n그리고 반장님, 그동안 비가 많이 안 와서 저쪽은 흙이 딱딱하게 굳어 있어요.\n \nAnd Banjangnim, it hasn’t rained much lately, so the soil over there is hard. \n반장님 \n그럼 그곳은 고압 호스로 물을 뿌려서 흙을 부드럽게 만듭시다.\n \nThen, let’s spray water with a high-pressure hose to soften the soil. \n대답해 봐요! ANSWER ME!\n1 왜 하천의 물이 잘 흐르지 못해요? Why isn’t the water in the stream flowing well? \n2 무슨 작업을 가장 먼저 해야 돼요? What task should they do first? \n243",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 150,
+        "image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "150 한국어 표준교재 2\n어휘 VOCABULARY\n상하수도 시공 관련 어휘 \nWater Supply and Sewage Systems Construction\n땅을 파다(터파기)\nto excavate the ground \n관을 배치하다\nto place the pipes\n관을 연결하다\nto connect the pipes \n채우다\nto fill up\n메우다\nto fill in\n다지다\nto compact \n흙을 깎다(절토)\nto cut the soil \n흙을 쌓다(성토)\nto pile the soil \n균열이 생기다\nto have cracks\n누수가 발생하다\nto have leaks\n주위 surroundings\n가까이 nearby\n제자리 in place\n너비 width\n되메우기 backfilling\n진행되다 to have progressed\n핸드 램머 hand rammer \n 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example.\n가 : 작업 준비가 끝났어요.\n나 : 그럼 먼저 땅을 파세요. \n[ 보기 ]\n⑴\n가 : 관을 연결했어요.\n나 : 그럼 관 주위를 모래와 자갈로 .\n⑵\n가 : 채우는 작업이 끝났어요.\n나 : 그럼 땅을 다시 .\n⑶\n가 : 땅을 다 메웠어요.\n나 : 그럼 땅을 .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 151,
+        "image": "assets/modules/textbook2/unit_44/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "44 토목 시공 \n CIVIL ENGINEERING 151\n문법 GRAMMAR\n-도록 \n‘-도록’은 주로 동사에 붙어 뒤 절의 행위에 대한 목적 또는 정도나 한계를 나타낸다.\n‘-도록’ is mainly attached to verbs to indicate the purpose, extent, or limit of the action in the following clause. \n예 누수가 생기지 않도록 관을 잘 연결해야 돼요.\n \n앞이 잘 보이도록 지게차에 물건을 높이 쌓지 마세요.\n \n사람들이 안전하게 다니도록 작업장 주위를 정리하겠습니다.\n1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요. \nComplete the sentences with the correct options as shown in the example.\n 물이 잘 흐르다 \n원사가 변색되지 않다 \n원단이 오염되지 않다\n 땅을 메울 때 사용할 수 있다 \n제시간에 작업을 시작할 수 있다\n원단이 오염되지 않도록 조심해서 옮겨 주세요.\n[ 보기 ]\n⑴ 하천을 준설해야겠어요.\n⑵ 온도 관리에 신경 쓰세요.\n⑶ 자재를 미리 갖다 놓을게요.\n⑷ 흙을 수로 가까이에 쌓아 두세요.\n2. [보기]와 같이 문장을 바꾸세요. Change the sentences as shown in the example.\n“관을 매설할 때 관 너비보다 땅을 넓게 파야 작업자들이 일하기 쉬워요.”\n⊙ 작업자들이 일하기 쉽도록 땅을 관 너비보다 넓게 파야 돼요 .\n[ 보기 ]\n⑴\n“완충재로 꼼꼼하게 포장해야 제품이 손상되지 않아요. ”\n⊙ .\n⑵\n“다 쓴 공구를 제자리에 둬야 필요할 때 바로 사용할 수 있어요.”\n⊙ .\n⑶\n“창고에 있는 재고를 기록해 둬야 재고를 쉽게 파악할 수 있어요.”\n⊙ .\n⑷\n“직사광선을 피해서 원사를 보관해야 원사가 상하지 않아요.”\n⊙ .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 152,
+        "image": "assets/modules/textbook2/unit_44/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "152 한국어 표준교재 2\n유수프 \n배관 연결 작업이 끝났어요. 이제 되메우기를 하면 될 것 같아요.\n \nThe pipe connection work is done. Now it seems we can start backfilling. \n반장님 \n누수가 발생하지 않도록 잘 연결했지요?\n \nDid you connect them well to prevent leaks? \n유수프 \n네, 다시 확인했어요.\n \nYes. I checked again. \n반장님 \n좋아요. 그럼 굴착기로 되메우기가 어느 정도 \n진행되면 다지기 작업을 시작해 주세요. \n \nGood. Then once the backfilling with the excavator has \nprogressed to some extent please start compacting.\n유수프 \n반장님, 수로가 좁아서 핸드 램머로 다져야 \n겠는데요?\n \nBanjangnim, since the waterway is narrow we need to \ncompact it with a hand rammer, right? \n반장님 \n네, 그렇게 하지요. 다지기 작업 전에 돌부터 먼저 제거하고요. 안 그러면 다칠 수 있어요.\n \nYes. Let’s do that. Before compacting, we should remove the stones first; otherwise, someone could get hurt. \n대화 CONVERSATION\n대답해 봐요! ANSWER ME!\n1 되메우기 작업이 끝나면 무엇을 하면 돼요? \nWhat should they do after the backfilling work is done? \n2 땅을 다지기 전에 무엇부터 해야 돼요? \nWhat should they do first before compacting the ground? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•터파기가 끝나다, 관을 설치하다, 작업하기 쉽다, \n땅을 조금 더 파다\n•관을 연결하다, 되메우기를 하다, 균열이 생기지 않다, \n관 주위에 자갈을 채우다\n가 : 터파기가 끝났어요. 관을 설치하면 될까요?\n나 : 작업하기 쉽도록 땅을 조금 더 파야 돼요.\n가 : 네, 알겠습니다.\n가 : 내일 나하고 근무시간 좀 바꿔 줄 수 있어요? \nCan you swap working hours with me?\n나 : 내일은 저도 밤에 일이 좀 있는데요. 미안해서 어떡하죠? \nI have some work to do tomorrow night too. I feel so sorry.\n유용한 표현 │ USEFUL EXPRESSION\n미안해서 어떡하죠?\nI feel so sorry.\n246\n245",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 153,
+        "image": "assets/modules/textbook2/unit_44/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "44 토목 시공 \n CIVIL ENGINEERING 153\n문화와 정보 CULTURE & INFORMATION\n• 준설 작업에 대해 묻고 대답할 수 있다. I can ask and answer questions about dredging work. \n↻\n• 상하수도 시공 과정에 대해 말할 수 있다. \nI can talk about the process of constructing water supply and sewage systems. \n↻\n• 해야 하는 작업의 목적이나 결과를 표현할 수 있다. \nI can express the purpose or result of a task that needs to be done. \n↻\n확인해요 │ self assessment\n44 토목 시공 \n CIVIL ENGINEERING 153\n한국의 대규모 토목 공사\nKorea's Large-scale Civil Engineering Construction\n토목은 도로, 철도, 공항, 교량, 댐 등 사회 기반 시설을 건\n설하는 공사를 말하는데 한국은 우수한 기술력을 바탕으로 \n국내외의 다양한 대규모 토목 공사를 수행해 오고 있습니다. \n사막을 녹지로 만들기 위한 20세기 최대 규모의 토목 공사\n로 ‘사막의 녹색혁명’이라 불리는 리비아의 대수로 공사도 한\n국의 기술력으로 진행되었습니다.\nCivil engineering refers to the construction of infrastructure \nsuch as roads, railways, airports, bridges, and dams. Korea \nhas undertaken various large-scale civil engineering projects \nboth domestically and internationally with its excellent \ntechnical capabilities. One notable example is the “Green \nRevolution in the Desert”, a massive civil engineering project \nin Libya, which aimed to transform desert areas into green \nspaces. This project, the largest of its kind in the 20th \ncentury, was carried out using Korean technology.\n한국에서도 한국의 지도를 바꿀 정도의 대규모 토목 공사\n가 여러 차례 이루어졌습니다. 먼저 세계로 통하는 한국의 관\n문인 ‘인천국제공항’은 대규모 토목 공사로 이루어진 결과물\n입니다. 인천국제공항은 인천 앞바다에 있던 몇 개의 섬을 간\n척하여 건설한 동북아시아의 허브 공항입니다. 인천국제공항\n을 송도국제도시와 연결하는 ‘인천대교’는 수상 교량의 길이\n가 21.38km나 되는 한국에서 가장 긴 다리입니다. 2009년\n에 개통된 인천\n대교는 왕복 6\n차로로 주탑의 \n높이가 무려 \n238.5m에 이\n르는 한국에서 \n가장 거대한 사\n장교입니다.\nIn South Korea, several large-scale civil engineering projects \nhave significantly transformed the country’s landscape. One \nnotable example is Incheon International Airport, an airport \nhub in Northeast Asia, constructed through extensive land \nreclamation from several islands off the coast of Incheon. The \nIncheon Bridge (Incheondaegyo), connecting Incheon \nInternational Airport to Songdo International City, is the \nlongest bridge in Korea at 21.38 km. Opened in 2009, the \nIncheon Bridge is the largest cable-stayed bridge in Korea, \nwith a main tower height of 238.5 meters and a total of six \nlanes going both directions.\n2010년에 개통된 거가대교는 부산과 거제를 연결하는 다\n리입니다. 사장교와 육상터널, 해저침매터널(Submarine \nimmersed tunnel)로 이루어진 총 길이 8.2km의 세계에서 \n가장 긴 해상 다리 중 하나입니다. 거가대교는 부산과 거제를 \n연결하는 중요한 교통로로 사용되고 있을 뿐만 아니라 인근 \n지역 간의 교류를 촉진하는 데도 크게 기여하고 있습니다. \nThe Geoga Bridge (Geogadaegyo) opened in 2010, is a bridge \nconnecting Busan and Geoje. It is one of the longest sea \nbridges in the world, with a total length of 8.2 km, comprising \na cable-stayed bridge, an onshore tunnel, and an immersed \ntunnel below the water. The Geoga Bridge serves as a crucial \ntransportation route between Busan and Geoje, and it also \nsignificantly contributes to promoting exchange between the \nsurrounding regions.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 154,
+        "image": "assets/modules/textbook2/unit_44/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n154 한국어 표준교재 2\n1. \n다음 내용과 관계있는 그림을 고르십시오.\n굴착기입니다.\n①\n②\n③\n④\n2. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.\n① 쌓여 있는 토사를 껐어요. \n \n② 고압 호스로 물을 뿌렸어요. \n③ 원사 창고의 온도를 준비했어요. \n④ 비가 와서 덮개로 자재를 뚫었어요. \n3. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n상수도관에 이/가 발생했다고 합니다. 상수도관에 균열이 생겨서 물이 새는 것 \n같습니다.\n① 소음 \n② 먼지 \n③ 누수 \n④ 연기\n4. 다음은 무엇에 대한 설명입니까?\n물속에 쌓인 모래나 진흙을 파내서 수로를 깨끗하고 깊게 만드는 작업입니다.\n① 준설 작업 \n \n \n② 도색 작업\n③ 선반 작업 \n \n \n④ 발파 작업\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국은 우수한 기술력을 바탕으로 국내외의 다양한 대규모 토목 공사를 수행해 오고 있습니다. \n대표적인 예로 인천 앞바다에 있던 몇 개의 섬을 간척하여 건설한 ‘인천국제공항’을 들 수 있습니다. \n그리고 한국에서 가장 거대한 사장교인 왕복 6차로의 ‘인천대교’와 총 길이 8.2km의 세계에서 가장 긴 \n해상 다리 중 하나인 ‘거가대교’가 있습니다. ‘사막의 녹색혁명’이라 불리는 리비아의 대수로 공사도 \n한국의 기술력을 잘 보여 주는 예입니다.\n① 거가대교는 왕복 6차로의 사장교입니다. \n② 인천국제공항은 사막 위에 세워졌습니다. \n③ 인천대교는 세계에서 가장 긴 해상 다리입니다.\n④ 리비아의 대수로 건설은 한국의 기술로 이루어졌습니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 155,
+        "image": "assets/modules/textbook2/unit_44/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n44 토목 시공 \n CIVIL ENGINEERING 155\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n2. 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n① 여기부터 다지세요. \n \n \n② 꼼꼼하게 다지세요.\n③ 핸드 램머로 다지세요. \n \n \n④ 돌을 제거한 후에 다지세요. \n3. 두 사람은 무엇에 대해 말하고 있습니까?\n① 작업 도구 \n \n \n② 작업 기간 \n③ 작업 절차 \n \n \n④ 작업 현장\n4. 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n① 정신 바짝 차려야 돼요. \n \n \n② 아직 일이 어렵다고 해요.\n③ 나머지는 내일 하려고 해요. \n \n④ 하던 일을 얼른 끝내고 갈게요.\n5. \n여자가 이어서 할 행동은 무엇입니까?\n① 토사를 쌓아 놓습니다. \n② 굴착기로 흙을 퍼냅니다.\n③ 수풀을 제거하러 갑니다. \n④ 기사에게 말을 전하러 갑니다.\n1. \n여 : 반장님, 뭐부터 해야 돼요?\n \n남 : 굴착기로 흙부터 깎읍시다.\n2. 남 : 무엇으로 땅을 다질까요?\n3. 여 : 관을 모두 설치했는데 이제 땅을 메우면 되지요?\n \n남 : 아니요, 먼저 모래와 자갈로 관 주변을 채우세요.\n4. 여 : 이따가 저하고 관 연결 작업을 좀 같이 해요.\n5. 남 : 하천에 토사가 많이 쌓였네요. 얼른 작업을 시작합시다.\n \n여 : 수풀이 많은데 흙을 퍼내기 전에 수풀부터 제거하는 게 어떨까요?\n \n남 : 좋아요. 굴착기 기사님한테 작업을 시작하시라고 전해 주세요.\n \n여 : 네, 바로 갔다 오겠습니다. \n듣기지문\n247",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 156,
+        "image": "assets/modules/textbook2/unit_44/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "156 한국어 표준교재 2\n학습 목표\nLEARNING OBJECTIVES\n농작물 재배에 필요한 어휘와 표현을 사용할 수 있다.\nCan use the vocabulary and expressions needed for farm work. \n작업 중 금지 사항에 대해 말할 수 있다.\nCan talk about prohibited actions during work. \n농작물 재배 \nCrop Cultivation \nC H A P T E R 4 5\n-(으)ㄹ까 하다\n-지 말고\nGRAMMAR\n문법\n전작 관련 어휘\nVocabulary Related to Field Crops \n과수 재배 관련 어휘\nVocabulary Related to Orchard \nCultivation \nVOCABULARY\n어휘\n스마트팜\nSmart Farms \nCULTURE & INFORMATION\n문화와 정보\n아니요. 작은 것은 따지 말고 큰 것만 따세요.\n이것도 딸까요?\n156 한국어 표준교재 2\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "vocab": [
       {
         "id": "vocab_1",
-        "front": "44 토목 시공",
-        "back": "CIVIL ENGINEERING 147",
-        "raw": {
-          "korean": "44  토목 시공",
-          "indonesia": "CIVIL ENGINEERING   147"
-        }
+        "front": "준설 관련 어휘",
+        "back": "Dredging",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_2",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "흙/토사",
+        "back": "soil/sediment",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_3",
-        "front": "준설 관련 어휘",
-        "back": "Dredging",
-        "raw": {
-          "korean": "준설 관련 어휘",
-          "indonesia": "Dredging"
-        }
+        "front": "침전물",
+        "back": "silt",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_4",
-        "front": "흙/토사",
-        "back": "soil/sediment",
-        "raw": {
-          "korean": "흙/토사",
-          "indonesia": "soil/sediment"
-        }
+        "front": "수로",
+        "back": "waterway",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_5",
-        "front": "침전물",
-        "back": "silt",
-        "raw": {
-          "korean": "침전물",
-          "indonesia": "silt"
-        }
+        "front": "준설하다",
+        "back": "to dredge",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_6",
-        "front": "수로",
-        "back": "waterway",
-        "raw": {
-          "korean": "수로",
-          "indonesia": "waterway"
-        }
+        "front": "쌓이다",
+        "back": "to pile up",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_7",
-        "front": "준설하다",
-        "back": "to dredge",
-        "raw": {
-          "korean": "준설하다",
-          "indonesia": "to dredge"
-        }
+        "front": "퍼내다",
+        "back": "to excavate",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_8",
-        "front": "쌓이다",
-        "back": "to pile up",
-        "raw": {
-          "korean": "쌓이다",
-          "indonesia": "to pile up"
-        }
+        "front": "제거하다/긁어내다",
+        "back": "to remove/scrape off",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_9",
-        "front": "퍼내다",
-        "back": "to excavate",
-        "raw": {
-          "korean": "퍼내다",
-          "indonesia": "to excavate"
-        }
+        "front": "토사를 처리하다",
+        "back": "to handle sediment",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_10",
-        "front": "제거하다/긁어내다",
-        "back": "to remove/scrape off",
-        "raw": {
-          "korean": "제거하다/긁어내다",
-          "indonesia": "to remove/scrape off"
-        }
+        "front": "빨아들이다/흡입하다",
+        "back": "to suck up",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_11",
-        "front": "토사를 처리하다",
-        "back": "to handle sediment",
-        "raw": {
-          "korean": "토사를 처리하다",
-          "indonesia": "to handle sediment"
-        }
+        "front": "물을 뿌리다",
+        "back": "to spray water",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_12",
-        "front": "빨아들이다/흡입하다",
-        "back": "to suck up",
-        "raw": {
-          "korean": "빨아들이다/흡입하다",
-          "indonesia": "to suck up"
-        }
+        "front": "물을 빼다",
+        "back": "to drain water",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_13",
-        "front": "물을 뿌리다",
-        "back": "to spray water",
-        "raw": {
-          "korean": "물을 뿌리다",
-          "indonesia": "to spray water"
-        }
+        "front": "하천",
+        "back": "stream",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_14",
-        "front": "물을 빼다",
-        "back": "to drain water",
-        "raw": {
-          "korean": "물을 빼다",
-          "indonesia": "to drain water"
-        }
+        "front": "고압",
+        "back": "high pressure",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_15",
-        "front": "딱딱하다",
-        "back": "to be hard",
-        "raw": {
-          "korean": "딱딱하다",
-          "indonesia": "to be hard"
-        }
+        "front": "호스",
+        "back": "hose",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_16",
-        "front": "알맞은 것을 골라 [보기]와 같이 대화를 완성하세요.",
-        "back": "Complete the conversations with the correct options as shown in the example.",
-        "raw": {
-          "korean": "\u0007알맞은 것을 골라 [보기]와 같이 대화를 완성하세요.",
-          "indonesia": "Complete the conversations with the correct options as shown in the example."
-        }
+        "front": "딱딱하다",
+        "back": "to be hard",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_17",
-        "front": "[ 보기 ]",
-        "back": "⑴",
-        "raw": {
-          "korean": "[ 보기 ]",
-          "indonesia": "⑴"
-        }
+        "front": "미루다",
+        "back": "to postpone",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_18",
-        "front": "나 : 수풀을 .",
-        "back": "⑵",
-        "raw": {
-          "korean": "나 : 수풀을                                                                                         .",
-          "indonesia": "⑵"
-        }
+        "front": "구역",
+        "back": "district",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_19",
-        "front": "나 : 고압 호스로 물을 .",
-        "back": "⑶",
-        "raw": {
-          "korean": "나 : 고압 호스로 물을                                                                                        .",
-          "indonesia": "⑶"
-        }
+        "front": "나누다",
+        "back": "to divide",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_20",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "주문량",
+        "back": "order quantity",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_21",
-        "front": "상하수도 시공 관련 어휘",
-        "back": "Water Supply and Sewage Systems Construction",
-        "raw": {
-          "korean": "상하수도 시공 관련 어휘",
-          "indonesia": "Water Supply and Sewage Systems Construction"
-        }
+        "front": "흐르다",
+        "back": "to flow",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_22",
-        "front": "땅을 파다(터파기)",
-        "back": "to excavate the ground",
-        "raw": {
-          "korean": "땅을 파다(터파기)",
-          "indonesia": "to excavate the ground"
-        }
+        "front": "어서",
+        "back": "quickly",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_23",
-        "front": "관을 배치하다",
-        "back": "to place the pipes",
-        "raw": {
-          "korean": "관을 배치하다",
-          "indonesia": "to place the pipes"
-        }
+        "front": "그동안",
+        "back": "in the meantime",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_24",
-        "front": "관을 연결하다",
-        "back": "to connect the pipes",
-        "raw": {
-          "korean": "관을 연결하다",
-          "indonesia": "to connect the pipes"
-        }
+        "front": "부드럽다",
+        "back": "to be soft",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_25",
-        "front": "채우다",
-        "back": "to fill up",
-        "raw": {
-          "korean": "채우다",
-          "indonesia": "to fill up"
-        }
+        "front": "펌프",
+        "back": "pump",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_26",
-        "front": "메우다",
-        "back": "to fill in",
-        "raw": {
-          "korean": "메우다",
-          "indonesia": "to fill in"
-        }
+        "front": "굳다",
+        "back": "to harden",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_27",
-        "front": "다지다",
-        "back": "to compact",
-        "raw": {
-          "korean": "다지다",
-          "indonesia": "to compact"
-        }
+        "front": "상하수도 시공 관련 어휘",
+        "back": "Water Supply and Sewage Systems Construction",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_28",
-        "front": "흙을 깎다(절토)",
-        "back": "to cut the soil",
-        "raw": {
-          "korean": "흙을 깎다(절토)",
-          "indonesia": "to cut the soil"
-        }
+        "front": "땅을 파다(터파기)",
+        "back": "to excavate the ground",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_29",
-        "front": "흙을 쌓다(성토)",
-        "back": "to pile the soil",
-        "raw": {
-          "korean": "흙을 쌓다(성토)",
-          "indonesia": "to pile the soil"
-        }
+        "front": "관을 배치하다",
+        "back": "to place the pipes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_30",
-        "front": "균열이 생기다",
-        "back": "to have cracks",
-        "raw": {
-          "korean": "균열이 생기다",
-          "indonesia": "to have cracks"
-        }
+        "front": "관을 연결하다",
+        "back": "to connect the pipes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_31",
-        "front": "누수가 발생하다",
-        "back": "to have leaks",
-        "raw": {
-          "korean": "누수가 발생하다",
-          "indonesia": "to have leaks"
-        }
+        "front": "채우다",
+        "back": "to fill up",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_32",
-        "front": "그림을 보고 [보기]와 같이 대화를 완성하세요.",
-        "back": "Look at the pictures and complete the conversations as shown in the example.",
-        "raw": {
-          "korean": "\u0007그림을 보고 [보기]와 같이 대화를 완성하세요.",
-          "indonesia": "Look at the pictures and complete the conversations as shown in the example."
-        }
+        "front": "메우다",
+        "back": "to fill in",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_33",
-        "front": "[ 보기 ]",
-        "back": "⑴",
-        "raw": {
-          "korean": "[ 보기 ]",
-          "indonesia": "⑴"
-        }
+        "front": "다지다",
+        "back": "to compact",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_34",
-        "front": "나 : 그럼 관 주위를 모래와 자갈로 .",
-        "back": "⑵",
-        "raw": {
-          "korean": "나 : 그럼 관 주위를 모래와 자갈로                                                      .",
-          "indonesia": "⑵"
-        }
+        "front": "흙을 깎다(절토)",
+        "back": "to cut the soil",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_35",
-        "front": "나 : 그럼 땅을 다시 .",
-        "back": "⑶",
-        "raw": {
-          "korean": "나 : 그럼 땅을 다시                                                      .",
-          "indonesia": "⑶"
-        }
+        "front": "흙을 쌓다(성토)",
+        "back": "to pile the soil",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_36",
+        "front": "균열이 생기다",
+        "back": "to have cracks",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_37",
+        "front": "누수가 발생하다",
+        "back": "to have leaks",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_38",
+        "front": "주위",
+        "back": "surroundings",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_39",
+        "front": "가까이",
+        "back": "nearby",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_40",
+        "front": "제자리",
+        "back": "in place",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_41",
+        "front": "너비",
+        "back": "width",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_42",
+        "front": "되메우기",
+        "back": "backfilling",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_43",
+        "front": "진행되다",
+        "back": "to have progressed",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_44",
+        "front": "핸드 램머",
+        "back": "hand rammer",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       }
     ],
     "grammar": [
       {
         "id": "grammar_1",
-        "front": "148 한국어 표준교재 2",
-        "back": "문법 GRAMMAR",
-        "raw": {
-          "pattern": "148   한국어 표준교재  2",
-          "explanation": "문법  GRAMMAR"
-        }
+        "front": "-아야겠/어야겠-",
+        "back": "‘-아야겠/어야겠-’은 동사에 붙\n어 말하는 사람의 강한 의지를\n나타낸다.\n‘-아야겠/어야겠-’ is attached to\nverbs to express the speaker's\nstrong will.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
       },
       {
         "id": "grammar_2",
-        "front": "나타낸다.",
-        "back": "‘-아야겠/어야겠-’ is attached to",
-        "raw": {
-          "pattern": "나타낸다.",
-          "explanation": "‘-아야겠/어야겠-’ is attached to"
-        }
-      },
-      {
-        "id": "grammar_3",
-        "front": "로 상황이 어떻게 되어야 할 것이라고 추측함을 나타낸다.",
-        "back": "‘-아야겠/어야겠-’ is attached to verbs and adjectives to indicate a",
-        "raw": {
-          "pattern": "로 상황이 어떻게 되어야 할 것이라고 추측함을 나타낸다.",
-          "explanation": "‘-아야겠/어야겠-’ is attached to verbs and adjectives to indicate a"
-        }
-      },
-      {
-        "id": "grammar_4",
-        "front": "1. 알맞은 것을 골라 [보기]와 같이 대화를 완성하세요.",
-        "back": "Complete the conversations with the correct options as shown in the example.",
-        "raw": {
-          "pattern": "1. \u0007알맞은 것을 골라 [보기]와 같이 대화를 완성하세요.",
-          "explanation": "Complete the conversations with the correct options as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_5",
-        "front": "2. [보기]와 같이 알맞은 것을 연결하고 문장을 쓰세요.",
-        "back": "Connect the related items and write the sentences as shown in the example.",
-        "raw": {
-          "pattern": "2. \u0007[보기]와 같이 알맞은 것을 연결하고 문장을 쓰세요.",
-          "explanation": "Connect the related items and write the sentences as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_6",
-        "front": "44 토목 시공",
-        "back": "CIVIL ENGINEERING 151",
-        "raw": {
-          "pattern": "44  토목 시공",
-          "explanation": "CIVIL ENGINEERING   151"
-        }
-      },
-      {
-        "id": "grammar_7",
-        "front": "‘-도록’은 주로 동사에 붙어 뒤 절의 행위에 대한 목적 또는 정도나 한계를 나타낸다.",
-        "back": "‘-도록’ is mainly attached to verbs to indicate the purpose, extent, or limit of the action in the following clause.",
-        "raw": {
-          "pattern": "‘-도록’은 주로 동사에 붙어 뒤 절의 행위에 대한 목적 또는 정도나 한계를 나타낸다.",
-          "explanation": "‘-도록’ is mainly attached to verbs to indicate the purpose, extent, or limit of the action in the following clause."
-        }
-      },
-      {
-        "id": "grammar_8",
-        "front": "1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
-        "back": "Complete the sentences with the correct options as shown in the example.",
-        "raw": {
-          "pattern": "1. \u0007알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
-          "explanation": "Complete the sentences with the correct options as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_9",
-        "front": "⑷ 흙을 수로 가까이에 쌓아 두세요.",
-        "back": "2. [보기]와 같이 문장을 바꾸세요. Change the sentences as shown in the example.",
-        "raw": {
-          "pattern": "⑷                                                            흙을 수로 가까이에 쌓아 두세요.",
-          "explanation": "2. \u0007[보기]와 같이 문장을 바꾸세요. Change the sentences as shown in the example."
-        }
+        "front": "-도록",
+        "back": "‘-도록’은 주로 동사에 붙어 뒤 절의 행위에 대한 목적 또는 정도나 한계를 나타낸다.\n‘-도록’ is mainly attached to verbs to indicate the purpose, extent, or limit of the action in the following clause.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
       }
     ],
     "conversation": [
       {
         "id": "conversation_1",
-        "front": "토사가 많이 있네요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "토사가 많이 있네요."
-        }
+        "front": "제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•토사가 많이 있다, 흡입 호스, 토사를 빨아들이다,\n호스를 연결하다\n•침전물이 많이 쌓여 있다, 펌프, 침전물을 제거하다,\n펌프를 작동시키다\n가 : 토사가 많이 있네요.\n나 : 흡입 호스로 토사를 빨아들여야겠어요.\n가 : 그럼 제가 가서 호스를 연결할게요.\n발음 │ PRONUNCIATION\n‘ㅎ’ 뒤에 모음으로 시작된 어미나 접미사가 결합되는 경우에는 ‘ㅎ’을 발음하지 않는다.\nWhen an ending or a suffix starting with a vowel is attached after ‘ㅎ’, the ‘ㅎ’ is not pronounced.\n⑴ 좋아요[조아요]",
+        "back": "",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_2",
-        "front": "흡입 호스로 토사를 빨아들여야겠어요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "흡입 호스로 토사를 빨아들여야겠어요."
-        }
+        "front": "⑵ 쌓이다[싸이다]\n놓이다[노이다]",
+        "back": "",
+        "speaker": "놓은[노은]",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_3",
-        "front": "그럼 제가 가서 호스를 연결할게요. 발음 │ PRONUNCIATION ‘ㅎ’ 뒤에 모음으로 시작된 어미나 접미사가 결합되는 경우에는 ‘ㅎ’을 발음하지 않는다. When an ending or a suffix starting with a vowel is attached after ‘ㅎ’, the ‘ㅎ’ is not pronounced. ⑴ 좋아요[조아요] 낳아[나아] 놓은[노은] ⑵ 쌓이다[싸이다] 놓이다[노이다] 244 유수프 여기가 오늘 준설 작업을 할 곳이에요? Is this the place where we will do the dredging work today? 반장님 네. 하천에 토사가 많이 쌓여서 물이 잘 흐르지 못하네요. 시간이 많이 걸리겠어요. 어서 물부터 뺍시다. Yes. There’s a lot of sediment piled up in the stream, so the water isn’t flowing well. This will take a long time. Let’s drain the water first. 유수프 반장님, 수풀 때문에 작업하기 힘들 것 같아요. 물을 빼기 전에 굴착기로 수풀을 먼저 제거해야겠어요. Banjangnim, it seems like it will be difficut to work because of the bushes. We should remove the bushes with an excavator before draining the water. 반장님 그렇게 하죠. 그다음에 흡입 호스로 토사를 빨아들이는 게 좋겠어요. Let’s do that. Then it’s better to suck the sediment with a suction hose. 유수프 그리고 반장님, 그동안 비가 많이 안 와서 저쪽은 흙이 딱딱하게 굳어 있어요. And Banjangnim, it hasn’t rained much lately, so the soil over there is hard. 반장님 그럼 그곳은 고압 호스로 물을 뿌려서 흙을 부드럽게 만듭시다. Then, let’s spray water with a high-pressure hose to soften the soil. 대답해 봐요! ANSWER ME! 1 왜 하천의 물이 잘 흐르지 못해요? Why isn’t the water in the stream flowing well? 2 무슨 작업을 가장 먼저 해야 돼요? What task should they do first? 243",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "그럼 제가 가서 호스를 연결할게요. 발음 │ PRONUNCIATION ‘ㅎ’ 뒤에 모음으로 시작된 어미나 접미사가 결합되는 경우에는 ‘ㅎ’을 발음하지 않는다. When an ending or a suffix starting with a vowel is attached after ‘ㅎ’, the ‘ㅎ’ is not pronounced. ⑴ 좋아요[조아요] 낳아[나아] 놓은[노은] ⑵ 쌓이다[싸이다] 놓이다[노이다] 244 유수프 \u0007여기가 오늘 준설 작업을 할 곳이에요? \u0007Is this the place where we will do the dredging work today? 반장님 \u0007네. 하천에 토사가 많이 쌓여서 물이 잘 흐르지 못하네요. 시간이 많이 걸리겠어요. 어서 물부터 뺍시다. \u0007Yes. There’s a lot of sediment piled up in the stream, so the water isn’t flowing well. This will take a long time. Let’s drain the water first. 유수프 \u0007반장님, 수풀 때문에 작업하기 힘들 것 같아요. 물을 빼기 전에 굴착기로 수풀을 먼저 제거해야겠어요. \u0007Banjangnim, it seems like it will be difficut to work because of the bushes. We should remove the bushes with an excavator before draining the water. 반장님 \u0007그렇게 하죠. 그다음에 흡입 호스로 토사를 빨아들이는 게 좋겠어요. Let’s do that. Then it’s better to suck the sediment with a suction hose. 유수프 \u0007그리고 반장님, 그동안 비가 많이 안 와서 저쪽은 흙이 딱딱하게 굳어 있어요. And Banjangnim, it hasn’t rained much lately, so the soil over there is hard. 반장님 \u0007그럼 그곳은 고압 호스로 물을 뿌려서 흙을 부드럽게 만듭시다. Then, let’s spray water with a high-pressure hose to soften the soil. 대답해 봐요!  ANSWER ME! 1  \u0007왜 하천의 물이 잘 흐르지 못해요? Why isn’t the water in the stream flowing well? 2  \u0007무슨 작업을 가장 먼저 해야 돼요? What task should they do first? 243"
-        }
+        "front": "여기가 오늘 준설 작업을 할 곳이에요?",
+        "back": "Is this the place where we will do the dredging work today?",
+        "speaker": "유수프",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_4",
-        "front": "터파기가 끝났어요. 관을 설치하면 될까요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "터파기가 끝났어요. 관을 설치하면 될까요?"
-        }
+        "front": "네. 하천에 토사가 많이 쌓여서 물이 잘 흐르지\n못하네요. 시간이 많이 걸리겠어요. 어서 물부터\n뺍시다.",
+        "back": "Yes. There’s a lot of sediment piled up in the stream, so the water isn’t flowing well. This will take a long time. Let’s drain the water first.",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_5",
-        "front": "작업하기 쉽도록 땅을 조금 더 파야 돼요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "작업하기 쉽도록 땅을 조금 더 파야 돼요."
-        }
+        "front": "반장님, 수풀 때문에 작업하기 힘들 것 같아요. 물을\n빼기 전에 굴착기로 수풀을 먼저 제거해야겠어요.",
+        "back": "Banjangnim, it seems like it will be difficut to work because of the bushes. We should remove the bushes with an excavator before draining the water.",
+        "speaker": "유수프",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_6",
-        "front": "네, 알겠습니다.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "네, 알겠습니다."
-        }
+        "front": "그렇게 하죠. 그다음에 흡입 호스로 토사를 빨아들이는 게 좋겠어요.",
+        "back": "Let’s do that. Then it’s better to suck the sediment with a suction hose.",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_7",
-        "front": "내일 나하고 근무시간 좀 바꿔 줄 수 있어요? Can you swap working hours with me?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "\u0007내일 나하고 근무시간 좀 바꿔 줄 수 있어요? Can you swap working hours with me?"
-        }
+        "front": "그리고 반장님, 그동안 비가 많이 안 와서 저쪽은 흙이 딱딱하게 굳어 있어요.",
+        "back": "And Banjangnim, it hasn’t rained much lately, so the soil over there is hard.",
+        "speaker": "유수프",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_8",
-        "front": "내일은 저도 밤에 일이 좀 있는데요. 미안해서 어떡하죠? I have some work to do tomorrow night too. I feel so sorry. 유용한 표현 │ USEFUL EXPRESSION 미안해서 어떡하죠? I feel so sorry. 246 245",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "\u0007내일은 저도 밤에 일이 좀 있는데요. 미안해서 어떡하죠? I have some work to do tomorrow night too. I feel so sorry. 유용한 표현 │ USEFUL EXPRESSION 미안해서 어떡하죠? I feel so sorry. 246 245"
-        }
+        "front": "그럼 그곳은 고압 호스로 물을 뿌려서 흙을 부드럽게 만듭시다.",
+        "back": "Then, let’s spray water with a high-pressure hose to soften the soil.",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       }
     ],
-    "culture": [],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "44 토목 시공",
+        "back": "I can talk about the process of constructing water supply and sewage systems.",
+        "body": "• 준설 작업에 대해 묻고 대답할 수 있다. I can ask and answer questions about dredging work.\n• 상하수도 시공 과정에 대해 말할 수 있다.\nI can talk about the process of constructing water supply and sewage systems.\n• 해야 하는 작업의 목적이나 결과를 표현할 수 있다.\nI can express the purpose or result of a task that needs to be done.\n44 토목 시공\nCIVIL ENGINEERING 153\n한국의 대규모 토목 공사\nKorea's Large-scale Civil Engineering Construction\n토목은 도로, 철도, 공항, 교량, 댐 등 사회 기반 시설을 건\n설하는 공사를 말하는데 한국은 우수한 기술력을 바탕으로\n국내외의 다양한 대규모 토목 공사를 수행해 오고 있습니다.\n사막을 녹지로 만들기 위한 20세기 최대 규모의 토목 공사\n로 ‘사막의 녹색혁명’이라 불리는 리비아의 대수로 공사도 한\n국의 기술력으로 진행되었습니다.\nCivil engineering refers to the construction of infrastructure",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook2/unit_44/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
     "reading": [
       {
-        "id": "u44_m1",
+        "id": "u44_r1",
         "nomor": 1,
         "tipe": "membaca",
-        "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
-        "teks_soal": "굴착기입니다.",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n굴착기입니다.",
+        "jawaban": "c",
         "audio_teks": "",
         "audio_url": "",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_44/choice_images/reading/u44_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_44/choice_images/reading/u44_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_44/choice_images/reading/u44_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_44/choice_images/reading/u44_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook2/unit_44/choice_images/reading/u44_r1_a.jpg",
+          "b": "assets/modules/textbook2/unit_44/choice_images/reading/u44_r1_b.jpg",
+          "c": "assets/modules/textbook2/unit_44/choice_images/reading/u44_r1_c.jpg",
+          "d": "assets/modules/textbook2/unit_44/choice_images/reading/u44_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_44/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u44_m2",
+        "id": "u44_r2",
         "nomor": 2,
         "tipe": "membaca",
-        "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
-        "teks_soal": "",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
         "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
@@ -584,14 +868,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_44/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u44_m3",
+        "id": "u44_r3",
         "nomor": 3,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "상수도관에 이/가 발생했다고 합니다. 상수도관에 균열이 생겨서 물이 새는 것 같습니다.",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n상수도관에 이/가 발생했다고 합니다. 상수도관에 균열이 생겨서 물이 새는 것\n같습니다.",
         "jawaban": "c",
         "audio_teks": "",
         "audio_url": "",
@@ -621,14 +909,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_44/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u44_m4",
+        "id": "u44_r4",
         "nomor": 4,
         "tipe": "membaca",
-        "instruksi": "다음은 무엇에 대한 설명입니까?",
-        "teks_soal": "물속에 쌓인 모래나 진흙을 파내서 수로를 깨끗하고 깊게 만드는 작업입니다.",
+        "instruksi": "",
+        "teks_soal": "다음은 무엇에 대한 설명입니까?\n물속에 쌓인 모래나 진흙을 파내서 수로를 깨끗하고 깊게 만드는 작업입니다.",
         "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
@@ -658,15 +950,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_44/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u44_m5",
+        "id": "u44_r5",
         "nomor": 5,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "한국은 우수한 기술력을 바탕으로 국내외의 다양한 대규모 토목 공사를 수행해 오고 있습니다. 대표적인 예로 인천 앞바다에 있던 몇 개의 섬을 간척하여 건설한 ‘인천국제공항’을 들 수 있습니다. 그리고 한국에서 가장 거대한 사장교인 왕복 6차로의 ‘인천대교’와 총 길이 8.2km의 세계에서 가장 긴 해상 다리 중 하나인 ‘거가대교’가 있습니다. ‘사막의 녹색혁명’이라 불리는 리비아의 대수로 공사도 한국의 기술력을 잘 보여 주는 예입니다. 154 한국어 표준교재 2",
-        "jawaban": "b",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국은 우수한 기술력을 바탕으로 국내외의 다양한 대규모 토목 공사를 수행해 오고 있습니다.\n대표적인 예로 인천 앞바다에 있던 몇 개의 섬을 간척하여 건설한 ‘인천국제공항’을 들 수 있습니다.\n그리고 한국에서 가장 거대한 사장교인 왕복 6차로의 ‘인천대교’와 총 길이 8.2km의 세계에서 가장 긴\n해상 다리 중 하나인 ‘거가대교’가 있습니다. ‘사막의 녹색혁명’이라 불리는 리비아의 대수로 공사도\n한국의 기술력을 잘 보여 주는 예입니다.",
+        "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -695,7 +991,11 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_44/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ],
     "listening": [
@@ -704,114 +1004,225 @@
         "nomor": 1,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 반장님, 뭐부터 해야 돼요? 남 : 굴착기로 흙부터 깎읍시다.",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
         "jawaban": "d",
-        "audio_teks": "1. 여 : 반장님, 뭐부터 해야 돼요?\n남 : 굴착기로 흙부터 깎읍시다.\n2. 남 : 무엇으로 땅을 다질까요?\n3. 여 : 관을 모두 설치했는데 이제 땅을 메우면 되지요?\n남 : 아니요, 먼저 모래와 자갈로 관 주변을 채우세요.\n4. 여 : 이따가 저하고 관 연결 작업을 좀 같이 해요.\n5. 남 : 하천에 토사가 많이 쌓였네요. 얼른 작업을 시작합시다.\n여 : 수풀이 많은데 흙을 퍼내기 전에 수풀부터 제거하는 게 어떨까요?\n남 : 좋아요. 굴착기 기사님한테 작업을 시작하시라고 전해 주세요.\n여 : 네, 바로 갔다 오겠습니다.\n44 토목 시공 CIVIL ENGINEERING 155",
+        "audio_teks": "여 : 반장님, 뭐부터 해야 돼요?\n남 : 굴착기로 흙부터 깎읍시다.",
         "audio_url": "assets/modules/textbook2/audio/unit_44/listening_1.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_44/images/u44_h9_soal_listening_01.jpeg"
+            "image": "assets/modules/textbook2/unit_44/choice_images/listening/u44_l1_a.jpg"
           },
           {
             "key": "b",
             "label": "B",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_44/images/u44_h9_soal_listening_02.jpeg"
+            "image": "assets/modules/textbook2/unit_44/choice_images/listening/u44_l1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_44/choice_images/listening/u44_l1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_44/choice_images/listening/u44_l1_d.jpg"
           }
         ],
         "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_44/images/u44_h9_soal_listening_01.jpeg",
-          "b": "assets/langit-korea-extracted/unit_44/images/u44_h9_soal_listening_02.jpeg"
-        }
+          "a": "assets/modules/textbook2/unit_44/choice_images/listening/u44_l1_a.jpg",
+          "b": "assets/modules/textbook2/unit_44/choice_images/listening/u44_l1_b.jpg",
+          "c": "assets/modules/textbook2/unit_44/choice_images/listening/u44_l1_c.jpg",
+          "d": "assets/modules/textbook2/unit_44/choice_images/listening/u44_l1_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_44/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u44_l2",
         "nomor": 2,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 무엇으로 땅을 다질까요?",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
         "jawaban": "c",
-        "audio_teks": "1. 여 : 반장님, 뭐부터 해야 돼요?\n남 : 굴착기로 흙부터 깎읍시다.\n2. 남 : 무엇으로 땅을 다질까요?\n3. 여 : 관을 모두 설치했는데 이제 땅을 메우면 되지요?\n남 : 아니요, 먼저 모래와 자갈로 관 주변을 채우세요.\n4. 여 : 이따가 저하고 관 연결 작업을 좀 같이 해요.\n5. 남 : 하천에 토사가 많이 쌓였네요. 얼른 작업을 시작합시다.\n여 : 수풀이 많은데 흙을 퍼내기 전에 수풀부터 제거하는 게 어떨까요?\n남 : 좋아요. 굴착기 기사님한테 작업을 시작하시라고 전해 주세요.\n여 : 네, 바로 갔다 오겠습니다.\n44 토목 시공 CIVIL ENGINEERING 155",
+        "audio_teks": "남 : 무엇으로 땅을 다질까요?",
         "audio_url": "assets/modules/textbook2/audio/unit_44/listening_2.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_44/images/u44_h9_soal_listening_02.jpeg"
+            "text": "여기부터 다지세요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_44/images/u44_h9_soal_listening_02.jpeg"
+            "text": "꼼꼼하게 다지세요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_44/images/u44_h9_soal_listening_02.jpeg"
+            "text": "핸드 램머로 다지세요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_44/images/u44_h9_soal_listening_02.jpeg"
+            "text": "돌을 제거한 후에 다지세요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_44/images/u44_h9_soal_listening_02.jpeg",
-          "b": "assets/langit-korea-extracted/unit_44/images/u44_h9_soal_listening_02.jpeg",
-          "c": "assets/langit-korea-extracted/unit_44/images/u44_h9_soal_listening_02.jpeg",
-          "d": "assets/langit-korea-extracted/unit_44/images/u44_h9_soal_listening_02.jpeg"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_44/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u44_l3",
         "nomor": 3,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 관을 모두 설치했는데 이제 땅을 메우면 되지요? 남 : 아니요, 먼저 모래와 자갈로 관 주변을 채우세요.",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
         "jawaban": "c",
-        "audio_teks": "1. 여 : 반장님, 뭐부터 해야 돼요?\n남 : 굴착기로 흙부터 깎읍시다.\n2. 남 : 무엇으로 땅을 다질까요?\n3. 여 : 관을 모두 설치했는데 이제 땅을 메우면 되지요?\n남 : 아니요, 먼저 모래와 자갈로 관 주변을 채우세요.\n4. 여 : 이따가 저하고 관 연결 작업을 좀 같이 해요.\n5. 남 : 하천에 토사가 많이 쌓였네요. 얼른 작업을 시작합시다.\n여 : 수풀이 많은데 흙을 퍼내기 전에 수풀부터 제거하는 게 어떨까요?\n남 : 좋아요. 굴착기 기사님한테 작업을 시작하시라고 전해 주세요.\n여 : 네, 바로 갔다 오겠습니다.\n44 토목 시공 CIVIL ENGINEERING 155",
+        "audio_teks": "여 : 관을 모두 설치했는데 이제 땅을 메우면 되지요?\n남 : 아니요, 먼저 모래와 자갈로 관 주변을 채우세요.",
         "audio_url": "assets/modules/textbook2/audio/unit_44/listening_3.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "작업 도구",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "작업 기간",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "작업 절차",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "작업 현장",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_44/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u44_l4",
         "nomor": 4,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 이따가 저하고 관 연결 작업을 좀 같이 해요.",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
         "jawaban": "d",
-        "audio_teks": "1. 여 : 반장님, 뭐부터 해야 돼요?\n남 : 굴착기로 흙부터 깎읍시다.\n2. 남 : 무엇으로 땅을 다질까요?\n3. 여 : 관을 모두 설치했는데 이제 땅을 메우면 되지요?\n남 : 아니요, 먼저 모래와 자갈로 관 주변을 채우세요.\n4. 여 : 이따가 저하고 관 연결 작업을 좀 같이 해요.\n5. 남 : 하천에 토사가 많이 쌓였네요. 얼른 작업을 시작합시다.\n여 : 수풀이 많은데 흙을 퍼내기 전에 수풀부터 제거하는 게 어떨까요?\n남 : 좋아요. 굴착기 기사님한테 작업을 시작하시라고 전해 주세요.\n여 : 네, 바로 갔다 오겠습니다.\n44 토목 시공 CIVIL ENGINEERING 155",
+        "audio_teks": "여 : 이따가 저하고 관 연결 작업을 좀 같이 해요.",
         "audio_url": "assets/modules/textbook2/audio/unit_44/listening_4.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "정신 바짝 차려야 돼요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "아직 일이 어렵다고 해요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "나머지는 내일 하려고 해요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "하던 일을 얼른 끝내고 갈게요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_44/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u44_l5",
         "nomor": 5,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 하천에 토사가 많이 쌓였네요. 얼른 작업을 시작합시다. 여 : 수풀이 많은데 흙을 퍼내기 전에 수풀부터 제거하는 게 어떨까요? 남 : 좋아요. 굴착기 기사님한테 작업을 시작하시라고 전해 주세요. 여 : 네, 바로 갔다 오겠습니다. 44 토목 시공 CIVIL ENGINEERING 155",
+        "teks_soal": "여자가 이어서 할 행동은 무엇입니까?",
         "jawaban": "d",
-        "audio_teks": "1. 여 : 반장님, 뭐부터 해야 돼요?\n남 : 굴착기로 흙부터 깎읍시다.\n2. 남 : 무엇으로 땅을 다질까요?\n3. 여 : 관을 모두 설치했는데 이제 땅을 메우면 되지요?\n남 : 아니요, 먼저 모래와 자갈로 관 주변을 채우세요.\n4. 여 : 이따가 저하고 관 연결 작업을 좀 같이 해요.\n5. 남 : 하천에 토사가 많이 쌓였네요. 얼른 작업을 시작합시다.\n여 : 수풀이 많은데 흙을 퍼내기 전에 수풀부터 제거하는 게 어떨까요?\n남 : 좋아요. 굴착기 기사님한테 작업을 시작하시라고 전해 주세요.\n여 : 네, 바로 갔다 오겠습니다.\n44 토목 시공 CIVIL ENGINEERING 155",
+        "audio_teks": "남 : 하천에 토사가 많이 쌓였네요. 얼른 작업을 시작합시다.\n여 : 수풀이 많은데 흙을 퍼내기 전에 수풀부터 제거하는 게 어\n떨까요?\n남 : 좋아요. 굴착기 기사님한테 작업을 시작하시라고 전해 주\n세요.\n여 : 네, 바로 갔다 오겠습니다.",
         "audio_url": "assets/modules/textbook2/audio/unit_44/listening_5.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "토사를 쌓아 놓습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "굴착기로 흙을 퍼냅니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "수풀을 제거하러 갑니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "기사에게 말을 전하러 갑니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_44/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ]
   },
   "integrity": {
     "pdf_pages": 10,
-    "vocab_cards": 35,
+    "lesson_flow": 10,
+    "vocab_cards": 44,
+    "grammar_cards": 2,
+    "conversation_cards": 8,
+    "culture_cards": 1,
     "reading_questions": 5,
     "listening_questions": 5,
-    "listening_audio": 5
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_audio": 5,
+    "listening_scripts": 5
   }
 }

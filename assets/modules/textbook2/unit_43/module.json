@@ -4,7 +4,7 @@
   "unit": 43,
   "title_ko": "건축 시공",
   "title_en": "Building Construction",
-  "title_id": "Konstruksi Bangunan",
+  "title_id": "Konstruksi bangunan",
   "source_pdf": "assets/langit-korea-modules/unit_43_building_construction.pdf",
   "page_start": 137,
   "page_end": 146,
@@ -61,350 +61,506 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 137,
+        "image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "43 건축 시공 \n BUILDING CONSTRUCTION 137\n 그림을 보고 문장을 완성하세요. Look at the pictures and complete the sentences.\n⑴\n결속 작업을 하려면 을/를 충분히 준비해야 돼요.\n⑵\n건물 바닥에 을/를 모두 배근했어요.\n⑶\n배근이 끝났는데 은/는 언제 타설해요?\n⑷\n 와/과 자갈, 물, 모래를 섞어서 콘크리트를 만들어요.\n어휘 VOCABULARY\n철근 결속 관련 어휘 Rebar Reinforcement \n철근\nrebar\n배근하다\nto arrange rebar\n물\nwater \n모래\nsand \n결속선\nbinding wire \n결속하다\nto bind/tie \n시멘트\ncement \n자갈\ngravel \n결속 핸들\nrebar tying handle\n콘크리트\nconcrete \n콘크리트 믹서 트럭\nconcrete mixer truck \n타설하다 \nto pour concrete\n필요하다 to be necessary\n완료하다 to complete\n가져가다 to take\n손전등 flashlight\n움직이다 to move\n교차점 intersection\n꽉 tightly\n부탁하다 to request\n복잡하다 to be messy/complicated\n다녀오다 to go and come back\n충분히 sufficiently",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 138,
+        "image": "assets/modules/textbook2/unit_43/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "138 한국어 표준교재 2\n문법 GRAMMAR\n-(으)ㄹ 텐데\n‘-(으)ㄹ 텐데’는 동사, 형용사에 붙어 앞 절에서 말하는 상황일 것으로 미루어 짐작하면서 그 짐작이 뒤 내용의 배\n경이 됨을 나타낸다.\n‘-(으)ㄹ 텐데’ is used to infer a situation in the first clause that then provides background for the following clause. \n받침 ○\n-을 텐데\n \n넣다 → 넣을 텐데\n받침 ×, 받침 ‘ㄹ’\n-ㄹ 텐데\n \n치우다 → 치울 텐데\n \n만들다 → 만들 텐데\n예 내일은 타설 작업이 많을 텐데 미리 배근 상태를 확인해 봅시다.\n \n결속선을 두는 곳은 아미나 씨가 알 텐데 한번 물어보세요.\n \n날씨가 추울 텐데 옷을 따뜻하게 입고 가세요. \n1. [보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the examples. \n배가 고프다, 식사하다 ⊙ 아침을 안 먹어서 배가 고플 텐데 식사하세요.\n[ 보기 ]\n⑴냄새가 심하다, 꼭 작업장을 환기시키다 \n⊙ 도장 작업 후에는 .\n⑵힘들다, 일찍 퇴근해서 쉬다 \n⊙ 오늘 작업을 많이 해서 .\n⑶어둡다, 손전등을 가져가다 \n⊙ 창고가 .\n⑷철근 결속 작업을 하다, 결속선을 충분히 가져가다 ⊙ 오후에 .\n2. 알맞은 것을 골라 [보기]와 같이 대화를 완성하세요. \nComplete the conversations with the correct options as shown in the example.\n있다 춥다 비가 오다 실어야 하다 콘크리트를 타설하다\n가 : 내일 콘크리트를 타설할 텐데 준비를 잘해 주세요.\n나 : 네, 철근 결속 상태를 한 번 더 점검하겠습니다.\n[ 보기 ]\n \n⑴ 가 : 결속선이 더 필요할 것 같은데 재고가 있어요? \n \n 나 : 창고에 결속선이 제가 확인해 보겠습니다.\n \n⑵ 가 : 마두 씨, 냉동 창고에 들어가면 옷을 따뜻하게 입으세요. \n \n 나 : 네, 그럼 옷을 갈아입고 올게요. \n \n⑶ 가 : 저녁에 시멘트를 옮겨야 하지 않을까요?\n \n 나 : 그래요? 그럼 제가 시멘트를 창고로 옮기고 퇴근하겠습니다. \n \n⑷ 가 : 지금 차에 철근을 누가 좀 도와줄 수 있어요?\n \n 나 : 제가 방금 작업이 끝나 쉬고 있는데 도와드릴게요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 139,
+        "image": "assets/modules/textbook2/unit_43/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "43 건축 시공 \n BUILDING CONSTRUCTION 139\n반장님 \n유수프 씨, 지금부터 철근을 결속해야 되는데 결속하는 방법은 알고 있죠?\n \nYusuf, we will need to tie the rebar now. You know how to do it, right? \n유수프 \n네, 지난번에 해 봤습니다. 가로 철근과 세로 철근이 만나는 \n교차점에 결속선을 묶으면 되죠?\n \nYes, I’ve done it before. I just need to tie the binding wire at the \nintersections of the horizontal and vertical rebar, right? \n반장님 \n맞아요. 철근이 움직이지 않게 결속선을 꽉 묶어야 돼요. \n잘못 묶으면 콘크리트 무게 때문에 철근이 움직여요. \n결속 핸들하고 결속선은 가져왔죠?\n \nExactly. You need to tie the wire tightly so the rebar doesn’t move. \nIf you tie it wrong, the rebar will shift due to the weight of the concrete. \nYou brought the rebar tying handle and binding wire, right? \n유수프 \n아, 아직 안 들고 왔습니다. 지금 바로 가지러 가겠습니다.\n \nOh, I didn't bring them yet. I’ll go get them right now. \n반장님 \n창고 안이 복잡해서 찾기 힘들 텐데 내가 다녀올게요.\n \nThe warehouse is so cluttered it might be hard to find them. I’ll go and \nlook for it myself.\n대화 CONVERSATION\n대답해 봐요! ANSWER ME!\n1 결속선은 어디에 묶어야 돼요? Where should the binding wire be tied? \n2 결속선을 잘못 묶으면 어떻게 돼요? What happens if the binding wire is not tied properly? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•내일 비가 오다, 콘크리트를 타설하다\n•결속선이 더 없다, 오늘 철근 결속 작업을 완료하다\n가 : 내일 비가 올 텐데 콘크리트를 타설할 수 있을까요?\n나 : 아마 못 할 거예요. 어떻게 할지 반장님께 물어볼게요.\n가 : 물어보고 저한테도 어떻게 할지 말해 주세요.\n발음 │ PRONUNCIATION\n한자어에서 ‘ㄹ’ 받침 뒤에 결합되는 ‘ㄷ, ㅅ, ㅈ’는 된소리로 발음한다.\nWhen initial consonants ‘ㄷ, ㅅ, ㅈ’ are preceded by the final consonant ‘ㄹ’ in Sino-Korean words, \nthese consonants are pronounced as tense sounds.\n⑴ 갈등[갈뜽] \n발달[발딸] \n열심[열씸]\n⑵ 발전[발쩐] \n갈증[갈쯩] \n물질[물찔]\n239\n238",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 140,
+        "image": "assets/modules/textbook2/unit_43/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "140 한국어 표준교재 2\n 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.\n거푸집 공사장 하중을 받다 체결하다 건물을 짓다\n⑴ 이곳에 내년부터 새 (으)려고 준비 중이에요.\n⑵ 거푸집이 움직이지 않게 웨지핀과 플랫타이로 아/어 주세요\n⑶ 학교 근처에 아파트 이/가 있어서 소음이 심해요. \n⑷ 철근 결속 작업을 마쳤으니까 이제 을/를 설치할 거예요.\n⑸ 타설을 하면 콘크리트가 무거워서 거푸집 아래쪽은 큰 아요/어요.\n기둥 column\n사라지다 to disappear\n철거하다 to remove\n마주 face to face\n양 bi-\n어휘 VOCABULARY\n거푸집 설치 관련 어휘 Formwork Assembly\n공사장\nconstruction site \n건물을 짓다\nto build a building\n거푸집\nformwork \n거푸집을 설치하다\nto assemble \nformwork \n체결하다\nto bind/fasten\n하중을 받다\nto get under \npressure\n웨지 핀\nwedge\npin\n플랫 타이\nflat tie",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 141,
+        "image": "assets/modules/textbook2/unit_43/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "43 건축 시공 \n BUILDING CONSTRUCTION 141\n문법 GRAMMAR\n-(으)ㄹ걸요\n‘-(으)ㄹ걸요’는 동사, 형용사에 붙여 말하는 사람이 어떤 일이나 상황을 추측할 때 사용한다. 주로 말할 때 사용하\n며 문장의 끝부분을 올려 발음한다.\n‘-(으)ㄹ걸요’ is used to express a guess or assumption about a situation or event. It is mostly used in conversation \nwith a rising intonation at the end of the sentence.\n받침 ○\n-을걸요\n \n닦다 → 닦을걸요\n받침 ×, 받침 ‘ㄹ’\n-ㄹ걸요\n \n쓰다 → 쓸걸요\n \n힘들다 → 힘들걸요\n예 오늘 작업한 상품은 내일 오전에 출고할걸요.\n \n방금 염색 작업이 끝나서 작업장이 더러울걸요.\n \n가 : 플랫타이하고 웨지핀 재고가 있을까요? \n \n나 : 아마 남은 게 있을걸요. 창고에 가서 확인해 볼게요.\n1. 알맞은 것을 골라 [보기]와 같이 대화를 완성하세요. \nComplete the conversations with the correct options as shown in the examples. \n있다 되다 걸리다 식사하다 도착하다\n가 : 콘크리트 믹서는 언제 와요?\n나 : 오전에 출발했으니까 곧 도착할걸요.\n[ 보기 ]\n⑴ 가 : 웨지핀이 부족한데 더 있을까요?\n \n나 : 웨지핀은 창고에 더 . 창고에서 가져오면 될 거예요.\n⑵ 가 : 기둥 거푸집 설치는 혼자 하면 되나요?\n \n나 : 혼자 하면 오래 . 유수프 씨하고 같이 하세요.\n⑶ 가 : 유수프 씨가 안 보이는데 어디에서 뭘 하고 있어요?\n \n나 : 아마 식당에서 . 너무 바빠서 점심시간에 밥을 못 먹었거든요.\n⑷ 가 : 다음에 무슨 작업을 할지 누구한테 물어보면 될까요?\n \n나 : 반장님이 알고 있을 테니까 반장님한테 물어보면 .\n2. [보기]와 같이 대화해 보세요. Practice speaking as shown in the example.\n 거푸집을 \n설치하다\n가 : 반장님, 유수프 씨는 지금 뭐 해요?\n나 : 글쎄요, 아마 거푸집을 설치하고 있을걸요.\n[ 보기 ]\n⑴\n 콘크리트를 \n타설하다\n⑵\n \n배근 \n작업을 \n하다\n⑶\n \n철근을 \n결속하다\n‘요’가 없는 ‘-(으)ㄹ걸’은 추측의 의미 \n이외에 혼잣말에 쓰여 가벼운 후회의 \n의미를 나타낸다.\nWithout ‘요’, ‘-(으)ㄹ걸’ can also imply \nlight regret when spoken to oneself. \n예 조금 더 일찍 출근할걸.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 142,
+        "image": "assets/modules/textbook2/unit_43/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "142 한국어 표준교재 2\n반장님 \n오늘은 거푸집을 설치해야 할 텐데 웨지핀하고 \n플랫타이는 가져왔죠?\n \nToday we need to assemble the formwork. Did you bring \nthe wedge pins and flat ties? \n유수프 \n네, 가져왔습니다. 그런데 웨지핀하고 플랫타이를 어\n떻게 사용해야 돼요?\n \nYes, I brought them. But how do I use the wedge pins and \nflat ties? \n반장님 \n양 옆의 거푸집은 웨지핀으로 고정하고 마주보는 \n거푸집은 플랫타이로 고정하면 돼요. 그리고 가장 \n아래에 있는 거푸집은 콘크리트를 타설할 때 하중을 \n많이 받으니까 플랫타이를 두 개씩 쓰고요.\n \nUse the wedge pins to fasten the formwork on both sides and the flat ties for the facing formwork. \nAnd for the lowest formwork use two flat ties since it gets a lot of pressure when pouring concrete.\n유수프 \n알겠습니다. 그런데 거푸집을 설치하고 나면 바로 콘크리트를 타설해요?\n \nGot it. After fastening the formwork, do we pour the concrete right away? \n반장님 \n체결 상태도 확인하고 타설 준비도 해야 되니까 하루이틀 정도는 기다려야 할걸요. \n \nWe need to check the fastening and prepare to pour the concrete, so we’ll probably need to wait a day or two.\n대화 CONVERSATION\n대답해 봐요! ANSWER ME!\n1 아래쪽 거푸집에는 플랫타이를 몇 개 사용해요? 이유는 뭐예요? \nHow many flat ties should be used for the lowest formwork? Why? \n2 거푸집 설치가 끝나면 무엇을 해요? \nWhat should be done after the formwork assembly is finished? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•철근 결속 작업을 마치다, 거푸집 설치, 철근 결속\n•거푸집 설치를 완료하다, 콘크리트 타설, 거푸집 설치\n가 : 철근 결속 작업을 마쳤는데 오늘 거푸집 설치도 해요?\n나 : 거푸집 설치는 내일 할걸요. 일이 끝났으면 좀 쉬세요. \n가 : 그럼 쉬기 전에 철근 결속 상태를 한 번 더 점검해 보겠습니다.\n가 : 반장님, 어떻게 하는지 한 번만 더 보여 주세요. \nBanjangnim, could you show me one more time how to do it?\n나 : 알았어요. 다시 한번 잘 보고 따라 해 봐요. \nOkay. Watch closely again and try to follow along. \n유용한 표현 │ USEFUL EXPRESSION\n잘 보고 따라 해 봐요.\nWatch closely and \ntry to follow along. \n241\n240",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 143,
+        "image": "assets/modules/textbook2/unit_43/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "43 건축 시공 \n BUILDING CONSTRUCTION 143\n문화와 정보 CULTURE & INFORMATION\n• 철근을 결속하는 방법과 이유에 대해 묻고 대답할 수 있다. \nI can ask and answer questions about the methods and reasons for binding rebar. \n↻\n• 거푸집 설치 방법에 대해 묻고 대답할 수 있다. \nI can ask and answer questions about how to assemble formwork. \n↻\n• 어떤 상황에 대한 추측을 말할 수 있다. I can make inferences about certain situations. \n↻\n확인해요 │ self assessment\n43 건축 시공 \n BUILDING CONSTRUCTION 143\n건설 현장의 중장비\nHeavy Machinery at Construction Sites\n교량이나 도로, 큰 건물을 짓는 대규모의 공사 현장에서는 다양한 중장비가 사용됩니다. 건설 중장비는 사용 목적에 따라 아래와 \n같이 토목 장비, 운반 장비, 포장 장비 등으로 분류되는데 무엇보다 안전하게 사용하는 것이 중요합니다.\nIn large-scale construction sites, such as those for bridges, roads, or large buildings, a variety of heavy equipment is used. \nConstruction machinery is classified based on its purpose into categories such as civil engineering equipment, transportation \nequipment, and paving equipment. Ensuring safety with the use of these machines is of utmost importance.\n토목 장비 civil engineering equipment\n불도저 bulldozer\n땅을 깎거나 평평하게 하는 장비\nmachine used for \ngrading or leveling land \n크레인 crane\n무거운 것을 옮기는 장비\nmachine used for lifting \nand moving heavy objects\n스크레이퍼 scraper\n도로의 표면을 긁어내거나 \n평평하게 하는 장비\nmachine used for scraping or \nleveling road surfaces\n굴착기 excavator\n땅을 파거나 암석을 뚫는 장비\nmachine used for digging soil \nor breaking rock\n로더 loader\n흙이나 모래를 트럭에 싣거나 \n운반하는 장비\nmachine used for scooping and \ntransporting soil or sand into trucks\n운반 장비 transportation equipment\n덤프트럭 dump truck\n흙이나 자갈 등을 실어 운반하는 차량\nvehicle used for transporting and \ncarrying soil, gravel, or other \nmaterials\n콘크리트 믹서 트럭 \nconcrete mixer truck\n콘크리트를 섞으면서 운반하는 차량\nvehicle used for transporting and \nmixing concrete while in transit\n지게차 forklift\n무거운 물건을 들어 올려 운반하는 차량\nvehicle used for lifting and \ntransporting heavy objects\n트랙터 tractor\n무거운 장비나 짐을 견인하는 차량\nvehicle used for towing heavy \nequipment or loads\n포장 장비 paving equipment\n그레이더 grader\n땅바닥을 고르거나 정리하는 데 \n사용하는 장비\nmachine used for leveling and \nsmoothing surfaces such \nas roads or ground\n롤러 roller\n흙이나 아스팔트 등의 재료를 압축하고 \n지면을 다지는 데 사용하는 장비\nmachine used for compacting \nmaterials such as soil or asphalt \nand for flattening surfaces\n아스팔트 살포기 asphalt spreader\n아스팔트 혼합물을 \n도로 표면에 뿌리는 장비\nmachine used for spreading \nasphalt mixture on the surface \nof roads\n콘크리트 펌프 트럭 \nconcrete pump truck\n콘크리트를 구조물의 표면에 뿌리는 장비\nmachine used for spreading \nconcrete on the surface of \nstructures",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 144,
+        "image": "assets/modules/textbook2/unit_43/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n144 한국어 표준교재 2\n1. \n다음 그림과 관계있는 내용은 무엇입니까?\n① 굴착기 - 땅을 파요.\n② 굴착기 - 흙을 깎아요.\n③ 콘크리트 믹서 - 콘크리트를 다져요.\n④ 콘크리트 믹서 - 콘크리트를 운반해요.\n[2~3] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n2.\n이제 을/를 설치해야 합니다. 이 작업에는 플랫타이와 웨지핀이 필요합니다.\n① 철근 \n \n \n② 건물 \n③ 시멘트 \n \n \n④ 거푸집\n3.\n오늘은 콘크리트를 날입니다. 곧 공사장에 콘크리트 믹서 트럭이 도착할 겁니다. \n① 타설하는 \n \n \n② 해체하는\n③ 검사하는 \n \n \n④ 체결하는\n4. 빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.\n철근을 튼튼하게 고정하면 콘크리트를 부어도 철근이 움직이지 않습니다. 철근을 고정할 때에는 \n결속선과 결속 핸들로 잘 .\n① 묶어야 고정할 수 있습니다 \n \n② 갈아야 고정할 수 있습니다\n③ 구부려야 고정할 수 있습니다 \n④ 도려내야 고정할 수 있습니다\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n교량이나 도로, 큰 건물을 짓는 대규모의 공사 현장에서는 다양한 중장비가 사용됩니다. 건설 중장비는 \n사용 목적에 따라 분류됩니다. 크게 토목 장비, 운반 장비, 포장 장비로 나누는데 무엇보다 안전하게 \n사용하는 것이 중요합니다.\n① 큰 공사 현장에서는 다양한 중장비를 사용합니다.\n② 건설 중장비는 크게 두 종류로 분류할 수 있습니다.\n③ 공사 규모에 따라 건설 중장비를 분류할 수 있습니다.\n④ 건설 중장비는 고장 없이 사용하는 것이 가장 중요합니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 145,
+        "image": "assets/modules/textbook2/unit_43/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n43 건축 시공 \n BUILDING CONSTRUCTION 145\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n[2~3] 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n2.\n① 네, 설치해야 돼요. \n \n \n② 네, 설치할 줄 알아요.\n③ 아니요, 설치해 놓았어요. \n \n④ 아니요, 설치하는 중이에요. \n3.\n① 철근을 강하게 결속해야 돼요. \n② 철근의 교차점을 결속해야 돼요. \n③ 결속선과 결속핸들이 있어야 돼요. \n④ 철근 배근 작업이 끝나면 결속해요.\n4. 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n① 그래요? 몇 개나 있어야 돼요? \n② 그래요? 플랫타이를 쓰면 안 돼요?\n③ 그래요? 거푸집을 벌써 설치했어요? \n④ 그래요? 체결 작업이 덜 끝났어요?\n5. \n다음 중 들은 내용과 같은 것은 무엇입니까? \n① 거푸집 설치를 완료했습니다. \n② 오늘 콘크리트를 타설합니다.\n③ 콘크리트 믹서가 공사장에 도착했습니다. \n④ 콘크리트 타설 후에 거푸집을 조립합니다.\n1. \n남 : 유수프 씨는 지금 무슨 일을 하고 있어요?\n \n여 : 철근을 배근하고 있어요. \n2. 남 : 거푸집 설치하는 방법을 알아요?\n3. 여 : 철근을 묶을 때 뭐가 필요해요?\n4. 남 : 가장 아래층 거푸집을 설치할 때에는 플랫타이가 여러 개 필요해요.\n5. 여 : 거푸집 설치 작업도 끝났으니까 이제 콘크리트를 타설하겠네요.\n \n남 : 네, 내일 오후에 콘크리트 믹서가 도착할걸요.\n \n여 : 아, 그럼 오늘은 콘크리트 타설 작업이 없는 거네요.\n듣기지문\n242",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 146,
+        "image": "assets/modules/textbook2/unit_43/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "학습 목표\nLEARNING OBJECTIVES\n준설 작업에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about dredging work.\n상하수도 시공 과정에 대해 말할 수 있다.\nCan talk about the process of constructing water supply and sewage systems.\n토목 시공 \nCivil Engineering \nC H A P T E R 4 4\n-아야겠/어야겠-\n-도록\nGRAMMAR\n문법\n준설 관련 어휘\nVocabulary Related to Dredging \n상하수도 시공 관련 어휘\nVocabulary Related to Water Supply \nand Sewage Systems Construction\nVOCABULARY\n어휘\n한국의 대규모 토목 공사\nKorea's Large-scale \nCivil Engineering Construction\nCULTURE & INFORMATION\n문화와 정보\n누수가 발생하지 않도록 관을 잘 연결해야 돼요.\n상수도관을 설치할 때 뭘 주의해야 돼요?\n146 한국어 표준교재 2\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "vocab": [
       {
         "id": "vocab_1",
-        "front": "43 건축 시공",
-        "back": "BUILDING CONSTRUCTION 137",
-        "raw": {
-          "korean": "43  건축 시공",
-          "indonesia": "BUILDING CONSTRUCTION   137"
-        }
+        "front": "철근 결속 관련 어휘",
+        "back": "Rebar Reinforcement",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_2",
-        "front": "그림을 보고 문장을 완성하세요. Look at the pictures and complete the sentences.",
-        "back": "⑴",
-        "raw": {
-          "korean": "그림을 보고 문장을 완성하세요. Look at the pictures and complete the sentences.",
-          "indonesia": "⑴"
-        }
+        "front": "철근",
+        "back": "rebar",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_3",
-        "front": "결속 작업을 하려면 을/를 충분히 준비해야 돼요.",
-        "back": "⑵",
-        "raw": {
-          "korean": "결속 작업을 하려면                                             을/를 충분히 준비해야 돼요.",
-          "indonesia": "⑵"
-        }
+        "front": "배근하다",
+        "back": "to arrange rebar",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_4",
-        "front": "건물 바닥에 을/를 모두 배근했어요.",
-        "back": "⑶",
-        "raw": {
-          "korean": "건물 바닥에                                             을/를 모두 배근했어요.",
-          "indonesia": "⑶"
-        }
+        "front": "물",
+        "back": "water",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_5",
-        "front": "배근이 끝났는데 은/는 언제 타설해요?",
-        "back": "⑷",
-        "raw": {
-          "korean": "배근이 끝났는데                                             은/는 언제 타설해요?",
-          "indonesia": "⑷"
-        }
+        "front": "모래",
+        "back": "sand",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_6",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "결속선",
+        "back": "binding wire",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_7",
-        "front": "철근 결속 관련 어휘",
-        "back": "Rebar Reinforcement",
-        "raw": {
-          "korean": "철근 결속 관련 어휘",
-          "indonesia": "\u0007Rebar Reinforcement"
-        }
+        "front": "결속하다",
+        "back": "to bind/tie",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_8",
-        "front": "철근",
-        "back": "rebar",
-        "raw": {
-          "korean": "철근",
-          "indonesia": "rebar"
-        }
+        "front": "시멘트",
+        "back": "cement",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_9",
-        "front": "배근하다",
-        "back": "to arrange rebar",
-        "raw": {
-          "korean": "배근하다",
-          "indonesia": "to arrange rebar"
-        }
+        "front": "자갈",
+        "back": "gravel",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_10",
-        "front": "물",
-        "back": "water",
-        "raw": {
-          "korean": "물",
-          "indonesia": "water"
-        }
+        "front": "결속 핸들",
+        "back": "rebar tying handle",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_11",
-        "front": "모래",
-        "back": "sand",
-        "raw": {
-          "korean": "모래",
-          "indonesia": "sand"
-        }
+        "front": "콘크리트",
+        "back": "concrete",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_12",
-        "front": "결속선",
-        "back": "binding wire",
-        "raw": {
-          "korean": "결속선",
-          "indonesia": "binding wire"
-        }
+        "front": "콘크리트 믹서 트럭",
+        "back": "concrete mixer truck",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_13",
-        "front": "결속하다",
-        "back": "to bind/tie",
-        "raw": {
-          "korean": "결속하다",
-          "indonesia": "to bind/tie"
-        }
+        "front": "타설하다",
+        "back": "to pour concrete",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_14",
-        "front": "시멘트",
-        "back": "cement",
-        "raw": {
-          "korean": "시멘트",
-          "indonesia": "cement"
-        }
+        "front": "필요하다",
+        "back": "to be necessary",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_15",
-        "front": "자갈",
-        "back": "gravel",
-        "raw": {
-          "korean": "자갈",
-          "indonesia": "gravel"
-        }
+        "front": "완료하다",
+        "back": "to complete",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_16",
-        "front": "결속 핸들",
-        "back": "rebar tying handle",
-        "raw": {
-          "korean": "결속 핸들",
-          "indonesia": "rebar tying handle"
-        }
+        "front": "가져가다",
+        "back": "to take",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_17",
-        "front": "콘크리트",
-        "back": "concrete",
-        "raw": {
-          "korean": "콘크리트",
-          "indonesia": "concrete"
-        }
+        "front": "손전등",
+        "back": "flashlight",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_18",
-        "front": "콘크리트 믹서 트럭",
-        "back": "concrete mixer truck",
-        "raw": {
-          "korean": "콘크리트 믹서 트럭",
-          "indonesia": "concrete mixer truck"
-        }
+        "front": "움직이다",
+        "back": "to move",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_19",
-        "front": "타설하다",
-        "back": "to pour concrete",
-        "raw": {
-          "korean": "타설하다",
-          "indonesia": "to pour concrete"
-        }
+        "front": "교차점",
+        "back": "intersection",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_20",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "부탁하다",
+        "back": "to request",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_21",
-        "front": "거푸집 설치 관련 어휘",
-        "back": "Formwork Assembly",
-        "raw": {
-          "korean": "거푸집 설치 관련 어휘",
-          "indonesia": "Formwork Assembly"
-        }
+        "front": "복잡하다",
+        "back": "to be messy/complicated",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_22",
-        "front": "공사장",
-        "back": "construction site",
-        "raw": {
-          "korean": "공사장",
-          "indonesia": "construction site"
-        }
+        "front": "다녀오다",
+        "back": "to go and come back",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_23",
-        "front": "건물을 짓다",
-        "back": "to build a building",
-        "raw": {
-          "korean": "건물을 짓다",
-          "indonesia": "to build a building"
-        }
+        "front": "충분히",
+        "back": "sufficiently",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_24",
-        "front": "거푸집",
-        "back": "formwork",
-        "raw": {
-          "korean": "거푸집",
-          "indonesia": "formwork"
-        }
+        "front": "거푸집 설치 관련 어휘",
+        "back": "Formwork Assembly",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_25",
-        "front": "거푸집을 설치하다",
-        "back": "to assemble",
-        "raw": {
-          "korean": "거푸집을 설치하다",
-          "indonesia": "to assemble"
-        }
+        "front": "공사장",
+        "back": "construction site",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_26",
-        "front": "체결하다",
-        "back": "to bind/fasten",
-        "raw": {
-          "korean": "체결하다",
-          "indonesia": "to bind/fasten"
-        }
+        "front": "건물을 짓다",
+        "back": "to build a building",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_27",
-        "front": "하중을 받다",
-        "back": "to get under",
-        "raw": {
-          "korean": "하중을 받다",
-          "indonesia": "to get under"
-        }
+        "front": "거푸집",
+        "back": "formwork",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_28",
-        "front": "웨지 핀",
-        "back": "wedge",
-        "raw": {
-          "korean": "웨지 핀",
-          "indonesia": "wedge"
-        }
+        "front": "거푸집을 설치하다",
+        "back": "to assemble formwork",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_29",
+        "front": "체결하다",
+        "back": "to bind/fasten",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_30",
+        "front": "하중을 받다",
+        "back": "to get under pressure",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_31",
+        "front": "웨지 핀",
+        "back": "wedge pin",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_32",
         "front": "플랫 타이",
         "back": "flat tie",
-        "raw": {
-          "korean": "플랫 타이",
-          "indonesia": "flat tie"
-        }
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       }
     ],
     "grammar": [
       {
         "id": "grammar_1",
-        "front": "138 한국어 표준교재 2",
-        "back": "문법 GRAMMAR",
-        "raw": {
-          "pattern": "138   한국어 표준교재  2",
-          "explanation": "문법  GRAMMAR"
-        }
+        "front": "-(으)ㄹ 텐데",
+        "back": "‘-(으)ㄹ 텐데’는 동사, 형용사에 붙어 앞 절에서 말하는 상황일 것으로 미루어 짐작하면서 그 짐작이 뒤 내용의 배\n경이 됨을 나타낸다.\n‘-(으)ㄹ 텐데’ is used to infer a situation in the first clause that then provides background for the following clause.\n받침 ○\n-을 텐데\n넣다 → 넣을 텐데\n받침 ×, 받침 ‘ㄹ’\n-ㄹ 텐데\n치우다 → 치울 텐데\n만들다 → 만들 텐데",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
       },
       {
         "id": "grammar_2",
-        "front": "경이 됨을 나타낸다.",
-        "back": "‘-(으)ㄹ 텐데’ is used to infer a situation in the first clause that then provides background for the following clause.",
-        "raw": {
-          "pattern": "경이 됨을 나타낸다.",
-          "explanation": "‘-(으)ㄹ 텐데’ is used to infer a situation in the first clause that then provides background for the following clause."
-        }
-      },
-      {
-        "id": "grammar_3",
-        "front": "날씨가 추울 텐데 옷을 따뜻하게 입고 가세요.",
-        "back": "1. [보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the examples.",
-        "raw": {
-          "pattern": "날씨가 추울 텐데 옷을 따뜻하게 입고 가세요.",
-          "explanation": "1. \u0007[보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the examples."
-        }
-      },
-      {
-        "id": "grammar_4",
-        "front": "2. 알맞은 것을 골라 [보기]와 같이 대화를 완성하세요.",
-        "back": "Complete the conversations with the correct options as shown in the example.",
-        "raw": {
-          "pattern": "2. \u0007알맞은 것을 골라 [보기]와 같이 대화를 완성하세요.",
-          "explanation": "Complete the conversations with the correct options as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_5",
-        "front": "43 건축 시공",
-        "back": "BUILDING CONSTRUCTION 141",
-        "raw": {
-          "pattern": "43  건축 시공",
-          "explanation": "BUILDING CONSTRUCTION   141"
-        }
-      },
-      {
-        "id": "grammar_6",
-        "front": "며 문장의 끝부분을 올려 발음한다.",
-        "back": "‘-(으)ㄹ걸요’ is used to express a guess or assumption about a situation or event. It is mostly used in conversation",
-        "raw": {
-          "pattern": "며 문장의 끝부분을 올려 발음한다.",
-          "explanation": "‘-(으)ㄹ걸요’ is used to express a guess or assumption about a situation or event. It is mostly used in conversation"
-        }
-      },
-      {
-        "id": "grammar_7",
-        "front": "1. 알맞은 것을 골라 [보기]와 같이 대화를 완성하세요.",
-        "back": "Complete the conversations with the correct options as shown in the examples.",
-        "raw": {
-          "pattern": "1. \u0007알맞은 것을 골라 [보기]와 같이 대화를 완성하세요.",
-          "explanation": "Complete the conversations with the correct options as shown in the examples."
-        }
-      },
-      {
-        "id": "grammar_8",
-        "front": "나 : 반장님이 알고 있을 테니까 반장님한테 물어보면 .",
-        "back": "2. [보기]와 같이 대화해 보세요. Practice speaking as shown in the example.",
-        "raw": {
-          "pattern": "나 : 반장님이 알고 있을 테니까 반장님한테 물어보면                                                .",
-          "explanation": "2. \u0007[보기]와 같이 대화해 보세요. Practice speaking as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_9",
-        "front": "의미를 나타낸다.",
-        "back": "Without ‘요’, ‘-(으)ㄹ걸’ can also imply",
-        "raw": {
-          "pattern": "의미를 나타낸다.",
-          "explanation": "Without ‘요’, ‘-(으)ㄹ걸’ can also imply"
-        }
+        "front": "-(으)ㄹ걸요",
+        "back": "‘-(으)ㄹ걸요’는 동사, 형용사에 붙여 말하는 사람이 어떤 일이나 상황을 추측할 때 사용한다. 주로 말할 때 사용하\n며 문장의 끝부분을 올려 발음한다.\n‘-(으)ㄹ걸요’ is used to express a guess or assumption about a situation or event. It is mostly used in conversation\nwith a rising intonation at the end of the sentence.\n받침 ○\n-을걸요\n닦다 → 닦을걸요\n받침 ×, 받침 ‘ㄹ’\n-ㄹ걸요\n쓰다 → 쓸걸요\n힘들다 → 힘들걸요",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
       }
     ],
     "conversation": [
@@ -481,15 +637,27 @@
         }
       }
     ],
-    "culture": [],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "43 건축 시공",
+        "back": "I can ask and answer questions about the methods and reasons for binding rebar.",
+        "body": "• 철근을 결속하는 방법과 이유에 대해 묻고 대답할 수 있다.\nI can ask and answer questions about the methods and reasons for binding rebar.\n• 거푸집 설치 방법에 대해 묻고 대답할 수 있다.\nI can ask and answer questions about how to assemble formwork.\n• 어떤 상황에 대한 추측을 말할 수 있다. I can make inferences about certain situations.\n43 건축 시공\nBUILDING CONSTRUCTION 143\n건설 현장의 중장비\nHeavy Machinery at Construction Sites\n교량이나 도로, 큰 건물을 짓는 대규모의 공사 현장에서는 다양한 중장비가 사용됩니다. 건설 중장비는 사용 목적에 따라 아래와\n같이 토목 장비, 운반 장비, 포장 장비 등으로 분류되는데 무엇보다 안전하게 사용하는 것이 중요합니다.\nIn large-scale construction sites, such as those for bridges, roads, or large buildings, a variety of heavy equipment is used.\nConstruction machinery is classified based on its purpose into categories such as civil engineering equipment, transportation\nequipment, and paving equipment. Ensuring safety with the use of these machines is of utmost importance.\n토목 장비 civil engineering equipment\n불도저 bulldozer",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook2/unit_43/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
     "reading": [
       {
-        "id": "u43_m1",
+        "id": "u43_r1",
         "nomor": 1,
         "tipe": "membaca",
-        "instruksi": "다음 그림과 관계있는 내용은 무엇입니까?",
-        "teks_soal": "",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 그림과 관계있는 내용은 무엇입니까?",
+        "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -497,36 +665,45 @@
             "key": "a",
             "label": "A",
             "text": "굴착기 - 땅을 파요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_43/choice_images/reading/u43_r1_a.jpg"
           },
           {
             "key": "b",
             "label": "B",
             "text": "굴착기 - 흙을 깎아요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_43/choice_images/reading/u43_r1_b.jpg"
           },
           {
             "key": "c",
             "label": "C",
             "text": "콘크리트 믹서 - 콘크리트를 다져요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_43/choice_images/reading/u43_r1_c.jpg"
           },
           {
             "key": "d",
             "label": "D",
             "text": "콘크리트 믹서 - 콘크리트를 운반해요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_43/choice_images/reading/u43_r1_d.jpg"
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook2/unit_43/choice_images/reading/u43_r1_a.jpg",
+          "b": "assets/modules/textbook2/unit_43/choice_images/reading/u43_r1_b.jpg",
+          "c": "assets/modules/textbook2/unit_43/choice_images/reading/u43_r1_c.jpg",
+          "d": "assets/modules/textbook2/unit_43/choice_images/reading/u43_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_43/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u43_m2",
+        "id": "u43_r2",
         "nomor": 2,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "이제 을/를 설치해야 합니다. 이 작업에는 플랫타이와 웨지핀이 필요합니다.",
-        "jawaban": "b",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n이제 을/를 설치해야 합니다. 이 작업에는 플랫타이와 웨지핀이 필요합니다.",
+        "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -555,15 +732,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_43/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u43_m3",
+        "id": "u43_r3",
         "nomor": 3,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "오늘은 콘크리트를 날입니다. 곧 공사장에 콘크리트 믹서 트럭이 도착할 겁니다.",
-        "jawaban": "c",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n오늘은 콘크리트를 날입니다. 곧 공사장에 콘크리트 믹서 트럭이 도착할 겁니다.",
+        "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -592,15 +773,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_43/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u43_m4",
+        "id": "u43_r4",
         "nomor": 4,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.",
-        "teks_soal": "철근을 튼튼하게 고정하면 콘크리트를 부어도 철근이 움직이지 않습니다. 철근을 고정할 때에는 결속선과 결속 핸들로 잘 .",
-        "jawaban": "d",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.\n철근을 튼튼하게 고정하면 콘크리트를 부어도 철근이 움직이지 않습니다. 철근을 고정할 때에는\n결속선과 결속 핸들로 잘 .",
+        "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -629,14 +814,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_43/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u43_m5",
+        "id": "u43_r5",
         "nomor": 5,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "교량이나 도로, 큰 건물을 짓는 대규모의 공사 현장에서는 다양한 중장비가 사용됩니다. 건설 중장비는 사용 목적에 따라 분류됩니다. 크게 토목 장비, 운반 장비, 포장 장비로 나누는데 무엇보다 안전하게 사용하는 것이 중요합니다. 144 한국어 표준교재 2",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n교량이나 도로, 큰 건물을 짓는 대규모의 공사 현장에서는 다양한 중장비가 사용됩니다. 건설 중장비는\n사용 목적에 따라 분류됩니다. 크게 토목 장비, 운반 장비, 포장 장비로 나누는데 무엇보다 안전하게\n사용하는 것이 중요합니다.",
         "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
@@ -666,7 +855,11 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_43/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ],
     "listening": [
@@ -675,188 +868,225 @@
         "nomor": 1,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 유수프 씨는 지금 무슨 일을 하고 있어요? 여 : 철근을 배근하고 있어요.",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
         "jawaban": "b",
-        "audio_teks": "1. 남 : 유수프 씨는 지금 무슨 일을 하고 있어요?\n여 : 철근을 배근하고 있어요.\n2. 남 : 거푸집 설치하는 방법을 알아요?\n3. 여 : 철근을 묶을 때 뭐가 필요해요?\n4. 남 : 가장 아래층 거푸집을 설치할 때에는 플랫타이가 여러 개 필요해요.\n5. 여 : 거푸집 설치 작업도 끝났으니까 이제 콘크리트를 타설하겠네요.\n남 : 네, 내일 오후에 콘크리트 믹서가 도착할걸요.\n여 : 아, 그럼 오늘은 콘크리트 타설 작업이 없는 거네요.\n43 건축 시공 BUILDING CONSTRUCTION 145",
+        "audio_teks": "남 : 유수프 씨는 지금 무슨 일을 하고 있어요?\n여 : 철근을 배근하고 있어요.",
         "audio_url": "assets/modules/textbook2/audio/unit_43/listening_1.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_01.jpeg"
+            "image": "assets/modules/textbook2/unit_43/choice_images/listening/u43_l1_a.jpg"
           },
           {
             "key": "b",
             "label": "B",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_02.jpeg"
+            "image": "assets/modules/textbook2/unit_43/choice_images/listening/u43_l1_b.jpg"
           },
           {
             "key": "c",
             "label": "C",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_03.jpeg"
+            "image": "assets/modules/textbook2/unit_43/choice_images/listening/u43_l1_c.jpg"
           },
           {
             "key": "d",
             "label": "D",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_04.jpeg"
+            "image": "assets/modules/textbook2/unit_43/choice_images/listening/u43_l1_d.jpg"
           }
         ],
         "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_01.jpeg",
-          "b": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_02.jpeg",
-          "c": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_03.jpeg",
-          "d": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_04.jpeg"
-        }
+          "a": "assets/modules/textbook2/unit_43/choice_images/listening/u43_l1_a.jpg",
+          "b": "assets/modules/textbook2/unit_43/choice_images/listening/u43_l1_b.jpg",
+          "c": "assets/modules/textbook2/unit_43/choice_images/listening/u43_l1_c.jpg",
+          "d": "assets/modules/textbook2/unit_43/choice_images/listening/u43_l1_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_43/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u43_l2",
         "nomor": 2,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 거푸집 설치하는 방법을 알아요?",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
         "jawaban": "b",
-        "audio_teks": "1. 남 : 유수프 씨는 지금 무슨 일을 하고 있어요?\n여 : 철근을 배근하고 있어요.\n2. 남 : 거푸집 설치하는 방법을 알아요?\n3. 여 : 철근을 묶을 때 뭐가 필요해요?\n4. 남 : 가장 아래층 거푸집을 설치할 때에는 플랫타이가 여러 개 필요해요.\n5. 여 : 거푸집 설치 작업도 끝났으니까 이제 콘크리트를 타설하겠네요.\n남 : 네, 내일 오후에 콘크리트 믹서가 도착할걸요.\n여 : 아, 그럼 오늘은 콘크리트 타설 작업이 없는 거네요.\n43 건축 시공 BUILDING CONSTRUCTION 145",
+        "audio_teks": "남 : 거푸집 설치하는 방법을 알아요?",
         "audio_url": "assets/modules/textbook2/audio/unit_43/listening_2.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_02.jpeg"
+            "text": "네, 설치해야 돼요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_02.jpeg"
+            "text": "네, 설치할 줄 알아요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_02.jpeg"
+            "text": "아니요, 설치해 놓았어요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_02.jpeg"
+            "text": "아니요, 설치하는 중이에요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_02.jpeg",
-          "b": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_02.jpeg",
-          "c": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_02.jpeg",
-          "d": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_02.jpeg"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_43/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u43_l3",
         "nomor": 3,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 철근을 묶을 때 뭐가 필요해요?",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
         "jawaban": "c",
-        "audio_teks": "1. 남 : 유수프 씨는 지금 무슨 일을 하고 있어요?\n여 : 철근을 배근하고 있어요.\n2. 남 : 거푸집 설치하는 방법을 알아요?\n3. 여 : 철근을 묶을 때 뭐가 필요해요?\n4. 남 : 가장 아래층 거푸집을 설치할 때에는 플랫타이가 여러 개 필요해요.\n5. 여 : 거푸집 설치 작업도 끝났으니까 이제 콘크리트를 타설하겠네요.\n남 : 네, 내일 오후에 콘크리트 믹서가 도착할걸요.\n여 : 아, 그럼 오늘은 콘크리트 타설 작업이 없는 거네요.\n43 건축 시공 BUILDING CONSTRUCTION 145",
+        "audio_teks": "여 : 철근을 묶을 때 뭐가 필요해요?",
         "audio_url": "assets/modules/textbook2/audio/unit_43/listening_3.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_03.jpeg"
+            "text": "철근을 강하게 결속해야 돼요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_03.jpeg"
+            "text": "철근의 교차점을 결속해야 돼요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_03.jpeg"
+            "text": "결속선과 결속핸들이 있어야 돼요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_03.jpeg"
+            "text": "철근 배근 작업이 끝나면 결속해요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_03.jpeg",
-          "b": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_03.jpeg",
-          "c": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_03.jpeg",
-          "d": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_03.jpeg"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_43/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u43_l4",
         "nomor": 4,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 가장 아래층 거푸집을 설치할 때에는 플랫타이가 여러 개 필요해요.",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
         "jawaban": "a",
-        "audio_teks": "1. 남 : 유수프 씨는 지금 무슨 일을 하고 있어요?\n여 : 철근을 배근하고 있어요.\n2. 남 : 거푸집 설치하는 방법을 알아요?\n3. 여 : 철근을 묶을 때 뭐가 필요해요?\n4. 남 : 가장 아래층 거푸집을 설치할 때에는 플랫타이가 여러 개 필요해요.\n5. 여 : 거푸집 설치 작업도 끝났으니까 이제 콘크리트를 타설하겠네요.\n남 : 네, 내일 오후에 콘크리트 믹서가 도착할걸요.\n여 : 아, 그럼 오늘은 콘크리트 타설 작업이 없는 거네요.\n43 건축 시공 BUILDING CONSTRUCTION 145",
+        "audio_teks": "남 : 가장 아래층 거푸집을 설치할 때에는 플랫타이가 여러 개\n필요해요.",
         "audio_url": "assets/modules/textbook2/audio/unit_43/listening_4.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_04.jpeg"
+            "text": "그래요? 몇 개나 있어야 돼요?",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_04.jpeg"
+            "text": "그래요? 플랫타이를 쓰면 안 돼요?",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_04.jpeg"
+            "text": "그래요? 거푸집을 벌써 설치했어요?",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_04.jpeg"
+            "text": "그래요? 체결 작업이 덜 끝났어요?",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_04.jpeg",
-          "b": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_04.jpeg",
-          "c": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_04.jpeg",
-          "d": "assets/langit-korea-extracted/unit_43/images/u43_h9_soal_listening_04.jpeg"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_43/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u43_l5",
         "nomor": 5,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 거푸집 설치 작업도 끝났으니까 이제 콘크리트를 타설하겠네요. 남 : 네, 내일 오후에 콘크리트 믹서가 도착할걸요. 여 : 아, 그럼 오늘은 콘크리트 타설 작업이 없는 거네요. 43 건축 시공 BUILDING CONSTRUCTION 145",
+        "teks_soal": "다음 중 들은 내용과 같은 것은 무엇입니까?",
         "jawaban": "a",
-        "audio_teks": "1. 남 : 유수프 씨는 지금 무슨 일을 하고 있어요?\n여 : 철근을 배근하고 있어요.\n2. 남 : 거푸집 설치하는 방법을 알아요?\n3. 여 : 철근을 묶을 때 뭐가 필요해요?\n4. 남 : 가장 아래층 거푸집을 설치할 때에는 플랫타이가 여러 개 필요해요.\n5. 여 : 거푸집 설치 작업도 끝났으니까 이제 콘크리트를 타설하겠네요.\n남 : 네, 내일 오후에 콘크리트 믹서가 도착할걸요.\n여 : 아, 그럼 오늘은 콘크리트 타설 작업이 없는 거네요.\n43 건축 시공 BUILDING CONSTRUCTION 145",
+        "audio_teks": "여 : 거푸집 설치 작업도 끝났으니까 이제 콘크리트를 타설하\n겠네요.\n남 : 네, 내일 오후에 콘크리트 믹서가 도착할걸요.\n여 : 아, 그럼 오늘은 콘크리트 타설 작업이 없는 거네요.",
         "audio_url": "assets/modules/textbook2/audio/unit_43/listening_5.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "거푸집 설치를 완료했습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "오늘 콘크리트를 타설합니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "콘크리트 믹서가 공사장에 도착했습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "콘크리트 타설 후에 거푸집을 조립합니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_43/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ]
   },
   "integrity": {
     "pdf_pages": 10,
-    "vocab_cards": 29,
+    "lesson_flow": 10,
+    "vocab_cards": 32,
+    "grammar_cards": 2,
+    "conversation_cards": 8,
+    "culture_cards": 1,
     "reading_questions": 5,
     "listening_questions": 5,
-    "listening_audio": 5
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_audio": 5,
+    "listening_scripts": 5
   }
 }

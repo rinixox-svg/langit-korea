@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 Script untuk mengintegrasikan semua aset ke Supabase:
 1. Upload gambar ke Storage (bucket: images)
@@ -30,25 +30,29 @@ try:
         if url_match and key_match:
             supabase_url = url_match.group(1)
             supabase_key = key_match.group(1)
-            print(f"✅ Ditemukan Supabase URL: {supabase_url}")
+            print(f"âœ… Ditemukan Supabase URL: {supabase_url}")
         else:
-            print("❌ Tidak ditemukan kredensial di js/supabase-config.js")
+            print("âŒ Tidak ditemukan kredensial di js/supabase-config.js")
             # Gunakan default
             supabase_url = "https://mozmuwrkfsipzfupybwh.supabase.co"
-            supabase_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1veG11d2tmc2lwemZ1cHlid2giLCJyb2xlIjoicm9sZSIsImlhdCI6MTczNjc2MzU1NH0.RPqu-07AyKygnS_bPhMO_IgXSz2r8jkljPc5TGq7Vzg"
+            supabase_key = os.getenv("SUPABASE_SERVICE_KEY", os.getenv("SUPABASE_ANON_KEY", ""))
 except Exception as e:
     print(f"Error baca config: {e}")
     supabase_url = "https://mozmuwrkfsipzfupybwh.supabase.co"
-    supabase_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1veG11d2tmc2lwemZ1cHlid2giLCJyb2xlIjoicm9sZSIsImlhdCI6MTczNjc2MzU1NH0.RPqu-07AyKygnS_bPhMO_IgXSz2r8jkljPc5TGq7Vzg"
+    supabase_key = os.getenv("SUPABASE_SERVICE_KEY", os.getenv("SUPABASE_ANON_KEY", ""))
 
 print(f"Menggunakan Supabase URL: {supabase_url}")
+
+if not supabase_key:
+    print("âŒ SUPABASE_SERVICE_KEY atau SUPABASE_ANON_KEY belum diset di environment")
+    exit(1)
 
 # Inisialisasi Supabase client
 try:
     supabase: Client = create_client(supabase_url, supabase_key)
-    print("✅ Supabase client berhasil diinisialisasi")
+    print("âœ… Supabase client berhasil diinisialisasi")
 except Exception as e:
-    print(f"❌ Gagal inisialisasi Supabase: {e}")
+    print(f"âŒ Gagal inisialisasi Supabase: {e}")
     exit(1)
 
 # === 1. UPLOAD GAMBAR KE STORAGE ===
@@ -66,7 +70,7 @@ if os.path.exists(images_dir):
             with open(filepath, 'rb') as f:
                 # Upload ke Supabase Storage
                 # Path di bucket: images/filename
-                response = supabase.storage.from(images_bucket).upload(
+                response = supabase.storage.from_(images_bucket).upload(
                     filename,  # Path di bucket
                     f.read(),
                     {"content-type": "image/jpeg"}  # Sesuaikan content-type
@@ -74,10 +78,10 @@ if os.path.exists(images_dir):
                 if idx % 10 == 0:
                     print(f"  Uploaded {idx+1}/{len(image_files)}: {filename}")
         except Exception as e:
-            print(f"  ❌ Gagal upload {filename}: {e}")
-    print(f"✅ Selesai upload gambar ({len(image_files)} file)")
+            print(f"  âŒ Gagal upload {filename}: {e}")
+    print(f"âœ… Selesai upload gambar ({len(image_files)} file)")
 else:
-    print(f"❌ Direktori {images_dir} tidak ditemukan")
+    print(f"âŒ Direktori {images_dir} tidak ditemukan")
 
 # === 2. EXTRACT AUDIO ZIP DAN UPLOAD KE STORAGE ===
 print("\n=== MENGEXTRACT AUDIO DARI ZIP DAN UPLOAD ===")
@@ -89,7 +93,7 @@ zip_files = [
 
 for zip_path in zip_files:
     if not os.path.exists(zip_path):
-        print(f"❌ File {zip_path} tidak ditemukan, lewati...")
+        print(f"âŒ File {zip_path} tidak ditemukan, lewati...")
         continue
 
     print(f"Mengekstrak {zip_path}...")
@@ -105,7 +109,7 @@ for zip_path in zip_files:
 
                     # Upload ke Supabase Storage
                     # Path: audio/mp3_name
-                    response = supabase.storage.from(audio_bucket).upload(
+                    response = supabase.storage.from_(audio_bucket).upload(
                         mp3_name,
                         mp3_data,
                         {"content-type": "audio/mpeg"}
@@ -113,10 +117,10 @@ for zip_path in zip_files:
                     if idx % 5 == 0:
                         print(f"  Uploaded {idx+1}/{len(mp3_files)}: {mp3_name}")
                 except Exception as e:
-                    print(f"  ❌ Gagal upload {mp3_name}: {e}")
-            print(f"✅ Selesai upload audio dari {zip_path}")
+                    print(f"  âŒ Gagal upload {mp3_name}: {e}")
+            print(f"âœ… Selesai upload audio dari {zip_path}")
     except Exception as e:
-        print(f"❌ Gagal ektrak {zip_path}: {e}")
+        print(f"âŒ Gagal ektrak {zip_path}: {e}")
 
 # === 3. LOAD DATA JSON KE TABLE SOAL_EPS ===
 print("\n=== MENGLOAD DATA JSON KE TABLE SOAL_EPS ===")
@@ -127,7 +131,7 @@ json_dirs = [
 
 for json_dir in json_dirs:
     if not os.path.exists(json_dir):
-        print(f"❌ Direktori {json_dir} tidak ditemukan, lewati...")
+        print(f"âŒ Direktori {json_dir} tidak ditemukan, lewati...")
         continue
 
     json_files = [f for f in os.listdir(json_dir) if f.endswith('.json')]
@@ -149,13 +153,13 @@ for json_dir in json_dirs:
                             # Insert ke tabel
                             result = supabase.table('soal_eps').insert(item)
                         except Exception as e:
-                            print(f"  ❌ Gagal insert {filename}: {e}")
+                            print(f"  âŒ Gagal insert {filename}: {e}")
                 elif isinstance(data, dict):
                     # Mungkin strukturnya beda
                     print(f"  File {filename} adalah dict, perlu penyesuaian")
         except Exception as e:
-            print(f"  ❌ Gagal baca {filename}: {e}")
-    print(f"✅ Selesai load JSON dari {json_dir}")
+            print(f"  âŒ Gagal baca {filename}: {e}")
+    print(f"âœ… Selesai load JSON dari {json_dir}")
 
 # === 4. KONVERSI PDF KE JSON (OPSIoNAL) ===
 print("\n=== KONVERSI PDF MODULES KE JSON ===")
@@ -163,10 +167,11 @@ pdf_dir = 'assets/langit-korea-modules'
 if os.path.exists(pdf_dir):
     print(f"Direktori {pdf_dir} ditemukan. Untuk mengkonversi PDF ke JSON, jalankan convert_all.py terlebih dahulu.")
 else:
-    print(f"❌ Direktori {pdf_dir} tidak ditemukan")
+    print(f"âŒ Direktori {pdf_dir} tidak ditemukan")
 
 print("\n=== INTEGRASI SELESAI ===")
 print("Cek di Supabase Dashboard:")
-print("1. Storage → buckets 'images' dan 'audio' untuk file-file yang sudah diupload")
-print("2. Table Editor → tabel 'soal_eps' untuk data soal")
+print("1. Storage â†’ buckets 'images' dan 'audio' untuk file-file yang sudah diupload")
+print("2. Table Editor â†’ tabel 'soal_eps' untuk data soal")
 print("3. Pastikan RLS (Row Level Security) sudah diatur dengan benar")
+

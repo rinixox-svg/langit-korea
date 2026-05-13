@@ -4,7 +4,7 @@
   "unit": 32,
   "title_ko": "회사 시설 이용",
   "title_en": "Use of Company Facilities",
-  "title_id": "Penggunaan Fasilitas Perusahaan",
+  "title_id": "Penggunaan fasilitas perusahaan",
   "source_pdf": "assets/langit-korea-modules/unit_32_use_of_company_facilities.pdf",
   "page_start": 27,
   "page_end": 36,
@@ -61,513 +61,764 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 27,
+        "image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "32 회사 시설 이용 \n USE OF COMPANY FACILITIES 27\n어휘 VOCABULARY\n기숙사 관련 어휘 Dormitory\n방\nroom\n복도\nhallway\n계단\nstairs\n출입문\nentrance\n세탁실\nlaundry room\n샤워실\nshower room \n조리실\nkitchen\n공용\ncommunal\n관리인\ncaretaker\n규칙을 지키다\nto follow rules and \nregulations\n규칙을 어기다\nto break rules and \nregulations\n다른 other/different\n데려오다 to bring (someone)\n혼자 alone\n 그림을 보고 빈칸에 알맞은 단어를 쓰세요. Look at the pictures and fill in the blanks with the correct words.\n⑴\n기숙사 에서 시끄럽게 떠들지 마세요.\n⑵\n문제가 있으면 한테 이야기하세요.\n⑶\n 에서 요리한 후에 깨끗하게 정리하세요.\n⑷\n 에서 담배를 피우지 마세요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 28,
+        "image": "assets/modules/textbook2/unit_32/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "28 한국어 표준교재 2\n문법 GRAMMAR\n-잖아요\n의문문에 사용되면 말하는 사\n람의 생각에 대해 듣는 사람이 \n동조해 줄 것을 바란다는 의미\n를 나타낸다.\nWhen used in a question, it \nc o n v e y s t h e s p e a k e r ’ s \nexpectation that the listener \nwill agree with their thought. \n예 가 : 늦으면 전화해야 되잖아요?\n \n나 : 네, 맞아요. \n‘-잖아요’는 동사, 형용사에 붙여 듣는 사람이 당연히 알 것으로 생각\n하는 내용을 말하는 사람이 확인하듯이 말할 때 사용한다.\n‘-잖아요’ is attached to verbs or adjectives and is used when the \nspeaker is reaffirming something that they think the listener already \nknows. \n예 밤에는 세탁기를 돌리지 마세요. 시끄럽잖아요.\n \n좀 이따 나갈까요? 퇴근 시간에는 사람이 많잖아요.\n \n가 : 반장님이 안 보이시네요.\n \n나 : 아까 창고에 가셨잖아요.\n1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.\n많다 춥다 불다 출근하다\n⑴ 음식을 더 준비해야 돼요. 오늘은 손님이 .\n⑵ 옷을 따뜻하게 입으세요. 날씨가 .\n⑶ 창문 좀 닫아 주세요. 바람이 많이 .\n⑷ 얼른 쉬세요. 아침 일찍 .\n2. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example.\n가 : 방에서 요리해도 돼요? (공용 조리실이 있다)\n나 : 안 돼요. 공용 조리실이 있잖아요.\n[ 보기 ]\n⑴가: 쓰레기를 복도에 잠깐 놓아도 되지요? (밖에 쓰레기통이 있다)\n나: 안 돼요. .\n⑵가 : 방에서 담배를 피워도 돼요? (기숙사 내에서는 금연이다)\n나 : 안 돼요. .\n⑶가 : 기숙사에 친구들을 데리고 와도 돼요? (다른 사람들이 불편해하다)\n나 : 안 돼요. .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 29,
+        "image": "assets/modules/textbook2/unit_32/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "32 회사 시설 이용 \n USE OF COMPANY FACILITIES 29\n대화 CONVERSATION\n아\n궁 \n아미나 씨, 기숙사 생활이 어때요? \n저도 기숙사로 이사하고 싶어요.\n \nAmina, how is dormitory life? I want to move to \na dormitory too. \n아미나 \n왜요? 원룸에서 사는 게 안 좋아요?\n \nWhy? Don’t you like living in a studio apartment? \n아\n궁 \n좋은데 월세가 비싸서요. 그런데 기숙사는 \n방을 다른 사람과 함께 사용해야 되지요?\n \nI do, but the rent is expensive. But in the dormitory, \nyou have to share a room with someone else, right? \n아미나 \n아니요. 우리 기숙사는 방을 혼자 써요. \n조리실과 세탁실은 공용이고요.\n \nNo, in our dormitory, we use the room alone. The kitchen and laundry room are communal. \n아\n궁 \n기숙사는 좀 불편하지요?\n \nIt's a bit uncomfortable living in the dormitory, right? \n아미나 \n불편하지는 않지만 지켜야 되는 규칙이 있어요. 기숙사에서는 여러 사람이 함께 생활하잖아요.\n \nIt’s not uncomfortable, but there are rules to follow. Many people live together in the dormitory, you know.\n대답해 봐요! ANSWER ME!\n1 아궁 씨는 왜 기숙사로 이사하고 싶어 해요? Why does Agung want to move to the dormitory? \n2 아미나 씨는 다른 사람과 함께 기숙사 방을 사용해요? \nDoes Amina share a dormitory room with someone else? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•공용 샤워실, 깨끗하게 사용해야 되다, 여러 사람이 함께 사용하다\n•휴게실, 새벽에는 TV를 보면 안 되다, 시끄럽다\n가 : 기숙사에 어떤 시설이 있어요?\n나 : 공용 샤워실이 있어요.\n가 : 공용 샤워실 사용 규칙이 있어요?\n나 : 네, 깨끗하게 사용해야 돼요. 여러 사람이 함께 사용하잖아요.\n발음 │ PRONUNCIATION\n받침 ‘ㅁ, ㅇ’ 뒤에 연결되는 ‘ㄹ’는 [ㄴ]로 발음한다.\nWhen the consonants ‘ㅁ, ㅇ’ are followed by ‘ㄹ’, ‘ㄹ’ is pronounced as [ㄴ].\n⑴ 심리[심니] \n음력[음녁] \n담력[담녁]\n⑵ 정리[정니] \n능력[능녁] \n등록[등녹]\n184\n183",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 30,
+        "image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "30 한국어 표준교재 2\n 그림을 보고 문장을 완성하세요. Look at the pictures and complete the sentences.\n⑴\n그릇에 반찬을 아요/어요.\n⑵\n 에는 밥과 국, 반찬을 모두 담을 수 있어요. \n⑶\n10일\n(월)\n11일\n(화)\n12일\n(수)\n13일\n(목)\n14일\n(금)\n미역국\n카레\n오이무침\n배추김치\n잡곡밥\n순부두국\n소불고기\n양배추쌈\n잡곡밥\n콩나물국\n동그랑땡\n배추김치\n수제비\n배추김치\n유부장국\n참치덮밥\n계란찜\n배추김치\n 에 있는 오늘의 메뉴를 확인했어요.\n⑷\n밥을 다 먹은 후에 식판을 에 놓으세요.\n어휘 VOCABULARY\n구내식당 관련 어휘 Cafeteria\n구내식당\ncafeteria\n배식대\nserving station\n식수대\nwater station\n퇴식구\ntray return area\n10일\n(월)\n11일\n(화)\n12일\n(수)\n13일\n(목)\n14일\n(금)\n미역국\n카레\n오이무침\n배추김치\n잡곡밥\n순부두국\n소불고기\n양배추쌈\n잡곡밥\n콩나물국\n동그랑땡\n배추김치\n수제비\n배추김치\n유부장국\n참치덮밥\n계란찜\n배추김치\n식\n권\nNo.00301\n○○ 구내식당\n식단표\nmenu board\n식권\nmeal ticket\n식판\nfood tray\n담다\nto put on (a plate)\n놓다 to place\n도시락 lunchbox\n미리 in advance\n할인되다 to be discounted\n나오다 to come out\n쓰다 to use\n끼리 together (between group members)\n가지다 to have",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 31,
+        "image": "assets/modules/textbook2/unit_32/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "32 회사 시설 이용 \n USE OF COMPANY FACILITIES 31\n문법 GRAMMAR\n-아/어 놓다\n‘-아/어 놓다’는 타동사에 붙어 어떤 행위를 끝낸 후에 그 결과가 유지되고 있음을 나타낸다.\n‘-아/어 놓다’ is attached to transitive verbs that take an object and shows that a result does not change after \ncompleting an action.\nㅏ, ㅗ\n-아 놓다\n \n사다 → 사 놓다\nㅓ, ㅜ, ㅣ…\n-어 놓다\n \n열다 → 열어 놓다\n-하다\n-해 놓다\n \n하다 → 해 놓다\n예 밥을 먹은 후에 식탁을 닦아 놓았어요.\n \n식사 후에는 창문을 좀 열어 놓으세요.\n \n고향에 가려고 비행기 표를 예약해 놓았어요.\n1. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example. \n가: 자야 씨 집들이 선물은 준비했어요?\n나: 네, 휴지하고 세제를 사 놓았어요. (사다)\n[ 보기 ]\n⑴가 : 칼로 씨 작업복은 어디에 있어요?\n나 : 가방 안에 . (넣다)\n⑵가 : 왜 창문을 닫았어요?\n나 : 밖에 먼지가 많아서 . (닫다)\n⑶가 : 작업장이 아주 깨끗하네요.\n나 : 오늘 좀 일찍 와서 . (청소하다)\n2. 아궁 씨가 구내식당에 대해 이야기를 해요. 알맞은 것을 골라 글을 완성하세요. \nAgung is talking about the cafeteria. Complete the text with the correct options.\n준비하다 붙이다 사다 닦다\n우리 공장 구내식당은 식권을 미리 사면 할인이 돼요. \n그래서 식권을 여러 장 ⑴ .\n식당 아주머니가 식단표를 게시판에 ⑵ . \n식단표를 보면 무슨 음식이 나오는지 알 수 있어요. \n우리 구내식당은 매일 맛있는 음식과 반찬을 ⑶ . \n그래서 사람들은 구내식당에서 점심 먹는 것을 좋아해요. \n밥을 먹은 후에는 식판을 치우고 식탁을 깨끗하게 ⑷ . \n그러면 다른 사람들이 기분 좋게 식사할 수 있어요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 32,
+        "image": "assets/modules/textbook2/unit_32/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "32 한국어 표준교재 2\n대화 CONVERSATION\n반장님 \n점심시간인데 밥 먹으러 갈까요?\n \nIt’s lunchtime, shall we go eat? \n아\n궁 \n반장님, 저는 오늘 도시락을 싸 왔어요. 고향 음식이 먹고 싶어서요.\n \nBanjangnim, I brought a lunchbox today, since I wanted to eat food from my hometown. \n반장님 \n그래요? 그럼 맛있게 드세요. 오늘은 우리끼리 먹고 \n올게요. 내일은 구내식당에 삼계탕이 나오니까 \n같이 먹어요.\n \nReally? Then enjoy your meal. Madhu and I will go and eat \ntogether today, but let's all eat together tomorrow since \nthe cafeteria will have samgyetang. \n아\n궁 \n네, 알겠습니다. 저도 삼계탕 좋아해요. 맛있게 드시고 \n오세요.\n \nOkay, I understand. I like samgyetang too. Enjoy your meal. \n반장님 \n마두 씨, 점심 먹으러 갈까요? 식권은 사 놓았어요?\n \nMadhu, shall we go eat lunch? Did you buy a meal ticket? \n마\n두 \n아니요, 지금 식당에 가서 사야 돼요.\n \nNo, I have to go buy one at the cafeteria now.\n대답해 봐요! ANSWER ME!\n1 오늘 아궁 씨는 왜 구내식당에서 점심을 안 먹어요? \nWhy isn’t Agung eating lunch at the cafeteria today? \n2 내일 구내식당에서는 무슨 음식을 먹을 수 있어요? \nWhat food will be available at the cafeteria tomorrow? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•불고기, 만들다, 담다\n•된장찌개, 준비하다, 가지다\n가 : 잘 먹겠습니다.\n나 : 맛있게 드세요. 우리 구내식당은 음식이 참 맛있어요.\n가 : 그렇지요? 오늘은 불고기를 만들어 놓았네요. 마두 씨, 어디 가요?\n나 : 불고기가 맛있어서 더 담으러 가요.\n가 : 바쁜 일은 다 끝났어요? Are all the pressing tasks finished? \n나 : 네, 다 끝났어요. 속이 시원해요. \nYes, everything is done. I feel relieved.\n유용한 표현 │ USEFUL EXPRESSION\n속이 시원해요.\nI feel relieved. \n186\n185",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 33,
+        "image": "assets/modules/textbook2/unit_32/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "32 회사 시설 이용 \n USE OF COMPANY FACILITIES 33\n문화와 정보 CULTURE & INFORMATION\n• 기숙사 시설과 규칙에 대해 말할 수 있다. I can talk about dormitory facilities and rules. \n↻\n• 구내식당 이용에 대해 말할 수 있다. I can talk about using the cafeteria. \n↻\n• 어떤 일을 끝내고 그 결과를 유지할 때 쓰는 표현을 사용할 수 있다. \nI can use expressions that indicate completing a task and maintaining the result. \n↻\n확인해요 │ self assessment\n32 회사 시설 이용 \n USE OF COMPANY FACILITIES 33\n사내 공용 시설 사용 수칙 \nRules for Using Shared Company Facilities\n회사에는 휴게실이나 구내식당, 체력단련실 등 여러 사람들이 함께 이용\n하는 편의 시설이 있습니다. 이런 시설을 사용할 때는 다른 사람들에게 불\n쾌감을 주지 않도록 주의해야 합니다. 혼자서 긴 소파를 차지하고 누워 있\n거나 발을 의자나 테이블 위에 올려놓는 일, 이어폰을 끼지 않고 스마트폰\n으로 방송을 보는 것은 예의에 어긋난 행동입니다. 식당 밖에서는 냄새가 \n많이 나는 음식물을 먹지 않도록 하고, 시설을 사용한 후에는 다른 사람들\n을 위해 깨끗이 치워 놓는 것이 좋습니다. 또 사람이 없을 때는 전등이나 냉 · 난방기를 켜 두지 말아야 합니다.\nIn the workplace, there are various shared facilities such as lounges, cafeterias, and fitness rooms. When using \nthese facilities, it is important to avoid actions that might cause discomfort to others. For example, occupying a \nlong sofa alone and lying down, placing feet on chairs or tables, or watching videos on a smartphone without \nearphones are considered impolite behaviors. Additionally, avoid eating strong smell foods outside the dining \narea, and be sure to clean up after using the facilities for others' sake. Also, do not leave lights or air conditioning/\nheating systems on when no one is present.\n잠깐씩 사용하는 회사 내 시설과 달리 기숙사는 회사 동료들과 늘 함께 \n지내는 생활 공간입니다. 기숙사에는 개인 공간 이외에도 세탁실이나 샤워\n실, 휴게실, 주방 등 공용 시설이 있습니다. 공용 시설을 사용할 때는 사용 \n규칙을 잘 지키고 항상 청결하게 사용해야 합니다. 또한 늦은 시간에는 텔\n레비전이나 음악 소리를 작게 하고 세탁실이나 샤워실은 사용하지 않는 것\n이 좋습니다. 특히 서로 다른 문화적 배경을 가진 사람들과 어울려 살 경우\n에는 상대방의 문화를 존중하는 태도가 필요합니다.\nUnlike facilities within the workplace that are used only briefly, \ndormitories are living spaces where you and your colleagues are \nconstantly. Dormitories have shared facilities such as laundry rooms, \nshowers, lounges, and kitchens in addition to private spaces. It is \nimportant to follow the rules and to maintain cleanliness when using \nthese communal facilities. Additionally, keep television and music volume \nlow during late hours and avoid using the laundry room or showers late at night. Especially when living with \npeople from diverse cultural backgrounds, it is essential to respect others’ cultures.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 34,
+        "image": "assets/modules/textbook2/unit_32/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n[1~2] 다음 내용과 관계있는 그림을 고르십시오.\n1.\n퇴식구입니다.\n①\n②\n③\n④\n2.\n그릇에 반찬을 담고 있습니다.\n①\n②\n③\n④\n3. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.\n① 기차표를 예약해 놓았어요. \n \n② 구내식당 식권을 사아 놓았어요.\n③ 식사 후에 창문을 열아 놓았어요. \n④ 밥을 먹기 전에 식탁을 닦어 놓았어요.\n4. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n여러 사람이 함께 생활하는 기숙사에서는 규칙을 잘 . 다른 사람들에게 피해를 주면 \n안 됩니다.\n① 보내야 합니다 \n \n \n② 치워야 합니다\n③ 지켜야 합니다 \n \n \n④ 사용해야 합니다\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n휴게실은 여러 사람이 함께 이용하는 공간이므로 이어폰을 끼지 않고 스마트폰으로 방송을 보면 안 \n됩니다. 그리고 사람이 없을 때는 전등과 냉·난방기를 꺼야 합니다. 기숙사에서도 지켜야 할 규칙이 \n있습니다. 늦은 시간에는 방에서 텔레비전을 볼 때 소리를 작게 하고 세탁실과 샤워실은 사용하지 않는 \n것이 좋습니다.\n① 기숙사 방에서는 큰 소리로 텔레비전을 봐도 됩니다.\n② 기숙사에서는 늦은 시간에 세탁실을 사용해야 합니다.\n③ 다른 사람을 위해 휴게실의 불은 항상 켜 두어야 합니다.\n④ 휴게실에서 스마트폰을 사용할 때는 이어폰을 껴야 합니다.\n34 한국어 표준교재 2",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 35,
+        "image": "assets/modules/textbook2/unit_32/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n32 회사 시설 이용 \n USE OF COMPANY FACILITIES 35\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n2. 다음을 듣고 물음에 알맞은 대답을 고르십시오. \n① 비빔밥을 먹어요. \n \n \n② 열두 시에 먹어요. \n③ 마두 씨하고 먹어요. \n \n \n④ 구내식당에서 먹어요.\n3. 두 사람은 무엇에 대해 말하고 있습니까?\n① 구내식당의 위치 \n \n \n② 구내식당의 가격 \n③ 구내식당의 메뉴 종류 \n \n \n④ 구내식당의 이용 방법\n4. 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n① 앞으로는 조심할게요. \n \n \n② 세탁기가 많이 있네요.\n③ 무료로 할 수 있어서 좋아요. \n④ 빨래가 정말 깨끗하게 됐어요.\n5. \n다음 중 들은 내용과 같은 것은 무엇입니까?\n① 여자와 남자는 조리실에 있습니다. \n② 남자는 휴게실에서 요리를 했습니다.\n③ 휴게실에서 음식을 먹으면 안 됩니다. \n④ 9시 이후에도 조리실을 이용할 수 있습니다.\n1. \n여 : 아궁 씨는 지금 뭐 하고 있어요?\n \n남 : 계단을 청소하고 있어요.\n2. 남 : 어디에서 밥을 먹어요?\n3. 남 : 구내식당에서 밥을 먹으려고 하는데 현금으로 계산하면 돼요?\n \n여 : 아니요. 먼저 식권을 산 다음에 식당 직원한테 식권을 줘야 돼요.\n4. 남 : 이렇게 늦은 시간에는 세탁실을 이용하면 안 돼요.\n5. 여 : 유수프 씨, 여기서 요리하면 안 돼요.\n \n남 : 어, 휴게실에서 요리하면 안 되는지 몰랐어요.\n \n여 : 요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어요. 아, 요리한 음식을 휴게실에서 먹는 건 괜찮아요.\n \n남 : 아, 그래요? 알려주셔서 감사합니다.\n듣기지문\n187",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 36,
+        "image": "assets/modules/textbook2/unit_32/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "학습 목표\nLEARNING OBJECTIVES\n직장의 분위기에 대해 말할 수 있다.\nCan talk about the atmosphere at the workplace. \n동료와의 관계에 대해 말할 수 있다.\nCan talk about colleague relationships.\n동료와의 관계 \nColleague Relationships\nC H A P T E R 3 3\n좋은 편이에요.\n회사 분위기는 어때요?\n36 한국어 표준교재 2\n-는/(으)ㄴ 편이다\n-거든요\nGRAMMAR\n문법\n직장의 분위기 관련 어휘\nVocabulary Related to Workplace \nAtmosphere\n동료와의 관계 관련 어휘\nVocabulary Related to Colleague \nRelationships\nVOCABULARY\n어휘\n한국의 회식 문화\nKorea's Hoesik (Company Dinner) \nCulture\nCULTURE & INFORMATION\n문화와 정보",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "vocab": [
       {
         "id": "vocab_1",
-        "front": "32 회사 시설 이용",
-        "back": "USE OF COMPANY FACILITIES 27",
-        "raw": {
-          "korean": "32  회사 시설 이용",
-          "indonesia": "USE OF COMPANY FACILITIES   27"
-        }
+        "front": "기숙사 관련 어휘",
+        "back": "Dormitory",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_2",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "방",
+        "back": "room",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_3",
-        "front": "기숙사 관련 어휘",
-        "back": "Dormitory",
-        "raw": {
-          "korean": "기숙사 관련 어휘",
-          "indonesia": "\u0007Dormitory"
-        }
+        "front": "복도",
+        "back": "hallway",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_4",
-        "front": "방",
-        "back": "room",
-        "raw": {
-          "korean": "방",
-          "indonesia": "room"
-        }
+        "front": "계단",
+        "back": "stairs",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_5",
-        "front": "복도",
-        "back": "hallway",
-        "raw": {
-          "korean": "복도",
-          "indonesia": "hallway"
-        }
+        "front": "출입문",
+        "back": "entrance",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_6",
-        "front": "계단",
-        "back": "stairs",
-        "raw": {
-          "korean": "계단",
-          "indonesia": "stairs"
-        }
+        "front": "세탁실",
+        "back": "laundry room",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_7",
-        "front": "출입문",
-        "back": "entrance",
-        "raw": {
-          "korean": "출입문",
-          "indonesia": "entrance"
-        }
+        "front": "샤워실",
+        "back": "shower room",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_8",
-        "front": "세탁실",
-        "back": "laundry room",
-        "raw": {
-          "korean": "세탁실",
-          "indonesia": "laundry room"
-        }
+        "front": "조리실",
+        "back": "kitchen",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_9",
-        "front": "샤워실",
-        "back": "shower room",
-        "raw": {
-          "korean": "샤워실",
-          "indonesia": "shower room"
-        }
+        "front": "공용",
+        "back": "communal",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_10",
-        "front": "조리실",
-        "back": "kitchen",
-        "raw": {
-          "korean": "조리실",
-          "indonesia": "kitchen"
-        }
+        "front": "관리인",
+        "back": "caretaker",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_11",
-        "front": "공용",
-        "back": "communal",
-        "raw": {
-          "korean": "공용",
-          "indonesia": "communal"
-        }
+        "front": "규칙을 지키다",
+        "back": "to follow rules and regulations",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_12",
-        "front": "관리인",
-        "back": "caretaker",
-        "raw": {
-          "korean": "관리인",
-          "indonesia": "caretaker"
-        }
+        "front": "규칙을 어기다",
+        "back": "to break rules and regulations",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_13",
-        "front": "규칙을 지키다",
-        "back": "to follow rules and",
-        "raw": {
-          "korean": "규칙을 지키다",
-          "indonesia": "to follow rules and"
-        }
+        "front": "다른",
+        "back": "other/different",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_14",
-        "front": "규칙을 어기다",
-        "back": "to break rules and",
-        "raw": {
-          "korean": "규칙을 어기다",
-          "indonesia": "to break rules and"
-        }
+        "front": "데려오다",
+        "back": "to bring (someone)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_15",
-        "front": "그림을 보고 빈칸에 알맞은 단어를 쓰세요. Look at the pictures and fill in the blanks with the correct words.",
-        "back": "⑴",
-        "raw": {
-          "korean": "\u0007그림을 보고 빈칸에 알맞은 단어를 쓰세요. Look at the pictures and fill in the blanks with the correct words.",
-          "indonesia": "⑴"
-        }
+        "front": "혼자",
+        "back": "alone",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_16",
-        "front": "기숙사 에서 시끄럽게 떠들지 마세요.",
-        "back": "⑵",
-        "raw": {
-          "korean": "기숙사                                에서 시끄럽게 떠들지 마세요.",
-          "indonesia": "⑵"
-        }
+        "front": "구내식당 관련 어휘",
+        "back": "Cafeteria",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_17",
-        "front": "문제가 있으면 한테 이야기하세요.",
-        "back": "⑶",
-        "raw": {
-          "korean": "문제가 있으면                                 한테 이야기하세요.",
-          "indonesia": "⑶"
-        }
+        "front": "구내식당",
+        "back": "cafeteria",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_18",
-        "front": "에서 요리한 후에 깨끗하게 정리하세요.",
-        "back": "⑷",
-        "raw": {
-          "korean": "에서 요리한 후에 깨끗하게 정리하세요.",
-          "indonesia": "⑷"
-        }
+        "front": "배식대",
+        "back": "serving station",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_19",
-        "front": "그림을 보고 문장을 완성하세요. Look at the pictures and complete the sentences.",
-        "back": "⑴",
-        "raw": {
-          "korean": "\u0007그림을 보고 문장을 완성하세요. Look at the pictures and complete the sentences.",
-          "indonesia": "⑴"
-        }
+        "front": "식수대",
+        "back": "water station",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_20",
-        "front": "그릇에 반찬을 아요/어요.",
-        "back": "⑵",
-        "raw": {
-          "korean": "그릇에 반찬을                                          아요/어요.",
-          "indonesia": "⑵"
-        }
+        "front": "퇴식구",
+        "back": "tray return area",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_21",
-        "front": "에는 밥과 국, 반찬을 모두 담을 수 있어요.",
-        "back": "⑶",
-        "raw": {
-          "korean": "에는 밥과 국, 반찬을 모두 담을 수 있어요.",
-          "indonesia": "⑶"
-        }
+        "front": "권",
+        "back": "No.00301",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_22",
-        "front": "에 있는 오늘의 메뉴를 확인했어요.",
-        "back": "⑷",
-        "raw": {
-          "korean": "에 있는 오늘의 메뉴를 확인했어요.",
-          "indonesia": "⑷"
-        }
+        "front": "식단표",
+        "back": "menu board",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_23",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "식권",
+        "back": "meal ticket",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_24",
-        "front": "구내식당 관련 어휘",
-        "back": "Cafeteria",
-        "raw": {
-          "korean": "구내식당 관련 어휘",
-          "indonesia": "Cafeteria"
-        }
+        "front": "식판",
+        "back": "food tray",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_25",
-        "front": "구내식당",
-        "back": "cafeteria",
-        "raw": {
-          "korean": "구내식당",
-          "indonesia": "cafeteria"
-        }
+        "front": "담다",
+        "back": "to put on (a plate)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_26",
-        "front": "배식대",
-        "back": "serving station",
-        "raw": {
-          "korean": "배식대",
-          "indonesia": "serving station"
-        }
+        "front": "놓다",
+        "back": "to place",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_27",
-        "front": "식수대",
-        "back": "water station",
-        "raw": {
-          "korean": "식수대",
-          "indonesia": "water station"
-        }
+        "front": "도시락",
+        "back": "lunchbox",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_28",
-        "front": "퇴식구",
-        "back": "tray return area",
-        "raw": {
-          "korean": "퇴식구",
-          "indonesia": "tray return area"
-        }
+        "front": "미리",
+        "back": "in advance",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_29",
-        "front": "권",
-        "back": "No.00301",
-        "raw": {
-          "korean": "권",
-          "indonesia": "No.00301"
-        }
+        "front": "할인되다",
+        "back": "to be discounted",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_30",
-        "front": "식단표",
-        "back": "menu board",
-        "raw": {
-          "korean": "식단표",
-          "indonesia": "menu board"
-        }
+        "front": "나오다",
+        "back": "to come out",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_31",
-        "front": "식권",
-        "back": "meal ticket",
-        "raw": {
-          "korean": "식권",
-          "indonesia": "meal ticket"
-        }
+        "front": "쓰다",
+        "back": "to use",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_32",
-        "front": "식판",
-        "back": "food tray",
-        "raw": {
-          "korean": "식판",
-          "indonesia": "food tray"
-        }
+        "front": "끼리",
+        "back": "together (between group members)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_33",
-        "front": "담다",
-        "back": "to put on (a plate)",
-        "raw": {
-          "korean": "담다",
-          "indonesia": "to put on (a plate)"
-        }
+        "front": "가지다",
+        "back": "to have",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       }
     ],
     "grammar": [
       {
         "id": "grammar_1",
-        "front": "28 한국어 표준교재 2",
-        "back": "문법 GRAMMAR",
-        "raw": {
-          "pattern": "28   한국어 표준교재  2",
-          "explanation": "문법  GRAMMAR"
-        }
+        "front": "-잖아요",
+        "back": "의문문에 사용되면 말하는 사\n람의 생각에 대해 듣는 사람이\n동조해 줄 것을 바란다는 의미\n를 나타낸다.\nWhen used in a question, it\nc o n v e y s t h e s p e a k e r ’ s\nexpectation that the listener\nwill agree with their thought.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
       },
       {
         "id": "grammar_2",
-        "front": "를 나타낸다.",
-        "back": "When used in a question, it",
-        "raw": {
-          "pattern": "를 나타낸다.",
-          "explanation": "When used in a question, it"
-        }
-      },
-      {
-        "id": "grammar_3",
-        "front": "하는 내용을 말하는 사람이 확인하듯이 말할 때 사용한다.",
-        "back": "‘-잖아요’ is attached to verbs or adjectives and is used when the",
-        "raw": {
-          "pattern": "하는 내용을 말하는 사람이 확인하듯이 말할 때 사용한다.",
-          "explanation": "‘-잖아요’ is attached to verbs or adjectives and is used when the"
-        }
-      },
-      {
-        "id": "grammar_4",
-        "front": "나 : 아까 창고에 가셨잖아요.",
-        "back": "1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.",
-        "raw": {
-          "pattern": "나 : 아까 창고에 가셨잖아요.",
-          "explanation": "1. \u0007알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options."
-        }
-      },
-      {
-        "id": "grammar_5",
-        "front": "⑷ 얼른 쉬세요. 아침 일찍 .",
-        "back": "2. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example.",
-        "raw": {
-          "pattern": "⑷\t 얼른 쉬세요. 아침 일찍                                                       .",
-          "explanation": "2. \u0007[보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_6",
-        "front": "32 회사 시설 이용",
-        "back": "USE OF COMPANY FACILITIES 31",
-        "raw": {
-          "pattern": "32  회사 시설 이용",
-          "explanation": "USE OF COMPANY FACILITIES   31"
-        }
-      },
-      {
-        "id": "grammar_7",
-        "front": "‘-아/어 놓다’는 타동사에 붙어 어떤 행위를 끝낸 후에 그 결과가 유지되고 있음을 나타낸다.",
-        "back": "‘-아/어 놓다’ is attached to transitive verbs that take an object and shows that a result does not change after",
-        "raw": {
-          "pattern": "‘-아/어 놓다’는 타동사에 붙어 어떤 행위를 끝낸 후에 그 결과가 유지되고 있음을 나타낸다.",
-          "explanation": "‘-아/어 놓다’ is attached to transitive verbs that take an object and shows that a result does not change after"
-        }
-      },
-      {
-        "id": "grammar_8",
-        "front": "고향에 가려고 비행기 표를 예약해 놓았어요.",
-        "back": "1. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example.",
-        "raw": {
-          "pattern": "고향에 가려고 비행기 표를 예약해 놓았어요.",
-          "explanation": "1. \u0007[보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_9",
-        "front": "2. 아궁 씨가 구내식당에 대해 이야기를 해요. 알맞은 것을 골라 글을 완성하세요.",
-        "back": "Agung is talking about the cafeteria. Complete the text with the correct options.",
-        "raw": {
-          "pattern": "2. \u0007아궁 씨가 구내식당에 대해 이야기를 해요. 알맞은 것을 골라 글을 완성하세요.",
-          "explanation": "Agung is talking about the cafeteria. Complete the text with the correct options."
-        }
+        "front": "-아/어 놓다",
+        "back": "‘-아/어 놓다’는 타동사에 붙어 어떤 행위를 끝낸 후에 그 결과가 유지되고 있음을 나타낸다.\n‘-아/어 놓다’ is attached to transitive verbs that take an object and shows that a result does not change after\ncompleting an action.\nㅏ, ㅗ\n-아 놓다\n사다 → 사 놓다\nㅓ, ㅜ, ㅣ…\n-어 놓다\n열다 → 열어 놓다\n-하다\n-해 놓다\n하다 → 해 놓다",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
       }
     ],
     "conversation": [
       {
         "id": "conversation_1",
-        "front": "기숙사에 어떤 시설이 있어요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "기숙사에 어떤 시설이 있어요?"
-        }
+        "front": "아미나 씨, 기숙사 생활이 어때요?\n저도 기숙사로 이사하고 싶어요.",
+        "back": "Amina, how is dormitory life? I want to move to a dormitory too.",
+        "speaker": "궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_2",
-        "front": "공용 샤워실이 있어요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "공용 샤워실이 있어요."
-        }
+        "front": "왜요? 원룸에서 사는 게 안 좋아요?",
+        "back": "Why? Don’t you like living in a studio apartment?",
+        "speaker": "아미나",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_3",
-        "front": "공용 샤워실 사용 규칙이 있어요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "공용 샤워실 사용 규칙이 있어요?"
-        }
+        "front": "좋은데 월세가 비싸서요. 그런데 기숙사는\n방을 다른 사람과 함께 사용해야 되지요?",
+        "back": "I do, but the rent is expensive. But in the dormitory, you have to share a room with someone else, right?",
+        "speaker": "궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_4",
-        "front": "네, 깨끗하게 사용해야 돼요. 여러 사람이 함께 사용하잖아요. 발음 │ PRONUNCIATION 받침 ‘ㅁ, ㅇ’ 뒤에 연결되는 ‘ㄹ’는 [ㄴ]로 발음한다. When the consonants ‘ㅁ, ㅇ’ are followed by ‘ㄹ’, ‘ㄹ’ is pronounced as [ㄴ]. ⑴ 심리[심니] 음력[음녁] 담력[담녁] ⑵ 정리[정니] 능력[능녁] 등록[등녹] 184 183",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "네, 깨끗하게 사용해야 돼요. 여러 사람이 함께 사용하잖아요. 발음 │ PRONUNCIATION 받침 ‘ㅁ, ㅇ’ 뒤에 연결되는 ‘ㄹ’는 [ㄴ]로 발음한다. When the consonants ‘ㅁ, ㅇ’ are followed by ‘ㄹ’, ‘ㄹ’ is pronounced as [ㄴ]. ⑴ 심리[심니] 음력[음녁] 담력[담녁] ⑵ 정리[정니] 능력[능녁] 등록[등녹] 184 183"
-        }
+        "front": "아니요. 우리 기숙사는 방을 혼자 써요.\n조리실과 세탁실은 공용이고요.",
+        "back": "No, in our dormitory, we use the room alone. The kitchen and laundry room are communal.",
+        "speaker": "아미나",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_5",
-        "front": "잘 먹겠습니다.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "잘 먹겠습니다."
-        }
+        "front": "기숙사는 좀 불편하지요?",
+        "back": "It's a bit uncomfortable living in the dormitory, right?",
+        "speaker": "궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_6",
-        "front": "맛있게 드세요. 우리 구내식당은 음식이 참 맛있어요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "맛있게 드세요. 우리 구내식당은 음식이 참 맛있어요."
-        }
+        "front": "불편하지는 않지만 지켜야 되는 규칙이 있어요. 기숙사에서는 여러 사람이 함께 생활하잖아요.",
+        "back": "It’s not uncomfortable, but there are rules to follow. Many people live together in the dormitory, you know.",
+        "speaker": "아미나",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_7",
-        "front": "그렇지요? 오늘은 불고기를 만들어 놓았네요. 마두 씨, 어디 가요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "그렇지요? 오늘은 불고기를 만들어 놓았네요. 마두 씨, 어디 가요?"
-        }
+        "front": "점심시간인데 밥 먹으러 갈까요?",
+        "back": "It’s lunchtime, shall we go eat?",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_8",
-        "front": "불고기가 맛있어서 더 담으러 가요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "불고기가 맛있어서 더 담으러 가요."
-        }
+        "front": "반장님, 저는 오늘 도시락을 싸 왔어요. 고향 음식이 먹고 싶어서요.",
+        "back": "Banjangnim, I brought a lunchbox today, since I wanted to eat food from my hometown.",
+        "speaker": "궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_9",
-        "front": "바쁜 일은 다 끝났어요? Are all the pressing tasks finished?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "\u0007바쁜 일은 다 끝났어요? Are all the pressing tasks finished?"
-        }
+        "front": "그래요? 그럼 맛있게 드세요. 오늘은 우리끼리 먹고\n올게요. 내일은 구내식당에 삼계탕이 나오니까\n같이 먹어요.",
+        "back": "Really? Then enjoy your meal. Madhu and I will go and eat together today, but let's all eat together tomorrow since the cafeteria will have samgyetang.",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_10",
-        "front": "네, 다 끝났어요. 속이 시원해요. Yes, everything is done. I feel relieved. 유용한 표현 │ USEFUL EXPRESSION 속이 시원해요. I feel relieved. 186 185",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "\u0007네, 다 끝났어요. 속이 시원해요. Yes, everything is done. I feel relieved. 유용한 표현 │ USEFUL EXPRESSION 속이 시원해요. I feel relieved. 186 185"
-        }
-      }
-    ],
-    "culture": [],
-    "reading": [
-      {
-        "id": "u32_m1",
-        "nomor": 1,
-        "tipe": "membaca",
-        "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
-        "teks_soal": "퇴식구입니다.",
-        "jawaban": "a",
-        "audio_teks": "",
-        "audio_url": "",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "front": "네, 알겠습니다. 저도 삼계탕 좋아해요. 맛있게 드시고\n오세요.",
+        "back": "Okay, I understand. I like samgyetang too. Enjoy your meal.",
+        "speaker": "궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
-        "id": "u32_m2",
-        "nomor": 2,
+        "id": "conversation_11",
+        "front": "마두 씨, 점심 먹으러 갈까요? 식권은 사 놓았어요?",
+        "back": "Madhu, shall we go eat lunch? Did you buy a meal ticket?",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_12",
+        "front": "아니요, 지금 식당에 가서 사야 돼요.",
+        "back": "No, I have to go buy one at the cafeteria now.",
+        "speaker": "두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      }
+    ],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "32 회사 시설 이용",
+        "back": "I can use expressions that indicate completing a task and maintaining the result.",
+        "body": "• 기숙사 시설과 규칙에 대해 말할 수 있다. I can talk about dormitory facilities and rules.\n• 구내식당 이용에 대해 말할 수 있다. I can talk about using the cafeteria.\n• 어떤 일을 끝내고 그 결과를 유지할 때 쓰는 표현을 사용할 수 있다.\nI can use expressions that indicate completing a task and maintaining the result.\n32 회사 시설 이용\nUSE OF COMPANY FACILITIES 33\n사내 공용 시설 사용 수칙\nRules for Using Shared Company Facilities\n회사에는 휴게실이나 구내식당, 체력단련실 등 여러 사람들이 함께 이용\n하는 편의 시설이 있습니다. 이런 시설을 사용할 때는 다른 사람들에게 불\n쾌감을 주지 않도록 주의해야 합니다. 혼자서 긴 소파를 차지하고 누워 있\n거나 발을 의자나 테이블 위에 올려놓는 일, 이어폰을 끼지 않고 스마트폰\n으로 방송을 보는 것은 예의에 어긋난 행동입니다. 식당 밖에서는 냄새가\n많이 나는 음식물을 먹지 않도록 하고, 시설을 사용한 후에는 다른 사람들\n을 위해 깨끗이 치워 놓는 것이 좋습니다. 또 사람이 없을 때는 전등이나 냉 · 난방기를 켜 두지 말아야 합니다.\nIn the workplace, there are various shared facilities such as lounges, cafeterias, and fitness rooms. When using",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook2/unit_32/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
+    "reading": [
+      {
+        "id": "u32_r1",
+        "nomor": 1,
         "tipe": "membaca",
-        "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
-        "teks_soal": "그릇에 반찬을 담고 있습니다.",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n퇴식구입니다.",
         "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r1_a.jpg",
+          "b": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r1_b.jpg",
+          "c": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r1_c.jpg",
+          "d": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_32/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u32_m3",
+        "id": "u32_r2",
+        "nomor": 2,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n그릇에 반찬을 담고 있습니다.",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r2_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r2_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r2_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r2_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r2_a.jpg",
+          "b": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r2_b.jpg",
+          "c": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r2_c.jpg",
+          "d": "assets/modules/textbook2/unit_32/choice_images/reading/u32_r2_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_32/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
+      },
+      {
+        "id": "u32_r3",
         "nomor": 3,
         "tipe": "membaca",
-        "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
-        "teks_soal": "",
-        "jawaban": "c",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -596,15 +847,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_32/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u32_m4",
+        "id": "u32_r4",
         "nomor": 4,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "여러 사람이 함께 생활하는 기숙사에서는 규칙을 잘 . 다른 사람들에게 피해를 주면 안 됩니다.",
-        "jawaban": "d",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n여러 사람이 함께 생활하는 기숙사에서는 규칙을 잘 . 다른 사람들에게 피해를 주면\n안 됩니다.",
+        "jawaban": "c",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -633,15 +888,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_32/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u32_m5",
+        "id": "u32_r5",
         "nomor": 5,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "휴게실은 여러 사람이 함께 이용하는 공간이므로 이어폰을 끼지 않고 스마트폰으로 방송을 보면 안 됩니다. 그리고 사람이 없을 때는 전등과 냉·난방기를 꺼야 합니다. 기숙사에서도 지켜야 할 규칙이 있습니다. 늦은 시간에는 방에서 텔레비전을 볼 때 소리를 작게 하고 세탁실과 샤워실은 사용하지 않는 것이 좋습니다. 34 한국어 표준교재 2",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n휴게실은 여러 사람이 함께 이용하는 공간이므로 이어폰을 끼지 않고 스마트폰으로 방송을 보면 안\n됩니다. 그리고 사람이 없을 때는 전등과 냉·난방기를 꺼야 합니다. 기숙사에서도 지켜야 할 규칙이\n있습니다. 늦은 시간에는 방에서 텔레비전을 볼 때 소리를 작게 하고 세탁실과 샤워실은 사용하지 않는\n것이 좋습니다.",
+        "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -670,7 +929,11 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_32/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ],
     "listening": [
@@ -679,188 +942,225 @@
         "nomor": 1,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 아궁 씨는 지금 뭐 하고 있어요? 남 : 계단을 청소하고 있어요.",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
         "jawaban": "c",
-        "audio_teks": "1. 여 : 아궁 씨는 지금 뭐 하고 있어요?\n남 : 계단을 청소하고 있어요.\n2. 남 : 어디에서 밥을 먹어요?\n3. 남 : 구내식당에서 밥을 먹으려고 하는데 현금으로 계산하면 돼요?\n여 : 아니요. 먼저 식권을 산 다음에 식당 직원한테 식권을 줘야 돼요.\n4. 남 : 이렇게 늦은 시간에는 세탁실을 이용하면 안 돼요.\n5. 여 : 유수프 씨, 여기서 요리하면 안 돼요.\n남 : 어, 휴게실에서 요리하면 안 되는지 몰랐어요.\n여 : 요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어요. 아, 요리한 음식을 휴게실에서 먹는 건 괜찮아요.\n남 : 아, 그래요? 알려주셔서 감사합니다.\n32 회사 시설 이용 USE OF COMPANY FACILITIES 35",
+        "audio_teks": "여 : 아궁 씨는 지금 뭐 하고 있어요?\n남 : 계단을 청소하고 있어요.",
         "audio_url": "assets/modules/textbook2/audio/unit_32/listening_1.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_01.jpeg"
+            "image": "assets/modules/textbook2/unit_32/choice_images/listening/u32_l1_a.jpg"
           },
           {
             "key": "b",
             "label": "B",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_02.jpeg"
+            "image": "assets/modules/textbook2/unit_32/choice_images/listening/u32_l1_b.jpg"
           },
           {
             "key": "c",
             "label": "C",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_03.jpeg"
+            "image": "assets/modules/textbook2/unit_32/choice_images/listening/u32_l1_c.jpg"
           },
           {
             "key": "d",
             "label": "D",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_04.jpeg"
+            "image": "assets/modules/textbook2/unit_32/choice_images/listening/u32_l1_d.jpg"
           }
         ],
         "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_01.jpeg",
-          "b": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_02.jpeg",
-          "c": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_03.jpeg",
-          "d": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_04.jpeg"
-        }
+          "a": "assets/modules/textbook2/unit_32/choice_images/listening/u32_l1_a.jpg",
+          "b": "assets/modules/textbook2/unit_32/choice_images/listening/u32_l1_b.jpg",
+          "c": "assets/modules/textbook2/unit_32/choice_images/listening/u32_l1_c.jpg",
+          "d": "assets/modules/textbook2/unit_32/choice_images/listening/u32_l1_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_32/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u32_l2",
         "nomor": 2,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 어디에서 밥을 먹어요?",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
         "jawaban": "d",
-        "audio_teks": "1. 여 : 아궁 씨는 지금 뭐 하고 있어요?\n남 : 계단을 청소하고 있어요.\n2. 남 : 어디에서 밥을 먹어요?\n3. 남 : 구내식당에서 밥을 먹으려고 하는데 현금으로 계산하면 돼요?\n여 : 아니요. 먼저 식권을 산 다음에 식당 직원한테 식권을 줘야 돼요.\n4. 남 : 이렇게 늦은 시간에는 세탁실을 이용하면 안 돼요.\n5. 여 : 유수프 씨, 여기서 요리하면 안 돼요.\n남 : 어, 휴게실에서 요리하면 안 되는지 몰랐어요.\n여 : 요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어요. 아, 요리한 음식을 휴게실에서 먹는 건 괜찮아요.\n남 : 아, 그래요? 알려주셔서 감사합니다.\n32 회사 시설 이용 USE OF COMPANY FACILITIES 35",
+        "audio_teks": "남 : 어디에서 밥을 먹어요?",
         "audio_url": "assets/modules/textbook2/audio/unit_32/listening_2.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_02.jpeg"
+            "text": "비빔밥을 먹어요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_02.jpeg"
+            "text": "열두 시에 먹어요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_02.jpeg"
+            "text": "마두 씨하고 먹어요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_02.jpeg"
+            "text": "구내식당에서 먹어요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_02.jpeg",
-          "b": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_02.jpeg",
-          "c": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_02.jpeg",
-          "d": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_02.jpeg"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_32/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u32_l3",
         "nomor": 3,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 구내식당에서 밥을 먹으려고 하는데 현금으로 계산하면 돼요? 여 : 아니요. 먼저 식권을 산 다음에 식당 직원한테 식권을 줘야 돼요.",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
         "jawaban": "d",
-        "audio_teks": "1. 여 : 아궁 씨는 지금 뭐 하고 있어요?\n남 : 계단을 청소하고 있어요.\n2. 남 : 어디에서 밥을 먹어요?\n3. 남 : 구내식당에서 밥을 먹으려고 하는데 현금으로 계산하면 돼요?\n여 : 아니요. 먼저 식권을 산 다음에 식당 직원한테 식권을 줘야 돼요.\n4. 남 : 이렇게 늦은 시간에는 세탁실을 이용하면 안 돼요.\n5. 여 : 유수프 씨, 여기서 요리하면 안 돼요.\n남 : 어, 휴게실에서 요리하면 안 되는지 몰랐어요.\n여 : 요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어요. 아, 요리한 음식을 휴게실에서 먹는 건 괜찮아요.\n남 : 아, 그래요? 알려주셔서 감사합니다.\n32 회사 시설 이용 USE OF COMPANY FACILITIES 35",
+        "audio_teks": "남 : 구내식당에서 밥을 먹으려고 하는데 현금으로 계산하면\n돼요?\n여 : 아니요. 먼저 식권을 산 다음에 식당 직원한테 식권을 줘야\n돼요.",
         "audio_url": "assets/modules/textbook2/audio/unit_32/listening_3.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_03.jpeg"
+            "text": "구내식당의 위치",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_03.jpeg"
+            "text": "구내식당의 가격",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_03.jpeg"
+            "text": "구내식당의 메뉴 종류",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_03.jpeg"
+            "text": "구내식당의 이용 방법",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_03.jpeg",
-          "b": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_03.jpeg",
-          "c": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_03.jpeg",
-          "d": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_03.jpeg"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_32/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u32_l4",
         "nomor": 4,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 이렇게 늦은 시간에는 세탁실을 이용하면 안 돼요.",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
         "jawaban": "a",
-        "audio_teks": "1. 여 : 아궁 씨는 지금 뭐 하고 있어요?\n남 : 계단을 청소하고 있어요.\n2. 남 : 어디에서 밥을 먹어요?\n3. 남 : 구내식당에서 밥을 먹으려고 하는데 현금으로 계산하면 돼요?\n여 : 아니요. 먼저 식권을 산 다음에 식당 직원한테 식권을 줘야 돼요.\n4. 남 : 이렇게 늦은 시간에는 세탁실을 이용하면 안 돼요.\n5. 여 : 유수프 씨, 여기서 요리하면 안 돼요.\n남 : 어, 휴게실에서 요리하면 안 되는지 몰랐어요.\n여 : 요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어요. 아, 요리한 음식을 휴게실에서 먹는 건 괜찮아요.\n남 : 아, 그래요? 알려주셔서 감사합니다.\n32 회사 시설 이용 USE OF COMPANY FACILITIES 35",
+        "audio_teks": "남 : 이렇게 늦은 시간에는 세탁실을 이용하면 안 돼요.",
         "audio_url": "assets/modules/textbook2/audio/unit_32/listening_4.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_04.jpeg"
+            "text": "앞으로는 조심할게요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_04.jpeg"
+            "text": "세탁기가 많이 있네요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_04.jpeg"
+            "text": "무료로 할 수 있어서 좋아요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_04.jpeg"
+            "text": "빨래가 정말 깨끗하게 됐어요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_04.jpeg",
-          "b": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_04.jpeg",
-          "c": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_04.jpeg",
-          "d": "assets/langit-korea-extracted/unit_32/images/u32_h9_soal_listening_04.jpeg"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_32/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u32_l5",
         "nomor": 5,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 유수프 씨, 여기서 요리하면 안 돼요. 남 : 어, 휴게실에서 요리하면 안 되는지 몰랐어요. 여 : 요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어요. 아, 요리한 음식을 휴게실에서 먹는 건 괜찮아요. 남 : 아, 그래요? 알려주셔서 감사합니다. 32 회사 시설 이용 USE OF COMPANY FACILITIES 35",
+        "teks_soal": "다음 중 들은 내용과 같은 것은 무엇입니까?",
         "jawaban": "b",
-        "audio_teks": "1. 여 : 아궁 씨는 지금 뭐 하고 있어요?\n남 : 계단을 청소하고 있어요.\n2. 남 : 어디에서 밥을 먹어요?\n3. 남 : 구내식당에서 밥을 먹으려고 하는데 현금으로 계산하면 돼요?\n여 : 아니요. 먼저 식권을 산 다음에 식당 직원한테 식권을 줘야 돼요.\n4. 남 : 이렇게 늦은 시간에는 세탁실을 이용하면 안 돼요.\n5. 여 : 유수프 씨, 여기서 요리하면 안 돼요.\n남 : 어, 휴게실에서 요리하면 안 되는지 몰랐어요.\n여 : 요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어요. 아, 요리한 음식을 휴게실에서 먹는 건 괜찮아요.\n남 : 아, 그래요? 알려주셔서 감사합니다.\n32 회사 시설 이용 USE OF COMPANY FACILITIES 35",
+        "audio_teks": "여 : 유수프 씨, 여기서 요리하면 안 돼요\n남 : 어, 휴게실에서 요리하면 안 되는지 몰랐어요.\n여 : 요리는 조리실에서 해야 돼요. 아홉 시까지 이용할 수 있어\n요. 아, 요리한 음식을 휴게실에서 먹는 건 괜찮아요.\n남 : 아, 그래요? 알려주셔서 감사합니다.",
         "audio_url": "assets/modules/textbook2/audio/unit_32/listening_5.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "여자와 남자는 조리실에 있습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "남자는 휴게실에서 요리를 했습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "휴게실에서 음식을 먹으면 안 됩니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "9시 이후에도 조리실을 이용할 수 있습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_32/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ]
   },
   "integrity": {
     "pdf_pages": 10,
+    "lesson_flow": 10,
     "vocab_cards": 33,
+    "grammar_cards": 2,
+    "conversation_cards": 12,
+    "culture_cards": 1,
     "reading_questions": 5,
     "listening_questions": 5,
-    "listening_audio": 5
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_audio": 5,
+    "listening_scripts": 5
   }
 }

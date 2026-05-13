@@ -7,6 +7,7 @@ Script untuk:
 3. Verifikasi tabel soal_eps
 """
 
+import os
 from datetime import datetime
 
 from supabase import create_client
@@ -14,10 +15,13 @@ from supabase import create_client
 print("=== TEST KONEKSI & SETUP SUPABASE ===\n")
 
 # ========== KONFIGURASI ==========
-# GANTI DENGAN DATA SUPABASE KAMU!
-SUPABASE_URL = "https://mozmuwrkfsipzfupybwh.supabase.co"  # GANTI!
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1vem11d3JrZnNpcHpmdXB5YndoIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NzY5NTk1NCwiZXhwIjoyMDkzMjcxOTU0fQ.SZSNk6xV-vq17beo_LwWzsZSp9UVGdqfR-R35cGxawE"  # GANTI! (service_role key)
+SUPABASE_URL = os.getenv("SUPABASE_URL", "https://mozmuwrkfsipzfupybwh.supabase.co")
+SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_KEY", "")
 # ========== ========== ==========
+
+if not SUPABASE_KEY:
+    print("SUPABASE_SERVICE_KEY belum diset di environment.")
+    exit(1)
 
 # Inisialisasi client
 try:

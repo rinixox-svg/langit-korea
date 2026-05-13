@@ -4,7 +4,7 @@
   "unit": 11,
   "title_ko": "집안일",
   "title_en": "HOUSEHOLD CHORES",
-  "title_id": "",
+  "title_id": "Pekerjaan rumah",
   "source_pdf": "assets/modules/textbook1/unit_11/source.pdf",
   "page_start": 151,
   "page_end": 160,
@@ -61,6 +61,164 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 151,
+        "image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "11 집안일 \n HOUSEHOLD CHORES 151\n어휘 VOCABULARY\n쓰레기 분리배출 관련 어휘 Waste Separation and Disposal\n일반쓰레기\ngeneral waste\n음식물쓰레기\nfood waste\n재활용품\nrecyclable materials\n헌 옷 \nold clothes\n유리 glass\n종이 paper\n캔 cans\n플라스틱 plastic\n쓰레기봉투에 넣다\nto put in a trash bag\n음식물 쓰레기봉투에 넣다\nto put in a food waste bag\n쓰레기를 버리다 \nto throw away trash\n음식물 쓰레기통에 버리다 \nto throw away in the food \nwaste bin\n따로 버리다\nto throw away separately\n수거함에 버리다\nto throw in a collection bin\n같이 together\n일 work\n시작하다 to start\n그래서 so\n 관계있는 것끼리 연결하세요. Connect the related items.\n⑴\n⑵\n⑶\n⑷\n수거함에 버려요.\n따로 버려요.\n쓰레기봉투에 \n넣어요.\n음식물 쓰레기통에 \n버려요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 152,
+        "image": "assets/modules/textbook1/unit_11/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "152 한국어 표준교재 1\n문법 GRAMMAR\n-아야/어야 되다\n‘-아야/어야 되다’는 동사, 형용사에 붙어 문장의 주체가 지니는 \n의무를 나타내거나 어떤 일이 당연히 그렇게 되어야 한다는 당위\n성이나 필요성을 나타낸다.\n‘-아야/어야 되다’ is attached to verbs and adjectives to show \nthat the subject of the sentence must do something or that \nit is necessary that something must be done in a certain way.\nㅏ, ㅗ\n-아야 되다\n \n가다 → 가야 되다\nㅓ, ㅜ, ㅣ …\n-어야 되다\n \n읽다 → 읽어야 되다\n-하다\n-해야 되다\n \n일하다 → 일해야 되다\n예 회사에 가야 돼요.\n \n책을 읽어야 돼요.\n \n가 : 주말에 일해야 돼요? \n나 : 네, 주말에 일해야 돼요.\n1. 그림을 보고 [보기]와 같이 문장을 완성하세요. \nLook at the pictures and complete the sentences as shown in the examples.\n1:00 PM\n일을 시작해야 돼요.\n[ 보기 ]\n⑴\n8:00 AM\n .\n⑵\n12:00 PM\n .\n⑶\n6:00 PM\n .\n⑷\n10:00 PM\n .\n2. 알맞은 것을 골라 대화를 완성하세요. Complete the sentences with the correct options\n따로 버리다 수거함에 버리다 쓰레기봉투에 넣다 음식물 쓰레기통에 버리다\n⑴\n가 : 헌 옷은 어디에 버려야 돼요?\n나 : .\n⑵\n가 : 캔하고 유리병을 같이 버려야 \n돼요?\n나 : .\n⑶\n가 : 일반 쓰레기는 어디에 넣어야 \n돼요?\n나 : .\n⑷\n가 : 음식물 쓰레기는 어디에 \n버려야 돼요?\n나 : .\n-아야/어야 하다\n‘-아야/어야 되다’ 대신에 ‘-아야/\n어야 하다’를 사용할 수 있다. \n‘-아야/어야 하다’는 문어나 격식\n적인 상황에서 주로 사용한다.\n‘-아야/어야 되다’ can be replaced \nwith ‘-아야/어야 하다’. ‘-아야/어\n야 하다’ is more often used in \nformal or literary contexts.\n예 회사에 가야 해요.\n \n회사에 가야 합니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 153,
+        "image": "assets/modules/textbook1/unit_11/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "11 집안일 \n HOUSEHOLD CHORES 153\n대화 CONVERSATION\n칼 로 \n푸캄 씨, 쓰레기가 많네요.\n \nPhukham, that's a lot of trash!\n푸 캄 \n네. 어제 집에서 친구들하고 저녁을 먹었어요.\n그래서 쓰레기가 많아요.\n \nYes. I had dinner with friends at home yesterday, \nso there's a lot of trash.\n칼 로 \n푸캄 씨, 쓰레기봉투가 없어요?\n쓰레기는 쓰레기봉투에 넣어야 돼요.\n \nPhukham, don’t you have trash bags? You need to \nput the trash in a trash bag.\n푸 캄 \n아, 네. 캔도 쓰레기봉투에 넣어요?\n \nOh, okay. Do I put the cans in the trash bag too?\n칼 로 \n그건 따로 버려야 돼요.\n \nThose need to be thrown away separately.\n대답해 봐요! ANSWER ME!\n1 푸캄 씨는 어제 무엇을 했어요? What did Phukham do yesterday?\n2 캔은 어떻게 버려야 돼요? How must the cans be thrown away?\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•쓰레기를 버리다\n•청소를 하다\n가 : 이제 뭐 해야 돼요?\n나 : 쓰레기를 버려야 돼요.\n발음 │ PRONUNCIATION\nㄱ\n‘ㄱ’는 어두의 초성에 올 때는 무성음으로 [k]와 비슷하게 발음되고 모음 사이에 올 때\n는 유성음으로 [g]와 비슷하게 발음된다.\nWhen ‘ㄱ’ appears at the initial position of a syllable, it is pronounced as a \nvoiceless sound similar to [k], and when it occurs between vowels, it is \npronounced as a voiced velar sound similar to the [g] sound.\n⑴ 가구, 고기, 가게\n⑵ 기다 : 아기\n78\n79",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 154,
+        "image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "154 한국어 표준교재 1\n어휘 VOCABULARY\n집안일 Household Chores\n빨래 laundry\n세탁기를 돌리다\nto run the washing \nmachine\n빨래를 널다\nto hang the laundry\n빨래를 걷다\nto take down the \nlaundry\n옷을 다리다\nto iron clothes\n옷을 개다 \nto fold clothes\n청소 cleaning\n먼지를 털다\nto dust off\n정리하다\nto organize\n쓸다\nto sweep\n청소기를 돌리다\nto run the vacuum \ncleaner\n닦다 \nto wipe\n요리 cooking\n밥을 하다/짓다\nto cook rice\n음식을 만들다\nto make food\n설거지를 하다 \nto wash the dishes\n \n전기밥솥 \nelectric rice cooker\n프라이팬 \nfrying pan\n세탁 세제 laundry detergent\n주방 세제 dish-soap\n바닥 floor\n창문 window\n갑자기 suddenly\n왜 why\n도와주다 to help\n그러면 then\n천천히 slowly\n 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.\n⑴\n가 : 지금 뭐 해요?\n나 : 을/를 해요.\n⑵\n가 : 지금 뭐 해요?\n나 : 을/를 만들어요.\n⑶\n가 : 이제 뭐 해야 돼요?\n나 : 책을 .\n⑷\n가 : 어제 뭐 했어요?\n나 : 을/를 했어요.\n다리미 iron\n걸레 cleaning cloth\n빗자루 broom\n밥솥 \nrice cooker\n냄비 pot",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 155,
+        "image": "assets/modules/textbook1/unit_11/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "11 집안일 \n HOUSEHOLD CHORES 155\n문법 GRAMMAR\n-(으)ㄹ게요\n주어가 1인칭일 때만 사용할 수 있으며, \n의문문에는 사용할 수 없다. 상대방의 \n명령이나 요구에 대한 답으로 사용하는 \n경우가 많다.\nIt can only be used when the subject is \nthe first person and cannot be used in \nquestions. It is often used in response \nto someone else's request or command.\n예 제가 빨래를 할게요. (O)\n이반 씨가 빨래를 할게요. (X)\n \n가 : 먼저 갈게요? (X)\n \n나 : 네, 내일 일찍 올게요. (O)\n‘-(으)ㄹ게요’는 동사에 붙어 어떤 일을 하겠다는 화자의 \n의지나 약속을 나타낸다.\n‘-(으)ㄹ게요’ is attached to verbs to express the speaker's \nintention or promise to do something. \n받침 ○\n-을게요\n \n먹다 → 먹을게요\n받침 ×, 받침 ‘ㄹ’\n-ㄹ게요\n \n가다 → 갈게요\n예 제가 음식을 만들게요.\n \n오후에 빨래를 걷을게요.\n \n제가 휴게실을 청소할게요.\n1. 그림을 보고 문장을 완성하세요. Look at the pictures and complete the sentences.\n⑴\n제가 바닥을 .\n⑵\n제가 .\n⑶\n제가 창문을 .\n⑷\n제가 .\n2. 그림을 보고 [보기]와 같이 대화해 보세요.\nLook at the pictures and practice speaking as \nshown in the example.\n밥을 짓다\n가 : 밥을 지어야 돼요.\n나 : 제가 밥을 지을게요.\n[ 보기 ]\n⑴\n⑵\n⑶\n⑷\n‘ㅅ’ 불규칙 활용 \n용언의 어간이 ‘ㅅ’으로 끝나는 일부 동사나 형용\n사는 모음으로 시작하는 어미와 결합할 때 용언 어\n간의 ‘ㅅ’이 탈락한다. 어간이 ‘ㅅ’으로 끝나는 동사 \n중 ‘웃다, 빗다, 벗다, 씻다’ 등은 규칙 활용을 한다.\nIn some verbs and adjectives where the stem \nends with ‘ㅅ’, the ‘ㅅ’ in the stem is omitted \nwhen combined with an ending that begins with \na vowel. However, other verbs which also have a \nstem ending in ‘ㅅ’ follow regular conjugation, \nsuch as ‘웃다’ (to laugh), ‘빗다’ (to comb), ‘벗다’ \n(to take off), and ‘씻다’ (to wash).",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 156,
+        "image": "assets/modules/textbook1/unit_11/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "156 한국어 표준교재 1\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•음식을 만들다,\n설거지를 하다\n•청소기를 돌리다,\n창문을 닦다\n가 : 제가 음식을 만들게요. \n \n유수프 씨는 설거지를 해 주세요.\n나 : 네. 제가 설거지를 할게요.\n가 : 유수프 씨, 먼저 갑니다. 내일 봐요. \nYusuf, I am going to leave first. See you tomorrow.\n나 : 네, 과장님. 조심해서 들어가세요. \nYes, Gwajangnim. Have a safe trip home.\n유용한 표현 │ USEFUL EXPRESSION\n조심해서 \n들어가세요.\nHave a safe \ntrip home.\n대화 CONVERSATION\n마　두 \n아궁 씨, 저 마두예요. 지금 기숙사에 있어요?\n \nAgung, it's Madhu. Are you at the dorms now?\n아　궁 \n네, 기숙사예요. 그런데 갑자기 왜 전화했어요?\n \nYes, I’m at the dorm. Why did you call so suddenly?\n마　두 \n아궁 씨, 제가 지금 시내에 있어요. \n그런데 비가 와요. 빨래 좀 걷어 주세요.\n \nAgung, I’m in the city right now, and it’s raining. \nPlease take my laundry down for me.\n아　궁 \n그래요? 제가 빨리 빨래를 걷을게요. \n천천히 오세요.\n \nOh, I’ll take your laundry down. Don’t worry.\n대답해 봐요! ANSWER ME!\n1 아궁 씨는 지금 어디에 있어요? Where is Agung now?\n2 마두 씨는 아궁 씨에게 무엇을 부탁했어요? What did Madhu ask Agung to do?\n80\n81",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 157,
+        "image": "assets/modules/textbook1/unit_11/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "11 집안일 \n HOUSEHOLD CHORES 157\n문화와 정보 CULTURE & INFORMATION\n11 집안일 \n HOUSEHOLD CHORES 157\n쓰레기 분리배출\nWaste Separation and Disposal\n한국에서는 쓰레기를 버릴 때 쓰레기의 종류에 따라 분리해\n서 버려야 합니다. 쓰레기의 종류에는 일반쓰레기, 음식물 쓰레\n기, 재활용품, 헌 옷, 그리고 대형 쓰레기가 있습니다.\nIn Korea, waste must be separated by type when it is thrown \naway. The types of waste include general waste, food waste, \nrecyclable materials, old clothes, and large waste items.\n일반쓰레기는 종량제 봉투에 넣어서 버립니다. 버리는 날짜와 \n장소는 정해져 있는데 지역마다 다릅니다. 종량제 봉투는 마트\n나 편의점, 슈퍼마켓에서 살 수 있는데 5ℓ, 10ℓ, 20ℓ, 30ℓ, 50ℓ, \n75ℓ짜리가 있습니다.\nGeneral waste is disposed of in special waste bags. The dates \nand locations for disposal are set, and they vary by region. \nSpecial waste bags can be purchased at supermarkets or \nconvenience stores, and they come in 5ℓ, 10ℓ, 20ℓ, 30ℓ, 50ℓ, \nand 75ℓ sizes.\n음식물 쓰레기는 최대한 물기를 제거한 후 버려야 합니다. 닭 \n뼈나 달걀 껍데기와 같이 동물이 먹을 수 없는 것은 일반쓰레기\n로 분리해서 버려야 합니다. 음식물 쓰레기는 음식물 쓰레기 수\n거통에 버리거나, 수거통이 없을 경우 음식물 쓰레기봉투에 담\n아서 버리면 됩니다.\nFood waste should have as much liquid as \npossible removed before being disposed \nof. Items like chicken bones or eggshells \nthat animals cannot eat should be \nseparated as general waste. Food waste \nshould be thrown in food waste bins or, if \nthere are no bins, in food waste bags.\n재활용품의 종류로는 플라스틱, 비닐, 종\n이, 캔, 빈 병이 있습니다. 재활용품은 종류\n별로 분리해서 버리면 됩니다.\nRecyclables include plastic, vinyl, paper, cans, and empty \nbottles. These should be separated by type when being \nthrown away.\n헌 옷이나 신발, 가방, 담요와 같은 것은 의류 수거함에 버려\n야 하는데, 의류 수거함은 보통 행정복지센터 앞이나 주택가의 \n골목, 아파트의 쓰레기 수거장 안에 있습니다.\nOld clothes, shoes, bags, and blankets should be disposed of \nin clothing collection bins, which are usually found in front of \ncommunity centers, in residential alleys, or in apartment \ncomplex waste disposal areas.\n대형 쓰레기는 책상이나 침대, 냉장고, 텔레비전과 같이 큰 \n쓰레기를 말합니다. 대형 쓰레기를 버릴 때는 폐기물 스티커를 \n붙인 후 집 앞에 버려야 합니다. 스티커 비용은 쓰레기의 크기\n와 무게에 따라 다르며, 행정복지센터에서 구매할 수 있습니다.\nLarge waste items like desks, beds, refrigerators, and \ntelevisions are considered bulky waste. When disposing of \nbulky waste, a disposal sticker must be attached before \nplacing it outside the house. The cost of the sticker varies \nbased on the size and weight of the item and can be \npurchased at the community center.\n유리\n종이\n캔\n플라스틱\n• 쓰레기 버리는 법에 대해 묻고 답할 수 있다. I can ask and answer questions about waste disposal. \n↻\n• 해야 하는 일에 대해 말할 수 있다. I can talk about tasks that need to be done. \n↻\n• 집안일에 대해 말할 수 있다. I can talk about household chores. \n↻\n확인해요 │ self assessment",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 158,
+        "image": "assets/modules/textbook1/unit_11/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n158 한국어 표준교재 1\n[1~2] 다음 내용과 관계있는 그림을 고르십시오.\n1.\n전기밥솥입니다.\n①\n②\n③\n④\n2.\n설거지를 하고 있습니다.\n①\n②\n③\n④\n3. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.\n① 어머니는 옷을 읽었어요. \n② 어제 청소기를 널었어요.\n③ 친구는 창문을 쓸었어요. \n④ 오전에 세탁기를 돌렸어요.\n4. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n요즘 회사 일이 바빠서 청소를 하지 못했습니다. 오늘은 청소도 하고 쓰레기도 .\n① 만들 겁니다 \n② 버릴 겁니다\n③ 보낼 겁니다 \n④ 바꿀 겁니다\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국에서는 쓰레기를 버릴 때 종류에 따라 분리해서 버립니다. 먼저 일반 쓰레기는 쓰레기봉투에 \n넣어서 버려야 합니다. 그리고 음식물은 음식물 쓰레기봉투에 담아서 버려야 합니다. 책상이나 \n텔레비전과 같이 큰 쓰레기를 버릴 때는 폐기물 스티커를 붙인 후 버리고, 헌 옷이나 신발 같은 것은 의류 \n수거함에 버립니다.\n① 큰 쓰레기는 의류 수거함에 버리면 됩니다. \n② 쓰레기는 정해진 봉투에 넣어서 버려야 합니다.\n③ 음식물 쓰레기는 일반 쓰레기와 함께 버립니다. \n④ 헌 옷을 버릴 때는 폐기물 스티커를 붙여야 합니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 159,
+        "image": "assets/modules/textbook1/unit_11/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n11 집안일 \n HOUSEHOLD CHORES 159\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n[2~3] 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n2.\n① 따로 버렸어요. \n② 수거함에 버렸어요.\n③ 유수프 씨가 버렸어요. \n④ 어제 오전에 버렸어요.\n3.\n① 화장실을 청소해요. \n② 주말 저녁에 청소해요.\n③ 닛차난 씨가 청소해요. \n④ 한 시간 동안 청소해요.\n[4~5] 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n4.\n① 따로 버려야 돼요. \n② 쓰레기통에 버리세요.\n③ 쓰레기봉투가 없어요. \n④ 쓰레기가 많이 있어요.\n5.\n① 방이 아주 넓어요. \n② 창문을 열어 주세요.\n③ 방 청소를 해야 돼요. \n④ 제가 창문을 닦을게요.\n1. \n여 : 세탁기를 돌려야 돼요.\n \n남 : 제가 세탁기를 돌릴게요.\n2. 남 : 누가 쓰레기를 버렸어요?\n3. 여 : 언제 청소해요?\n4. 여 : 캔하고 유리병을 같이 버려요?\n5. 남 : 방 청소가 끝났네요. 이제 창문을 닦아야 돼요.\n듣기지문\n82",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 160,
+        "image": "assets/modules/textbook1/unit_11/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "160 한국어 표준교재 1\n학습 목표\nLEARNING OBJECTIVES\n대중교통 이용에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about using public transportation.\n행동의 이유를 말할 수 있다. \nCan express the reason for an action.\n대중교통 \nPublic Transportation\nC H A P T E R 1 2\n(으)로(수단)\n-아서/어서(이유)\nGRAMMAR\n문법\n교통수단 관련 어휘\nVocabulary Related to \nTransportation\n이동 관련 어휘 \nVocabulary Related to Movement\nVOCABULARY\n어휘\n한국의 대중교통 \nPublic Transportation in Korea\nCULTURE & INFORMATION\n문화와 정보\n160 한국어 표준교재 1\n버스로 가요. \n회사에서 시내까지 어떻게 가요?\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "audio": [
       {
         "track": 78,
@@ -88,16 +246,1017 @@
         "audio_url": "assets/modules/textbook1/audio/unit_11/track_082.mp3"
       }
     ],
-    "vocab": [],
-    "grammar": [],
-    "conversation": [],
-    "culture": [],
-    "reading": [],
-    "listening": []
+    "vocab": [
+      {
+        "id": "vocab_1",
+        "front": "쓰레기 분리배출 관련 어휘",
+        "back": "Waste Separation and Disposal",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_2",
+        "front": "일반쓰레기",
+        "back": "general waste",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_3",
+        "front": "음식물쓰레기",
+        "back": "food waste",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_4",
+        "front": "재활용품",
+        "back": "recyclable materials",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_5",
+        "front": "헌 옷",
+        "back": "old clothes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_6",
+        "front": "유리",
+        "back": "glass",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_7",
+        "front": "종이",
+        "back": "paper",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_8",
+        "front": "플라스틱",
+        "back": "plastic",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_9",
+        "front": "쓰레기봉투에 넣다",
+        "back": "to put in a trash bag",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_10",
+        "front": "음식물 쓰레기봉투에 넣다",
+        "back": "to put in a food waste bag",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_11",
+        "front": "쓰레기를 버리다",
+        "back": "to throw away trash",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_12",
+        "front": "음식물 쓰레기통에 버리다",
+        "back": "to throw away in the food waste bin",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_13",
+        "front": "따로 버리다",
+        "back": "to throw away separately",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_14",
+        "front": "수거함에 버리다",
+        "back": "to throw in a collection bin",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_15",
+        "front": "같이",
+        "back": "together",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_16",
+        "front": "시작하다",
+        "back": "to start",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_17",
+        "front": "그래서",
+        "back": "so",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_18",
+        "front": "집안일",
+        "back": "Household Chores",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_19",
+        "front": "빨래",
+        "back": "laundry",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_20",
+        "front": "세탁기를 돌리다",
+        "back": "to run the washing machine",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_21",
+        "front": "빨래를 널다",
+        "back": "to hang the laundry",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_22",
+        "front": "빨래를 걷다",
+        "back": "to take down the laundry",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_23",
+        "front": "옷을 다리다",
+        "back": "to iron clothes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_24",
+        "front": "옷을 개다",
+        "back": "to fold clothes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_25",
+        "front": "청소",
+        "back": "cleaning",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_26",
+        "front": "먼지를 털다",
+        "back": "to dust off",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_27",
+        "front": "정리하다",
+        "back": "to organize",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_28",
+        "front": "쓸다",
+        "back": "to sweep",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_29",
+        "front": "청소기를 돌리다",
+        "back": "to run the vacuum cleaner",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_30",
+        "front": "닦다",
+        "back": "to wipe",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_31",
+        "front": "요리",
+        "back": "cooking",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_32",
+        "front": "밥을 하다/짓다",
+        "back": "to cook rice",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_33",
+        "front": "음식을 만들다",
+        "back": "to make food",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_34",
+        "front": "설거지를 하다",
+        "back": "to wash the dishes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_35",
+        "front": "전기밥솥",
+        "back": "electric rice cooker",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_36",
+        "front": "프라이팬",
+        "back": "frying pan",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_37",
+        "front": "세탁 세제",
+        "back": "laundry detergent",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_38",
+        "front": "주방 세제",
+        "back": "dish-soap",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_39",
+        "front": "바닥",
+        "back": "floor",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_40",
+        "front": "창문",
+        "back": "window",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_41",
+        "front": "갑자기",
+        "back": "suddenly",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_42",
+        "front": "도와주다",
+        "back": "to help",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_43",
+        "front": "그러면",
+        "back": "then",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_44",
+        "front": "천천히",
+        "back": "slowly",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar_1",
+        "front": "-아야/어야 되다",
+        "back": "‘-아야/어야 되다’는 동사, 형용사에 붙어 문장의 주체가 지니는\n의무를 나타내거나 어떤 일이 당연히 그렇게 되어야 한다는 당위\n성이나 필요성을 나타낸다.\n‘-아야/어야 되다’ is attached to verbs and adjectives to show\nthat the subject of the sentence must do something or that\nit is necessary that something must be done in a certain way.\nㅏ, ㅗ\n-아야 되다\n가다 → 가야 되다\nㅓ, ㅜ, ㅣ …\n-어야 되다\n읽다 → 읽어야 되다\n-하다\n-해야 되다\n일하다 → 일해야 되다",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
+      },
+      {
+        "id": "grammar_2",
+        "front": "-(으)ㄹ게요",
+        "back": "주어가 1인칭일 때만 사용할 수 있으며,\n의문문에는 사용할 수 없다. 상대방의\n명령이나 요구에 대한 답으로 사용하는\n경우가 많다.\nIt can only be used when the subject is\nthe first person and cannot be used in\nquestions. It is often used in response\nto someone else's request or command.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conversation_1",
+        "front": "푸캄 씨, 쓰레기가 많네요.",
+        "back": "Phukham, that's a lot of trash!",
+        "speaker": "칼 로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_2",
+        "front": "네. 어제 집에서 친구들하고 저녁을 먹었어요.\n그래서 쓰레기가 많아요.",
+        "back": "Yes. I had dinner with friends at home yesterday, so there's a lot of trash.",
+        "speaker": "푸 캄",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_3",
+        "front": "푸캄 씨, 쓰레기봉투가 없어요?\n쓰레기는 쓰레기봉투에 넣어야 돼요.",
+        "back": "Phukham, don’t you have trash bags? You need to put the trash in a trash bag.",
+        "speaker": "칼 로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_4",
+        "front": "아, 네. 캔도 쓰레기봉투에 넣어요?",
+        "back": "Oh, okay. Do I put the cans in the trash bag too?",
+        "speaker": "푸 캄",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_5",
+        "front": "그건 따로 버려야 돼요.",
+        "back": "Those need to be thrown away separately.",
+        "speaker": "칼 로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_6",
+        "front": "아궁 씨, 저 마두예요. 지금 기숙사에 있어요?",
+        "back": "Agung, it's Madhu. Are you at the dorms now?",
+        "speaker": "마　두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_7",
+        "front": "네, 기숙사예요. 그런데 갑자기 왜 전화했어요?",
+        "back": "Yes, I’m at the dorm. Why did you call so suddenly?",
+        "speaker": "아　궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_8",
+        "front": "아궁 씨, 제가 지금 시내에 있어요.\n그런데 비가 와요. 빨래 좀 걷어 주세요.",
+        "back": "Agung, I’m in the city right now, and it’s raining. Please take my laundry down for me.",
+        "speaker": "마　두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_9",
+        "front": "그래요? 제가 빨리 빨래를 걷을게요.\n천천히 오세요.",
+        "back": "Oh, I’ll take your laundry down. Don’t worry.",
+        "speaker": "아　궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      }
+    ],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "11 집안일",
+        "back": "HOUSEHOLD CHORES 157",
+        "body": "11 집안일\nHOUSEHOLD CHORES 157\n쓰레기 분리배출\nWaste Separation and Disposal\n한국에서는 쓰레기를 버릴 때 쓰레기의 종류에 따라 분리해\n서 버려야 합니다. 쓰레기의 종류에는 일반쓰레기, 음식물 쓰레\n기, 재활용품, 헌 옷, 그리고 대형 쓰레기가 있습니다.\nIn Korea, waste must be separated by type when it is thrown\naway. The types of waste include general waste, food waste,\nrecyclable materials, old clothes, and large waste items.\n일반쓰레기는 종량제 봉투에 넣어서 버립니다. 버리는 날짜와\n장소는 정해져 있는데 지역마다 다릅니다. 종량제 봉투는 마트\n나 편의점, 슈퍼마켓에서 살 수 있는데 5ℓ, 10ℓ, 20ℓ, 30ℓ, 50ℓ,\n75ℓ짜리가 있습니다.\nGeneral waste is disposed of in special waste bags. The dates\nand locations for disposal are set, and they vary by region.",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook1/unit_11/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
+    "reading": [
+      {
+        "id": "u11_r1",
+        "nomor": 1,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n전기밥솥입니다.",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r1_a.jpg",
+          "b": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r1_b.jpg",
+          "c": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r1_c.jpg",
+          "d": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_11/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u11_r2",
+        "nomor": 2,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n설거지를 하고 있습니다.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r2_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r2_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r2_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r2_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r2_a.jpg",
+          "b": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r2_b.jpg",
+          "c": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r2_c.jpg",
+          "d": "assets/modules/textbook1/unit_11/choice_images/reading/u11_r2_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_11/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u11_r3",
+        "nomor": 3,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "어머니는 옷을 읽었어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "어제 청소기를 널었어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "친구는 창문을 쓸었어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "오전에 세탁기를 돌렸어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_11/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u11_r4",
+        "nomor": 4,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n요즘 회사 일이 바빠서 청소를 하지 못했습니다. 오늘은 청소도 하고 쓰레기도 .",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "만들 겁니다",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "버릴 겁니다",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "보낼 겁니다",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "바꿀 겁니다",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_11/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u11_r5",
+        "nomor": 5,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국에서는 쓰레기를 버릴 때 종류에 따라 분리해서 버립니다. 먼저 일반 쓰레기는 쓰레기봉투에\n넣어서 버려야 합니다. 그리고 음식물은 음식물 쓰레기봉투에 담아서 버려야 합니다. 책상이나\n텔레비전과 같이 큰 쓰레기를 버릴 때는 폐기물 스티커를 붙인 후 버리고, 헌 옷이나 신발 같은 것은 의류\n수거함에 버립니다.",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "큰 쓰레기는 의류 수거함에 버리면 됩니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "쓰레기는 정해진 봉투에 넣어서 버려야 합니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "음식물 쓰레기는 일반 쓰레기와 함께 버립니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "헌 옷을 버릴 때는 폐기물 스티커를 붙여야 합니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_11/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ],
+    "listening": [
+      {
+        "id": "u11_l1",
+        "nomor": 1,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+        "jawaban": "a",
+        "audio_teks": "여 : 세탁기를 돌려야 돼요.\n남 : 제가 세탁기를 돌릴게요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_11/track_082.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_11/choice_images/listening/u11_l1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_11/choice_images/listening/u11_l1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_11/choice_images/listening/u11_l1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_11/choice_images/listening/u11_l1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_11/choice_images/listening/u11_l1_a.jpg",
+          "b": "assets/modules/textbook1/unit_11/choice_images/listening/u11_l1_b.jpg",
+          "c": "assets/modules/textbook1/unit_11/choice_images/listening/u11_l1_c.jpg",
+          "d": "assets/modules/textbook1/unit_11/choice_images/listening/u11_l1_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_11/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u11_l2",
+        "nomor": 2,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "c",
+        "audio_teks": "남 : 누가 쓰레기를 버렸어요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_11/track_082.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "따로 버렸어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "수거함에 버렸어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "유수프 씨가 버렸어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "어제 오전에 버렸어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_11/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u11_l3",
+        "nomor": 3,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "b",
+        "audio_teks": "여 : 언제 청소해요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_11/track_082.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "화장실을 청소해요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "주말 저녁에 청소해요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "닛차난 씨가 청소해요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "한 시간 동안 청소해요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_11/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u11_l4",
+        "nomor": 4,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+        "jawaban": "a",
+        "audio_teks": "여 : 캔하고 유리병을 같이 버려요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_11/track_082.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "따로 버려야 돼요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "쓰레기통에 버리세요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "쓰레기봉투가 없어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "쓰레기가 많이 있어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_11/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u11_l5",
+        "nomor": 5,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+        "jawaban": "d",
+        "audio_teks": "남 : 방 청소가 끝났네요. 이제 창문을 닦아야 돼요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_11/track_082.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "방이 아주 넓어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "창문을 열어 주세요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "방 청소를 해야 돼요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "제가 창문을 닦을게요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_11/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ]
   },
   "integrity": {
     "pdf_pages": 10,
     "lesson_audio": 5,
+    "lesson_flow": 10,
+    "vocab_cards": 44,
+    "grammar_cards": 2,
+    "conversation_cards": 9,
+    "culture_cards": 1,
+    "reading_questions": 5,
+    "listening_questions": 5,
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_scripts": 5,
     "source_page_start_index": 150,
     "source_page_end_index": 159
   }

@@ -4,7 +4,7 @@
   "unit": 60,
   "title_ko": "근로자 보험",
   "title_en": "Workers Insurance",
-  "title_id": "Asuransi Pekerja",
+  "title_id": "Asuransi pekerja",
   "source_pdf": "assets/langit-korea-modules/unit_60_workers_insurance.pdf",
   "page_start": 307,
   "page_end": 316,
@@ -61,489 +61,713 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 307,
+        "image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "60 근로자 보험 \n EMPLOYMENT INSURANCE 307\n 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.. \nComplete the sentences with the correct options as shown in the example.\n입원하다 청구하다 휴업 급여 산재보험\n일을 하다가 넘어져서 다리를 다쳤습니다. 그래서 \n수술을 받고 한 달 동안 병원에 [보기] 입원했습니다 .\n일을 못 했지만 ⑴ 　　 　 　에 \n가입돼 있어서 ⑵ 　　 　　을/를 받을 수 있다고 \n합니다. 그래서 필요한 서류를 준비해서 보험금을 \n⑶ 　　 (으)려고 합니다. \n어휘 VOCABULARY\n보험 및 보험금 관련 어휘 Insurance and Insurance Benefits \n보험에 가입하다\nto sign up for insurance \n보험료를 내다/납입하다\nto pay insurance premiums\n보험금을 청구하다\nto claim insurance benefits\n지급 심사를 받다 \nto go through review\n보험금을 받다/타다\nto receive/collect insurance \nbenefits \n휴업 급여\ntemporary layoff benefits\n장해 보상금\ndisability compensation \n입증 proof\n의료비 medical expenses\n누구나 anyone\n혜택 benefit\n병원비 medical bills\n사업주 employer\n체하다 to feel indigestion\n입원하다 to be hospitalized \n국민연금 \nNational Pension\n고용보험 \nEmployment \nInsurance \n건강보험 \nHealth Insurance\n산재보험 \nIndustrial Accident \nCompensation Insurance\n4대 사회보험 \nFour Major Social Insurances",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 308,
+        "image": "assets/modules/textbook2/unit_60/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "308 한국어 표준교재 2\n문법 GRAMMAR\n-는 바람에\n‘-는 바람에’는 동사에 붙어 앞의 내용이 부정적인 결과 또는 예상하지 못한 결과에 대한 이유나 원인임을 나타낸다.\n‘-는 바람에’ is attached to verbs and indicates that the content of the first clause is the reason or cause of an \nunexpected or negative outcome. \n예 안전화를 안 신는 바람에 바닥에 미끄러졌어요.\n \n비가 너무 많이 오는 바람에 오후 작업을 못 했어요. \n \n가 : 왜 여행을 못 갔어요?\n \n나 : 감기에 걸리는 바람에 못 갔어요.\n1. 그림을 보고 [보기]와 같이 문장을 완성하세요. \nLook at the pictures and complete the sentences as shown in the example.\n작업을 하다가 손을 다치는 바람에 치료를 받았어요. (다치다)\n[ 보기 ]\n⑴\n밥을 너무 빨리 \n체한 것 같아요. (먹다)\n⑵\n원목에 구멍을 잘못 \n다시 작업해야 돼요. (뚫다)\n⑶\n계단에서 \n다리를 다쳤어요. (넘어지다)\n⑷\n페인트를 잘못 \n다시 작업해야 돼요. (칠하다)\n2. 알맞은 것을 골라 [보기]와 같이 대화를 완성하세요. \nComplete the conversations with the correct options as shown in the example.\n떨어지다 사고를 당하다 고장이 나다 놓고 가다\n가 : 어제 병원에 왜 갔어요?\n나 : 친구가 작업하다가 사고를 당하는 바람에 병원에 입원했거든요. \n[ 보기 ]\n⑴가 : 왜 오늘 보험 가입을 못 했어요? \n나 : 외국인 등록증을 기숙사에 못 했어요. 그래서 내일 하기로 했어요. \n⑵가 : 지금 산재보험금을 받고 있어요?\n나 : 네, 일을 하다 사다리에서 허리를 다쳤거든요. \n⑶가 : 왜 어제 늦게 퇴근했어요?\n나 : 기계가 갑자기 늦게 퇴근했어요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 309,
+        "image": "assets/modules/textbook2/unit_60/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "60 근로자 보험 \n EMPLOYMENT INSURANCE 309\n대답해 봐요! ANSWER ME!\n1 마두 씨 친구는 지금 어디에 있어요? Where is Madhu's friend right now? \n2 직장에서 일하다가 다치면 무슨 보험금을 받을 수 있어요? \nWhat insurance benefits can worker's receive if you get injured at work? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•허리 수술을 받다, 의료비 혜택 \n•공장에서 손을 다치다, 산재보험금\n가 : 무슨 일로 오셨어요?\n나 : 허리 수술을 받는 바람에 일을 못 하고 있어요. \n \n의료비 혜택을 받을 수 있을까요?\n가 : 먼저 지급 심사를 받아야 하니까 서류를 제출하세요. \n발음 │ PRONUNCIATION\n사이시옷 뒤에 ‘이’ 소리가 결합되는 경우에는 [ㄴㄴ]으로 발음한다.\nWhen an ‘inserted ㅅ’ is followed by ‘이’, the resulting pronunciation is [ㄴㄴ].\n⑴ 깻잎[깯닙 → 깬닙] \n나뭇잎[나묻닙 → 나문닙]\n⑵ 베갯잇[베갣닏 → 베갠닏]\n324\n대화 CONVERSATION\n마 두진수 씨, 고용허가제로 한국에 온 외국인 근로자도 산재보험금을 받을 수 있어요?\n \nJinsu, can foreign workers who came to Korea through the Employment Permit System also receive industrial \naccident compensation insurance benefits? \n진 수 산재보험은 고용주가 반드시 가입해야 되니까 누구나 보험금을 \n받을 수 있어요. 무슨 일이 있어요? \nSince employers must sign up for industrial accident compensation \ninsurance, anyone is able to receive insurance benefits. Is something wrong? \n마 두친구가 작업을 하다가 다리를 다치는 바람에 입원을 했거든요. \n그런데 병원비가 많이 나올까 봐 걱정하고 있어서요.\n \nA friend injured his leg while working and was hospitalized as a result. \nBut he's worried the hospital expenses will be too high. \n진 수 일을 하다가 다쳤으면 산재보험금을 받을 수 있어요. \n그리고 직장인이면 건강보험에 가입이 되어 있을 테니까 의료비 혜택도 받을 수 있고요. \nIf he was injured while working, he can receive industrial accident compensation insurance benefits. And if he’s an \nemployee, he should be signed up for health insurance, so he can also receive medical benefits. \n마 두그래요? 친구한테 보험 혜택을 받을 수 있다고 빨리 알려 줘야겠어요.\n \nReally? I have to quickly let my friend know that he can receive insurance benefits. \n진 수 네. 마두 씨도 작업할 때 조심하세요. \nYes. You, too, should be careful while working, Madhu. \n323",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 310,
+        "image": "assets/modules/textbook2/unit_60/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "310 한국어 표준교재 2\n질병\nillness \n상해\ninjury \n장애 \ndisability \n사망\ndeath \n재해\ndisaster \n체불 임금\nunpaid wages \n퇴직금\nseverance pay \n벌금\nfine \n1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요. \nComplete the sentences with the correct options as shown in the example.\n출국만기보험금 귀국비용보험 임금체불보증보험금 상해보험 \n지난번 회사에서 못 받은 월급이 있어서 임금체불보증보험금을 신청하고 왔습니다. \n그동안 못 받은 월급을 다 받을 수 있다고 합니다. \n[ 보기 ]\n⑴ 일을 마치고 집으로 돌아갈 때 필요한 비용을 준비하기 위해서 에 가입했습니다. \n보험료는 세 번으로 나누어서 내도 된다고 합니다.\n⑵ 주말에 축구를 하다가 다리를 다쳤습니다. 다행히 에 가입해 놓아서 병원비 \n걱정은 안 해도 됩니다.\n⑶ 한국에서 3년 동안 일하고 미얀마로 돌아갑니다. 퇴직금을 정산하기 전에 \n금액을 알고 싶어서 보험사에 확인을 요청해 두었습니다.\n어휘 VOCABULARY\n외국인 근로자 전용 보험 관련 어휘 \nInsurance Exclusive to Foreign Workers \n일시금 lump sum\n진단서 medical certificate\n보험 약정 insurance contract\n부담없다 to be burden-free\n체결하다 to conclude\n사고 입증 서류 \naccident proof document \n출국예정사실 확인서 \ncertificate of expected \ndeparture\n출국만기보험 \nDeparture Guarantee \nInsurance\n임금체불보증보험 \nPay Guarantee \nInsurance\n귀국비용보험 \nReturn Cost \nInsurance\n상해보험 \nPersonal Injury \nInsurance\n외국인 근로자 전용 보험 \nInsurance Exclusive to \nForeign Workers",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 311,
+        "image": "assets/modules/textbook2/unit_60/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "60 근로자 보험 \n EMPLOYMENT INSURANCE 311\n문법 GRAMMAR\n-(으)려면\n‘-(으)려면’은 동사에 붙어 앞 절의 행위를 하고 싶거나 앞 절의 상황이 이루어지기를 희망한다면 뒤 절의 행위가 \n필요함을 나타낸다.\n‘-(으)려면’ is attached to verbs and indicates that if one wants to perform the action in the first clause or if one \nhopes for the situation in the first clause to come true, the action in the second clause is necessary. \n받침 ○\n-으려면\n 먹다 → 먹으려면\n받침 ×, 받침 ‘ㄹ’\n-려면\n가다 → 가려면\n놀다 → 놀려면\n예 점심을 먹으려면 구내식당으로 가면 돼요.\n \n쉽게 잡초를 없애려면 예초기를 사용하세요. \n \n불고기를 만들려면 고기와 채소를 사야 돼요.\n1. [보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the example. \n한국어를 잘하려면 매일 연습하면 돼요. (잘하다)\n[ 보기 ]\n⑴ 통역 서비스를 외국인력상담센터에 전화하면 돼요. (이용하다)\n⑵ 상해보험을 사고를 입증할 수 있는 서류가 필요해요. (청구하다)\n⑶ 귀국비용보험금을 출국예정사실 확인서를 제출해야 돼요. (받다)\n⑷ E-9 비자로 한국에서 한국어능력시험(EPS-TOPIK)에 합격해야 돼요. (취업하다)\n2. 알맞은 것을 골라 [보기]와 같이 대화해 보세요. \nPractice speaking with the correct options as shown in the example.\n \n진단서를 제출하다 \n귀국비용보험에 가입하다 \n \n같은 업종에서 새 회사를 찾다 \n출국예정신고를 하다\n가 : 작업장을 옮기고 싶어요. \n나 : 작업장을 옮기려면 같은 업종에서 새 회사를 찾아야 돼요.\n[ 보기 ]\n[보기] 작업장을 옮기고 싶어요. \n⑵ 일을 마치고 돌아갈 때 필요한 \n비용을 미리 준비하고 싶어요. \n⑴ 장해 보상금을 받고 싶어요.\n⑶ 출국 전에 출국만기보험금을 \n신청하고 싶어요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 312,
+        "image": "assets/modules/textbook2/unit_60/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "312 한국어 표준교재 2\n대화 CONVERSATION\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•귀국비용보험, 보험에 가입하다, 취업 교육을 받을 때 약정을 체결하거나 \n별도로 보험사에 가서 가입하다\n•상해보험, 나중에 보험금을 신청하다, 신청서와 신분증, 진단서를 제출하다\n가 : 외국인 근로자는 무슨 보험에 가입해야 돼요?\n나 : 귀국비용보험에 가입해야 돼요.\n가 : 보험에 가입하려면 어떻게 해야 돼요?\n나 : 취업 교육을 받을 때 약정을 체결하거나 별도로 보험사에 가서 \n \n가입하면 돼요.\n가 : 얼굴이 좋아 보여요. 좋은 일 있어요? \nYou look pleased. Is there something good going on? \n나 : 네, 다음 휴가 때 가족들이 한국에 오기로 했어요. \nYes, my family is coming to Korea during the next holiday.\n유용한 표현 │ USEFUL EXPRESSION\n얼굴이 좋아 보여요.\nYou look pleased. \n326\n칼 로\nE-9 비자로 한국에 온 근로자인데 출국만기보험에 가입하고 싶어요. \n \nI am a worker who came to Korea on an E-9 visa, and I want to sign up for the Departure Guarantee Insurance.\n직 원 \n그러세요? 그런데 출국만기보험은 사업주가 근로자를 위해 가입하는 보험이에요. 외국인 근로자는 \n귀국비용보험과 상해보험에 가입하시면 돼요. \nIs that so? But Departure Guarantee Insurance is insurance that the employer signs up for on behalf of the \nworker. Foreign workers should sign up for the Return Cost Insurance and Personal Injury Insurance. \n칼 로\n상해보험은 아는데 귀국비용보험은 처음 들어요. 어떤 보험이에요?\n \nI know about Personal Injury Insurance, but this is the first time I'm hearing \nabout Return Cost Insurance. What kind of insurance is it? \n직 원 \n귀국에 필요한 비용을 준비하기 위한 보험이에요. 근로계약이 \n끝나고 부담없이 고향에 돌아가려면 반드시 가입해야 돼요. \nIt’s insurance to prepare for the costs needed to return home. If you want to \nreturn to your hometown after your work contract finishes without any \nburden, you must sign up for it.\n칼 로\n네, 알겠습니다. 그런데 보험금은 얼마예요?\n \nOkay, I see. But how much is the insurance premium? \n직 원 \n국가별로 내야 하는 금액이 다른데 일시금으로 내거나 3회 이내로 나누어 내시면 돼요. \nThe amount you need to pay varies depending on the country, but you can pay it in a lump sum or in up to \nthree installments. \n대답해 봐요! ANSWER ME!\n1 칼로 씨는 왜 여기에 왔어요? Why did Carlo come here? \n2 외국인 근로자가 들어야 하는 보험은 뭐예요? What insurance should foreign workers sign up for? \n325",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 313,
+        "image": "assets/modules/textbook2/unit_60/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "60 근로자 보험 \n EMPLOYMENT INSURANCE 313\n문화와 정보 CULTURE & INFORMATION\n60 근로자 보험 \n EMPLOYMENT INSURANCE 313\n• 가입한 보험금에 대해 이야기할 수 있다. I can talk about insurance benefits. \n↻\n• 가입한 보험의 보험금을 청구할 수 있다. I can claim insurance benefits from the insurance I signed up for. ↻\n• 외국인 근로자 보험에 대해 묻고 대답할 수 있다. \nI can ask and answer questions about insurance for foreign workers. \n↻\n확인해요 │ self assessment\n외국인 근로자 관련 보험\nInsurance Related to Foreign Workers\n고용허가제(Employment Permit System)로 입국한 외국인 근로자는 한국의 모든 근로자가 가입하는 4대 사회보험과 외국인 근\n로자 전용 보험에 가입해야 합니다. \nForeign workers who enter Korea under the Employment Permit System must be enrolled in Korea’s Four Major Social \nInsurances, as well as Insurance Exclusive to Foreign Workers. \n보험의 종류\nTypes of Insurance\n보험의 목적\nPurpose of Insurance\n가입 주체\nPurchaser\n국민연금\nNational Pension\n나이가 들어 소득이 줄거나 없어졌을 때 국가가 최소한의 소득 보장\nguaranteed minimum income by the state when one grows old or one's income has \ndecreased or is no longer available\n사업주, 외국인 근로자\nemployer, foreign worker\n건강보험\nHealth Insurance\n질병이나 부상으로 인해 발생하는 의료비 지원\nmedical expenses support for illnesses or injuries\n사업주, 외국인 근로자 \nemployer, foreign worker \n고용보험\nEmployment Insurance \n실직 등으로 소득이 일시적으로 없을 때 생활 유지 지원\nsupport for maintaining living expenses when income is temporarily unavailable due to \nunemployment or other reasons\n사업주, 외국인 근로자 \nemployer, foreign worker\n산재보험\nIndustrial Accident \nCompensation Insurance\n근로 중 발생한 상해나 질병에 대해 국가가 산업재해 근로자와 그 가족의 생활 보장\nguaranteed compensation by the state for the livelihood of workers and their families \naffected by injuries or illnesses that occur due to an industrial accident while working\n사업주\nemployer \n노령\n국민연금\n질병·부상\n건강보험\n실업\n고용보험\n4대\n사회보험\n상해\n산재보험\n보험의 종류\nTypes of Insurance\n보험의 목적\nPurpose of Insurance\n가입 주체\nPurchaser\n출국만기보험\nDeparture Guarantee Insurance\n외국인 근로자의 퇴직금 지급\npayment of severance pay for foreign workers\n사업주\nemployer \n임금체불보증보험\nPay Guarantee Insurance\n회사에서 미지급한 외국인 근로자의 체불 임금 보증\nguarantee of unpaid wages for foreign workers that are owed by the their company\n사업주\nemployer \n귀국비용보험\nReturn Cost Insurance\n외국인 근로자의 귀국 시 필요한 비용 충당\ncoverage of the costs necessary for repatriation of foreign workers upon return to their \nhome country\n외국인 근로자\nforeign worker \n상해보험\nPersonal Injury Insurance\n외국인 근로자가 업무상 재해 이외의 사고로 인해 당한 상해, 질병, 사망 등의 손해에 \n대한 보상\ncompensation for damages such as injuries, illnesses, or death incurred by foreign workers \ndue to non-work-related accidents.\n외국인 근로자\nforeign worker \n출국만기보험\n임금체불보증보험\n귀국비용보험\n상해보험\n외국인근로자\n전용보험",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 314,
+        "image": "assets/modules/textbook2/unit_60/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n314 한국어 표준교재 2\n1. \n다음 중 밑줄 친 부분이 맞는 문장을 고르십시오. \n① 벼를 베으려면 낫이 있어야 돼요. \n② 철사를 펴으려면 플라이어가 필요해요.\n③ 체류 기간을 연장해려면 신청서를 내야 돼요. \n④ 보험금을 받으려면 통장 사본을 주셔야 해요. \n2. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n일을 하다가 허리를 다쳐서 지난달부터 회사에 나가지 못하고 있습니다. 일을 못 하고 있지만 산재보험에 \n가입돼 있어서 을/를 받을 수 있다고 합니다.\n① 퇴직금 \n② 휴업 급여 \n③ 실업 급여 \n④ 체불 임금\n3. 다음 글을 읽고 내용과 같은 것을 고르십시오.\n19:30\n귀국하기 전에 보험금 신청을 해야 한다\n면서? 내일 나랑 보험사에 같이 가자.\n자야\n어제 출국예정신고를 했다고 했지? 그럼 \n내일 출국예정사실 확인서하고 보험금 \n신청서 꼭 가지고 와.\n아궁\n① 자야 씨는 지금 고향에 있습니다. \n② 아궁 씨는 출국예정신고를 해야 합니다.\n③ 자야 씨는 보험금 신청서를 준비해야 합니다. \n④ 아궁 씨는 출국예정사실 확인서를 가지고 올 겁니다.\n4. 다음은 무엇에 대한 설명입니까?\n사고가 나거나 질병에 걸렸을 때를 대비해 매달 보험사에 내는 돈입니다.\n① 보상금 \n② 보험료 \n③ 의료비 \n④ 퇴직금\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n고용허가제로 입국하는 모든 외국인 근로자는 4대 사회보험과 외국인 근로자 전용 보험에 가입해야 \n합니다. 4대 사회보험 중 산재보험은 사업주만 가입하면 되지만 국민연금, 건강보험, 고용보험은 \n사업주와 근로자가 같이 가입해야 합니다. 그리고 외국인 근로자 전용 보험 중 귀국비용보험과 \n상해보험은 외국인 근로자만 가입할 수 있습니다.\n① 산재보험은 근로자도 가입할 수 있습니다.\n② 사업주는 4대 사회보험 모두 가입해야 합니다.\n③ 근로자는 외국인 근로자 전용 보험만 가입하면 됩니다.\n④ 고용보험과 상해보험은 외국인 근로자 전용 보험입니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 315,
+        "image": "assets/modules/textbook2/unit_60/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n60 근로자 보험 \n EMPLOYMENT INSURANCE 315\n[1~2] 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n1.\n① 네, 보험금을 안 냈어요 \n \n② 네, 보험금을 신청할 거예요.\n③ 아니요, 보험금을 못 받았어요. \n④ 아니요, 보험금이 많지 않아요. \n2.\n① 집에서 했어요. \n \n \n② 칼로 씨가 했어요.\n③ 퇴근 후에 했어요. \n \n \n④ 인터넷으로 했어요. \n3. 두 사람은 무엇에 대해 말하고 있습니까?\n① 납입 장소 \n \n \n② 납입 날짜\n③ 납입 금액 \n \n \n④ 납입 횟수\n4. 다음 중 들은 내용과 같은 것은 무엇입니까? \n① 여자는 고용노동부에 갈 것입니다. \n② 여자는 회사에서 일한 적이 없습니다.\n③ 여자는 신고를 하고 월급을 받았습니다. \n④ 여자는 임금체불보증보험에 가입했습니다.\n5. \n남자가 여자를 찾아온 이유는 무엇입니까?\n① 회사를 옮기고 싶어서\n② 보험에 가입하고 싶어서\n③ 퇴직금을 신청하고 싶어서 \n④ 보험금 납입 방법을 알고 싶어서 \n1. \n여 : 보험금은 받았어요?\n2. 남 : 누가 보험금을 청구했어요?\n3. 남 : 귀국비용보험에 가입하고 싶은데 몇 번을 내야 돼요?\n \n여 : 세 번에 나눠서 내거나 한꺼번에 낼 수도 있어요. \n4. 여 : 회사 사정이 어려워져서 문을 닫았어요. 그래서 두 달째 월급을 못 받고 있어요.\n \n남 : 그럼 고용노동부에 가서 신고 접수부터 하세요. 회사에서 임금체불보증보험에 가입해 두었으면 밀린 월급을 받을 수 있을 \n거예요.\n5. 남 : 외국인 근로자도 한 회사에서 일 년 이상 일하면 퇴직금을 받을 수 있어요? \n \n여 : 그럼요. 외국인 근로자라도 퇴직금을 받을 수 있어요.\n \n남 : 제가 지난달에 회사를 옮겼는데 어떻게 신청하면 돼요? \n \n여 : 일하던 회사에 가서 직접 요청하셔야 돼요.\n듣기지문\n327",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 316,
+        "image": "assets/modules/textbook2/unit_60/pages/page_10.jpg",
+        "kind": "source",
+        "sections": [],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "vocab": [
       {
         "id": "vocab_1",
-        "front": "60 근로자 보험",
-        "back": "EMPLOYMENT INSURANCE 307",
-        "raw": {
-          "korean": "60  근로자 보험",
-          "indonesia": "EMPLOYMENT INSURANCE   307"
-        }
+        "front": "보험 및 보험금 관련 어휘",
+        "back": "Insurance and Insurance Benefits",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_2",
-        "front": "알맞은 것을 골라 [보기]와 같이 문장을 완성하세요..",
-        "back": "Complete the sentences with the correct options as shown in the example.",
-        "raw": {
-          "korean": "\u0007알맞은 것을 골라 [보기]와 같이 문장을 완성하세요..",
-          "indonesia": "Complete the sentences with the correct options as shown in the example."
-        }
+        "front": "보험에 가입하다",
+        "back": "to sign up for insurance",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_3",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "보험료를 내다/납입하다",
+        "back": "to pay insurance premiums",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_4",
-        "front": "보험 및 보험금 관련 어휘",
-        "back": "Insurance and Insurance Benefits",
-        "raw": {
-          "korean": "보험 및 보험금 관련 어휘",
-          "indonesia": "Insurance and Insurance Benefits"
-        }
+        "front": "보험금을 청구하다",
+        "back": "to claim insurance benefits",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_5",
-        "front": "보험에 가입하다",
-        "back": "to sign up for insurance",
-        "raw": {
-          "korean": "보험에 가입하다",
-          "indonesia": "to sign up for insurance"
-        }
+        "front": "지급 심사를 받다",
+        "back": "to go through review",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_6",
-        "front": "보험료를 내다/납입하다",
-        "back": "to pay insurance premiums",
-        "raw": {
-          "korean": "보험료를 내다/납입하다",
-          "indonesia": "to pay insurance premiums"
-        }
+        "front": "보험금을 받다/타다",
+        "back": "to receive/collect insurance benefits",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_7",
-        "front": "보험금을 청구하다",
-        "back": "to claim insurance benefits",
-        "raw": {
-          "korean": "보험금을 청구하다",
-          "indonesia": "to claim insurance benefits"
-        }
+        "front": "휴업 급여",
+        "back": "temporary layoff benefits",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_8",
-        "front": "지급 심사를 받다",
-        "back": "to go through review",
-        "raw": {
-          "korean": "지급 심사를 받다",
-          "indonesia": "to go through review"
-        }
+        "front": "장해 보상금",
+        "back": "disability compensation",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_9",
-        "front": "보험금을 받다/타다",
-        "back": "to receive/collect insurance",
-        "raw": {
-          "korean": "보험금을 받다/타다",
-          "indonesia": "to receive/collect insurance"
-        }
+        "front": "입증",
+        "back": "proof",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_10",
-        "front": "휴업 급여",
-        "back": "temporary layoff benefits",
-        "raw": {
-          "korean": "휴업 급여",
-          "indonesia": "temporary layoff benefits"
-        }
+        "front": "의료비",
+        "back": "medical expenses",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_11",
-        "front": "장해 보상금",
-        "back": "disability compensation",
-        "raw": {
-          "korean": "장해 보상금",
-          "indonesia": "disability compensation"
-        }
+        "front": "누구나",
+        "back": "anyone",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_12",
-        "front": "국민연금",
-        "back": "National Pension",
-        "raw": {
-          "korean": "국민연금",
-          "indonesia": "National Pension"
-        }
+        "front": "혜택",
+        "back": "benefit",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_13",
-        "front": "고용보험",
-        "back": "Employment",
-        "raw": {
-          "korean": "고용보험",
-          "indonesia": "Employment"
-        }
+        "front": "병원비",
+        "back": "medical bills",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_14",
-        "front": "건강보험",
-        "back": "Health Insurance",
-        "raw": {
-          "korean": "건강보험",
-          "indonesia": "Health Insurance"
-        }
+        "front": "사업주",
+        "back": "employer",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_15",
-        "front": "산재보험",
-        "back": "Industrial Accident",
-        "raw": {
-          "korean": "산재보험",
-          "indonesia": "Industrial Accident"
-        }
+        "front": "체하다",
+        "back": "to feel indigestion",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_16",
-        "front": "4대 사회보험",
-        "back": "Four Major Social Insurances",
-        "raw": {
-          "korean": "4대 사회보험",
-          "indonesia": "Four Major Social Insurances"
-        }
+        "front": "입원하다",
+        "back": "to be hospitalized",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_17",
-        "front": "질병",
-        "back": "illness",
-        "raw": {
-          "korean": "질병",
-          "indonesia": "illness"
-        }
+        "front": "국민연금",
+        "back": "National Pension",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_18",
-        "front": "상해",
-        "back": "injury",
-        "raw": {
-          "korean": "상해",
-          "indonesia": "injury"
-        }
+        "front": "고용보험",
+        "back": "Employment Insurance",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_19",
-        "front": "장애",
-        "back": "disability",
-        "raw": {
-          "korean": "장애",
-          "indonesia": "disability"
-        }
+        "front": "건강보험",
+        "back": "Health Insurance",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_20",
-        "front": "사망",
-        "back": "death",
-        "raw": {
-          "korean": "사망",
-          "indonesia": "death"
-        }
+        "front": "산재보험",
+        "back": "Industrial Accident Compensation Insurance",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_21",
-        "front": "재해",
-        "back": "disaster",
-        "raw": {
-          "korean": "재해",
-          "indonesia": "disaster"
-        }
+        "front": "4대 사회보험",
+        "back": "Four Major Social Insurances",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_22",
-        "front": "체불 임금",
-        "back": "unpaid wages",
-        "raw": {
-          "korean": "체불 임금",
-          "indonesia": "unpaid wages"
-        }
+        "front": "외국인 근로자 전용 보험 관련 어휘",
+        "back": "Insurance Exclusive to Foreign Workers",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_23",
-        "front": "퇴직금",
-        "back": "severance pay",
-        "raw": {
-          "korean": "퇴직금",
-          "indonesia": "severance pay"
-        }
+        "front": "일시금",
+        "back": "lump sum",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_24",
-        "front": "벌금",
-        "back": "fine",
-        "raw": {
-          "korean": "벌금",
-          "indonesia": "fine"
-        }
+        "front": "진단서",
+        "back": "medical certificate",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_25",
-        "front": "1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
-        "back": "Complete the sentences with the correct options as shown in the example.",
-        "raw": {
-          "korean": "1. \u0007알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
-          "indonesia": "Complete the sentences with the correct options as shown in the example."
-        }
+        "front": "보험 약정",
+        "back": "insurance contract",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_26",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "부담없다",
+        "back": "to be burden-free",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_27",
-        "front": "외국인 근로자 전용 보험 관련 어휘",
-        "back": "Insurance Exclusive to Foreign Workers",
-        "raw": {
-          "korean": "외국인 근로자 전용 보험 관련 어휘",
-          "indonesia": "Insurance Exclusive to Foreign Workers"
-        }
+        "front": "체결하다",
+        "back": "to conclude",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_28",
         "front": "사고 입증 서류",
         "back": "accident proof document",
-        "raw": {
-          "korean": "사고 입증 서류",
-          "indonesia": "accident proof document"
-        }
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_29",
         "front": "출국예정사실 확인서",
-        "back": "certificate of expected",
-        "raw": {
-          "korean": "출국예정사실 확인서",
-          "indonesia": "certificate of expected"
-        }
+        "back": "certificate of expected departure",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_30",
         "front": "출국만기보험",
-        "back": "Departure Guarantee",
-        "raw": {
-          "korean": "출국만기보험",
-          "indonesia": "Departure Guarantee"
-        }
+        "back": "Departure Guarantee Insurance",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_31",
         "front": "임금체불보증보험",
-        "back": "Pay Guarantee",
-        "raw": {
-          "korean": "임금체불보증보험",
-          "indonesia": "Pay Guarantee"
-        }
+        "back": "Pay Guarantee Insurance",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_32",
         "front": "귀국비용보험",
-        "back": "Return Cost",
-        "raw": {
-          "korean": "귀국비용보험",
-          "indonesia": "Return Cost"
-        }
+        "back": "Return Cost Insurance",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_33",
         "front": "상해보험",
-        "back": "Personal Injury",
-        "raw": {
-          "korean": "상해보험",
-          "indonesia": "Personal Injury"
-        }
+        "back": "Personal Injury Insurance",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_34",
         "front": "외국인 근로자 전용 보험",
-        "back": "Insurance Exclusive to",
-        "raw": {
-          "korean": "외국인 근로자 전용 보험",
-          "indonesia": "Insurance Exclusive to"
-        }
+        "back": "Insurance Exclusive to Foreign Workers",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       }
     ],
     "grammar": [
       {
         "id": "grammar_1",
-        "front": "308 한국어 표준교재 2",
-        "back": "문법 GRAMMAR",
-        "raw": {
-          "pattern": "308   한국어 표준교재  2",
-          "explanation": "문법  GRAMMAR"
-        }
+        "front": "-는 바람에",
+        "back": "‘-는 바람에’는 동사에 붙어 앞의 내용이 부정적인 결과 또는 예상하지 못한 결과에 대한 이유나 원인임을 나타낸다.\n‘-는 바람에’ is attached to verbs and indicates that the content of the first clause is the reason or cause of an\nunexpected or negative outcome.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
       },
       {
         "id": "grammar_2",
-        "front": "‘-는 바람에’는 동사에 붙어 앞의 내용이 부정적인 결과 또는 예상하지 못한 결과에 대한 이유나 원인임을 나타낸다.",
-        "back": "‘-는 바람에’ is attached to verbs and indicates that the content of the first clause is the reason or cause of an",
-        "raw": {
-          "pattern": "‘-는 바람에’는 동사에 붙어 앞의 내용이 부정적인 결과 또는 예상하지 못한 결과에 대한 이유나 원인임을 나타낸다.",
-          "explanation": "‘-는 바람에’ is attached to verbs and indicates that the content of the first clause is the reason or cause of an"
-        }
-      },
-      {
-        "id": "grammar_3",
-        "front": "1. 그림을 보고 [보기]와 같이 문장을 완성하세요.",
-        "back": "Look at the pictures and complete the sentences as shown in the example.",
-        "raw": {
-          "pattern": "1. \u0007그림을 보고 [보기]와 같이 문장을 완성하세요.",
-          "explanation": "Look at the pictures and complete the sentences as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_4",
-        "front": "2. 알맞은 것을 골라 [보기]와 같이 대화를 완성하세요.",
-        "back": "Complete the conversations with the correct options as shown in the example.",
-        "raw": {
-          "pattern": "2. \u0007알맞은 것을 골라 [보기]와 같이 대화를 완성하세요.",
-          "explanation": "Complete the conversations with the correct options as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_5",
-        "front": "60 근로자 보험",
-        "back": "EMPLOYMENT INSURANCE 311",
-        "raw": {
-          "pattern": "60  근로자 보험",
-          "explanation": "EMPLOYMENT INSURANCE   311"
-        }
-      },
-      {
-        "id": "grammar_6",
-        "front": "필요함을 나타낸다.",
-        "back": "‘-(으)려면’ is attached to verbs and indicates that if one wants to perform the action in the first clause or if one",
-        "raw": {
-          "pattern": "필요함을 나타낸다.",
-          "explanation": "‘-(으)려면’ is attached to verbs and indicates that if one wants to perform the action in the first clause or if one"
-        }
-      },
-      {
-        "id": "grammar_7",
-        "front": "불고기를 만들려면 고기와 채소를 사야 돼요.",
-        "back": "1. [보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the example.",
-        "raw": {
-          "pattern": "불고기를 만들려면 고기와 채소를 사야 돼요.",
-          "explanation": "1. \u0007[보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_8",
-        "front": "⑶ 귀국비용보험금을 출국예정사실 확인서를 제출해야 돼요. (받다)",
-        "back": "⑷ E-9 비자로 한국에서 한국어능력시험(EPS-TOPIK)에 합격해야 돼요. (취업하다)",
-        "raw": {
-          "pattern": "⑶\t 귀국비용보험금을                                                  출국예정사실 확인서를 제출해야 돼요. (받다)",
-          "explanation": "⑷\t \u0007E-9 비자로 한국에서                                                  한국어능력시험(EPS-TOPIK)에 합격해야 돼요. (취업하다)"
-        }
-      },
-      {
-        "id": "grammar_9",
-        "front": "2. 알맞은 것을 골라 [보기]와 같이 대화해 보세요.",
-        "back": "Practice speaking with the correct options as shown in the example.",
-        "raw": {
-          "pattern": "2. \u0007알맞은 것을 골라 [보기]와 같이 대화해 보세요.",
-          "explanation": "Practice speaking with the correct options as shown in the example."
-        }
+        "front": "-(으)려면",
+        "back": "‘-(으)려면’은 동사에 붙어 앞 절의 행위를 하고 싶거나 앞 절의 상황이 이루어지기를 희망한다면 뒤 절의 행위가\n필요함을 나타낸다.\n‘-(으)려면’ is attached to verbs and indicates that if one wants to perform the action in the first clause or if one\nhopes for the situation in the first clause to come true, the action in the second clause is necessary.\n받침 ○\n-으려면\n먹다 → 먹으려면\n받침 ×, 받침 ‘ㄹ’\n-려면\n가다 → 가려면\n놀다 → 놀려면",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
       }
     ],
     "conversation": [
       {
         "id": "conversation_1",
-        "front": "무슨 일로 오셨어요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "무슨 일로 오셨어요?"
-        }
+        "front": "마 두진수 씨, 고용허가제로 한국에 온 외국인 근로자도 산재보험금을 받을 수 있어요?",
+        "back": "Jinsu, can foreign workers who came to Korea through the Employment Permit System also receive industrial accident compensation insurance benefits?",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_2",
-        "front": "허리 수술을 받는 바람에 일을 못 하고 있어요. 의료비 혜택을 받을 수 있을까요?",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "허리 수술을 받는 바람에 일을 못 하고 있어요. 의료비 혜택을 받을 수 있을까요?"
-        }
+        "front": "진 수 산재보험은 고용주가 반드시 가입해야 되니까 누구나 보험금을\n받을 수 있어요. 무슨 일이 있어요?",
+        "back": "Since employers must sign up for industrial accident compensation insurance, anyone is able to receive insurance benefits. Is something wrong?",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_3",
-        "front": "먼저 지급 심사를 받아야 하니까 서류를 제출하세요. 발음 │ PRONUNCIATION 사이시옷 뒤에 ‘이’ 소리가 결합되는 경우에는 [ㄴㄴ]으로 발음한다. When an ‘inserted ㅅ’ is followed by ‘이’, the resulting pronunciation is [ㄴㄴ]. ⑴ 깻잎[깯닙 → 깬닙] 나뭇잎[나묻닙 → 나문닙] ⑵ 베갯잇[베갣닏 → 베갠닏] 324 대화 CONVERSATION 마 두진수 씨, 고용허가제로 한국에 온 외국인 근로자도 산재보험금을 받을 수 있어요? Jinsu, can foreign workers who came to Korea through the Employment Permit System also receive industrial accident compensation insurance benefits? 진 수 산재보험은 고용주가 반드시 가입해야 되니까 누구나 보험금을 받을 수 있어요. 무슨 일이 있어요? Since employers must sign up for industrial accident compensation insurance, anyone is able to receive insurance benefits. Is something wrong? 마 두친구가 작업을 하다가 다리를 다치는 바람에 입원을 했거든요. 그런데 병원비가 많이 나올까 봐 걱정하고 있어서요. A friend injured his leg while working and was hospitalized as a result. But he's worried the hospital expenses will be too high. 진 수 일을 하다가 다쳤으면 산재보험금을 받을 수 있어요. 그리고 직장인이면 건강보험에 가입이 되어 있을 테니까 의료비 혜택도 받을 수 있고요. If he was injured while working, he can receive industrial accident compensation insurance benefits. And if he’s an employee, he should be signed up for health insurance, so he can also receive medical benefits. 마 두그래요? 친구한테 보험 혜택을 받을 수 있다고 빨리 알려 줘야겠어요. Really? I have to quickly let my friend know that he can receive insurance benefits. 진 수 네. 마두 씨도 작업할 때 조심하세요. Yes. You, too, should be careful while working, Madhu. 323",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "먼저 지급 심사를 받아야 하니까 서류를 제출하세요. 발음 │ PRONUNCIATION 사이시옷 뒤에 ‘이’ 소리가 결합되는 경우에는 [ㄴㄴ]으로 발음한다. When an ‘inserted ㅅ’ is followed by ‘이’, the resulting pronunciation is [ㄴㄴ]. ⑴ 깻잎[깯닙 → 깬닙] 나뭇잎[나묻닙 → 나문닙] ⑵ 베갯잇[베갣닏 → 베갠닏] 324 대화  CONVERSATION 마  두진수 씨, 고용허가제로 한국에 온 외국인 근로자도 산재보험금을 받을 수 있어요? \u0007Jinsu, can foreign workers who came to Korea through the Employment Permit System also receive industrial accident compensation insurance benefits? 진  수 \u0007산재보험은 고용주가 반드시 가입해야 되니까 누구나 보험금을 받을 수 있어요. 무슨 일이 있어요? Since employers must sign up for industrial accident compensation insurance, anyone is able to receive insurance benefits. Is something wrong? 마  두친구가 작업을 하다가 다리를 다치는 바람에 입원을 했거든요. 그런데 병원비가 많이 나올까 봐 걱정하고 있어서요. \u0007A friend injured his leg while working and was hospitalized as a result. But he's worried the hospital expenses will be too high. 진  수 \u0007일을 하다가 다쳤으면 산재보험금을 받을 수 있어요. 그리고 직장인이면 건강보험에 가입이 되어 있을 테니까 의료비 혜택도 받을 수 있고요. If he was injured while working, he can receive industrial accident compensation insurance benefits. And if he’s an employee, he should be signed up for health insurance, so he can also receive medical benefits. 마  두그래요? 친구한테 보험 혜택을 받을 수 있다고 빨리 알려 줘야겠어요. \u0007Really? I have to quickly let my friend know that he can receive insurance benefits. 진  수 \u0007네. 마두 씨도 작업할 때 조심하세요. Yes. You, too, should be careful while working, Madhu. 323"
-        }
+        "front": "마 두친구가 작업을 하다가 다리를 다치는 바람에 입원을 했거든요.\n그런데 병원비가 많이 나올까 봐 걱정하고 있어서요.",
+        "back": "A friend injured his leg while working and was hospitalized as a result. But he's worried the hospital expenses will be too high.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_4",
-        "front": "외국인 근로자는 무슨 보험에 가입해야 돼요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "외국인 근로자는 무슨 보험에 가입해야 돼요?"
-        }
+        "front": "진 수 일을 하다가 다쳤으면 산재보험금을 받을 수 있어요.\n그리고 직장인이면 건강보험에 가입이 되어 있을 테니까 의료비 혜택도 받을 수 있고요.",
+        "back": "If he was injured while working, he can receive industrial accident compensation insurance benefits. And if he’s an employee, he should be signed up for health insurance, so he can also receive medical benefits.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_5",
-        "front": "귀국비용보험에 가입해야 돼요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "귀국비용보험에 가입해야 돼요."
-        }
+        "front": "마 두그래요? 친구한테 보험 혜택을 받을 수 있다고 빨리 알려 줘야겠어요.",
+        "back": "Really? I have to quickly let my friend know that he can receive insurance benefits.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_6",
-        "front": "보험에 가입하려면 어떻게 해야 돼요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "보험에 가입하려면 어떻게 해야 돼요?"
-        }
+        "front": "진 수 네. 마두 씨도 작업할 때 조심하세요.",
+        "back": "Yes. You, too, should be careful while working, Madhu.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_7",
-        "front": "취업 교육을 받을 때 약정을 체결하거나 별도로 보험사에 가서 가입하면 돼요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "취업 교육을 받을 때 약정을 체결하거나 별도로 보험사에 가서 가입하면 돼요."
-        }
+        "front": "제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•귀국비용보험, 보험에 가입하다, 취업 교육을 받을 때 약정을 체결하거나\n별도로 보험사에 가서 가입하다\n•상해보험, 나중에 보험금을 신청하다, 신청서와 신분증, 진단서를 제출하다\n가 : 외국인 근로자는 무슨 보험에 가입해야 돼요?\n나 : 귀국비용보험에 가입해야 돼요.\n가 : 보험에 가입하려면 어떻게 해야 돼요?\n나 : 취업 교육을 받을 때 약정을 체결하거나 별도로 보험사에 가서\n가입하면 돼요.\n가 : 얼굴이 좋아 보여요. 좋은 일 있어요?",
+        "back": "You look pleased. Is there something good going on?",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_8",
-        "front": "얼굴이 좋아 보여요. 좋은 일 있어요? You look pleased. Is there something good going on?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "\u0007얼굴이 좋아 보여요. 좋은 일 있어요? You look pleased. Is there something good going on?"
-        }
+        "front": "나 : 네, 다음 휴가 때 가족들이 한국에 오기로 했어요.",
+        "back": "Yes, my family is coming to Korea during the next holiday.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_9",
-        "front": "네, 다음 휴가 때 가족들이 한국에 오기로 했어요. Yes, my family is coming to Korea during the next holiday. 유용한 표현 │ USEFUL EXPRESSION 얼굴이 좋아 보여요. You look pleased. 326 칼 로 E-9 비자로 한국에 온 근로자인데 출국만기보험에 가입하고 싶어요. I am a worker who came to Korea on an E-9 visa, and I want to sign up for the Departure Guarantee Insurance. 직 원 그러세요? 그런데 출국만기보험은 사업주가 근로자를 위해 가입하는 보험이에요. 외국인 근로자는 귀국비용보험과 상해보험에 가입하시면 돼요. Is that so? But Departure Guarantee Insurance is insurance that the employer signs up for on behalf of the worker. Foreign workers should sign up for the Return Cost Insurance and Personal Injury Insurance. 칼 로 상해보험은 아는데 귀국비용보험은 처음 들어요. 어떤 보험이에요? I know about Personal Injury Insurance, but this is the first time I'm hearing about Return Cost Insurance. What kind of insurance is it? 직 원 귀국에 필요한 비용을 준비하기 위한 보험이에요. 근로계약이 끝나고 부담없이 고향에 돌아가려면 반드시 가입해야 돼요. It’s insurance to prepare for the costs needed to return home. If you want to return to your hometown after your work contract finishes without any burden, you must sign up for it. 칼 로 네, 알겠습니다. 그런데 보험금은 얼마예요? Okay, I see. But how much is the insurance premium? 직 원 국가별로 내야 하는 금액이 다른데 일시금으로 내거나 3회 이내로 나누어 내시면 돼요. The amount you need to pay varies depending on the country, but you can pay it in a lump sum or in up to three installments. 대답해 봐요! ANSWER ME! 1 칼로 씨는 왜 여기에 왔어요? Why did Carlo come here? 2 외국인 근로자가 들어야 하는 보험은 뭐예요? What insurance should foreign workers sign up for? 325",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "\u0007네, 다음 휴가 때 가족들이 한국에 오기로 했어요. Yes, my family is coming to Korea during the next holiday. 유용한 표현 │ USEFUL EXPRESSION 얼굴이 좋아 보여요. You look pleased. 326 칼  로 E-9 비자로 한국에 온 근로자인데 출국만기보험에 가입하고 싶어요. \u0007I am a worker who came to Korea on an E-9 visa, and I want to sign up for the Departure Guarantee Insurance. 직  원 \u0007그러세요? 그런데 출국만기보험은 사업주가 근로자를 위해 가입하는 보험이에요. 외국인 근로자는 귀국비용보험과 상해보험에 가입하시면 돼요. Is that so? But Departure Guarantee Insurance is insurance that the employer signs up for on behalf of the worker. Foreign workers should sign up for the Return Cost Insurance and Personal Injury Insurance. 칼  로 상해보험은 아는데 귀국비용보험은 처음 들어요. 어떤 보험이에요? \u0007I know about Personal Injury Insurance, but this is the first time I'm hearing about Return Cost Insurance. What kind of insurance is it? 직  원 \u0007귀국에 필요한 비용을 준비하기 위한 보험이에요. 근로계약이 끝나고 부담없이 고향에 돌아가려면 반드시 가입해야 돼요. It’s insurance to prepare for the costs needed to return home. If you want to return to your hometown after your work contract finishes without any burden, you must sign up for it. 칼  로 네, 알겠습니다. 그런데 보험금은 얼마예요? \u0007Okay, I see. But how much is the insurance premium? 직  원 \u0007국가별로 내야 하는 금액이 다른데 일시금으로 내거나 3회 이내로 나누어 내시면 돼요. The amount you need to pay varies depending on the country, but you can pay it in a lump sum or in up to three installments. 대답해 봐요!  ANSWER ME! 1  \u0007칼로 씨는 왜 여기에 왔어요? Why did Carlo come here? 2  \u0007외국인 근로자가 들어야 하는 보험은 뭐예요? What insurance should foreign workers sign up for? 325"
-        }
+        "front": "유용한 표현 │ USEFUL EXPRESSION\n얼굴이 좋아 보여요.",
+        "back": "You look pleased.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_10",
+        "front": "E-9 비자로 한국에 온 근로자인데 출국만기보험에 가입하고 싶어요.",
+        "back": "I am a worker who came to Korea on an E-9 visa, and I want to sign up for the Departure Guarantee Insurance.",
+        "speaker": "칼 로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_11",
+        "front": "그러세요? 그런데 출국만기보험은 사업주가 근로자를 위해 가입하는 보험이에요. 외국인 근로자는\n귀국비용보험과 상해보험에 가입하시면 돼요.",
+        "back": "Is that so? But Departure Guarantee Insurance is insurance that the employer signs up for on behalf of the worker. Foreign workers should sign up for the Return Cost Insurance and Personal Injury Insurance.",
+        "speaker": "직 원",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_12",
+        "front": "상해보험은 아는데 귀국비용보험은 처음 들어요. 어떤 보험이에요?",
+        "back": "I know about Personal Injury Insurance, but this is the first time I'm hearing about Return Cost Insurance. What kind of insurance is it?",
+        "speaker": "칼 로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_13",
+        "front": "귀국에 필요한 비용을 준비하기 위한 보험이에요. 근로계약이\n끝나고 부담없이 고향에 돌아가려면 반드시 가입해야 돼요.",
+        "back": "It’s insurance to prepare for the costs needed to return home. If you want to return to your hometown after your work contract finishes without any burden, you must sign up for it.",
+        "speaker": "직 원",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_14",
+        "front": "네, 알겠습니다. 그런데 보험금은 얼마예요?",
+        "back": "Okay, I see. But how much is the insurance premium?",
+        "speaker": "칼 로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_15",
+        "front": "국가별로 내야 하는 금액이 다른데 일시금으로 내거나 3회 이내로 나누어 내시면 돼요.",
+        "back": "The amount you need to pay varies depending on the country, but you can pay it in a lump sum or in up to three installments.",
+        "speaker": "직 원",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       }
     ],
-    "culture": [],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "60 근로자 보험",
+        "back": "EMPLOYMENT INSURANCE 313",
+        "body": "60 근로자 보험\nEMPLOYMENT INSURANCE 313\n• 가입한 보험금에 대해 이야기할 수 있다. I can talk about insurance benefits.\n• 가입한 보험의 보험금을 청구할 수 있다. I can claim insurance benefits from the insurance I signed up for. ↻\n• 외국인 근로자 보험에 대해 묻고 대답할 수 있다.\nI can ask and answer questions about insurance for foreign workers.\n외국인 근로자 관련 보험\nInsurance Related to Foreign Workers\n고용허가제(Employment Permit System)로 입국한 외국인 근로자는 한국의 모든 근로자가 가입하는 4대 사회보험과 외국인 근\n로자 전용 보험에 가입해야 합니다.\nForeign workers who enter Korea under the Employment Permit System must be enrolled in Korea’s Four Major Social\nInsurances, as well as Insurance Exclusive to Foreign Workers.\n보험의 종류\nTypes of Insurance\n보험의 목적\nPurpose of Insurance",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook2/unit_60/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
     "reading": [
       {
-        "id": "u60_m1",
+        "id": "u60_r1",
         "nomor": 1,
         "tipe": "membaca",
-        "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
-        "teks_soal": "",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -572,14 +796,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_60/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u60_m2",
+        "id": "u60_r2",
         "nomor": 2,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "일을 하다가 허리를 다쳐서 지난달부터 회사에 나가지 못하고 있습니다. 일을 못 하고 있지만 산재보험에 가입돼 있어서 을/를 받을 수 있다고 합니다.",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n일을 하다가 허리를 다쳐서 지난달부터 회사에 나가지 못하고 있습니다. 일을 못 하고 있지만 산재보험에\n가입돼 있어서 을/를 받을 수 있다고 합니다.",
         "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
@@ -609,14 +837,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_60/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u60_m3",
+        "id": "u60_r3",
         "nomor": 3,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "19:30 귀국하기 전에 보험금 신청을 해야 한다 면서? 내일 나랑 보험사에 같이 가자. 내일 출국예정사실 확인서하고 보험금 아궁 신청서 꼭 가지고 와.",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n19:30\n귀국하기 전에 보험금 신청을 해야 한다\n면서? 내일 나랑 보험사에 같이 가자.\n자야\n어제 출국예정신고를 했다고 했지? 그럼\n내일 출국예정사실 확인서하고 보험금\n신청서 꼭 가지고 와.\n아궁",
         "jawaban": "c",
         "audio_teks": "",
         "audio_url": "",
@@ -646,15 +878,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_60/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u60_m4",
+        "id": "u60_r4",
         "nomor": 4,
         "tipe": "membaca",
-        "instruksi": "다음은 무엇에 대한 설명입니까?",
-        "teks_soal": "사고가 나거나 질병에 걸렸을 때를 대비해 매달 보험사에 내는 돈입니다.",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음은 무엇에 대한 설명입니까?\n사고가 나거나 질병에 걸렸을 때를 대비해 매달 보험사에 내는 돈입니다.",
+        "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -683,14 +919,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_60/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u60_m5",
+        "id": "u60_r5",
         "nomor": 5,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "고용허가제로 입국하는 모든 외국인 근로자는 4대 사회보험과 외국인 근로자 전용 보험에 가입해야 합니다. 4대 사회보험 중 산재보험은 사업주만 가입하면 되지만 국민연금, 건강보험, 고용보험은 사업주와 근로자가 같이 가입해야 합니다. 그리고 외국인 근로자 전용 보험 중 귀국비용보험과 상해보험은 외국인 근로자만 가입할 수 있습니다. 314 한국어 표준교재 2",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n고용허가제로 입국하는 모든 외국인 근로자는 4대 사회보험과 외국인 근로자 전용 보험에 가입해야\n합니다. 4대 사회보험 중 산재보험은 사업주만 가입하면 되지만 국민연금, 건강보험, 고용보험은\n사업주와 근로자가 같이 가입해야 합니다. 그리고 외국인 근로자 전용 보험 중 귀국비용보험과\n상해보험은 외국인 근로자만 가입할 수 있습니다.",
         "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
@@ -720,7 +960,11 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_60/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ],
     "listening": [
@@ -729,68 +973,220 @@
         "nomor": 1,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 보험금은 받았어요?",
+        "teks_soal": "",
         "jawaban": "c",
-        "audio_teks": "1. 여 : 보험금은 받았어요?\n2. 남 : 누가 보험금을 청구했어요?\n3. 남 : 귀국비용보험에 가입하고 싶은데 몇 번을 내야 돼요?\n여 : 세 번에 나눠서 내거나 한꺼번에 낼 수도 있어요.\n4. 여 : 회사 사정이 어려워져서 문을 닫았어요. 그래서 두 달째 월급을 못 받고 있어요.\n남 : 그 럼 고용노동부에 가서 신고 접수부터 하세요. 회사에서 임금체불보증보험에 가입해 두었으면 밀린 월급을 받을 수 있을\n거예요.\n5. 남 : 외국인 근로자도 한 회사에서 일 년 이상 일하면 퇴직금을 받을 수 있어요?\n여 : 그럼요. 외국인 근로자라도 퇴직금을 받을 수 있어요.\n남 : 제가 지난달에 회사를 옮겼는데 어떻게 신청하면 돼요?\n여 : 일하던 회사에 가서 직접 요청하셔야 돼요.\n60 근로자 보험 EMPLOYMENT INSURANCE 315",
+        "audio_teks": "여 : 보험금은 받았어요?",
         "audio_url": "assets/modules/textbook2/audio/unit_60/listening_1.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "네, 보험금을 안 냈어요",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "네, 보험금을 신청할 거예요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "아니요, 보험금을 못 받았어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "아니요, 보험금이 많지 않아요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_60/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u60_l2",
         "nomor": 2,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 누가 보험금을 청구했어요?",
+        "teks_soal": "",
         "jawaban": "b",
-        "audio_teks": "1. 여 : 보험금은 받았어요?\n2. 남 : 누가 보험금을 청구했어요?\n3. 남 : 귀국비용보험에 가입하고 싶은데 몇 번을 내야 돼요?\n여 : 세 번에 나눠서 내거나 한꺼번에 낼 수도 있어요.\n4. 여 : 회사 사정이 어려워져서 문을 닫았어요. 그래서 두 달째 월급을 못 받고 있어요.\n남 : 그 럼 고용노동부에 가서 신고 접수부터 하세요. 회사에서 임금체불보증보험에 가입해 두었으면 밀린 월급을 받을 수 있을\n거예요.\n5. 남 : 외국인 근로자도 한 회사에서 일 년 이상 일하면 퇴직금을 받을 수 있어요?\n여 : 그럼요. 외국인 근로자라도 퇴직금을 받을 수 있어요.\n남 : 제가 지난달에 회사를 옮겼는데 어떻게 신청하면 돼요?\n여 : 일하던 회사에 가서 직접 요청하셔야 돼요.\n60 근로자 보험 EMPLOYMENT INSURANCE 315",
+        "audio_teks": "남 : 누가 보험금을 청구했어요?",
         "audio_url": "assets/modules/textbook2/audio/unit_60/listening_2.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "집에서 했어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "칼로 씨가 했어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "퇴근 후에 했어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "인터넷으로 했어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_60/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u60_l3",
         "nomor": 3,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 귀국비용보험에 가입하고 싶은데 몇 번을 내야 돼요? 여 : 세 번에 나눠서 내거나 한꺼번에 낼 수도 있어요.",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
         "jawaban": "d",
-        "audio_teks": "1. 여 : 보험금은 받았어요?\n2. 남 : 누가 보험금을 청구했어요?\n3. 남 : 귀국비용보험에 가입하고 싶은데 몇 번을 내야 돼요?\n여 : 세 번에 나눠서 내거나 한꺼번에 낼 수도 있어요.\n4. 여 : 회사 사정이 어려워져서 문을 닫았어요. 그래서 두 달째 월급을 못 받고 있어요.\n남 : 그 럼 고용노동부에 가서 신고 접수부터 하세요. 회사에서 임금체불보증보험에 가입해 두었으면 밀린 월급을 받을 수 있을\n거예요.\n5. 남 : 외국인 근로자도 한 회사에서 일 년 이상 일하면 퇴직금을 받을 수 있어요?\n여 : 그럼요. 외국인 근로자라도 퇴직금을 받을 수 있어요.\n남 : 제가 지난달에 회사를 옮겼는데 어떻게 신청하면 돼요?\n여 : 일하던 회사에 가서 직접 요청하셔야 돼요.\n60 근로자 보험 EMPLOYMENT INSURANCE 315",
+        "audio_teks": "남 : 귀국비용보험에 가입하고 싶은데 몇 번을 내야 돼요?\n여 : 세 번에 나눠서 내거나 한꺼번에 낼 수도 있어요.",
         "audio_url": "assets/modules/textbook2/audio/unit_60/listening_3.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "납입 장소",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "납입 날짜",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "납입 금액",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "납입 횟수",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_60/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u60_l4",
         "nomor": 4,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 회사 사정이 어려워져서 문을 닫았어요. 그래서 두 달째 월급을 못 받고 있어요. 남 : 그 럼 고용노동부에 가서 신고 접수부터 하세요. 회사에서 임금체불보증보험에 가입해 두었으면 밀린 월급을 받을 수 있을 거예요.",
+        "teks_soal": "다음 중 들은 내용과 같은 것은 무엇입니까?",
         "jawaban": "a",
-        "audio_teks": "1. 여 : 보험금은 받았어요?\n2. 남 : 누가 보험금을 청구했어요?\n3. 남 : 귀국비용보험에 가입하고 싶은데 몇 번을 내야 돼요?\n여 : 세 번에 나눠서 내거나 한꺼번에 낼 수도 있어요.\n4. 여 : 회사 사정이 어려워져서 문을 닫았어요. 그래서 두 달째 월급을 못 받고 있어요.\n남 : 그 럼 고용노동부에 가서 신고 접수부터 하세요. 회사에서 임금체불보증보험에 가입해 두었으면 밀린 월급을 받을 수 있을\n거예요.\n5. 남 : 외국인 근로자도 한 회사에서 일 년 이상 일하면 퇴직금을 받을 수 있어요?\n여 : 그럼요. 외국인 근로자라도 퇴직금을 받을 수 있어요.\n남 : 제가 지난달에 회사를 옮겼는데 어떻게 신청하면 돼요?\n여 : 일하던 회사에 가서 직접 요청하셔야 돼요.\n60 근로자 보험 EMPLOYMENT INSURANCE 315",
+        "audio_teks": "여 : 회사 사정이 어려워져서 문을 닫았어요. 그래서 두 달째 월\n급을 못 받고 있어요.\n남 : 그럼 고용노동부에 가서 신고 접수부터 하세요. 회사에서\n임금체불보증보험에 가입해 두었으면 밀린 월급을 받을\n수 있을 거예요.",
         "audio_url": "assets/modules/textbook2/audio/unit_60/listening_4.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "여자는 고용노동부에 갈 것입니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "여자는 회사에서 일한 적이 없습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "여자는 신고를 하고 월급을 받았습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "여자는 임금체불보증보험에 가입했습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_60/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u60_l5",
         "nomor": 5,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 외국인 근로자도 한 회사에서 일 년 이상 일하면 퇴직금을 받을 수 있어요? 여 : 그럼요. 외국인 근로자라도 퇴직금을 받을 수 있어요. 남 : 제가 지난달에 회사를 옮겼는데 어떻게 신청하면 돼요? 여 : 일하던 회사에 가서 직접 요청하셔야 돼요. 60 근로자 보험 EMPLOYMENT INSURANCE 315",
+        "teks_soal": "남자가 여자를 찾아온 이유는 무엇입니까?",
         "jawaban": "c",
-        "audio_teks": "1. 여 : 보험금은 받았어요?\n2. 남 : 누가 보험금을 청구했어요?\n3. 남 : 귀국비용보험에 가입하고 싶은데 몇 번을 내야 돼요?\n여 : 세 번에 나눠서 내거나 한꺼번에 낼 수도 있어요.\n4. 여 : 회사 사정이 어려워져서 문을 닫았어요. 그래서 두 달째 월급을 못 받고 있어요.\n남 : 그 럼 고용노동부에 가서 신고 접수부터 하세요. 회사에서 임금체불보증보험에 가입해 두었으면 밀린 월급을 받을 수 있을\n거예요.\n5. 남 : 외국인 근로자도 한 회사에서 일 년 이상 일하면 퇴직금을 받을 수 있어요?\n여 : 그럼요. 외국인 근로자라도 퇴직금을 받을 수 있어요.\n남 : 제가 지난달에 회사를 옮겼는데 어떻게 신청하면 돼요?\n여 : 일하던 회사에 가서 직접 요청하셔야 돼요.\n60 근로자 보험 EMPLOYMENT INSURANCE 315",
+        "audio_teks": "남 : 외국인 근로자도 한 회사에서 일 년 이상 일하면 퇴직금을\n받을 수 있어요?\n여 : 그럼요. 외국인 근로자라도 퇴직금을 받을 수 있어요.\n남 : 제가 지난달에 회사를 옮겼는데 어떻게 신청하면 돼요?\n여 : 일하던 회사에 가서 직접 요청하셔야 돼요.",
         "audio_url": "assets/modules/textbook2/audio/unit_60/listening_5.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "회사를 옮기고 싶어서",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "보험에 가입하고 싶어서",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "퇴직금을 신청하고 싶어서",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "보험금 납입 방법을 알고 싶어서",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_60/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ]
   },
   "integrity": {
     "pdf_pages": 10,
+    "lesson_flow": 10,
     "vocab_cards": 34,
+    "grammar_cards": 2,
+    "conversation_cards": 15,
+    "culture_cards": 1,
     "reading_questions": 5,
     "listening_questions": 5,
-    "listening_audio": 5
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_audio": 5,
+    "listening_scripts": 5
   }
 }

@@ -4,7 +4,7 @@
   "unit": 47,
   "title_ko": "연안 어업과 양식",
   "title_en": "Coastal Fishing and Aquaculture",
-  "title_id": "Perikanan dan Budidaya",
+  "title_id": "Perikanan pesisir dan budidaya perairan",
   "source_pdf": "assets/langit-korea-modules/unit_47_coastal_fishing_aquaculture.pdf",
   "page_start": 177,
   "page_end": 186,
@@ -61,563 +61,786 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 177,
+        "image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "47 연안 어업과 양식 \n COASTAL FISHERY AND AQUACULTURE 177\n어업 도구 fishery tools\n어업 활동 fishery activities\n 관계있는 것끼리 연결하세요. Connect the related items.\n⑴\n통발\n●\n ●\n햇빛을 막아 주는 큰 천\n⑵\n양망기\n●\n●\n물속에 넣어 물고기를 잡을 때 사용하는 도구\n⑶\n부표\n●\n●\n그물의 위치를 알려 주는 표지\n⑷\n차광막\n●\n●\n그물을 끌어올릴 때 사용하는 기계\n어휘 VOCABULARY\n어업 도구와 어업 활동 관련 어휘 Fishery Tools and Activities\n그물\nfishing net\n통발\nfish trap\n양망기\nnet hauler\n밧줄\nrope\n차광막\nshade cloth\n닻 \nanchor\n부표\nbuoy\n바늘대\nnetting needle\n뜰채\nhand net\n바구니\nbasket\n낚시 바늘\nfishing hook\n고압 분사기\npressure washer\n끌어올리다\nto pull up\n세척하다\nto clean\n건조하다/말리다\nto dry\n(그물을) 수선하다\nto mend (a net)\n갑판 deck\n흔들리다 to be shaken\n찢어지다 to be torn\n물고기 fish",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 178,
+        "image": "assets/modules/textbook2/unit_47/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "178 한국어 표준교재 2\n문법 GRAMMAR\n-는 동안에\n‘-는 동안에’는 동사에 붙어 어떤 행위가 계속되는 시간을 나타낸다. ‘에’를 생략하여 사용할 수 있다.\n‘-는 동안에’ is attached to a verb to indicate the time during which another action continues. It can also be used with \nthe omission of ‘에’.\n예 기계가 작동하는 동안(에) 소음이 발생할 수 있어요.\n \n내가 밧줄을 끌어올리는 동안(에) 다른 어구들을 정리해 주세요.\n \n그물을 세척하는 동안(에) 푸캄 씨는 창고에 가서 밧줄 좀 가져오세요. \n※ 기간을 나타내는 명사와 함께 사용할 때는 ‘명사 동안에’의 구성으로 사용한다.\nWhen used with a noun indicating a period of time, it takes the form ‘noun 동안에’.\n예 일주일 동안 작업 교육을 받았어요.\n1. [보기]와 같이 문장을 쓰세요. Write the sentences as shown in the example.\n통발을 설치하다 / 그물을 가져오다 ⊙ 통발을 설치하는 동안에 푸캄 씨는 그물을 가져오세요.\n[ 보기 ]\n⑴ 부표를 설치하다 / 갑판을 청소하다 \n \n⊙ . \n⑵ 통발을 끌어올리다 / 밧줄을 정리하다 \n \n⊙ . \n⑶ 어구를 배에 싣다 / 안전 장비를 점검하다 \n \n⊙ . \n⑷ 바구니를 가져오다 / 그물을 세척하다 \n \n⊙ . \n2. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options. \n 청소하다 칠하다 수선하다 설치하다\n⑴ 페인트를 냄새가 많이 날 거예요. \n⑵ 통발을 배가 흔들리지 않도록 해 주세요.\n⑶ 갑판을 푸캄 씨는 밧줄을 정리해 주세요.\n⑷ 이 그물을 사용할 다른 그물을 준비해 주세요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 179,
+        "image": "assets/modules/textbook2/unit_47/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "47 연안 어업과 양식 \n COASTAL FISHERY AND AQUACULTURE 179\n대화 CONVERSATION\n반장님 \n자, 그물을 끌어올렸으니까 이제 세척을 시작합시다.\n \nOkay, now that we've pulled up the net, let’s start cleaning it. \n푸\n캄 \n반장님, 세척은 고압 분사기로 하면 되지요?\n \nBanjangnim, we can use the pressure washer for cleaning, right?\n반장님 \n네, 맞아요. 세척하는 동안 찢어진 곳이 있는지 그물을 \n잘 살펴보세요. 그리고 찢어진 곳이 있으면 그 부분을 \n묶어 주세요.\n \nYes, that’s right. Please check the net carefully for any tears \nwhile cleaning. If there are any tears, please tie that part up.\n푸\n캄 \n네, 알겠습니다. 그런데 묶은 부분은 언제 수선해요?\n \nOkay, I understand. But when do we mend the tied parts?\n반장님 \n그물을 말린 후에 수선해야 돼요. 그물을 다 세척한 후에는 \n넓게 펼쳐서 말려야 돼요. 알고 있지요?\n \nWe need to mend them after drying the net. After cleaning the \nnet, we should spread it out to dry. You know that, right? \n대답해 봐요! ANSWER ME!\n1 그물은 무엇으로 세척해요? What do they use to clean the net? \n2 그물을 세척한 후에 무엇을 해요? What do they do after cleaning the net? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•그물을 정리하다, 다른 어구들을 점검하다\n•통발을 설치하다, 부표를 설치하다\n가 : 지금 무슨 작업을 하고 있어요?\n나 : 그물을 정리하고 있어요. \n가 : 푸캄 씨가 그물을 정리하는 동안 저는 다른 어구들을 점검할게요. \n발음 │ PRONUNCIATION\n‘ㅎ’ 뒤에 ‘ㄴ’가 결합되는 경우에는 ‘ㅎ’을 [ㄴ]으로 발음한다.\nWhen ‘ㅎ’ is followed by ‘ㄴ’, the ‘ㅎ’ is pronounced as [ㄴ].\n⑴ 놓는[논는] \n낳는[난는] \n쌓는[싼는]\n⑵ 놓네[논네] \n낳네[난네] \n쌓네[싼네]\n259\n258",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 180,
+        "image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "180 한국어 표준교재 2\n어휘 VOCABULARY\n양식업 관련 어휘 Aquaculture\n양식장\naquaculture farm\n수조\ntank\n펌프\npump\n물고기/어류\nfish\n산소 공급기\noxygen supply system\n온도계\nthermometer\n어류 상태를 확인하다\nto check the condition \nof the fish\n사료를 주다\nto feed the fish\n수질을 측정하다\nto check the water quality\n어류를 선별하다\nto sort fish\n추가하다 to add\n꼬이다 to get tangled\n 접히다 to be folded\n대비하다 to prepare\n유통기한 expiration date\n예비용 spare\n산소 농도 oxygen concentration\n보고하다 to report \n 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.\n⑴\n가 : 뭐 하고 있어요?\n나 : 수온이 높은 것 같아서 을/를 보고 있었어요.\n⑵\n가 : 뭐 하고 있어요?\n나 : 물이 잘 공급되지 않아서 을/를 고치고 있었어요.\n⑶\n가 : 무슨 작업을 해야 돼요?\n나 : 수조의 물이 더러운 것 같으니까 을/를 측정해 주세요.\n⑷\n가 : 무슨 작업을 해야 돼요?\n나 : 물고기한테 줄 을/를 창고에서 좀 가지고 오세요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 181,
+        "image": "assets/modules/textbook2/unit_47/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "47 연안 어업과 양식 \n COASTAL FISHERY AND AQUACULTURE 181\n문법 GRAMMAR\n-기로 하다\n‘-기로 하다’는 동사에 붙어 결정이나 결심, 계획이나 약속을 나타낸다.\n‘-기로 하다’ is attached to a verb to indicate a decision, resolution, plan, or promise.\n예 제가 수조를 청소하기로 했어요.\n \n다음 주에 펌프를 설치하기로 했습니다.\n \n오늘 산소 공급기를 점검하기로 했습니다.\n1. [보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the example.\n가 : 펌프에서 소음이 나요.\n나 : 그래요? 그럼 오늘 펌프를 점검합시다.\n⊙ 펌프에서 소음이 나서 오늘 펌프를 점검하기로 했어요.\n[ 보기 ]\n⑴가 : 수조에 이물질이 많아요.\n나 : 그래요? 그러면 이따가 같이 수조 청소를 합시다. \n⊙ 수조에 이물질이 많아서 .\n⑵가 : 양식장의 물고기들이 많이 자란 것 같아요.\n나 : 오후에 같이 선별 작업을 합시다.\n⊙ 물고기들이 많이 자란 것 같아서 .\n⑶가 : 물고기 사료가 얼마 남지 않았어요.\n나 : 그럼 오늘 주문합시다.\n⊙ 물고기 사료가 얼마 남지 않아서 .\n2. [보기]와 같이 알맞은 것을 연결하고 문장을 쓰세요. \nConnect the related items and write the sentences as shown in the example.\n[보기]\n⑴\n⑵\n⑶\n사료의 유통 기한이 지나다 \n산소 농도가 낮다 \n수조의 수온이 높다 \n펌프에 문제가 발견되다\n●\n●\n●\n●\n●\n●\n●\n●\n수리를 맡기다\n온도를 조절하다\n새로 사 온 사료로 바꾸다\n산소 공급기를 한 대 더 설치하다\n [보기] \n 사료의 유통 기한이 지나서 새로 사 온 사료로 바꾸기로 했어요 .\n \n⑴ \n .\n \n⑵ \n .\n \n⑶ \n .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 182,
+        "image": "assets/modules/textbook2/unit_47/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "182 한국어 표준교재 2\n대화 CONVERSATION\n사장님 \n오늘 새 양식장에 펌프를 설치하기로 했지요?\n \nWe agreed we'd install the pump at the new aquaculture \nfarm today, right?\n푸\n캄 \n네, 사장님. 어떻게 설치하면 되는지 알려 주시면 \n제가 하겠습니다.\n \nYes, Sajangnim. I'll install it if you tell me how. \n사장님 \n먼저 펌프의 위치를 정하고 바닥에 고정해야 돼요. \n그다음 펌프와 수조를 호스로 연결해야 돼요.\n \nFirst, you need to determine the position of the pump and \nsecure it to the floor. Then, you need to connect the pump \nto the tank with a hose.\n푸\n캄 \n알겠습니다. 호스를 연결할 때 주의할 점이 있어요?\n \nUnderstood. Is there anything I should be careful of when connecting the hose? \n사장님 \n네, 호스가 꼬이거나 접히지 않도록 특별히 주의해야 돼요. 물이 잘 흐르게 해야 하니까요.\n \nYes. You need to be especially careful to not tangle or fold the hose. We need to ensure the water flows well. \n푸\n캄 \n알겠습니다. 조심해서 연결하겠습니다.\n \nUnderstood. I will connect it carefully.\n사장님 \n설치 작업이 끝나면 나한테 알려 주세요. 펌프가 잘 작동하는지 같이 확인하기로 해요.\n \nPlease let me know once the installation is finished. Let’s check together if the pump is working well.\n대답해 봐요! ANSWER ME!\n1 오늘 할 일은 뭐예요? What are they going to do today?\n2 호스를 연결할 때 주의할 점이 뭐예요? \nWhat should they be careful of when connecting the hose? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•양식장 청소, 오후에 하다, 수조 온도도 점검하다\n•수질 점검, 점심시간 후에 점검하다, 결과를 사장님께 보고하다\n가 : 양식장 청소는 언제 하기로 했어요?\n나 : 오후에 하기로 했어요.\n가 : 양식장 청소가 끝나면 수조 온도도 점검해 주세요.\n가 : 오늘 저녁에 한잔할까요? Shall we have a drink this evening?\n나 : 좋아요. 어디에서 만날까요? Sure! Where shall we meet?\n유용한 표현 │ USEFUL EXPRESSION\n한잔할까요?\nShall we have a drink? \n261\n260",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 183,
+        "image": "assets/modules/textbook2/unit_47/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "47 연안 어업과 양식 \n COASTAL FISHERY AND AQUACULTURE 183\n문화와 정보 CULTURE & INFORMATION\n47 연안 어업과 양식 \n COASTAL FISHERY AND AQUACULTURE 183\n• 어업 도구와 어업 활동에 대해 말할 수 있다. I can talk about fishery tools and activities. \n↻\n• 양식업에서 사용하는 장비의 이름을 말할 수 있다. I can name the equipment used in aquaculture. \n↻\n• 결심한 것이나 결정한 것을 표현할 수 있다. I can express what I have resolved or decided to do. \n↻\n확인해요 │ self assessment\n한국의 양식업 \nKorea’s Aquaculture Industry\n양식업은 연근해 혹은 인근 연안에서 조개류, 해조류, 어류 등\n을 양식하는 산업으로, 해양 자원 관리 및 수산물 공급에서 중요\n한 역할을 담당하고 있습니다. 한국은 삼면이 바다로 둘러싸여 \n있어 양식업에 적합한 환경을 갖추고 있습니다. \nAquaculture is the industry of farming shellfish, seaweed, fish, \nand other aquatic organisms in coastal waters or nearby coastal \nareas. It plays a crucial role in marine resource management \nand seafood supply. As Korea is surrounded by the sea on \nthree sides, it has a suitable environment for aquaculture.\n2022년 수산물 생산량을 기준으로 볼 때, 양식업은 어업을 추월하여 그 비중을 높여가고 있으며, 한국은 양식 생\n산량에 있어 전 세계 상위 10개국에 포함됩니다. 한국에서는 연근해 양식업을 통하여 굴, 새우, 조개 등 다양한 수산\n물이 생산되고 있는데 영양소가 풍부한 해조류나 고품질의 어류 등 고부가가치의 수산물로 범위가 확대되고 있습\n니다. \nAquaculture production has steadily increased to the point it has surpassed fishery, and South Korea ranks among \nthe top 10 countries worldwide in aquaculture production according to statistics on 2022 seafood production. In \nKorea, various seafood such as oysters, shrimp, and shellfish are produced through coastal aquaculture, and the \nscope has expanded to include high-value seafood like nutrient-rich seaweeds and high-quality fish.\n또한 수조의 수질을 자동으로 조절하거나 센서를 통해 양식장의 환경 변화를 실시간으로 감지하는 등 다양한 기술\n이 도입되어 양식의 효율성을 높이고 있습니다. 이뿐만 아니라 친환경 양식 방법을 개발하고, 양식장 주변의 환경 모\n니터링을 강화하는 등 미래 세대에 건강한 먹거리를 제공하기 위해 환경 보호와 자원 관리에도 힘을 쓰고 있습니다.\nAdditionally, various technologies are being introduced to \nimprove the efficiency of aquaculture, such as automatic \nwater quality control systems and sensors that monitor \nthe environment in real time. Furthermore, efforts are \nbeing made to develop eco-friendly aquaculture methods \nand enhance environmental monitoring around \naquaculture sites to ensure healthy food sources for \nfuture generations, with a strong focus on environmental \nprotection and resource management.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 184,
+        "image": "assets/modules/textbook2/unit_47/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n184 한국어 표준교재 2\n1. \n다음 내용과 관계있는 그림을 고르십시오.\n통발입니다.\n①\n②\n③\n④\n2. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n젖은 그물은 햇빛에 후에 보관해야 합니다.\n① 데운 \n② 말린 \n③ 태운 \n④ 녹인\n3. 빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.\n지금 사용하는 펌프의 소음이 심합니다. 그래서 새로운 펌프를 .\n① 청소하려고 합니다 \n \n \n② 측정하려고 합니다\n③ 보관하려고 합니다 \n \n \n④ 설치하려고 합니다\n4. 다음은 무엇에 대한 설명입니까?\n양식장에서 물고기를 크기와 건강 상태에 따라 분류하는 작업입니다.\n① 제거 작업 \n② 선별 작업 \n③ 출하 작업 \n④ 교체 작업\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n양식업은 조개, 해조류, 어류 등을 기르는 산업을 말합니다. 한국에서는 굴, 새우, 조개 등 다양한 \n수산물이 양식되고 있는데, 고부가가치의 수산물로 범위가 확대되고 있습니다. 한국의 양식업은 \n생산량을 기준으로 이미 어업의 생산량을 넘어섰으며, 다양한 기술을 도입하여 양식의 효율성을 높이고 \n있습니다.\n① 한국에서는 조개를 양식하지 않습니다.\n② 한국은 양식업보다 어업의 생산량이 많습니다.\n③ 한국에서 양식되는 수산물은 해조류에 한정됩니다.\n④ 한국은 효율적인 양식을 위해 다양한 기술을 도입하고 있습니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 185,
+        "image": "assets/modules/textbook2/unit_47/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n47 연안 어업과 양식 \n COASTAL FISHERY AND AQUACULTURE 185 \n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n2. 다음을 듣고 물음에 알맞은 대답을 고르십시오. \n① 네, 수조가 커요. \n \n \n② 네, 수조가 많아요.\n③ 아니요, 수조가 더러워요. \n \n④ 아니요, 수조가 너무 깊어요. \n3. 두 사람은 무엇에 대해 말하고 있습니까?\n① 작업 시간 \n \n \n② 작업 장소\n③ 작업 순서 \n \n \n④ 작업 복장 \n4. 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n① 넓게 펼쳐서 말렸어요. \n \n \n② 물고기가 많이 잡혔네요.\n③ 고압 분사기를 가져올게요. \n \n④ 뜰채도 준비하는 게 좋겠어요.\n5. \n다음 중 들은 내용과 같은 것은 무엇입니까?\n① 부표는 끌어올리면 안 됩니다. \n② 로프를 부표에 연결해야 합니다.\n③ 양망기로 그물을 끌어올릴 겁니다. \n④ 로프를 발로 잡고 작업해야 합니다.\n1. \n여 : 선장님, 지금 무슨 작업을 해야 돼요?\n \n남 : 그물을 끌어올려야 돼요. \n2. 남 : 수조가 깨끗해요?\n3. 여 : 배에 오르기 전에 구명조끼를 입으세요.\n \n남 : 네, 빨리 입고 오겠습니다.\n4. 남 : 이제 그물 세척을 시작합시다.\n5. 여 : 그물 위치를 확인했으니 양망기를 준비하고 로프를 연결해 주세요.\n \n남 : 네, 그럼 로프를 연결하고 바로 그물을 끌어올릴까요?\n \n여 : 좋아요. 부표도 같이 올려 주세요. 그리고 끌어올릴 때 로프에 발이 걸리지 않게 조심하세요.\n듣기지문\n262",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 186,
+        "image": "assets/modules/textbook2/unit_47/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "선체 건조 \nShip Hull Construction\nC H A P T E R 4 8\n186 한국어 표준교재 2\n학습 목표\nLEARNING OBJECTIVES\n선박 도장 작업에 대해 말할 수 있다.\nCan talk about ship painting tasks.\n강관 비계 구조에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about the structure of steel pipe scaffolding.\n-아지다/어지다\n-는/(으)ㄴ 덕분에\nGRAMMAR\n문법\n선박 도장 관련 어휘\nVocabulary Related to Ship Painting\n강관 비계 설치 관련 어휘\nVocabulary Related to Steel Pipe \nScaffold Installation\nVOCABULARY\n어휘\n한국의 조선업\nKorea’s Shipbuilding Industry \nCULTURE & INFORMATION\n문화와 정보\nEPS-TOPIK\n모두 열심히 해 준 덕분에 예상보다 빨리 마쳤네요.\n반장님, 도장 작업을 다 끝냈습니다.",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "vocab": [
       {
         "id": "vocab_1",
-        "front": "47 연안 어업과 양식",
-        "back": "COASTAL FISHERY AND AQUACULTURE 177",
-        "raw": {
-          "korean": "47  연안 어업과 양식",
-          "indonesia": "COASTAL FISHERY AND AQUACULTURE   177"
-        }
+        "front": "어업 도구와 어업 활동 관련 어휘",
+        "back": "Fishery Tools and Activities",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_2",
-        "front": "관계있는 것끼리 연결하세요. Connect the related items.",
-        "back": "⑴",
-        "raw": {
-          "korean": "\u0007관계있는 것끼리 연결하세요. Connect the related items.",
-          "indonesia": "⑴"
-        }
+        "front": "그물",
+        "back": "fishing net",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_3",
         "front": "통발",
-        "back": "●",
-        "raw": {
-          "korean": "통발",
-          "indonesia": "●"
-        }
+        "back": "fish trap",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_4",
-        "front": "햇빛을 막아 주는 큰 천",
-        "back": "⑵",
-        "raw": {
-          "korean": "햇빛을 막아 주는 큰 천",
-          "indonesia": "⑵"
-        }
+        "front": "양망기",
+        "back": "net hauler",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_5",
-        "front": "양망기",
-        "back": "●",
-        "raw": {
-          "korean": "양망기",
-          "indonesia": "●"
-        }
+        "front": "밧줄",
+        "back": "rope",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_6",
-        "front": "물속에 넣어 물고기를 잡을 때 사용하는 도구",
-        "back": "⑶",
-        "raw": {
-          "korean": "물속에 넣어 물고기를 잡을 때 사용하는 도구",
-          "indonesia": "⑶"
-        }
+        "front": "차광막",
+        "back": "shade cloth",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_7",
-        "front": "부표",
-        "back": "●",
-        "raw": {
-          "korean": "부표",
-          "indonesia": "●"
-        }
+        "front": "닻",
+        "back": "anchor",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_8",
-        "front": "그물의 위치를 알려 주는 표지",
-        "back": "⑷",
-        "raw": {
-          "korean": "그물의 위치를 알려 주는 표지",
-          "indonesia": "⑷"
-        }
+        "front": "부표",
+        "back": "buoy",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_9",
-        "front": "차광막",
-        "back": "●",
-        "raw": {
-          "korean": "차광막",
-          "indonesia": "●"
-        }
+        "front": "바늘대",
+        "back": "netting needle",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_10",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "뜰채",
+        "back": "hand net",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_11",
-        "front": "어업 도구와 어업 활동 관련 어휘",
-        "back": "Fishery Tools and Activities",
-        "raw": {
-          "korean": "어업 도구와 어업 활동 관련 어휘",
-          "indonesia": "Fishery Tools and Activities"
-        }
+        "front": "바구니",
+        "back": "basket",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_12",
-        "front": "그물",
-        "back": "fishing net",
-        "raw": {
-          "korean": "그물",
-          "indonesia": "fishing net"
-        }
+        "front": "낚시 바늘",
+        "back": "fishing hook",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_13",
-        "front": "통발",
-        "back": "fish trap",
-        "raw": {
-          "korean": "통발",
-          "indonesia": "fish trap"
-        }
+        "front": "고압 분사기",
+        "back": "pressure washer",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_14",
-        "front": "양망기",
-        "back": "net hauler",
-        "raw": {
-          "korean": "양망기",
-          "indonesia": "net hauler"
-        }
+        "front": "끌어올리다",
+        "back": "to pull up",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_15",
-        "front": "밧줄",
-        "back": "rope",
-        "raw": {
-          "korean": "밧줄",
-          "indonesia": "rope"
-        }
+        "front": "세척하다",
+        "back": "to clean",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_16",
-        "front": "차광막",
-        "back": "shade cloth",
-        "raw": {
-          "korean": "차광막",
-          "indonesia": "shade cloth"
-        }
+        "front": "건조하다/말리다",
+        "back": "to dry",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_17",
-        "front": "닻",
-        "back": "anchor",
-        "raw": {
-          "korean": "닻",
-          "indonesia": "anchor"
-        }
+        "front": "(그물을) 수선하다",
+        "back": "to mend (a net)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_18",
-        "front": "부표",
-        "back": "buoy",
-        "raw": {
-          "korean": "부표",
-          "indonesia": "buoy"
-        }
+        "front": "갑판",
+        "back": "deck",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_19",
-        "front": "바늘대",
-        "back": "netting needle",
-        "raw": {
-          "korean": "바늘대",
-          "indonesia": "netting needle"
-        }
+        "front": "흔들리다",
+        "back": "to be shaken",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_20",
-        "front": "뜰채",
-        "back": "hand net",
-        "raw": {
-          "korean": "뜰채",
-          "indonesia": "hand net"
-        }
+        "front": "찢어지다",
+        "back": "to be torn",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_21",
-        "front": "바구니",
-        "back": "basket",
-        "raw": {
-          "korean": "바구니",
-          "indonesia": "basket"
-        }
+        "front": "물고기",
+        "back": "fish",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_22",
-        "front": "낚시 바늘",
-        "back": "fishing hook",
-        "raw": {
-          "korean": "낚시 바늘",
-          "indonesia": "fishing hook"
-        }
+        "front": "양식업 관련 어휘",
+        "back": "Aquaculture",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_23",
-        "front": "고압 분사기",
-        "back": "pressure washer",
-        "raw": {
-          "korean": "고압 분사기",
-          "indonesia": "pressure washer"
-        }
+        "front": "양식장",
+        "back": "aquaculture farm",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_24",
-        "front": "끌어올리다",
-        "back": "to pull up",
-        "raw": {
-          "korean": "끌어올리다",
-          "indonesia": "to pull up"
-        }
+        "front": "수조",
+        "back": "tank",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_25",
-        "front": "세척하다",
-        "back": "to clean",
-        "raw": {
-          "korean": "세척하다",
-          "indonesia": "to clean"
-        }
+        "front": "펌프",
+        "back": "pump",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_26",
-        "front": "건조하다/말리다",
-        "back": "to dry",
-        "raw": {
-          "korean": "건조하다/말리다",
-          "indonesia": "to dry"
-        }
+        "front": "물고기/어류",
+        "back": "fish",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_27",
-        "front": "(그물을) 수선하다",
-        "back": "to mend (a net)",
-        "raw": {
-          "korean": "(그물을) 수선하다",
-          "indonesia": "to mend (a net)"
-        }
+        "front": "산소 공급기",
+        "back": "oxygen supply system",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_28",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "온도계",
+        "back": "thermometer",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_29",
-        "front": "양식업 관련 어휘",
-        "back": "Aquaculture",
-        "raw": {
-          "korean": "양식업 관련 어휘",
-          "indonesia": "Aquaculture"
-        }
+        "front": "어류 상태를 확인하다",
+        "back": "to check the condition of the fish",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_30",
-        "front": "양식장",
-        "back": "aquaculture farm",
-        "raw": {
-          "korean": "양식장",
-          "indonesia": "aquaculture farm"
-        }
+        "front": "사료를 주다",
+        "back": "to feed the fish",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_31",
-        "front": "수조",
-        "back": "tank",
-        "raw": {
-          "korean": "수조",
-          "indonesia": "tank"
-        }
+        "front": "수질을 측정하다",
+        "back": "to check the water quality",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_32",
-        "front": "펌프",
-        "back": "pump",
-        "raw": {
-          "korean": "펌프",
-          "indonesia": "pump"
-        }
+        "front": "어류를 선별하다",
+        "back": "to sort fish",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_33",
-        "front": "물고기/어류",
-        "back": "fish",
-        "raw": {
-          "korean": "물고기/어류",
-          "indonesia": "fish"
-        }
+        "front": "추가하다",
+        "back": "to add",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_34",
-        "front": "산소 공급기",
-        "back": "oxygen supply system",
-        "raw": {
-          "korean": "산소 공급기",
-          "indonesia": "oxygen supply system"
-        }
+        "front": "꼬이다",
+        "back": "to get tangled",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_35",
-        "front": "온도계",
-        "back": "thermometer",
-        "raw": {
-          "korean": "온도계",
-          "indonesia": "thermometer"
-        }
+        "front": "접히다",
+        "back": "to be folded",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_36",
-        "front": "어류 상태를 확인하다",
-        "back": "to check the condition",
-        "raw": {
-          "korean": "어류 상태를 확인하다",
-          "indonesia": "to check the condition"
-        }
+        "front": "대비하다",
+        "back": "to prepare",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_37",
-        "front": "사료를 주다",
-        "back": "to feed the fish",
-        "raw": {
-          "korean": "사료를 주다",
-          "indonesia": "to feed the fish"
-        }
+        "front": "유통기한",
+        "back": "expiration date",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_38",
-        "front": "수질을 측정하다",
-        "back": "to check the water quality",
-        "raw": {
-          "korean": "수질을 측정하다",
-          "indonesia": "to check the water quality"
-        }
+        "front": "예비용",
+        "back": "spare",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_39",
-        "front": "어류를 선별하다",
-        "back": "to sort fish",
-        "raw": {
-          "korean": "어류를 선별하다",
-          "indonesia": "to sort fish"
-        }
+        "front": "산소 농도",
+        "back": "oxygen concentration",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_40",
-        "front": "그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.",
-        "back": "⑴",
-        "raw": {
-          "korean": "\u0007그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.",
-          "indonesia": "⑴"
-        }
-      },
-      {
-        "id": "vocab_41",
-        "front": "나 : 수온이 높은 것 같아서 을/를 보고 있었어요.",
-        "back": "⑵",
-        "raw": {
-          "korean": "나 : 수온이 높은 것 같아서                                  을/를 보고 있었어요.",
-          "indonesia": "⑵"
-        }
-      },
-      {
-        "id": "vocab_42",
-        "front": "나 : 물이 잘 공급되지 않아서 을/를 고치고 있었어요.",
-        "back": "⑶",
-        "raw": {
-          "korean": "나 : 물이 잘 공급되지 않아서                                  을/를 고치고 있었어요.",
-          "indonesia": "⑶"
-        }
-      },
-      {
-        "id": "vocab_43",
-        "front": "나 : 수조의 물이 더러운 것 같으니까 을/를 측정해 주세요.",
-        "back": "⑷",
-        "raw": {
-          "korean": "나 : 수조의 물이 더러운 것 같으니까                                  을/를 측정해 주세요.",
-          "indonesia": "⑷"
-        }
+        "front": "보고하다",
+        "back": "to report",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       }
     ],
     "grammar": [
       {
         "id": "grammar_1",
-        "front": "178 한국어 표준교재 2",
-        "back": "문법 GRAMMAR",
-        "raw": {
-          "pattern": "178   한국어 표준교재  2",
-          "explanation": "문법  GRAMMAR"
-        }
+        "front": "-는 동안에",
+        "back": "‘-는 동안에’는 동사에 붙어 어떤 행위가 계속되는 시간을 나타낸다. ‘에’를 생략하여 사용할 수 있다.\n‘-는 동안에’ is attached to a verb to indicate the time during which another action continues. It can also be used with\nthe omission of ‘에’.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
       },
       {
         "id": "grammar_2",
-        "front": "‘-는 동안에’는 동사에 붙어 어떤 행위가 계속되는 시간을 나타낸다. ‘에’를 생략하여 사용할 수 있다.",
-        "back": "‘-는 동안에’ is attached to a verb to indicate the time during which another action continues. It can also be used with",
-        "raw": {
-          "pattern": "‘-는 동안에’는 동사에 붙어 어떤 행위가 계속되는 시간을 나타낸다. ‘에’를 생략하여 사용할 수 있다.",
-          "explanation": "‘-는 동안에’ is attached to a verb to indicate the time during which another action continues. It can also be used with"
-        }
-      },
-      {
-        "id": "grammar_3",
-        "front": "※ 기간을 나타내는 명사와 함께 사용할 때는 ‘명사 동안에’의 구성으로 사용한다.",
-        "back": "When used with a noun indicating a period of time, it takes the form ‘noun 동안에’.",
-        "raw": {
-          "pattern": "※ 기간을 나타내는 명사와 함께 사용할 때는 ‘명사 동안에’의 구성으로 사용한다.",
-          "explanation": "When used with a noun indicating a period of time, it takes the form ‘noun 동안에’."
-        }
-      },
-      {
-        "id": "grammar_4",
-        "front": "예 일주일 동안 작업 교육을 받았어요.",
-        "back": "1. [보기]와 같이 문장을 쓰세요. Write the sentences as shown in the example.",
-        "raw": {
-          "pattern": "예\t 일주일 동안 작업 교육을 받았어요.",
-          "explanation": "1. \u0007[보기]와 같이 문장을 쓰세요. Write the sentences as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_5",
-        "front": "47 연안 어업과 양식",
-        "back": "COASTAL FISHERY AND AQUACULTURE 181",
-        "raw": {
-          "pattern": "47  연안 어업과 양식",
-          "explanation": "COASTAL FISHERY AND AQUACULTURE   181"
-        }
-      },
-      {
-        "id": "grammar_6",
-        "front": "‘-기로 하다’는 동사에 붙어 결정이나 결심, 계획이나 약속을 나타낸다.",
-        "back": "‘-기로 하다’ is attached to a verb to indicate a decision, resolution, plan, or promise.",
-        "raw": {
-          "pattern": "‘-기로 하다’는 동사에 붙어 결정이나 결심, 계획이나 약속을 나타낸다.",
-          "explanation": "‘-기로 하다’ is attached to a verb to indicate a decision, resolution, plan, or promise."
-        }
-      },
-      {
-        "id": "grammar_7",
-        "front": "오늘 산소 공급기를 점검하기로 했습니다.",
-        "back": "1. [보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the example.",
-        "raw": {
-          "pattern": "오늘 산소 공급기를 점검하기로 했습니다.",
-          "explanation": "1. \u0007[보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_8",
-        "front": "2. [보기]와 같이 알맞은 것을 연결하고 문장을 쓰세요.",
-        "back": "Connect the related items and write the sentences as shown in the example.",
-        "raw": {
-          "pattern": "2. \u0007[보기]와 같이 알맞은 것을 연결하고 문장을 쓰세요.",
-          "explanation": "Connect the related items and write the sentences as shown in the example."
-        }
+        "front": "-기로 하다",
+        "back": "‘-기로 하다’는 동사에 붙어 결정이나 결심, 계획이나 약속을 나타낸다.\n‘-기로 하다’ is attached to a verb to indicate a decision, resolution, plan, or promise.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
       }
     ],
     "conversation": [
       {
         "id": "conversation_1",
-        "front": "지금 무슨 작업을 하고 있어요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "지금 무슨 작업을 하고 있어요?"
-        }
+        "front": "자, 그물을 끌어올렸으니까 이제 세척을 시작합시다.",
+        "back": "Okay, now that we've pulled up the net, let’s start cleaning it.",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_2",
-        "front": "그물을 정리하고 있어요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "그물을 정리하고 있어요."
-        }
+        "front": "반장님, 세척은 고압 분사기로 하면 되지요?",
+        "back": "Banjangnim, we can use the pressure washer for cleaning, right?",
+        "speaker": "캄",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_3",
-        "front": "푸캄 씨가 그물을 정리하는 동안 저는 다른 어구들을 점검할게요. 발음 │ PRONUNCIATION ‘ㅎ’ 뒤에 ‘ㄴ’가 결합되는 경우에는 ‘ㅎ’을 [ㄴ]으로 발음한다. When ‘ㅎ’ is followed by ‘ㄴ’, the ‘ㅎ’ is pronounced as [ㄴ]. ⑴ 놓는[논는] 낳는[난는] 쌓는[싼는] ⑵ 놓네[논네] 낳네[난네] 쌓네[싼네] 259 258",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "푸캄 씨가 그물을 정리하는 동안 저는 다른 어구들을 점검할게요. 발음 │ PRONUNCIATION ‘ㅎ’ 뒤에 ‘ㄴ’가 결합되는 경우에는 ‘ㅎ’을 [ㄴ]으로 발음한다. When ‘ㅎ’ is followed by ‘ㄴ’, the ‘ㅎ’ is pronounced as [ㄴ]. ⑴ 놓는[논는] 낳는[난는] 쌓는[싼는] ⑵ 놓네[논네] 낳네[난네] 쌓네[싼네] 259 258"
-        }
+        "front": "네, 맞아요. 세척하는 동안 찢어진 곳이 있는지 그물을\n잘 살펴보세요. 그리고 찢어진 곳이 있으면 그 부분을\n묶어 주세요.",
+        "back": "Yes, that’s right. Please check the net carefully for any tears while cleaning. If there are any tears, please tie that part up.",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_4",
-        "front": "양식장 청소는 언제 하기로 했어요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "양식장 청소는 언제 하기로 했어요?"
-        }
+        "front": "네, 알겠습니다. 그런데 묶은 부분은 언제 수선해요?",
+        "back": "Okay, I understand. But when do we mend the tied parts?",
+        "speaker": "캄",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_5",
-        "front": "오후에 하기로 했어요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "오후에 하기로 했어요."
-        }
+        "front": "그물을 말린 후에 수선해야 돼요. 그물을 다 세척한 후에는\n넓게 펼쳐서 말려야 돼요. 알고 있지요?",
+        "back": "We need to mend them after drying the net. After cleaning the net, we should spread it out to dry. You know that, right?",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_6",
-        "front": "양식장 청소가 끝나면 수조 온도도 점검해 주세요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "양식장 청소가 끝나면 수조 온도도 점검해 주세요."
-        }
+        "front": "오늘 새 양식장에 펌프를 설치하기로 했지요?",
+        "back": "We agreed we'd install the pump at the new aquaculture farm today, right?",
+        "speaker": "사장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_7",
-        "front": "오늘 저녁에 한잔할까요? Shall we have a drink this evening?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "\u0007오늘 저녁에 한잔할까요? Shall we have a drink this evening?"
-        }
+        "front": "네, 사장님. 어떻게 설치하면 되는지 알려 주시면\n제가 하겠습니다.",
+        "back": "Yes, Sajangnim. I'll install it if you tell me how.",
+        "speaker": "캄",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_8",
-        "front": "좋아요. 어디에서 만날까요? Sure! Where shall we meet? 유용한 표현 │ USEFUL EXPRESSION 한잔할까요? Shall we have a drink? 261 260",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "\u0007좋아요. 어디에서 만날까요? Sure! Where shall we meet? 유용한 표현 │ USEFUL EXPRESSION 한잔할까요? Shall we have a drink? 261 260"
-        }
+        "front": "먼저 펌프의 위치를 정하고 바닥에 고정해야 돼요.\n그다음 펌프와 수조를 호스로 연결해야 돼요.",
+        "back": "First, you need to determine the position of the pump and secure it to the floor. Then, you need to connect the pump to the tank with a hose.",
+        "speaker": "사장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_9",
+        "front": "알겠습니다. 호스를 연결할 때 주의할 점이 있어요?",
+        "back": "Understood. Is there anything I should be careful of when connecting the hose?",
+        "speaker": "캄",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_10",
+        "front": "네, 호스가 꼬이거나 접히지 않도록 특별히 주의해야 돼요. 물이 잘 흐르게 해야 하니까요.",
+        "back": "Yes. You need to be especially careful to not tangle or fold the hose. We need to ensure the water flows well.",
+        "speaker": "사장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_11",
+        "front": "알겠습니다. 조심해서 연결하겠습니다.",
+        "back": "Understood. I will connect it carefully.",
+        "speaker": "캄",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_12",
+        "front": "설치 작업이 끝나면 나한테 알려 주세요. 펌프가 잘 작동하는지 같이 확인하기로 해요.",
+        "back": "Please let me know once the installation is finished. Let’s check together if the pump is working well.",
+        "speaker": "사장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       }
     ],
-    "culture": [],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "47 연안 어업과 양식",
+        "back": "COASTAL FISHERY AND AQUACULTURE 183",
+        "body": "47 연안 어업과 양식\nCOASTAL FISHERY AND AQUACULTURE 183\n• 어업 도구와 어업 활동에 대해 말할 수 있다. I can talk about fishery tools and activities.\n• 양식업에서 사용하는 장비의 이름을 말할 수 있다. I can name the equipment used in aquaculture.\n• 결심한 것이나 결정한 것을 표현할 수 있다. I can express what I have resolved or decided to do.\n한국의 양식업\nKorea’s Aquaculture Industry\n양식업은 연근해 혹은 인근 연안에서 조개류, 해조류, 어류 등\n을 양식하는 산업으로, 해양 자원 관리 및 수산물 공급에서 중요\n한 역할을 담당하고 있습니다. 한국은 삼면이 바다로 둘러싸여\n있어 양식업에 적합한 환경을 갖추고 있습니다.\nAquaculture is the industry of farming shellfish, seaweed, fish,\nand other aquatic organisms in coastal waters or nearby coastal\nareas. It plays a crucial role in marine resource management\nand seafood supply. As Korea is surrounded by the sea on\nthree sides, it has a suitable environment for aquaculture.",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook2/unit_47/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
     "reading": [
       {
-        "id": "u47_m1",
+        "id": "u47_r1",
         "nomor": 1,
         "tipe": "membaca",
-        "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
-        "teks_soal": "통발입니다.",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n통발입니다.",
         "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_47/choice_images/reading/u47_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_47/choice_images/reading/u47_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_47/choice_images/reading/u47_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_47/choice_images/reading/u47_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook2/unit_47/choice_images/reading/u47_r1_a.jpg",
+          "b": "assets/modules/textbook2/unit_47/choice_images/reading/u47_r1_b.jpg",
+          "c": "assets/modules/textbook2/unit_47/choice_images/reading/u47_r1_c.jpg",
+          "d": "assets/modules/textbook2/unit_47/choice_images/reading/u47_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_47/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u47_m2",
+        "id": "u47_r2",
         "nomor": 2,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "젖은 그물은 햇빛에 후에 보관해야 합니다.",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n젖은 그물은 햇빛에 후에 보관해야 합니다.",
         "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
@@ -647,15 +870,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_47/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u47_m3",
+        "id": "u47_r3",
         "nomor": 3,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.",
-        "teks_soal": "지금 사용하는 펌프의 소음이 심합니다. 그래서 새로운 펌프를 .",
-        "jawaban": "c",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.\n지금 사용하는 펌프의 소음이 심합니다. 그래서 새로운 펌프를 .",
+        "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -684,15 +911,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_47/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u47_m4",
+        "id": "u47_r4",
         "nomor": 4,
         "tipe": "membaca",
-        "instruksi": "다음은 무엇에 대한 설명입니까?",
-        "teks_soal": "양식장에서 물고기를 크기와 건강 상태에 따라 분류하는 작업입니다.",
-        "jawaban": "d",
+        "instruksi": "",
+        "teks_soal": "다음은 무엇에 대한 설명입니까?\n양식장에서 물고기를 크기와 건강 상태에 따라 분류하는 작업입니다.",
+        "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -721,15 +952,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_47/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u47_m5",
+        "id": "u47_r5",
         "nomor": 5,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "양식업은 조개, 해조류, 어류 등을 기르는 산업을 말합니다. 한국에서는 굴, 새우, 조개 등 다양한 수산물이 양식되고 있는데, 고부가가치의 수산물로 범위가 확대되고 있습니다. 한국의 양식업은 생산량을 기준으로 이미 어업의 생산량을 넘어섰으며, 다양한 기술을 도입하여 양식의 효율성을 높이고 있습니다. 184 한국어 표준교재 2",
-        "jawaban": "c",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n양식업은 조개, 해조류, 어류 등을 기르는 산업을 말합니다. 한국에서는 굴, 새우, 조개 등 다양한\n수산물이 양식되고 있는데, 고부가가치의 수산물로 범위가 확대되고 있습니다. 한국의 양식업은\n생산량을 기준으로 이미 어업의 생산량을 넘어섰으며, 다양한 기술을 도입하여 양식의 효율성을 높이고\n있습니다.",
+        "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -758,7 +993,11 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_47/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ],
     "listening": [
@@ -767,188 +1006,225 @@
         "nomor": 1,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 선장님, 지금 무슨 작업을 해야 돼요? 남 : 그물을 끌어올려야 돼요.",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
         "jawaban": "b",
-        "audio_teks": "1. 여 : 선장님, 지금 무슨 작업을 해야 돼요?\n남 : 그물을 끌어올려야 돼요.\n2. 남 : 수조가 깨끗해요?\n3. 여 : 배에 오르기 전에 구명조끼를 입으세요.\n남 : 네, 빨리 입고 오겠습니다.\n4. 남 : 이제 그물 세척을 시작합시다.\n5. 여 : 그물 위치를 확인했으니 양망기를 준비하고 로프를 연결해 주세요.\n남 : 네, 그럼 로프를 연결하고 바로 그물을 끌어올릴까요?\n여 : 좋아요. 부표도 같이 올려 주세요. 그리고 끌어올릴 때 로프에 발이 걸리지 않게 조심하세요.\n47 연안 어업과 양식 COASTAL FISHERY AND AQUACULTURE 185",
+        "audio_teks": "여 : 선장님, 지금 무슨 작업을 해야 돼요?\n남 : 그물을 끌어올려야 돼요.",
         "audio_url": "assets/modules/textbook2/audio/unit_47/listening_1.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_01.jpeg"
+            "image": "assets/modules/textbook2/unit_47/choice_images/listening/u47_l1_a.jpg"
           },
           {
             "key": "b",
             "label": "B",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_02.jpeg"
+            "image": "assets/modules/textbook2/unit_47/choice_images/listening/u47_l1_b.jpg"
           },
           {
             "key": "c",
             "label": "C",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_03.jpeg"
+            "image": "assets/modules/textbook2/unit_47/choice_images/listening/u47_l1_c.jpg"
           },
           {
             "key": "d",
             "label": "D",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_04.jpeg"
+            "image": "assets/modules/textbook2/unit_47/choice_images/listening/u47_l1_d.jpg"
           }
         ],
         "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_01.jpeg",
-          "b": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_02.jpeg",
-          "c": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_03.jpeg",
-          "d": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_04.jpeg"
-        }
+          "a": "assets/modules/textbook2/unit_47/choice_images/listening/u47_l1_a.jpg",
+          "b": "assets/modules/textbook2/unit_47/choice_images/listening/u47_l1_b.jpg",
+          "c": "assets/modules/textbook2/unit_47/choice_images/listening/u47_l1_c.jpg",
+          "d": "assets/modules/textbook2/unit_47/choice_images/listening/u47_l1_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_47/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u47_l2",
         "nomor": 2,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 수조가 깨끗해요?",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
         "jawaban": "c",
-        "audio_teks": "1. 여 : 선장님, 지금 무슨 작업을 해야 돼요?\n남 : 그물을 끌어올려야 돼요.\n2. 남 : 수조가 깨끗해요?\n3. 여 : 배에 오르기 전에 구명조끼를 입으세요.\n남 : 네, 빨리 입고 오겠습니다.\n4. 남 : 이제 그물 세척을 시작합시다.\n5. 여 : 그물 위치를 확인했으니 양망기를 준비하고 로프를 연결해 주세요.\n남 : 네, 그럼 로프를 연결하고 바로 그물을 끌어올릴까요?\n여 : 좋아요. 부표도 같이 올려 주세요. 그리고 끌어올릴 때 로프에 발이 걸리지 않게 조심하세요.\n47 연안 어업과 양식 COASTAL FISHERY AND AQUACULTURE 185",
+        "audio_teks": "남 : 수조가 깨끗해요?",
         "audio_url": "assets/modules/textbook2/audio/unit_47/listening_2.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_02.jpeg"
+            "text": "네, 수조가 커요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_02.jpeg"
+            "text": "네, 수조가 많아요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_02.jpeg"
+            "text": "아니요, 수조가 더러워요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_02.jpeg"
+            "text": "아니요, 수조가 너무 깊어요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_02.jpeg",
-          "b": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_02.jpeg",
-          "c": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_02.jpeg",
-          "d": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_02.jpeg"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_47/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u47_l3",
         "nomor": 3,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 배에 오르기 전에 구명조끼를 입으세요. 남 : 네, 빨리 입고 오겠습니다.",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
         "jawaban": "d",
-        "audio_teks": "1. 여 : 선장님, 지금 무슨 작업을 해야 돼요?\n남 : 그물을 끌어올려야 돼요.\n2. 남 : 수조가 깨끗해요?\n3. 여 : 배에 오르기 전에 구명조끼를 입으세요.\n남 : 네, 빨리 입고 오겠습니다.\n4. 남 : 이제 그물 세척을 시작합시다.\n5. 여 : 그물 위치를 확인했으니 양망기를 준비하고 로프를 연결해 주세요.\n남 : 네, 그럼 로프를 연결하고 바로 그물을 끌어올릴까요?\n여 : 좋아요. 부표도 같이 올려 주세요. 그리고 끌어올릴 때 로프에 발이 걸리지 않게 조심하세요.\n47 연안 어업과 양식 COASTAL FISHERY AND AQUACULTURE 185",
+        "audio_teks": "여 : 배에 오르기 전에 구명조끼를 입으세요.\n남 : 네, 빨리 입고 오겠습니다.",
         "audio_url": "assets/modules/textbook2/audio/unit_47/listening_3.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_03.jpeg"
+            "text": "작업 시간",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_03.jpeg"
+            "text": "작업 장소",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_03.jpeg"
+            "text": "작업 순서",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_03.jpeg"
+            "text": "작업 복장",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_03.jpeg",
-          "b": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_03.jpeg",
-          "c": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_03.jpeg",
-          "d": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_03.jpeg"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_47/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u47_l4",
         "nomor": 4,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 이제 그물 세척을 시작합시다.",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
         "jawaban": "c",
-        "audio_teks": "1. 여 : 선장님, 지금 무슨 작업을 해야 돼요?\n남 : 그물을 끌어올려야 돼요.\n2. 남 : 수조가 깨끗해요?\n3. 여 : 배에 오르기 전에 구명조끼를 입으세요.\n남 : 네, 빨리 입고 오겠습니다.\n4. 남 : 이제 그물 세척을 시작합시다.\n5. 여 : 그물 위치를 확인했으니 양망기를 준비하고 로프를 연결해 주세요.\n남 : 네, 그럼 로프를 연결하고 바로 그물을 끌어올릴까요?\n여 : 좋아요. 부표도 같이 올려 주세요. 그리고 끌어올릴 때 로프에 발이 걸리지 않게 조심하세요.\n47 연안 어업과 양식 COASTAL FISHERY AND AQUACULTURE 185",
+        "audio_teks": "남 : 이제 그물 세척을 시작합시다.",
         "audio_url": "assets/modules/textbook2/audio/unit_47/listening_4.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_04.jpeg"
+            "text": "넓게 펼쳐서 말렸어요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_04.jpeg"
+            "text": "물고기가 많이 잡혔네요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_04.jpeg"
+            "text": "고압 분사기를 가져올게요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_04.jpeg"
+            "text": "뜰채도 준비하는 게 좋겠어요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_04.jpeg",
-          "b": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_04.jpeg",
-          "c": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_04.jpeg",
-          "d": "assets/langit-korea-extracted/unit_47/images/u47_h9_soal_listening_04.jpeg"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_47/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u47_l5",
         "nomor": 5,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 그물 위치를 확인했으니 양망기를 준비하고 로프를 연결해 주세요. 남 : 네, 그럼 로프를 연결하고 바로 그물을 끌어올릴까요? 여 : 좋아요. 부표도 같이 올려 주세요. 그리고 끌어올릴 때 로프에 발이 걸리지 않게 조심하세요. 47 연안 어업과 양식 COASTAL FISHERY AND AQUACULTURE 185",
+        "teks_soal": "다음 중 들은 내용과 같은 것은 무엇입니까?",
         "jawaban": "c",
-        "audio_teks": "1. 여 : 선장님, 지금 무슨 작업을 해야 돼요?\n남 : 그물을 끌어올려야 돼요.\n2. 남 : 수조가 깨끗해요?\n3. 여 : 배에 오르기 전에 구명조끼를 입으세요.\n남 : 네, 빨리 입고 오겠습니다.\n4. 남 : 이제 그물 세척을 시작합시다.\n5. 여 : 그물 위치를 확인했으니 양망기를 준비하고 로프를 연결해 주세요.\n남 : 네, 그럼 로프를 연결하고 바로 그물을 끌어올릴까요?\n여 : 좋아요. 부표도 같이 올려 주세요. 그리고 끌어올릴 때 로프에 발이 걸리지 않게 조심하세요.\n47 연안 어업과 양식 COASTAL FISHERY AND AQUACULTURE 185",
+        "audio_teks": "여 : 그물 위치를 확인했으니 양망기를 준비하고 로프를 연결\n해 주세요.\n남 : 네, 그럼 로프를 연결하고 바로 그물을 끌어올릴까요?\n여 : 좋아요. 부표도 같이 올려 주세요. 그리고 끌어올릴 때 로\n프에 발이 걸리지 않게 조심하세요.",
         "audio_url": "assets/modules/textbook2/audio/unit_47/listening_5.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "부표는 끌어올리면 안 됩니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "로프를 부표에 연결해야 합니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "양망기로 그물을 끌어올릴 겁니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "로프를 발로 잡고 작업해야 합니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_47/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ]
   },
   "integrity": {
     "pdf_pages": 10,
-    "vocab_cards": 43,
+    "lesson_flow": 10,
+    "vocab_cards": 40,
+    "grammar_cards": 2,
+    "conversation_cards": 12,
+    "culture_cards": 1,
     "reading_questions": 5,
     "listening_questions": 5,
-    "listening_audio": 5
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_audio": 5,
+    "listening_scripts": 5
   }
 }

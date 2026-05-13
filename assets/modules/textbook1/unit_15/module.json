@@ -4,7 +4,7 @@
   "unit": 15,
   "title_ko": "옷차림",
   "title_en": "CLOTHING",
-  "title_id": "",
+  "title_id": "Pakaian",
   "source_pdf": "assets/modules/textbook1/unit_15/source.pdf",
   "page_start": 191,
   "page_end": 200,
@@ -61,6 +61,164 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 191,
+        "image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "15 옷차림 \n CLOTHING 191\n어휘 VOCABULARY\n옷과 액세서리 Clothing and Accessories \n입다\nto wear (clothes)\n치마\nskirt\n티셔츠\nt-shirt\n청바지\njeans\n잠바(점퍼)\njacket\n원피스\ndress\n반바지\nshorts\n쓰다\nto wear (on the head)\n모자\ncap\n안경\nglasses\n선글라스\nsunglasses\n신다\nto wear (shoes)\n양말\nsocks\n장화\nrain boots\n운동화 \nsneakers\n슬리퍼\nslippers\n구두\n(formal) shoes\n 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.\n⑴\n가 : 무엇을 샀어요?\n나 : 을/를 샀어요.\n⑵\n가 : 무엇을 입었어요?\n나 : 을/를 입었어요.\n⑶\n가 : 무엇을 신었어요?\n나 : 을/를 신었어요.\n⑷\n가 : 무엇을 샀어요?\n나 : 을/를 샀어요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 192,
+        "image": "assets/modules/textbook1/unit_15/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "192 한국어 표준교재 1\n문법 GRAMMAR\n-고 있다(상태)\n-고 계시다(상태)\n문장의 주체가 높임의 대상일 경우\n에는 '-고 있다' 대신 ‘-고 계시다’를 \n사용한다.\nWhen the subject of the sentence \nis someone who is to be respected, \n‘-고 계시다’ is used instead of ‘-고 \n있다’.\n예 할머니께서 안경을 쓰고 계세요.\n‘-고 있다’는 ‘입다, 신다, 쓰다, 들다, 벗다, 타다, 가지다, 알다, \n좋아하다, 사랑하다’ 등의 일부 동사에 붙어 행위가 끝난 뒤의 그 \n결과가 지속되거나 감정, 인지가 지속되는 상태임을 나타낸다. \n‘-고 있다’ is used with verbs like ‘입다 (to wear), 신다 (to wear \nshoes), 쓰다 (to wear on the head), 들다 (to hold), 벗다 (to take \noff), 타다 (to ride), 가지다 (to have), 알다 (to know), 좋아하다 (to \nlike), 사랑하다 (to love)’, etc., to show a state where the action \nis finished and the result of that action stays that way. It is also \nused to indicate that someone's feelings or perception \ncontinues.\n예 바지를 입고 있어요. \n \n안경을 쓰고 있어요. \n \n운동화를 신고 있어요.\n1. 그림을 보고 문장을 쓰세요. Look at the pictures and write the sentences.\n⑴\n .\n⑵\n .\n⑶\n .\n⑷\n .\n2. 그림을 보고 [보기]와 같이 대화해 보세요. Look at the pictures and practice speaking as shown in the example.\n◯\n×\n가 : 프엉 씨가 모자를 쓰고 있어요?\n나 : 아니요.\n가 : 그럼 무엇을 쓰고 있어요? \n나 : 선글라스를 쓰고 있어요.\n[ 보기 ]\n⑴\n◯\n×\n⑵\n◯\n×\n⑶\n◯\n×",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 193,
+        "image": "assets/modules/textbook1/unit_15/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "15 옷차림 \n CLOTHING 193\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n민수\n수지\n•입다, 청바지, 원피스\n•신다, 슬리퍼, 구두\n가 : 민수 씨는 무엇을 입고 있어요?\n나 : 청바지를 입고 있어요.\n \n수지 씨는 무엇을 입고 있어요?\n가 : 원피스를 입고 있어요. \n발음 │ PRONUNCIATION\nㅅ, ㅆ \n‘ㅅ, ㅆ’는 치조 마찰음이다. ‘ㅅ’는 영어의 자음 앞 ‘s’(예, small, street)처럼 평음으\n로 발음되고, ‘ㅆ’는 모음 앞 ‘s’(예, song, sack)처럼 경음으로 발음된다.\n‘ㅅ, ㅆ’ are alveolar fricatives. ‘ㅅ’ is pronounced like the neutral ‘s’ before \nconsonants in English words like ‘small, street', and ‘ㅆ’ is pronounced like the \ntense ‘s’ in words like ‘song, sack.’\n⑴ 사자 : 싸다, 살 : 쌀 \n⑵ 소리 : 쏘다, 소금 : 쓰기\n대화 CONVERSATION\n디 안 \n왕민 씨, 지금 어디에 있어요?\n \nWhere are you now, Wangmin?\n왕 민 \n영화관 앞에 있어요. \n \nI’m in front of the movie theater.\n디 안 \n저도 영화관 앞에 있어요. 무슨 옷을 입고 \n있어요?\n \nI’m also in front of the movie theater. What are \nyou wearing?\n왕 민 \n셔츠하고 반바지를 입고 있어요.\n \nI’m wearing a shirt and shorts. \n \n그리고 모자를 쓰고 있어요. \n \nI’m also wearing a cap.\n디 안 \n아, 저기 왕민 씨가 있네요. 왕민 씨!\n \nAh, there you are. Wangmin!\n대답해 봐요! ANSWER ME!\n1 왕민 씨는 지금 어디에 있어요? Where is Wangmin now?\n2 왕민 씨는 무슨 옷을 입고 있어요? What is Wangmin wearing?\n98\n99",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 194,
+        "image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "194 한국어 표준교재 1\n어휘 VOCABULARY\n색깔 Colors \n빨간색\nred\n주황색\norange\n노란색\nyellow\n초록색\ngreen\n하늘색 \nsky blue\n파란색\nblue\n보라색\nviolet\n분홍색\npink\n회색\ngray\n까만색\nblack\n하얀색\nwhite\n갈색\nbrown\n쇼핑몰 shopping mall\n결혼식 wedding\n밝다 to be bright\n어둡다 to be dark\n 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.\n⑴\n가 : 연필이 무슨 색이에요?\n나 : 이에요.\n⑵\n가 : 책이 무슨 색이에요?\n나 : 이에요.\n⑶\n가 : 바지가 무슨 색이에요?\n나 : 이에요.\n⑷\n가 : 모자가 무슨 색이에요?\n나 : 이에요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 195,
+        "image": "assets/modules/textbook1/unit_15/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "15 옷차림 \n CLOTHING 195\n문법 GRAMMAR\n-(으)ㄴ\n‘재미있다, 재미없다’, ‘맛있다, 맛없\n다’ 등의 형용사에는 ‘-는’을 붙인다.\nFor adjectives like ‘재미있다 (to be \nfun), 재미없다 (to be uninteresting)’, \n‘맛있다 (to be delicious), 맛없다 (to \nbe not delicious)’, ‘-는’ is used.\n예 재미있는 책, 맛있는 빵\n‘-(으)ㄴ’은 형용사에 붙어 그 형용사가 표현하는 상태가 뒤\n에 오는 명사의 현재 상태임을 나타낸다.\n‘-(으)ㄴ’ is attached to adjectives to describe the current \nstate of the noun that follows.\n받침 ○\n-은\n \n작다 → 작은\n받침 ×, 받침 ‘ㄹ’\n-ㄴ \n \n예쁘다 → 예쁜\n예 예쁜 바지를 샀어요. \n \n따뜻한 잠바를 입어요.\n \n책상 위에 작은 가방이 있어요.\n1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options. \n맛있다 밝다 키가 크다 춥다\n \n⑴ \n 사람이 딜로바 씨예요.\n \n⑵ 저는 \n 색깔을 좋아해요.\n \n⑶ 저는 \n 날씨를 안 좋아해요.\n \n⑷ 시장에서 \n 사과를 샀어요. \n2. 그림을 보고 [보기]와 같이 문장을 완성하세요. \nLook at the pictures and complete the sentences as shown in the example.\n커피숍에서 따뜻한 커피를 마셨어요.\n[ 보기 ]\n⑴\n⑵\n⑶\n100,000원\n닛차난은 \n사람이에요. \n어제 음식을 \n먹었어요. \n어제 슬리퍼를 \n샀어요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 196,
+        "image": "assets/modules/textbook1/unit_15/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "196 한국어 표준교재 1\n대화 CONVERSATION\n대답해 봐요! ANSWER ME!\n1 딜로바 씨는 왜 옷을 사야 돼요? Why does Dilova need to buy clothes?\n2 딜로바 씨는 짧은 치마를 좋아해요? Does Dilova like short skirts?\n유수프 \n딜로바 씨, 뭐 봐요?\n \nWhat are you looking at, Dilova?\n딜로바 \n인터넷 쇼핑몰에서 옷을 봐요. 이번 주 \n일요일에 친구 결혼식이 있어서 옷을 \n사야 돼요.\n \nI’m looking at clothes on an online shopping mall. \nI have to buy clothes because I have a friend’s \nwedding this Sunday.\n유수프 \n이 노란색 치마가 예쁘네요. 이 치마 어때요? \n \nThis yellow skirt is pretty. What do you think of this \nskirt?\n딜로바 \n좀 짧아요. 저는 짧은 치마를 안 좋아해요.\n \nIt’s a bit short. I don’t like short skirts.\n유수프 \n그럼 이 파란색 원피스는 어때요? \n \nThen how about this blue dress?\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•노란색 티셔츠, 밝다, \n보라색 티셔츠\n•까만색 잠바, 어둡다, \n빨간색 잠바\n가 : 이 노란색 티셔츠 어때요?\n나 : 색깔이 너무 밝아요. \n \n저는 밝은 색깔을 안 좋아해요. \n가 : 그럼 이 보라색 티셔츠는 어때요?\n나 : 예쁘네요.\n가 : 이 잠바 어때요? How about this jacket?\n나 : 마음에 들어요. I like it.\n유용한 표현 │ USEFUL EXPRESSION\n마음에 들어요.\nI like it.\n100\n101",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 197,
+        "image": "assets/modules/textbook1/unit_15/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "15 옷차림 \n CLOTHING 197\n문화와 정보 CULTURE & INFORMATION\n15 옷차림 \n CLOTHING 197\n한국의 전통 의상\nKorea's Traditional Clothing\n한복은 한국의 전통 의상입니다. 한복은 색상이 화려하며, 디자인\n이 우아하고 아름답습니다. 그래서 한국 사람들은 설날이나 결혼식\n과 같이 특별하고 중요한 날에는 전통 한복을 입습니다.\n‘Hanbok’ is the traditional clothing of Korea. Hanbok is colorful, and \nits design is elegant and beautiful. Therefore, Koreans wear \ntraditional hanbok on special and important days, such as New \nYear's Day or weddings.\n남성 한복은 바지와 저고리, 조끼로 구성되고, 여성 한복은 치마와 \n저고리로 구성됩니다. 한복은 자연스러운 주름과 풍성한 실루엣으로 \n모든 체형의 사람들에게 어울린다는 장점이 있습니다.\nMen's hanbok consists of pants, a jacket, and a vest, while women's \nhanbok consists of a skirt and a jacket. Hanbok has the advantage of looking good on people of all body shapes due to its natural \npleats and voluminous silhouette.\n그러나 전통 한복은 평상복으로 입기에는 다소 불편한 점이 있어 요즘에는 전통 한\n복을 개량하여 만든 생활한복을 입는 사람들이 많아지고 있습니다. 생활한복은 전통 \n한복보다 디자인이 단순하고 실용적이어서 언제나 편하게 입을 수 있습니다. 이러한 \n한복의 변화는 한복의 대중화에 기여하였습니다.\nHowever, traditional hanbok can be somewhat uncomfortable to wear as everyday \nclothing. That's why in recent times more people have been wearing modified \nhanbok, called saenghwal hanbok (modernized hanbok), which is simpler in design \nand more practical. As it is more comfortable to wear at any time, this change in \nhanbok has contributed to its popularization.\n한복은 입는 사람의 연령이나 역할 등에 따라 색깔과 디자인이 조금 다릅니다. 결혼\n식에서 신랑의 어머니는 보통 푸른색 계통의 점잖은 한복을 입고, 신부의 어머니는 분\n홍색 계통의 단아한 한복을 입습니다.\nThe color and design of hanbok vary slightly depending on the wearer's age and role. \nFor example, at a wedding, the groom's mother usually wears a decorous hanbok in \nblue tones, while the bride's mother wears a modest hanbok in pink tones.\n최근 들어서는 한복 페스티벌이나 한복 패션쇼 등을 통해 한복의 아름다움을 세계적으로 널리 알리려는 노력이 이어지고 있습니다.\nRecently efforts have been made to promote the beauty of hanbok globally through hanbok festivals and hanbok fashion shows.\n확인해요 │ self assessment\n• 옷차림에 대해 묻고 대답할 수 있다. I can ask and answer questions about clothing. \n↻\n• 물건의 색깔을 묻고 대답할 수 있다. I can ask and answer questions about the color of objects. \n↻\n• 사물의 상태나 특징을 표현할 수 있다. I can describe the state or characteristics of things. \n↻",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 198,
+        "image": "assets/modules/textbook1/unit_15/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n198 한국어 표준교재 1\n1. \n다음 내용과 관계있는 그림을 고르십시오.\n티셔츠입니다.\n①\n②\n③\n④\n2. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오\n① 맛있은 빵을 먹었어요. \n② 예쁜 원피스를 살 거예요.\n③ 덥은 날씨를 안 좋아해요. \n④ 머리가 짧는 사람이 제 친구예요. \n[3~4] 빈칸에 들어갈 가장 알맞은 것을 고르십시오. \n3.\n어제 날씨가 아주 더웠어요. 그래서 짧은 바지를 .\n① 입었어요 \n② 버렸어요\n③ 정리했어요 \n④ 교환했어요\n4.\n제 가족사진이에요. 동생은 키가 작고 모자를 .\n① 입고 있어요 \n② 타고 있어요\n③ 신고 있어요 \n④ 쓰고 있어요\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n한복은 한국의 전통 의상으로 색상이 화려하고 디자인이 아름답습니다. 한국 사람들은 설날이나 \n결혼식과 같이 특별하고 중요한 날에 한복을 입습니다. 최근에는 전통 한복을 개량하여 만든 생활한복이 \n인기를 끌고 있습니다. 생활한복은 디자인이 단순하고 실용적이어서 일상생활에서도 편하게 입을 수 \n있습니다. \n① 생활한복은 화려하고 디자인이 아름답습니다. \n② 최근에 한국 사람들이 전통 한복을 많이 입습니다. \n③ 생활한복은 일상생활에서 편하게 입을 수 있습니다. \n④ 한국의 전통 의상은 색상이 단순하여 인기가 많습니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 199,
+        "image": "assets/modules/textbook1/unit_15/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n15 옷차림 \n CLOTHING 199\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n[2~3] 다음을 듣고 물음에 알맞은 대답을 고르십시오. \n2.\n① 네, 모자를 써요. \n② 네, 모자가 있어요.\n③ 아니요, 모자가 많아요. \n④ 아니요, 모자가 노란색이에요.\n3.\n① 네, 구두가 비싸요. \n② 네, 구두가 무거워요. \n③ 아니요, 구두가 조금 커요. \n④ 아니요, 구두를 신고 있어요.\n4. 두 사람은 무엇에 대해 말하고 있습니까?\n① 날씨 \n② 요일 \n③ 취미 \n④ 색깔 \n5. \n다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오. \n① 어제 바지를 샀어요. \n② 잠바를 입고 있어요.\n③ 이 원피스는 좀 작아요. \n④ 파란색 운동화를 좋아해요. \n1. \n남 : 이 초록색 운동화는 어때요?\n \n여 : 좋아요. 색깔이 예쁘네요.\n2. 남 : 모자가 빨간색이에요?\n3. 여 : 구두가 작아요?\n4. 여 : 노란색을 좋아해요?\n \n남 : 아니요, 파란색을 좋아해요.\n5. 남 : 유수프 씨는 무슨 옷을 입고 있어요?\n듣기지문\n102",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 200,
+        "image": "assets/modules/textbook1/unit_15/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "학습 목표\nLEARNING OBJECTIVES\n구하고 있는 집에 대해 묻고 대답할 수 있다. \nCan ask and answer questions about the house I am looking for.\n주거 환경에 대해 말할 수 있다.\nCan talk about a residential environment.\n집 구하기 \nFinding a House\nC H A P T E R 1 6\n-고 싶다\n-지만\nGRAMMAR\n문법\n주거 형태 관련 어휘 \nVocabulary Related to Types of Housing\n주거 환경 관련 어휘 \nVocabulary Related to Residential \nEnvironment\nVOCABULARY\n어휘\n한국의 주거 형태\nKorea's Housing Types\nCULTURE & INFORMATION\n문화와 정보\n방은 작지만 조용하고 깨끗해요. \n방이 좀 작네요.\n200 한국어 표준교재 1\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "audio": [
       {
         "track": 98,
@@ -88,16 +246,889 @@
         "audio_url": "assets/modules/textbook1/audio/unit_15/track_102.mp3"
       }
     ],
-    "vocab": [],
-    "grammar": [],
-    "conversation": [],
-    "culture": [],
-    "reading": [],
-    "listening": []
+    "vocab": [
+      {
+        "id": "vocab_1",
+        "front": "옷과 액세서리",
+        "back": "Clothing and Accessories",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_2",
+        "front": "입다",
+        "back": "to wear (clothes)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_3",
+        "front": "치마",
+        "back": "skirt",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_4",
+        "front": "티셔츠",
+        "back": "t-shirt",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_5",
+        "front": "청바지",
+        "back": "jeans",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_6",
+        "front": "잠바(점퍼)",
+        "back": "jacket",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_7",
+        "front": "원피스",
+        "back": "dress",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_8",
+        "front": "반바지",
+        "back": "shorts",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_9",
+        "front": "쓰다",
+        "back": "to wear (on the head)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_10",
+        "front": "모자",
+        "back": "cap",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_11",
+        "front": "안경",
+        "back": "glasses",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_12",
+        "front": "선글라스",
+        "back": "sunglasses",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_13",
+        "front": "신다",
+        "back": "to wear (shoes)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_14",
+        "front": "양말",
+        "back": "socks",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_15",
+        "front": "장화",
+        "back": "rain boots",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_16",
+        "front": "운동화",
+        "back": "sneakers",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_17",
+        "front": "슬리퍼",
+        "back": "slippers",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_18",
+        "front": "구두",
+        "back": "(formal) shoes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_19",
+        "front": "색깔",
+        "back": "Colors",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_20",
+        "front": "빨간색",
+        "back": "red",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_21",
+        "front": "주황색",
+        "back": "orange",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_22",
+        "front": "노란색",
+        "back": "yellow",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_23",
+        "front": "초록색",
+        "back": "green",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_24",
+        "front": "하늘색",
+        "back": "sky blue",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_25",
+        "front": "파란색",
+        "back": "blue",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_26",
+        "front": "보라색",
+        "back": "violet",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_27",
+        "front": "분홍색",
+        "back": "pink",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_28",
+        "front": "회색",
+        "back": "gray",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_29",
+        "front": "까만색",
+        "back": "black",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_30",
+        "front": "하얀색",
+        "back": "white",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_31",
+        "front": "갈색",
+        "back": "brown",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_32",
+        "front": "쇼핑몰",
+        "back": "shopping mall",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_33",
+        "front": "결혼식",
+        "back": "wedding",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_34",
+        "front": "밝다",
+        "back": "to be bright",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_35",
+        "front": "어둡다",
+        "back": "to be dark",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar_1",
+        "front": "-고 있다(상태)",
+        "back": "-고 계시다(상태)\n문장의 주체가 높임의 대상일 경우\n에는 '-고 있다' 대신 ‘-고 계시다’를\n사용한다.\nWhen the subject of the sentence\nis someone who is to be respected,\n‘-고 계시다’ is used instead of ‘-고\n있다’.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
+      },
+      {
+        "id": "grammar_2",
+        "front": "-(으)ㄴ",
+        "back": "‘재미있다, 재미없다’, ‘맛있다, 맛없\n다’ 등의 형용사에는 ‘-는’을 붙인다.\nFor adjectives like ‘재미있다 (to be\nfun), 재미없다 (to be uninteresting)’,\n‘맛있다 (to be delicious), 맛없다 (to\nbe not delicious)’, ‘-는’ is used.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conversation_1",
+        "front": "왕민 씨, 지금 어디에 있어요?",
+        "back": "Where are you now, Wangmin?",
+        "speaker": "디 안",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_2",
+        "front": "영화관 앞에 있어요.",
+        "back": "I’m in front of the movie theater.",
+        "speaker": "왕 민",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_3",
+        "front": "저도 영화관 앞에 있어요. 무슨 옷을 입고\n있어요?",
+        "back": "I’m also in front of the movie theater. What are you wearing?",
+        "speaker": "디 안",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_4",
+        "front": "셔츠하고 반바지를 입고 있어요.",
+        "back": "I’m wearing a shirt and shorts.",
+        "speaker": "왕 민",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_5",
+        "front": "그리고 모자를 쓰고 있어요.",
+        "back": "I’m also wearing a cap.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_6",
+        "front": "아, 저기 왕민 씨가 있네요. 왕민 씨!",
+        "back": "Ah, there you are. Wangmin!",
+        "speaker": "디 안",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      }
+    ],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "15 옷차림",
+        "back": "CLOTHING 197",
+        "body": "15 옷차림\nCLOTHING 197\n한국의 전통 의상\nKorea's Traditional Clothing\n한복은 한국의 전통 의상입니다. 한복은 색상이 화려하며, 디자인\n이 우아하고 아름답습니다. 그래서 한국 사람들은 설날이나 결혼식\n과 같이 특별하고 중요한 날에는 전통 한복을 입습니다.\n‘Hanbok’ is the traditional clothing of Korea. Hanbok is colorful, and\nits design is elegant and beautiful. Therefore, Koreans wear\ntraditional hanbok on special and important days, such as New\nYear's Day or weddings.\n남성 한복은 바지와 저고리, 조끼로 구성되고, 여성 한복은 치마와\n저고리로 구성됩니다. 한복은 자연스러운 주름과 풍성한 실루엣으로\n모든 체형의 사람들에게 어울린다는 장점이 있습니다.\nMen's hanbok consists of pants, a jacket, and a vest, while women's\nhanbok consists of a skirt and a jacket. Hanbok has the advantage of looking good on people of all body shapes due to its natural",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook1/unit_15/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
+    "reading": [
+      {
+        "id": "u15_r1",
+        "nomor": 1,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n티셔츠입니다.",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_15/choice_images/reading/u15_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_15/choice_images/reading/u15_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_15/choice_images/reading/u15_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_15/choice_images/reading/u15_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_15/choice_images/reading/u15_r1_a.jpg",
+          "b": "assets/modules/textbook1/unit_15/choice_images/reading/u15_r1_b.jpg",
+          "c": "assets/modules/textbook1/unit_15/choice_images/reading/u15_r1_c.jpg",
+          "d": "assets/modules/textbook1/unit_15/choice_images/reading/u15_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_15/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u15_r2",
+        "nomor": 2,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "맛있은 빵을 먹었어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "예쁜 원피스를 살 거예요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "덥은 날씨를 안 좋아해요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "머리가 짧는 사람이 제 친구예요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_15/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u15_r3",
+        "nomor": 3,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n어제 날씨가 아주 더웠어요. 그래서 짧은 바지를 .",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "입었어요",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "버렸어요",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "정리했어요",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "교환했어요",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_15/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u15_r4",
+        "nomor": 4,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n제 가족사진이에요. 동생은 키가 작고 모자를 .",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "입고 있어요",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "타고 있어요",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "신고 있어요",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "쓰고 있어요",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_15/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u15_r5",
+        "nomor": 5,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한복은 한국의 전통 의상으로 색상이 화려하고 디자인이 아름답습니다. 한국 사람들은 설날이나\n결혼식과 같이 특별하고 중요한 날에 한복을 입습니다. 최근에는 전통 한복을 개량하여 만든 생활한복이\n인기를 끌고 있습니다. 생활한복은 디자인이 단순하고 실용적이어서 일상생활에서도 편하게 입을 수\n있습니다.",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "생활한복은 화려하고 디자인이 아름답습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "최근에 한국 사람들이 전통 한복을 많이 입습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "생활한복은 일상생활에서 편하게 입을 수 있습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "한국의 전통 의상은 색상이 단순하여 인기가 많습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_15/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ],
+    "listening": [
+      {
+        "id": "u15_l1",
+        "nomor": 1,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+        "jawaban": "a",
+        "audio_teks": "남 : 이 초록색 운동화는 어때요?\n여 : 좋아요. 색깔이 예쁘네요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_15/track_102.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_15/choice_images/listening/u15_l1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_15/choice_images/listening/u15_l1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_15/choice_images/listening/u15_l1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_15/choice_images/listening/u15_l1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_15/choice_images/listening/u15_l1_a.jpg",
+          "b": "assets/modules/textbook1/unit_15/choice_images/listening/u15_l1_b.jpg",
+          "c": "assets/modules/textbook1/unit_15/choice_images/listening/u15_l1_c.jpg",
+          "d": "assets/modules/textbook1/unit_15/choice_images/listening/u15_l1_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_15/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u15_l2",
+        "nomor": 2,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "d",
+        "audio_teks": "남 : 모자가 빨간색이에요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_15/track_102.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "네, 모자를 써요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "네, 모자가 있어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "아니요, 모자가 많아요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "아니요, 모자가 노란색이에요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_15/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u15_l3",
+        "nomor": 3,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "c",
+        "audio_teks": "여 : 구두가 작아요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_15/track_102.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "네, 구두가 비싸요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "네, 구두가 무거워요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "아니요, 구두가 조금 커요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "아니요, 구두를 신고 있어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_15/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u15_l4",
+        "nomor": 4,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
+        "jawaban": "d",
+        "audio_teks": "여 : 노란색을 좋아해요?\n남 : 아니요, 파란색을 좋아해요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_15/track_102.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "날씨",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "요일",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "취미",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "색깔",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_15/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u15_l5",
+        "nomor": 5,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+        "jawaban": "b",
+        "audio_teks": "남 : 유수프 씨는 무슨 옷을 입고 있어요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_15/track_102.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "어제 바지를 샀어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "잠바를 입고 있어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "이 원피스는 좀 작아요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "파란색 운동화를 좋아해요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_15/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ]
   },
   "integrity": {
     "pdf_pages": 10,
     "lesson_audio": 5,
+    "lesson_flow": 10,
+    "vocab_cards": 35,
+    "grammar_cards": 2,
+    "conversation_cards": 6,
+    "culture_cards": 1,
+    "reading_questions": 5,
+    "listening_questions": 5,
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_scripts": 5,
     "source_page_start_index": 190,
     "source_page_end_index": 199
   }

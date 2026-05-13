@@ -4,7 +4,7 @@
   "unit": 9,
   "title_ko": "음식 주문",
   "title_en": "ORDERING FOOD",
-  "title_id": "",
+  "title_id": "Memesan makanan",
   "source_pdf": "assets/modules/textbook1/unit_9/source.pdf",
   "page_start": 131,
   "page_end": 140,
@@ -61,6 +61,163 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 131,
+        "image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "9 음식 주문 \n ORDERING FOOD 131\n어휘 VOCABULARY\n음식 Food\n비빔밥\nbibimbap\n김밥 \ngimbap\n우동 \nudon\n라면 \nramen\n김치찌개 \nkimchi-jjigae \n(kimchi stew)\n된장찌개 \ndoenjang-jjigae \n(soybean paste stew)\n불고기 \nbulgogi\n돈가스 \npork cutlet\n자장면 \nblack-bean-sauce noodles\n탕수육 \nsweet and sour pork\n피자 \npizza\n치킨 \nchicken\n좋아하다 to like\n싫어하다 to dislike\n맛있다 to be delicious\n맛없다 to be not delicious\n좀 please\n 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.\n⑴\n가 : 무엇을 먹어요?\n나 : 을/를 먹어요.\n⑵\n가 : 이/가 맛있어요?\n나 : 네, 맛있어요.\n⑶\n가 : 무엇을 좋아해요?\n나 : 을/를 좋아해요.\n⑷\n가 : 피자를 좋아해요?\n나 : 아니요, 을/를 좋아해요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 132,
+        "image": "assets/modules/textbook1/unit_9/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "132 한국어 표준교재 1\n문법 GRAMMAR\n주세요\n‘주세요’는 명사 뒤에 쓰여 그 명사가 지시하는 대상을 달라는 요청이나 명령을 나타낸다. \nThe phrase ‘주세요’ is placed after a noun to express a request or command for the item indicated by the noun.\n예 물 주세요.\n \n비빔밥 주세요.\n \n김치찌개 주세요. \n1. 그림을 보고 [보기]와 같이 문장을 쓰세요. Look at the pictures and write the sentences as shown in the example. \n돈가스 주세요. \n[ 보기 ]\n⑴\n .\n⑵\n .\n⑶\n .\n⑷\n .\n2. 그림을 보고 [보기]와 같이 대화해 보세요. Look at the pictures and practice speaking as shown in the example.\n가 : 비빔밥 있어요?\n나 : 아니요, 비빔밥은 없어요. \n가 : 김밥은 있어요? \n나 : 네, 있어요.\n가 : 그럼 김밥 주세요. \n[ 보기 ]\n⑴\n⑵\n⑶",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 133,
+        "image": "assets/modules/textbook1/unit_9/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "9 음식 주문 \n ORDERING FOOD 133\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•김밥, 라면\n•탕수육, 자장면\n가 : 어서 오세요. 뭐 드시겠어요?\n나 : 김밥 주세요. 라면도 주세요. \n가 : 네, 알겠습니다. \n발음 │ PRONUNCIATION\nㅂ\n‘ㅂ’는 어두의 초성에 올 때는 무성음으로 [p]와 비슷하게 발음되고, 모음 사이에 올 \n때는 유성음으로 [b]와 비슷하게 발음된다. \nWhen ‘ㅂ’ appears as the initial consonant of a word, it is pronounced as a \nvoiceless sound similar to [p]. When it appears between vowels, it is \npronounced as a voiced sound similar to [b].\n⑴ 바보, 부부\n⑵ 보기 : 시비 \n대화 CONVERSATION\n점\n원 어서 오세요. 뭐 드시겠어요?\n \nWelcome! What would you like to eat?\n아\n궁 저는 비빔밥 주세요. \n \nI would like bibimbap, please.\n아미나 저는 김치찌개 주세요. \n \nI would like kimchi stew, please.\n점\n원 네, 알겠습니다. \n \nOkay, understood.\n아\n궁 물도 좀 주세요. \n \nPlease give us some water as well.\n대답해 봐요! ANSWER ME!\n1 두 사람은 어디에 있어요? Where are the two people?\n2 아미나 씨는 무엇을 먹어요? What is Amina eating?\n68\n69",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 134,
+        "image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "134 한국어 표준교재 1\n어휘 VOCABULARY\n숫자와 분류사 Numbers and Classifiers\n숫자 numbers \n1\n2\n3\n4\n5\n하나 \none\n둘 \ntwo\n셋 \nthree\n넷 \nfour\n다섯 \nfive\n6\n7\n8\n9\n10\n여섯 \nsix\n일곱 \nseven\n여덟 \neight\n아홉 \nnine\n열 \nten\n분류사 classifiers \n개\nunit (thing)\n명\nunit (person)\n분\nunit (person/honorific)\n마리\nunit (animal)\n권\nunit (volume)\n공기 \nbowl\n그릇\ndish\n접시\nplate\n잔\ncup \n병\nbottle\n 그림을 보고 문장을 완성하세요. Look at the pictures and complete the sentences.\n⑴\n 을/를 먹어요.\n⑵\n 을/를 사요.\n⑶\n 이/가 있어요.\n⑷\n 을/를 마셔요.\n사람이나 물건을 셀 때는 ‘명사+숫자+분류\n사’의 순서로 쓴다. \nWhen counting people or objects, use the \norder ‘noun+number+classifier’. \n예 학생 다섯 명\n‘하나, 둘, 셋, 넷’은 분류사 앞에서 ‘한, 두, \n세, 네’로 쓴다. \nThe numbers ‘하나, 둘, 셋, 넷’ change to \n‘한, 두, 세, 네’ before a classifier.\n예 커피 하나 잔 (X) → 커피 한 잔 (○)\n \n커피 둘 잔 (X) → 커피 두 잔 (○)\n \n커피 셋 잔 (X) → 커피 세 잔 (○)\n \n커피 넷 잔 (X) → 커피 네 잔 (○)\n※ The term “그릇” refers to a broad category of containers used for holding food, which includes not only bowls but \nalso plates and various other types of dishes.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 135,
+        "image": "assets/modules/textbook1/unit_9/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "9 음식 주문 \n ORDERING FOOD 135\n문법 GRAMMAR\n하고\n과/와\n주로 구어에서 사용하는 ‘하고’와 달리 \n‘과/와’는 대개 격식적 상황이나 문어에\n서 사용한다. 앞에 오는 명사의 마지막 \n음절에 받침이 있으면 ‘과’, 받침이 없으\n면 ‘와’를 붙인다. \nUnlike the colloquial ‘하고’, ‘와/과’ is used \nin formal situations or written language. \nIf the last syllable of the preceding noun \nhas a final consonant, use ‘과’. If it does \nnot, use ‘와’.\n예 빵과 우유\n \n날씨와 계절\n‘하고’는 명사와 결합하여 그 명사를 다른 명사와 연결하거나 \n그 명사가 지시하는 대상이 어떤 일을 함께 하는 대상임을 \n나타낸다. \n‘하고’ combines with nouns to link them to other nouns or \nto show that the noun it is attached to is participating in \nan action with another noun. \n예 우유하고 빵을 사요.\n \n연필하고 지우개가 있어요.\n \n토요일에 친구하고 축구했어요.\n1. 그림을 보고 [보기]와 같이 문장을 완성하세요. \n \nLook at the pictures and complete the sentences as shown in the example.\n사과하고 과자를 먹어요. \n[ 보기 ]\n⑴\n 에 가요. \n⑵\n 이/가 맛있어요. \n⑶\n 이/가 있어요. \n⑷\n 이/가 계세요. \n2. 그림을 보고 [보기]와 같이 문장을 완성하세요. \n \nLook at the pictures and complete the sentences as shown in the example.\n커피 한 잔하고 빵 한 개 주세요. \n[ 보기 ]\n⑴\n 주세요. \n⑵\n 주세요. \n⑶\n 주세요. \n⑷\n 주세요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 136,
+        "image": "assets/modules/textbook1/unit_9/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "136 한국어 표준교재 1\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•빵 2, 우유, \n빵 2, 우유 3\n•케이크 1, 주스, \n케이크 1, 주스 2\n가 : 어서 오세요. 뭐 드시겠어요?\n나 : 이 빵 두 개 주세요. 우유 있어요?\n가 : 네, 있어요.\n나 : 그럼 빵 두 개하고 우유 세 잔 주세요.\n가 : 자, 식사합시다. 맛있게 드세요. Let’s eat. Enjoy your meal.\n나 : 네, 반장님도 맛있게 드세요. Yes, enjoy your meal too, Banjangnim.\n유용한 표현 │ USEFUL EXPRESSION\n맛있게 드세요.\nEnjoy your meal.\n대화 CONVERSATION\n점\n원 어서 오세요. 뭐 드시겠어요?\n \nWelcome! What would you like?\n민민아웅 커피 두 잔 주세요. 빵 있어요?\n \nTwo cups of coffee, please. Do you have bread?\n점\n원 아니요, 없어요. 케이크는 있어요. \n \nNo, we don’t. We have cake.\n민민아웅 그럼 커피 두 잔하고 케이크 주세요. \n \nThen, two cups of coffee and some cake, please.\n점\n원 네, 알겠습니다. \n \nOkay, understood.\n대답해 봐요! ANSWER ME!\n1 민민아웅 씨는 어디에 갔어요? Where did Min Min Aung go?\n2 민민아웅 씨는 무엇을 주문했어요? What did Min Min Aung order?\n71\n70",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 137,
+        "image": "assets/modules/textbook1/unit_9/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "문화와 정보 CULTURE & INFORMATION\n확인해요 │ self assessment\n• 음식을 주문할 수 있다. I can order food. \n↻\n• 물건의 개수를 말할 수 있다. I can say how many items there are. \n↻\n• 두 개 이상의 물건을 나열해서 말할 수 있다. I can list two or more items. \n↻\n9 음식 주문 \n ORDERING FOOD 137\n한국인의 식사\nKorean Meals\n한국 사람들은 주로 밥, 국, 반찬으로 구성된 식사를 합니다. 밥은 한국 사람들의 주식으로 쌀로 짓습니다. 국은 \n국물이 있는 음식으로, 된장국이나 미역국 등 다양한 종류가 있습니다. 반찬은 김치나 나물과 같이 밥에 곁들여 먹\n는 음식으로, 함께 식사하는 사람들 간에 나누어 먹는 것이 일반적입니다. 식당에서 식사할 때는 보통 반찬이 무료\n로 제공됩니다. 한국 사람들은 가족과 함께 식사하는 것을 중요하게 생각하며, 함께 음식을 나누는 것을 소중히 여\n깁니다. \nKorean people usually have meals consisting of rice, soup, and side dishes. Rice is the staple food of the meal. \nThere are various kinds of soups like soybean paste soup or seaweed soup made with broth. Side dishes, such as \nkimchi or vegetables, are served alongside the rice and are typically shared among the people dining together. \nSide dishes are usually provided for free at restaurants. Koreans value eating with their family and cherish sharing \nfood together.\n최근에는 외식이 증가하면서 다양한 음식을 제공하는 식당이 많아지고, 편의를 위해 키오스크를 사용하여 음식\n을 주문하는 가게가 늘어나고 있습니다. \nRecently, eating out has increased, leading to a variety of \nrestaurants offering different foods. For convenience, more \nplaces are using kiosks for ordering food. \n키오스크를 이용하면 터치스크린을 통해 메뉴를 선택하고 결\n제까지 한 번에 할 수 있어 매우 편리합니다. 키오스크를 이용하\n는 방법은 간단합니다. 원하는 메뉴와 개수, 옵션을 선택한 후 \n결제 버튼을 누르고, 카드나 모바일 결제를 통해 결제하면 됩니\n다. 주문이 완료되면 영수증이 출력됩니다. \nKiosks allow customers to choose their menu items and pay at the same time via touchscreen, making the \nprocess very convenient. The process of using a kiosk is simple. You select your desired menu items, quantity, \nand options, then press the payment button and pay with a card or mobile payment. Once the order is \ncompleted, a receipt is printed.\n키오스크를 이용하면 메뉴를 자세히 볼 수 있고, 주문을 빠르게 할 수 있습니다. 키오스크 덕분에 사람들이 간편\n하게 음식을 주문할 수 있게 되었습니다. \nUsing a kiosk allows you to view the menu in detail and place orders quickly. Thanks to kiosks, people can order \nfood conveniently.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 138,
+        "image": "assets/modules/textbook1/unit_9/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n138 한국어 표준교재 1\n1. \n다음 내용과 관계있는 그림을 고르십시오.\n김밥입니다.\n①\n②\n③\n④\n2. 다음 단어와 관계있는 것은 무엇입니까?\n김치찌개\n① 날씨\n② 가구\n③ 음식\n④ 도시\n3. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.\n① 주스과 우유를 마셔요. \n② 김밥와 라면을 주세요.\n③ 편의점과 식당이 있어요. \n④ 우동와 돈가스를 먹어요.\n4. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n커피숍에 갔어요. 커피를 한 마셨어요. \n① 명\n② 권\n③ 잔\n④ 개\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n최근에는 키오스크를 이용해 음식을 주문하는 가게가 많아지고 있습니다. 키오스크를 사용하면 메뉴 \n선택과 결제를 한 번에 할 수 있어서 매우 편리합니다. 터치스크린을 통해 원하는 메뉴와 개수를 고르고, \n카드나 모바일 결제 시스템을 이용해 결제하면 됩니다. 키오스크 덕분에 사람들은 음식을 빠르고 간편하게 \n주문할 수 있습니다.\n① 키오스크는 현금 결제만 가능합니다.\n② 키오스크를 이용하면 주문이 편리합니다. \n③ 키오스크에서는 메뉴를 선택할 수 없습니다.\n④ 키오스크를 모든 가게에서 이용할 수 있습니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 139,
+        "image": "assets/modules/textbook1/unit_9/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n9 음식 주문 \n ORDERING FOOD 139\n1. \n다음을 듣고 빈칸에 알맞은 것을 고르십시오.\n이것은 \n입니다.\n① 탕수육\n② 비빔밥\n③ 자장면\n④ 불고기\n2. 다음을 듣고 들은 내용과 관계있는 그림을 고르십시오. \n①\n②\n③\n④\n[3~4] 다음을 듣고 물음에 알맞은 대답을 고르십시오. \n3.\n① 네, 피자가 있어요. \n② 네, 피자를 좋아해요.\n③ 아니요, 피자가 커요. \n④ 아니요, 피자를 사요. \n4.\n① 생일에 먹었어요. \n② 두 그릇 먹었어요. \n③ 식당에서 먹었어요. \n④ 김밥하고 라면을 먹었어요.\n5. \n두 사람은 무엇에 대해 말하고 있습니까?\n① 운동 \n② 쇼핑\n③ 취미 \n④ 음식 \n1. \n여 : 이것은 비빔밥입니다.\n2. 남 : 뭐 드시겠어요?\n \n여 : 치킨 주세요.\n3. 남 : 피자를 좋아해요?\n4. 여 : 어제 뭐 먹었어요?\n5. 남 : 뭐가 맛있어요?\n \n여 : 불고기가 맛있어요.\n듣기지문\n72",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 140,
+        "image": "assets/modules/textbook1/unit_9/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "140 한국어 표준교재 1\n학습 목표\nLEARNING OBJECTIVES\n물건의 상태에 대해 묻고 대답할 수 있다. \nCan ask and answer about the descriptions of things.\n필요한 것을 상대방에게 요청할 수 있다.\nCan request items needed from others.\n물건 구입 \nShopping\nC H A P T E R 1 0\n-네요\n-아/어 주세요\nGRAMMAR\n문법\n상태 관련 어휘\nVocabulary Related to \nDescription Words\n화폐 및 물품 구매 관련 어휘\nVocabulary Related to Currency and \nPurchasing Items\nVOCABULARY\n어휘\n무인 판매점\nUnmanned Stores\nCULTURE & INFORMATION\n문화와 정보\n140 한국어 표준교재 1\n과일이 싱싱하네요.\n어서 오세요.\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "audio": [
       {
         "track": 68,
@@ -88,16 +245,983 @@
         "audio_url": "assets/modules/textbook1/audio/unit_9/track_072.mp3"
       }
     ],
-    "vocab": [],
-    "grammar": [],
-    "conversation": [],
-    "culture": [],
-    "reading": [],
-    "listening": []
+    "vocab": [
+      {
+        "id": "vocab_1",
+        "front": "음식",
+        "back": "Food",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_2",
+        "front": "비빔밥",
+        "back": "bibimbap",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_3",
+        "front": "김밥",
+        "back": "gimbap",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_4",
+        "front": "우동",
+        "back": "udon",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_5",
+        "front": "라면",
+        "back": "ramen",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_6",
+        "front": "김치찌개",
+        "back": "kimchi-jjigae (kimchi stew)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_7",
+        "front": "된장찌개",
+        "back": "doenjang-jjigae (soybean paste stew)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_8",
+        "front": "불고기",
+        "back": "bulgogi",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_9",
+        "front": "돈가스",
+        "back": "pork cutlet",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_10",
+        "front": "자장면",
+        "back": "black-bean-sauce noodles",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_11",
+        "front": "탕수육",
+        "back": "sweet and sour pork",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_12",
+        "front": "피자",
+        "back": "pizza",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_13",
+        "front": "치킨",
+        "back": "chicken",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_14",
+        "front": "좋아하다",
+        "back": "to like",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_15",
+        "front": "싫어하다",
+        "back": "to dislike",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_16",
+        "front": "맛있다",
+        "back": "to be delicious",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_17",
+        "front": "맛없다",
+        "back": "to be not delicious",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_18",
+        "front": "숫자와 분류사",
+        "back": "Numbers and Classifiers",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_19",
+        "front": "숫자",
+        "back": "numbers",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_20",
+        "front": "하나",
+        "back": "one",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_21",
+        "front": "둘",
+        "back": "two",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_22",
+        "front": "셋",
+        "back": "three",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_23",
+        "front": "넷",
+        "back": "four",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_24",
+        "front": "다섯",
+        "back": "five",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_25",
+        "front": "여섯",
+        "back": "six",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_26",
+        "front": "일곱",
+        "back": "seven",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_27",
+        "front": "여덟",
+        "back": "eight",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_28",
+        "front": "아홉",
+        "back": "nine",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_29",
+        "front": "열",
+        "back": "ten",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_30",
+        "front": "분류사",
+        "back": "classifiers",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_31",
+        "front": "개",
+        "back": "unit (thing)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_32",
+        "front": "명",
+        "back": "unit (person)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_33",
+        "front": "분",
+        "back": "unit (person/honorific)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_34",
+        "front": "마리",
+        "back": "unit (animal)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_35",
+        "front": "권",
+        "back": "unit (volume)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_36",
+        "front": "공기",
+        "back": "bowl",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_37",
+        "front": "그릇",
+        "back": "dish",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_38",
+        "front": "접시",
+        "back": "plate",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_39",
+        "front": "잔",
+        "back": "cup",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_40",
+        "front": "병",
+        "back": "bottle",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar_1",
+        "front": "주세요",
+        "back": "‘주세요’는 명사 뒤에 쓰여 그 명사가 지시하는 대상을 달라는 요청이나 명령을 나타낸다.\nThe phrase ‘주세요’ is placed after a noun to express a request or command for the item indicated by the noun.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
+      },
+      {
+        "id": "grammar_2",
+        "front": "하고",
+        "back": "과/와\n주로 구어에서 사용하는 ‘하고’와 달리\n‘과/와’는 대개 격식적 상황이나 문어에\n서 사용한다. 앞에 오는 명사의 마지막\n음절에 받침이 있으면 ‘과’, 받침이 없으\n면 ‘와’를 붙인다.\nUnlike the colloquial ‘하고’, ‘와/과’ is used\nin formal situations or written language.\nIf the last syllable of the preceding noun\nhas a final consonant, use ‘과’. If it does\nnot, use ‘와’.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conversation_1",
+        "front": "원 어서 오세요. 뭐 드시겠어요?",
+        "back": "Welcome! What would you like to eat?",
+        "speaker": "점",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_2",
+        "front": "궁 저는 비빔밥 주세요.",
+        "back": "I would like bibimbap, please.",
+        "speaker": "아",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_3",
+        "front": "아미나 저는 김치찌개 주세요.",
+        "back": "I would like kimchi stew, please.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_4",
+        "front": "원 네, 알겠습니다.",
+        "back": "Okay, understood.",
+        "speaker": "점",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_5",
+        "front": "궁 물도 좀 주세요.",
+        "back": "Please give us some water as well.",
+        "speaker": "아",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_6",
+        "front": "원 어서 오세요. 뭐 드시겠어요?",
+        "back": "Welcome! What would you like?",
+        "speaker": "점",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_7",
+        "front": "민민아웅 커피 두 잔 주세요. 빵 있어요?",
+        "back": "Two cups of coffee, please. Do you have bread?",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_8",
+        "front": "원 아니요, 없어요. 케이크는 있어요.",
+        "back": "No, we don’t. We have cake.",
+        "speaker": "점",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_9",
+        "front": "민민아웅 그럼 커피 두 잔하고 케이크 주세요.",
+        "back": "Then, two cups of coffee and some cake, please.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_10",
+        "front": "원 네, 알겠습니다.",
+        "back": "Okay, understood.",
+        "speaker": "점",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      }
+    ],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "9 음식 주문",
+        "back": "ORDERING FOOD 137",
+        "body": "• 음식을 주문할 수 있다. I can order food.\n• 물건의 개수를 말할 수 있다. I can say how many items there are.\n• 두 개 이상의 물건을 나열해서 말할 수 있다. I can list two or more items.\n9 음식 주문\nORDERING FOOD 137\n한국인의 식사\nKorean Meals\n한국 사람들은 주로 밥, 국, 반찬으로 구성된 식사를 합니다. 밥은 한국 사람들의 주식으로 쌀로 짓습니다. 국은\n국물이 있는 음식으로, 된장국이나 미역국 등 다양한 종류가 있습니다. 반찬은 김치나 나물과 같이 밥에 곁들여 먹\n는 음식으로, 함께 식사하는 사람들 간에 나누어 먹는 것이 일반적입니다. 식당에서 식사할 때는 보통 반찬이 무료\n로 제공됩니다. 한국 사람들은 가족과 함께 식사하는 것을 중요하게 생각하며, 함께 음식을 나누는 것을 소중히 여\n깁니다.\nKorean people usually have meals consisting of rice, soup, and side dishes. Rice is the staple food of the meal.\nThere are various kinds of soups like soybean paste soup or seaweed soup made with broth. Side dishes, such as\nkimchi or vegetables, are served alongside the rice and are typically shared among the people dining together.\nSide dishes are usually provided for free at restaurants. Koreans value eating with their family and cherish sharing",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook1/unit_9/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
+    "reading": [
+      {
+        "id": "u9_r1",
+        "nomor": 1,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n김밥입니다.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_9/choice_images/reading/u9_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_9/choice_images/reading/u9_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_9/choice_images/reading/u9_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_9/choice_images/reading/u9_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_9/choice_images/reading/u9_r1_a.jpg",
+          "b": "assets/modules/textbook1/unit_9/choice_images/reading/u9_r1_b.jpg",
+          "c": "assets/modules/textbook1/unit_9/choice_images/reading/u9_r1_c.jpg",
+          "d": "assets/modules/textbook1/unit_9/choice_images/reading/u9_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_9/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u9_r2",
+        "nomor": 2,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 단어와 관계있는 것은 무엇입니까?\n김치찌개",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "날씨",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "가구",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "음식",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "도시",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_9/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u9_r3",
+        "nomor": 3,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "주스과 우유를 마셔요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "김밥와 라면을 주세요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "편의점과 식당이 있어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "우동와 돈가스를 먹어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_9/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u9_r4",
+        "nomor": 4,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n커피숍에 갔어요. 커피를 한 마셨어요.",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "명",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "권",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "잔",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "개",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_9/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u9_r5",
+        "nomor": 5,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n최근에는 키오스크를 이용해 음식을 주문하는 가게가 많아지고 있습니다. 키오스크를 사용하면 메뉴\n선택과 결제를 한 번에 할 수 있어서 매우 편리합니다. 터치스크린을 통해 원하는 메뉴와 개수를 고르고,\n카드나 모바일 결제 시스템을 이용해 결제하면 됩니다. 키오스크 덕분에 사람들은 음식을 빠르고 간편하게\n주문할 수 있습니다.",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "키오스크는 현금 결제만 가능합니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "키오스크를 이용하면 주문이 편리합니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "키오스크에서는 메뉴를 선택할 수 없습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "키오스크를 모든 가게에서 이용할 수 있습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_9/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ],
+    "listening": [
+      {
+        "id": "u9_l1",
+        "nomor": 1,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 빈칸에 알맞은 것을 고르십시오.\n이것은\n입니다.",
+        "jawaban": "b",
+        "audio_teks": "여 : 이것은 비빔밥입니다.",
+        "audio_url": "assets/modules/textbook1/audio/unit_9/track_072.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "탕수육",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "비빔밥",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "자장면",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "불고기",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_9/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u9_l2",
+        "nomor": 2,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+        "jawaban": "c",
+        "audio_teks": "남 : 뭐 드시겠어요?\n여 : 치킨 주세요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_9/track_072.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_9/choice_images/listening/u9_l2_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_9/choice_images/listening/u9_l2_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_9/choice_images/listening/u9_l2_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_9/choice_images/listening/u9_l2_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_9/choice_images/listening/u9_l2_a.jpg",
+          "b": "assets/modules/textbook1/unit_9/choice_images/listening/u9_l2_b.jpg",
+          "c": "assets/modules/textbook1/unit_9/choice_images/listening/u9_l2_c.jpg",
+          "d": "assets/modules/textbook1/unit_9/choice_images/listening/u9_l2_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_9/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u9_l3",
+        "nomor": 3,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "b",
+        "audio_teks": "남 : 피자를 좋아해요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_9/track_072.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "네, 피자가 있어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "네, 피자를 좋아해요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "아니요, 피자가 커요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "아니요, 피자를 사요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_9/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u9_l4",
+        "nomor": 4,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "d",
+        "audio_teks": "여 : 어제 뭐 먹었어요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_9/track_072.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "생일에 먹었어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "두 그릇 먹었어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "식당에서 먹었어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "김밥하고 라면을 먹었어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_9/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u9_l5",
+        "nomor": 5,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
+        "jawaban": "d",
+        "audio_teks": "남 : 뭐가 맛있어요?\n여 : 불고기가 맛있어요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_9/track_072.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "운동",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "쇼핑",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "취미",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "음식",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_9/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ]
   },
   "integrity": {
     "pdf_pages": 10,
     "lesson_audio": 5,
+    "lesson_flow": 10,
+    "vocab_cards": 40,
+    "grammar_cards": 2,
+    "conversation_cards": 10,
+    "culture_cards": 1,
+    "reading_questions": 5,
+    "listening_questions": 5,
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_scripts": 5,
     "source_page_start_index": 130,
     "source_page_end_index": 139
   }

@@ -4,7 +4,7 @@
   "unit": 2,
   "title_ko": "생활용품",
   "title_en": "DAILY NECESSITIES",
-  "title_id": "",
+  "title_id": "Barang kebutuhan sehari-hari",
   "source_pdf": "assets/modules/textbook1/unit_2/source.pdf",
   "page_start": 61,
   "page_end": 70,
@@ -61,6 +61,166 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 61,
+        "image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "2 생활용품 \n DAILY NECESSITIES 61\n 관계있는 것끼리 연결하세요. Connect the related items.\n⑴\n⑵\n⑶\n⑷\n달력\n안경\n볼펜\n컴퓨터\n어휘 VOCABULARY\n사무실 물건 Office Supplies\n이것\nthis (thing)\n저것\nthat (thing over there)\n그것\nthat (thing)\n무엇/뭐\nwhat\n➊\n➋\n➍\n➌\n➎\n₠\n➏\n➑\n➐\n➒\n➓\n➊ 연필 pencil \n➋ 볼펜 (ballpoint) pen \n➌ 가위 scissors \n➍ 칼 boxcutter\n➎ 시계 clock/watch \n➏ 달력 calendar \n➐ 컴퓨터 computer \n➑ 안경 glasses\n➒ 휴대폰/휴대 전화 cell phone \n➓ 계산기 calculator \n₠ 컵 cup",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 62,
+        "image": "assets/modules/textbook1/unit_2/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "62 한국어 표준교재 1\n1. 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.\n⑴\n가 : 이건 휴대폰이에요?\n나 : 네, \n.\n⑵\n가 : 태국 사람이에요?\n나 : 네, \n.\n⑶\n가 : 이건 가위예요?\n나 : 아니요, \n.\n⑷\n가 : 요리사예요?\n나 : 아니요, \n.\n2. 그림을 보고 [보기]와 같이 대화해 보세요. \nLook at the pictures and practice speaking as \nshown in the example.\n가: 이건 뭐예요?\n나: 계산기예요.\n가: 이건 볼펜이에요?\n나: 네, 볼펜이에요.\n[ 보기 ]\n문법 GRAMMAR\n이에요/예요\n‘이에요/예요’는 격식을 차리지 \n않아도 되는 상황에서 친근하\n게 말할 때 사용한다. ‘입니다’\n는 회의나 발표와 같이 공식적\n인 자리에서 예의를 갖추고 말\n할 때 사용한다.\n‘이에요/예요’ is used in friendly, \ninformal situations. ‘입니다’ is \nused in formal settings like \nmeetings or presentations.\n예 프엉 씨는 베트남 사람입니다.\n‘이에요/예요’는 주어의 속성을 나타내는 명사와 결합하여, 비격식적 \n상황에서 듣는 사람을 높여 말하는 문장의 서술어가 된다. \n주어의 속성에 대하여 물을 때는 ‘이에요/예요?’를 사용하고 문장의 \n끝 부분을 올려 발음한다.\n‘이에요/예요’ is combined with a noun that expresses the attribute \nof the subject and functions as the predicate in a sentence where \nthe speaker elevates the listener in an informal setting. When \nasking about the subject's attribute, ‘이에요/예요?’ is used, and the \nend of the sentence is pronounced with a rising intonation.\n받침 ○\n이에요\n \n컵 → 컵이에요\n받침 ×\n예요\n 시계 → 시계예요\n \n예 이건 계산기예요.\n \n \n그건 안경이에요.\n \n \n가 : 어느 나라 사람이에요?\n \n \n나 : 베트남 사람이에요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 63,
+        "image": "assets/modules/textbook1/unit_2/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "2 생활용품 \n DAILY NECESSITIES 63\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•이건, 안경, 저건, 컵\n•저건, 컴퓨터, 이건, 계산기\n가 : 이건 뭐예요?\n나 : 이건 안경이에요.\n저건 뭐예요?\n가 : 저건 컵이에요.\n발음 │ PRONUNCIATION\nㅜ, ㅡ\n‘ㅜ’는 입술을 둥글게 하여 발음하고, ‘ㅡ’는 입술을 평평하게 펴서 발음한다.\nThe vowel ‘ㅜ’ is pronounced with the lips rounded, and ‘ㅡ’ is pronounced \nwith the lips spread flat.\n⑴ 우 : 으 \n⑵ 구름 : 그네, 구두 : 그림\n대화 CONVERSATION\n자하라 \n유진 씨, 이건 뭐예요?\n \nYujin, what is this? \n유 진 \n달력이에요.\n \nIt’s a calendar. \n자하라 \n저건 뭐예요?\n \nWhat is that? \n유 진 \n아, 저건 시계예요.\n \nOh, that’s a clock. \n대답해 봐요! ANSWER ME!\n1 이건 달력이에요? Is this a calendar? \n2 저건 뭐예요? What is that?\n이건, 그건, 저건 \n‘이것, 그것, 저것’이 ‘은/는’, ‘이/가’와 결합하는 \n경우, 쓸 때는 원래 형태로 쓰지만, 말할 때는 \n아래와 같은 줄임말을 주로 사용한다.\nWhen ‘이것, 그것, 저것’ combine with ‘은/는, \n이/가’, they are written in their original form, \nbut in speech, the following shortened forms \nare commonly used.\n이것은 → 이건 \n이것이 → 이게\n그것은 → 그건 \n그것이 → 그게\n저것은 → 저건 \n저것이 → 저게\n예 이게 휴대폰이에요.\n33\n34",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 64,
+        "image": "assets/modules/textbook1/unit_2/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "64 한국어 표준교재 1\n어휘 VOCABULARY\n생활용품 Daily Necessities\n➊\n➍\n➋\n➏\n₠\n₡\n➐\n➒\n➌\n➎\n➓\n➑\n \n➊ 휴지 toilet paper \n➋ 가족사진 family picture \n➌ 여권 passport \n➍ 지갑 wallet\n➎ 열쇠 key \n➏ 가방 bag \n➐ 우산 umbrella \n➑ 화장품 cosmetics (skin care)\n➒ 거울 mirror \n➓ 빗 brush \n₠ 베개 pillow \n₡ 이불 blanket\n 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example.\n[ 보기 ]\n가 : 이건 뭐예요?\n나 : 화장품이에요.\n⑴\n가 : 이건 뭐예요?\n나 : .\n⑵\n가 : 이건 뭐예요?\n나 : .\n⑶\n가 : 이건 가족사진이에요?\n나 : 아니요, \n.\n⑷\n가 : 이건 이불이에요?\n나 : 아니요, \n.\n⑸\n가 : 이건 뭐예요?\n나 : .\n⑹\n가 : 이건 컴퓨터예요?\n나 : 아니요, \n.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 65,
+        "image": "assets/modules/textbook1/unit_2/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "2 생활용품 \n DAILY NECESSITIES 65\n1. [보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the example. \n[ 보기 ]\n이것 ≠ 열쇠 ⊙ 이것은 열쇠가 아니에요.\n⑴ 이것 ≠ 가방 \n⊙ \n이것은 \n.\n⑵ 그것 ≠ 휴지 \n⊙ \n그것은 \n.\n⑶ 다라 씨 ≠ 목수 \n⊙ \n다라 씨는 \n.\n⑷ 저 ≠ 미얀마 사람 \n⊙ \n저는 \n.\n2. 그림을 보고 [보기]와 같이 대화해 보세요. Look at the pictures and practice speaking as shown in the example.\n[ 보기 ]\n달력이에요?\n가 : 달력이에요?\n나 : 아니요, 달력이 아니에요.\n가족사진이에요.\n⑴\n컵이에요?\n⑵\n베개예요?\n⑶\n경찰관이에요?\n문법 GRAMMAR\n이/가 아니에요\n‘아니에요’는 ‘이에요’의 부정 표현\n이다. ‘이/가 아니에요’는 격식적인 \n상황에서는 ‘이/가 아닙니다’로 사용\n된다.\n‘이/가 아니에요’ is the negative form \nof ‘이에요’. In formal situations ‘이/\n가 아닙니다’ is used.\n예 이건 화장품이 아닙니다. \n‘이/가 아니에요’는 주어의 속성을 나타내는 명사와 결합하여 그 \n속성이 사실이 아님을 나타낸다.\n‘이/가 아니에요’ combines with a noun that shows that an \nattribute of the subject is not true.\n받침 ○\n이 아니에요\n지갑 → 지갑이 아니에요\n받침 ×\n가 아니에요\n의사 → 의사가 아니에요\n예 저는 인도 사람이 아니에요.\n \n그건 휴지가 아니에요.\n \n가 : 이건 유수프 씨 우산이에요?\n \n나 : 아니요, 유수프 씨 우산이 아니에요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 66,
+        "image": "assets/modules/textbook1/unit_2/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "66 한국어 표준교재 1\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•화장품, 빗\n•볼펜, 연필\n가 : 이건 화장품이에요?\n나 : 아니요, 그건 화장품이 아니에요.\n가 : 이건 뭐예요?\n나 : 빗이에요.\n가 : 지금 퇴근하세요? 조심해서 가요. Are you leaving work now? Go safely. \n나 : 네, 반장님. 내일 뵙겠습니다. \nYes, Banjangnim. I'll see you tomorrow.\n유용한 표현 │ USEFUL EXPRESSION\n내일 뵙겠습니다.\nSee you tomorrow.\n대화 CONVERSATION\n유수프 \n아궁 씨, 이건 마두 씨의 가방이에요?\n \nAgung, is this Madhu’s bag? \n아 궁 \n아니요, 제 가방이에요.\n \nNo, it’s my bag. \n유수프 \n이건 뭐예요?\n \nWhat is this? \n아 궁 \n마두 씨의 가족사진이에요.\n \nIt’s Madhu’s family photo.\n대답해 봐요! ANSWER ME!\n1 이건 누구의 가방이에요? \nWhose bag is this? \n2 이건 아궁 씨의 가족사진이에요? \nIs this Agung’s family photo?\n의\n‘의’는 ‘명사+의 명사’의 구조로 사용되는데 \n앞 명사가 뒤 명사의 소유주, 소속 기관임을 \n나타내거나 앞뒤 명사 간에 관계가 있음을 나\n타낸다. 대명사 ‘저, 나, 너’에 ‘의’가 결합하면 \n‘제, 내, 네’의 형태로 주로 쓰인다.\n‘의’ is used in the structure of ‘noun+의 noun’, \nindicating that the preceding noun is the \nowner or affiliated organization of the \nfollowing noun, or that there is a relationship \nbetween the two nouns. When the pronouns \n‘저, 나, 너’ are combined with ‘의’, they are \ncommonly used in the forms ‘제, 내, 네’.\n저의 → 제 나의 → 내 너의 → 네\n예 그건 제 열쇠예요. \n36\n35",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 67,
+        "image": "assets/modules/textbook1/unit_2/pages/page_07.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "2 생활용품 \n DAILY NECESSITIES 67\n문화와 정보 CULTURE & INFORMATION\n한국에서 알뜰하게 생필품을 구입하는 팁\nTips for Buying Daily Necessities Cheaply in Korea\n대형 마트에서는 종종 ‘1+1, 2+1’ 또는 ‘주말 특가’와 같은 할인 행사를 열어 식\n료품부터 생활용품까지 다양한 상품을 싸게 판매합니다. 마트에서 나누어 주는 \n전단지를 통해 할인 상품 및 할인 금액, 추천 상품 등 할인 행사에 대한 정보를 \n얻을 수 있습니다. \nLarge supermarkets often have discount events like ‘1+1’, ‘2+1’ or ‘weekend \nspecials’, selling various products from food to daily necessities at lower prices. \nInformation about discount items, discount prices, and product \nrecommendations can be found in flyers at the supermarkets.\n온라인 쇼핑몰을 통해서도 생필품을 싸게 구매할 수 있습니다. 온라인 쇼핑몰에서는 정기적으로 할인 행사를 \n하거나 할인 쿠폰을 제공합니다. 이를 활용하여 특정 상품을 싸게 구매하거나 추가 할인을 받을 수 있습니다.\nYou can also purchase daily necessities cheaply through online shopping malls. Online shopping malls regularly \nhold discount events or offer discount coupons. You can use these events or coupons to buy specific items \ncheaply or get additional discounts. \n또한 ‘당근’과 같은 중고 거래 플랫폼을 통해서도 생필품을 싸게 구\n할 수 있습니다. 다른 사람들이 더 이상 사용하지 않는 생활용품뿐만 \n아니라 가전제품, 가구에 이르기까지 다양한 물건을 살 수 있습니다. \n이러한 중고 거래 플랫폼을 통하여 자신이 사용했던 물건을 팔 수도 \n있습니다. 플랫폼을 통한 중고 거래는 대부분 같은 지역에 사는 사람\n들 사이에서 직거래로 이루어집니다.\nMoreover, you can buy daily necessities second-hand cheaply through \napps like ‘Danggeun/Karrot’. You can find various items, from daily \nnecessities to electronics and furniture that others no longer use. You \ncan also sell items you have used through these second-hand apps. \nSales through these apps are mostly made face-to-face between \npeople living in the same area.\n2 생활용품 \n DAILY NECESSITIES 67\n• 물건의 이름을 묻고 대답할 수 있다. I can ask and answer the names of an object. \n↻\n• 사무실 물건, 생활용품과 관련된 어휘들을 말할 수 있다. \nI can use vocabulary related to office supplies and daily necessities. \n↻\n• 지시어로 묻고 대답할 수 있다. I can ask and answer questions using demonstratives. \n↻\n확인해요 │ self assessment",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 68,
+        "image": "assets/modules/textbook1/unit_2/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n68 한국어 표준교재 1\n[1~2] 다음 내용과 관계있는 그림을 고르십시오.\n1.\n우산입니다.\n①\n②\n③\n④\n2.\n연필입니다.\n①\n②\n③\n④\n3. 다음 단어와 관계있는 것은 무엇입니까?\n가방\n①나라\n②물건\n③장소\n④음식\n4. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.\n① 지갑는 없어요. \n② 달력이 아니에요.\n③ 동생가 운전기사예요. \n④ 열쇠은 책상 위에 있어요.\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n중고 거래 플랫폼을 이용하면 생필품을 싸게 구할 수 있습니다. 생활용품뿐만 아니라 가전제품, 가구에 \n이르기까지 다양한 물건을 살 수 있습니다. 사용하지 않은 새 물건을 파는 경우도 있습니다. 플랫폼을 \n통해 물건을 사고팔 때는 주로 같은 지역에 사는 사람들 사이에서 직거래로 이루어집니다.\n① 중고 거래 플랫폼으로 새 물건을 구입할 수 있습니다.\n② 중고 거래 플랫폼에서 비싼 가격에 물건이 거래됩니다. \n③ 물건을 거래할 때 대부분 택배를 이용해서 물건을 받습니다.\n④ 중고 거래 플랫폼에서 가구와 같은 물건은 구할 수 없습니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 69,
+        "image": "assets/modules/textbook1/unit_2/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n[1~2] 다음을 듣고 빈칸에 알맞은 것을 고르십시오. \n1.\n시\n①도\n②계\n③내\n④차\n2.\n이것은 \n입니다.\n①침대\n②달력\n③지폐\n④여권\n[3~4] 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n3.\n① 네, 휴대폰을 사요.\n② 네, 휴대폰을 주세요.\n③ 아니요, 휴대폰이 없어요.\n④ 아니요, 휴대폰이 아니에요. \n4.\n① 한국에서 왔어요.\n② 그건 이불이에요.\n③ 제 것이 아니에요.\n④ 책상 위에 있어요.\n5. \n두 사람은 무엇에 대해 말하고 있습니까?\n①국적\n②나이\n③물건\n④직업\n1. \n남 : 시계\n2. 여 : 이것은 달력입니다.\n3. 남 : 이건 휴대폰이에요?\n4. 여 : 이건 한국어로 뭐예요?\n5. 남 : 가방에 뭐가 있어요?\n \n여 : 열쇠하고 지갑이 있어요. 그리고 여권도 있어요.\n듣기지문\n2 생활용품 \n DAILY NECESSITIES 69\n37",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 70,
+        "image": "assets/modules/textbook1/unit_2/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "학습 목표\nLEARNING OBJECTIVES\n집에 있는 물건에 대해 말할 수 있다.\nCan talk about items at home.\n사람이나 물건이 있는 장소에 대해 말할 수 있다.\nCan talk about where a person or object is.\n위치와 장소 \nLocations and Places\nC H A P T E R 0 3\n거실에 있어요.\n텔레비전은 어디에 있어요?\n이/가 있어요, 없어요\n에(장소)\nGRAMMAR\n문법\n가구와 전자제품\nFurniture and Electronics\n장소\nPlaces\nVOCABULARY\n어휘\n한국의 도시\nKorea's Cities\nCULTURE & INFORMATION\n문화와 정보\nEPS-TOPIK\n70 한국어 표준교재 1",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "audio": [
       {
         "track": 33,
@@ -88,16 +248,841 @@
         "audio_url": "assets/modules/textbook1/audio/unit_2/track_037.mp3"
       }
     ],
-    "vocab": [],
-    "grammar": [],
-    "conversation": [],
-    "culture": [],
-    "reading": [],
-    "listening": []
+    "vocab": [
+      {
+        "id": "vocab_1",
+        "front": "사무실 물건",
+        "back": "Office Supplies",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_2",
+        "front": "이것",
+        "back": "this (thing)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_3",
+        "front": "저것",
+        "back": "that (thing over there)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_4",
+        "front": "그것",
+        "back": "that (thing)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_5",
+        "front": "무엇/뭐",
+        "back": "what ➊ ➋ ➍ ➌ ➎ ₠ ➏ ➑ ➐ ➒ ➓",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_6",
+        "front": "➊ 연필",
+        "back": "pencil",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_7",
+        "front": "➌ 가위",
+        "back": "scissors",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_8",
+        "front": "➍ 칼",
+        "back": "boxcutter",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_9",
+        "front": "➎ 시계",
+        "back": "clock/watch",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_10",
+        "front": "➏ 달력",
+        "back": "calendar",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_11",
+        "front": "➐ 컴퓨터",
+        "back": "computer",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_12",
+        "front": "➑ 안경",
+        "back": "glasses",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_13",
+        "front": "➒ 휴대폰/휴대 전화",
+        "back": "cell phone",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_14",
+        "front": "➓ 계산기",
+        "back": "calculator",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_15",
+        "front": "₠ 컵",
+        "back": "cup",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_16",
+        "front": "생활용품",
+        "back": "Daily Necessities",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_17",
+        "front": "➊ 휴지",
+        "back": "toilet paper",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_18",
+        "front": "➋ 가족사진",
+        "back": "family picture",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_19",
+        "front": "➌ 여권",
+        "back": "passport",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_20",
+        "front": "➍ 지갑",
+        "back": "wallet",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_21",
+        "front": "➎ 열쇠",
+        "back": "key",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_22",
+        "front": "➏ 가방",
+        "back": "bag",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_23",
+        "front": "➐ 우산",
+        "back": "umbrella",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_24",
+        "front": "➑ 화장품",
+        "back": "cosmetics (skin care)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_25",
+        "front": "➒ 거울",
+        "back": "mirror",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_26",
+        "front": "➓ 빗",
+        "back": "brush",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_27",
+        "front": "₠ 베개",
+        "back": "pillow",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_28",
+        "front": "₡ 이불",
+        "back": "blanket",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar_1",
+        "front": "이에요/예요",
+        "back": "‘이에요/예요’는 격식을 차리지\n않아도 되는 상황에서 친근하\n게 말할 때 사용한다. ‘입니다’\n는 회의나 발표와 같이 공식적\n인 자리에서 예의를 갖추고 말\n할 때 사용한다.\n‘이에요/예요’ is used in friendly,\ninformal situations. ‘입니다’ is\nused in formal settings like\nmeetings or presentations.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
+      },
+      {
+        "id": "grammar_2",
+        "front": "이/가 아니에요",
+        "back": "‘아니에요’는 ‘이에요’의 부정 표현\n이다. ‘이/가 아니에요’는 격식적인\n상황에서는 ‘이/가 아닙니다’로 사용\n된다.\n‘이/가 아니에요’ is the negative form\nof ‘이에요’. In formal situations ‘이/\n가 아닙니다’ is used.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conversation_1",
+        "front": "유진 씨, 이건 뭐예요?",
+        "back": "Yujin, what is this?",
+        "speaker": "자하라",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_2",
+        "front": "달력이에요.",
+        "back": "It’s a calendar.",
+        "speaker": "유 진",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_3",
+        "front": "저건 뭐예요?",
+        "back": "What is that?",
+        "speaker": "자하라",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_4",
+        "front": "아, 저건 시계예요.",
+        "back": "Oh, that’s a clock.",
+        "speaker": "유 진",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_5",
+        "front": "아궁 씨, 이건 마두 씨의 가방이에요?",
+        "back": "Agung, is this Madhu’s bag?",
+        "speaker": "유수프",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_6",
+        "front": "아니요, 제 가방이에요.",
+        "back": "No, it’s my bag.",
+        "speaker": "아 궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_7",
+        "front": "이건 뭐예요?",
+        "back": "What is this?",
+        "speaker": "유수프",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_8",
+        "front": "마두 씨의 가족사진이에요.",
+        "back": "It’s Madhu’s family photo.",
+        "speaker": "아 궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      }
+    ],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "한국에서 알뜰하게 생필품을 구입하는 팁",
+        "back": "Tips for Buying Daily Necessities Cheaply in Korea",
+        "body": "한국에서 알뜰하게 생필품을 구입하는 팁\nTips for Buying Daily Necessities Cheaply in Korea\n대형 마트에서는 종종 ‘1+1, 2+1’ 또는 ‘주말 특가’와 같은 할인 행사를 열어 식\n료품부터 생활용품까지 다양한 상품을 싸게 판매합니다. 마트에서 나누어 주는\n전단지를 통해 할인 상품 및 할인 금액, 추천 상품 등 할인 행사에 대한 정보를\n얻을 수 있습니다.\nLarge supermarkets often have discount events like ‘1+1’, ‘2+1’ or ‘weekend\nspecials’, selling various products from food to daily necessities at lower prices.\nInformation about discount items, discount prices, and product\nrecommendations can be found in flyers at the supermarkets.\n온라인 쇼핑몰을 통해서도 생필품을 싸게 구매할 수 있습니다. 온라인 쇼핑몰에서는 정기적으로 할인 행사를\n하거나 할인 쿠폰을 제공합니다. 이를 활용하여 특정 상품을 싸게 구매하거나 추가 할인을 받을 수 있습니다.\nYou can also purchase daily necessities cheaply through online shopping malls. Online shopping malls regularly\nhold discount events or offer discount coupons. You can use these events or coupons to buy specific items\ncheaply or get additional discounts.\n또한 ‘당근’과 같은 중고 거래 플랫폼을 통해서도 생필품을 싸게 구",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook1/unit_2/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
+    "reading": [
+      {
+        "id": "u2_r1",
+        "nomor": 1,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n우산입니다.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r1_a.jpg",
+          "b": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r1_b.jpg",
+          "c": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r1_c.jpg",
+          "d": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_2/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u2_r2",
+        "nomor": 2,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n연필입니다.",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r2_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r2_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r2_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r2_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r2_a.jpg",
+          "b": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r2_b.jpg",
+          "c": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r2_c.jpg",
+          "d": "assets/modules/textbook1/unit_2/choice_images/reading/u2_r2_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_2/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u2_r3",
+        "nomor": 3,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 단어와 관계있는 것은 무엇입니까?\n가방",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "나라",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "물건",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "장소",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "음식",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_2/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u2_r4",
+        "nomor": 4,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "지갑는 없어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "달력이 아니에요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "동생가 운전기사예요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "열쇠은 책상 위에 있어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_2/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u2_r5",
+        "nomor": 5,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n중고 거래 플랫폼을 이용하면 생필품을 싸게 구할 수 있습니다. 생활용품뿐만 아니라 가전제품, 가구에\n이르기까지 다양한 물건을 살 수 있습니다. 사용하지 않은 새 물건을 파는 경우도 있습니다. 플랫폼을\n통해 물건을 사고팔 때는 주로 같은 지역에 사는 사람들 사이에서 직거래로 이루어집니다.",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "중고 거래 플랫폼으로 새 물건을 구입할 수 있습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "중고 거래 플랫폼에서 비싼 가격에 물건이 거래됩니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "물건을 거래할 때 대부분 택배를 이용해서 물건을 받습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "중고 거래 플랫폼에서 가구와 같은 물건은 구할 수 없습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_2/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ],
+    "listening": [
+      {
+        "id": "u2_l1",
+        "nomor": 1,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "시",
+        "jawaban": "b",
+        "audio_teks": "남 : 시계",
+        "audio_url": "assets/modules/textbook1/audio/unit_2/track_037.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "도",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "계",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "내",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "차",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_2/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u2_l2",
+        "nomor": 2,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "이것은\n입니다.",
+        "jawaban": "b",
+        "audio_teks": "여 : 이것은 달력입니다.",
+        "audio_url": "assets/modules/textbook1/audio/unit_2/track_037.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "침대",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "달력",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "지폐",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "여권",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_2/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u2_l3",
+        "nomor": 3,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "d",
+        "audio_teks": "남 : 이건 휴대폰이에요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_2/track_037.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "네, 휴대폰을 사요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "네, 휴대폰을 주세요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "아니요, 휴대폰이 없어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "아니요, 휴대폰이 아니에요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_2/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u2_l4",
+        "nomor": 4,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "b",
+        "audio_teks": "여 : 이건 한국어로 뭐예요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_2/track_037.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "한국에서 왔어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "그건 이불이에요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "제 것이 아니에요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "책상 위에 있어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_2/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u2_l5",
+        "nomor": 5,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
+        "jawaban": "c",
+        "audio_teks": "남 : 가방에 뭐가 있어요?\n여 : 열쇠하고 지갑이 있어요. 그리고 여권도 있어요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_2/track_037.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "국적",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "나이",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "물건",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "직업",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_2/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ]
   },
   "integrity": {
     "pdf_pages": 10,
     "lesson_audio": 5,
+    "lesson_flow": 10,
+    "vocab_cards": 28,
+    "grammar_cards": 2,
+    "conversation_cards": 8,
+    "culture_cards": 1,
+    "reading_questions": 5,
+    "listening_questions": 5,
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_scripts": 5,
     "source_page_start_index": 60,
     "source_page_end_index": 69
   }

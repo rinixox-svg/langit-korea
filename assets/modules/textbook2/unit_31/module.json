@@ -4,7 +4,7 @@
   "unit": 31,
   "title_ko": "복장과 근무 태도",
   "title_en": "Attire and Work Attitude",
-  "title_id": "Pakaian dan Sikap Kerja",
+  "title_id": "Pakaian dan sikap kerja",
   "source_pdf": "assets/langit-korea-modules/unit_31_attire_work_attitude.pdf",
   "page_start": 17,
   "page_end": 26,
@@ -61,534 +61,751 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 17,
+        "image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "31 복장과 근무 태도 \n ATTIRE AND WORK ATTITUDE 17\n어휘 VOCABULARY\n복장 관련 어휘 Attire\n작업복\nwork clothes\n유니폼\nuniform \n정장\nformal wear\n양복\nbusiness suit \n갈아입다\nto change one's clothes\n벗다\nto take off\n단추를 잠그다\nto button up\n단추를 풀다\nto unbutton\n지퍼를 올리다\nto zip up\n지퍼를 내리다\nto unzip\n넥타이를 매다\nto tie a tie\n넥타이를 풀다\nto untie a tie\n단정하다 to be neat\n새 new\n예전 old\n그렇다 to be like that\n작업하다 to work\n안전하다 to be safe\n익숙해지다 to become accustomed to\n 관계있는 것끼리 연결하세요. Connect the related items.\n⑴\n지퍼를 올렸어요.\n⑵\n단추를 잠갔어요.\n⑶\n단추를 풀었어요.\n⑷\n넥타이를 맸어요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 18,
+        "image": "assets/modules/textbook2/unit_31/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "18 한국어 표준교재 2\n문법 GRAMMAR\n-아/어 보이다\n‘-아/어 보이다’는 주로 형용사에 붙어 어떤 상태로 느껴지거나 짐작됨을 나타낸다.\n‘-아/어 보이다’ is mainly attached to adjectives to express that something appears or seems to be in a certain state. \nㅏ, ㅗ\n-아 보이다\n \n좋다 → 좋아 보이다\nㅓ, ㅜ, ㅣ…\n-어 보이다\n \n맛있다 → 맛있어 보이다\n-하다\n-해 보이다\n \n편하다 → 편해 보이다\n예 작업복이 좀 작아 보이는데 불편하지 않아요?\n \n필요 없는 물건을 치우니까 방이 넓어 보여요.\n \n단추를 잠그니까 단정해 보이네요. \n1. 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.\n⑴\n좋다\n가 : 기분이 .\n나 : 네, 고향에서 가족들이 와서요.\n⑵\n맛있다\n가 : 불고기가 아주 .\n나 : 제가 만든 건데 드셔 보세요.\n⑶\n피곤하다\n가 : 진수 씨, .\n나 : 어제 일이 늦게 끝났어요.\n⑷\n무겁다\n가: 상자를 같이 들어 줄까요? \n너무 .\n나: 네, 감사합니다.\n2. 알맞은 것을 골라 대화를 완성하세요. Complete the conversations with the correct options.\n넓다 작다 아프다 불편하다 \n⑴ 가 : 칼로 씨, 의자가 .\n \n나 : 아니에요, 아주 편해요. 앉아 볼래요? \n⑵ 가 : 자야 씨, .\n \n나 : 맞아요. 감기에 걸려서 머리가 좀 아파요.\n⑶ 가 : 유수프 씨, 작업복이 좀 . 불편하지 않아요?\n \n나 : 조금 작지만 괜찮아요.\n⑷ 가 : 진수 씨, 방이 .\n \n나 : 그렇지요? 안 쓰는 물건들을 치웠어요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 19,
+        "image": "assets/modules/textbook2/unit_31/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "31 복장과 근무 태도 \n ATTIRE AND WORK ATTITUDE 19\n대답해 봐요! ANSWER ME!\n1 새 작업복이 어때요? How are the new work clothes? \n2 왜 작업복의 지퍼를 올려야 해요? Why do they need to zip up the work clothes? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•유니폼, 파란색, 시원하다, 단추를 잠그다 \n•작업복, 하얀색, 깔끔하다, 지퍼를 올리다\n가 : 새 유니폼이 마음에 들어요?\n나 : 네, 유니폼이 파란색이라서 시원해 보여요.\n가 : 그렇지요? 그리고 일할 때는 단추를 잠그는 게 좋아요.\n나 : 네, 알겠습니다.\n발음 │ PRONUNCIATION\n두 낱말을 이어서 한 마디로 발음할 때, 비음 앞에 있는 장애음은 같은 위치의 비음으로 발음한다.\nWhen two words are pronounced as one unit, the preceding obstruent is pronounced as a nasal sound \nif the following sound is nasal. \n⑴ 책 넣는다[챙넌는다] \n밥 먹는다[밤멍는다] \n옷 맞추다[온맏추다]\n⑵ 밥 맛있게[밤마싣께] 드세요 \n새해 복 많이[봉마니] 받으세요\n179\n대화 CONVERSATION\n반장님\n칼로 씨, 새 작업복이 마음에 들어요? \n \nCarlo, do you like the new work clothes? \n칼\n로 \n네, 반장님. 새 작업복이 예전 작업복보다 가벼워서 좋네요. \nYes, Banjangnim. I like the new work clothes because they’re lighter than the old ones. \n반장님\n그렇지요? 그리고 지퍼를 목까지 올릴 수 있어서 작업할 때 안전해요.\n \nRight? And you can zip it up to the neck, \nso it's safe when working. \n칼\n로 \n그런데 지퍼를 조금만 내리고 작업해도 돼요? \n좀 불편해서요. \nBut can I unzip it a little while working? It's a bit \nuncomfortable. \n반장님\n지퍼를 올리는 게 안전하고 단정해 보여요. \n익숙해지면 괜찮을 거예요.\n \nZipping it up looks safe and neat. When you get used to \nit, it will be okay. \n칼\n로 \n네, 알겠습니다. \nYes, I understand.\n178",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 20,
+        "image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "20 한국어 표준교재 2\n 그림을 보고 문장을 완성하세요. Look at the pictures and complete the sentences. \n⑴\n직장에서는 서로 \n아야/어야 돼요.\n⑵\n동료의 의견을 \n아야/어야 돼요.\n⑶\n같이 사용하는 물건을\n (으)면 \n안 돼요.\n⑷\n일하고 있는 동료에게\n (으)면 \n안 돼요.\n어휘 VOCABULARY\n태도 관련 어휘 Attitude\n안녕?\n뭐 해?\n뭐 하세요?\n예의가 있다\nto be polite\n예의가 없다\nto be rude\n반말을 하다\nto speak in non-honorifics \n존댓말을 하다\nto speak in honorifics\n칭찬하다\nto compliment\n존중하다\nto respect\n배려하다\nto act considerately\n성실하다\nto be diligent\n긍정적이다\nto be positive\n부정적이다\nto be negative\n함부로 하다\nto act carelessly\n피해를 주다\nto cause harm\n무시하다\nto ignore\n불쾌하다\nto be displeased\n서로 each other\n의견 opinion\n사용하다 to use\n공장 factory\n공장장 factory manager\n \n다행 fortunate thing\n참 really\n항상 always\n앞으로 in the future",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 21,
+        "image": "assets/modules/textbook2/unit_31/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "31 복장과 근무 태도 \n ATTIRE AND WORK ATTITUDE 21\n문법 GRAMMAR\n-게\n‘-게’는 주로 형용사에 붙어 뒤에 오는 행위의 정도나 방식을 나타낸다.\n‘-게’ is mainly attached to adjectives to indicate the degree or manner of the following verb's action. \n예 칼로 씨는 항상 성실하게 일하네요.\n \n배가 고파서 점심을 아주 맛있게 먹었어요. \n \n가 : 머리를 너무 짧게 잘랐지요? \n \n나 : 단정해 보여서 좋은데요.\n1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.\n짧다 싸다 재미있다 단정하다\n⑴ 칼로 씨는 이야기를 해요.\n⑵ 마두 씨는 항상 옷을 입어요.\n⑶ 시장에 가면 옷을 살 수 있어요.\n⑷ 날씨가 더워서 머리를 잘랐어요.\n2. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example.\n가 : 마두 씨, 머리 잘랐어요?\n나 : 네, 날씨가 너무 더워서 짧게 잘랐어요.\n[ 보기 ]\n⑴\n가 : 진수 씨, 휴게실 청소했어요? \n나 : 네, 휴게실이 지저분해서 았어요/었어요.\n⑵\n가 : 푸캄 씨, 지하철에서 (으)면 안 돼요.\n나 : 알았어요. 작은 소리로 말할게요.\n⑶\n가 : 아지자 씨, 날씨가 추운데 빨리 일 마치고 들어오세요. \n나 : 괜찮아요. 옷을 았어요/었어요.\n⑷\n가 : 칼로 씨, 어제 몇 시에 퇴근했어요?\n나 : 일이 많아서 았어요/었어요. \n \n집에 도착하니까 11시가 넘었어요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 22,
+        "image": "assets/modules/textbook2/unit_31/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "22 한국어 표준교재 2\n대화 CONVERSATION\n공장장님 \n마두 씨, 요즘 우리 공장이 일이 많은데 \n힘들지 않아요?\n \nMadhu, isn't it tough with all the work our \nfactory has these days? \n마\n두 \n네, 공장장님. 괜찮습니다.\n \nNo, Gongjangjangnim. I'm fine. \n공장장님 \n다행이네요. 마두 씨는 항상 성실하게 일해\n서 참 좋아요. 너무 힘들면 말해요.\n \nThat's fortunate. Madhu, I really like how you \nalways work so diligently. Let me know if it gets \ntoo hard. \n마\n두 \n감사합니다. 앞으로도 열심히 하겠습니다.\n \nThank you. I will continue to do my best. \n공장장님 \n마두 씨의 긍정적인 태도가 참 좋아요. \n마두 씨가 우리하고 오래 같이 일하면 좋겠어요.\n \nI really appreciate your positive attitude, Madhu. I hope you can stay with us for a long time. \n대답해 봐요! ANSWER ME!\n1 마두 씨는 공장 일이 힘들어요? Is Madhu having a hard time with the factory work? \n2 공장장님은 마두 씨의 어떤 태도를 칭찬했어요? \nWhat attitude of Madhu did the gongjangajang compliment? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•공장, 일이 많다, 성실하다\n•식당, 바쁘다, 즐겁다\n가 : 요즘 우리 공장이 일이 많은데 힘들지 않아요?\n나 : 아니요, 괜찮아요.\n가 : 우리 직원들은 모두 성실하게 일해서 참 좋아요.\n나 : 감사합니다. 앞으로도 성실하게 일할게요.\n가 : 일을 아주 잘하네요. You’re doing a great job. \n나 : 과장님이 잘 가르쳐 주신 덕분이에요. \nIt’s all thanks to Gwajangnim's good guidance.\n유용한 표현 │ USEFUL EXPRESSION\n덕분이에요.\nThanks to you. \n181\n180",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 23,
+        "image": "assets/modules/textbook2/unit_31/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "문화와 정보 CULTURE & INFORMATION\n직장 내 언어 예절\nLanguage Etiquette in the Workplace\n한국의 직장에서는 상대방의 직위나 직책에 따라 호칭을 구\n별하여 사용합니다. 윗사람에게는 ‘부장님’, ‘과장님’, ‘팀장님’, \n‘반장님’처럼 직위나 직책 다음에 ‘-님’을 붙여 부르는 것이 좋습\n니다. 만일 여러 명의 ‘과장님’이 있다면 구분을 위해 과장님 앞\n에 이름이나 성을 붙여 ‘김진수 과장님’ 혹은 ‘김 과장님’처럼 부\n르면 됩니다.\nIn Korean workplaces, titles are used to address individuals \nbased on their position or rank. It is appropriate to use \nhonorifics such as ‘bujangnim (department head)’, \n‘gwajangnim (general manager)’, ‘timjangnim (team leader)’, \nor ‘banjangnim (group leader)’, attaching ‘-nim’ to the title. If \nthere are multiple people with the same title, it is customary \nto add their name or surname before the title to distinguish \nbetween them, such as ‘Kim Jinsu gwajangnim’ or ‘Kim \ngwajangnim’.\n비슷한 직급의 동료나 후배를 부를 때는 이름 뒤에 ‘씨’를 붙\n여 ‘김진수 씨’, ‘이유진 씨’처럼 부릅니다. ‘진수 씨’나 ‘유진 씨’처\n럼 성을 빼고 이름만 부르기도 하는데 이는 상대방에 대한 친근\n함의 표현입니다. 이때 만일 상대방이 자신보다 나이가 많은 경\n우 이름 대신 ‘선배님’이나 ‘형’, ‘누나’와 같은 가족 호칭 등으로 \n부르기도 합니다.\nWhen addressing colleagues or juniors of similar rank, you use \n‘-ssi ’ after their name, such as ‘Kim Jinsu ssi ’ or ‘Lee Yujin ssi ’. \nIt is also common to omit the surname and address them by \ntheir given name alone, such as ‘Jinsu ssi ’ or ‘Yujin ssi ’, which \nexpresses a sense of familiarity. However, if the person is \nolder than you, you might use family-like terms instead, such \nas ‘sunbae-nim’, ‘hyung ’, or ‘noona’.\n직장에서는 올바른 호칭과 함께 존댓말을 사용하는 것이 좋\n습니다. 윗사람이나 나이가 많은 사람들에게는 물론이고, 동료\n나 후배에게도 존댓말을 사용하는 것이 바람직합니다. 또한 언\n제나 정중한 표현을 사용하고 ‘감사합니다’, ‘죄송합니다’, ‘부탁\n드립니다’ 등의 표현을 자주 사용하여 자신의 마음을 표현하는 \n것이 중요합니다. \nIn the workplace, it is advisable to use appropriate titles along \nwith honorific language. It is important to use respectful \nlanguage not only with superiors and older individuals but \nalso with colleagues and juniors. Additionally, always using \npolite expressions and saying phrases like ‘kamsahamnida \n(thank you)’, ‘joesonghamnida (sorry)’, and ‘butakdeurimnida \n(please)’ to express your intentions is important.\n31 복장과 근무 태도 \n ATTIRE AND WORK ATTITUDE 23\n• 근무 시 복장에 대해 말할 수 있다. I can talk about work attire. \n↻\n• 근무 태도에 대해 말할 수 있다. I can talk about work attitude. \n↻\n• 어떤 대상을 보고 짐작하거나 판단할 때 쓰는 표현을 사용할 수 있다. \nI can use expressions to guess or judge something I have observed. \n↻\n확인해요 │ self assessment",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 24,
+        "image": "assets/modules/textbook2/unit_31/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n24 한국어 표준교재 2\n1. \n다음 단어의 반대말은 무엇입니까?\n잠그다\n① 벗다 \n \n \n② 풀다 \n③ 올리다 \n \n \n④ 내리다\n2. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.\n① 셔츠를 입고 넥타이를 잠갔어요. \n② 작업복이 불편해서 지퍼를 맸어요.\n③ 출근한 후에 유니폼으로 내렸어요. \n④ 날씨가 더워서 작업복 단추를 풀었어요.\n[3~4] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n3.\n어제 공장장님께서 항상 성실하게 일한다고 을/를 해 주셨습니다. 그 말을 들으니까 \n기분이 좋았습니다. 앞으로 더 열심히 일할 겁니다.\n① 사과 \n \n \n② 축하 \n③ 칭찬 \n \n \n④ 인사\n4.\n작업장에서 일할 때는 항상 작업복을 입어야 합니다. 그래서 출근한 후에 바로 작업복으로 \n일을 시작합니다.\n① 만들고 \n \n \n② 부르고\n③ 갈아입고 \n \n \n④ 건너가고\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국에서는 직장 상사에게 ‘반장님’처럼 직책 다음에 ‘-님’을 붙여 부릅니다. 만약 ‘과장님’이 여러 \n명이라면 구분을 위해 ‘김 과장님’, ‘이민주 과장님’과 같이 이름이나 성을 붙여 부르면 됩니다. 동료나 \n후배를 부를 때는 이름 뒤에 ‘씨’를 붙여서 ‘진수 씨’, ‘유진 씨’처럼 부릅니다. 친한 동료일 경우 직장 \n밖에서 ‘형’, ‘누나’와 같은 가족 호칭을 써서 부르기도 합니다. \n① 상사를 부를 때는 이름 뒤에 '씨'를 붙여 부릅니다.\n② 동료나 후배에게는 직책에 ‘-님’을 붙여 부릅니다.\n③ 친한 사이일 경우 가족 호칭을 사용하지 않습니다.\n④ 같은 직책인 사람이 여러 명이면 직책 앞에 성을 붙여 부릅니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 25,
+        "image": "assets/modules/textbook2/unit_31/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n31 복장과 근무 태도 \n ATTIRE AND WORK ATTITUDE 25\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n2. 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n① 네, 유니폼이에요. \n \n \n② 네, 유니폼이 예뻐요.\n③ 아니요, 유니폼이 커요. \n \n④ 아니요, 유니폼이 비싸요.\n3. 두 사람은 무엇에 대해 말하고 있습니까?\n① 새로 온 직원의 태도 \n \n \n② 새로 온 직원의 외모 \n③ 새로 온 직원의 복장 \n \n \n④ 새로 온 직원의 국적\n4. 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n① 작업복이 잘 어울리네요. \n \n② 작업복이 시원해 보여요.\n③ 익숙해지면 괜찮을 거예요. \n \n④ 사무실에 가서 새로 받았어요.\n5. \n남자가 이어서 할 행동은 무엇입니까?\n① 단추를 잠급니다. \n② 작업복을 벗습니다.\n③ 작업장 창문을 엽니다. \n④ 작업복을 가지러 갑니다.\n1. \n여 : 마두 씨 회사 작업복은 무슨 색이에요?\n \n남 : 우리 회사는 파란색 작업복을 입어요.\n2. 남 : 유니폼이 작아요?\n3. 남 : 새로 온 직원은 어때요?\n \n여 : 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.\n4. 남 : 지퍼를 목까지 올리니까 좀 불편해요.\n5. 여 : 아궁 씨, 왜 작업복 단추를 안 잠갔어요?\n \n남 : 작업장이 너무 더워서 조금 풀었어요.\n \n여 : 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.\n \n남 : 알겠어요. 지금 잠글게요.\n듣기지문\n182",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 26,
+        "image": "assets/modules/textbook2/unit_31/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "26 한국어 표준교재 2\n학습 목표\nLEARNING OBJECTIVES\n기숙사 시설과 규칙에 대해 말할 수 있다.\nCan talk about dormitory facilities and rules. \n구내식당 이용에 대해 말할 수 있다.\nCan talk about using the cafeteria.\n회사 시설 이용 \nUse of Company Facilities\nC H A P T E R 3 2\n26 한국어 표준교재 2\n-잖아요\n-아/어 놓다\nGRAMMAR\n문법\n기숙사 관련 어휘\nVocabulary Related to the Dormitory\n구내식당 관련 어휘\nVocabulary Related to the Cafeteria \nVOCABULARY\n어휘\n사내 공용 시설 사용 수칙\nRules for Using Shared Company \nFacilities\nCULTURE & INFORMATION\n문화와 정보\n불편하지는 않지만 지켜야 되는 규칙이 있어요. \n기숙사에서는 여러 사람이 함께 생활하잖아요.\n기숙사는 불편하지요?\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "vocab": [
       {
         "id": "vocab_1",
-        "front": "31 복장과 근무 태도",
-        "back": "ATTIRE AND WORK ATTITUDE 17",
-        "raw": {
-          "korean": "31  복장과 근무 태도",
-          "indonesia": "ATTIRE AND WORK ATTITUDE   17"
-        }
+        "front": "복장 관련 어휘",
+        "back": "Attire",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_2",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "작업복",
+        "back": "work clothes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_3",
-        "front": "복장 관련 어휘",
-        "back": "Attire",
-        "raw": {
-          "korean": "복장 관련 어휘",
-          "indonesia": "\u0007Attire"
-        }
+        "front": "유니폼",
+        "back": "uniform",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_4",
-        "front": "작업복",
-        "back": "work clothes",
-        "raw": {
-          "korean": "작업복",
-          "indonesia": "work clothes"
-        }
+        "front": "정장",
+        "back": "formal wear",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_5",
-        "front": "유니폼",
-        "back": "uniform",
-        "raw": {
-          "korean": "유니폼",
-          "indonesia": "uniform"
-        }
+        "front": "양복",
+        "back": "business suit",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_6",
-        "front": "정장",
-        "back": "formal wear",
-        "raw": {
-          "korean": "정장",
-          "indonesia": "formal wear"
-        }
+        "front": "갈아입다",
+        "back": "to change one's clothes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_7",
-        "front": "양복",
-        "back": "business suit",
-        "raw": {
-          "korean": "양복",
-          "indonesia": "business suit"
-        }
+        "front": "벗다",
+        "back": "to take off",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_8",
-        "front": "갈아입다",
-        "back": "to change one's clothes",
-        "raw": {
-          "korean": "갈아입다",
-          "indonesia": "to change one's clothes"
-        }
+        "front": "단추를 잠그다",
+        "back": "to button up",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_9",
-        "front": "벗다",
-        "back": "to take off",
-        "raw": {
-          "korean": "벗다",
-          "indonesia": "to take off"
-        }
+        "front": "단추를 풀다",
+        "back": "to unbutton",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_10",
-        "front": "단추를 잠그다",
-        "back": "to button up",
-        "raw": {
-          "korean": "단추를 잠그다",
-          "indonesia": "to button up"
-        }
+        "front": "지퍼를 올리다",
+        "back": "to zip up",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_11",
-        "front": "단추를 풀다",
-        "back": "to unbutton",
-        "raw": {
-          "korean": "단추를 풀다",
-          "indonesia": "to unbutton"
-        }
+        "front": "지퍼를 내리다",
+        "back": "to unzip",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_12",
-        "front": "지퍼를 올리다",
-        "back": "to zip up",
-        "raw": {
-          "korean": "지퍼를 올리다",
-          "indonesia": "to zip up"
-        }
+        "front": "넥타이를 매다",
+        "back": "to tie a tie",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_13",
-        "front": "지퍼를 내리다",
-        "back": "to unzip",
-        "raw": {
-          "korean": "지퍼를 내리다",
-          "indonesia": "to unzip"
-        }
+        "front": "넥타이를 풀다",
+        "back": "to untie a tie",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_14",
-        "front": "넥타이를 매다",
-        "back": "to tie a tie",
-        "raw": {
-          "korean": "넥타이를 매다",
-          "indonesia": "to tie a tie"
-        }
+        "front": "단정하다",
+        "back": "to be neat",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_15",
-        "front": "넥타이를 풀다",
-        "back": "to untie a tie",
-        "raw": {
-          "korean": "넥타이를 풀다",
-          "indonesia": "to untie a tie"
-        }
+        "front": "예전",
+        "back": "old",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_16",
-        "front": "관계있는 것끼리 연결하세요. Connect the related items.",
-        "back": "⑴",
-        "raw": {
-          "korean": "관계있는 것끼리 연결하세요. Connect the related items.",
-          "indonesia": "⑴"
-        }
+        "front": "그렇다",
+        "back": "to be like that",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_17",
-        "front": "지퍼를 올렸어요.",
-        "back": "⑵",
-        "raw": {
-          "korean": "지퍼를 올렸어요.",
-          "indonesia": "⑵"
-        }
+        "front": "작업하다",
+        "back": "to work",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_18",
-        "front": "단추를 잠갔어요.",
-        "back": "⑶",
-        "raw": {
-          "korean": "단추를 잠갔어요.",
-          "indonesia": "⑶"
-        }
+        "front": "안전하다",
+        "back": "to be safe",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_19",
-        "front": "단추를 풀었어요.",
-        "back": "⑷",
-        "raw": {
-          "korean": "단추를 풀었어요.",
-          "indonesia": "⑷"
-        }
+        "front": "익숙해지다",
+        "back": "to become accustomed to",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_20",
-        "front": "그림을 보고 문장을 완성하세요. Look at the pictures and complete the sentences.",
-        "back": "⑴",
-        "raw": {
-          "korean": "\u0007그림을 보고 문장을 완성하세요. Look at the pictures and complete the sentences.",
-          "indonesia": "⑴"
-        }
+        "front": "태도 관련 어휘",
+        "back": "Attitude",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_21",
-        "front": "아야/어야 돼요.",
-        "back": "⑵",
-        "raw": {
-          "korean": "아야/어야 돼요.",
-          "indonesia": "⑵"
-        }
+        "front": "예의가 있다",
+        "back": "to be polite",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_22",
-        "front": "아야/어야 돼요.",
-        "back": "⑶",
-        "raw": {
-          "korean": "아야/어야 돼요.",
-          "indonesia": "⑶"
-        }
+        "front": "예의가 없다",
+        "back": "to be rude",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_23",
-        "front": "안 돼요.",
-        "back": "⑷",
-        "raw": {
-          "korean": "안 돼요.",
-          "indonesia": "⑷"
-        }
+        "front": "반말을 하다",
+        "back": "to speak in non-honorifics",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_24",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "존댓말을 하다",
+        "back": "to speak in honorifics",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_25",
-        "front": "태도 관련 어휘",
-        "back": "Attitude",
-        "raw": {
-          "korean": "태도 관련 어휘",
-          "indonesia": "\u0007Attitude"
-        }
+        "front": "칭찬하다",
+        "back": "to compliment",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_26",
-        "front": "예의가 있다",
-        "back": "to be polite",
-        "raw": {
-          "korean": "예의가 있다",
-          "indonesia": "to be polite"
-        }
+        "front": "존중하다",
+        "back": "to respect",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_27",
-        "front": "예의가 없다",
-        "back": "to be rude",
-        "raw": {
-          "korean": "예의가 없다",
-          "indonesia": "to be rude"
-        }
+        "front": "배려하다",
+        "back": "to act considerately",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_28",
-        "front": "반말을 하다",
-        "back": "to speak in non-honorifics",
-        "raw": {
-          "korean": "반말을 하다",
-          "indonesia": "to speak in non-honorifics"
-        }
+        "front": "성실하다",
+        "back": "to be diligent",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_29",
-        "front": "존댓말을 하다",
-        "back": "to speak in honorifics",
-        "raw": {
-          "korean": "존댓말을 하다",
-          "indonesia": "to speak in honorifics"
-        }
+        "front": "긍정적이다",
+        "back": "to be positive",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_30",
-        "front": "칭찬하다",
-        "back": "to compliment",
-        "raw": {
-          "korean": "칭찬하다",
-          "indonesia": "to compliment"
-        }
+        "front": "부정적이다",
+        "back": "to be negative",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_31",
-        "front": "존중하다",
-        "back": "to respect",
-        "raw": {
-          "korean": "존중하다",
-          "indonesia": "to respect"
-        }
+        "front": "함부로 하다",
+        "back": "to act carelessly",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_32",
-        "front": "배려하다",
-        "back": "to act considerately",
-        "raw": {
-          "korean": "배려하다",
-          "indonesia": "to act considerately"
-        }
+        "front": "피해를 주다",
+        "back": "to cause harm",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_33",
-        "front": "성실하다",
-        "back": "to be diligent",
-        "raw": {
-          "korean": "성실하다",
-          "indonesia": "to be diligent"
-        }
+        "front": "무시하다",
+        "back": "to ignore",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_34",
-        "front": "긍정적이다",
-        "back": "to be positive",
-        "raw": {
-          "korean": "긍정적이다",
-          "indonesia": "to be positive"
-        }
+        "front": "불쾌하다",
+        "back": "to be displeased",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_35",
-        "front": "부정적이다",
-        "back": "to be negative",
-        "raw": {
-          "korean": "부정적이다",
-          "indonesia": "to be negative"
-        }
+        "front": "서로",
+        "back": "each other",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_36",
-        "front": "함부로 하다",
-        "back": "to act carelessly",
-        "raw": {
-          "korean": "함부로 하다",
-          "indonesia": "to act carelessly"
-        }
+        "front": "의견",
+        "back": "opinion",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_37",
-        "front": "피해를 주다",
-        "back": "to cause harm",
-        "raw": {
-          "korean": "피해를 주다",
-          "indonesia": "to cause harm"
-        }
+        "front": "사용하다",
+        "back": "to use",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_38",
-        "front": "무시하다",
-        "back": "to ignore",
-        "raw": {
-          "korean": "무시하다",
-          "indonesia": "to ignore"
-        }
+        "front": "공장",
+        "back": "factory",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_39",
-        "front": "불쾌하다",
-        "back": "to be displeased",
-        "raw": {
-          "korean": "불쾌하다",
-          "indonesia": "to be displeased"
-        }
+        "front": "공장장",
+        "back": "factory manager",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_40",
+        "front": "다행",
+        "back": "fortunate thing",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_41",
+        "front": "항상",
+        "back": "always",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_42",
+        "front": "앞으로",
+        "back": "in the future",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       }
     ],
     "grammar": [
       {
         "id": "grammar_1",
-        "front": "18 한국어 표준교재 2",
-        "back": "문법 GRAMMAR",
-        "raw": {
-          "pattern": "18   한국어 표준교재  2",
-          "explanation": "문법  GRAMMAR"
-        }
+        "front": "-아/어 보이다",
+        "back": "‘-아/어 보이다’는 주로 형용사에 붙어 어떤 상태로 느껴지거나 짐작됨을 나타낸다.\n‘-아/어 보이다’ is mainly attached to adjectives to express that something appears or seems to be in a certain state.\nㅏ, ㅗ\n-아 보이다\n좋다 → 좋아 보이다\nㅓ, ㅜ, ㅣ…\n-어 보이다\n맛있다 → 맛있어 보이다\n-하다\n-해 보이다\n편하다 → 편해 보이다",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
       },
       {
         "id": "grammar_2",
-        "front": "‘-아/어 보이다’는 주로 형용사에 붙어 어떤 상태로 느껴지거나 짐작됨을 나타낸다.",
-        "back": "‘-아/어 보이다’ is mainly attached to adjectives to express that something appears or seems to be in a certain state.",
-        "raw": {
-          "pattern": "‘-아/어 보이다’는 주로 형용사에 붙어 어떤 상태로 느껴지거나 짐작됨을 나타낸다.",
-          "explanation": "‘-아/어 보이다’ is mainly attached to adjectives to express that something appears or seems to be in a certain state."
-        }
-      },
-      {
-        "id": "grammar_3",
-        "front": "단추를 잠그니까 단정해 보이네요.",
-        "back": "1. 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.",
-        "raw": {
-          "pattern": "단추를 잠그니까 단정해 보이네요.",
-          "explanation": "1. 그림을 보고 대화를 완성하세요.  Look at the pictures and complete the conversations."
-        }
-      },
-      {
-        "id": "grammar_4",
-        "front": "나: 네, 감사합니다.",
-        "back": "2. 알맞은 것을 골라 대화를 완성하세요. Complete the conversations with the correct options.",
-        "raw": {
-          "pattern": "나: 네, 감사합니다.",
-          "explanation": "2. \u0007알맞은 것을 골라 대화를 완성하세요. Complete the conversations with the correct options."
-        }
-      },
-      {
-        "id": "grammar_5",
-        "front": "31 복장과 근무 태도",
-        "back": "ATTIRE AND WORK ATTITUDE 21",
-        "raw": {
-          "pattern": "31  복장과 근무 태도",
-          "explanation": "ATTIRE AND WORK ATTITUDE   21"
-        }
-      },
-      {
-        "id": "grammar_6",
-        "front": "‘-게’는 주로 형용사에 붙어 뒤에 오는 행위의 정도나 방식을 나타낸다.",
-        "back": "‘-게’ is mainly attached to adjectives to indicate the degree or manner of the following verb's action.",
-        "raw": {
-          "pattern": "‘-게’는 주로 형용사에 붙어 뒤에 오는 행위의 정도나 방식을 나타낸다.",
-          "explanation": "‘-게’ is mainly attached to adjectives to indicate the degree or manner of the following verb's action."
-        }
-      },
-      {
-        "id": "grammar_7",
-        "front": "나 : 단정해 보여서 좋은데요.",
-        "back": "1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.",
-        "raw": {
-          "pattern": "나 : 단정해 보여서 좋은데요.",
-          "explanation": "1. \u0007알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options."
-        }
-      },
-      {
-        "id": "grammar_8",
-        "front": "⑷ 날씨가 더워서 머리를 잘랐어요.",
-        "back": "2. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example.",
-        "raw": {
-          "pattern": "⑷\t 날씨가 더워서 머리를                                          잘랐어요.",
-          "explanation": "2. \u0007[보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example."
-        }
+        "front": "-게",
+        "back": "‘-게’는 주로 형용사에 붙어 뒤에 오는 행위의 정도나 방식을 나타낸다.\n‘-게’ is mainly attached to adjectives to indicate the degree or manner of the following verb's action.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
       }
     ],
     "conversation": [
       {
         "id": "conversation_1",
-        "front": "새 유니폼이 마음에 들어요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "새 유니폼이 마음에 들어요?"
-        }
+        "front": "칼로 씨, 새 작업복이 마음에 들어요?",
+        "back": "Carlo, do you like the new work clothes?",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_2",
-        "front": "네, 유니폼이 파란색이라서 시원해 보여요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "네, 유니폼이 파란색이라서 시원해 보여요."
-        }
+        "front": "네, 반장님. 새 작업복이 예전 작업복보다 가벼워서 좋네요.",
+        "back": "Yes, Banjangnim. I like the new work clothes because they’re lighter than the old ones.",
+        "speaker": "로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_3",
-        "front": "그렇지요? 그리고 일할 때는 단추를 잠그는 게 좋아요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "그렇지요? 그리고 일할 때는 단추를 잠그는 게 좋아요."
-        }
+        "front": "그렇지요? 그리고 지퍼를 목까지 올릴 수 있어서 작업할 때 안전해요.",
+        "back": "Right? And you can zip it up to the neck, so it's safe when working.",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_4",
-        "front": "네, 알겠습니다. 발음 │ PRONUNCIATION 두 낱말을 이어서 한 마디로 발음할 때, 비음 앞에 있는 장애음은 같은 위치의 비음으로 발음한다. When two words are pronounced as one unit, the preceding obstruent is pronounced as a nasal sound if the following sound is nasal. ⑴ 책 넣는다[챙넌는다] 밥 먹는다[밤멍는다] 옷 맞추다[온맏추다] ⑵ 밥 맛있게[밤마싣께] 드세요 새해 복 많이[봉마니] 받으세요 179 대화 CONVERSATION 반장님 칼로 씨, 새 작업복이 마음에 들어요? Carlo, do you like the new work clothes? 칼 로 네, 반장님. 새 작업복이 예전 작업복보다 가벼워서 좋네요. Yes, Banjangnim. I like the new work clothes because they’re lighter than the old ones. 반장님 그렇지요? 그리고 지퍼를 목까지 올릴 수 있어서 작업할 때 안전해요. Right? And you can zip it up to the neck, so it's safe when working. 칼 로 그런데 지퍼를 조금만 내리고 작업해도 돼요? 좀 불편해서요. But can I unzip it a little while working? It's a bit uncomfortable. 반장님 지퍼를 올리는 게 안전하고 단정해 보여요. 익숙해지면 괜찮을 거예요. Zipping it up looks safe and neat. When you get used to it, it will be okay. 칼 로 네, 알겠습니다. Yes, I understand. 178",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "네, 알겠습니다. 발음 │ PRONUNCIATION 두 낱말을 이어서 한 마디로 발음할 때, 비음 앞에 있는 장애음은 같은 위치의 비음으로 발음한다. When two words are pronounced as one unit, the preceding obstruent is pronounced as a nasal sound if the following sound is nasal. ⑴ 책 넣는다[챙넌는다] 밥 먹는다[밤멍는다] 옷 맞추다[온맏추다] ⑵ 밥 맛있게[밤마싣께] 드세요 새해 복 많이[봉마니] 받으세요 179 대화  CONVERSATION 반장님 칼로 씨, 새 작업복이 마음에 들어요? Carlo, do you like the new work clothes? 칼 로 \u0007네, 반장님. 새 작업복이 예전 작업복보다 가벼워서 좋네요. Yes, Banjangnim. I like the new work clothes because they’re lighter than the old ones. 반장님 그렇지요? 그리고 지퍼를 목까지 올릴 수 있어서 작업할 때 안전해요. \u0007Right? And you can zip it up to the neck, so it's safe when working. 칼 로 \u0007그런데 지퍼를 조금만 내리고 작업해도 돼요? 좀 불편해서요. But can I unzip it a little while working? It's a bit uncomfortable. 반장님 지퍼를 올리는 게 안전하고 단정해 보여요. 익숙해지면 괜찮을 거예요. \u0007Zipping it up looks safe and neat. When you get used to it, it will be okay. 칼 로 \u0007네, 알겠습니다. Yes, I understand. 178"
-        }
+        "front": "그런데 지퍼를 조금만 내리고 작업해도 돼요?\n좀 불편해서요.",
+        "back": "But can I unzip it a little while working? It's a bit uncomfortable.",
+        "speaker": "로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_5",
-        "front": "요즘 우리 공장이 일이 많은데 힘들지 않아요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "요즘 우리 공장이 일이 많은데 힘들지 않아요?"
-        }
+        "front": "지퍼를 올리는 게 안전하고 단정해 보여요.\n익숙해지면 괜찮을 거예요.",
+        "back": "Zipping it up looks safe and neat. When you get used to it, it will be okay.",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_6",
-        "front": "아니요, 괜찮아요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "아니요, 괜찮아요."
-        }
+        "front": "네, 알겠습니다.",
+        "back": "Yes, I understand.",
+        "speaker": "로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_7",
-        "front": "우리 직원들은 모두 성실하게 일해서 참 좋아요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "우리 직원들은 모두 성실하게 일해서 참 좋아요."
-        }
+        "front": "마두 씨, 요즘 우리 공장이 일이 많은데\n힘들지 않아요?",
+        "back": "Madhu, isn't it tough with all the work our factory has these days?",
+        "speaker": "공장장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_8",
-        "front": "감사합니다. 앞으로도 성실하게 일할게요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "감사합니다. 앞으로도 성실하게 일할게요."
-        }
+        "front": "네, 공장장님. 괜찮습니다.",
+        "back": "No, Gongjangjangnim. I'm fine.",
+        "speaker": "두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_9",
-        "front": "일을 아주 잘하네요. You’re doing a great job.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "\u0007일을 아주 잘하네요. You’re doing a great job."
-        }
+        "front": "다행이네요. 마두 씨는 항상 성실하게 일해\n서 참 좋아요. 너무 힘들면 말해요.",
+        "back": "That's fortunate. Madhu, I really like how you always work so diligently. Let me know if it gets too hard.",
+        "speaker": "공장장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_10",
-        "front": "과장님이 잘 가르쳐 주신 덕분이에요. It’s all thanks to Gwajangnim's good guidance. 유용한 표현 │ USEFUL EXPRESSION 덕분이에요. Thanks to you. 181 180",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "\u0007과장님이 잘 가르쳐 주신 덕분이에요. It’s all thanks to Gwajangnim's good guidance. 유용한 표현 │ USEFUL EXPRESSION 덕분이에요. Thanks to you. 181 180"
-        }
+        "front": "감사합니다. 앞으로도 열심히 하겠습니다.",
+        "back": "Thank you. I will continue to do my best.",
+        "speaker": "두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_11",
+        "front": "마두 씨의 긍정적인 태도가 참 좋아요.\n마두 씨가 우리하고 오래 같이 일하면 좋겠어요.",
+        "back": "I really appreciate your positive attitude, Madhu. I hope you can stay with us for a long time.",
+        "speaker": "공장장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       }
     ],
-    "culture": [],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "직장 내 언어 예절",
+        "back": "Language Etiquette in the Workplace",
+        "body": "직장 내 언어 예절\nLanguage Etiquette in the Workplace\n한국의 직장에서는 상대방의 직위나 직책에 따라 호칭을 구\n별하여 사용합니다. 윗사람에게는 ‘부장님’, ‘과장님’, ‘팀장님’,\n‘반장님’처럼 직위나 직책 다음에 ‘-님’을 붙여 부르는 것이 좋습\n니다. 만일 여러 명의 ‘과장님’이 있다면 구분을 위해 과장님 앞\n에 이름이나 성을 붙여 ‘김진수 과장님’ 혹은 ‘김 과장님’처럼 부\n르면 됩니다.\nIn Korean workplaces, titles are used to address individuals\nbased on their position or rank. It is appropriate to use\nhonorifics such as ‘bujangnim (department head)’,\n‘gwajangnim (general manager)’, ‘timjangnim (team leader)’,\nor ‘banjangnim (group leader)’, attaching ‘-nim’ to the title. If\nthere are multiple people with the same title, it is customary\nto add their name or surname before the title to distinguish\nbetween them, such as ‘Kim Jinsu gwajangnim’ or ‘Kim",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook2/unit_31/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
     "reading": [
       {
-        "id": "u31_m1",
+        "id": "u31_r1",
         "nomor": 1,
         "tipe": "membaca",
-        "instruksi": "다음 단어의 반대말은 무엇입니까?",
-        "teks_soal": "잠그다",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 단어의 반대말은 무엇입니까?\n잠그다",
+        "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -617,15 +834,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_31/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u31_m2",
+        "id": "u31_r2",
         "nomor": 2,
         "tipe": "membaca",
-        "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
-        "teks_soal": "",
-        "jawaban": "b",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -654,14 +875,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_31/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u31_m3",
+        "id": "u31_r3",
         "nomor": 3,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "어제 공장장님께서 항상 성실하게 일한다고 을/를 해 주셨습니다. 그 말을 들으니까 기분이 좋았습니다. 앞으로 더 열심히 일할 겁니다.",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n어제 공장장님께서 항상 성실하게 일한다고 을/를 해 주셨습니다. 그 말을 들으니까\n기분이 좋았습니다. 앞으로 더 열심히 일할 겁니다.",
         "jawaban": "c",
         "audio_teks": "",
         "audio_url": "",
@@ -691,15 +916,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_31/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u31_m4",
+        "id": "u31_r4",
         "nomor": 4,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "작업장에서 일할 때는 항상 작업복을 입어야 합니다. 그래서 출근한 후에 바로 작업복으로 일을 시작합니다.",
-        "jawaban": "d",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n작업장에서 일할 때는 항상 작업복을 입어야 합니다. 그래서 출근한 후에 바로 작업복으로\n일을 시작합니다.",
+        "jawaban": "c",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -728,15 +957,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_31/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u31_m5",
+        "id": "u31_r5",
         "nomor": 5,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "한국에서는 직장 상사에게 ‘반장님’처럼 직책 다음에 ‘-님’을 붙여 부릅니다. 만약 ‘과장님’이 여러 명이라면 구분을 위해 ‘김 과장님’, ‘이민주 과장님’과 같이 이름이나 성을 붙여 부르면 됩니다. 동료나 후배를 부를 때는 이름 뒤에 ‘씨’를 붙여서 ‘진수 씨’, ‘유진 씨’처럼 부릅니다. 친한 동료일 경우 직장 밖에서 ‘형’, ‘누나’와 같은 가족 호칭을 써서 부르기도 합니다. 24 한국어 표준교재 2",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국에서는 직장 상사에게 ‘반장님’처럼 직책 다음에 ‘-님’을 붙여 부릅니다. 만약 ‘과장님’이 여러\n명이라면 구분을 위해 ‘김 과장님’, ‘이민주 과장님’과 같이 이름이나 성을 붙여 부르면 됩니다. 동료나\n후배를 부를 때는 이름 뒤에 ‘씨’를 붙여서 ‘진수 씨’, ‘유진 씨’처럼 부릅니다. 친한 동료일 경우 직장\n밖에서 ‘형’, ‘누나’와 같은 가족 호칭을 써서 부르기도 합니다.",
+        "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -765,7 +998,11 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_31/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ],
     "listening": [
@@ -774,188 +1011,225 @@
         "nomor": 1,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 마두 씨 회사 작업복은 무슨 색이에요? 남 : 우리 회사는 파란색 작업복을 입어요.",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
         "jawaban": "a",
-        "audio_teks": "1. 여 : 마두 씨 회사 작업복은 무슨 색이에요?\n남 : 우리 회사는 파란색 작업복을 입어요.\n2. 남 : 유니폼이 작아요?\n3. 남 : 새로 온 직원은 어때요?\n여 : 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.\n4. 남 : 지퍼를 목까지 올리니까 좀 불편해요.\n5. 여 : 아궁 씨, 왜 작업복 단추를 안 잠갔어요?\n남 : 작업장이 너무 더워서 조금 풀었어요.\n여 : 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.\n남 : 알겠어요. 지금 잠글게요.\n31 복장과 근무 태도 ATTIRE AND WORK ATTITUDE 25",
+        "audio_teks": "여 : 마두 씨 회사 작업복은 무슨 색이에요?\n남 : 우리 회사는 파란색 작업복을 입어요.",
         "audio_url": "assets/modules/textbook2/audio/unit_31/listening_1.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_01.jpeg"
+            "image": "assets/modules/textbook2/unit_31/choice_images/listening/u31_l1_a.jpg"
           },
           {
             "key": "b",
             "label": "B",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_02.jpeg"
+            "image": "assets/modules/textbook2/unit_31/choice_images/listening/u31_l1_b.jpg"
           },
           {
             "key": "c",
             "label": "C",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_03.jpeg"
+            "image": "assets/modules/textbook2/unit_31/choice_images/listening/u31_l1_c.jpg"
           },
           {
             "key": "d",
             "label": "D",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_04.jpeg"
+            "image": "assets/modules/textbook2/unit_31/choice_images/listening/u31_l1_d.jpg"
           }
         ],
         "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_01.jpeg",
-          "b": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_02.jpeg",
-          "c": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_03.jpeg",
-          "d": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_04.jpeg"
-        }
+          "a": "assets/modules/textbook2/unit_31/choice_images/listening/u31_l1_a.jpg",
+          "b": "assets/modules/textbook2/unit_31/choice_images/listening/u31_l1_b.jpg",
+          "c": "assets/modules/textbook2/unit_31/choice_images/listening/u31_l1_c.jpg",
+          "d": "assets/modules/textbook2/unit_31/choice_images/listening/u31_l1_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_31/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u31_l2",
         "nomor": 2,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 유니폼이 작아요?",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
         "jawaban": "c",
-        "audio_teks": "1. 여 : 마두 씨 회사 작업복은 무슨 색이에요?\n남 : 우리 회사는 파란색 작업복을 입어요.\n2. 남 : 유니폼이 작아요?\n3. 남 : 새로 온 직원은 어때요?\n여 : 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.\n4. 남 : 지퍼를 목까지 올리니까 좀 불편해요.\n5. 여 : 아궁 씨, 왜 작업복 단추를 안 잠갔어요?\n남 : 작업장이 너무 더워서 조금 풀었어요.\n여 : 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.\n남 : 알겠어요. 지금 잠글게요.\n31 복장과 근무 태도 ATTIRE AND WORK ATTITUDE 25",
+        "audio_teks": "남 : 유니폼이 작아요?",
         "audio_url": "assets/modules/textbook2/audio/unit_31/listening_2.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_02.jpeg"
+            "text": "네, 유니폼이에요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_02.jpeg"
+            "text": "네, 유니폼이 예뻐요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_02.jpeg"
+            "text": "아니요, 유니폼이 커요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_02.jpeg"
+            "text": "아니요, 유니폼이 비싸요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_02.jpeg",
-          "b": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_02.jpeg",
-          "c": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_02.jpeg",
-          "d": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_02.jpeg"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_31/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u31_l3",
         "nomor": 3,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 새로 온 직원은 어때요? 여 : 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
         "jawaban": "a",
-        "audio_teks": "1. 여 : 마두 씨 회사 작업복은 무슨 색이에요?\n남 : 우리 회사는 파란색 작업복을 입어요.\n2. 남 : 유니폼이 작아요?\n3. 남 : 새로 온 직원은 어때요?\n여 : 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.\n4. 남 : 지퍼를 목까지 올리니까 좀 불편해요.\n5. 여 : 아궁 씨, 왜 작업복 단추를 안 잠갔어요?\n남 : 작업장이 너무 더워서 조금 풀었어요.\n여 : 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.\n남 : 알겠어요. 지금 잠글게요.\n31 복장과 근무 태도 ATTIRE AND WORK ATTITUDE 25",
+        "audio_teks": "남 : 새로 온 직원은 어때요?\n여 : 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.",
         "audio_url": "assets/modules/textbook2/audio/unit_31/listening_3.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_03.jpeg"
+            "text": "새로 온 직원의 태도",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_03.jpeg"
+            "text": "새로 온 직원의 외모",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_03.jpeg"
+            "text": "새로 온 직원의 복장",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_03.jpeg"
+            "text": "새로 온 직원의 국적",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_03.jpeg",
-          "b": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_03.jpeg",
-          "c": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_03.jpeg",
-          "d": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_03.jpeg"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_31/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u31_l4",
         "nomor": 4,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 지퍼를 목까지 올리니까 좀 불편해요.",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
         "jawaban": "c",
-        "audio_teks": "1. 여 : 마두 씨 회사 작업복은 무슨 색이에요?\n남 : 우리 회사는 파란색 작업복을 입어요.\n2. 남 : 유니폼이 작아요?\n3. 남 : 새로 온 직원은 어때요?\n여 : 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.\n4. 남 : 지퍼를 목까지 올리니까 좀 불편해요.\n5. 여 : 아궁 씨, 왜 작업복 단추를 안 잠갔어요?\n남 : 작업장이 너무 더워서 조금 풀었어요.\n여 : 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.\n남 : 알겠어요. 지금 잠글게요.\n31 복장과 근무 태도 ATTIRE AND WORK ATTITUDE 25",
+        "audio_teks": "남 : 지퍼를 목까지 올리니까 좀 불편해요.",
         "audio_url": "assets/modules/textbook2/audio/unit_31/listening_4.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_04.jpeg"
+            "text": "작업복이 잘 어울리네요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_04.jpeg"
+            "text": "작업복이 시원해 보여요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_04.jpeg"
+            "text": "익숙해지면 괜찮을 거예요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_04.jpeg"
+            "text": "사무실에 가서 새로 받았어요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_04.jpeg",
-          "b": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_04.jpeg",
-          "c": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_04.jpeg",
-          "d": "assets/langit-korea-extracted/unit_31/images/u31_h9_soal_listening_04.jpeg"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_31/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u31_l5",
         "nomor": 5,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 아궁 씨, 왜 작업복 단추를 안 잠갔어요? 남 : 작업장이 너무 더워서 조금 풀었어요. 여 : 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요. 남 : 알겠어요. 지금 잠글게요. 31 복장과 근무 태도 ATTIRE AND WORK ATTITUDE 25",
+        "teks_soal": "남자가 이어서 할 행동은 무엇입니까?",
         "jawaban": "a",
-        "audio_teks": "1. 여 : 마두 씨 회사 작업복은 무슨 색이에요?\n남 : 우리 회사는 파란색 작업복을 입어요.\n2. 남 : 유니폼이 작아요?\n3. 남 : 새로 온 직원은 어때요?\n여 : 성실하게 일해요. 그래서 반장님이 칭찬을 많이 하세요.\n4. 남 : 지퍼를 목까지 올리니까 좀 불편해요.\n5. 여 : 아궁 씨, 왜 작업복 단추를 안 잠갔어요?\n남 : 작업장이 너무 더워서 조금 풀었어요.\n여 : 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.\n남 : 알겠어요. 지금 잠글게요.\n31 복장과 근무 태도 ATTIRE AND WORK ATTITUDE 25",
+        "audio_teks": "여 : 아궁 씨, 왜 작업복 단추를 안 잠갔어요?\n남 : 작업장이 너무 더워서 조금 풀었어요.\n여 : 더워도 작업복 단추를 풀고 일하면 안 돼요. 위험해요.\n남 : 알겠어요. 지금 잠글게요.",
         "audio_url": "assets/modules/textbook2/audio/unit_31/listening_5.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "단추를 잠급니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "작업복을 벗습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "작업장 창문을 엽니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "작업복을 가지러 갑니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_31/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ]
   },
   "integrity": {
     "pdf_pages": 10,
-    "vocab_cards": 39,
+    "lesson_flow": 10,
+    "vocab_cards": 42,
+    "grammar_cards": 2,
+    "conversation_cards": 11,
+    "culture_cards": 1,
     "reading_questions": 5,
     "listening_questions": 5,
-    "listening_audio": 5
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_audio": 5,
+    "listening_scripts": 5
   }
 }

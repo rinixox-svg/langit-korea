@@ -8,7 +8,7 @@
   <script>
   // Direct Supabase REST API client (no CDN dependency)
   const SUPABASE_URL = "https://mozmuwrkfsipzfupybwh.supabase.co";
-  const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1vem11d3JrZnNpcHpmdXB5YndoIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NzY5NTk1NCwiZXhwIjoyMDkzMjcxOTU0fQ.SZSNk6xV-vq17beo_LwWzsZSp9UVGdqfR-R35cGxawE";
+  const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1vem11d3JrZnNpcHpmdXB5YndoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc2OTU5NTQsImV4cCI6MjA5MzI3MTk1NH0.RPqu-07AyKygnS_bPhMO_IgXSz2r8jkljPc5TGq7Vzg";
   async function apiFetch(table, opts) {
     let url = SUPABASE_URL + "/rest/v1/" + table + "?select=*";
     if (opts) {
@@ -423,6 +423,7 @@
       }
       html += '</div>';
       html += '<button class="btn btn-outline" onclick="document.getElementById(\'rv\').style.display=\'block\'">📋 Review</button> ';
+      html += '<button class="btn btn-secondary" onclick="location.href=\'dashboard.html\'">🏠 Dashboard</button> ';
       html += '<button class="btn btn-primary" onclick="localStorage.removeItem(\'' + SIM_KEY + '\');location.reload()">🔄 Ulangi</button>';
       html += '</div>';
       html += '<div id="rv" style="display:none;margin-top:24px"><h3 style="margin-bottom:12px">📋 Review</h3>';

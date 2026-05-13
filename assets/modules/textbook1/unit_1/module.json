@@ -4,7 +4,7 @@
   "unit": 1,
   "title_ko": "자기소개",
   "title_en": "SELF INTRODUCTION",
-  "title_id": "",
+  "title_id": "Perkenalan diri",
   "source_pdf": "assets/modules/textbook1/unit_1/source.pdf",
   "page_start": 51,
   "page_end": 60,
@@ -61,6 +61,162 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 51,
+        "image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "1 자기소개 \n SELF INTRODUCTION 51\n어휘 VOCABULARY\n나라 이름 Countries\n한국\nRepublic of Korea\n네팔\nNepal\n동티모르\nEast Timor\n라오스\nLaos\n몽골\nMongolia\n미얀마\nMyanmar\n방글라데시\nBangladesh\n베트남\nVietnam\n스리랑카\nSri Lanka\n우즈베키스탄\nUzbekistan\n인도네시아\nIndonesia\n중국\nChina\n캄보디아\nCambodia\n키르기스스탄\nKyrgyzstan\n타지키스탄\nTajikistan\n태국\nThailand\n파키스탄\nPakistan\n필리핀\nThe Philippines\n어느 which\n사람 person\n이름 name\n국적 nationality\n누구 who\n 관계있는 것끼리 연결하세요. Connect the related items.\n⑴\n⑵\n⑶\n⑷\n⑸\n네팔\n미얀마\n베트남\n캄보디아\n인도네시아",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 52,
+        "image": "assets/modules/textbook1/unit_1/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "52 한국어 표준교재 1\n문법 GRAMMAR\n입니다, 입니까?\n‘입니다’는 주어의 속성을 나타내는 명사와 결합하여, 격식적 상황에서 듣는 사람을 높여 말하는 문장의 서술어가 \n된다. ‘입니까?’는 ‘입니다’의 의문형으로 주어의 속성에 대하여 물을 때 사용한다.\n‘입니다’ combines with a noun that shows an attribute of the subject and is the predicate of a sentence in formal \nsituations, making the listener higher. ‘입니까?’ is the question form of ‘입니다’ and is used when asking about an \nattribute of the subject.\n예 (저는) 유수프입니다.\n \n \n왕민입니다.\n \n가 : 어느 나라 사람입니까?\n \n나 : (저는) 라오스 사람입니다.\n1. [보기]와 같이 쓰고 자기소개를 해 보세요. Write to introduce yourself as shown in the example.\n안녕하세요?\n아궁입니다.\n동티모르 사람입니다.\n•이름 : 아궁\n•국적 : 동티모르\n안녕하세요?\n.\n.\n•이름 : \n \n•국적 : \n \n[ 보기 ]\n2. [보기]와 같이 대화해 보세요. Practice speaking as shown in the example.\n필리핀\n가 : 어느 나라 사람입니까?\n나 : 필리핀 사람입니다.\n[ 보기 ]\n⑴\n⑵\n⑶\n⑷\n태국\n미얀마\n캄보디아\n방글라데시",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 53,
+        "image": "assets/modules/textbook1/unit_1/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "1 자기소개 \n SELF INTRODUCTION 53\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•프엉, 베트남 사람\n•다린두, 스리랑카 사람\n가 : 누구입니까?\n나 : 프엉입니다.\n가 : 어느 나라 사람입니까?\n나 : 베트남 사람입니다.\n발음 │ PRONUNCIATION\nㅏ,ㅓ, ㅗ\n‘ㅏ’는 입을 짝 벌려 발음하고, ‘ㅓ’는 ‘ㅏ’보다 입을 조금 덜 벌려 발음한다. ‘ㅗ’는 \n‘ㅓ보다 입을 덜 벌리고 입술을 앞으로 내밀어 둥그렇게 하여 발음한다.\n‘ㅏ’ is pronounced with the mouth open wide, ‘ㅓ’ is pronounced with the \nmouth slightly less open than ‘ㅏ’. ‘ㅗ’ is pronounced with the mouth less \nopen than ‘ㅓ’ and the lips rounded forward.\n⑴ 아 : 어 : 오\n⑵ 아기 : 어제 : 오리\n대화 CONVERSATION\n아궁 \n안녕하세요? 아궁입니다.\n동티모르 사람입니다.\n \nHello, I am Agung. \nI am from East Timor.\n마두 \n안녕하세요? 마두입니다.\n \nHello, I am Madhu.\n아궁 \n어느 나라 사람입니까?\n \nWhere are you from?\n마두 \n네팔 사람입니다.\n \nI am from Nepal.\n대답해 봐요! ANSWER ME!\n1 아궁은 어느 나라 사람입니까? Where is Agung from?\n2 마두는 어느 나라 사람입니까? Where is Madhu from?\n28\n29",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 54,
+        "image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "54 한국어 표준교재 1\n 관계있는 것끼리 연결하세요. Connect the related items.\n⑴\n⑵\n⑶\n⑷\n⑸\n농부\n어부\n목수\n기술자\n회사원\n어휘 VOCABULARY\n직업명 Occupations\n학생\nstudent\n선생님\nteacher (honorific)\n회사원\ncompany employee\n근로자\nworker\n경찰관\npolice officer\n소방관\nfirefighter\n공무원\npublic official\n점원\nclerk\n의사\ndoctor\n간호사\nnurse\n요리사\ncook\n운전기사\ndriver\n기술자\ntechnician\n목수\ncarpenter\n농부\nfarmer\n어부\nfisherperson\n씨 Mr./Ms.\n저 I\n아니요 no\n네 yes",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 55,
+        "image": "assets/modules/textbook1/unit_1/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "1 자기소개 \n SELF INTRODUCTION 55\n문법 GRAMMAR\n은/는\n‘은/는’은 명사와 결합하여 문장의 주제나 화제를 나타낸다.\n‘은/는’ combines with a noun to show the topic of a sentence.\n받침 ○\n은\n푸캄은\n받침 ×\n는\n자야는\n예 투안은 목수입니다.\n \n진수 씨는 회사원입니다.\n \n자하라 씨는 파키스탄 사람입니다.\n1. 맞는 것에 ◯ 하세요. Circle the correct option.\n⑴ 리리( 은 / 는 ) 농부입니다.\n⑵ 닛차난( 은 / 는 ) 태국 사람입니다.\n⑶ 지수 씨( 은 / 는 ) 학생입니다.\n⑷ 아궁( 은 / 는 ) 동티모르 사람입니다.\n⑸ 카림( 은 / 는 ) 어부입니다.\n⑹ 수피카( 은 / 는 ) 간호사입니다.\n2. [보기]와 같이 말해 보세요. Practice speaking as shown in the example.\n[ 보기 ]\n•이름 : 칼로\n•직업 : 근로자\n칼로는 근로자입니다.\n⑴\n⑵\n⑶\n⑷\n•이름 : 이반\n•직업 : 목수\n•이름 : 수루\n•직업 : 간호사\n•이름 : 아딧\n•직업 : 회사원\n•이름 : 모니카\n•직업 : 선생님",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 56,
+        "image": "assets/modules/textbook1/unit_1/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "56 한국어 표준교재 1\n대화 CONVERSATION\n닛차난 \n안녕하세요? 저는 닛차난입니다. \n태국 사람입니다.\nHello, I am Nitchanan. \nI am from Thailand.\n칼\n로 \n안녕하세요? 저는 칼로입니다. \n필리핀 사람입니다.\n \nHello, I am Carlo. \nI am from the Philippines.\n닛차난 \n칼로 씨는 학생입니까?\n \nCarlo, are you a student?\n칼\n로 \n아니요. 저는 근로자입니다.\n \nNo, I am a worker.\n대답해 봐요! ANSWER ME!\n1 닛차난은 어느 나라 사람입니까? Where is Nitchanan from?\n2 칼로는 학생입니까? Is Carlo a student?\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•이름 : 리리\n•국적 : 중국\n•직업 : 학생\n•리리, 중국, \n회사원 , 학생 ○\n•바트, 몽골, \n학생 \n, 근로자 ○ \n가 : 리리 씨, 리리 씨는 중국 사람입니까?\n나 : 네, 저는 중국 사람입니다.\n가 : 리리 씨는 회사원입니까?\n나 : 아니요, 저는 학생입니다.\n가 : 안녕하세요? 처음 뵙겠습니다. Hello? A pleasure to meet you.\n나 : 안녕하세요? 잘 부탁드립니다. Hello? Nice to meet you as well.\n유용한 표현 │ USEFUL EXPRESSION\n잘 부탁드립니다.\nNice to meet you.\n※ There is no exact equivalent of ‘잘 부탁드립니다’ in English. However, this phrase is commonly used during self-\nintroductions when meeting someone for the first time. It literally means, ‘I ask for your favor’, but a more \nnatural translation in English would be, ‘I look forward to working with you’ or ‘Thank you in advance for your \nhelp’.\n31\n30",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 57,
+        "image": "assets/modules/textbook1/unit_1/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "문화와 정보 CULTURE & INFORMATION\n확인해요 │ self assessment\n• 자기소개를 할 수 있다. I can introduce myself. \n↻\n• 어느 나라 사람인지 묻고 대답할 수 있다. I can ask and answer which country someone is from. \n↻\n• 직업이 무엇인지 묻고 대답할 수 있다. I can ask and answer what someone's occupation is. \n↻\n1 자기소개 \n SELF INTRODUCTION 57\n한국의 인사 예절\nKorean Greeting Etiquette\n한국에서는 상대에 따라 인사하는 방식이 다릅니다. 자신보다 \n나이가 많거나 지위가 높은 사람에게는 “안녕하세요?” 또는 “안녕\n하십니까?”라고 말하며 고개를 숙이거나 허리를 굽혀 인사합니다. \n고개를 숙이거나 허리를 굽히는 것은 상대방에 대한 존경을 나타\n내는 제스처입니다.\n한편 자신보다 나이가 어리거나 친한 사람에게는 “안녕?”이라고 \n말하며 한 손을 가볍게 들거나 흔들어 반가움을 나타냅니다.\nIn Korea, the way of greeting varies depending on the person you \nare talking to. When greeting someone older or of higher status, \nyou say “안녕하세요?” or “안녕하십니까?” and bow your head or \nbend at the waist. Bowing shows respect to the other person. \nWhen greeting someone younger or close to you, you say “안녕?” \nand raise your hand half way or wave it lightly to show friendliness.\n“안녕하세요?”, “안녕하십니까?”, “안녕?”은 인사하는 시간에 상\n관없이 아침, 점심, 저녁 언제든지 사용할 수 있습니다.\n“안녕하세요?”, “안녕하십니까?”, and “안녕?” can be used at any time \nof the day, morning, afternoon, or evening.\n공적인 상황에서는 주로 악수를 하며 인사합니다. 다만, 자신보\n다 나이가 훨씬 많거나 지위가 높은 사람에게 인사할 때는 왼손으\n로 오른팔이나 오른손을 받치고 악수를 하는 것이 예의입니다.\nIn formal situations, people usually shake hands. However, when \ngreeting someone much older or of much higher status, it is polite \nto put your left hand under your right arm or hand while shaking \nhands.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 58,
+        "image": "assets/modules/textbook1/unit_1/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n58 한국어 표준교재 1\n1. \n다음 단어와 관계있는 것은 무엇입니까?\n나라\n① 네팔 \n② 남자 \n③ 30세 \n④ 회사원\n[2~3] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n2.\n 직업 : .\n① 여자 \n② 25세 \n③ 농부 \n④ 대구시\n3.\n 국적 : .\n① 어부 \n② 남자 \n③ 베트남 \n④ 부산시\n[4~5] 다음 글을 읽고 내용과 같은 것을 고르십시오.\n4.\n외국인 등록증\n발급일자 2024. 5. 10.\n서울출입국· 외국인청장\n외국인 990707-6******\n등록번호\n성 명 휘엔\n국 가 베트남\n체류자격 비전문취업(E-9)\n① 베트남 사람입니다.\n② 생일은 5월 10일입니다.\n③ 7월에 외국인 등록증을 받았습니다.\n④ 서울출입국 · 외국인청에서 일합니다.\n5.\n한국 사람들은 자신보다 나이가 많거나 지위가 높은 사람에게 인사할 때 허리를 굽혀 인사합니다. \n자신보다 어리거나 친한 사람에게는 손을 흔들어 인사합니다. 공적인 상황에서는 주로 악수를 하며 \n인사합니다. 이때 자신보다 나이가 훨씬 많거나 지위가 높은 사람이라면 왼손으로 오른팔을 받치고 \n악수해야 합니다.\n① 친한 친구에게는 허리를 굽혀 인사해야 합니다.\n② 공적인 상황에서 인사할 때는 주로 손을 흔듭니다.\n③ 자신보다 나이가 많은 사람과는 악수를 하지 않습니다.\n④ 지위가 높은 사람과 악수할 때는 왼손으로 오른팔을 받칩니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 59,
+        "image": "assets/modules/textbook1/unit_1/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n1 자기소개 \n SELF INTRODUCTION 59\n1. \n다음을 듣고 빈칸에 알맞은 것을 고르십시오.\n국\n① 태 \n② 미 \n③ 수 \n④ 조\n[2~3] 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n2.\n① 네, 회사원입니다.\n② 네, 회사원이 있습니다.\n③ 아니요, 회사원이 많습니다.\n④ 아니요, 회사원이 좋습니다.\n3.\n① 남자입니다.\n② 기술자입니다.\n③ 서른 살입니다.\n④ 네팔 사람입니다.\n[4~5] 두 사람은 무엇에 대해 말하고 있습니까?\n4.\n① 이름 \n② 나이 \n③ 국적 \n④ 성별\n5.\n① 고향 \n② 직업 \n③ 이름 \n④ 국적 \n1. \n남 : 태국\n2. 여 : 회사원입니까?\n3. 여 : 어느 나라 사람입니까?\n4. 여 : 안녕하세요? 저는 네팔 사람입니다.\n \n남 : 안녕하세요? 저는 몽골 사람입니다.\n5. 남 : 어부입니까?\n \n여 : 아니요. 저는 농부입니다.\n듣기지문\n32",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 60,
+        "image": "assets/modules/textbook1/unit_1/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "60 한국어 표준교재 1\n학습 목표\nLEARNING OBJECTIVES\n물건의 이름을 묻고 대답할 수 있다.\nCan ask and answer the names of objects.\n지시어로 묻고 대답할 수 있다.\nCan ask and answer questions using demonstratives.\n생활용품 \nDaily Necessities\nC H A P T E R 0 2\n시계예요.\n이건 뭐예요?\n이에요/예요\n이/가 아니에요\nGRAMMAR\n문법\n사무실 물건\nOffice Supplies\n생활용품\nDaily Necessities\nVOCABULARY\n어휘\n한국에서 알뜰하게 \n생필품을 구입하는 팁\nTips for Buying Daily Necessities \nCheaply in Korea\nCULTURE & INFORMATION\n문화와 정보\nEPS-TOPIK\n60 한국어 표준교재 1",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "audio": [
       {
         "track": 28,
@@ -88,16 +244,971 @@
         "audio_url": "assets/modules/textbook1/audio/unit_1/track_032.mp3"
       }
     ],
-    "vocab": [],
-    "grammar": [],
-    "conversation": [],
-    "culture": [],
-    "reading": [],
-    "listening": []
+    "vocab": [
+      {
+        "id": "vocab_1",
+        "front": "나라 이름",
+        "back": "Countries",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_2",
+        "front": "한국",
+        "back": "Republic of Korea",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_3",
+        "front": "네팔",
+        "back": "Nepal",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_4",
+        "front": "동티모르",
+        "back": "East Timor",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_5",
+        "front": "라오스",
+        "back": "Laos",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_6",
+        "front": "몽골",
+        "back": "Mongolia",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_7",
+        "front": "미얀마",
+        "back": "Myanmar",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_8",
+        "front": "방글라데시",
+        "back": "Bangladesh",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_9",
+        "front": "베트남",
+        "back": "Vietnam",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_10",
+        "front": "스리랑카",
+        "back": "Sri Lanka",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_11",
+        "front": "우즈베키스탄",
+        "back": "Uzbekistan",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_12",
+        "front": "인도네시아",
+        "back": "Indonesia",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_13",
+        "front": "중국",
+        "back": "China",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_14",
+        "front": "캄보디아",
+        "back": "Cambodia",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_15",
+        "front": "키르기스스탄",
+        "back": "Kyrgyzstan",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_16",
+        "front": "타지키스탄",
+        "back": "Tajikistan",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_17",
+        "front": "태국",
+        "back": "Thailand",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_18",
+        "front": "파키스탄",
+        "back": "Pakistan",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_19",
+        "front": "필리핀",
+        "back": "The Philippines",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_20",
+        "front": "어느",
+        "back": "which",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_21",
+        "front": "사람",
+        "back": "person",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_22",
+        "front": "이름",
+        "back": "name",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_23",
+        "front": "국적",
+        "back": "nationality",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_24",
+        "front": "누구",
+        "back": "who",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_25",
+        "front": "직업명",
+        "back": "Occupations",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_26",
+        "front": "학생",
+        "back": "student",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_27",
+        "front": "선생님",
+        "back": "teacher (honorific)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_28",
+        "front": "회사원",
+        "back": "company employee",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_29",
+        "front": "근로자",
+        "back": "worker",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_30",
+        "front": "경찰관",
+        "back": "police officer",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_31",
+        "front": "소방관",
+        "back": "firefighter",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_32",
+        "front": "공무원",
+        "back": "public official",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_33",
+        "front": "점원",
+        "back": "clerk",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_34",
+        "front": "의사",
+        "back": "doctor",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_35",
+        "front": "간호사",
+        "back": "nurse",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_36",
+        "front": "요리사",
+        "back": "cook",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_37",
+        "front": "운전기사",
+        "back": "driver",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_38",
+        "front": "기술자",
+        "back": "technician",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_39",
+        "front": "목수",
+        "back": "carpenter",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_40",
+        "front": "농부",
+        "back": "farmer",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_41",
+        "front": "어부",
+        "back": "fisherperson",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_42",
+        "front": "아니요",
+        "back": "no",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar_1",
+        "front": "입니다, 입니까?",
+        "back": "‘입니다’는 주어의 속성을 나타내는 명사와 결합하여, 격식적 상황에서 듣는 사람을 높여 말하는 문장의 서술어가\n된다. ‘입니까?’는 ‘입니다’의 의문형으로 주어의 속성에 대하여 물을 때 사용한다.\n‘입니다’ combines with a noun that shows an attribute of the subject and is the predicate of a sentence in formal\nsituations, making the listener higher. ‘입니까?’ is the question form of ‘입니다’ and is used when asking about an\nattribute of the subject.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
+      },
+      {
+        "id": "grammar_2",
+        "front": "은/는",
+        "back": "‘은/는’은 명사와 결합하여 문장의 주제나 화제를 나타낸다.\n‘은/는’ combines with a noun to show the topic of a sentence.\n받침 ○\n은\n푸캄은\n받침 ×\n는\n자야는",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conversation_1",
+        "front": "안녕하세요? 아궁입니다.\n동티모르 사람입니다.",
+        "back": "Hello, I am Agung. I am from East Timor.",
+        "speaker": "아궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_2",
+        "front": "안녕하세요? 마두입니다.",
+        "back": "Hello, I am Madhu.",
+        "speaker": "마두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_3",
+        "front": "어느 나라 사람입니까?",
+        "back": "Where are you from?",
+        "speaker": "아궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_4",
+        "front": "네팔 사람입니다.",
+        "back": "I am from Nepal.",
+        "speaker": "마두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_5",
+        "front": "안녕하세요? 저는 닛차난입니다.\n태국 사람입니다.",
+        "back": "Hello, I am Nitchanan. I am from Thailand.",
+        "speaker": "닛차난",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_6",
+        "front": "안녕하세요? 저는 칼로입니다.\n필리핀 사람입니다.",
+        "back": "Hello, I am Carlo. I am from the Philippines.",
+        "speaker": "로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_7",
+        "front": "칼로 씨는 학생입니까?",
+        "back": "Carlo, are you a student?",
+        "speaker": "닛차난",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_8",
+        "front": "아니요. 저는 근로자입니다.",
+        "back": "No, I am a worker.",
+        "speaker": "로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      }
+    ],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "1 자기소개",
+        "back": "SELF INTRODUCTION 57",
+        "body": "• 자기소개를 할 수 있다. I can introduce myself.\n• 어느 나라 사람인지 묻고 대답할 수 있다. I can ask and answer which country someone is from.\n• 직업이 무엇인지 묻고 대답할 수 있다. I can ask and answer what someone's occupation is.\n1 자기소개\nSELF INTRODUCTION 57\n한국의 인사 예절\nKorean Greeting Etiquette\n한국에서는 상대에 따라 인사하는 방식이 다릅니다. 자신보다\n나이가 많거나 지위가 높은 사람에게는 “안녕하세요?” 또는 “안녕\n하십니까?”라고 말하며 고개를 숙이거나 허리를 굽혀 인사합니다.\n고개를 숙이거나 허리를 굽히는 것은 상대방에 대한 존경을 나타\n내는 제스처입니다.\n한편 자신보다 나이가 어리거나 친한 사람에게는 “안녕?”이라고\n말하며 한 손을 가볍게 들거나 흔들어 반가움을 나타냅니다.\nIn Korea, the way of greeting varies depending on the person you\nare talking to. When greeting someone older or of higher status,",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook1/unit_1/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
+    "reading": [
+      {
+        "id": "u1_r1",
+        "nomor": 1,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 단어와 관계있는 것은 무엇입니까?\n나라",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "네팔",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "남자",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "30세",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "회사원",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_1/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u1_r2",
+        "nomor": 2,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n직업 : .",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "여자",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "25세",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "농부",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "대구시",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_1/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u1_r3",
+        "nomor": 3,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n국적 : .",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "어부",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "남자",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "베트남",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "부산시",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_1/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u1_r4",
+        "nomor": 4,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n외국인 등록증\n발급일자 2024. 5. 10.\n서울출입국· 외국인청장\n외국인 990707-6******\n등록번호\n성 명 휘엔\n국 가 베트남\n체류자격 비전문취업(E-9)",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "베트남 사람입니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "생일은 5월 10일입니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "7월에 외국인 등록증을 받았습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "서울출입국 · 외국인청에서 일합니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_1/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u1_r5",
+        "nomor": 5,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국 사람들은 자신보다 나이가 많거나 지위가 높은 사람에게 인사할 때 허리를 굽혀 인사합니다.\n자신보다 어리거나 친한 사람에게는 손을 흔들어 인사합니다. 공적인 상황에서는 주로 악수를 하며\n인사합니다. 이때 자신보다 나이가 훨씬 많거나 지위가 높은 사람이라면 왼손으로 오른팔을 받치고\n악수해야 합니다.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "친한 친구에게는 허리를 굽혀 인사해야 합니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "공적인 상황에서 인사할 때는 주로 손을 흔듭니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "자신보다 나이가 많은 사람과는 악수를 하지 않습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "지위가 높은 사람과 악수할 때는 왼손으로 오른팔을 받칩니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_1/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ],
+    "listening": [
+      {
+        "id": "u1_l1",
+        "nomor": 1,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 빈칸에 알맞은 것을 고르십시오.\n국",
+        "jawaban": "a",
+        "audio_teks": "남 : 태국",
+        "audio_url": "assets/modules/textbook1/audio/unit_1/track_032.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "태",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "미",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "수",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "조",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_1/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u1_l2",
+        "nomor": 2,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "a",
+        "audio_teks": "여 : 회사원입니까?",
+        "audio_url": "assets/modules/textbook1/audio/unit_1/track_032.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "네, 회사원입니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "네, 회사원이 있습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "아니요, 회사원이 많습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "아니요, 회사원이 좋습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_1/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u1_l3",
+        "nomor": 3,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "d",
+        "audio_teks": "여 : 어느 나라 사람입니까?",
+        "audio_url": "assets/modules/textbook1/audio/unit_1/track_032.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "남자입니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "기술자입니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "서른 살입니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "네팔 사람입니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_1/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u1_l4",
+        "nomor": 4,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
+        "jawaban": "c",
+        "audio_teks": "여 : 안녕하세요? 저는 네팔 사람입니다.\n남 : 안녕하세요? 저는 몽골 사람입니다.",
+        "audio_url": "assets/modules/textbook1/audio/unit_1/track_032.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "이름",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "나이",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "국적",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "성별",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_1/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u1_l5",
+        "nomor": 5,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
+        "jawaban": "b",
+        "audio_teks": "남 : 어부입니까?\n여 : 아니요. 저는 농부입니다.",
+        "audio_url": "assets/modules/textbook1/audio/unit_1/track_032.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "고향",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "직업",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "이름",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "국적",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_1/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ]
   },
   "integrity": {
     "pdf_pages": 10,
     "lesson_audio": 5,
+    "lesson_flow": 10,
+    "vocab_cards": 42,
+    "grammar_cards": 2,
+    "conversation_cards": 8,
+    "culture_cards": 1,
+    "reading_questions": 5,
+    "listening_questions": 5,
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_scripts": 5,
     "source_page_start_index": 50,
     "source_page_end_index": 59
   }

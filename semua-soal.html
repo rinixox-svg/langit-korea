@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -352,8 +352,8 @@
     <div class="container">
         <!-- Header -->
         <div class="header">
-            <h1>📚</h1> Semua Soal EPS-TOPIK</h1>
-            <p>Verifikasi 300 soal (30 unit × 10 soal) - Pilih unit dari dropdown</p>
+            <h1>ðŸ“š</h1> Semua Soal EPS-TOPIK</h1>
+            <p>Verifikasi 300 soal (30 unit Ã— 10 soal) - Pilih unit dari dropdown</p>
         </div>
 
         <!-- Filters -->
@@ -367,7 +367,7 @@
             </div>
             <div class="filter-group">
                 <button class="filter-btn" onclick="loadAllQuestions()">
-                    🔄 Refresh Data
+                    ðŸ”„ Refresh Data
                 </button>
             </div>
         </div>
@@ -386,7 +386,7 @@
     <script>
         // ========== KONFIGURASI SUPABASE ==========
         const SUPABASE_URL = "https://mozmuwrkfsipzfupybwh.supabase.co";
-        const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1vem11d3JrZnNpcHpmdXB5YndoIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NzY5NTk1NCwiZXhwIjoyMDkzMjcxOTU0fQ.SZSNk6xV-vq17beo_LwWzsZSp9UVGdqfR-R35cGxawE";
+        const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1vem11d3JrZnNpcHpmdXB5YndoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc2OTU5NTQsImV4cCI6MjA5MzI3MTk1NH0.RPqu-07AyKygnS_bPhMO_IgXSz2r8jkljPc5TGq7Vzg";
 
         const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
@@ -402,7 +402,7 @@
                 unit: 31,
                 nomor: 1,
                 tipe: "membaca",
-                teks_soal: "(텍스트 한국어)",
+                teks_soal: "(í…ìŠ¤íŠ¸ í•œêµ­ì–´)",
                 teks_soal_id: "(Teks Indonesia)",
                 pilihan_a: "Pilihan A",
                 pilihan_b: "Pilihan B",
@@ -415,7 +415,7 @@
                 unit: 31,
                 nomor: 2,
                 tipe: "membaca",
-                teks_soal: "(텍스트 한국어)",
+                teks_soal: "(í…ìŠ¤íŠ¸ í•œêµ­ì–´)",
                 teks_soal_id: "(Teks Indonesia)",
                 pilihan_a: "Pilihan A",
                 pilihan_b: "Pilihan B",
@@ -428,7 +428,7 @@
                 unit: 31,
                 nomor: 1,
                 tipe: "mendengarkan",
-                teks_soal: "(텍스트 한국어)",
+                teks_soal: "(í…ìŠ¤íŠ¸ í•œêµ­ì–´)",
                 teks_soal_id: "(Teks Indonesia)",
                 audio_url: "https://example.com/audio.mp3",
                 pilihan_a: "Pilihan A",
@@ -443,7 +443,7 @@
                 unit: 32,
                 nomor: 1,
                 tipe: "membaca",
-                teks_soal: "(텍스트 한국어)",
+                teks_soal: "(í…ìŠ¤íŠ¸ í•œêµ­ì–´)",
                 teks_soal_id: "(Teks Indonesia)",
                 pilihan_a: "Pilihan A",
                 pilihan_b: "Pilihan B",
@@ -456,7 +456,7 @@
                 unit: 32,
                 nomor: 1,
                 tipe: "mendengarkan",
-                teks_soal: "(텍스트 한국어)",
+                teks_soal: "(í…ìŠ¤íŠ¸ í•œêµ­ì–´)",
                 teks_soal_id: "(Teks Indonesia)",
                 audio_url: "https://example.com/audio.mp3",
                 pilihan_a: "Pilihan A",
@@ -482,7 +482,7 @@
             loadingDiv.style.display = 'block';
             loadingText.textContent = 'Memuat ulang data...';
             refreshBtn.disabled = true;
-            refreshBtn.innerHTML = '<span style="animation: spin 1s linear infinite;">🔄</span> Memuat...';
+            refreshBtn.innerHTML = '<span style="animation: spin 1s linear infinite;">ðŸ”„</span> Memuat...';
 
             try {
                 // Coba load dari Supabase, jika gagal pakai dummy data
@@ -527,7 +527,7 @@
 
                 // Reset tombol refresh
                 refreshBtn.disabled = false;
-                refreshBtn.innerHTML = '🔄 Refresh Data';
+                refreshBtn.innerHTML = 'ðŸ”„ Refresh Data';
 
             } catch (error) {
                 console.error('Error loading questions:', error);
@@ -535,7 +535,7 @@
 
                 // Reset tombol refresh
                 refreshBtn.disabled = false;
-                refreshBtn.innerHTML = '🔄 Refresh Data';
+                refreshBtn.innerHTML = 'ðŸ”„ Refresh Data';
             }
         }
 
@@ -570,7 +570,7 @@
             const headerText = document.querySelector('.header p');
             headerText.textContent =
                 unit === 'all'
-                    ? 'Verifikasi 300 soal (30 unit × 10 soal) - Pilih unit dari dropdown'
+                    ? 'Verifikasi 300 soal (30 unit Ã— 10 soal) - Pilih unit dari dropdown'
                     : `Unit ${unit} - ${filteredQuestions.length} soal`;
 
             renderQuestions();
@@ -587,7 +587,7 @@
             if (filteredQuestions.length === 0) {
                 content.innerHTML = `
                     <div class="empty-state">
-                        <div class="empty-icon">📭</div>
+                        <div class="empty-icon">ðŸ“­</div>
                         <p>Tidak ada soal yang sesuai filter.</p>
                         <p style="font-size: 14px; color: var(--teks-sekendar);">Coba pilih unit lain atau tunggu data soal selesai dimuat.</p>
                     </div>
@@ -664,20 +664,20 @@
                         if (q.audio_url) {
                             html += `
                                 <a href="${q.audio_url}" target="_blank" class="audio-link">
-                                    🔊 Buka Audio URL
+                                    ðŸ”Š Buka Audio URL
                                 </a>
                             `;
                         } else {
                             html += `
                                 <div style="font-size: 13px; color: var(--merah-salah); margin-top: 8px;">
-                                    ⚠️ Soal listening tapi audio_url kosong!
+                                    âš ï¸ Soal listening tapi audio_url kosong!
                                 </div>
                             `;
                         }
                     } else if (q.audio_url) {
                         html += `
                             <div style="font-size: 13px; color: var(--merah-salah); margin-top: 8px;">
-                                ⚠️ Soal membaca tapi punya audio_url!
+                                âš ï¸ Soal membaca tapi punya audio_url!
                             </div>
                         `;
                     }
@@ -685,7 +685,7 @@
                     // Verification
                     html += `
                         <div class="verification ${isValid ? 'valid' : 'invalid'}">
-                            <span class="verification-icon">${isValid ? '✅' : '❌'}</span>
+                            <span class="verification-icon">${isValid ? 'âœ…' : 'âŒ'}</span>
                             <span>${isValid ? 'Valid' : 'Invalid'} - ${isListening ? 'Mendengarkan dengan audio' : 'Membaca tanpa audio'}</span>
                         </div>
                     `;
@@ -701,3 +701,4 @@
     </script>
 </body>
 </html>
+

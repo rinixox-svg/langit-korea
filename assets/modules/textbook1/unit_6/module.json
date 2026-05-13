@@ -4,7 +4,7 @@
   "unit": 6,
   "title_ko": "하루 일과",
   "title_en": "DAILY ROUTINE",
-  "title_id": "",
+  "title_id": "Rutinitas harian",
   "source_pdf": "assets/modules/textbook1/unit_6/source.pdf",
   "page_start": 101,
   "page_end": 110,
@@ -61,6 +61,165 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 101,
+        "image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "6 하루 일과 \n DAILY ROUTINE 101\n어휘 VOCABULARY\n시간 관련 어휘 Time\n7:30\nAM\nPM\n오전\n오후\n5분 (오 분) five minutes \n10분 (십 분) ten minutes \n15분 (십오 분) fifteen minutes \n20분 (이십 분) twenty minutes \n25분 (이십오 분) twenty five minutes \n30분 (삼십 분)=반 thirty minutes (half)\n35분 (삼십오 분) thirty five minutes \n40분 (사십 분) forty minutes\n45분 (사십오 분) forty five minutes \n50분 (오십 분) fifty minutes\n55분 (오십오 분) fifty five minutes\n1시 (한 시) one o'clock \n5시 (다섯 시) five o'clock \n9시 (아홉 시) nine o'clock\n2시 (두 시) two o'clock \n6시 (여섯 시) six o'clock \n10시 (열 시) ten o'clock\n3시 (세 시) three o'clock \n7시 (일곱 시) seven o'clock \n11시 (열한 시) eleven o'clock\n4시 (네 시) four o'clock \n8시 (여덟 시) eight o'clock \n12시 (열두 시) twelve o'clock\n시\nhour\n분\n minute\n8:00 AM\n12:00 PM\n6:00 PM\n아침 \nmorning\n점심 \nafternoon\n저녁 \nevening\n새벽 \ndawn\n낮 \ndaytime\n밤 \nnight\n몇 시 what time\n보통 usually\n요즘 these days\n 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.\n⑴\n6:00 AM\n가 : 몇 시에 운동해요?\n나 : .\n⑵\n11:00 AM\n가 : 지금 몇 시예요?\n나 : .\n⑶\n10:00 PM\n가 : 어제 몇 시에 잤어요?\n나 : .\n⑷\n8:30 AM\n가 : 요즘 몇 시에 회사에 가요?\n나 : .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 102,
+        "image": "assets/modules/textbook1/unit_6/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "102 한국어 표준교재 1\n문법 GRAMMAR\n-(스)ㅂ니다, -(스)ㅂ니까?\n‘-(스)ㅂ니다’는 동사, 형용사에 붙여 격식적 상황에서 듣는 사람을 높이면서 어떤 사실에 대해 정중하게 서술할 때 \n사용한다. 정중하게 질문할 때는 ‘-(스)ㅂ니까?’를 사용한다. \n‘-(스)ㅂ니다’ is attached to verbs and adjectives to formally and respectfully describe a fact in formal situations \nelevating the listener. To ask a polite question, ‘-(스)ㅂ니까?’ is used.\n받침 ○\n-(스)ㅂ니다, -(스)ㅂ니까?\n \n먹다 → 먹습니다, 먹습니까?\n받침 ×, 받침 ‘ㄹ’\n-ㅂ니다, -ㅂ니까?\n \n보다 → 봅니다, 봅니까?\n예 푸캄 씨는 지금 기숙사에 있습니다.\n \n프엉 씨는 몇 시에 잡니까?\n \n아미나 씨는 12시에 점심을 먹었습니다.\n1. [보기]와 같이 문장을 쓰세요. Write the sentences as shown in the example.\n티누 씨는 텔레비전을 봐요. ⊙ 티누 씨는 텔레비전을 봅니다. \n[ 보기 ]\n⑴ 프엉 씨는 지금 뭐 해요? \n⊙ \n \n⑵ 유수프 씨는 어디에 있어요? \n⊙ \n \n⑶ 아궁 씨는 커피를 마셔요. \n⊙ \n \n⑷ 딜로바 씨는 신문을 읽었어요. \n⊙ \n \n2. [보기]와 같이 대화해 보세요. Practice speaking as shown in the example.\n7:00 PM\n가 : 언제 저녁을 먹습니까?\n나 : 7시에 먹습니다.\n[ 보기 ]\n⑴\n3:00 PM\n⑵\n11:00 AM\n⑶\n10:00 AM\n⑷\n9:00 PM",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 103,
+        "image": "assets/modules/textbook1/unit_6/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "6 하루 일과 \n DAILY ROUTINE 103\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n10:00\n11:30\n•자다, \n10:00, 11:30\n•저녁을 먹다, \n7:00, 8:30\n가 : 푸캄 씨, 보통 몇 시에 잡니까?\n나 : 보통 10시에 잡니다.\n \n유수프 씨는 몇 시에 잡니까? \n가 : 저는 11시 반에 잡니다.\n발음 │ PRONUNCIATION\nㅘ, ㅝ\n‘ㅘ’, ‘ㅝ’는 이중모음이므로 ‘ㅜ’는 아주 짧게 ‘ㅏ’는 조금 길게 발음하고, ‘ㅜ’는 아주 \n짧게 ‘ㅓ’는 조금 길게 발음한다. 이때 뒤 모음만 발음해서는 안 된다.\n‘ㅘ’, ‘ㅝ’ are diphthongs. To pronounce ‘ㅘ’, say [w] very briefly and [a] a bit \nlonger. To pronounce ‘ㅝ’ say [w] very briefly and [ ] a bit longer. Do not \npronounce only the latter vowel.\n⑴ 완성, 화장, 과학, 체육관\n⑵ 원인, 정원, 권투\n대화 CONVERSATION\n진 수 칼로 씨, 지금 몇 시입니까?\n \nCarlo, what time is it now?\n칼 로 5시 반입니다. \n \nIt’s 5:30.\n진 수 몇 시에 집에 갑니까? \n \nWhat time are you going home?\n칼 로 저녁 8시에 집에 갑니다. \n \nI'm going home at 8 P.M.\n대답해 봐요! ANSWER ME!\n1 지금 몇 시입니까? What time is it now?\n2 칼로 씨는 오늘 몇 시에 집에 갑니까? What time is Carlo going home today?\n53\n54",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 104,
+        "image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "104 한국어 표준교재 1\n어휘 VOCABULARY\n일과 관련 어휘 Daily Routines\n일어나다 \nto get up\n씻다 \nto wash\n이를 닦다 \nto brush one's teeth\n식사하다\nto have a meal\n출근하다\nto go to work\n퇴근하다\nto leave work\n게임하다 \nto play a game\n청소하다 \nto clean\n장을 보다 \nto go grocery shopping\n산책하다 \nto take a walk\n샤워하다 \nto take a shower\n친구를 만나다 \nto meet a friend\n휴게실 lounge\n매점 snack bar\n공원 park\n사다 to buy\n 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.\n⑴\n가 : 지금 뭐 해요?\n나 : .\n⑵\n가 : 오늘 저녁에 뭐 해요?\n나 : .\n⑶\n가 : 주말에 뭐 했어요?\n나 : .\n⑷\n가 : 어제 뭐 했어요?\n나 : .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 105,
+        "image": "assets/modules/textbook1/unit_6/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "6 하루 일과 \n DAILY ROUTINE 105\n문법 GRAMMAR\n에서\n‘에서’와 ‘에’는 모두 장소를 나타내는 명사\n에 붙여 사용하지만 ‘에서’는 행위가 이루\n어지는 장소를 나타내고, ‘에’는 사람이나 \n물건이 있는 장소를 나타낸다. \nBoth ‘에서’ and ‘에’ are used with nouns \nindicating a place, but ‘에서’ indicates where \nan action happens, while ‘에’ indicates \nwhere a person or object is located. \n예 왕민 씨는 기숙사에서 청소해요. \n \n유수프 씨는 공원에 있어요.\n‘에서’는 장소를 나타내는 명사와 결합하여 어떤 \n일이 이루어지고 있는 장소임을 나타낸다.\n‘에서’ is combined with nouns to show a place or \nlocation where an action occurs.\n예 아지자 씨는 공원에서 운동을 해요. \n \n다라 씨는 휴게실에서 신문을 읽습니다.\n \n마두 씨는 편의점에서 주스를 삽니다. \n1. 맞는 것에 ◯ 하세요. Circle the correct option.\n⑴ 칼로 씨는 회사( 에 / 에서 ) 가요. 회사( 에 / 에서 ) 일해요.\n⑵ 자하라 씨는 어제 시장( 에 / 에서 ) 과일을 샀어요. \n⑶ 다린두 씨는 공원( 에 / 에서 ) 있습니다. 공원( 에 / 에서 ) 운동합니다.\n⑷ 프엉 씨는 12시에 식당( 에 / 에서 ) 점심을 먹었습니다.\n⑸ 유진 씨는 6시에 집( 에 / 에서 ) 왔어요. 집( 에 / 에서 ) 텔레비전을 봤어요. \n⑹ 진수 씨는 휴게실( 에 / 에서 ) 있어요. 휴게실( 에 / 에서 ) 쉬어요.\n2. [보기]와 같이 대화해 보세요. Practice speaking as shown in the example.\n(휴게실)\n가 : 푸캄 씨는 지금 뭐 해요?\n나 : 휴게실에서 쉬어요.\n[ 보기 ]\n매점 \n마트 \n사무실 \n기숙사\n방 \n거실 \n부엌 \n영화관",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 106,
+        "image": "assets/modules/textbook1/unit_6/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "106 한국어 표준교재 1\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•기숙사, 게임하다, \n공원, 산책하다\n•카페, 친구를 만나다, \n영화관, 영화를 보다\n가 : 칼로 씨, 일요일에 뭘 했습니까?\n나 : 기숙사에서 게임했습니다. \n \n아미나 씨는 뭘 했습니까?\n가 : 저는 공원에서 산책했습니다.\n가 : 많이 드세요. Eat a lot./Enjoy yourself.\n나 : 네, 잘 먹겠습니다. Yes, I will enjoy the meal.\n유용한 표현 │ USEFUL EXPRESSION\n잘 먹겠습니다.\nI will \nenjoy the meal.\n대화 CONVERSATION\n유유진 \n유수프 씨, 어제 뭘 했습니까?\n \nYusuf, what did you do yesterday?\n유수프 \n마트에서 장을 봤습니다. 그리고 친구를 \n만났습니다. 유진 씨는 뭘 했습니까?\n \nI shopped for groceries at the market. \nAnd I met a friend. What did you do, Yujin?\n유유진 \n저는 공원에서 운동했습니다.\n \nI exercised in the park.\n대답해 봐요! ANSWER ME!\n1 유수프 씨는 어제 뭘 했어요? What did Yusuf do yesterday?\n2 유진 씨는 어디에서 운동했어요? Where did Yujin exercise?\n56\n55",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 107,
+        "image": "assets/modules/textbook1/unit_6/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "6 하루 일과 \n DAILY ROUTINE 107\n문화와 정보 CULTURE & INFORMATION\n6 하루 일과 \n DAILY ROUTINE 107\n직장인의 하루\n A Day in the Life of an Office Worker\n• 시간을 말할 수 있다. I can say the time. \n↻\n• 동작이 일어나는 장소를 묻고 대답할 수 있다.\n I can ask and answer questions about the location of where an action occurs. \n↻\n• 하루 일과에 대해 묻고 대답할 수 있다. I can ask and answer questions about daily routines. \n↻\n확인해요 │ self assessment\n한국의 직장인들은 대부분 9시에 일을 시작합니다. \n출근할 때는 지하철이나 버스와 같은 대중교통을 \n이용하기도 하고, 개인 승용차를 이용하기도 \n합니다. 출퇴근 시간에는 교통이 매우 \n혼잡하여 예기치 않은 일로 \n어려움을 겪기도 합니다. \nMost office workers in Korea \nstart work at 9 o'clock. They \nuse public transportation like \nsubways or buses, or their own \ncars to commute. Traffic is very \ncongested during rush hour, which \ncan cause unexpected difficulties.\n점심은 보통 12시에서 1시 사이에 \n구내식당에서 먹는데, 구내식당이 없으면 \n회사 근처의 식당에서 먹습니다. 점심은 같은 \n부서의 사람들과 회사에서 하지 못한 업무 이야기도 \n하면서 함께 먹는 경우가 많습니다. 일부 직장인들은 \n점심시간을 이용하여 간단한 취미 활동을 즐기기도 합니다. \nLunch is usually from 12 to 1 PM, eaten in the company cafeteria or at nearby restaurants if there is no cafeteria. \nThey often have lunch with colleagues and discuss unfinished work.\n퇴근은 대부분 6시에 하지만 일을 다 끝내지 못했을 때는 야근을 합니다. 퇴근 후에는 쌓인 피로와 스트레스를 풀\n고, 팀워크를 다지기 위해 상사나 동료들과 회식을 할 때도 있습니다. \nMost workers finish work at 6 PM, but if they haven't finished their tasks, they work overtime. After work, they \nsometimes have team dinners to relieve stress and teamwork.\n어떤 사람들은 출근 전이나 퇴근 후에 자신의 건강을 위해 운동을 하거나, 자기 계발을 위해 외국어 학원에 다니\n기도 합니다. \nSome people exercise for their health or attend language classes for self-improvement before or after work.\n취침\nsleep\n저녁 \n6시\n밤 12시\n낮 12시\n오전 9시\n오후 1시\n기상 wake up\ncommute \nto work\n출근 \n오전 업무 \nmorning work\n점심\n시간 \nlunch\n오후 업무 \nafternoon work\n퇴근 및 \n개인 시간 \ncommute \nfrom work and \nfree time\n한국 직장인의 \n하루 일과\nDaily Life of\nan Office Worker\nin Korea",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 108,
+        "image": "assets/modules/textbook1/unit_6/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n108 한국어 표준교재 1\n[1~2] 다음 내용과 관계있는 그림을 고르십시오.\n1.\n게임을 하고 있습니다.\n①\n②\n③\n④\n2.\n밥을 먹고 있습니다.\n①\n②\n③\n④\n[3~4] 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.\n3.\n① 휴게실에서 쉬습니다. \n② 기숙사에서 청소하습니다.\n③ 시장에서 과일을 사습니다. \n④ 식당에서 점심을 먹습니다.\n4.\n① 주말에 장에 봤습니다. \n② 어제 친구가 만났습니다.\n③ 일곱 시에 퇴근했습니다. \n④ 아침에 빵를 먹었습니다.\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국의 직장인들은 출근할 때 주로 대중교통이나 개인 승용차를 이용합니다. 점심시간은 보통 \n12시부터 1시까지로 회사 동료들과 함께 먹는 경우가 많습니다. 퇴근은 대부분 6시에 하지만 일을 다 \n끝내지 못했을 때는 야근을 하기도 합니다. 퇴근 후에는 팀워크를 다지기 위해 상사나 동료들과 회식을 \n할 때도 있습니다.\n① 직장인들은 퇴근 시간이 자유로운 경우가 많습니다.\n② 직장인들은 근무 시간 중에 동료들과 회식을 합니다.\n③ 직장인들은 출근할 때 버스나 지하철을 타지 않습니다.\n④ 직장인들은 대부분 회사 동료들과 함께 점심을 먹습니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 109,
+        "image": "assets/modules/textbook1/unit_6/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n6 하루 일과 \n DAILY ROUTINE 109\n[1~3] 다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n1.\n①\n11:00\n②\n11:30\n③\n12:00\n④\n12:30\n2.\n①\n②\n③\n④\n3.\n①\n②\n③\n④\n[4~5] 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n4.\n① 매일 출근합니다. \n② 버스로 출근합니다.\n③ 아침 8시에 출근합니다. \n④ 칼로 씨하고 같이 출근합니다.\n5.\n① 7시에 먹습니다. \n② 비빔밥을 먹습니다.\n③ 기숙사에서 먹습니다. \n④ 반장님하고 먹습니다.\n1. \n여 : 몇 시에 점심을 먹었습니까?\n \n남 : 열두 시 반에 먹었습니다.\n2. 남 : 오늘 저녁에 뭐 합니까?\n \n여 : 커피숍에서 친구를 만납니다.\n3. 여 : 오전에 뭐 했습니까?\n \n남 : 공원에서 산책했습니다.\n4. 남 : 몇 시에 출근합니까?\n5. 남 : 어디에서 저녁을 먹습니까? \n듣기지문\n57",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 110,
+        "image": "assets/modules/textbook1/unit_6/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "110 한국어 표준교재 1\n학습 목표\nLEARNING OBJECTIVES\n좋아하는 계절에 대해 말할 수 있다.\nCan talk about one's favorite season.\n날씨에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about the weather.\n계절과 날씨 \nSeasons and the Weather\nC H A P T E R 0 7\n너무 더워요.\n오늘은 날씨가 어때요?\n110 한국어 표준교재 1\n‘ㅂ’ 불규칙 활용\n안\nGRAMMAR\n문법\n계절\nSeasons\n날씨\nWeather\nVOCABULARY\n어휘\n날씨\nWeather\nCULTURE & INFORMATION\n문화와 정보\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "audio": [
       {
         "track": 53,
@@ -88,16 +247,1080 @@
         "audio_url": "assets/modules/textbook1/audio/unit_6/track_057.mp3"
       }
     ],
-    "vocab": [],
-    "grammar": [],
-    "conversation": [],
-    "culture": [],
-    "reading": [],
-    "listening": []
+    "vocab": [
+      {
+        "id": "vocab_1",
+        "front": "시간 관련 어휘",
+        "back": "Time",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_2",
+        "front": "5분 (오 분)",
+        "back": "five minutes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_3",
+        "front": "10분 (십 분)",
+        "back": "ten minutes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_4",
+        "front": "15분 (십오 분)",
+        "back": "fifteen minutes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_5",
+        "front": "20분 (이십 분)",
+        "back": "twenty minutes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_6",
+        "front": "25분 (이십오 분)",
+        "back": "twenty five minutes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_7",
+        "front": "30분 (삼십 분)=반",
+        "back": "thirty minutes (half)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_8",
+        "front": "35분 (삼십오 분)",
+        "back": "thirty five minutes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_9",
+        "front": "40분 (사십 분)",
+        "back": "forty minutes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_10",
+        "front": "45분 (사십오 분)",
+        "back": "forty five minutes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_11",
+        "front": "50분 (오십 분)",
+        "back": "fifty minutes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_12",
+        "front": "55분 (오십오 분)",
+        "back": "fifty five minutes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_13",
+        "front": "1시 (한 시)",
+        "back": "one o'clock",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_14",
+        "front": "5시 (다섯 시)",
+        "back": "five o'clock",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_15",
+        "front": "9시 (아홉 시)",
+        "back": "nine o'clock",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_16",
+        "front": "2시 (두 시)",
+        "back": "two o'clock",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_17",
+        "front": "6시 (여섯 시)",
+        "back": "six o'clock",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_18",
+        "front": "10시 (열 시)",
+        "back": "ten o'clock",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_19",
+        "front": "3시 (세 시)",
+        "back": "three o'clock",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_20",
+        "front": "7시 (일곱 시)",
+        "back": "seven o'clock",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_21",
+        "front": "11시 (열한 시)",
+        "back": "eleven o'clock",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_22",
+        "front": "4시 (네 시)",
+        "back": "four o'clock",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_23",
+        "front": "8시 (여덟 시)",
+        "back": "eight o'clock",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_24",
+        "front": "12시 (열두 시)",
+        "back": "twelve o'clock",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_25",
+        "front": "시",
+        "back": "hour",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_26",
+        "front": "분",
+        "back": "minute 8:00 AM 12:00 PM 6:00 PM",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_27",
+        "front": "아침",
+        "back": "morning",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_28",
+        "front": "점심",
+        "back": "afternoon",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_29",
+        "front": "저녁",
+        "back": "evening",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_30",
+        "front": "새벽",
+        "back": "dawn",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_31",
+        "front": "낮",
+        "back": "daytime",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_32",
+        "front": "밤",
+        "back": "night",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_33",
+        "front": "몇 시",
+        "back": "what time",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_34",
+        "front": "보통",
+        "back": "usually",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_35",
+        "front": "요즘",
+        "back": "these days",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_36",
+        "front": "일과 관련 어휘",
+        "back": "Daily Routines",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_37",
+        "front": "일어나다",
+        "back": "to get up",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_38",
+        "front": "씻다",
+        "back": "to wash",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_39",
+        "front": "이를 닦다",
+        "back": "to brush one's teeth",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_40",
+        "front": "식사하다",
+        "back": "to have a meal",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_41",
+        "front": "출근하다",
+        "back": "to go to work",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_42",
+        "front": "퇴근하다",
+        "back": "to leave work",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_43",
+        "front": "게임하다",
+        "back": "to play a game",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_44",
+        "front": "청소하다",
+        "back": "to clean",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_45",
+        "front": "장을 보다",
+        "back": "to go grocery shopping",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_46",
+        "front": "산책하다",
+        "back": "to take a walk",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_47",
+        "front": "샤워하다",
+        "back": "to take a shower",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_48",
+        "front": "친구를 만나다",
+        "back": "to meet a friend",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_49",
+        "front": "휴게실",
+        "back": "lounge",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_50",
+        "front": "매점",
+        "back": "snack bar",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_51",
+        "front": "공원",
+        "back": "park",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_52",
+        "front": "사다",
+        "back": "to buy",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar_1",
+        "front": "-(스)ㅂ니다, -(스)ㅂ니까?",
+        "back": "‘-(스)ㅂ니다’는 동사, 형용사에 붙여 격식적 상황에서 듣는 사람을 높이면서 어떤 사실에 대해 정중하게 서술할 때\n사용한다. 정중하게 질문할 때는 ‘-(스)ㅂ니까?’를 사용한다.\n‘-(스)ㅂ니다’ is attached to verbs and adjectives to formally and respectfully describe a fact in formal situations\nelevating the listener. To ask a polite question, ‘-(스)ㅂ니까?’ is used.\n받침 ○\n-(스)ㅂ니다, -(스)ㅂ니까?\n먹다 → 먹습니다, 먹습니까?\n받침 ×, 받침 ‘ㄹ’\n-ㅂ니다, -ㅂ니까?\n보다 → 봅니다, 봅니까?",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
+      },
+      {
+        "id": "grammar_2",
+        "front": "에서",
+        "back": "‘에서’와 ‘에’는 모두 장소를 나타내는 명사\n에 붙여 사용하지만 ‘에서’는 행위가 이루\n어지는 장소를 나타내고, ‘에’는 사람이나\n물건이 있는 장소를 나타낸다.\nBoth ‘에서’ and ‘에’ are used with nouns\nindicating a place, but ‘에서’ indicates where\nan action happens, while ‘에’ indicates\nwhere a person or object is located.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conversation_1",
+        "front": "진 수 칼로 씨, 지금 몇 시입니까?",
+        "back": "Carlo, what time is it now?",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_2",
+        "front": "칼 로 5시 반입니다.",
+        "back": "It’s 5:30.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_3",
+        "front": "진 수 몇 시에 집에 갑니까?",
+        "back": "What time are you going home?",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_4",
+        "front": "칼 로 저녁 8시에 집에 갑니다.",
+        "back": "I'm going home at 8 P.M.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_5",
+        "front": "유수프 씨, 어제 뭘 했습니까?",
+        "back": "Yusuf, what did you do yesterday?",
+        "speaker": "유유진",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_6",
+        "front": "마트에서 장을 봤습니다. 그리고 친구를\n만났습니다. 유진 씨는 뭘 했습니까?",
+        "back": "I shopped for groceries at the market. And I met a friend. What did you do, Yujin?",
+        "speaker": "유수프",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_7",
+        "front": "저는 공원에서 운동했습니다.",
+        "back": "I exercised in the park.",
+        "speaker": "유유진",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      }
+    ],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "6 하루 일과",
+        "back": "DAILY ROUTINE 107",
+        "body": "6 하루 일과\nDAILY ROUTINE 107\n직장인의 하루\nA Day in the Life of an Office Worker\n• 시간을 말할 수 있다. I can say the time.\n• 동작이 일어나는 장소를 묻고 대답할 수 있다.\nI can ask and answer questions about the location of where an action occurs.\n• 하루 일과에 대해 묻고 대답할 수 있다. I can ask and answer questions about daily routines.\n한국의 직장인들은 대부분 9시에 일을 시작합니다.\n출근할 때는 지하철이나 버스와 같은 대중교통을\n이용하기도 하고, 개인 승용차를 이용하기도\n합니다. 출퇴근 시간에는 교통이 매우\n혼잡하여 예기치 않은 일로\n어려움을 겪기도 합니다.\nMost office workers in Korea\nstart work at 9 o'clock. They",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook1/unit_6/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
+    "reading": [
+      {
+        "id": "u6_r1",
+        "nomor": 1,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n게임을 하고 있습니다.",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r1_a.jpg",
+          "b": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r1_b.jpg",
+          "c": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r1_c.jpg",
+          "d": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_6/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u6_r2",
+        "nomor": 2,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n밥을 먹고 있습니다.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r2_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r2_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r2_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r2_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r2_a.jpg",
+          "b": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r2_b.jpg",
+          "c": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r2_c.jpg",
+          "d": "assets/modules/textbook1/unit_6/choice_images/reading/u6_r2_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_6/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u6_r3",
+        "nomor": 3,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "휴게실에서 쉬습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "기숙사에서 청소하습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "시장에서 과일을 사습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "식당에서 점심을 먹습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_6/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u6_r4",
+        "nomor": 4,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "주말에 장에 봤습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "어제 친구가 만났습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "일곱 시에 퇴근했습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "아침에 빵를 먹었습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_6/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u6_r5",
+        "nomor": 5,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국의 직장인들은 출근할 때 주로 대중교통이나 개인 승용차를 이용합니다. 점심시간은 보통\n12시부터 1시까지로 회사 동료들과 함께 먹는 경우가 많습니다. 퇴근은 대부분 6시에 하지만 일을 다\n끝내지 못했을 때는 야근을 하기도 합니다. 퇴근 후에는 팀워크를 다지기 위해 상사나 동료들과 회식을\n할 때도 있습니다.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "직장인들은 퇴근 시간이 자유로운 경우가 많습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "직장인들은 근무 시간 중에 동료들과 회식을 합니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "직장인들은 출근할 때 버스나 지하철을 타지 않습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "직장인들은 대부분 회사 동료들과 함께 점심을 먹습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_6/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ],
+    "listening": [
+      {
+        "id": "u6_l1",
+        "nomor": 1,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "",
+        "jawaban": "d",
+        "audio_teks": "여 : 몇 시에 점심을 먹었습니까?\n남 : 열두 시 반에 먹었습니다.",
+        "audio_url": "assets/modules/textbook1/audio/unit_6/track_057.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "11:00",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "11:30",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "12:00",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "12:30",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_6/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u6_l2",
+        "nomor": 2,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "",
+        "jawaban": "d",
+        "audio_teks": "남 : 오늘 저녁에 뭐 합니까?\n여 : 커피숍에서 친구를 만납니다.",
+        "audio_url": "assets/modules/textbook1/audio/unit_6/track_057.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l2_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l2_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l2_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l2_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l2_a.jpg",
+          "b": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l2_b.jpg",
+          "c": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l2_c.jpg",
+          "d": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l2_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_6/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u6_l3",
+        "nomor": 3,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "",
+        "jawaban": "b",
+        "audio_teks": "여 : 오전에 뭐 했습니까?\n남 : 공원에서 산책했습니다.",
+        "audio_url": "assets/modules/textbook1/audio/unit_6/track_057.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l3_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l3_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l3_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l3_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l3_a.jpg",
+          "b": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l3_b.jpg",
+          "c": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l3_c.jpg",
+          "d": "assets/modules/textbook1/unit_6/choice_images/listening/u6_l3_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_6/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u6_l4",
+        "nomor": 4,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "c",
+        "audio_teks": "남 : 몇 시에 출근합니까?",
+        "audio_url": "assets/modules/textbook1/audio/unit_6/track_057.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "매일 출근합니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "버스로 출근합니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "아침 8시에 출근합니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "칼로 씨하고 같이 출근합니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_6/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u6_l5",
+        "nomor": 5,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "c",
+        "audio_teks": "남 : 어디에서 저녁을 먹습니까?",
+        "audio_url": "assets/modules/textbook1/audio/unit_6/track_057.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "7시에 먹습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "비빔밥을 먹습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "기숙사에서 먹습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "반장님하고 먹습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_6/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ]
   },
   "integrity": {
     "pdf_pages": 10,
     "lesson_audio": 5,
+    "lesson_flow": 10,
+    "vocab_cards": 52,
+    "grammar_cards": 2,
+    "conversation_cards": 7,
+    "culture_cards": 1,
+    "reading_questions": 5,
+    "listening_questions": 5,
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_scripts": 5,
     "source_page_start_index": 100,
     "source_page_end_index": 109
   }

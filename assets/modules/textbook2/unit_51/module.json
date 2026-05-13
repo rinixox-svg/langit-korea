@@ -4,7 +4,7 @@
   "unit": 51,
   "title_ko": "숙박 서비스",
   "title_en": "Accommodation Services",
-  "title_id": "Layanan Akomodasi",
+  "title_id": "Layanan akomodasi",
   "source_pdf": "assets/langit-korea-modules/unit_51_accommodation_services.pdf",
   "page_start": 217,
   "page_end": 226,
@@ -61,572 +61,447 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 217,
+        "image": "assets/modules/textbook2/unit_51/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "51 숙박 서비스 \n ACCOMODATION SERVICES 217\n어휘 VOCABULARY\n호텔 비품실 물품 관련 어휘 Hotel Supplies Room Items\n전화선 phone cord\n객실 guest room\n전동식 motor operated\n커튼을 치다 to draw the curtains\n 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.\n비품실 방향제 마른걸레 하우스키핑 카트 \n⑴ 방에 냄새가 나니까 청소한 후에 을/를 꼭 뿌려 주세요. \n⑵ 객실 청소에 필요한 물품은 에 있어요. \n⑶ 욕실 물청소 후에는 바닥이 미끄러우니까 꼭 (으)로 닦아 주세요. \n⑷ 청소용품, 수건, 생수, 휴지를 싣고 객실에 갈 때 을/를 사용하세요.\n청소도구함 cleaning tool box\n마른걸레\ndry cloth \n방향제 air freshener \n대걸레\nmop \n플러그를 꽂다/\n빼다 \nto plug in/\nunplug a plug\n하우스키핑 카트 housekeeping cart\n마스터키를 대다/떼다\nto tap/remove a master key\n손잡이 handle \n생수\nbottled water \n수거함\ncollection bin \n비품실/린넨실(리넨실) supply room/linen room \n목욕 가운\nbathrobe \n수건\ntowel \n시트\nbed sheet \n소모품/어메니티 consumable/amenity\n샴푸 \nshampoo \n린스 \n(hair) conditioner \n바디워시\nbody wash \n비누\nsoap \n치약\ntoothpaste \n칫솔\ntoothbrush",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 218,
+        "image": "assets/modules/textbook2/unit_51/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "218 한국어 표준교재 2\n문법 GRAMMAR\n-았다가/었다가\n‘-았다가/었다가’는 동사에 붙어 어떤 행위가 끝난 후에 다른 행위가 이루어졌음을 나타낸다.\n‘-았다가/었다가’ is attached to a verb to indicate that after one action is completed, another action occurs. \nㅏ, ㅗ\n-았다가\n \n오다 → 왔다가\nㅓ, ㅜ, ㅣ…\n-었다가\n \n마시다 → 마셨다가\n-하다\n-했다가\n \n약속하다 → 약속했다가\n예 아시아마트에 갔다가 우연히 고향 사람을 만났어요. \n \n추워서 점퍼를 입었다가 더워서 다시 벗었어요.\n \n다라 씨와 만날 약속을 했다가 급한 일이 있어서 취소했어요.\n1. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example. \n가 : 고향에 갔다고 들었는데 안 갔어요?\n나 : 고향에 갔다가 지난주에 돌아왔어요. (가다) \n[ 보기 ]\n⑴가 : 객실 텔레비전 전원이 안 켜져요.\n나 : 플러그를 다시 꽂아 보세요. (빼다)\n⑵가 : 이 마스터키는 어떻게 사용해요?\n나 : 손잡이 위쪽에 떼면 돼요. (대다)\n⑶가 : 하우스키핑 카트가 안 움직여요.\n나 : 밀면 움직일 거예요. (당기다)\n2. [보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the example.\n객실에 올라가다 \n/ 내려오다\n가 : 왜 객실에 안 올라갔어요?\n나 : 열쇠를 두고 가서 객실에 올라갔다가 내려왔어요.\n[ 보기 ]\n⑴\n에어컨을 켜다 \n/ 끄다\n가 : 청소하기 전에 에어컨을 켜 봤어요?\n나 : 네, 잘 작동하는지 확인하려고 .\n⑵\n커튼을 열다 \n/ 다시 치다\n가 : 청소 마치고 객실 커튼을 쳤어요?\n나 : 네, 청소할 때 . \n⑶\n시트를 수거함에 넣다\n/ 다시 꺼내다\n가 : 왜 수거함에서 시트를 다시 꺼냈어요?\n나 : 손님이 잃어버린 물건이 있는지 확인하려고 \n .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 219,
+        "image": "assets/modules/textbook2/unit_51/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "51 숙박 서비스 \n ACCOMODATION SERVICES 219\n대답해 봐요! ANSWER ME!\n1 자야 씨는 왜 청소하러 안 갔어요? Why didn’t Jaya go to clean? \n2 이번에 바뀐 하우스키핑 카트는 어떻게 사용해요? \nHow do they use the new housekeeping cart? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•에어컨, 찬바람이 안 나오다, 전원을 끄다, 다시 켜다\n•전화기, 이상한 소리가 나다, 전화선을 빼다, 다시 꽂다\n가 : 301호 에어컨이 고장난 것 같아요. 찬바람이 안 나와요.\n나 : 전원을 껐다가 다시 켜 보세요. \n가 : 네. 해 보고 안 되면 다시 전화드릴게요.\n발음 │ PRONUNCIATION\n3음절 한자어에서 앞의 두 음절이 단독으로 쓰이는 낱말들은 세 번째 음절의 ‘ㄹ’를 [ㄴ]로 발음한다.\nIn three-syllable Sino-Korean words, if the first two syllables can stand alone together, the 'ㄹ' in the \nthird syllable is pronounced as [ㄴ].\n⑴ 생산량[생산냥] \n의견란[의견난] \n결단력[결딴녁]\n⑵ 입원료[이붠뇨] \n공권력[공꿘녁] \n상견례[상견네]\n279\n대화 CONVERSATION\n실장님 \n오늘부터 연휴 시작이라서 예약한 손님이 많아요. 객실 청소에 신경 써 주세요. 그럼 청소 시작하세요.\n \nStarting today we have a lot of guests checking in for the holidays, so please pay extra attention when cleaning \nthe rooms. Now, let's begin cleaning. \n자\n야 \n네, 알겠습니다. \nYes, understood.\n실장님\n자야 씨, 무슨 문제가 있어요? 왜 청소하러 안 가요?\n \nJaya, is there a problem? Why aren’t you going to clean?\n자\n야 \n하우스키핑 카트가 안 움직여서요. \nThe housekeeping cart isn’t moving. \n실장님 \n아, 이번에 바뀐 하우스키핑 카트는 전동식이에요. \n그래서 이 버튼을 눌렀다가 떼어야 작동해요. \n한번 해 보세요.\n \nOh, the new housekeeping carts are motor operated. So \nyou need to press this button and then release it for it to \nwork. Try it. \n자\n야 \n네, 그렇게 하니까 되네요. 감사합니다. 그럼 청소하러 가겠습니다. \nYes, it works now. Thank you. I’ll start cleaning now.\n278",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 220,
+        "image": "assets/modules/textbook2/unit_51/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "220 한국어 표준교재 2\n어휘 VOCABULARY\n객실 정비 관련 어휘 Room Cleaning\n 관계있는 것끼리 연결하세요. Connect the related items.\n⑴\nDND 카드\n●\n ●\n객실 청소나 서비스를 요청할 때 \n사용해요.\n⑵\n메이드 보고서\n●\n●\n객실 청소나 서비스를 거절할 때 \n사용해요.\n⑶\n객실 미니바\n●\n●\n객실에 필요한 물품의 이름과 \n수량이 적힌 종이예요.\n⑷\n메이크업 카드\n●\n●\n주류, 스낵 등 판매용 물품이 보관된 객실의 \n작은 냉장고 또는 그것들이 진열된 선반이에요.\n객실 guest room \n전등\nlight\n이불보\nduvet cover\n화장대 \ndressing \ntable \n미니바 mini bar \n쓰레기를 줍다\nto pick up trash\n객실 전화기\nroom phone \n시트를 교체하다\nto change the sheets \n스위치를 켜다/끄다\nto turn on/off the switch \n객실 용품 room amenities \n리모컨\nremote control \n헤어드라이어\nhair dryer \n슬리퍼\nslippers \n옷걸이\nhanger \n스낵 snacks \nDND 카드 do not disturb card\n메이드 보고서 maid report \n메이크업 카드 makeup card\n가져다 놓다 to place/put down\n얼룩 stain \n침대보\nbed sheet",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 221,
+        "image": "assets/modules/textbook2/unit_51/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "51 숙박 서비스 \n ACCOMODATION SERVICES 221\n문법 GRAMMAR\n반말\n반말은 비격식적 상황에서 아랫사람이나 친근한 관계의 사람에게 높이려는 의도가 없이 쓰는 말로, 일반적으로 \n종결어미에 의해 구별된다. ‘-아/어, -느냐/(으)냐, -니/(으)니, -자, -아/어(라)’ 등이 반말 종결어미이다.\nnon-honorific speech (banmal) is used in informal situations, usually between close acquaintances or when \naddressing someone younger or of lower status without the intention of elevating them. It is generally \ndistinguished by sentence endings, such as ‘-아/어, -느냐/(으)냐, -니/(으)니, -자, -아/어(라).’ \n평서문\n-아/어\n청유문\n-아/어, -자\n의문문\n-아/어, -느냐/(으)냐, \n-니/(으)니\n명령문\n-아/어(라)\n예 시트를 새것으로 교체해.\n \n매일 자전거를 타고 회사에 가니? \n \n명절에는 우리집에 모여서 같이 음식을 만들자.\n※ 명사와 함께 사용될 때는 ‘(이)야’의 형태가 된다.\n \nWhen used with a noun, formal ‘이에요/예요’ \ntakes the form ‘(이)야’.\n \n예 여기는 비품실이야. 이건 대걸레야. \n1. [보기]와 같이 문장을 바꾸세요. Change the sentences as shown in the example.\n자야 씨는 객실에서 청소해요. ⊙ 자야는 객실에서 청소해.\n[ 보기 ]\n⑴ 슬리퍼와 목욕 가운은 어디에 둡니까? \n⊙ \n ?\n⑵ 청소하기 전에 객실 스위치를 전부 켜세요. \n⊙ \n .\n⑶ 침대 밑을 청소해야 하니까 침대를 같이 듭시다. ⊙ \n .\n⑷ 청소도구함에 대걸레와 세제를 넣었어요. \n⊙ \n .\n2. 그림을 보고 [보기]와 같이 말해 보세요. Look at the pictures and practice speaking as shown in the example.\n청소가 끝나면 커튼을 치세요. ⊙ 청소가 끝나면 커튼을 쳐.\n[ 보기 ]\n[보기]\n청소가 끝나면 \n커튼을 치세요.\n⑴\n미니바에 생수를 \n몇 병 넣습니까?\n⑵\n바닥에 먼지가 많으니까 \n청소기부터 돌리세요.\n⑶\n시트 교체하기가 \n힘드니까 같이 해요. \n응, 아니\n격식체에서 사용하는 ‘예/아니요’에 대응한다. \n상대방이 묻는 말에 긍정적으로 대답할 때는 \n‘응’, 부정적으로 대답할 때는 ‘아니’를 사용한다.\n‘응/아니’ correspond to the formal expressions \n‘예/아니요’. When responding affirmatively, use \n‘응’, and when responding negatively, use ‘아니’.\n예 가 : 내일은 늦지 마. 나 : 응, 일찍 올게.\n \n가 : 전원을 켰어? \n나 : 아니, 안 켰어.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 222,
+        "image": "assets/modules/textbook2/unit_51/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "222 한국어 표준교재 2\n대화 CONVERSATION\n선\n배 \n자야, 지금 손님 물건을 옮기고 있어?\n \nJaya, are you moving the guest’s belongings? \n자\n야 \n네, 테이블 위가 더러워서 청소하려고요. 청소하는 동안 잠시 옮겨 놓으면 안 될까요?\n \nYes, I was going to clean the table because it’s dirty. Can’t I just move them temporarily while I clean? \n선\n배 \n손님들 물건은 함부로 만지거나 옮기면 안 돼. 손님들이 방에 들어왔을 때 물건이 제자리에 없으면 \n오해하실 수 있거든.\n \nYou must never move or touch a guest's belongings without permission. If guests find their belongings out of \nplace when they return, there might be a misunderstanding. \n자\n야 \n네, 알겠습니다. 그럼 테이블 위는 어떻게 \n청소할까요?\n \nI understand. Then how should I clean the table top? \n선\n배 \n테이블 위에 있는 휴지를 버리고 바닥은 손걸레로 \n깨끗이 닦으면 돼. 안내 책자하고 잡지는 제자리에 \n놓고. \n \nThrow away the tissues on the table, and wipe the surface \nclean with a cloth. Make sure the guidebook and \nmagazines are placed where they belong. \n자\n야 \n네, 그렇게 할게요. 다음부터는 조심하겠습니다.\n \nAlright, I’ll do that. I’ll be more careful from now on.\n대답해 봐요! ANSWER ME!\n1 자야 씨는 청소하면서 무슨 실수를 했어요? What mistake did Jaya make while cleaning? \n2 객실 테이블 위는 어떻게 청소해야 돼요? How should the guest room table be cleaned? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•쓰레기통을 비우다, 전등을 끄고 객실 문을 닫다\n•욕실에 소모품을 가져다 놓다, 커튼을 치고 나가다 \n가 : 객실 점검 시간까지 이제 5분 남았어. 다 마무리되었지?\n나 : 응. 그런데 쓰레기통을 비워야 돼.\n가 : 그건 내가 할게. 빨리 전등을 끄고 객실 문을 닫자.\n나 : 알았어. 고마워. \n가 : 기계를 사용한 다음에는 전원을 꺼야 돼요. \nYou need to turn off the power after using the machine.\n나 : 네, 다음부터 주의하겠습니다. \nOk, I’ll be more careful next time.\n유용한 표현 │ USEFUL EXPRESSION\n다음부터 \n주의하겠습니다.\nI’ll be more careful \nnext time. \n281\n280",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 223,
+        "image": "assets/modules/textbook2/unit_51/pages/page_07.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "문화와 정보 CULTURE & INFORMATION\n51 숙박 서비스 \n ACCOMODATION SERVICES 223\n• 객실 정비 업무와 관련한 대화를 할 수 있다. I can engage in conversations related to room cleaning tasks. ↻\n• 객실 정비 중 발생한 문제점에 대해 묻고 대답할 수 있다. \nI can ask and answer questions about problems encountered during room cleaning. \n↻\n• 일하는 동료들과 반말을 사용할 수 있다. I can use non-honorific speech with coworkers. \n↻\n확인해요 │ self assessment\n한국의 관광지\nKorea’s Tourist Attractions\n한국은 풍부한 문화유산과 다양한 관광 명소를 지닌 매력적\n인 나라입니다. 역사적인 유적지, 아름다운 자연 경관, 맛있는 \n음식을 즐길 수 있어 많은 외국인 관광객들이 한국을 찾고 있\n습니다. 코로나19가 유행하기 이전인 2019년에는 1,750만 명\n이 넘는 외국인 관광객이 한국을 찾았습니다.\nKorea is a beautiful country with a rich cultural heritage and a \nvariety of tourist destinations. Visitors can enjoy historical \nsites, beautiful natural scenery, and delicious food, making \nKorea a popular destination for many foreign tourists. In 2019 \nmore than 17.5 million foreign tourists visited Korea before \nthe COVID-19 pandemic.\n한국의 역사와 전통문화를 즐길 수 있는 도시로는 경주, 안\n동, 전주가 있습니다. 경주는 신라의 역사와 문화를 한눈에 볼 \n수 있을 만큼 다양한 유산이 산재해 있는 곳입니다. 불국사와 \n석굴암은 한국의 불교문화를 대표하는 사찰입니다. 안동은 한\n국의 전통적인 건축물과 유교문화를 체험할 수 있는 하회마을, \n도산서원 등이 있는 곳입니다. 전주는 한국의 전통 가옥인 한옥\n이 모여 있는 한옥마을이 있어 한국의 전통 문화와 역사를 체\n험할 수 있습니다.\nCities where visitors can enjoy Korea’s history and traditional \nculture include Gyeongju, Andong, and Jeonju. Gyeongju is \nfilled with various heritage sites that showcase the history \nand culture of the Silla Dynasty. The Bulguksa Temple and \nSeokguram Grotto are iconic examples of Korean Buddhist \nculture. Andong offers experiences of traditional Korean \narchitecture and Confucian culture, with sites like Hahoe \nVillage and Dosan Seowon. And Jeonju has its Hanok Village, \na collection of traditional Korean houses where visitors can \nexperience Korea's traditional culture and history.\n아름다운 자연 경관을 즐기기에 좋은 곳으로는 제주도와 설\n악산이 있습니다. 제주도는 한국에서 가장 큰 섬으로 멋진 해\n변과 한국에서 가장 높은 한라산의 위엄이 한데 어우러져 독\n특한 아름다움\n을 선사합니다. \n설악산은 계절\n에 따라 다양한 \n모습을 보여 주\n는 웅장한 산으\n로 다양한 등산\n로가 있어 등산\n객들에게 인기\n가 있습니다.\nJejudo Island \nand Seoraksan \nM o u n t a i n a r e \ngreat places to \nenjoy beautiful natural \nscenery. Jeju Island, the largest island in Korea, offers unique \nbeauty with its stunning beaches and the majestic Hallasan, the \nhighest mountain in Korea. Seoraksan Mountain is another a \ngreat mountain that displays diverse scenery that changes each \nseason. It is popular among hikers for its various trails.\n서울, 부산, 대구 등의 대도시에서는 쇼핑, 음식, 한류 문화를 \n즐길 수 있습니다. 특히 한국의 수도인 서울은 과거와 현대가 \n공존하는 곳으로, 경복궁, 명동, 남산타워 등이 유명합니다. 바\n다에 인접한 부산은 맛집 여행으로 인기가 많고, 근대사의 흔적\n이 남아 있는 대구는 골목을 따라 걷는 근대골목투어가 관광객\n들로부터 사랑을 받습니다.\nIn major cities like Seoul, Busan, and Daegu, visitors can enjoy \nshopping, food, and Korean Wave culture (Hallyu). Seoul, the \ncapital of Korea, is a place where the past and present \ncoexist, with famous sites such as Gyeongbokgung Palace, \nMyeongdong, and Namsan Tower. Located by the sea, Busan \nis popular for food tours, while Daegu, with its remnants of \nmodern history, is loved for its Daegu Alleyway History Tour, \nwhere tourists can stroll through historic neighborhoods.\n울산광역시\n경주\n안동\n서울특별시\n인천광역시\n대전광역시\n부산광역시\n광주광역시\n대구광역시\n전주",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 224,
+        "image": "assets/modules/textbook2/unit_51/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n224 한국어 표준교재 2\n1. \n다음 내용과 관계있는 그림을 고르십시오.\n시트를 교체하고 있습니다. \n①\n②\n③\n④\n[2~3] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n2.\n욕조나 세면대에 있는 이/가 지워지지 않을 때는 세제를 뿌립니다. 그리고 조금 후에 \n마른걸레로 닦으면 깨끗하게 지울 수 있습니다. \n① 냄새 \n② 얼룩 \n③ 물건 \n④ 칫솔\n3.\n청소를 하기 전에 먼저 객실에 손님이 있는지 확인해야 합니다. 객실 문이 닫혀 있거나 DND 카드가 \n없으면 먼저 벨을 . \n① 세워야 합니다 \n \n \n② 눌러야 합니다\n③ 요청해야 합니다 \n \n \n④ 확인해야 합니다 \n4. 다음은 무엇에 대한 설명입니까?\n객실 청소에 필요한 청소용품과 리넨류 등을 싣고 이동할 수 있는 작업 도구입니다. \n① 수레 \n② 경운기 \n③ 컨베이어 벨트 \n④ 하우스키핑 카트 \n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국의 대도시는 도시마다 다른 특색을 지니고 있습니다. 서울은 한국의 과거와 현대가 공존하는 곳이며 \n밤늦게까지 쇼핑을 즐길 수 있어 여행객이 가장 많이 찾는 도시입니다. 부산은 바다가 아름답고 맛집들이 \n많아 인기가 많습니다. 그리고 근대사의 흔적이 남아 있는 대구는 골목길을 따라 걷는 근대골목 투어가 \n관광객들의 발길을 끌고 있습니다. \n① 한국의 대도시는 보통 분위기가 비슷합니다. \n② 서울에서는 근대골목투어를 즐길 수 있습니다. \n③ 부산은 바다가 아름다워 여행객이 좋아합니다. \n④ 맛집 여행을 하고 싶을 때는 대구에 가면 됩니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 225,
+        "image": "assets/modules/textbook2/unit_51/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n51 숙박 서비스 \n ACCOMODATION SERVICES 225\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n2. 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n① 네, 뺐어요. \n \n \n② 네, 꽂았어요.\n③ 아니요, 없어요. \n \n \n④ 아니요, 길었어요. \n3. 두 사람은 무엇에 대해 말하고 있습니까?\n① 청소 도구 \n \n \n② 청소 시간\n③ 청소 태도 \n \n \n④ 청소 순서\n4. 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n① 제가 도와줄게요. \n \n \n② 앞으로는 조심할게요.\n③ 쓰레기통을 찾으세요. \n \n \n④ 힘드니까 내일 하세요.\n5. \n다음 중 들은 내용과 같은 것은 무엇입니까? \n① 여자는 카트 정리를 마쳤습니다. \n② 여자는 5층 객실을 청소해야 됩니다.\n③ 여자는 남자에게 열쇠를 받았습니다. \n④ 여자는 유니폼으로 갈아입으려고 합니다. \n1. \n여 : 객실에 생수를 몇 병씩 두면 돼요?\n \n남 : 삼 층 객실은 두 병씩이에요. \n2. 남 : 청소기 플러그를 꽂았어요?\n3. 여 : 객실에 올라가면 욕실부터 청소하면 되지요?\n \n남 : 아니요, 창문을 열어 환기를 시키고 객실 청소부터 하세요. 욕실 청소는 마지막에 하세요.\n4. 남 : 곧 객실 점검인데 쓰레기통을 못 비웠어요. \n5. 남 : 유니폼이 잘 어울리네요. 오늘이 청소하는 첫날이지요?\n \n여 : 네. 그런데 제가 청소할 오 층 객실 출입 열쇠는 누구에게서 받아요?\n \n남 : 이따가 실장님이 주실 거예요. 그전에 하우스키핑 카트 정리부터 하세요. \n듣기지문\n282",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 226,
+        "image": "assets/modules/textbook2/unit_51/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "226 한국어 표준교재 2\n학습 목표\nLEARNING OBJECTIVES\n식재료 관리 방법에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about how to manage ingredients. \n음식을 안전하게 보관하는 방법에 대해 설명할 수 있다.\nCan explain how to store food safely.\n음식 조리\nFood Preparation\nC H A P T E R 5 2\n226 한국어 표준교재 2\n-았어야/었어야 했는데\n-(으)ㄴ 지\nGRAMMAR\n문법\n식재료 관리 관련 어휘\nVocabulary Related to Managing \nIngredients \n음식 안전 관리 관련 어휘\nVocabulary Related to Food Safety \nManagement \nVOCABULARY\n어휘\nK-푸드 산업\nK-Food Industry \nCULTURE & INFORMATION\n문화와 정보\n세 시간이 되었습니다.\n고기를 해동한 지 얼마나 되었어요?\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "vocab": [
       {
         "id": "vocab_1",
-        "front": "51 숙박 서비스",
-        "back": "ACCOMODATION SERVICES 217",
-        "raw": {
-          "korean": "51  숙박 서비스",
-          "indonesia": "ACCOMODATION SERVICES   217"
-        }
+        "front": "호텔 비품실 물품 관련 어휘",
+        "back": "Hotel Supplies Room Items",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_2",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "전화선",
+        "back": "phone cord",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_3",
-        "front": "호텔 비품실 물품 관련 어휘",
-        "back": "Hotel Supplies Room Items",
-        "raw": {
-          "korean": "호텔 비품실 물품 관련 어휘",
-          "indonesia": "\u0007Hotel Supplies Room Items"
-        }
+        "front": "객실",
+        "back": "guest room",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_4",
-        "front": "커튼을 치다",
-        "back": "to draw the curtains",
-        "raw": {
-          "korean": "커튼을 치다",
-          "indonesia": "to draw the curtains"
-        }
+        "front": "전동식",
+        "back": "motor operated",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_5",
-        "front": "마른걸레",
-        "back": "dry cloth",
-        "raw": {
-          "korean": "마른걸레",
-          "indonesia": "dry cloth"
-        }
+        "front": "커튼을 치다",
+        "back": "to draw the curtains",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_6",
-        "front": "대걸레",
-        "back": "mop",
-        "raw": {
-          "korean": "대걸레",
-          "indonesia": "mop"
-        }
-      },
-      {
-        "id": "vocab_7",
-        "front": "빼다",
-        "back": "to plug in/",
-        "raw": {
-          "korean": "빼다",
-          "indonesia": "to plug in/"
-        }
-      },
-      {
-        "id": "vocab_8",
-        "front": "마스터키를 대다/떼다",
-        "back": "to tap/remove a master key",
-        "raw": {
-          "korean": "마스터키를 대다/떼다",
-          "indonesia": "to tap/remove a master key"
-        }
-      },
-      {
-        "id": "vocab_9",
-        "front": "생수",
-        "back": "bottled water",
-        "raw": {
-          "korean": "생수",
-          "indonesia": "bottled water"
-        }
-      },
-      {
-        "id": "vocab_10",
-        "front": "수거함",
-        "back": "collection bin",
-        "raw": {
-          "korean": "수거함",
-          "indonesia": "collection bin"
-        }
-      },
-      {
-        "id": "vocab_11",
-        "front": "목욕 가운",
-        "back": "bathrobe",
-        "raw": {
-          "korean": "목욕 가운",
-          "indonesia": "bathrobe"
-        }
-      },
-      {
-        "id": "vocab_12",
-        "front": "수건",
-        "back": "towel",
-        "raw": {
-          "korean": "수건",
-          "indonesia": "towel"
-        }
-      },
-      {
-        "id": "vocab_13",
-        "front": "시트",
-        "back": "bed sheet",
-        "raw": {
-          "korean": "시트",
-          "indonesia": "bed sheet"
-        }
-      },
-      {
-        "id": "vocab_14",
-        "front": "샴푸",
-        "back": "shampoo",
-        "raw": {
-          "korean": "샴푸",
-          "indonesia": "shampoo"
-        }
-      },
-      {
-        "id": "vocab_15",
-        "front": "린스",
-        "back": "(hair) conditioner",
-        "raw": {
-          "korean": "린스",
-          "indonesia": "(hair) conditioner"
-        }
-      },
-      {
-        "id": "vocab_16",
-        "front": "바디워시",
-        "back": "body wash",
-        "raw": {
-          "korean": "바디워시",
-          "indonesia": "body wash"
-        }
-      },
-      {
-        "id": "vocab_17",
-        "front": "비누",
-        "back": "soap",
-        "raw": {
-          "korean": "비누",
-          "indonesia": "soap"
-        }
-      },
-      {
-        "id": "vocab_18",
-        "front": "치약",
-        "back": "toothpaste",
-        "raw": {
-          "korean": "치약",
-          "indonesia": "toothpaste"
-        }
-      },
-      {
-        "id": "vocab_19",
-        "front": "칫솔",
-        "back": "toothbrush",
-        "raw": {
-          "korean": "칫솔",
-          "indonesia": "toothbrush"
-        }
-      },
-      {
-        "id": "vocab_20",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
-      },
-      {
-        "id": "vocab_21",
         "front": "객실 정비 관련 어휘",
         "back": "Room Cleaning",
-        "raw": {
-          "korean": "객실 정비 관련 어휘",
-          "indonesia": "\u0007Room Cleaning"
-        }
-      },
-      {
-        "id": "vocab_22",
-        "front": "관계있는 것끼리 연결하세요. Connect the related items.",
-        "back": "⑴",
-        "raw": {
-          "korean": "\u0007관계있는 것끼리 연결하세요. Connect the related items.",
-          "indonesia": "⑴"
-        }
-      },
-      {
-        "id": "vocab_23",
-        "front": "DND 카드",
-        "back": "● ●",
-        "raw": {
-          "korean": "DND 카드",
-          "indonesia": "● ●"
-        }
-      },
-      {
-        "id": "vocab_24",
-        "front": "사용해요.",
-        "back": "⑵",
-        "raw": {
-          "korean": "사용해요.",
-          "indonesia": "⑵"
-        }
-      },
-      {
-        "id": "vocab_25",
-        "front": "메이드 보고서",
-        "back": "●",
-        "raw": {
-          "korean": "메이드 보고서",
-          "indonesia": "●"
-        }
-      },
-      {
-        "id": "vocab_26",
-        "front": "사용해요.",
-        "back": "⑶",
-        "raw": {
-          "korean": "사용해요.",
-          "indonesia": "⑶"
-        }
-      },
-      {
-        "id": "vocab_27",
-        "front": "객실 미니바",
-        "back": "●",
-        "raw": {
-          "korean": "객실 미니바",
-          "indonesia": "●"
-        }
-      },
-      {
-        "id": "vocab_28",
-        "front": "수량이 적힌 종이예요.",
-        "back": "⑷",
-        "raw": {
-          "korean": "수량이 적힌 종이예요.",
-          "indonesia": "⑷"
-        }
-      },
-      {
-        "id": "vocab_29",
-        "front": "메이크업 카드",
-        "back": "●",
-        "raw": {
-          "korean": "메이크업 카드",
-          "indonesia": "●"
-        }
-      },
-      {
-        "id": "vocab_30",
-        "front": "전등",
-        "back": "light",
-        "raw": {
-          "korean": "전등",
-          "indonesia": "light"
-        }
-      },
-      {
-        "id": "vocab_31",
-        "front": "이불보",
-        "back": "duvet cover",
-        "raw": {
-          "korean": "이불보",
-          "indonesia": "duvet cover"
-        }
-      },
-      {
-        "id": "vocab_32",
-        "front": "화장대",
-        "back": "dressing",
-        "raw": {
-          "korean": "화장대",
-          "indonesia": "dressing"
-        }
-      },
-      {
-        "id": "vocab_33",
-        "front": "쓰레기를 줍다",
-        "back": "to pick up trash",
-        "raw": {
-          "korean": "쓰레기를 줍다",
-          "indonesia": "to pick up trash"
-        }
-      },
-      {
-        "id": "vocab_34",
-        "front": "객실 전화기",
-        "back": "room phone",
-        "raw": {
-          "korean": "객실 전화기",
-          "indonesia": "room phone"
-        }
-      },
-      {
-        "id": "vocab_35",
-        "front": "시트를 교체하다",
-        "back": "to change the sheets",
-        "raw": {
-          "korean": "시트를 교체하다",
-          "indonesia": "to change the sheets"
-        }
-      },
-      {
-        "id": "vocab_36",
-        "front": "스위치를 켜다/끄다",
-        "back": "to turn on/off the switch",
-        "raw": {
-          "korean": "스위치를 켜다/끄다",
-          "indonesia": "to turn on/off the switch"
-        }
-      },
-      {
-        "id": "vocab_37",
-        "front": "리모컨",
-        "back": "remote control",
-        "raw": {
-          "korean": "리모컨",
-          "indonesia": "remote control"
-        }
-      },
-      {
-        "id": "vocab_38",
-        "front": "헤어드라이어",
-        "back": "hair dryer",
-        "raw": {
-          "korean": "헤어드라이어",
-          "indonesia": "hair dryer"
-        }
-      },
-      {
-        "id": "vocab_39",
-        "front": "슬리퍼",
-        "back": "slippers",
-        "raw": {
-          "korean": "슬리퍼",
-          "indonesia": "slippers"
-        }
-      },
-      {
-        "id": "vocab_40",
-        "front": "옷걸이",
-        "back": "hanger",
-        "raw": {
-          "korean": "옷걸이",
-          "indonesia": "hanger"
-        }
-      },
-      {
-        "id": "vocab_41",
-        "front": "침대보",
-        "back": "bed sheet",
-        "raw": {
-          "korean": "침대보",
-          "indonesia": "bed sheet"
-        }
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       }
     ],
     "grammar": [
       {
         "id": "grammar_1",
-        "front": "218 한국어 표준교재 2",
-        "back": "문법 GRAMMAR",
-        "raw": {
-          "pattern": "218   한국어 표준교재  2",
-          "explanation": "문법  GRAMMAR"
-        }
+        "front": "-았다가/었다가",
+        "back": "‘-았다가/었다가’는 동사에 붙어 어떤 행위가 끝난 후에 다른 행위가 이루어졌음을 나타낸다.\n‘-았다가/었다가’ is attached to a verb to indicate that after one action is completed, another action occurs.\nㅏ, ㅗ\n-았다가\n오다 → 왔다가\nㅓ, ㅜ, ㅣ…\n-었다가\n마시다 → 마셨다가\n-하다\n-했다가\n약속하다 → 약속했다가",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
       },
       {
         "id": "grammar_2",
-        "front": "‘-았다가/었다가’는 동사에 붙어 어떤 행위가 끝난 후에 다른 행위가 이루어졌음을 나타낸다.",
-        "back": "‘-았다가/었다가’ is attached to a verb to indicate that after one action is completed, another action occurs.",
-        "raw": {
-          "pattern": "‘-았다가/었다가’는 동사에 붙어 어떤 행위가 끝난 후에 다른 행위가 이루어졌음을 나타낸다.",
-          "explanation": "‘-았다가/었다가’ is attached to a verb to indicate that after one action is completed, another action occurs."
-        }
-      },
-      {
-        "id": "grammar_3",
-        "front": "다라 씨와 만날 약속을 했다가 급한 일이 있어서 취소했어요.",
-        "back": "1. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example.",
-        "raw": {
-          "pattern": "다라 씨와 만날 약속을 했다가 급한 일이 있어서 취소했어요.",
-          "explanation": "1. \u0007[보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_4",
-        "front": "나 : 밀면 움직일 거예요. (당기다)",
-        "back": "2. [보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the example.",
-        "raw": {
-          "pattern": "나 :                              밀면 움직일 거예요. (당기다)",
-          "explanation": "2. \u0007[보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_5",
-        "front": "51 숙박 서비스",
-        "back": "ACCOMODATION SERVICES 221",
-        "raw": {
-          "pattern": "51  숙박 서비스",
-          "explanation": "ACCOMODATION SERVICES   221"
-        }
-      },
-      {
-        "id": "grammar_6",
-        "front": "종결어미에 의해 구별된다. ‘-아/어, -느냐/(으)냐, -니/(으)니, -자, -아/어(라)’ 등이 반말 종결어미이다.",
-        "back": "non-honorific speech (banmal) is used in informal situations, usually between close acquaintances or when",
-        "raw": {
-          "pattern": "종결어미에 의해 구별된다. ‘-아/어, -느냐/(으)냐, -니/(으)니, -자, -아/어(라)’ 등이 반말 종결어미이다.",
-          "explanation": "non-honorific speech (banmal) is used in informal situations, usually between close acquaintances or when"
-        }
-      },
-      {
-        "id": "grammar_7",
-        "front": "※ 명사와 함께 사용될 때는 ‘(이)야’의 형태가 된다.",
-        "back": "When used with a noun, formal ‘이에요/예요’",
-        "raw": {
-          "pattern": "※ 명사와 함께 사용될 때는 ‘(이)야’의 형태가 된다.",
-          "explanation": "\u0007When used with a noun, formal ‘이에요/예요’"
-        }
-      },
-      {
-        "id": "grammar_8",
-        "front": "예 여기는 비품실이야. 이건 대걸레야.",
-        "back": "1. [보기]와 같이 문장을 바꾸세요. Change the sentences as shown in the example.",
-        "raw": {
-          "pattern": "예\t 여기는 비품실이야.       이건 대걸레야.",
-          "explanation": "1. \u0007[보기]와 같이 문장을 바꾸세요. Change the sentences as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_9",
-        "front": "‘응’, 부정적으로 대답할 때는 ‘아니’를 사용한다.",
-        "back": "‘응/아니’ correspond to the formal expressions",
-        "raw": {
-          "pattern": "‘응’, 부정적으로 대답할 때는 ‘아니’를 사용한다.",
-          "explanation": "‘응/아니’ correspond to the formal expressions"
-        }
-      },
-      {
-        "id": "grammar_10",
-        "front": "‘예/아니요’. When responding affirmatively, use",
-        "back": "‘응’, and when responding negatively, use ‘아니’.",
-        "raw": {
-          "pattern": "‘예/아니요’. When responding affirmatively, use",
-          "explanation": "‘응’, and when responding negatively, use ‘아니’."
-        }
+        "front": "반말",
+        "back": "반말은 비격식적 상황에서 아랫사람이나 친근한 관계의 사람에게 높이려는 의도가 없이 쓰는 말로, 일반적으로\n종결어미에 의해 구별된다. ‘-아/어, -느냐/(으)냐, -니/(으)니, -자, -아/어(라)’ 등이 반말 종결어미이다.\nnon-honorific speech (banmal) is used in informal situations, usually between close acquaintances or when\naddressing someone younger or of lower status without the intention of elevating them. It is generally\ndistinguished by sentence endings, such as ‘-아/어, -느냐/(으)냐, -니/(으)니, -자, -아/어(라).’\n평서문\n-아/어\n청유문\n-아/어, -자\n의문문\n-아/어, -느냐/(으)냐,\n-니/(으)니\n명령문\n-아/어(라)",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
       }
     ],
     "conversation": [
       {
         "id": "conversation_1",
-        "front": "301호 에어컨이 고장난 것 같아요. 찬바람이 안 나와요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "301호 에어컨이 고장난 것 같아요. 찬바람이 안 나와요."
-        }
+        "front": "오늘부터 연휴 시작이라서 예약한 손님이 많아요. 객실 청소에 신경 써 주세요. 그럼 청소 시작하세요.",
+        "back": "Starting today we have a lot of guests checking in for the holidays, so please pay extra attention when cleaning the rooms. Now, let's begin cleaning.",
+        "speaker": "실장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_2",
-        "front": "전원을 껐다가 다시 켜 보세요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "전원을 껐다가 다시 켜 보세요."
-        }
+        "front": "네, 알겠습니다.",
+        "back": "Yes, understood.",
+        "speaker": "야",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_3",
-        "front": "네. 해 보고 안 되면 다시 전화드릴게요. 발음 │ PRONUNCIATION 3음절 한자어에서 앞의 두 음절이 단독으로 쓰이는 낱말들은 세 번째 음절의 ‘ㄹ’를 [ㄴ]로 발음한다. In three-syllable Sino-Korean words, if the first two syllables can stand alone together, the 'ㄹ' in the third syllable is pronounced as [ㄴ]. ⑴ 생산량[생산냥] 의견란[의견난] 결단력[결딴녁] ⑵ 입원료[이붠뇨] 공권력[공꿘녁] 상견례[상견네] 279 대화 CONVERSATION 실장님 오늘부터 연휴 시작이라서 예약한 손님이 많아요. 객실 청소에 신경 써 주세요. 그럼 청소 시작하세요. Starting today we have a lot of guests checking in for the holidays, so please pay extra attention when cleaning the rooms. Now, let's begin cleaning. 자 야 네, 알겠습니다. Yes, understood. 실장님 자야 씨, 무슨 문제가 있어요? 왜 청소하러 안 가요? Jaya, is there a problem? Why aren’t you going to clean? 자 야 하우스키핑 카트가 안 움직여서요. The housekeeping cart isn’t moving. 실장님 아, 이번에 바뀐 하우스키핑 카트는 전동식이에요. 그래서 이 버튼을 눌렀다가 떼어야 작동해요. 한번 해 보세요. Oh, the new housekeeping carts are motor operated. So you need to press this button and then release it for it to work. Try it. 자 야 네, 그렇게 하니까 되네요. 감사합니다. 그럼 청소하러 가겠습니다. Yes, it works now. Thank you. I’ll start cleaning now. 278",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "네. 해 보고 안 되면 다시 전화드릴게요. 발음 │ PRONUNCIATION 3음절 한자어에서 앞의 두 음절이 단독으로 쓰이는 낱말들은 세 번째 음절의 ‘ㄹ’를 [ㄴ]로 발음한다. In three-syllable Sino-Korean words, if the first two syllables can stand alone together, the 'ㄹ' in the third syllable is pronounced as [ㄴ]. ⑴ 생산량[생산냥] 의견란[의견난] 결단력[결딴녁] ⑵ 입원료[이붠뇨] 공권력[공꿘녁] 상견례[상견네] 279 대화  CONVERSATION 실장님 \u0007오늘부터 연휴 시작이라서 예약한 손님이 많아요. 객실 청소에 신경 써 주세요. 그럼 청소 시작하세요. \u0007Starting today we have a lot of guests checking in for the holidays, so please pay extra attention when cleaning the rooms. Now, let's begin cleaning. 자 야 \u0007네, 알겠습니다. Yes, understood. 실장님 자야 씨, 무슨 문제가 있어요? 왜 청소하러 안 가요? \u0007Jaya, is there a problem? Why aren’t you going to clean? 자 야 \u0007하우스키핑 카트가 안 움직여서요. The housekeeping cart isn’t moving. 실장님 \u0007아, 이번에 바뀐 하우스키핑 카트는 전동식이에요. 그래서 이 버튼을 눌렀다가 떼어야 작동해요. 한번 해 보세요. \u0007Oh, the new housekeeping carts are motor operated. So you need to press this button and then release it for it to work. Try it. 자 야 \u0007네, 그렇게 하니까 되네요. 감사합니다. 그럼 청소하러 가겠습니다. Yes, it works now. Thank you. I’ll start cleaning now. 278"
-        }
+        "front": "자야 씨, 무슨 문제가 있어요? 왜 청소하러 안 가요?",
+        "back": "Jaya, is there a problem? Why aren’t you going to clean?",
+        "speaker": "실장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_4",
-        "front": "객실 점검 시간까지 이제 5분 남았어. 다 마무리되었지?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "객실 점검 시간까지 이제 5분 남았어. 다 마무리되었지?"
-        }
+        "front": "하우스키핑 카트가 안 움직여서요.",
+        "back": "The housekeeping cart isn’t moving.",
+        "speaker": "야",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_5",
-        "front": "응. 그런데 쓰레기통을 비워야 돼.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "응. 그런데 쓰레기통을 비워야 돼."
-        }
+        "front": "아, 이번에 바뀐 하우스키핑 카트는 전동식이에요.\n그래서 이 버튼을 눌렀다가 떼어야 작동해요.\n한번 해 보세요.",
+        "back": "Oh, the new housekeeping carts are motor operated. So you need to press this button and then release it for it to work. Try it.",
+        "speaker": "실장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_6",
-        "front": "그건 내가 할게. 빨리 전등을 끄고 객실 문을 닫자.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "그건 내가 할게. 빨리 전등을 끄고 객실 문을 닫자."
-        }
+        "front": "네, 그렇게 하니까 되네요. 감사합니다. 그럼 청소하러 가겠습니다.",
+        "back": "Yes, it works now. Thank you. I’ll start cleaning now.",
+        "speaker": "야",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_7",
-        "front": "알았어. 고마워.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "알았어. 고마워."
-        }
+        "front": "자야, 지금 손님 물건을 옮기고 있어?",
+        "back": "Jaya, are you moving the guest’s belongings?",
+        "speaker": "배",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_8",
-        "front": "기계를 사용한 다음에는 전원을 꺼야 돼요. You need to turn off the power after using the machine.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "\u0007기계를 사용한 다음에는 전원을 꺼야 돼요. You need to turn off the power after using the machine."
-        }
+        "front": "네, 테이블 위가 더러워서 청소하려고요. 청소하는 동안 잠시 옮겨 놓으면 안 될까요?",
+        "back": "Yes, I was going to clean the table because it’s dirty. Can’t I just move them temporarily while I clean?",
+        "speaker": "야",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_9",
-        "front": "네, 다음부터 주의하겠습니다. Ok, I’ll be more careful next time. 유용한 표현 │ USEFUL EXPRESSION 다음부터 주의하겠습니다. I’ll be more careful next time. 281 280",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "\u0007네, 다음부터 주의하겠습니다. Ok, I’ll be more careful next time. 유용한 표현 │ USEFUL EXPRESSION 다음부터 주의하겠습니다. I’ll be more careful next time. 281 280"
-        }
-      }
-    ],
-    "culture": [],
-    "reading": [
-      {
-        "id": "u51_m1",
-        "nomor": 1,
-        "tipe": "membaca",
-        "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
-        "teks_soal": "시트를 교체하고 있습니다.",
-        "jawaban": "a",
-        "audio_teks": "",
-        "audio_url": "",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "front": "손님들 물건은 함부로 만지거나 옮기면 안 돼. 손님들이 방에 들어왔을 때 물건이 제자리에 없으면\n오해하실 수 있거든.",
+        "back": "You must never move or touch a guest's belongings without permission. If guests find their belongings out of place when they return, there might be a misunderstanding.",
+        "speaker": "배",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
-        "id": "u51_m2",
+        "id": "conversation_10",
+        "front": "네, 알겠습니다. 그럼 테이블 위는 어떻게\n청소할까요?",
+        "back": "I understand. Then how should I clean the table top?",
+        "speaker": "야",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_11",
+        "front": "테이블 위에 있는 휴지를 버리고 바닥은 손걸레로\n깨끗이 닦으면 돼. 안내 책자하고 잡지는 제자리에\n놓고.",
+        "back": "Throw away the tissues on the table, and wipe the surface clean with a cloth. Make sure the guidebook and magazines are placed where they belong.",
+        "speaker": "배",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_12",
+        "front": "네, 그렇게 할게요. 다음부터는 조심하겠습니다.",
+        "back": "Alright, I’ll do that. I’ll be more careful from now on.",
+        "speaker": "야",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      }
+    ],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "51 숙박 서비스",
+        "back": "ACCOMODATION SERVICES 223",
+        "body": "51 숙박 서비스\nACCOMODATION SERVICES 223\n• 객실 정비 업무와 관련한 대화를 할 수 있다. I can engage in conversations related to room cleaning tasks. ↻\n• 객실 정비 중 발생한 문제점에 대해 묻고 대답할 수 있다.\nI can ask and answer questions about problems encountered during room cleaning.\n• 일하는 동료들과 반말을 사용할 수 있다. I can use non-honorific speech with coworkers.\n한국의 관광지\nKorea’s Tourist Attractions\n한국은 풍부한 문화유산과 다양한 관광 명소를 지닌 매력적\n인 나라입니다. 역사적인 유적지, 아름다운 자연 경관, 맛있는\n음식을 즐길 수 있어 많은 외국인 관광객들이 한국을 찾고 있\n습니다. 코로나19가 유행하기 이전인 2019년에는 1,750만 명\n이 넘는 외국인 관광객이 한국을 찾았습니다.\nKorea is a beautiful country with a rich cultural heritage and a\nvariety of tourist destinations. Visitors can enjoy historical\nsites, beautiful natural scenery, and delicious food, making",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook2/unit_51/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
+    "reading": [
+      {
+        "id": "u51_r1",
+        "nomor": 1,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n시트를 교체하고 있습니다.",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_51/choice_images/reading/u51_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_51/choice_images/reading/u51_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_51/choice_images/reading/u51_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_51/choice_images/reading/u51_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook2/unit_51/choice_images/reading/u51_r1_a.jpg",
+          "b": "assets/modules/textbook2/unit_51/choice_images/reading/u51_r1_b.jpg",
+          "c": "assets/modules/textbook2/unit_51/choice_images/reading/u51_r1_c.jpg",
+          "d": "assets/modules/textbook2/unit_51/choice_images/reading/u51_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_51/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
+      },
+      {
+        "id": "u51_r2",
         "nomor": 2,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "욕조나 세면대에 있는 이/가 지워지지 않을 때는 세제를 뿌립니다. 그리고 조금 후에 마른걸레로 닦으면 깨끗하게 지울 수 있습니다.",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n욕조나 세면대에 있는 이/가 지워지지 않을 때는 세제를 뿌립니다. 그리고 조금 후에\n마른걸레로 닦으면 깨끗하게 지울 수 있습니다.",
         "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
@@ -656,15 +531,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_51/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u51_m3",
+        "id": "u51_r3",
         "nomor": 3,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "청소를 하기 전에 먼저 객실에 손님이 있는지 확인해야 합니다. 객실 문이 닫혀 있거나 DND 카드가 없으면 먼저 벨을 .",
-        "jawaban": "c",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n청소를 하기 전에 먼저 객실에 손님이 있는지 확인해야 합니다. 객실 문이 닫혀 있거나 DND 카드가\n없으면 먼저 벨을 .",
+        "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -693,14 +572,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_51/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u51_m4",
+        "id": "u51_r4",
         "nomor": 4,
         "tipe": "membaca",
-        "instruksi": "다음은 무엇에 대한 설명입니까?",
-        "teks_soal": "객실 청소에 필요한 청소용품과 리넨류 등을 싣고 이동할 수 있는 작업 도구입니다.",
+        "instruksi": "",
+        "teks_soal": "다음은 무엇에 대한 설명입니까?\n객실 청소에 필요한 청소용품과 리넨류 등을 싣고 이동할 수 있는 작업 도구입니다.",
         "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
@@ -730,15 +613,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_51/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u51_m5",
+        "id": "u51_r5",
         "nomor": 5,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "한국의 대도시는 도시마다 다른 특색을 지니고 있습니다. 서울은 한국의 과거와 현대가 공존하는 곳이며 밤늦게까지 쇼핑을 즐길 수 있어 여행객이 가장 많이 찾는 도시입니다. 부산은 바다가 아름답고 맛집들이 많아 인기가 많습니다. 그리고 근대사의 흔적이 남아 있는 대구는 골목길을 따라 걷는 근대골목 투어가 관광객들의 발길을 끌고 있습니다. 224 한국어 표준교재 2",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국의 대도시는 도시마다 다른 특색을 지니고 있습니다. 서울은 한국의 과거와 현대가 공존하는 곳이며\n밤늦게까지 쇼핑을 즐길 수 있어 여행객이 가장 많이 찾는 도시입니다. 부산은 바다가 아름답고 맛집들이\n많아 인기가 많습니다. 그리고 근대사의 흔적이 남아 있는 대구는 골목길을 따라 걷는 근대골목 투어가\n관광객들의 발길을 끌고 있습니다.",
+        "jawaban": "c",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -767,7 +654,11 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_51/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ],
     "listening": [
@@ -776,98 +667,225 @@
         "nomor": 1,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 객실에 생수를 몇 병씩 두면 돼요? 남 : 삼 층 객실은 두 병씩이에요.",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
         "jawaban": "a",
-        "audio_teks": "1. 여 : 객실에 생수를 몇 병씩 두면 돼요?\n남 : 삼 층 객실은 두 병씩이에요.\n2. 남 : 청소기 플러그를 꽂았어요?\n3. 여 : 객실에 올라가면 욕실부터 청소하면 되지요?\n남 : 아니요, 창문을 열어 환기를 시키고 객실 청소부터 하세요. 욕실 청소는 마지막에 하세요.\n4. 남 : 곧 객실 점검인데 쓰레기통을 못 비웠어요.\n5. 남 : 유니폼이 잘 어울리네요. 오늘이 청소하는 첫날이지요?\n여 : 네. 그런데 제가 청소할 오 층 객실 출입 열쇠는 누구에게서 받아요?\n남 : 이따가 실장님이 주실 거예요. 그전에 하우스키핑 카트 정리부터 하세요.\n51 숙박 서비스 ACCOMODATION SERVICES 225",
+        "audio_teks": "여 : 객실에 생수를 몇 병씩 두면 돼요?\n남 : 삼 층 객실은 두 병씩이에요.",
         "audio_url": "assets/modules/textbook2/audio/unit_51/listening_1.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_51/images/u51_h9_soal_listening_01_a.png"
+            "image": "assets/modules/textbook2/unit_51/choice_images/listening/u51_l1_a.jpg"
           },
           {
             "key": "b",
             "label": "B",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_51/images/u51_h9_soal_listening_01_b.png"
+            "image": "assets/modules/textbook2/unit_51/choice_images/listening/u51_l1_b.jpg"
           },
           {
             "key": "c",
             "label": "C",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_51/images/u51_h9_soal_listening_01_c.png"
+            "image": "assets/modules/textbook2/unit_51/choice_images/listening/u51_l1_c.jpg"
           },
           {
             "key": "d",
             "label": "D",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_51/images/u51_h9_soal_listening_01_d.png"
+            "image": "assets/modules/textbook2/unit_51/choice_images/listening/u51_l1_d.jpg"
           }
         ],
         "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_51/images/u51_h9_soal_listening_01_a.png",
-          "b": "assets/langit-korea-extracted/unit_51/images/u51_h9_soal_listening_01_b.png",
-          "c": "assets/langit-korea-extracted/unit_51/images/u51_h9_soal_listening_01_c.png",
-          "d": "assets/langit-korea-extracted/unit_51/images/u51_h9_soal_listening_01_d.png"
-        }
+          "a": "assets/modules/textbook2/unit_51/choice_images/listening/u51_l1_a.jpg",
+          "b": "assets/modules/textbook2/unit_51/choice_images/listening/u51_l1_b.jpg",
+          "c": "assets/modules/textbook2/unit_51/choice_images/listening/u51_l1_c.jpg",
+          "d": "assets/modules/textbook2/unit_51/choice_images/listening/u51_l1_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_51/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u51_l2",
         "nomor": 2,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 청소기 플러그를 꽂았어요?",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
         "jawaban": "b",
-        "audio_teks": "1. 여 : 객실에 생수를 몇 병씩 두면 돼요?\n남 : 삼 층 객실은 두 병씩이에요.\n2. 남 : 청소기 플러그를 꽂았어요?\n3. 여 : 객실에 올라가면 욕실부터 청소하면 되지요?\n남 : 아니요, 창문을 열어 환기를 시키고 객실 청소부터 하세요. 욕실 청소는 마지막에 하세요.\n4. 남 : 곧 객실 점검인데 쓰레기통을 못 비웠어요.\n5. 남 : 유니폼이 잘 어울리네요. 오늘이 청소하는 첫날이지요?\n여 : 네. 그런데 제가 청소할 오 층 객실 출입 열쇠는 누구에게서 받아요?\n남 : 이따가 실장님이 주실 거예요. 그전에 하우스키핑 카트 정리부터 하세요.\n51 숙박 서비스 ACCOMODATION SERVICES 225",
+        "audio_teks": "남 : 청소기 플러그를 꽂았어요?",
         "audio_url": "assets/modules/textbook2/audio/unit_51/listening_2.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "네, 뺐어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "네, 꽂았어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "아니요, 없어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "아니요, 길었어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_51/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u51_l3",
         "nomor": 3,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 객실에 올라가면 욕실부터 청소하면 되지요? 남 : 아니요, 창문을 열어 환기를 시키고 객실 청소부터 하세요. 욕실 청소는 마지막에 하세요.",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
         "jawaban": "d",
-        "audio_teks": "1. 여 : 객실에 생수를 몇 병씩 두면 돼요?\n남 : 삼 층 객실은 두 병씩이에요.\n2. 남 : 청소기 플러그를 꽂았어요?\n3. 여 : 객실에 올라가면 욕실부터 청소하면 되지요?\n남 : 아니요, 창문을 열어 환기를 시키고 객실 청소부터 하세요. 욕실 청소는 마지막에 하세요.\n4. 남 : 곧 객실 점검인데 쓰레기통을 못 비웠어요.\n5. 남 : 유니폼이 잘 어울리네요. 오늘이 청소하는 첫날이지요?\n여 : 네. 그런데 제가 청소할 오 층 객실 출입 열쇠는 누구에게서 받아요?\n남 : 이따가 실장님이 주실 거예요. 그전에 하우스키핑 카트 정리부터 하세요.\n51 숙박 서비스 ACCOMODATION SERVICES 225",
+        "audio_teks": "여 : 객실에 올라가면 욕실부터 청소하면 되지요?\n남 : 아니요, 창문을 열어 환기를 시키고 객실 청소부터 하세요.\n욕실 청소는 마지막에 하세요.",
         "audio_url": "assets/modules/textbook2/audio/unit_51/listening_3.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "청소 도구",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "청소 시간",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "청소 태도",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "청소 순서",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_51/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u51_l4",
         "nomor": 4,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 곧 객실 점검인데 쓰레기통을 못 비웠어요.",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
         "jawaban": "a",
-        "audio_teks": "1. 여 : 객실에 생수를 몇 병씩 두면 돼요?\n남 : 삼 층 객실은 두 병씩이에요.\n2. 남 : 청소기 플러그를 꽂았어요?\n3. 여 : 객실에 올라가면 욕실부터 청소하면 되지요?\n남 : 아니요, 창문을 열어 환기를 시키고 객실 청소부터 하세요. 욕실 청소는 마지막에 하세요.\n4. 남 : 곧 객실 점검인데 쓰레기통을 못 비웠어요.\n5. 남 : 유니폼이 잘 어울리네요. 오늘이 청소하는 첫날이지요?\n여 : 네. 그런데 제가 청소할 오 층 객실 출입 열쇠는 누구에게서 받아요?\n남 : 이따가 실장님이 주실 거예요. 그전에 하우스키핑 카트 정리부터 하세요.\n51 숙박 서비스 ACCOMODATION SERVICES 225",
+        "audio_teks": "남 : 곧 객실 점검인데 쓰레기통을 못 비웠어요.",
         "audio_url": "assets/modules/textbook2/audio/unit_51/listening_4.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "제가 도와줄게요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "앞으로는 조심할게요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "쓰레기통을 찾으세요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "힘드니까 내일 하세요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_51/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u51_l5",
         "nomor": 5,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 유니폼이 잘 어울리네요. 오늘이 청소하는 첫날이지요? 여 : 네. 그런데 제가 청소할 오 층 객실 출입 열쇠는 누구에게서 받아요? 남 : 이따가 실장님이 주실 거예요. 그전에 하우스키핑 카트 정리부터 하세요. 51 숙박 서비스 ACCOMODATION SERVICES 225",
+        "teks_soal": "다음 중 들은 내용과 같은 것은 무엇입니까?",
         "jawaban": "b",
-        "audio_teks": "1. 여 : 객실에 생수를 몇 병씩 두면 돼요?\n남 : 삼 층 객실은 두 병씩이에요.\n2. 남 : 청소기 플러그를 꽂았어요?\n3. 여 : 객실에 올라가면 욕실부터 청소하면 되지요?\n남 : 아니요, 창문을 열어 환기를 시키고 객실 청소부터 하세요. 욕실 청소는 마지막에 하세요.\n4. 남 : 곧 객실 점검인데 쓰레기통을 못 비웠어요.\n5. 남 : 유니폼이 잘 어울리네요. 오늘이 청소하는 첫날이지요?\n여 : 네. 그런데 제가 청소할 오 층 객실 출입 열쇠는 누구에게서 받아요?\n남 : 이따가 실장님이 주실 거예요. 그전에 하우스키핑 카트 정리부터 하세요.\n51 숙박 서비스 ACCOMODATION SERVICES 225",
+        "audio_teks": "남 : 유니폼이 잘 어울리네요. 오늘이 청소하는 첫날이지요?\n여 : 네. 그런데 제가 청소할 오 층 객실 출입 열쇠는 누구에게\n서 받아요?\n남 : 이따가 실장님이 주실 거예요. 그전에 하우스키핑 카트 정\n리부터 하세요.",
         "audio_url": "assets/modules/textbook2/audio/unit_51/listening_5.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "여자는 카트 정리를 마쳤습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "여자는 5층 객실을 청소해야 됩니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "여자는 남자에게 열쇠를 받았습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "여자는 유니폼으로 갈아입으려고 합니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_51/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ]
   },
   "integrity": {
     "pdf_pages": 10,
-    "vocab_cards": 41,
+    "lesson_flow": 10,
+    "vocab_cards": 6,
+    "grammar_cards": 2,
+    "conversation_cards": 12,
+    "culture_cards": 1,
     "reading_questions": 5,
     "listening_questions": 5,
-    "listening_audio": 5
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_audio": 5,
+    "listening_scripts": 5
   }
 }

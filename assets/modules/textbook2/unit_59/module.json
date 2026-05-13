@@ -4,7 +4,7 @@
   "unit": 59,
   "title_ko": "출입국관리법",
   "title_en": "Immigration Control Act",
-  "title_id": "UU Imigrasi Korea",
+  "title_id": "Undang-Undang Imigrasi",
   "source_pdf": "assets/langit-korea-modules/unit_59_immigration_control_act.pdf",
   "page_start": 297,
   "page_end": 306,
@@ -61,480 +61,628 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 297,
+        "image": "assets/modules/textbook2/unit_59/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "59 출입국관리법 \n IMMIGRATION ACT 297\n어휘 VOCABULARY\n외국인 등록 관련 어휘 Foreigner Registration\n반복하다 to repeat\n목록 list\n비회원 non-member\n이내 within\n고치다 to revise\n정확히 accurately\n임대차 \n계약서\n거주/숙소\n제공확인서\n체류지 입증 서류\nproof of residency\n사업자등록증 사본\ncopy of business \nlicense\n여권용 사진\npassport-sized photo \n여권\npassport \n수수료\nprocessing fees\n 알맞은 것을 골라 글을 완성하세요. Complete the text with the correct options.\n방문하다 작성하다 제출하다 발급받다\n외국인 등록증을 발급받으려면 먼저 통합신청서를 ⑴ 아야/어야 합니다. \n그런 다음 출입국 · 외국인 사무소에 ⑵ 아서/어서 작성한 통합신청서를 \n⑶ (스)ㅂ니다. 그러면 몇 주 후에 외국인 등록증을 ⑷ (으)ㄹ 수 있습니다.\n외국인 등록 절차 foreigner registration procedure\n서류를 \n작성하다\nto fill out \nthe form \n외국인 등록증을 \n발급받다/ \n수령하다\nto be issued/\nreceive the \nresidence card \n방문 예약을 \n신청하다\nto make an \nappointment \nfor a visit \n체류허가 신청 \n확인서를 받다\nto receive the \ncertificate of \napplication for \npermit of stay\n출입국 · \n외국인 사무소에 \n방문하다\nto visit the \nimmigration office \n서류를 제출하다\nto submit the \ndocuments \n체류허가 \n신청확인서\n외국인 등록에 필요한 서류 documents needed for foreigner registration\n외국인 등록뿐만 \n아니라 체류 기간 및 \n체류 자격 관련 \n신청도 할 수 있어요.\nIn addition to \nforeigner registration, \nyou can also apply for \nan extension of stay or \nchange of status. \n법무부에서 지정한 \n병원에서 마약 검사를 \n받고 확인서를 \n제출해야 해요.\nYou must undergo \na drug test at \na hospital designated \nby the Ministry of \nJustice and submit \nthe clearance form. \n회사에서 기숙사를 \n제공하는 경우 ‘거주/ \n숙소제공확인서’를, \n직접 집을 구한 경우 \n‘임대차 계약서’를 \n제출해야 해요.\nIf the company provides \na dormitory, submit the \n‘confirmation of \nresidency/\naccommodation’, and if \nyou found a place on \nyour own, submit the \n‘lease agreement’.\n고용주가 준비해야 \n하는 서류예요.\nThese are the \ndocuments that \nthe employer must \nprepare. \n통합신청서\n(integrated) \napplication form\n통합신청서(신고서)\n마약 검사 확인서\ndrug test confirmation \nform\n마약 검사 확인서\n사진",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 298,
+        "image": "assets/modules/textbook2/unit_59/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "298 한국어 표준교재 2\n문법 GRAMMAR\n-더라도\n‘-더라도’는 동사, 형용사에 붙어 앞 절의 가정된 상황을 인정하지만 뒤의 내용이 앞의 내용을 바탕으로 한 기대와 \n상관없이 이루어짐을 나타낸다.\n'-더라도' is attached to verbs and adjectives. It is used to acknowledge the assumed situation in the first clause but \nexpresses that the content of the following clause is carried out regardless of the expectations of the content of \nthe first clause.\n예 작업장이 덥더라도 안전모를 꼭 쓰세요.\n \n서로 의견이 다르더라도 상대방을 존중해야 해요.\n \n출입국 · 외국인 사무소에 신청서를 접수하더라도 외국인 등록증을 바로 받을 수 없어요.\n1. 알맞은 것을 골라 [보기]와 같이 대화를 완성하세요. \nComplete the conversations with the correct options as shown in the example.\n늦다 없다 어렵다 대신 가다 실수하다\n가 : 제가 이 일은 처음인데 실수하면 어떡하지요?\n나 : 처음에는 실수하더라도 다시 하면 되니까 걱정하지 마세요.\n[ 보기 ]\n⑴\n가 : 일이 쉽지 않네요. 힘들어요.\n나 : 일이 처음에는 반복하면 곧 익숙해질 거예요.\n⑵\n가 : 빨리 가야 되는데 다른 차들이 너무 느려서 답답해요.\n나 : 너무 빨리 운전하지 마세요. 조금 안전하게 갑시다.\n⑶\n가 : 하이코리아에 회원 가입을 안 했는데 방문 예약을 신청할 수 있어요?\n나 : 네, 아이디가 비회원으로 신청할 수 있어요.\n⑷\n가 : 제가 일이 생겨서 외국인 등록증을 받으러 못 가는데 다른 사람이 가도 돼요?\n나 : 네, 외국인 등록증은 다른 사람이 받을 수 있어요.\n2. [보기]와 같이 말해 보세요. Practice speaking as shown in the example.\n \n외국인 등록 절차가 복잡하다 \n/ 입국한 후 90일 이내에 외국인 등록을 하다\n외국인 등록 절차가 복잡하더라도 \n입국한 후 90일 이내에 외국인 등록을 해야 돼요.\n[ 보기 ]\n⑴\n \n⑵\n \n⑶\n \n필요한 서류가 많다 \n/ 꼼꼼하게 챙기다\n수수료가 비싸다 \n/ 수수료를 내다\n지금 외국인 등록 신청서를 접수하다 \n/ 외국인 등록증을 바로 받을 수 없다",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 299,
+        "image": "assets/modules/textbook2/unit_59/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "59 출입국관리법 \n IMMIGRATION ACT 299\n대화 CONVERSATION\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions. \n•연차신청서를 작성하다, 연차신청서를 내다, 연차를 못 쓰다\n•외국인 등록을 위해 통합신청서를 작성하다, 통합신청서를 내다, \n외국인 등록증을 못 받다\n가 : 연차신청서를 작성했는데 이렇게 하는 거 맞아요?\n나 : 좀 잘못 쓴 것 같아요. 이렇게 하면 연차신청서를 내더라도 연차를\n \n못 쓸 수 있어요.\n가 : 아, 그래요? 그러면 어떻게 고치면 돼요?\n발음 │ PRONUNCIATION\n사이시옷 뒤에 ‘ㄴ, ㅁ’ 소리가 결합되는 경우에는 사이시옷을 [ㄴ]으로 발음한다.\nWhen the inserted ‘ㅅ’ is followed by ‘ㄴ’ or ‘ㅁ’, the ‘ㅅ’ is pronounced as [ㄴ]. \n⑴ 콧날[콛날 → 콘날] \n콧노래[콛노래 → 콘노래] \n첫눈[첟눈 → 천눈]\n⑵ 아랫니[아랟니 → 아랜니] \n콧물[콛물 → 콘물] \n뱃머리[밷머리 → 밴머리] \n319\n마 두 \n아궁 씨, 외국인 등록증을 발급받는 방법 알아요? 무슨 서류가 필요해요?\n \nAgung, do you know how to get the residence card? What documents do we need? \n아 궁 \n먼저 통합신청서하고 여권, 사진이 있어야 돼요. 그리고 체류지 입증 서류도 필요하고요. 마두 씨는 기\n숙사에 사니까 회사에서 숙소 제공 확인서를 받아서 제출하면 되겠네요.\n \nFirst, you need the application form, your passport, and a photo. You also \nneed proof of residence. Since you live in the dormitory, you can get the \nconfirmation of accommodation form from the company and submit that. \n마 두 \n더 필요한 건 없어요?\n \nIs there anything else I need? \n아 궁 \n정확히 기억이 안 나는데 제가 필요한 서류 목록을 찾아서 \n문자 메시지로 알려 줄게요.\n \nI don’t remember exactly, but I'll find the list of required documents \nand let you know by text. \n마 두 \n정말 고마워요. 그런데 제가 이번 달에는 바빠서 외국인 등록을 \n할 시간이 없는데 다음 달에 해도 돼요?\n \nThank you so much. But I'm busy this month and I don't have time to go register, so can I go next month? \n아 궁 \n입국하고 90일 이내에는 해야 되니까 바쁘더라도 이번 달에 꼭 하세요.\n \nAfter you enter the country you need to register within 90 days, so even though you're busy absolutely do it \nthis month. \n대답해 봐요! ANSWER ME!\n1 아궁 씨는 마두 씨에게 문자 메시지로 무엇을 보내 주기로 했어요? \nWhat did Agung promise to send Madhu by text? \n2 외국인 등록은 언제까지 해야 해요? \nUntil when must foreign workers complete the foreigner registration?\n318",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 300,
+        "image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "300 한국어 표준교재 2\n어휘 VOCABULARY\n체류 기간 연장 관련 어휘 Extension of Stay \n2024\n체류하다\nto stay/sojourn \n체류 기간\nperiod of stay \n체류 가능 기간\npermitted length of stay\n체류 기간 만료일\nexpiration date of period \nof stay \n구직자\njob seeker \n구직등록필증\njob seeker registration \ncertificate \n자진 출국 각서\nvoluntary departure form\n사업장 변경 가능 횟수 \nnumber of times permitted to \nchange workplace\n연장하다\nto extend \n허가를 받다 \nto receive permission \n이직하다 to change jobs\n소식 news\n차다 to be full\n연락 contact\n만료되다 to expire\n여유 spare time\n귀국하다 to return to one's home country\n지방고용노동관서 regional employment and labor office\n물어보다 to ask\n불만 discontentment\n표준근로계약서\n표준근로계약서\nSUN MON TUE WES THU FRI SAT\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n체류 마지막 날\n 알맞은 것을 골라 대화를 완성하세요. Complete the conversations with the correct options.\n체류 기간 만료일 구직자 체류 가능 기간 사업장 변경 가능 횟수\n⑴가 : 한국에서 일하면서 몇 번까지 직장을 바꿀 수 있어요? \n나 : 처음 3년 동안 은/는 세 번이에요.\n⑵가 : 귀국할 날이 얼마 안 남았지요? 이/가 언제예요?\n나 : 5월 23일인데 체류 기간을 연장할 거예요.\n⑶가 : 지금 새 직장을 찾고 있는데 은/는 체류 기간을 연장할 수 없어요?\n나 : 아니요, 구직등록필증을 발급받은 후 90일 안에 신청하면 돼요.\n⑷가 : E-9 비자를 받았는데 한국에서 몇 년 동안 일할 수 있어요?\n나 : 은/는 4년 10개월이에요. 3년 일하고 체류 기간을 연장하면 \n1년 10개월 더 일할 수 있어요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 301,
+        "image": "assets/modules/textbook2/unit_59/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "59 출입국관리법 \n IMMIGRATION ACT 301\n문법 GRAMMAR\n-는지/(으)ㄴ지\n‘-는지/(으)ㄴ지’는 동사, 형용사에 붙어 앞의 내용이 확실하지는 않지만 뒤의 내용에 대한 근거나 이유가 됨을 나\n타낸다.\n‘-는지/(으)ㄴ지’ is attached to verbs and adjectives, indicating that although the previous content is uncertain, it \nbecomes the basis or reason for the following content. \n동사, 있다/없다\n-는지\n \n걸리다 → 걸리는지\n형용사\n받침 ○\n-은지\n \n넓다 → 넓은지\n받침 ×, 받침 ‘ㄹ’\n-ㄴ지\n \n유명하다 → 유명한지\n \n힘들다 → 힘든지\n예 아궁 씨가 지금 일하는지 전화를 안 받네요.\n \n자하라 씨가 기분이 좋은지 표정이 밝아요.\n \n가 : 아궁 씨가 일을 금방 배우네요. \n나 : 그렇지요? 동티모르에서도 같은 일을 한 경험이 있는지 잘하네요.\n1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요 \nComplete the sentences with the correct options as shown in the example.\n아프다 많다 불다 잘하다 마음에 들다\n딜로바 씨가 아픈지 열이 나고 기침을 해요.\n[ 보기 ]\n \n⑴ 바람이 강하게 창문이 흔들려요.\n \n⑵ 마두 씨가 일을 동료들이 일하다가 모르는 게 있으면 마두 씨에게 물어요.\n \n⑶ 출입국 · 외국인 사무소에 방문하려는 사람이 다음 주까지 예약이 다 찼어요.\n \n⑷ 자하라 씨는 근로 조건하고 임금이 그 회사에 불만 없이 잘 다니고 있어요.\n2. [보기]와 같이 대화해 보세요. Practice speaking as shown in the example. \n \n체류 기간을 \n연장하고 싶다 \n/ 지방고용노동관서에서 \n구직등록필증을 받았다\n가 : 요즘 마두 씨 소식을 들었어요?\n나 : 체류 기간을 연장하고 싶은지 지방고용노동관서에서 \n구직등록필증을 받았다고 해요.\n[ 보기 ]\n⑴\n⑵\n⑶\n체류 기간 만료일이 얼마 남지 않았다 \n/ 체류 기간 연장 서류를 준비하다\n일하고 있는 공장에 문제가 있다 \n/ 작업장을 옮기다\n체류 기간 연장 허가를 받았다 \n/ 1년 10개월 더 일하다\nSUN MON TUE\nWES THU\nFRI\nSAT\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n체류 마지막 날",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 302,
+        "image": "assets/modules/textbook2/unit_59/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "302 한국어 표준교재 2\n마\n두 \n자하라 씨, 제 체류 기간이 4개월 정도 남았는데, 어떻게 해야 돼요?\n \nZahra, there's about four months left of my period of stay, what should I do? \n자하라 \n아, 그래요? 좀 여유가 있지만 빨리 체류 기간 연장 허가 신청을 하면 \n좋겠네요. 지난번에 해 봐서 방법을 알아요. 도와줄까요?\n \nOh, really? You still have some time, but it would be good to apply for an extension \nof stay soon. I’ve done it before, so I know how to do it. Shall I help you? \n마 두 \n네, 좀 도와주세요. 제 친구한테 신청 방법을 물어봤는데 요즘 너무 바쁜지 연락이 없어요.\n \nYes, please help me. I asked my friend, but he hasn’t contacted me because he has been so busy lately. \n자하라 \n고민이 많았겠어요. 체류 기간 연장 허가 신청은 혼자 할 수 없어요. 팀장님한테 체류 기간을 연장하고 \n싶다고 하면 체류 기간 연장에 필요한 서류를 준비해 줄 거예요.\n \nYou must have been worried so much. You can’t apply for an extension of stay by yourself. If you tell your \ntimjangnim you want to extend your stay he'll prepare the necessary documents for you.\n마 두 \n다른 건 더 필요한 거 없어요?\n \nWhat should I do after receiving those documents? \n자하라 \n음, 여권하고 외국인 등록증 챙겨 가면 돼요. 출입국 · 외국인 사무소에 가기 전에 방문 예약 신청하고요. \n \nApply for an appointment at the immigration office. When you go to the immigration office, make sure to bring \nyour passport and residence card with you. \n대화 CONVERSATION\n대답해 봐요! ANSWER ME!\n1 마두 씨의 체류 기간 만료일은 얼마나 남았어요? \nHow much time does Madhu have until his period of stay expires? \n2 마두 씨가 팀장님에게 부탁해야 하는 것은 뭐예요? \nWhat does Madhu need to ask his timjangnim for? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•일하고 있는 회사와의 계약이 곧 끝나다, 사업장 변경을 신청하다, \n우리 회사에서 일하다\n•체류 기간이 곧 만료되다, 체류 기간을 연장하다, 신청 방법을 알려 주다\n가 : 친구가 일하고 있는 회사와의 계약이 곧 끝나는지 빨리 사업장 변경을\n \n신청하고 싶대요.\n나 : 친구가 마음이 급하겠어요.\n가 : 혹시 우리 회사에서 일할 수 있어요?\n나 : 저는 잘 모르겠네요. 팀장님께 물어보세요.\n가 : 한눈 팔면 안 돼요. 기계를 사용할 때에는 위험해요. \nDon't get distracted. It's dangerous when using the machine. \n나 : 네, 주의할게요. Yes, I’ll be careful. \n유용한 표현 │ USEFUL EXPRESSION\n한눈 팔면 안 돼요.\nDon't get distracted.\n321\n320",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 303,
+        "image": "assets/modules/textbook2/unit_59/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "59 출입국관리법 \n IMMIGRATION ACT 303\n \n문화와 정보 CULTURE & INFORMATION\n• 외국인 등록 절차에 대해 묻고 대답할 수 있다. \nI can ask and answer questions about the foreigner registration procedure. \n↻\n• 체류 기간 연장 방법에 대해 묻고 대답할 수 있다. \nI can ask and answer questions about how to extend the stay of one's residence. \n↻\n• 어떤 상황이나 상태의 이유를 추측하여 말할 수 있다. \nI can speculate about the reason for a certain situation or condition. \n↻\n확인해요 │ self assessment\n59 출입국관리법 \n IMMIGRATION ACT 303\n외국인 등록(증)\nForeigner Registration (Residence Card)\n「출입국관리법」에 따르면, 외국인이 입국한 날부터 90일을 \n초과하여 대한민국에 체류하기 위해서는 입국한 날부터 90일 \n이내에 본인의 체류지를 관할하는 지방출입국 · 외국인관서(사\n무소 등)에 외국인 등록을 해야 합니다. 따라서 외국인 근로자\n는 1년 이상의 근로계약을 체결하고 한국에 입국했기 때문에 \n반드시 외국인 등록을 해야 합니다. \nIn accordance with the Immigration Act, in order for a \nforeigner to stay in the Republic of Korea for more than 90 \ndays from the date of entry, they must register as a foreigner \nat the local immigration office (or related offices) overseeing \ntheir place of residence within 90 days of their entry. \nTherefore, because foreign workers enter Korea with an \nemployment contract of over one year, they are required to \ncomplete foreigner registration.\n외국인 등록은 국내에 장기 체류 중인 외국인의 현황을 파악\n하고, 아울러 여러 가지 편의를 제공하기 위하여 실시되고 있습\n니다. 외국인 등록증은 은행 계좌를 개설하거나 휴대전화 개통 \n신청, 주거 계약 등 다양한 상황에서 신분증으로 사용될 수 있\n습니다. 외국인 등록증에는 개인에게 주어진 외국인 등록번호\n와 함께 성명, 국가/지역, 체류 자격이 함께 표시됩니다.\nForeigner registration is conducted to monitor the status of \nforeigners residing long-term in the country and to provide \nforeign residents with various conveniences. The residence \ncard can be used as identification for various situations, such \nas opening a bank account, applying for a mobile phone plan, \nor signing a housing contract. The card includes the foreign \nregistration number assigned to the individual, as well as their \nname, country/region of origin, and residency status.\n외국인 등록증을 신청할 때에는 통합신청서, 여권, 사진과 \n‘체류지 입증 서류’가 필요합니다. 기숙사에서 사는 경우에는 \n회사로부터 받은 숙소 제공 확인서를 제출하고, 따로 집을 얻어 \n사는 경우에는 임대차 계약서를 제출하면 됩니다. 그리고 회사\n에서 받은 ‘사업자 등록증 사본’을 제출해야 하며, 경우에 따라\n서는 법무부가 지정한 의료기관에서 발행한 ‘마약 검사 확인서’\n를 제출해야 할 수 있습니다. \nWhen applying for a residence card, an application form, \npassport, photo, and proof of residence document are \nrequired. If you are living in a dormitory, a confirmation of \naccommodation from the company must be submitted, and if \nrenting your own place, a lease agreement must be provided. \nAdditionally, a copy of the company’s business registration \ncertificate and a drug test confirmation form issued by a \nmedical institution designated by the Ministry of Justice must \nalso be submitted.\n모든 서류가 준비되면 하이코리아 홈페이지(http://www.\nhikorea.go.kr)에서 방문 예약을 신청하고, 관할 지방출입국 · \n외국인 관서(사무소 등)를 방문하여 외국인 등록증을 신청하면 \n됩니다. 정해진 기간 내에 외국인 등록을 하지 않으면 불법 체\n류로 간주되어 처벌을 받을 수 있습니다. 또한 국적이나 여권이 \n변경된 경우에는 사유가 발생한 날로부터 15일 이내에 외국인 \n등록사항 변경 신고를 해야 합니다.\nOnce all the documents are prepared, you can make an \nappointment on the HiKorea website (http://www.hikorea.\ngo.kr) and visit the local immigration office (or related office) \nto apply for the residence card. Failure to complete foreigner \nregistration within the designated period may result in being \nconsidered as an illegal resident, which can lead to penalties. \nAdditionally, if there are changes to your nationality or \npassport, you must report the changes to your foreign \nregistration details within 15 days of the occurrence.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 304,
+        "image": "assets/modules/textbook2/unit_59/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n304 한국어 표준교재 2\n1. \n다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.\n① 오늘은 작업이 빨리 끝났는 편이에요. \n② 타설했다가 갑자기 비가 와서 작업을 중단했어요.\n③ 제가 재고를 파악하면서 아궁 씨가 물건을 옮겨요.\n④ 외국인 등록증을 잃어버리더라도 다시 발급받을 수 있어요.\n2. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n외국인 등록증을 발급받기 위해 필요한 서류를 작성했습니다. 그리고 출입국 · 외국인 사무소에 방문해서 \n작성한 서류를 . \n① 제출했습니다 \n② 혼합했습니다 \n③ 절단했습니다 \n④ 조절했습니다\n3. 다음 글을 읽고 내용과 같은 것을 고르십시오.\n19:30\n5개월 후에 체류 기간이 만료돼요. 지금 \n체류 기간 연장을 신청해야겠지요?\n유수프\n지금은 신청 못 해요. 체류 기간 만료일 \n4개월 전부터 신청할 수 있어요.\n디안\n① 유수프 씨는 체류 기간이 만료됐어요.\n② 유수프 씨는 체류 기간 만료일을 몰라요.\n③ 유수프 씨는 체류 기간 연장을 신청하려고 해요.\n④ 유수프 씨는 지금 체류 기간 연장을 신청할 수 있어요.\n4. 다음은 무엇에 대한 설명입니까?\nE-9 비자 근로자가 3년의 체류 기간을 초과하여 체류하고자 하는 경우 이것을 받아야 합니다. \n① 체류 가능 기간 \n② 구직 신청 방법 \n③ 외국인 등록 절차 \n④ 체류 기간 연장 허가\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n대한민국에서 90일을 초과하여 체류하려고 하는 외국인은 외국인 등록을 해야 합니다. 외국인 등록을 \n하려면 먼저 필요한 서류를 준비해서 인터넷으로 출입국 · 외국인 사무소 방문 예약을 신청합니다. 그리고 \n예약일에 출입국 · 외국인 사무소에 방문해서 준비한 서류를 내면 외국인 등록증을 발급받을 수 있습니다.\n① 인터넷으로 외국인 등록증을 발급받을 수 있습니다. \n② 외국인 등록에 필요한 서류는 인터넷으로 내면 됩니다.\n③ 체류 기간이 90일이 넘지 않아도 외국인 등록을 해야 합니다.\n④ 출입국 · 외국인 사무소에 방문하기 전에 미리 예약해야 됩니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 305,
+        "image": "assets/modules/textbook2/unit_59/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n59 출입국관리법 \n IMMIGRATION ACT 305\n[1~2] 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n1.\n① 네, 외국인 등록증을 신청했어요. \n② 네, 외국인 등록증을 수령했어요.\n③ 아니요, 외국인 등록증을 제출했어요. \n④ 아니요, 외국인 등록증을 준비했어요.\n2.\n① 내일 예약하면 돼요. \n \n \n② 천천히 예약하면 돼요.\n③ 퇴근 후에 예약하면 돼요. \n \n④ 인터넷으로 예약하면 돼요.\n3. 두 사람은 무엇에 대해 말하고 있습니까?\n① 체류 가능 기간 \n \n \n② 체류 기간 만료일 \n③ 구직 신청 방법 \n \n \n④ 외국인 등록 절차\n4. 다음 중 들은 내용과 같은 것은 무엇입니까?\n① 여자는 지금 예약을 취소할 겁니다. \n② 여자는 피곤해서 예약을 취소하려고 합니다.\n③ 오늘은 출입국 · 외국인 사무소에 가는 날입니다. \n④ 방문하기 한 시간 전까지 예약을 취소할 수 있습니다.\n5. \n여자의 체류 기간 연장 신청이 늦어지는 이유는 무엇입니까? \n① 2주 전에 신청을 해서 \n② 신청 기간이 아니어서\n③ 필요한 서류를 몰라서 \n④ 필요한 서류를 빨리 받지 못해서\n1. \n남 : 외국인 등록증을 발급받았어요?\n2. 여 : 출입국 · 외국인 사무소 방문 예약을 어떻게 해요?\n3. 남 : 한국에서 몇 년 동안 일할 수 있어요?\n \n여 : 3년 일한 후에 1년 10개월 더 일할 수 있어요. \n4. 여 : 내일 출입국 · 외국인 사무소에 가는 날인데 감기가 너무 심해요. 예약을 취소할 수 있을까요?\n \n남 : 네, 예약 취소는 방문 하루 전까지 할 수 있어요.\n \n여 : 그래요? 지금 바로 취소해야겠어요.\n5. 남 : 체류 기간 연장은 신청했어요?\n \n여 : 아니요, 아직 신청하지 못했어요.\n \n남 : 2주 전에 체류 기간 연장을 신청한다고 했잖아요.\n \n여 : 회사에서 서류를 늦게 받아서 이제 신청하려고 해요.\n듣기지문\n322",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 306,
+        "image": "assets/modules/textbook2/unit_59/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "306 한국어 표준교재 2\n학습 목표\nLEARNING OBJECTIVES\n가입한 보험의 보험금에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about the insurance benefits of an insurance policy one has signed up for. \n외국인 근로자 관련 보험에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about insurance for foreign workers.\n근로자 보험 \nEmployment Insurance\nC H A P T E R 6 0\n보험금을 신청하려면 병원 진단서가 필요합니다.\n상해 보험금을 신청하고 싶어요.\n306 한국어 표준교재 2\n-는 바람에\n-(으)려면\nGRAMMAR\n문법\n보험 및 보험금 관련 어휘\nVocabulary Related to Insurance and \nInsurance Benefits \n외국인 근로자 전용 보험 관련 어휘\nVocabulary Related to Insurance \nExclusive to Foreign Workers \nVOCABULARY\n어휘\n외국인 근로자 관련 보험\nInsurance for Foreign Workers \nCULTURE & INFORMATION\n문화와 정보\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "vocab": [
       {
         "id": "vocab_1",
-        "front": "59 출입국관리법",
-        "back": "IMMIGRATION ACT 297",
-        "raw": {
-          "korean": "59  출입국관리법",
-          "indonesia": "IMMIGRATION ACT   297"
-        }
+        "front": "외국인 등록 관련 어휘",
+        "back": "Foreigner Registration",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_2",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "반복하다",
+        "back": "to repeat",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_3",
-        "front": "외국인 등록 관련 어휘",
-        "back": "Foreigner Registration",
-        "raw": {
-          "korean": "외국인 등록 관련 어휘",
-          "indonesia": "Foreigner Registration"
-        }
+        "front": "목록",
+        "back": "list",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_4",
-        "front": "체류지 입증 서류",
-        "back": "proof of residency",
-        "raw": {
-          "korean": "체류지 입증 서류",
-          "indonesia": "proof of residency"
-        }
+        "front": "비회원",
+        "back": "non-member",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_5",
-        "front": "사업자등록증 사본",
-        "back": "copy of business",
-        "raw": {
-          "korean": "사업자등록증 사본",
-          "indonesia": "copy of business"
-        }
+        "front": "이내",
+        "back": "within",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_6",
-        "front": "여권용 사진",
-        "back": "passport-sized photo",
-        "raw": {
-          "korean": "여권용 사진",
-          "indonesia": "passport-sized photo"
-        }
+        "front": "고치다",
+        "back": "to revise",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_7",
-        "front": "여권",
-        "back": "passport",
-        "raw": {
-          "korean": "여권",
-          "indonesia": "passport"
-        }
+        "front": "정확히",
+        "back": "accurately",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_8",
-        "front": "수수료",
-        "back": "processing fees",
-        "raw": {
-          "korean": "수수료",
-          "indonesia": "processing fees"
-        }
+        "front": "체류지 입증 서류",
+        "back": "proof of residency",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_9",
-        "front": "작성하다",
-        "back": "to fill out",
-        "raw": {
-          "korean": "작성하다",
-          "indonesia": "to fill out"
-        }
+        "front": "사업자등록증 사본",
+        "back": "copy of business license",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_10",
-        "front": "수령하다",
-        "back": "to be issued/",
-        "raw": {
-          "korean": "수령하다",
-          "indonesia": "to be issued/"
-        }
+        "front": "여권용 사진",
+        "back": "passport-sized photo",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_11",
-        "front": "신청하다",
-        "back": "to make an",
-        "raw": {
-          "korean": "신청하다",
-          "indonesia": "to make an"
-        }
+        "front": "여권",
+        "back": "passport",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_12",
-        "front": "확인서를 받다",
-        "back": "to receive the",
-        "raw": {
-          "korean": "확인서를 받다",
-          "indonesia": "to receive the"
-        }
+        "front": "수수료",
+        "back": "processing fees",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_13",
-        "front": "방문하다",
-        "back": "to visit the",
-        "raw": {
-          "korean": "방문하다",
-          "indonesia": "to visit the"
-        }
+        "front": "체류 기간 연장 관련 어휘",
+        "back": "Extension of Stay",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_14",
-        "front": "서류를 제출하다",
-        "back": "to submit the",
-        "raw": {
-          "korean": "서류를 제출하다",
-          "indonesia": "to submit the"
-        }
+        "front": "체류하다",
+        "back": "to stay/sojourn",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_15",
-        "front": "신청도 할 수 있어요.",
-        "back": "In addition to",
-        "raw": {
-          "korean": "신청도 할 수 있어요.",
-          "indonesia": "In addition to"
-        }
+        "front": "체류 기간",
+        "back": "period of stay",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_16",
-        "front": "제출해야 해요.",
-        "back": "You must undergo",
-        "raw": {
-          "korean": "제출해야 해요.",
-          "indonesia": "You must undergo"
-        }
+        "front": "체류 가능 기간",
+        "back": "permitted length of stay",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_17",
-        "front": "제출해야 해요.",
-        "back": "If the company provides",
-        "raw": {
-          "korean": "제출해야 해요.",
-          "indonesia": "If the company provides"
-        }
+        "front": "체류 기간 만료일",
+        "back": "expiration date of period of stay",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_18",
-        "front": "하는 서류예요.",
-        "back": "These are the",
-        "raw": {
-          "korean": "하는 서류예요.",
-          "indonesia": "These are the"
-        }
+        "front": "구직자",
+        "back": "job seeker",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_19",
-        "front": "통합신청서",
-        "back": "(integrated)",
-        "raw": {
-          "korean": "통합신청서",
-          "indonesia": "(integrated)"
-        }
+        "front": "구직등록필증",
+        "back": "job seeker registration certificate",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_20",
-        "front": "마약 검사 확인서",
-        "back": "drug test confirmation",
-        "raw": {
-          "korean": "마약 검사 확인서",
-          "indonesia": "drug test confirmation"
-        }
+        "front": "자진 출국 각서",
+        "back": "voluntary departure form",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_21",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "사업장 변경 가능 횟수",
+        "back": "number of times permitted to change workplace",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_22",
-        "front": "체류 기간 연장 관련 어휘",
-        "back": "Extension of Stay",
-        "raw": {
-          "korean": "체류 기간 연장 관련 어휘",
-          "indonesia": "Extension of Stay"
-        }
+        "front": "연장하다",
+        "back": "to extend",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_23",
-        "front": "체류하다",
-        "back": "to stay/sojourn",
-        "raw": {
-          "korean": "체류하다",
-          "indonesia": "to stay/sojourn"
-        }
+        "front": "허가를 받다",
+        "back": "to receive permission",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_24",
-        "front": "체류 기간",
-        "back": "period of stay",
-        "raw": {
-          "korean": "체류 기간",
-          "indonesia": "period of stay"
-        }
+        "front": "이직하다",
+        "back": "to change jobs",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_25",
-        "front": "체류 가능 기간",
-        "back": "permitted length of stay",
-        "raw": {
-          "korean": "체류 가능 기간",
-          "indonesia": "permitted length of stay"
-        }
+        "front": "소식",
+        "back": "news",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_26",
-        "front": "체류 기간 만료일",
-        "back": "expiration date of period",
-        "raw": {
-          "korean": "체류 기간 만료일",
-          "indonesia": "expiration date of period"
-        }
+        "front": "차다",
+        "back": "to be full",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_27",
-        "front": "구직자",
-        "back": "job seeker",
-        "raw": {
-          "korean": "구직자",
-          "indonesia": "job seeker"
-        }
+        "front": "연락",
+        "back": "contact",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_28",
-        "front": "구직등록필증",
-        "back": "job seeker registration",
-        "raw": {
-          "korean": "구직등록필증",
-          "indonesia": "job seeker registration"
-        }
+        "front": "만료되다",
+        "back": "to expire",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_29",
-        "front": "자진 출국 각서",
-        "back": "voluntary departure form",
-        "raw": {
-          "korean": "자진 출국 각서",
-          "indonesia": "voluntary departure form"
-        }
+        "front": "여유",
+        "back": "spare time",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_30",
-        "front": "사업장 변경 가능 횟수",
-        "back": "number of times permitted to",
-        "raw": {
-          "korean": "사업장 변경 가능 횟수",
-          "indonesia": "number of times permitted to"
-        }
+        "front": "귀국하다",
+        "back": "to return to one's home country",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_31",
-        "front": "연장하다",
-        "back": "to extend",
-        "raw": {
-          "korean": "연장하다",
-          "indonesia": "to extend"
-        }
+        "front": "지방고용노동관서",
+        "back": "regional employment and labor office",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_32",
-        "front": "허가를 받다",
-        "back": "to receive permission",
-        "raw": {
-          "korean": "허가를 받다",
-          "indonesia": "to receive permission"
-        }
+        "front": "물어보다",
+        "back": "to ask",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_33",
+        "front": "불만",
+        "back": "discontentment",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_34",
         "front": "표준근로계약서",
         "back": "SUN MON TUE WES THU FRI SAT",
-        "raw": {
-          "korean": "표준근로계약서",
-          "indonesia": "SUN MON TUE WES THU FRI SAT"
-        }
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       }
     ],
     "grammar": [
       {
         "id": "grammar_1",
-        "front": "298 한국어 표준교재 2",
-        "back": "문법 GRAMMAR",
-        "raw": {
-          "pattern": "298   한국어 표준교재  2",
-          "explanation": "문법  GRAMMAR"
-        }
+        "front": "-더라도",
+        "back": "‘-더라도’는 동사, 형용사에 붙어 앞 절의 가정된 상황을 인정하지만 뒤의 내용이 앞의 내용을 바탕으로 한 기대와\n상관없이 이루어짐을 나타낸다.\n'-더라도' is attached to verbs and adjectives. It is used to acknowledge the assumed situation in the first clause but\nexpresses that the content of the following clause is carried out regardless of the expectations of the content of\nthe first clause.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
       },
       {
         "id": "grammar_2",
-        "front": "상관없이 이루어짐을 나타낸다.",
-        "back": "'-더라도' is attached to verbs and adjectives. It is used to acknowledge the assumed situation in the first clause but",
-        "raw": {
-          "pattern": "상관없이 이루어짐을 나타낸다.",
-          "explanation": "'-더라도' is attached to verbs and adjectives. It is used to acknowledge the assumed situation in the first clause but"
-        }
-      },
-      {
-        "id": "grammar_3",
-        "front": "1. 알맞은 것을 골라 [보기]와 같이 대화를 완성하세요.",
-        "back": "Complete the conversations with the correct options as shown in the example.",
-        "raw": {
-          "pattern": "1. \u0007알맞은 것을 골라 [보기]와 같이 대화를 완성하세요.",
-          "explanation": "Complete the conversations with the correct options as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_4",
-        "front": "나 : 네, 외국인 등록증은 다른 사람이 받을 수 있어요.",
-        "back": "2. [보기]와 같이 말해 보세요. Practice speaking as shown in the example.",
-        "raw": {
-          "pattern": "나 : 네, 외국인 등록증은 다른 사람이                                                  받을 수 있어요.",
-          "explanation": "2. \u0007[보기]와 같이 말해 보세요. Practice speaking as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_5",
-        "front": "59 출입국관리법",
-        "back": "IMMIGRATION ACT 301",
-        "raw": {
-          "pattern": "59  출입국관리법",
-          "explanation": "IMMIGRATION ACT   301"
-        }
-      },
-      {
-        "id": "grammar_6",
-        "front": "타낸다.",
-        "back": "‘-는지/(으)ㄴ지’ is attached to verbs and adjectives, indicating that although the previous content is uncertain, it",
-        "raw": {
-          "pattern": "타낸다.",
-          "explanation": "‘-는지/(으)ㄴ지’ is attached to verbs and adjectives, indicating that although the previous content is uncertain, it"
-        }
-      },
-      {
-        "id": "grammar_7",
-        "front": "1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요",
-        "back": "Complete the sentences with the correct options as shown in the example.",
-        "raw": {
-          "pattern": "1. \u0007알맞은 것을 골라 [보기]와 같이 문장을 완성하세요",
-          "explanation": "Complete the sentences with the correct options as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_8",
-        "front": "⑷ 자하라 씨는 근로 조건하고 임금이 그 회사에 불만 없이 잘 다니고 있어요.",
-        "back": "2. [보기]와 같이 대화해 보세요. Practice speaking as shown in the example.",
-        "raw": {
-          "pattern": "⑷\t 자하라 씨는 근로 조건하고 임금이                                        그 회사에 불만 없이 잘 다니고 있어요.",
-          "explanation": "2. \u0007[보기]와 같이 대화해 보세요. Practice speaking as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_9",
-        "front": "/ 1년 10개월 더 일하다",
-        "back": "SUN MON TUE",
-        "raw": {
-          "pattern": "/ 1년 10개월 더 일하다",
-          "explanation": "SUN MON TUE"
-        }
+        "front": "-는지/(으)ㄴ지",
+        "back": "‘-는지/(으)ㄴ지’는 동사, 형용사에 붙어 앞의 내용이 확실하지는 않지만 뒤의 내용에 대한 근거나 이유가 됨을 나\n타낸다.\n‘-는지/(으)ㄴ지’ is attached to verbs and adjectives, indicating that although the previous content is uncertain, it\nbecomes the basis or reason for the following content.\n동사, 있다/없다\n-는지\n걸리다 → 걸리는지\n형용사\n받침 ○\n-은지\n넓다 → 넓은지\n받침 ×, 받침 ‘ㄹ’\n-ㄴ지\n유명하다 → 유명한지\n힘들다 → 힘든지",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
       }
     ],
     "conversation": [
       {
         "id": "conversation_1",
-        "front": "연차신청서를 작성했는데 이렇게 하는 거 맞아요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "연차신청서를 작성했는데 이렇게 하는 거 맞아요?"
-        }
+        "front": "제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•연차신청서를 작성하다, 연차신청서를 내다, 연차를 못 쓰다\n•외국인 등록을 위해 통합신청서를 작성하다, 통합신청서를 내다,\n외국인 등록증을 못 받다\n가 : 연차신청서를 작성했는데 이렇게 하는 거 맞아요?\n나 : 좀 잘못 쓴 것 같아요. 이렇게 하면 연차신청서를 내더라도 연차를\n못 쓸 수 있어요.\n가 : 아, 그래요? 그러면 어떻게 고치면 돼요?\n발음 │ PRONUNCIATION\n사이시옷 뒤에 ‘ㄴ, ㅁ’ 소리가 결합되는 경우에는 사이시옷을 [ㄴ]으로 발음한다.\nWhen the inserted ‘ㅅ’ is followed by ‘ㄴ’ or ‘ㅁ’, the ‘ㅅ’ is pronounced as [ㄴ].\n⑴ 콧날[콛날 → 콘날]\n콧노래[콛노래 → 콘노래]\n첫눈[첟눈 → 천눈]\n⑵ 아랫니[아랟니 → 아랜니]\n콧물[콛물 → 콘물]\n뱃머리[밷머리 → 밴머리]",
+        "back": "",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_2",
-        "front": "좀 잘못 쓴 것 같아요. 이렇게 하면 연차신청서를 내더라도 연차를 못 쓸 수 있어요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "좀 잘못 쓴 것 같아요. 이렇게 하면 연차신청서를 내더라도 연차를 못 쓸 수 있어요."
-        }
+        "front": "아궁 씨, 외국인 등록증을 발급받는 방법 알아요? 무슨 서류가 필요해요?",
+        "back": "Agung, do you know how to get the residence card? What documents do we need?",
+        "speaker": "마 두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_3",
-        "front": "아, 그래요? 그러면 어떻게 고치면 돼요? 발음 │ PRONUNCIATION 사이시옷 뒤에 ‘ㄴ, ㅁ’ 소리가 결합되는 경우에는 사이시옷을 [ㄴ]으로 발음한다. When the inserted ‘ㅅ’ is followed by ‘ㄴ’ or ‘ㅁ’, the ‘ㅅ’ is pronounced as [ㄴ]. ⑴ 콧날[콛날 → 콘날] 콧노래[콛노래 → 콘노래] 첫눈[첟눈 → 천눈] ⑵ 아랫니[아랟니 → 아랜니] 콧물[콛물 → 콘물] 뱃머리[밷머리 → 밴머리] 319 마 두 아궁 씨, 외국인 등록증을 발급받는 방법 알아요? 무슨 서류가 필요해요? Agung, do you know how to get the residence card? What documents do we need? 아 궁 먼저 통합신청서하고 여권, 사진이 있어야 돼요. 그리고 체류지 입증 서류도 필요하고요. 마두 씨는 기 숙사에 사니까 회사에서 숙소 제공 확인서를 받아서 제출하면 되겠네요. First, you need the application form, your passport, and a photo. You also need proof of residence. Since you live in the dormitory, you can get the confirmation of accommodation form from the company and submit that. 마 두 더 필요한 건 없어요? Is there anything else I need? 아 궁 정확히 기억이 안 나는데 제가 필요한 서류 목록을 찾아서 문자 메시지로 알려 줄게요. I don’t remember exactly, but I'll find the list of required documents and let you know by text. 마 두 정말 고마워요. 그런데 제가 이번 달에는 바빠서 외국인 등록을 할 시간이 없는데 다음 달에 해도 돼요? Thank you so much. But I'm busy this month and I don't have time to go register, so can I go next month? 아 궁 입국하고 90일 이내에는 해야 되니까 바쁘더라도 이번 달에 꼭 하세요. After you enter the country you need to register within 90 days, so even though you're busy absolutely do it this month. 대답해 봐요! ANSWER ME! 1 아궁 씨는 마두 씨에게 문자 메시지로 무엇을 보내 주기로 했어요? What did Agung promise to send Madhu by text? 2 외국인 등록은 언제까지 해야 해요? Until when must foreign workers complete the foreigner registration? 318",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "아, 그래요? 그러면 어떻게 고치면 돼요? 발음 │ PRONUNCIATION 사이시옷 뒤에 ‘ㄴ, ㅁ’ 소리가 결합되는 경우에는 사이시옷을 [ㄴ]으로 발음한다. When the inserted ‘ㅅ’ is followed by ‘ㄴ’ or ‘ㅁ’, the ‘ㅅ’ is pronounced as [ㄴ]. ⑴ 콧날[콛날 → 콘날] 콧노래[콛노래 → 콘노래] 첫눈[첟눈 → 천눈] ⑵ 아랫니[아랟니 → 아랜니] 콧물[콛물 → 콘물] 뱃머리[밷머리 → 밴머리] 319 마  두 \u0007아궁 씨, 외국인 등록증을 발급받는 방법 알아요? 무슨 서류가 필요해요? \u0007Agung, do you know how to get the residence card? What documents do we need? 아  궁 \u0007먼저 통합신청서하고 여권, 사진이 있어야 돼요. 그리고 체류지 입증 서류도 필요하고요. 마두 씨는 기 숙사에 사니까 회사에서 숙소 제공 확인서를 받아서 제출하면 되겠네요. \u0007First, you need the application form, your passport, and a photo. You also need proof of residence. Since you live in the dormitory, you can get the confirmation of accommodation form from the company and submit that. 마  두 \u0007더 필요한 건 없어요? \u0007Is there anything else I need? 아  궁 \u0007정확히 기억이 안 나는데 제가 필요한 서류 목록을 찾아서 문자 메시지로 알려 줄게요. \u0007I don’t remember exactly, but I'll find the list of required documents and let you know by text. 마  두 \u0007정말 고마워요. 그런데 제가 이번 달에는 바빠서 외국인 등록을 할 시간이 없는데 다음 달에 해도 돼요? \u0007Thank you so much. But I'm busy this month and I don't have time to go register, so can I go next month? 아  궁 \u0007입국하고 90일 이내에는 해야 되니까 바쁘더라도 이번 달에 꼭 하세요. \u0007After you enter the country you need to register within 90 days, so even though you're busy absolutely do it this month. 대답해 봐요!  ANSWER ME! 1  \u0007아궁 씨는 마두 씨에게 문자 메시지로 무엇을 보내 주기로 했어요? What did Agung promise to send Madhu by text? 2  \u0007외국인 등록은 언제까지 해야 해요? Until when must foreign workers complete the foreigner registration? 318"
-        }
+        "front": "먼저 통합신청서하고 여권, 사진이 있어야 돼요. 그리고 체류지 입증 서류도 필요하고요. 마두 씨는 기\n숙사에 사니까 회사에서 숙소 제공 확인서를 받아서 제출하면 되겠네요.",
+        "back": "First, you need the application form, your passport, and a photo. You also need proof of residence. Since you live in the dormitory, you can get the confirmation of accommodation form from the company and submit that.",
+        "speaker": "아 궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_4",
-        "front": "친구가 일하고 있는 회사와의 계약이 곧 끝나는지 빨리 사업장 변경을 신청하고 싶대요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "\u0007친구가 일하고 있는 회사와의 계약이 곧 끝나는지 빨리 사업장 변경을 신청하고 싶대요."
-        }
+        "front": "더 필요한 건 없어요?",
+        "back": "Is there anything else I need?",
+        "speaker": "마 두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_5",
-        "front": "친구가 마음이 급하겠어요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "친구가 마음이 급하겠어요."
-        }
+        "front": "정확히 기억이 안 나는데 제가 필요한 서류 목록을 찾아서\n문자 메시지로 알려 줄게요.",
+        "back": "I don’t remember exactly, but I'll find the list of required documents and let you know by text.",
+        "speaker": "아 궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_6",
-        "front": "혹시 우리 회사에서 일할 수 있어요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "혹시 우리 회사에서 일할 수 있어요?"
-        }
+        "front": "정말 고마워요. 그런데 제가 이번 달에는 바빠서 외국인 등록을\n할 시간이 없는데 다음 달에 해도 돼요?",
+        "back": "Thank you so much. But I'm busy this month and I don't have time to go register, so can I go next month?",
+        "speaker": "마 두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_7",
-        "front": "저는 잘 모르겠네요. 팀장님께 물어보세요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "저는 잘 모르겠네요. 팀장님께 물어보세요."
-        }
-      },
-      {
-        "id": "conversation_8",
-        "front": "한눈 팔면 안 돼요. 기계를 사용할 때에는 위험해요. Don't get distracted. It's dangerous when using the machine.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "\u0007한눈 팔면 안 돼요. 기계를 사용할 때에는 위험해요. Don't get distracted. It's dangerous when using the machine."
-        }
-      },
-      {
-        "id": "conversation_9",
-        "front": "네, 주의할게요. Yes, I’ll be careful. 유용한 표현 │ USEFUL EXPRESSION 한눈 팔면 안 돼요. Don't get distracted. 321 320",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "\u0007네, 주의할게요. Yes, I’ll be careful. 유용한 표현 │ USEFUL EXPRESSION 한눈 팔면 안 돼요. Don't get distracted. 321 320"
-        }
+        "front": "입국하고 90일 이내에는 해야 되니까 바쁘더라도 이번 달에 꼭 하세요.",
+        "back": "After you enter the country you need to register within 90 days, so even though you're busy absolutely do it this month.",
+        "speaker": "아 궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       }
     ],
-    "culture": [],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "59 출입국관리법",
+        "back": "I can ask and answer questions about the foreigner registration procedure.",
+        "body": "• 외국인 등록 절차에 대해 묻고 대답할 수 있다.\nI can ask and answer questions about the foreigner registration procedure.\n• 체류 기간 연장 방법에 대해 묻고 대답할 수 있다.\nI can ask and answer questions about how to extend the stay of one's residence.\n• 어떤 상황이나 상태의 이유를 추측하여 말할 수 있다.\nI can speculate about the reason for a certain situation or condition.\n59 출입국관리법\nIMMIGRATION ACT 303\n외국인 등록(증)\nForeigner Registration (Residence Card)\n「출입국관리법」에 따르면, 외국인이 입국한 날부터 90일을\n초과하여 대한민국에 체류하기 위해서는 입국한 날부터 90일\n이내에 본인의 체류지를 관할하는 지방출입국 · 외국인관서(사\n무소 등)에 외국인 등록을 해야 합니다. 따라서 외국인 근로자\n는 1년 이상의 근로계약을 체결하고 한국에 입국했기 때문에\n반드시 외국인 등록을 해야 합니다.",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook2/unit_59/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
     "reading": [
       {
-        "id": "u59_m1",
+        "id": "u59_r1",
         "nomor": 1,
         "tipe": "membaca",
-        "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
-        "teks_soal": "",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -563,15 +711,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_59/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u59_m2",
+        "id": "u59_r2",
         "nomor": 2,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "외국인 등록증을 발급받기 위해 필요한 서류를 작성했습니다. 그리고 출입국 · 외국인 사무소에 방문해서 작성한 서류를 .",
-        "jawaban": "b",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n외국인 등록증을 발급받기 위해 필요한 서류를 작성했습니다. 그리고 출입국 · 외국인 사무소에 방문해서\n작성한 서류를 .",
+        "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -600,14 +752,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_59/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u59_m3",
+        "id": "u59_r3",
         "nomor": 3,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "19:30 유수프 체류 기간 연장을 신청해야겠지요? 지금은 신청 못 해요. 체류 기간 만료일 4개월 전부터 신청할 수 있어요. 디안",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n19:30\n5개월 후에 체류 기간이 만료돼요. 지금\n체류 기간 연장을 신청해야겠지요?\n유수프\n지금은 신청 못 해요. 체류 기간 만료일\n4개월 전부터 신청할 수 있어요.\n디안",
         "jawaban": "c",
         "audio_teks": "",
         "audio_url": "",
@@ -637,14 +793,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_59/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u59_m4",
+        "id": "u59_r4",
         "nomor": 4,
         "tipe": "membaca",
-        "instruksi": "다음은 무엇에 대한 설명입니까?",
-        "teks_soal": "E-9 비자 근로자가 3년의 체류 기간을 초과하여 체류하고자 하는 경우 이것을 받아야 합니다.",
+        "instruksi": "",
+        "teks_soal": "다음은 무엇에 대한 설명입니까?\nE-9 비자 근로자가 3년의 체류 기간을 초과하여 체류하고자 하는 경우 이것을 받아야 합니다.",
         "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
@@ -674,14 +834,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_59/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u59_m5",
+        "id": "u59_r5",
         "nomor": 5,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "대한민국에서 90일을 초과하여 체류하려고 하는 외국인은 외국인 등록을 해야 합니다. 외국인 등록을 하려면 먼저 필요한 서류를 준비해서 인터넷으로 출입국 · 외국인 사무소 방문 예약을 신청합니다. 그리고 예약일에 출입국 · 외국인 사무소에 방문해서 준비한 서류를 내면 외국인 등록증을 발급받을 수 있습니다. 304 한국어 표준교재 2",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n대한민국에서 90일을 초과하여 체류하려고 하는 외국인은 외국인 등록을 해야 합니다. 외국인 등록을\n하려면 먼저 필요한 서류를 준비해서 인터넷으로 출입국 · 외국인 사무소 방문 예약을 신청합니다. 그리고\n예약일에 출입국 · 외국인 사무소에 방문해서 준비한 서류를 내면 외국인 등록증을 발급받을 수 있습니다.",
         "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
@@ -711,7 +875,11 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_59/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ],
     "listening": [
@@ -720,68 +888,220 @@
         "nomor": 1,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 외국인 등록증을 발급받았어요?",
+        "teks_soal": "",
         "jawaban": "b",
-        "audio_teks": "1. 남 : 외국인 등록증을 발급받았어요?\n2. 여 : 출입국 · 외국인 사무소 방문 예약을 어떻게 해요?\n3. 남 : 한국에서 몇 년 동안 일할 수 있어요?\n여 : 3년 일한 후에 1년 10개월 더 일할 수 있어요.\n4. 여 : 내일 출입국 · 외국인 사무소에 가는 날인데 감기가 너무 심해요. 예약을 취소할 수 있을까요?\n남 : 네, 예약 취소는 방문 하루 전까지 할 수 있어요.\n여 : 그래요? 지금 바로 취소해야겠어요.\n5. 남 : 체류 기간 연장은 신청했어요?\n여 : 아니요, 아직 신청하지 못했어요.\n남 : 2주 전에 체류 기간 연장을 신청한다고 했잖아요.\n여 : 회사에서 서류를 늦게 받아서 이제 신청하려고 해요.\n59 출입국관리법 IMMIGRATION ACT 305",
+        "audio_teks": "남 : 외국인 등록증을 발급받았어요?",
         "audio_url": "assets/modules/textbook2/audio/unit_59/listening_1.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "네, 외국인 등록증을 신청했어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "네, 외국인 등록증을 수령했어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "아니요, 외국인 등록증을 제출했어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "아니요, 외국인 등록증을 준비했어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_59/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u59_l2",
         "nomor": 2,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 출입국 · 외국인 사무소 방문 예약을 어떻게 해요?",
+        "teks_soal": "",
         "jawaban": "d",
-        "audio_teks": "1. 남 : 외국인 등록증을 발급받았어요?\n2. 여 : 출입국 · 외국인 사무소 방문 예약을 어떻게 해요?\n3. 남 : 한국에서 몇 년 동안 일할 수 있어요?\n여 : 3년 일한 후에 1년 10개월 더 일할 수 있어요.\n4. 여 : 내일 출입국 · 외국인 사무소에 가는 날인데 감기가 너무 심해요. 예약을 취소할 수 있을까요?\n남 : 네, 예약 취소는 방문 하루 전까지 할 수 있어요.\n여 : 그래요? 지금 바로 취소해야겠어요.\n5. 남 : 체류 기간 연장은 신청했어요?\n여 : 아니요, 아직 신청하지 못했어요.\n남 : 2주 전에 체류 기간 연장을 신청한다고 했잖아요.\n여 : 회사에서 서류를 늦게 받아서 이제 신청하려고 해요.\n59 출입국관리법 IMMIGRATION ACT 305",
+        "audio_teks": "여 : 출입국 · 외국인 사무소 방문 예약을 어떻게 해요?",
         "audio_url": "assets/modules/textbook2/audio/unit_59/listening_2.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "내일 예약하면 돼요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "천천히 예약하면 돼요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "퇴근 후에 예약하면 돼요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "인터넷으로 예약하면 돼요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_59/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u59_l3",
         "nomor": 3,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 한국에서 몇 년 동안 일할 수 있어요? 여 : 3년 일한 후에 1년 10개월 더 일할 수 있어요.",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
         "jawaban": "a",
-        "audio_teks": "1. 남 : 외국인 등록증을 발급받았어요?\n2. 여 : 출입국 · 외국인 사무소 방문 예약을 어떻게 해요?\n3. 남 : 한국에서 몇 년 동안 일할 수 있어요?\n여 : 3년 일한 후에 1년 10개월 더 일할 수 있어요.\n4. 여 : 내일 출입국 · 외국인 사무소에 가는 날인데 감기가 너무 심해요. 예약을 취소할 수 있을까요?\n남 : 네, 예약 취소는 방문 하루 전까지 할 수 있어요.\n여 : 그래요? 지금 바로 취소해야겠어요.\n5. 남 : 체류 기간 연장은 신청했어요?\n여 : 아니요, 아직 신청하지 못했어요.\n남 : 2주 전에 체류 기간 연장을 신청한다고 했잖아요.\n여 : 회사에서 서류를 늦게 받아서 이제 신청하려고 해요.\n59 출입국관리법 IMMIGRATION ACT 305",
+        "audio_teks": "남 : 한국에서 몇 년 동안 일할 수 있어요?\n여 : 3년 일한 후에 1년 10개월 더 일할 수 있어요.",
         "audio_url": "assets/modules/textbook2/audio/unit_59/listening_3.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "체류 가능 기간",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "체류 기간 만료일",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "구직 신청 방법",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "외국인 등록 절차",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_59/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u59_l4",
         "nomor": 4,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 내일 출입국 · 외국인 사무소에 가는 날인데 감기가 너무 심해요. 예약을 취소할 수 있을까요? 남 : 네, 예약 취소는 방문 하루 전까지 할 수 있어요. 여 : 그래요? 지금 바로 취소해야겠어요.",
+        "teks_soal": "다음 중 들은 내용과 같은 것은 무엇입니까?",
         "jawaban": "a",
-        "audio_teks": "1. 남 : 외국인 등록증을 발급받았어요?\n2. 여 : 출입국 · 외국인 사무소 방문 예약을 어떻게 해요?\n3. 남 : 한국에서 몇 년 동안 일할 수 있어요?\n여 : 3년 일한 후에 1년 10개월 더 일할 수 있어요.\n4. 여 : 내일 출입국 · 외국인 사무소에 가는 날인데 감기가 너무 심해요. 예약을 취소할 수 있을까요?\n남 : 네, 예약 취소는 방문 하루 전까지 할 수 있어요.\n여 : 그래요? 지금 바로 취소해야겠어요.\n5. 남 : 체류 기간 연장은 신청했어요?\n여 : 아니요, 아직 신청하지 못했어요.\n남 : 2주 전에 체류 기간 연장을 신청한다고 했잖아요.\n여 : 회사에서 서류를 늦게 받아서 이제 신청하려고 해요.\n59 출입국관리법 IMMIGRATION ACT 305",
+        "audio_teks": "여 : 내일 출입국 · 외국인 사무소에 가는 날인데 감기가 너무\n심해요. 예약을 취소할 수 있을까요?\n남 : 네, 예약 취소는 방문 하루 전까지 할 수 있어요.\n여 : 그래요? 지금 바로 취소해야겠어요.",
         "audio_url": "assets/modules/textbook2/audio/unit_59/listening_4.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "여자는 지금 예약을 취소할 겁니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "여자는 피곤해서 예약을 취소하려고 합니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "오늘은 출입국 · 외국인 사무소에 가는 날입니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "방문하기 한 시간 전까지 예약을 취소할 수 있습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_59/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u59_l5",
         "nomor": 5,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 체류 기간 연장은 신청했어요? 여 : 아니요, 아직 신청하지 못했어요. 남 : 2주 전에 체류 기간 연장을 신청한다고 했잖아요. 여 : 회사에서 서류를 늦게 받아서 이제 신청하려고 해요. 59 출입국관리법 IMMIGRATION ACT 305",
+        "teks_soal": "여자의 체류 기간 연장 신청이 늦어지는 이유는 무엇입니까?",
         "jawaban": "d",
-        "audio_teks": "1. 남 : 외국인 등록증을 발급받았어요?\n2. 여 : 출입국 · 외국인 사무소 방문 예약을 어떻게 해요?\n3. 남 : 한국에서 몇 년 동안 일할 수 있어요?\n여 : 3년 일한 후에 1년 10개월 더 일할 수 있어요.\n4. 여 : 내일 출입국 · 외국인 사무소에 가는 날인데 감기가 너무 심해요. 예약을 취소할 수 있을까요?\n남 : 네, 예약 취소는 방문 하루 전까지 할 수 있어요.\n여 : 그래요? 지금 바로 취소해야겠어요.\n5. 남 : 체류 기간 연장은 신청했어요?\n여 : 아니요, 아직 신청하지 못했어요.\n남 : 2주 전에 체류 기간 연장을 신청한다고 했잖아요.\n여 : 회사에서 서류를 늦게 받아서 이제 신청하려고 해요.\n59 출입국관리법 IMMIGRATION ACT 305",
+        "audio_teks": "남 : 체류 기간 연장은 신청했어요?\n여 : 아니요, 아직 신청하지 못했어요.\n남 : 2주 전에 체류 기간 연장을 신청한다고 했잖아요.\n여 : 회사에서 서류를 늦게 받아서 이제 신청하려고 해요.",
         "audio_url": "assets/modules/textbook2/audio/unit_59/listening_5.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "2주 전에 신청을 해서",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "신청 기간이 아니어서",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "필요한 서류를 몰라서",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "필요한 서류를 빨리 받지 못해서",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_59/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ]
   },
   "integrity": {
     "pdf_pages": 10,
-    "vocab_cards": 33,
+    "lesson_flow": 10,
+    "vocab_cards": 34,
+    "grammar_cards": 2,
+    "conversation_cards": 7,
+    "culture_cards": 1,
     "reading_questions": 5,
     "listening_questions": 5,
-    "listening_audio": 5
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_audio": 5,
+    "listening_scripts": 5
   }
 }

@@ -4,7 +4,7 @@
   "unit": 52,
   "title_ko": "음식 조리",
   "title_en": "Food Preparation",
-  "title_id": "Persiapan Makanan",
+  "title_id": "Persiapan makanan",
   "source_pdf": "assets/langit-korea-modules/unit_52_food_preparation.pdf",
   "page_start": 227,
   "page_end": 236,
@@ -61,659 +61,531 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 227,
+        "image": "assets/modules/textbook2/unit_52/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "52 음식 조리 \n FOOD PREPARATION 227\n썩다 to rot\n시들다 to wilt\n녹다 to melt\n싹이 나다 to sprout\n신문지 newspaper\n주방용품 kitchen supplies \n키친타월\npaper towel\n쿠킹호일 \naluminum foil \n위생백\nsanitary bag\n망\nnet \n비닐랩\nplastic wrap \n지퍼백\nzipper bag\n냉장 보관\nrefrigeration \n냉동 보관\nfreezing \n소비 기한\nexpiration date \n개봉하다\nto open \n소스\nsauce \n통조림 \ncanned food\n대용량\nbulk\n소분하다/나누다\nto divide up/separate \n밀폐용기\nairtight container \n식자재\nfood ingredients \n검수하다\nto inspect \n주문서를 확인하다\nto check the order form \n어휘 VOCABULARY\n식재료 관리 관련 어휘 Managing Ingredients\n 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.\n망 비닐랩 키친타월 밀폐용기\n⑴\n파는 에\n넣어서 냉장 보관하세요. \n⑵\n배추는 씻은 후에 \n 에 싸서 \n두세요.\n⑶\n쌈 채소는 (으)로\n싸서 지퍼백에 보관하세요.\n⑷\n양파는 에\n넣어서 서늘한 곳에 두세요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 228,
+        "image": "assets/modules/textbook2/unit_52/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "228 한국어 표준교재 2\n문법 GRAMMAR\n-았어야/었어야 했는데\n‘-았어야/었어야 했는데’는 동사, 형용사에 붙어 어떤 행위를 하지 못한 후회, 또는 만족하지 못한 아쉬움을 나타낸다.\n‘-았어야/었어야 했는데’ is attached to verbs or adjectives to express regret over not being able to do something or \ndisappointment for something that wasn’t satisfactory.\nㅏ, ㅗ\n-았어야 했는데\n \n가다 → 갔어야 했는데\nㅓ, ㅜ, ㅣ…\n-었어야 했는데\n \n마시다 → 마셨어야 했는데\n-하다\n-했어야 했는데\n \n청소하다 → 청소했어야 했는데\n예 모임에 갔어야 했는데 몸이 안 좋아서 못 갔어요.\n \n한국에 오기 전에 부모님과 같이 시간을 많이 가졌어야 했는데 그러지 못해서 아쉬워요. \n \n가 : 식당 예약을 아직 안 했어요?\n \n나 : 미안해요. 미리 예약했어야 했는데……. \n1. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example. \n가 : 식자재 놓는 선반에 얼룩이 있으니까 좀 닦아 주세요.\n나 : 죄송합니다. 미리 닦았어야 했는데 시간이 없었어요. (미리 닦다)\n[ 보기 ]\n⑴가 : 배달된 채소가 시든 것 같아요. \n나 : 죄송합니다. 못 봤어요. (꼼꼼히 검수하다)\n⑵가 : 식재료를 개봉하고 다시 보관할 때는 개봉 날짜를 써 주세요.\n나 : 죄송해요. 잊어버렸어요. (개봉 날짜를 쓰다)\n⑶가 : 씻은 양파를 보관할 때는 키친타월에 싸서 지퍼백에 넣으세요.\n나 : 미안합니다. 깜빡했어요. (키친타월에 싸다)\n2. [보기]와 같이 대화해 보세요. Practice speaking as shown in the example.\n식재료가 아직 \n도착을 안 했어요.\n미리 주문했어야 \n했는데……. \n•식재료가 아직 도착을 안 했다\n•미리 주문하다\n[ 보기 ]\n⑴\n•대용량 제품이라서 \n사용하기 불편하다\n•나누어서 보관하다\n⑵\n•창고에 있는 소스의 \n소비 기한이 지났다\n•날짜를 확인하다\n⑶\n•마늘이 썩어서 사용할 \n수 없다\n•바람이 잘 통하는 곳에 \n두다",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 229,
+        "image": "assets/modules/textbook2/unit_52/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "52 음식 조리 \n FOOD PREPARATION 229\n대화 CONVERSATION\n딜로바 \n사장님, 토마토와 당근은 신문지를 덮어서 서늘한 곳에 뒀어요.\n \nSajangnim, I covered the tomatoes and carrots with newspaper and put them in a cool place. \n사장님 \n나머지 채소는 씻은 후에 랩에 싸서 냉장고에 넣었어요?\n \nDid you wrap the remaining vegetables in plastic wrap after washing them and put them in the fridge? \n딜로바 \n네. 다른 식재료들은 선반에 정리할까요?\n \nYes. Should I organize the other ingredients on the shelves? \n사장님 \n잠깐만요. 여기 소비 기한이 지난 재료들이 있어서 이것부터 버려야 될 것 같아요. \n미리 날짜를 확인했어야 했는데……. \n \nWait a minute. There are some expired ingredients here, so I \nthink we need to throw these away first. We should have \nchecked the dates earlier... \n딜로바 \n저도 찾아볼게요. 날짜만 확인하면 돼요?\n \nI’ll look too. Should I just check the dates? \n사장님 \n맞아요. 소비 기한이 지난 것은 바로 버리세요. 그리고 기\n한이 얼마 남지 않은 것은 선반 앞쪽에 두고 기한이 많이 \n남은 것은 뒤쪽에 두세요. \n \nThat's right. Immediately throw away anything past its \nexpiration date. And for items that are close to expiring, put \nthem at the front of the shelf. For items that will still last a long \ntime, put them in the back.\n대답해 봐요! ANSWER ME!\n1 채소를 냉장고에 넣을 때 어떻게 해야 돼요? \nWhat should they do when putting vegetables in the fridge? \n2 딜로바 씨는 지금 뭘 할 거예요? What is Dillova going to do now? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•감자에 싹이 나다, 주문해도 배달이 안 되다, 어두운 곳에 두다\n•냉동고가 고장나다, 수리해도 냉동식품이 녹다, 미리 점검을 하다\n가 : 감자에 싹이 나서 사용할 수 없을 것 같아요.\n나 : 큰일이네요. 지금 주문해도 배달이 안 될 텐데…….\n가 : 어두운 곳에 뒀어야 했는데 죄송해요.\n발음 │ PRONUNCIATION\n받침 ‘ㄷ, ㅌ’이 조사나 접미사의 모음 ‘ㅣ’와 결합되는 경우, [ㅈ, ㅊ]로 바꾸어서 뒤 음절 첫소리로 옮겨 발음한다.\nWhen the final consonants ‘ㄷ, ㅌ’ are combined with the vowel ‘ㅣ’ of a particle or suffix, they are \npronounced as [ㅈ, ㅊ] in the initial consonant of the next syllable.\n⑴ 맏이[마지] \n굳이[구지] \n미닫이[미다지]\n⑵ 같이[가치] \n밭이[바치] \n284\n283",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 230,
+        "image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "230 한국어 표준교재 2\n식칼\nknife \n도마\ncutting board \n국자\nladle \n깎기(필러)\npeeler \n강판\ngrater \n뒤집개\nspatula \n주걱\nrice scoop \n개월 month\n쌀 rice\n조개 clam\n치즈 cheese\n손질하다 to trim\n해동하다/녹이다 to defrost/melt\n어휘 VOCABULARY\n음식 안전 관리 관련 어휘 Food Safety Management\n곡류\ngrains \n해산물\nseafood \n육류\nmeats \n유제품\ndairy products \n실온\nroom temperature \n부패하다/상하다\nto rot/spoil \n핏물이 생기다\nto bleed\n냄새가 나다\nto smell \n벌레가 생기다\nto have bugs\n곰팡이가 피다\nto grow mold \n세균이 번식하다\nto produce bacteria\n식중독에 걸리다 \nto get food poisoning \n 각 식재료에 맞는 보관 방법을 찾아 연결하세요. Connect the ingredient with its related storage method.\n⑴\n육류 \n●\n ●\n냉장고 문 쪽은 온도가 높아 우유나 치즈를 두면 \n안 돼요. 냉장실 안쪽에 보관해야 돼요.\n⑵\n곡류 \n●\n●\n쌀은 실온에 두면 벌레가 생기니까 \n냉장 보관해야 돼요.\n⑶\n유제품\n●\n●\n소고기는 냉장실에 넣고 닭고기는 삶아서 \n냉동실에 넣어야 돼요.\n⑷\n해산물\n●\n●\n조개는 소금물에 씻은 후에 밀폐용기에 담아 \n냉동실에 보관해야 돼요. \n주방 도구 kitchen utensils",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 231,
+        "image": "assets/modules/textbook2/unit_52/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "52 음식 조리 \n FOOD PREPARATION 231\n문법 GRAMMAR\n-(으)ㄴ 지\n‘-(으)ㄴ 지’는 동사에 붙어 ‘어떤 행위를 한 후에’의 의미를 나타내며, 그 행위는 경과된 시간의 기준 시점이 된다.\n‘-(으)ㄴ 지’ is attached to verbs to mean ‘since doing something’, and the action becomes the reference point for \nthe time that has passed. \n받침 ○\n-은 지\n \n먹다 → 먹은 지\n받침 ×, 받침 ‘ㄹ’ \n-ㄴ 지\n \n일하다 → 일한 지\n \n만들다 → 만든 지\n예 점심을 먹은 지 세 시간이 지났습니다.\n \n한국에 온 지 두 달이 됐습니다.\n \n부산에 산 지 이 년이 넘었습니다.\n1. [보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the example.\n소독하다, 20분 ⊙ 칼과 도마를 소독한 지 20분이 되었어요.\n[ 보기 ]\n⑴입원하다, 이틀\n⊙\n식중독에 걸려 병원에 이 되었어요.\n⑵만들다, 2~3일\n⊙\n떡은 이 지나면 상하기 시작해요.\n⑶구입하다, 6개월\n⊙\n 이 지난 치즈는 버리세요.\n⑷개봉하다, 10일\n⊙\n냉장 보관한 우유도 이 지나면 부패해요.\n2. [보기]와 같이 대화해 보세요. Practice speaking as shown in the example.\n쌀에 벌레가 생겼어요.\n2개월이 되었어요.\n큰일이네요. 냉장 창고에서 \n꺼낸 지 얼마나 되었지요?\n[ 보기 ]\n[보기]\n쌀에 벌레가 생겼다\n냉장 창고에서 꺼내다\n2개월\n⑴\n빵에 곰팡이가 피었다\n빵을 만들다\n일주일\n⑵\n채소가 시들었다\n창고에 보관하다\n5일\n⑶\n고기에 핏물이 아직도 있다\n핏물을 빼다\n1시간",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 232,
+        "image": "assets/modules/textbook2/unit_52/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "232 한국어 표준교재 2\n대화 CONVERSATION\n딜로바 \n방금 배달된 해산물을 어떻게 할까요?\n \nWhat should we do with the seafood that was just delivered? \n주방장님 \n이건 모두 손질이 되어 있네요. 오후에 사용해야 되니까 찬물에 씻은 후에 랩으로 싸서 \n냉장고에 넣어 두세요. 그리고 냉장고에 있는 고기를 좀 꺼내 주세요.\n \nIt’s all been prepared. We’ll need it in the afternoon, so rinse it in cold water, wrap it in plastic wrap, \nand put it in the fridge. Also, could you take out the meat from the fridge? \n딜로바 \n네, 알겠습니다. \n주방장님, 고기가 덜 녹은 것 같아요.\n \nSure, I got it. Chef, the meat seems a bit frozen. \n주방장님 \n해동하기 시작한 지 몇 시간이 지났어요?\n \nHow long has it been since the meat was defrosted? \n딜로바 \n오전에 냉장실로 옮겨 두었는데……. \n빨리 녹게 밖에 둘까요?\n \nI moved it to the fridge this morning... \nShould I take it out so it defrosts faster? \n주방장님 \n아니요, 고기는 냉장고에서 천천히 녹여야 \n세균 번식을 막을 수 있어요. 그래야 식중독도 \n예방이 되고요.\n \nNo, you should let it defrost slowly in the fridge to \nprevent bacteria from growing. That way you also \nprevent food poisoning.\n대답해 봐요! ANSWER ME!\n1 딜로바 씨는 지금부터 뭘 해야 돼요? What should Dillova do now? \n2 고기는 왜 냉장실에서 해동해야 돼요? Why should meat be defrosted in the fridge? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•고기, 배달되다, 상하다, 냉장고에 넣다\n•해산물, 도착하다, 세균이 생기다, 손질해서 냉동 보관하다\n가 : 이 고기가 언제 배달되었어요?\n나 : 배달된 지 30분 정도 되었어요.\n가 : 실온에 두면 상하니까 바로 냉장고에 넣으세요.\n가 : 에어컨을 켜도 별로 시원하지 않네요. \nEven with the air conditioning on, it's not getting that cool. \n나 : 네, 손 좀 봐야 할 것 같아요. \nYes, it seems like it needs to be fixed.\n유용한 표현 │ USEFUL EXPRESSION\n손 좀 봐야 할 것 같아요.\nSeems like it needs \nto be fixed.\n286\n285",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 233,
+        "image": "assets/modules/textbook2/unit_52/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "52 음식 조리 \n FOOD PREPARATION 233\n문화와 정보 CULTURE & INFORMATION\n52 음식 조리 \n FOOD PREPARATION 233\n• 음식을 조리할 때의 주의 사항을 말할 수 있다. I can talk about precautions when preparing food. \n↻\n• 식재료 관리 방법에 대해 묻고 대답할 수 있다. \nI can ask and answer questions about how to manage ingredients. \n↻\n• 음식을 안전하게 보관하는 방법에 대해 설명할 수 있다. I can explain how to store food safely. \n↻\n확인해요 │ self assessment\nK-푸드 산업 \nK-Food Industry\n한국 음식에 대한 세계인의 관심이 높아지면서 최근 들어 한\n국의 식품 산업은 크게 성장하고 있습니다. 김치, 불고기, 비빔\n밥, 떡볶이 외에도 한국의 라면, 만두, 김 등의 수출이 꾸준히 증\n가하며 K-푸드 산업이 큰 주목을 받고 있습니다.\nWith the increasing global interest in Korean cuisine, Korea’s \nfood industry has recently seen significant growth. Beyond \ntraditional dishes like kimchi, bulgogi, bibimbap, and \ntteokbokki, exports of Korean ramen, dumplings, and dried \nseaweed are steadily rising, drawing considerable attention to \nthe K-food industry.\n한국의 라면은 현지인\n의 입맛에 맞는 다양한 맛\n과 종류로 글로벌 인지도\n를 높이고 있습니다. \n2024년에는 수출액이 처\n음으로 10억 달러를 돌파\n하였습니다. 영화 ‘기생충’\n에 나왔던 ‘짜파구리’가 \n상품으로 출시되기도 하\n였고, ‘불닭’ 라면 시리즈\n는 SNS의 ‘불닭 챌린지’의 \n확산 등에 힘입어 해외 시장에서 입지를 굳혔습니다.\nKorean ramen has been gaining global recognition with its \ndiverse flavors and varieties tailored to local tastes. In 2024, \nexports surpassed $1 billion for the first time. The ‘ram-don \n(jjapaguri)’ featured in the movie ‘Parasite’ even had a \nproduct release, while the ‘buldak’ flavor varieties has \nsolidified its presence in international markets, bolstered by \nthe spread of the ‘Fire Noodle Challenge’ on social media.\n한편, 한국의 김도 세계인의 사랑을 받고 있습니다. 2023년\n에는 수출액이 1조 원을 넘어 단일 수산식품으로는 역대 최대의 \n성과를 거두었습니다. 한국의 김은 얇고 바삭하여 식감이 좋으\n며, 건강식으로 인식되고 있습니다. 최근에는 미국, 중국, 일본 \n외에도 중동, 남미 등으로도 수출되고 있습니다.\nMeanwhile, Korean dried seaweed (kim) is also enjoying \nglobal popularity. In 2023, exports exceeded 1 trillion won, \nmarking the highest achievement ever for a single seafood \nproduct. Korean kim is known for its thin, crispy texture and \nhas been recognized as a health food. Recently, it has been \nexported not only to the U.S., China, and Japan but also to \nthe Middle East and South America.\n한국의 레토르트 식품(retort food)도 큰 관심을 받고 있습니\n다. 레토르트 식품은 미리 조리된 음식을 오래 보관할 수 있도록 \n만든 것인데, 몇 분 정도만 데우면 금방 먹을 수 있어 조리 시간\n을 절약하게 해 줍니다. 한국의 레토르트 식품은 삼계탕, 갈비탕, \n찌개 등 종류가 매우 다양하고 한국 음식을 간편하게 맛볼 수 있\n다는 점 때문에 점점 인기가 높아지고 있습니다.\nKorean ‘retort food’ is also receiving significant attention. \nRetort food refers to pre-cooked meals that are designed to be \nstored for a long time and can be quickly heated up in just a \nfew minutes which saves cooking time. There are a wide \nvariety of Korean retort foods, including ‘samgyetang’ (ginseng \nchicken soup), ‘galbitang’ (beef rib soup), and ‘jjigae’ (stew), \nand their convenience and ability to easily offer authentic \nKorean flavors are contributing to their growing popularity.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 234,
+        "image": "assets/modules/textbook2/unit_52/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n234 한국어 표준교재 2\n1. \n다음 그림과 관계있는 내용은 무엇입니까?\n① 강판 - 채소를 갈아요.\n② 강판 - 국물을 담아요.\n③ 국자 - 채소를 갈아요. \n④ 국자 - 국물을 담아요.\n2. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오. \n① 계약서를 쓰는 지 1주일이 지났어요. \n② 식당에서 일하는 지 1년이 되었어요. \n③ 고기를 꺼내 놓은 지 10분이 지났어요. \n④ 작업 지시를 듣은 지 한 시간이 되었어요.\n3. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n저는 우유로 만든 은/는 무엇이든 잘 먹습니다. 특히 치즈와 버터를 좋아해서 매일 \n빵과 함께 먹습니다. \n① 육류 \n② 곡류 \n③ 해산물 \n④ 유제품\n4. 다음은 무엇에 대한 설명입니까?\n고기와 생선을 구매한 후 오랫동안 두고 신선하게 먹기 위해서 –18℃ 이하에서 보관해야 합니다. \n① 냉동 보관 \n② 냉장 보관 \n③ 실온 보관 \n④ 상온 보관\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국의 라면, 김 등의 수출이 증가하면서 K-푸드 산업이 큰 주목을 받고 있습니다. 이 중 라면은 \n현지인의 입맛에 맞게 맛과 종류를 변화시켜 2024년 수출액이 처음으로 10억 달러를 돌파했습니다. \n특히 ‘짜파구리’는 영화에 나온 후 인기를 얻으면서 상품으로 출시되었고, ‘불닭’ 라면 시리즈는 SNS의 \n‘불닭 챌린지’의 확산에 힘입어 해외 시장에서 더 많이 팔리고 있습니다.\n① ‘불닭 챌린지’를 했지만 ‘불닭’ 라면은 잘 팔리지 않습니다.\n② ‘짜파구리’는 영화에 나오기 전부터 한국에서 판매되었습니다.\n③ 해외에서 먹는 라면의 맛과 한국에서 먹는 라면의 맛은 같습니다. \n④ 라면의 수출액은 2024년 전까지 10억 달러를 넘기지 못했습니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 235,
+        "image": "assets/modules/textbook2/unit_52/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n2. 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n① 큰 것만 있어요. \n \n \n② 열 장 정도 있어요.\n③ 선반 위에 있어요. \n \n \n④ 당근을 넣고 있어요.\n3. 두 사람은 무엇에 대해 말하고 있습니까?\n① 보관 순서 \n \n \n② 보관 종류\n③ 보관 방법 \n \n \n④ 보관 날짜 \n4. 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n① 내일부터는 일찍 올게요. \n \n② 너무 힘들면 도와줄게요. \n③ 다른 칼로 바꿔서 할게요. \n \n④ 손질할 것이 많아서 바빠요.\n5. \n남자가 지적한 여자의 잘못된 행동은 무엇입니까?\n① 상추를 씻지 않았습니다. \n② 상추를 잘못 보관했습니다. \n③ 상추를 배송하지 않았습니다. \n④ 상추를 냉장고에 넣지 않았습니다.\n1. \n남 : 딜로바 씨가 지금 무슨 일을 하고 있어요?\n \n여 : 양파를 다듬고 있어요. \n2. 남 : 지퍼백이 얼마나 있어요?\n3. 여 : 며칠 전에 만든 빵인데 벌써 곰팡이가 폈어요.\n \n남 : 빵은 실온에 오래 두면 안 돼요. 밀봉해서 냉동실에 보관해야 돼요. \n4. 여 : 채소를 썬 칼로 고기를 손질하면 안 돼요. \n5. 남 : 오전에 배달된 상추는 어디에 있어요?\n \n여 : 씻어서 바구니에 담아 냉장고에 넣어 두었습니다. \n \n남 : 씻은 상추는 밀폐용기에 담아서 보관해야 돼요.\n \n여 : 몰랐습니다. 다음부터 주의하겠습니다. \n듣기지문\n52 음식 조리 \n FOOD PREPARATION 235\n287",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 236,
+        "image": "assets/modules/textbook2/unit_52/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "산업 안전 및 보건 표지 \nIndustrial Safety and Health Signs \nC H A P T E R 5 3\n236 한국어 표준교재 2\n학습 목표\nLEARNING OBJECTIVES\n경고 표지의 의미에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about the meanings of warning signs.\n금지 표지의 의미에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about the meanings of prohibition signs.\n-았더니/었더니\n-아/어 있다\nGRAMMAR\n문법\n경고 표지\nWarning Signs\n금지 표지 1\nProhibition Signs 1 \nVOCABULARY\n어휘\n금지 표지 2\nProhibition Signs 2 \nCULTURE & INFORMATION\n문화와 정보\n바닥에 장애물이 있으니까 조심하라는 의미예요.\n여기 붙어 있는 경고 표지는 무슨 의미예요?\nEPS-TOPIK\n장애물 주의",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "vocab": [
       {
         "id": "vocab_1",
-        "front": "52 음식 조리",
-        "back": "FOOD PREPARATION 227",
-        "raw": {
-          "korean": "52  음식 조리",
-          "indonesia": "FOOD PREPARATION   227"
-        }
+        "front": "식재료 관리 관련 어휘",
+        "back": "Managing Ingredients",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_2",
-        "front": "주방용품",
-        "back": "kitchen supplies",
-        "raw": {
-          "korean": "주방용품",
-          "indonesia": "kitchen supplies"
-        }
+        "front": "음식 안전 관리 관련 어휘",
+        "back": "Food Safety Management",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_3",
-        "front": "키친타월",
-        "back": "paper towel",
-        "raw": {
-          "korean": "키친타월",
-          "indonesia": "paper towel"
-        }
+        "front": "곡류",
+        "back": "grains",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_4",
-        "front": "쿠킹호일",
-        "back": "aluminum foil",
-        "raw": {
-          "korean": "쿠킹호일",
-          "indonesia": "aluminum foil"
-        }
+        "front": "해산물",
+        "back": "seafood",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_5",
-        "front": "위생백",
-        "back": "sanitary bag",
-        "raw": {
-          "korean": "위생백",
-          "indonesia": "sanitary bag"
-        }
+        "front": "육류",
+        "back": "meats",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_6",
-        "front": "망",
-        "back": "net",
-        "raw": {
-          "korean": "망",
-          "indonesia": "net"
-        }
+        "front": "유제품",
+        "back": "dairy products",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_7",
-        "front": "비닐랩",
-        "back": "plastic wrap",
-        "raw": {
-          "korean": "비닐랩",
-          "indonesia": "plastic wrap"
-        }
+        "front": "실온",
+        "back": "room temperature",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_8",
-        "front": "지퍼백",
-        "back": "zipper bag",
-        "raw": {
-          "korean": "지퍼백",
-          "indonesia": "zipper bag"
-        }
+        "front": "부패하다/상하다",
+        "back": "to rot/spoil",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_9",
-        "front": "냉장 보관",
-        "back": "refrigeration",
-        "raw": {
-          "korean": "냉장 보관",
-          "indonesia": "refrigeration"
-        }
+        "front": "핏물이 생기다",
+        "back": "to bleed",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_10",
-        "front": "냉동 보관",
-        "back": "freezing",
-        "raw": {
-          "korean": "냉동 보관",
-          "indonesia": "freezing"
-        }
+        "front": "냄새가 나다",
+        "back": "to smell",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_11",
-        "front": "소비 기한",
-        "back": "expiration date",
-        "raw": {
-          "korean": "소비 기한",
-          "indonesia": "expiration date"
-        }
+        "front": "벌레가 생기다",
+        "back": "to have bugs",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_12",
-        "front": "개봉하다",
-        "back": "to open",
-        "raw": {
-          "korean": "개봉하다",
-          "indonesia": "to open"
-        }
+        "front": "곰팡이가 피다",
+        "back": "to grow mold",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_13",
-        "front": "소스",
-        "back": "sauce",
-        "raw": {
-          "korean": "소스",
-          "indonesia": "sauce"
-        }
+        "front": "세균이 번식하다",
+        "back": "to produce bacteria",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_14",
-        "front": "통조림",
-        "back": "canned food",
-        "raw": {
-          "korean": "통조림",
-          "indonesia": "canned food"
-        }
+        "front": "식중독에 걸리다",
+        "back": "to get food poisoning",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_15",
-        "front": "대용량",
-        "back": "bulk",
-        "raw": {
-          "korean": "대용량",
-          "indonesia": "bulk"
-        }
+        "front": "육류",
+        "back": "● ●",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_16",
-        "front": "소분하다/나누다",
-        "back": "to divide up/separate",
-        "raw": {
-          "korean": "소분하다/나누다",
-          "indonesia": "to divide up/separate"
-        }
+        "front": "곡류",
+        "back": "● ●",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_17",
-        "front": "밀폐용기",
-        "back": "airtight container",
-        "raw": {
-          "korean": "밀폐용기",
-          "indonesia": "airtight container"
-        }
+        "front": "유제품",
+        "back": "● ●",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_18",
-        "front": "식자재",
-        "back": "food ingredients",
-        "raw": {
-          "korean": "식자재",
-          "indonesia": "food ingredients"
-        }
+        "front": "해산물",
+        "back": "● ●",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_19",
-        "front": "검수하다",
-        "back": "to inspect",
-        "raw": {
-          "korean": "검수하다",
-          "indonesia": "to inspect"
-        }
-      },
-      {
-        "id": "vocab_20",
-        "front": "주문서를 확인하다",
-        "back": "to check the order form",
-        "raw": {
-          "korean": "주문서를 확인하다",
-          "indonesia": "to check the order form"
-        }
-      },
-      {
-        "id": "vocab_21",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
-      },
-      {
-        "id": "vocab_22",
-        "front": "식재료 관리 관련 어휘",
-        "back": "Managing Ingredients",
-        "raw": {
-          "korean": "식재료 관리 관련 어휘",
-          "indonesia": "Managing Ingredients"
-        }
-      },
-      {
-        "id": "vocab_23",
-        "front": "망 비닐랩 키친타월 밀폐용기",
-        "back": "⑴",
-        "raw": {
-          "korean": "망                     비닐랩                     키친타월                     밀폐용기",
-          "indonesia": "⑴"
-        }
-      },
-      {
-        "id": "vocab_24",
-        "front": "넣어서 냉장 보관하세요.",
-        "back": "⑵",
-        "raw": {
-          "korean": "넣어서 냉장 보관하세요.",
-          "indonesia": "⑵"
-        }
-      },
-      {
-        "id": "vocab_25",
-        "front": "두세요.",
-        "back": "⑶",
-        "raw": {
-          "korean": "두세요.",
-          "indonesia": "⑶"
-        }
-      },
-      {
-        "id": "vocab_26",
-        "front": "싸서 지퍼백에 보관하세요.",
-        "back": "⑷",
-        "raw": {
-          "korean": "싸서 지퍼백에 보관하세요.",
-          "indonesia": "⑷"
-        }
-      },
-      {
-        "id": "vocab_27",
-        "front": "식칼",
-        "back": "knife",
-        "raw": {
-          "korean": "식칼",
-          "indonesia": "knife"
-        }
-      },
-      {
-        "id": "vocab_28",
-        "front": "도마",
-        "back": "cutting board",
-        "raw": {
-          "korean": "도마",
-          "indonesia": "cutting board"
-        }
-      },
-      {
-        "id": "vocab_29",
-        "front": "국자",
-        "back": "ladle",
-        "raw": {
-          "korean": "국자",
-          "indonesia": "ladle"
-        }
-      },
-      {
-        "id": "vocab_30",
-        "front": "깎기(필러)",
-        "back": "peeler",
-        "raw": {
-          "korean": "깎기(필러)",
-          "indonesia": "peeler"
-        }
-      },
-      {
-        "id": "vocab_31",
-        "front": "강판",
-        "back": "grater",
-        "raw": {
-          "korean": "강판",
-          "indonesia": "grater"
-        }
-      },
-      {
-        "id": "vocab_32",
-        "front": "뒤집개",
-        "back": "spatula",
-        "raw": {
-          "korean": "뒤집개",
-          "indonesia": "spatula"
-        }
-      },
-      {
-        "id": "vocab_33",
-        "front": "주걱",
-        "back": "rice scoop",
-        "raw": {
-          "korean": "주걱",
-          "indonesia": "rice scoop"
-        }
-      },
-      {
-        "id": "vocab_34",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
-      },
-      {
-        "id": "vocab_35",
-        "front": "음식 안전 관리 관련 어휘",
-        "back": "Food Safety Management",
-        "raw": {
-          "korean": "음식 안전 관리 관련 어휘",
-          "indonesia": "Food Safety Management"
-        }
-      },
-      {
-        "id": "vocab_36",
-        "front": "곡류",
-        "back": "grains",
-        "raw": {
-          "korean": "곡류",
-          "indonesia": "grains"
-        }
-      },
-      {
-        "id": "vocab_37",
-        "front": "해산물",
-        "back": "seafood",
-        "raw": {
-          "korean": "해산물",
-          "indonesia": "seafood"
-        }
-      },
-      {
-        "id": "vocab_38",
-        "front": "육류",
-        "back": "meats",
-        "raw": {
-          "korean": "육류",
-          "indonesia": "meats"
-        }
-      },
-      {
-        "id": "vocab_39",
-        "front": "유제품",
-        "back": "dairy products",
-        "raw": {
-          "korean": "유제품",
-          "indonesia": "dairy products"
-        }
-      },
-      {
-        "id": "vocab_40",
-        "front": "실온",
-        "back": "room temperature",
-        "raw": {
-          "korean": "실온",
-          "indonesia": "room temperature"
-        }
-      },
-      {
-        "id": "vocab_41",
-        "front": "부패하다/상하다",
-        "back": "to rot/spoil",
-        "raw": {
-          "korean": "부패하다/상하다",
-          "indonesia": "to rot/spoil"
-        }
-      },
-      {
-        "id": "vocab_42",
-        "front": "핏물이 생기다",
-        "back": "to bleed",
-        "raw": {
-          "korean": "핏물이 생기다",
-          "indonesia": "to bleed"
-        }
-      },
-      {
-        "id": "vocab_43",
-        "front": "냄새가 나다",
-        "back": "to smell",
-        "raw": {
-          "korean": "냄새가 나다",
-          "indonesia": "to smell"
-        }
-      },
-      {
-        "id": "vocab_44",
-        "front": "벌레가 생기다",
-        "back": "to have bugs",
-        "raw": {
-          "korean": "벌레가 생기다",
-          "indonesia": "to have bugs"
-        }
-      },
-      {
-        "id": "vocab_45",
-        "front": "곰팡이가 피다",
-        "back": "to grow mold",
-        "raw": {
-          "korean": "곰팡이가 피다",
-          "indonesia": "to grow mold"
-        }
-      },
-      {
-        "id": "vocab_46",
-        "front": "세균이 번식하다",
-        "back": "to produce bacteria",
-        "raw": {
-          "korean": "세균이 번식하다",
-          "indonesia": "to produce bacteria"
-        }
-      },
-      {
-        "id": "vocab_47",
-        "front": "식중독에 걸리다",
-        "back": "to get food poisoning",
-        "raw": {
-          "korean": "식중독에 걸리다",
-          "indonesia": "to get food poisoning"
-        }
-      },
-      {
-        "id": "vocab_48",
-        "front": "각 식재료에 맞는 보관 방법을 찾아 연결하세요. Connect the ingredient with its related storage method.",
-        "back": "⑴",
-        "raw": {
-          "korean": "\u0007각 식재료에 맞는 보관 방법을 찾아 연결하세요. Connect the ingredient with its related storage method.",
-          "indonesia": "⑴"
-        }
-      },
-      {
-        "id": "vocab_49",
-        "front": "육류",
-        "back": "●",
-        "raw": {
-          "korean": "육류",
-          "indonesia": "●"
-        }
-      },
-      {
-        "id": "vocab_50",
-        "front": "안 돼요. 냉장실 안쪽에 보관해야 돼요.",
-        "back": "⑵",
-        "raw": {
-          "korean": "안 돼요. 냉장실 안쪽에 보관해야 돼요.",
-          "indonesia": "⑵"
-        }
-      },
-      {
-        "id": "vocab_51",
-        "front": "곡류",
-        "back": "●",
-        "raw": {
-          "korean": "곡류",
-          "indonesia": "●"
-        }
-      },
-      {
-        "id": "vocab_52",
-        "front": "냉장 보관해야 돼요.",
-        "back": "⑶",
-        "raw": {
-          "korean": "냉장 보관해야 돼요.",
-          "indonesia": "⑶"
-        }
-      },
-      {
-        "id": "vocab_53",
-        "front": "유제품",
-        "back": "●",
-        "raw": {
-          "korean": "유제품",
-          "indonesia": "●"
-        }
-      },
-      {
-        "id": "vocab_54",
-        "front": "냉동실에 넣어야 돼요.",
-        "back": "⑷",
-        "raw": {
-          "korean": "냉동실에 넣어야 돼요.",
-          "indonesia": "⑷"
-        }
-      },
-      {
-        "id": "vocab_55",
-        "front": "해산물",
-        "back": "●",
-        "raw": {
-          "korean": "해산물",
-          "indonesia": "●"
-        }
+        "front": "주방 도구",
+        "back": "kitchen utensils",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       }
     ],
     "grammar": [
       {
         "id": "grammar_1",
-        "front": "228 한국어 표준교재 2",
-        "back": "문법 GRAMMAR",
-        "raw": {
-          "pattern": "228   한국어 표준교재  2",
-          "explanation": "문법  GRAMMAR"
-        }
+        "front": "-았어야/었어야 했는데",
+        "back": "‘-았어야/었어야 했는데’는 동사, 형용사에 붙어 어떤 행위를 하지 못한 후회, 또는 만족하지 못한 아쉬움을 나타낸다.\n‘-았어야/었어야 했는데’ is attached to verbs or adjectives to express regret over not being able to do something or\ndisappointment for something that wasn’t satisfactory.\nㅏ, ㅗ\n-았어야 했는데\n가다 → 갔어야 했는데\nㅓ, ㅜ, ㅣ…\n-었어야 했는데\n마시다 → 마셨어야 했는데\n-하다\n-했어야 했는데\n청소하다 → 청소했어야 했는데",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
       },
       {
         "id": "grammar_2",
-        "front": "‘-았어야/었어야 했는데’는 동사, 형용사에 붙어 어떤 행위를 하지 못한 후회, 또는 만족하지 못한 아쉬움을 나타낸다.",
-        "back": "‘-았어야/었어야 했는데’ is attached to verbs or adjectives to express regret over not being able to do something or",
-        "raw": {
-          "pattern": "‘-았어야/었어야 했는데’는 동사, 형용사에 붙어 어떤 행위를 하지 못한 후회, 또는 만족하지 못한 아쉬움을 나타낸다.",
-          "explanation": "‘-았어야/었어야 했는데’ is attached to verbs or adjectives to express regret over not being able to do something or"
-        }
-      },
-      {
-        "id": "grammar_3",
-        "front": "나 : 미안해요. 미리 예약했어야 했는데…….",
-        "back": "1. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example.",
-        "raw": {
-          "pattern": "나 : 미안해요. 미리 예약했어야 했는데…….",
-          "explanation": "1. \u0007[보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_4",
-        "front": "나 : 미안합니다. 깜빡했어요. (키친타월에 싸다)",
-        "back": "2. [보기]와 같이 대화해 보세요. Practice speaking as shown in the example.",
-        "raw": {
-          "pattern": "나 : 미안합니다.                                                                   깜빡했어요. (키친타월에 싸다)",
-          "explanation": "2. \u0007[보기]와 같이 대화해 보세요. Practice speaking as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_5",
-        "front": "52 음식 조리",
-        "back": "FOOD PREPARATION 231",
-        "raw": {
-          "pattern": "52  음식 조리",
-          "explanation": "FOOD PREPARATION   231"
-        }
-      },
-      {
-        "id": "grammar_6",
-        "front": "‘-(으)ㄴ 지’는 동사에 붙어 ‘어떤 행위를 한 후에’의 의미를 나타내며, 그 행위는 경과된 시간의 기준 시점이 된다.",
-        "back": "‘-(으)ㄴ 지’ is attached to verbs to mean ‘since doing something’, and the action becomes the reference point for",
-        "raw": {
-          "pattern": "‘-(으)ㄴ 지’는 동사에 붙어 ‘어떤 행위를 한 후에’의 의미를 나타내며, 그 행위는 경과된 시간의 기준 시점이 된다.",
-          "explanation": "‘-(으)ㄴ 지’ is attached to verbs to mean ‘since doing something’, and the action becomes the reference point for"
-        }
-      },
-      {
-        "id": "grammar_7",
-        "front": "부산에 산 지 이 년이 넘었습니다.",
-        "back": "1. [보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the example.",
-        "raw": {
-          "pattern": "부산에 산 지 이 년이 넘었습니다.",
-          "explanation": "1. \u0007[보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_8",
-        "front": "냉장 보관한 우유도 이 지나면 부패해요.",
-        "back": "2. [보기]와 같이 대화해 보세요. Practice speaking as shown in the example.",
-        "raw": {
-          "pattern": "냉장 보관한 우유도                                                       이 지나면 부패해요.",
-          "explanation": "2. \u0007[보기]와 같이 대화해 보세요. Practice speaking as shown in the example."
-        }
+        "front": "-(으)ㄴ 지",
+        "back": "‘-(으)ㄴ 지’는 동사에 붙어 ‘어떤 행위를 한 후에’의 의미를 나타내며, 그 행위는 경과된 시간의 기준 시점이 된다.\n‘-(으)ㄴ 지’ is attached to verbs to mean ‘since doing something’, and the action becomes the reference point for\nthe time that has passed.\n받침 ○\n-은 지\n먹다 → 먹은 지\n받침 ×, 받침 ‘ㄹ’\n-ㄴ 지\n일하다 → 일한 지\n만들다 → 만든 지",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
       }
     ],
     "conversation": [
       {
         "id": "conversation_1",
-        "front": "감자에 싹이 나서 사용할 수 없을 것 같아요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "감자에 싹이 나서 사용할 수 없을 것 같아요."
-        }
+        "front": "사장님, 토마토와 당근은 신문지를 덮어서 서늘한 곳에 뒀어요.",
+        "back": "Sajangnim, I covered the tomatoes and carrots with newspaper and put them in a cool place.",
+        "speaker": "딜로바",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_2",
-        "front": "큰일이네요. 지금 주문해도 배달이 안 될 텐데…….",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "큰일이네요. 지금 주문해도 배달이 안 될 텐데……."
-        }
+        "front": "나머지 채소는 씻은 후에 랩에 싸서 냉장고에 넣었어요?",
+        "back": "Did you wrap the remaining vegetables in plastic wrap after washing them and put them in the fridge?",
+        "speaker": "사장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_3",
-        "front": "어두운 곳에 뒀어야 했는데 죄송해요. 발음 │ PRONUNCIATION 받침 ‘ㄷ, ㅌ’이 조사나 접미사의 모음 ‘ㅣ’와 결합되는 경우, [ㅈ, ㅊ]로 바꾸어서 뒤 음절 첫소리로 옮겨 발음한다. When the final consonants ‘ㄷ, ㅌ’ are combined with the vowel ‘ㅣ’ of a particle or suffix, they are pronounced as [ㅈ, ㅊ] in the initial consonant of the next syllable. ⑴ 맏이[마지] 굳이[구지] 미닫이[미다지] ⑵ 같이[가치] 밭이[바치] 284 283",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "어두운 곳에 뒀어야 했는데 죄송해요. 발음 │ PRONUNCIATION 받침 ‘ㄷ, ㅌ’이 조사나 접미사의 모음 ‘ㅣ’와 결합되는 경우, [ㅈ, ㅊ]로 바꾸어서 뒤 음절 첫소리로 옮겨 발음한다. When the final consonants ‘ㄷ, ㅌ’ are combined with the vowel ‘ㅣ’ of a particle or suffix, they are pronounced as [ㅈ, ㅊ] in the initial consonant of the next syllable. ⑴ 맏이[마지] 굳이[구지] 미닫이[미다지] ⑵ 같이[가치] 밭이[바치] 284 283"
-        }
+        "front": "네. 다른 식재료들은 선반에 정리할까요?",
+        "back": "Yes. Should I organize the other ingredients on the shelves?",
+        "speaker": "딜로바",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_4",
-        "front": "이 고기가 언제 배달되었어요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "이 고기가 언제 배달되었어요?"
-        }
+        "front": "잠깐만요. 여기 소비 기한이 지난 재료들이 있어서 이것부터 버려야 될 것 같아요.\n미리 날짜를 확인했어야 했는데…….",
+        "back": "Wait a minute. There are some expired ingredients here, so I think we need to throw these away first. We should have checked the dates earlier...",
+        "speaker": "사장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_5",
-        "front": "배달된 지 30분 정도 되었어요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "배달된 지 30분 정도 되었어요."
-        }
+        "front": "저도 찾아볼게요. 날짜만 확인하면 돼요?",
+        "back": "I’ll look too. Should I just check the dates?",
+        "speaker": "딜로바",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_6",
-        "front": "실온에 두면 상하니까 바로 냉장고에 넣으세요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "실온에 두면 상하니까 바로 냉장고에 넣으세요."
-        }
+        "front": "맞아요. 소비 기한이 지난 것은 바로 버리세요. 그리고 기\n한이 얼마 남지 않은 것은 선반 앞쪽에 두고 기한이 많이\n남은 것은 뒤쪽에 두세요.",
+        "back": "That's right. Immediately throw away anything past its expiration date. And for items that are close to expiring, put them at the front of the shelf. For items that will still last a long time, put them in the back.",
+        "speaker": "사장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_7",
-        "front": "에어컨을 켜도 별로 시원하지 않네요. Even with the air conditioning on, it's not getting that cool.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "\u0007에어컨을 켜도 별로 시원하지 않네요. Even with the air conditioning on, it's not getting that cool."
-        }
+        "front": "방금 배달된 해산물을 어떻게 할까요?",
+        "back": "What should we do with the seafood that was just delivered?",
+        "speaker": "딜로바",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_8",
-        "front": "네, 손 좀 봐야 할 것 같아요. Yes, it seems like it needs to be fixed. 유용한 표현 │ USEFUL EXPRESSION 손 좀 봐야 할 것 같아요. Seems like it needs to be fixed. 286 285",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "\u0007네, 손 좀 봐야 할 것 같아요. Yes, it seems like it needs to be fixed. 유용한 표현 │ USEFUL EXPRESSION 손 좀 봐야 할 것 같아요. Seems like it needs to be fixed. 286 285"
-        }
+        "front": "이건 모두 손질이 되어 있네요. 오후에 사용해야 되니까 찬물에 씻은 후에 랩으로 싸서\n냉장고에 넣어 두세요. 그리고 냉장고에 있는 고기를 좀 꺼내 주세요.",
+        "back": "It’s all been prepared. We’ll need it in the afternoon, so rinse it in cold water, wrap it in plastic wrap, and put it in the fridge. Also, could you take out the meat from the fridge?",
+        "speaker": "주방장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_9",
+        "front": "네, 알겠습니다.\n주방장님, 고기가 덜 녹은 것 같아요.",
+        "back": "Sure, I got it. Chef, the meat seems a bit frozen.",
+        "speaker": "딜로바",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_10",
+        "front": "해동하기 시작한 지 몇 시간이 지났어요?",
+        "back": "How long has it been since the meat was defrosted?",
+        "speaker": "주방장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_11",
+        "front": "오전에 냉장실로 옮겨 두었는데…….\n빨리 녹게 밖에 둘까요?",
+        "back": "I moved it to the fridge this morning... Should I take it out so it defrosts faster?",
+        "speaker": "딜로바",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_12",
+        "front": "아니요, 고기는 냉장고에서 천천히 녹여야\n세균 번식을 막을 수 있어요. 그래야 식중독도\n예방이 되고요.",
+        "back": "No, you should let it defrost slowly in the fridge to prevent bacteria from growing. That way you also prevent food poisoning.",
+        "speaker": "주방장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       }
     ],
-    "culture": [],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "52 음식 조리",
+        "back": "FOOD PREPARATION 233",
+        "body": "52 음식 조리\nFOOD PREPARATION 233\n• 음식을 조리할 때의 주의 사항을 말할 수 있다. I can talk about precautions when preparing food.\n• 식재료 관리 방법에 대해 묻고 대답할 수 있다.\nI can ask and answer questions about how to manage ingredients.\n• 음식을 안전하게 보관하는 방법에 대해 설명할 수 있다. I can explain how to store food safely.\nK-푸드 산업\nK-Food Industry\n한국 음식에 대한 세계인의 관심이 높아지면서 최근 들어 한\n국의 식품 산업은 크게 성장하고 있습니다. 김치, 불고기, 비빔\n밥, 떡볶이 외에도 한국의 라면, 만두, 김 등의 수출이 꾸준히 증\n가하며 K-푸드 산업이 큰 주목을 받고 있습니다.\nWith the increasing global interest in Korean cuisine, Korea’s\nfood industry has recently seen significant growth. Beyond\ntraditional dishes like kimchi, bulgogi, bibimbap, and\ntteokbokki, exports of Korean ramen, dumplings, and dried",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook2/unit_52/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
     "reading": [
       {
-        "id": "u52_m1",
+        "id": "u52_r1",
         "nomor": 1,
         "tipe": "membaca",
-        "instruksi": "다음 그림과 관계있는 내용은 무엇입니까?",
-        "teks_soal": "",
+        "instruksi": "",
+        "teks_soal": "다음 그림과 관계있는 내용은 무엇입니까?",
         "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
@@ -722,36 +594,45 @@
             "key": "a",
             "label": "A",
             "text": "강판 - 채소를 갈아요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_52/choice_images/reading/u52_r1_a.jpg"
           },
           {
             "key": "b",
             "label": "B",
             "text": "강판 - 국물을 담아요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_52/choice_images/reading/u52_r1_b.jpg"
           },
           {
             "key": "c",
             "label": "C",
             "text": "국자 - 채소를 갈아요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_52/choice_images/reading/u52_r1_c.jpg"
           },
           {
             "key": "d",
             "label": "D",
             "text": "국자 - 국물을 담아요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_52/choice_images/reading/u52_r1_d.jpg"
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook2/unit_52/choice_images/reading/u52_r1_a.jpg",
+          "b": "assets/modules/textbook2/unit_52/choice_images/reading/u52_r1_b.jpg",
+          "c": "assets/modules/textbook2/unit_52/choice_images/reading/u52_r1_c.jpg",
+          "d": "assets/modules/textbook2/unit_52/choice_images/reading/u52_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_52/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u52_m2",
+        "id": "u52_r2",
         "nomor": 2,
         "tipe": "membaca",
-        "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
-        "teks_soal": "",
-        "jawaban": "b",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "c",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -780,15 +661,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_52/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u52_m3",
+        "id": "u52_r3",
         "nomor": 3,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "저는 우유로 만든 은/는 무엇이든 잘 먹습니다. 특히 치즈와 버터를 좋아해서 매일 빵과 함께 먹습니다.",
-        "jawaban": "c",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n저는 우유로 만든 은/는 무엇이든 잘 먹습니다. 특히 치즈와 버터를 좋아해서 매일\n빵과 함께 먹습니다.",
+        "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -817,15 +702,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_52/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u52_m4",
+        "id": "u52_r4",
         "nomor": 4,
         "tipe": "membaca",
-        "instruksi": "다음은 무엇에 대한 설명입니까?",
-        "teks_soal": "고기와 생선을 구매한 후 오랫동안 두고 신선하게 먹기 위해서 –18℃ 이하에서 보관해야 합니다.",
-        "jawaban": "d",
+        "instruksi": "",
+        "teks_soal": "다음은 무엇에 대한 설명입니까?\n고기와 생선을 구매한 후 오랫동안 두고 신선하게 먹기 위해서 –18℃ 이하에서 보관해야 합니다.",
+        "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -854,15 +743,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_52/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u52_m5",
+        "id": "u52_r5",
         "nomor": 5,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "한국의 라면, 김 등의 수출이 증가하면서 K-푸드 산업이 큰 주목을 받고 있습니다. 이 중 라면은 현지인의 입맛에 맞게 맛과 종류를 변화시켜 2024년 수출액이 처음으로 10억 달러를 돌파했습니다. 특히 ‘짜파구리’는 영화에 나온 후 인기를 얻으면서 상품으로 출시되었고, ‘불닭’ 라면 시리즈는 SNS의 ‘불닭 챌린지’의 확산에 힘입어 해외 시장에서 더 많이 팔리고 있습니다. 234 한국어 표준교재 2",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국의 라면, 김 등의 수출이 증가하면서 K-푸드 산업이 큰 주목을 받고 있습니다. 이 중 라면은\n현지인의 입맛에 맞게 맛과 종류를 변화시켜 2024년 수출액이 처음으로 10억 달러를 돌파했습니다.\n특히 ‘짜파구리’는 영화에 나온 후 인기를 얻으면서 상품으로 출시되었고, ‘불닭’ 라면 시리즈는 SNS의\n‘불닭 챌린지’의 확산에 힘입어 해외 시장에서 더 많이 팔리고 있습니다.",
+        "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -891,7 +784,11 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_52/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ],
     "listening": [
@@ -900,188 +797,225 @@
         "nomor": 1,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 딜로바 씨가 지금 무슨 일을 하고 있어요? 여 : 양파를 다듬고 있어요.",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
         "jawaban": "c",
-        "audio_teks": "1. 남 : 딜로바 씨가 지금 무슨 일을 하고 있어요?\n여 : 양파를 다듬고 있어요.\n2. 남 : 지퍼백이 얼마나 있어요?\n3. 여 : 며칠 전에 만든 빵인데 벌써 곰팡이가 폈어요.\n남 : 빵은 실온에 오래 두면 안 돼요. 밀봉해서 냉동실에 보관해야 돼요.\n4. 여 : 채소를 썬 칼로 고기를 손질하면 안 돼요.\n5. 남 : 오전에 배달된 상추는 어디에 있어요?\n여 : 씻어서 바구니에 담아 냉장고에 넣어 두었습니다.\n남 : 씻은 상추는 밀폐용기에 담아서 보관해야 돼요.\n여 : 몰랐습니다. 다음부터 주의하겠습니다.\n52 음식 조리 FOOD PREPARATION 235",
+        "audio_teks": "남 : 딜로바 씨가 지금 무슨 일을 하고 있어요?\n여 : 양파를 다듬고 있어요.",
         "audio_url": "assets/modules/textbook2/audio/unit_52/listening_1.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_01.png"
+            "image": "assets/modules/textbook2/unit_52/choice_images/listening/u52_l1_a.jpg"
           },
           {
             "key": "b",
             "label": "B",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_02.png"
+            "image": "assets/modules/textbook2/unit_52/choice_images/listening/u52_l1_b.jpg"
           },
           {
             "key": "c",
             "label": "C",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_03.png"
+            "image": "assets/modules/textbook2/unit_52/choice_images/listening/u52_l1_c.jpg"
           },
           {
             "key": "d",
             "label": "D",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_04.png"
+            "image": "assets/modules/textbook2/unit_52/choice_images/listening/u52_l1_d.jpg"
           }
         ],
         "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_01.png",
-          "b": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_02.png",
-          "c": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_03.png",
-          "d": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_04.png"
-        }
+          "a": "assets/modules/textbook2/unit_52/choice_images/listening/u52_l1_a.jpg",
+          "b": "assets/modules/textbook2/unit_52/choice_images/listening/u52_l1_b.jpg",
+          "c": "assets/modules/textbook2/unit_52/choice_images/listening/u52_l1_c.jpg",
+          "d": "assets/modules/textbook2/unit_52/choice_images/listening/u52_l1_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_52/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u52_l2",
         "nomor": 2,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 지퍼백이 얼마나 있어요?",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
         "jawaban": "b",
-        "audio_teks": "1. 남 : 딜로바 씨가 지금 무슨 일을 하고 있어요?\n여 : 양파를 다듬고 있어요.\n2. 남 : 지퍼백이 얼마나 있어요?\n3. 여 : 며칠 전에 만든 빵인데 벌써 곰팡이가 폈어요.\n남 : 빵은 실온에 오래 두면 안 돼요. 밀봉해서 냉동실에 보관해야 돼요.\n4. 여 : 채소를 썬 칼로 고기를 손질하면 안 돼요.\n5. 남 : 오전에 배달된 상추는 어디에 있어요?\n여 : 씻어서 바구니에 담아 냉장고에 넣어 두었습니다.\n남 : 씻은 상추는 밀폐용기에 담아서 보관해야 돼요.\n여 : 몰랐습니다. 다음부터 주의하겠습니다.\n52 음식 조리 FOOD PREPARATION 235",
+        "audio_teks": "남 : 지퍼백이 얼마나 있어요?",
         "audio_url": "assets/modules/textbook2/audio/unit_52/listening_2.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_02.png"
+            "text": "큰 것만 있어요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_02.png"
+            "text": "열 장 정도 있어요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_02.png"
+            "text": "선반 위에 있어요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_02.png"
+            "text": "당근을 넣고 있어요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_02.png",
-          "b": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_02.png",
-          "c": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_02.png",
-          "d": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_02.png"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_52/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u52_l3",
         "nomor": 3,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 며칠 전에 만든 빵인데 벌써 곰팡이가 폈어요. 남 : 빵은 실온에 오래 두면 안 돼요. 밀봉해서 냉동실에 보관해야 돼요.",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
         "jawaban": "c",
-        "audio_teks": "1. 남 : 딜로바 씨가 지금 무슨 일을 하고 있어요?\n여 : 양파를 다듬고 있어요.\n2. 남 : 지퍼백이 얼마나 있어요?\n3. 여 : 며칠 전에 만든 빵인데 벌써 곰팡이가 폈어요.\n남 : 빵은 실온에 오래 두면 안 돼요. 밀봉해서 냉동실에 보관해야 돼요.\n4. 여 : 채소를 썬 칼로 고기를 손질하면 안 돼요.\n5. 남 : 오전에 배달된 상추는 어디에 있어요?\n여 : 씻어서 바구니에 담아 냉장고에 넣어 두었습니다.\n남 : 씻은 상추는 밀폐용기에 담아서 보관해야 돼요.\n여 : 몰랐습니다. 다음부터 주의하겠습니다.\n52 음식 조리 FOOD PREPARATION 235",
+        "audio_teks": "여 : 며칠 전에 만든 빵인데 벌써 곰팡이가 폈어요.\n남 : 빵은 실온에 오래 두면 안 돼요. 밀봉해서 냉동실에 보관해\n야 돼요.",
         "audio_url": "assets/modules/textbook2/audio/unit_52/listening_3.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_03.png"
+            "text": "보관 순서",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_03.png"
+            "text": "보관 종류",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_03.png"
+            "text": "보관 방법",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_03.png"
+            "text": "보관 날짜",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_03.png",
-          "b": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_03.png",
-          "c": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_03.png",
-          "d": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_03.png"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_52/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u52_l4",
         "nomor": 4,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 채소를 썬 칼로 고기를 손질하면 안 돼요.",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
         "jawaban": "c",
-        "audio_teks": "1. 남 : 딜로바 씨가 지금 무슨 일을 하고 있어요?\n여 : 양파를 다듬고 있어요.\n2. 남 : 지퍼백이 얼마나 있어요?\n3. 여 : 며칠 전에 만든 빵인데 벌써 곰팡이가 폈어요.\n남 : 빵은 실온에 오래 두면 안 돼요. 밀봉해서 냉동실에 보관해야 돼요.\n4. 여 : 채소를 썬 칼로 고기를 손질하면 안 돼요.\n5. 남 : 오전에 배달된 상추는 어디에 있어요?\n여 : 씻어서 바구니에 담아 냉장고에 넣어 두었습니다.\n남 : 씻은 상추는 밀폐용기에 담아서 보관해야 돼요.\n여 : 몰랐습니다. 다음부터 주의하겠습니다.\n52 음식 조리 FOOD PREPARATION 235",
+        "audio_teks": "여 : 채소를 썬 칼로 고기를 손질하면 안 돼요.",
         "audio_url": "assets/modules/textbook2/audio/unit_52/listening_4.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_04.png"
+            "text": "내일부터는 일찍 올게요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_04.png"
+            "text": "너무 힘들면 도와줄게요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_04.png"
+            "text": "다른 칼로 바꿔서 할게요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_04.png"
+            "text": "손질할 것이 많아서 바빠요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_04.png",
-          "b": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_04.png",
-          "c": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_04.png",
-          "d": "assets/langit-korea-extracted/unit_52/images/u52_h9_soal_listening_04.png"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_52/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u52_l5",
         "nomor": 5,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 오전에 배달된 상추는 어디에 있어요? 여 : 씻어서 바구니에 담아 냉장고에 넣어 두었습니다. 남 : 씻은 상추는 밀폐용기에 담아서 보관해야 돼요. 여 : 몰랐습니다. 다음부터 주의하겠습니다. 52 음식 조리 FOOD PREPARATION 235",
+        "teks_soal": "남자가 지적한 여자의 잘못된 행동은 무엇입니까?",
         "jawaban": "b",
-        "audio_teks": "1. 남 : 딜로바 씨가 지금 무슨 일을 하고 있어요?\n여 : 양파를 다듬고 있어요.\n2. 남 : 지퍼백이 얼마나 있어요?\n3. 여 : 며칠 전에 만든 빵인데 벌써 곰팡이가 폈어요.\n남 : 빵은 실온에 오래 두면 안 돼요. 밀봉해서 냉동실에 보관해야 돼요.\n4. 여 : 채소를 썬 칼로 고기를 손질하면 안 돼요.\n5. 남 : 오전에 배달된 상추는 어디에 있어요?\n여 : 씻어서 바구니에 담아 냉장고에 넣어 두었습니다.\n남 : 씻은 상추는 밀폐용기에 담아서 보관해야 돼요.\n여 : 몰랐습니다. 다음부터 주의하겠습니다.\n52 음식 조리 FOOD PREPARATION 235",
+        "audio_teks": "남 : 오전에 배달된 상추는 어디에 있어요?\n여 : 씻어서 바구니에 담아 냉장고에 넣어 두었습니다.\n남 : 씻은 상추는 밀폐용기에 담아서 보관해야 돼요.\n여 : 몰랐습니다. 다음부터 주의하겠습니다.",
         "audio_url": "assets/modules/textbook2/audio/unit_52/listening_5.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "상추를 씻지 않았습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "상추를 잘못 보관했습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "상추를 배송하지 않았습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "상추를 냉장고에 넣지 않았습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_52/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ]
   },
   "integrity": {
     "pdf_pages": 10,
-    "vocab_cards": 55,
+    "lesson_flow": 10,
+    "vocab_cards": 19,
+    "grammar_cards": 2,
+    "conversation_cards": 12,
+    "culture_cards": 1,
     "reading_questions": 5,
     "listening_questions": 5,
-    "listening_audio": 5
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_audio": 5,
+    "listening_scripts": 5
   }
 }

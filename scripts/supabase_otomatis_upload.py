@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Script Setup & Upload Supabase Otomatis:
@@ -9,6 +9,7 @@ Script Setup & Upload Supabase Otomatis:
 """
 
 import json
+import os
 import re
 from datetime import datetime
 from pathlib import Path
@@ -16,10 +17,13 @@ from pathlib import Path
 print("=== SETUP & UPLOAD SUPABASE OTOMATIS ===\n")
 
 # ========== KONFIGURASI ==========
-# GANTI DENGAN DATA SUPABASE KAMU!
-SUPABASE_URL = "https://mozmuwrkfsipzfupybwh.supabase.co"  # GANTI!
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1vem11d3JrZnNpcHpmdXB5YndoIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NzY5NTk1NCwiZXhwIjoyMDkzMjcxOTU0fQ.SZSNk6xV-vq17beo_LwWzsZSp9UVGdqfR-R35cGxawE"  # GANTI! (service_role key)
+SUPABASE_URL = os.getenv("SUPABASE_URL", "https://mozmuwrkfsipzfupybwh.supabase.co")
+SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_KEY", "")
 # ========== ========== ==========
+
+if not SUPABASE_KEY:
+    print("[ERROR] SUPABASE_SERVICE_KEY belum diset di environment.")
+    exit(1)
 
 # Cek instalasi supabase-py
 try:
@@ -45,7 +49,7 @@ except Exception as e:
     tabel_ada = False
 
 if not tabel_ada:
-    print("\n❗ Tabel soal_eps belum dibuat!")
+    print("\nâ— Tabel soal_eps belum dibuat!")
     print("Jalankan SQL berikut di Supabase SQL Editor:")
     print("""
     create table if not exists public.soal_eps (
@@ -94,7 +98,7 @@ except Exception as e:
     bucket_ada = False
 
 if not bucket_ada:
-    print("\n❗ Bucket audio-mp3 belum dibuat!")
+    print("\nâ— Bucket audio-mp3 belum dibuat!")
     print("Buat bucket di Supabase Dashboard:")
     print("1. Buka https://supabase.com/project/YOUR_PROJECT/storage/buckets")
     print("2. Klik 'New Bucket'")
@@ -110,7 +114,7 @@ print("\n=== 3. UPLOAD MP3 KE STORAGE === ")
 mp3_dir = Path("./extracted_mp3")
 if not mp3_dir.exists():
     print(
-        "✗ Direktori extracted_mp3 tidak ada. Jalankan: python extract_and_match_mp3.py"
+        "âœ— Direktori extracted_mp3 tidak ada. Jalankan: python extract_and_match_mp3.py"
     )
     exit(1)
 
@@ -124,7 +128,7 @@ for mp3_path in sorted(mp3_files):
     # Parse nama: unit_XX_listening_Y.mp3
     match = re.match(r"unit_(\d+)_listening_(\d+)\.mp3", mp3_path.name)
     if not match:
-        print(f"  ⚠️  {mp3_path.name}: Format tidak dikenali")
+        print(f"  âš ï¸  {mp3_path.name}: Format tidak dikenali")
         continue
 
     unit_num = int(match.group(1))
@@ -157,7 +161,7 @@ for mp3_path in sorted(mp3_files):
             uploaded_count += 1
 
             if uploaded_count % 10 == 0:
-                print(f"  ✓ {uploaded_count}/{len(mp3_files)} diupload...")
+                print(f"  âœ“ {uploaded_count}/{len(mp3_files)} diupload...")
         except Exception as e:
             print(f"  [OK] Unit {unit_num:02d} Soal {soal_num}: {e}")
 
@@ -180,7 +184,7 @@ for unit_num in range(31, 61):
         with open(listening_path, "r", encoding="utf-8") as f:
             data = json.load(f)
     except Exception as e:
-        print(f"Unit {unit_num:02d}: ✗ Error baca - {e}")
+        print(f"Unit {unit_num:02d}: âœ— Error baca - {e}")
         continue
 
     soal_list = data.get("soal", [])
@@ -360,7 +364,7 @@ try:
     print(f"[OK] Berhasil upload {len(response.data)} soal ")
     print(f"  Response: {response}")
 except Exception as e:
-    print(f"✗ Error upload ke Supabase: {e}")
+    print(f"âœ— Error upload ke Supabase: {e}")
     import traceback
 
     traceback.print_exc()
@@ -393,9 +397,10 @@ with open(laporan_path, "w", encoding="utf-8") as f:
 
 print(f"Laporan: {laporan_path}")
 print("\n=== SELESAI ===")
-print("✅ 300 soal sudah diupload ke Supabase tanpa duplikat!")
-print("✅ MP3 sudah diupload ke Storage!")
+print("âœ… 300 soal sudah diupload ke Supabase tanpa duplikat!")
+print("âœ… MP3 sudah diupload ke Storage!")
 print("\nLangkah selanjutnya:")
 print("1. Cek di Supabase Dashboard > Table Editor > soal_eps")
 print("2. Buat frontend HTML/JS untuk menampilkan soal")
 print("3. Setup sistem premium & token unlock")
+

@@ -4,7 +4,7 @@
   "unit": 22,
   "title_ko": "약국",
   "title_en": "PHARMACY",
-  "title_id": "",
+  "title_id": "Apotek",
   "source_pdf": "assets/modules/textbook1/unit_22/source.pdf",
   "page_start": 261,
   "page_end": 270,
@@ -61,6 +61,163 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 261,
+        "image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "22 약국 \n PHARMACY 261\n어휘 VOCABULARY\n증상 관련 어휘 2 Symptoms 2\n열이 나다/있다\nto have a fever\n콧물이 나다\nto have a runny nose\n목이 붓다\nto have a sore throat\n기침을 하다\nto cough\n어지럽다\nto feel dizzy\n가렵다\nto feel itchy\n소화가 안 되다\nto have indigestion\n배탈이 나다\nto have an upset stomach\n설사를 하다\nto have diarrhea\n토하다 \nto vomit\n뼈가 부러지다\nto have a broken bone\n손이 베이다\nto cut one's hand\n마스크 mask\n비상약 emergency medicine\n졸리다 to feel drowsy\n보관하다 to store\n 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example.\n[보기]\n가 : 어떻게 오셨어요?\n나 : 목이 부었어요.\n⑴\n가 : 어디가 아파요? \n나 : .\n⑵\n가 : 어떻게 오셨어요?\n나 : .\n⑶\n가 : 어디가 아파요?\n나 : .\n⑷\n가 : 어떻게 오셨어요?\n나 : .\n⑸\n가 : 어디가 아파요?\n나 : .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 262,
+        "image": "assets/modules/textbook1/unit_22/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "262 한국어 표준교재 1\n문법 GRAMMAR\n-(으)니까\n‘-아서/어서’의 뒤 절에는 명령문\n과 청유문이 올 수 없는 반면, \n‘-(으)니까’의 뒤 절에는 문장 종\n결에 제약이 없다.\n‘-아서/어서’ cannot be followed \nby an imperative or request \nsentence, whereas ‘-(으)니까’ \ncan.\n예 감기약은 편의점에서도 파니까 \n편의점에 가 보세요. \n \n배가 아파서 약을 먹었어요.\n‘-(으)니까’는 동사, 형용사에 붙어 앞의 내용이 뒤의 내용에 대한 \n이유나 판단의 근거가 됨을 나타낸다.\n‘-(으)니까’ is attached to verbs and adjectives to show that the \npreceding content is the reason or basis for the following content.\n받침 ○\n-으니까\n \n먹다 → 먹으니까\n받침 ×, 받침 ‘ㄹ’\n-니까\n \n가다 → 가니까\n \n만들다 → 만드니까\n예 그 옷을 입으니까 멋있어요.\n \n열이 많이 나니까 기숙사에서 쉬세요. \n \n오늘은 피곤하니까 내일 만날까요?\n1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요. \nComplete the sentences with the correct options as shown in the example.\n덥다\n비싸다\n열이 나다\n설사를 하다\n[보기] 열이 나니까 병원에 가 보세요.\n \n⑴ 차가운 음식은 드시지 마세요.\n \n⑵ 사무실이 에어컨을 켤까요? \n \n⑶ 이 가게는 물건 값이 다른 가게에서 살까요?\n2. 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example.\n가 : 머리가 너무 아파요.\n나 : 그래요? 사무실에 비상약이 있으니까 먹고 좀 쉬세요.\n[ 보기 ]\n⑴\n가 : 다린두 씨, 괜찮아요?\n나 : 많이 걸어서 여기에서 잠시 쉴까요?\n⑵\n가 : 이 마스크를 쓰세요.\n나 : 네, 고맙습니다. \n⑶\n가 : 칼로 씨, 이거 사무실로 옮길까요?\n나 : 네. 조심하세요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 263,
+        "image": "assets/modules/textbook1/unit_22/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "22 약국 \n PHARMACY 263\n대화 CONVERSATION\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•먹으면 졸리다, 운전하지 \n말다, 머리가 아프다\n•잘 상하다, 냉장고에 \n보관하다, 배가 아프다\n가 : 약 나왔습니다. 이 약은 먹으면 \n \n졸리니까 운전하지 마세요. \n나 : 네, 알겠습니다. 그런데 이 파란색 약은\n \n뭐예요?\n가 : 머리가 아플 때 먹는 거예요. \n발음 │ PRONUNCIATION\nㄼ, ㄵ, \nㅄ, ㄳ\n‘ㄼ, ㄵ, ㅄ, ㄳ’는 어말이나 자음 앞에서 앞 자음만 발음된다.\nWhen ‘ㄼ, ㄵ, ㅄ, ㄳ’ are at the end of a word or before another consonant, \nonly the first consonant is pronounced.\n⑴ 여덟, 값, 넋\n⑵ 넓다, 얹다, 앉다\n약\n사 민민아웅 씨, 약 나왔습니다. 이건 기침약이고 이건 콧물약이에요. 하루에 세 번, 식사하고 드세요.\n \nMin Min Aung, your medication is ready. This is for your cough, and this is for your runny nose. Take it three \ntimes a day after meals.\n민민아웅 이 약을 먹으면 졸려요? \n \nDoes this medicine make me drowsy?\n약\n사 네, 졸리니까 운전하지 마세요.\n \nYes, it makes you drowsy, so don't drive.\n민민아웅 알겠습니다. 그런데 이 노란색 약은 \n뭐예요? \n \nOkay, I understand. By the way, what is this \nyellow pill?\n약\n사 아, 이 약은 열이 날 때 먹는 거예요. \n열이 많이 나면 드세요. 그리고 물을 많이 \n마시면 좋아요. \n \nOh, this medicine is for when you get a fever. \nTake it if you have a high fever. And drink plenty \nof water.\n대답해 봐요! ANSWER ME!\n1 민민아웅 씨는 언제 약을 먹어야 돼요? When should Min Min Aung take the medicine?\n2 왜 약을 먹고 운전을 하면 안 돼요? Why shouldn’t he drive after taking the medicine?\n133\n134",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 264,
+        "image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "264 한국어 표준교재 1\n어휘 VOCABULARY\n의약품 및 치료법 Medications and Treatments\n알약 pill\n영양제 nutritional supplements\n소독약 disinfectant\n반창고 adhesive plaster\n밴드 band-aid\n파스 pain relief patch\n연고 ointment\n붕대 gauze bandage\n약을 먹다\nto take medicine\n약을 뿌리다\nto spray medicine\n소독을 하다\nto disinfect\n연고를 바르다\nto apply ointment\n밴드를 붙이다\nto apply a band-aid\n파스를 붙이다\nto apply a pain relief patch\n찜질을 하다\nto apply a heat compress\n붕대를 감다\nto wrap a bandage\n 그림을 보고 [보기]와 같이 문장을 완성하세요. \nLook at the pictures and complete the sentences as shown in the example.\n[보기]\n⑴\n⑵\n⑶\n파스를 붙이다 \n붕대를 감다\n약을 먹다 \n밴드를 붙이다 \n[보기]\n손목이 아파서 붕대를 감았어요 . \n⑴\n손가락이 베여서 .\n⑵\n허리가 아파서 .\n⑶\n소화가 안 돼서 .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 265,
+        "image": "assets/modules/textbook1/unit_22/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "22 약국 \n PHARMACY 265\n문법 GRAMMAR\n-(으)ㄴ 후에\n명사와 함께 사용할 때는 ‘명사 후에’의 \n구성으로 사용한다. 일반적으로는 행\n위의 순서를 나타내지만 시간을 나타\n내는 명사와 함께 사용하면 시점을 \n나타낸다. \nWhen used with nouns it’s structured \nas ‘noun 후에’. Generally it shows the \nsequence of actions, but when used \nwith a noun that represents time, it \nindicates a point in time.\n예 식사 후에 회의를 시작할 거예요.\n \n한 시간 후에 전화할게요.\n‘-(으)ㄴ 후에’는 동사에 붙어 앞의 일이 끝난 다음에 뒤의 일이 \n일어남을 나타낸다. \n‘-(으)ㄴ 후에’ attaches to a verb to show that the following action \nhappens after the completion of the action preceding it.\n받침 ○\n-은 후에\n \n읽다 → 읽은 후에 \n받침 ×, 받침 ‘ㄹ’\n-ㄴ 후에\n \n보다 → 본 후에\n \n놀다 → 논 후에\n예 이 약은 밥을 먹은 후에 드세요.\n \n저는 매일 샤워한 후에 잠을 자요.\n \n불고기는 고기와 채소를 썬 후에 양념을 넣고 볶아요.\n1. [보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the example.\n운동을 하다 ⊙ 밥을 먹다 : 운동을 한 후에 밥을 먹어요.\n[ 보기 ]\n⑴ 퇴근을 하다 \n⊙ \n장을 보다 \n: 장을 볼 거예요. \n⑵ 찜질을 하다 \n⊙ \n파스를 붙이다 : 파스를 붙여요.\n⑶ 약을 뿌리다 \n⊙ \n붕대를 감다 \n: 붕대를 감아요.\n⑷ 소독을 하다 \n⊙ \n연고를 바르다 : 연고를 바르려고 해요.\n2. 그림을 보고 [보기]와 같이 문장을 완성하세요. \nLook at the pictures and complete the sentences as shown in the example.\n접수를 하다\n약을 처방받다\n병원\n진료를 받다\n약을 먹다\n집 \n밥을 먹다\n약국에 가다\n약국\n감기에 걸렸어요. 그래서 병원에서\n[보기] 접수를 한 후에 진료를 받았어요.\n⑴진료를 .\n⑵약을 .\n⑶밥을 .\n⑶\n⑴\n⑵\n[보기]",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 266,
+        "image": "assets/modules/textbook1/unit_22/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "266 한국어 표준교재 1\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•다리를 다쳐서 피가 나다, \n이 연고를 바르다, 밴드를 \n붙이다\n•허리를 다쳐서 아프다, \n찜질을 하다, 이 파스를 \n붙이다\n가 : 어서 오세요. 어떻게 오셨어요?\n나 : 다리를 다쳐서 피가 나요. \n가 : 그럼 이 연고를 바른 후에 \n \n밴드를 붙이세요.\n가 : 어서 오세요. 뭘 도와드릴까요? Welcome. How can I help you?\n나 : 소포를 좀 보내고 싶은데요. 어떻게 해야 돼요?\nI'd like to send a package. How do I do it?\n유용한 표현 │ USEFUL EXPRESSION\n뭘 도와드릴까요?\nHow can I help you?\n대화 CONVERSATION\n약\n사 \n어서 오세요. 어떻게 오셨어요?\n \nWelcome. What brings you here?\n딜로바 \n어지럽고 소화가 잘 안 돼요. \n \nI've been feeling dizzy and I have indigestion.\n약\n사 \n병원에는 가셨어요?\n \nHave you been to the hospital?\n딜로바 \n아니요, 안 갔어요.\n \nNo, I haven't.\n약\n사 \n그럼 이 소화제를 드셔 보세요. 약을 드신 후에 \n따뜻한 차를 많이 드세요. 그래도 계속 아프면 \n병원에 가 보세요.\n \nThen take this digestive medicine. After taking \nthe medicine, drink plenty of warm tea. If you still feel sick, please visit a hospital.\n딜로바 \n네, 알겠습니다. 고맙습니다.\n \nOkay, thank you very much.\n대답해 봐요! ANSWER ME!\n1 딜로바 씨는 어디에 갔어요? Where did Dilova go?\n2 딜로바 씨는 무슨 약을 샀어요? What medicine did Dilova buy?\n135\n136",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 267,
+        "image": "assets/modules/textbook1/unit_22/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "22 약국 \n PHARMACY 267\n문화와 정보 CULTURE & INFORMATION\n22 약국 \n PHARMACY 267\n의약품 구입 \nPurchasing Medications\n확인해요 │ self assessment\n• 약에 대해 물어볼 수 있다. I can ask about medication. \n↻\n• 약 구매를 위하여 증상에 대해 말할 수 있다. I can describe symptoms to purchase medicine. \n↻\n• 이유나 판단의 근거에 대해 말할 수 있다. \nI can state the reasons or provide the basis for a judgment. \n↻\n안전상비의약품은 편의점에서도 판매합니다. 편의점에서 판매하는 약은 가벼운 증상에 사용할 수 있는 약으로 의사의 처방전 \n없이 살 수 있습니다. 편의점에서 살 수 있는 약은 아래와 같습니다.\nOver-the-counter medications are also sold at convenience stores. These medications sold at convenience stores used for minor \nsymptoms can be purchased without a prescription. The available medications are:\n[ 안전상비의약품 ] over-the-counter medications\n● 해열제 fever reducer ▶ 열이 날 때 먹는 약 medicine for fever\n● 진통제 pain reliever ▶ 머리나 이 등에 통증이 있을 때 먹는 약 medicine for headaches, toothaches, etc.\n● 감기약 cold medicine ▶ 감기에 걸렸을 때 먹는 약 medicine for cold symptoms\n● 소화제 digestive medicine ▶ 소화가 안 되거나 과식 등으로 배가 아플 때 먹는 약 medicine for indigestion or stomachache due \nto overeating\n● 지사제 anti-diarrheal ▶ 설사를 멈추게 하기 위해 먹는 약 medicine to stop diarrhea \n● 파스 pain relief patch or spray ▶ 근육이나 관절이 아플 때 붙이거나 뿌리는 약 medicine applied or rubbed on when muscles or \njoints are in pain\n병원에서 처방 받은 약은 약국에서 사야 합니다. 처방전을 가지고 약국에 가면 약사가 \n처방전에 적힌 약을 조제해 주고 복용 방법을 알려 줍니다. 약사가 주는 약 봉투에는 환자의 \n이름과 나이, 약의 명칭과 복용법, 주의사항, 그리고 약사와 약국에 대한 정보 등이 적혀 \n있습니다. 간단한 의약품은 의사의 처방전이 없어도 약국에서 직접 구입할 수 있습니다.\nMedications prescribed at a hospital must be purchased at a pharmacy. When you bring \nyour prescription to the pharmacy, the pharmacist will prepare the medication according \nto the prescription and explain how to take it. The medication envelope provided by the \npharmacist will include the patient's name and age, the name of the medication, how to \ntake it, precautions, and information about the pharmacist and pharmacy. Over-the-\ncounter medications can be purchased at the pharmacy without a prescription.\n약을 사고 싶은데 약국이 문을 닫았으면 어떻게 해야 할까요? 이때는 ‘휴일지킴이약국’ \n사이트(https://www.pharm114.or.kr)를 찾아보면 됩니다. 늦은 밤에 문을 여는 약국이나 \n휴일이나 주말에도 문을 여는 약국을 지역별, 시간대별로 손쉽게 검색할 수 있습니다. \nWhat should you do if you want to buy medicine, but the pharmacy is closed? You can \nvisit the ‘Holiday Guardian Pharmacy’ website (https://www.pharm114.or.kr). This site \nallows you to easily search for pharmacies by region and time that are open late at night \nor during holidays and weekends.\n약 봉투\n약",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 268,
+        "image": "assets/modules/textbook1/unit_22/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n268 한국어 표준교재 1\n1. \n다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.\n① 기숙사에 살니까 편해요. \n② 상자가 무겁우니까 조심하세요.\n③ 음악을 듣으니까 기분이 좋아요. \n④ 제주도가 유명하니까 가 보세요. \n2. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n아침부터 열이 났습니다. 그래서 약국에 가서 를 샀습니다. \n① 지사제 \n② 소화제\n③ 해열제 \n④ 진통제\n3. 빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.\n차가운 음료수를 많이 마셔서 . 그래서 집에 있는 약을 먹었습니다. 약을 \n먹은 후에도 계속 배가 아프면 병원에 가려고 합니다. \n① 배탈이 났습니다 \n② 기침을 했습니다 \n③ 눈병이 났습니다 \n④ 다리를 다쳤습니다 \n[4~5] 다음 글을 읽고 내용과 같은 것을 고르십시오.\n4.\n① 유지호 씨가 약을 샀습니다.\n② 아궁 씨는 스물다섯 살입니다. \n③ 약은 이틀 동안 먹을 수 있습니다.\n④ 약을 먹고 30분 후에 밥을 먹어야 합니다. \n5.\n늦은 밤이나 주말에 약을 살 수 있는 약국은 ‘휴일지킴이약국’ 사이트에서 찾을 수 있습니다. 이 사이트 \n에서는 지역별, 시간대별로 문을 여는 약국을 손쉽게 검색할 수 있습니다. 하지만 집 근처에 가까운 ‘휴일지킴이\n약국’이 없다면 지사제, 진통제 같은 약은 의사의 처방 없이도 편의점에서 살 수 있습니다.\n① 편의점에서 진통제를 살 수 있습니다. \n② 늦은 밤에는 약을 파는 곳이 없습니다.\n③ 지사제를 사려면 처방전이 있어야 합니다.\n④ ‘휴일지킴이약국’은 주말에만 문을 엽니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 269,
+        "image": "assets/modules/textbook1/unit_22/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n22 약국 \n PHARMACY 269\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n2. 남자는 왜 여기에 왔습니까?\n① 약을 사려고 \n② 운동을 하려고\n③ 진료를 받으려고 \n④ 음식을 먹으려고\n[3~4] 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n3.\n① 어제 샀어요. \n② 두 개 샀어요.\n③ 감기약을 샀어요. \n④ 오천 원에 샀어요.\n4.\n① 지난주에 먹었어요. \n② 3일 동안 먹었어요.\n③ 식사하신 후에 드세요. \n④ 따뜻한 물과 함께 드세요.\n5. \n두 사람은 무엇에 대해 말하고 있습니까? \n① 치료 횟수 \n② 치료 방법\n③ 치료 시간 \n④ 치료 장소\n1. \n남 : 딜로바 씨, 손가락 다쳤어요?\n \n여 : 네, 좀 다쳐서 밴드를 붙이고 있어요.\n2. 여 : 어서 오세요. 뭘 드릴까요? \n \n남 : 소화가 안 되어서요. 소화제 좀 주세요. \n3. 남 : 소독약을 몇 개 샀어요?\n4. 여 : 이 약은 언제 먹어야 돼요?\n5. 여 : 어깨가 좀 아프네요. 파스 좀 주세요.\n \n남 : 네, 여기 있습니다. 파스를 붙이고 찜질도 해 보세요.\n듣기지문\n137",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 270,
+        "image": "assets/modules/textbook1/unit_22/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "270 한국어 표준교재 1\n학습 목표\nLEARNING OBJECTIVES\n소포 발송에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about sending packages.\n국제 우편 업무 처리에 필요한 표현을 사용할 수 있다.\nCan use expressions needed to handle international postal services.\n우체국 \nPost Office\nC H A P T E R 2 3\n-는데/(으)ㄴ데(배경)\n-지요?\nGRAMMAR\n문법\n우편 관련 어휘\nVocabulary Related to Postal Mail\n우체국 업무 관련 어휘\nVocabulary Related to the Post \nOffice\nVOCABULARY\n어휘\n한국의 우체국 서비스\nKorean Postal Service\nCULTURE & INFORMATION\n문화와 정보\n네, 요금이 얼마예요?\nEMS로 보내실 거지요?\n270 한국어 표준교재 1\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "audio": [
       {
         "track": 133,
@@ -88,16 +245,952 @@
         "audio_url": "assets/modules/textbook1/audio/unit_22/track_137.mp3"
       }
     ],
-    "vocab": [],
-    "grammar": [],
-    "conversation": [],
-    "culture": [],
-    "reading": [],
-    "listening": []
+    "vocab": [
+      {
+        "id": "vocab_1",
+        "front": "열이 나다/있다",
+        "back": "to have a fever",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_2",
+        "front": "콧물이 나다",
+        "back": "to have a runny nose",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_3",
+        "front": "목이 붓다",
+        "back": "to have a sore throat",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_4",
+        "front": "기침을 하다",
+        "back": "to cough",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_5",
+        "front": "어지럽다",
+        "back": "to feel dizzy",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_6",
+        "front": "가렵다",
+        "back": "to feel itchy",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_7",
+        "front": "소화가 안 되다",
+        "back": "to have indigestion",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_8",
+        "front": "배탈이 나다",
+        "back": "to have an upset stomach",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_9",
+        "front": "설사를 하다",
+        "back": "to have diarrhea",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_10",
+        "front": "토하다",
+        "back": "to vomit",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_11",
+        "front": "뼈가 부러지다",
+        "back": "to have a broken bone",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_12",
+        "front": "손이 베이다",
+        "back": "to cut one's hand",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_13",
+        "front": "마스크",
+        "back": "mask",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_14",
+        "front": "비상약",
+        "back": "emergency medicine",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_15",
+        "front": "졸리다",
+        "back": "to feel drowsy",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_16",
+        "front": "보관하다",
+        "back": "to store",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_17",
+        "front": "의약품 및 치료법",
+        "back": "Medications and Treatments",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_18",
+        "front": "알약",
+        "back": "pill",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_19",
+        "front": "영양제",
+        "back": "nutritional supplements",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_20",
+        "front": "소독약",
+        "back": "disinfectant",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_21",
+        "front": "반창고",
+        "back": "adhesive plaster",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_22",
+        "front": "밴드",
+        "back": "band-aid",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_23",
+        "front": "파스",
+        "back": "pain relief patch",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_24",
+        "front": "연고",
+        "back": "ointment",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_25",
+        "front": "붕대",
+        "back": "gauze bandage",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_26",
+        "front": "약을 먹다",
+        "back": "to take medicine",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_27",
+        "front": "약을 뿌리다",
+        "back": "to spray medicine",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_28",
+        "front": "소독을 하다",
+        "back": "to disinfect",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_29",
+        "front": "연고를 바르다",
+        "back": "to apply ointment",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_30",
+        "front": "밴드를 붙이다",
+        "back": "to apply a band-aid",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_31",
+        "front": "파스를 붙이다",
+        "back": "to apply a pain relief patch",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_32",
+        "front": "찜질을 하다",
+        "back": "to apply a heat compress",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_33",
+        "front": "붕대를 감다",
+        "back": "to wrap a bandage",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar_1",
+        "front": "-(으)니까",
+        "back": "‘-아서/어서’의 뒤 절에는 명령문\n과 청유문이 올 수 없는 반면,\n‘-(으)니까’의 뒤 절에는 문장 종\n결에 제약이 없다.\n‘-아서/어서’ cannot be followed\nby an imperative or request\nsentence, whereas ‘-(으)니까’\ncan.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
+      },
+      {
+        "id": "grammar_2",
+        "front": "-(으)ㄴ 후에",
+        "back": "명사와 함께 사용할 때는 ‘명사 후에’의\n구성으로 사용한다. 일반적으로는 행\n위의 순서를 나타내지만 시간을 나타\n내는 명사와 함께 사용하면 시점을\n나타낸다.\nWhen used with nouns it’s structured\nas ‘noun 후에’. Generally it shows the\nsequence of actions, but when used\nwith a noun that represents time, it\nindicates a point in time.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conversation_1",
+        "front": "제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•먹으면 졸리다, 운전하지\n말다, 머리가 아프다\n•잘 상하다, 냉장고에\n보관하다, 배가 아프다\n가 : 약 나왔습니다. 이 약은 먹으면\n졸리니까 운전하지 마세요.\n나 : 네, 알겠습니다. 그런데 이 파란색 약은\n뭐예요?\n가 : 머리가 아플 때 먹는 거예요.\n발음 │ PRONUNCIATION",
+        "back": "",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_2",
+        "front": "‘ㄼ, ㄵ, ㅄ, ㄳ’는 어말이나 자음 앞에서 앞 자음만 발음된다.\nWhen ‘ㄼ, ㄵ, ㅄ, ㄳ’ are at the end of a word or before another consonant,",
+        "back": "only the first consonant is pronounced.",
+        "speaker": "ㅄ, ㄳ",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_3",
+        "front": "⑴ 여덟, 값, 넋\n⑵ 넓다, 얹다, 앉다",
+        "back": "",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_4",
+        "front": "사 민민아웅 씨, 약 나왔습니다. 이건 기침약이고 이건 콧물약이에요. 하루에 세 번, 식사하고 드세요.",
+        "back": "Min Min Aung, your medication is ready. This is for your cough, and this is for your runny nose. Take it three times a day after meals.",
+        "speaker": "약",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_5",
+        "front": "민민아웅 이 약을 먹으면 졸려요?",
+        "back": "Does this medicine make me drowsy?",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_6",
+        "front": "사 네, 졸리니까 운전하지 마세요.",
+        "back": "Yes, it makes you drowsy, so don't drive.",
+        "speaker": "약",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_7",
+        "front": "민민아웅 알겠습니다. 그런데 이 노란색 약은\n뭐예요?",
+        "back": "Okay, I understand. By the way, what is this yellow pill?",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_8",
+        "front": "사 아, 이 약은 열이 날 때 먹는 거예요.\n열이 많이 나면 드세요. 그리고 물을 많이\n마시면 좋아요.",
+        "back": "Oh, this medicine is for when you get a fever. Take it if you have a high fever. And drink plenty of water.",
+        "speaker": "약",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_9",
+        "front": "어서 오세요. 어떻게 오셨어요?",
+        "back": "Welcome. What brings you here?",
+        "speaker": "사",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_10",
+        "front": "어지럽고 소화가 잘 안 돼요.",
+        "back": "I've been feeling dizzy and I have indigestion.",
+        "speaker": "딜로바",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_11",
+        "front": "병원에는 가셨어요?",
+        "back": "Have you been to the hospital?",
+        "speaker": "사",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_12",
+        "front": "아니요, 안 갔어요.",
+        "back": "No, I haven't.",
+        "speaker": "딜로바",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_13",
+        "front": "그럼 이 소화제를 드셔 보세요. 약을 드신 후에\n따뜻한 차를 많이 드세요. 그래도 계속 아프면\n병원에 가 보세요.",
+        "back": "Then take this digestive medicine. After taking the medicine, drink plenty of warm tea. If you still feel sick, please visit a hospital.",
+        "speaker": "사",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_14",
+        "front": "네, 알겠습니다. 고맙습니다.",
+        "back": "Okay, thank you very much.",
+        "speaker": "딜로바",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      }
+    ],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "22 약국",
+        "back": "PHARMACY 267",
+        "body": "22 약국\nPHARMACY 267\n의약품 구입\nPurchasing Medications\n• 약에 대해 물어볼 수 있다. I can ask about medication.\n• 약 구매를 위하여 증상에 대해 말할 수 있다. I can describe symptoms to purchase medicine.\n• 이유나 판단의 근거에 대해 말할 수 있다.\nI can state the reasons or provide the basis for a judgment.\n안전상비의약품은 편의점에서도 판매합니다. 편의점에서 판매하는 약은 가벼운 증상에 사용할 수 있는 약으로 의사의 처방전\n없이 살 수 있습니다. 편의점에서 살 수 있는 약은 아래와 같습니다.\nOver-the-counter medications are also sold at convenience stores. These medications sold at convenience stores used for minor\nsymptoms can be purchased without a prescription. The available medications are:\n[ 안전상비의약품 ] over-the-counter medications\n● 해열제 fever reducer ▶ 열이 날 때 먹는 약 medicine for fever\n● 진통제 pain reliever ▶ 머리나 이 등에 통증이 있을 때 먹는 약 medicine for headaches, toothaches, etc.\n● 감기약 cold medicine ▶ 감기에 걸렸을 때 먹는 약 medicine for cold symptoms",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook1/unit_22/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
+    "reading": [
+      {
+        "id": "u22_r1",
+        "nomor": 1,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "기숙사에 살니까 편해요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "상자가 무겁우니까 조심하세요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "음악을 듣으니까 기분이 좋아요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "제주도가 유명하니까 가 보세요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_22/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u22_r2",
+        "nomor": 2,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n아침부터 열이 났습니다. 그래서 약국에 가서 를 샀습니다.",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "지사제",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "소화제",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "해열제",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "진통제",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_22/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u22_r3",
+        "nomor": 3,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.\n차가운 음료수를 많이 마셔서 . 그래서 집에 있는 약을 먹었습니다. 약을\n먹은 후에도 계속 배가 아프면 병원에 가려고 합니다.",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "배탈이 났습니다",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "기침을 했습니다",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "눈병이 났습니다",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "다리를 다쳤습니다",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_22/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u22_r4",
+        "nomor": 4,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "유지호 씨가 약을 샀습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "아궁 씨는 스물다섯 살입니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "약은 이틀 동안 먹을 수 있습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "약을 먹고 30분 후에 밥을 먹어야 합니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_22/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u22_r5",
+        "nomor": 5,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n늦은 밤이나 주말에 약을 살 수 있는 약국은 ‘휴일지킴이약국’ 사이트에서 찾을 수 있습니다. 이 사이트\n에서는 지역별, 시간대별로 문을 여는 약국을 손쉽게 검색할 수 있습니다. 하지만 집 근처에 가까운 ‘휴일지킴이\n약국’이 없다면 지사제, 진통제 같은 약은 의사의 처방 없이도 편의점에서 살 수 있습니다.",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "편의점에서 진통제를 살 수 있습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "늦은 밤에는 약을 파는 곳이 없습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "지사제를 사려면 처방전이 있어야 합니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "‘휴일지킴이약국’은 주말에만 문을 엽니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_22/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ],
+    "listening": [
+      {
+        "id": "u22_l1",
+        "nomor": 1,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+        "jawaban": "d",
+        "audio_teks": "남 : 딜로바 씨, 손가락 다쳤어요?\n여 : 네, 좀 다쳐서 밴드를 붙이고 있어요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_22/track_137.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_22/choice_images/listening/u22_l1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_22/choice_images/listening/u22_l1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_22/choice_images/listening/u22_l1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_22/choice_images/listening/u22_l1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_22/choice_images/listening/u22_l1_a.jpg",
+          "b": "assets/modules/textbook1/unit_22/choice_images/listening/u22_l1_b.jpg",
+          "c": "assets/modules/textbook1/unit_22/choice_images/listening/u22_l1_c.jpg",
+          "d": "assets/modules/textbook1/unit_22/choice_images/listening/u22_l1_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_22/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u22_l2",
+        "nomor": 2,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "남자는 왜 여기에 왔습니까?",
+        "jawaban": "a",
+        "audio_teks": "여 : 어서 오세요. 뭘 드릴까요?\n남 : 소화가 안 되어서요. 소화제 좀 주세요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_22/track_137.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "약을 사려고",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "운동을 하려고",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "진료를 받으려고",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "음식을 먹으려고",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_22/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u22_l3",
+        "nomor": 3,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "b",
+        "audio_teks": "남 : 소독약을 몇 개 샀어요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_22/track_137.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "어제 샀어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "두 개 샀어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "감기약을 샀어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "오천 원에 샀어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_22/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u22_l4",
+        "nomor": 4,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "c",
+        "audio_teks": "여 : 이 약은 언제 먹어야 돼요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_22/track_137.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "지난주에 먹었어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "3일 동안 먹었어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "식사하신 후에 드세요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "따뜻한 물과 함께 드세요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_22/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u22_l5",
+        "nomor": 5,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
+        "jawaban": "b",
+        "audio_teks": "여 : 어깨가 좀 아프네요. 파스 좀 주세요.\n남 : 네, 여기 있습니다. 파스를 붙이고 찜질도 해 보세요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_22/track_137.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "치료 횟수",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "치료 방법",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "치료 시간",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "치료 장소",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_22/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ]
   },
   "integrity": {
     "pdf_pages": 10,
     "lesson_audio": 5,
+    "lesson_flow": 10,
+    "vocab_cards": 33,
+    "grammar_cards": 2,
+    "conversation_cards": 14,
+    "culture_cards": 1,
+    "reading_questions": 5,
+    "listening_questions": 5,
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_scripts": 5,
     "source_page_start_index": 260,
     "source_page_end_index": 269
   }

@@ -4,7 +4,7 @@
   "unit": 17,
   "title_ko": "휴가",
   "title_en": "VACATION",
-  "title_id": "",
+  "title_id": "Liburan",
   "source_pdf": "assets/modules/textbook1/unit_17/source.pdf",
   "page_start": 211,
   "page_end": 220,
@@ -61,6 +61,165 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 211,
+        "image": "assets/modules/textbook1/unit_17/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "17 휴가 \n VACATION 211\n어휘 VOCABULARY\n여행 관련 어휘 Travel\n여행을 계획하다\nto plan a trip\n표를 사다 \nto buy tickets\n숙소를 예약하다\nto book an accommodation\n짐을 싸다\nto pack luggage\n출발하다\nto depart\n도착하다\nto arrive\n짐을 풀다\nto unpack luggage\n묵다\nto stay\n 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example.\n[보기]\n가 : 무엇을 해요?\n나 : 짐을 싸요.\n⑴\n가 : 무엇을 해요?\n나 : .\n⑵\n가 : 어디에서 묵어요?\n나 : .\n⑶\n가 : 어디에서 묵어요?\n나 : .\n이번 this time\n휴가 vacation\n그래요? really?\n호텔\nhotel\n유스 호스텔\nyouth hostel\n펜션\ncottage\n민박\nB&B (bed and breakfast)\n숙소\naccommodation\n콘도\nmembership resort",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 212,
+        "image": "assets/modules/textbook1/unit_17/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "212 한국어 표준교재 1\n문법 GRAMMAR\n-(으)ㄹ 때\n‘-(으)ㄹ 때’는 동사, 형용사에 붙어 어떤 일이 일어나는 \n순간이나 계속되는 동안을 나타낸다. \n‘-(으)ㄹ 때’ is attached to verbs and adjectives to \nindicate the moment when something happens or the \nduration during which something continues.\n받침 ○\n-을 때\n \n먹다 → 먹을 때\n받침 ×, 받침 ‘ㄹ’\n-ㄹ 때\n \n가다 → 갈 때 \n \n만들다 → 만들 때\n예 시간이 있을 때 여행을 가요.\n \n제주도에 갈 때 비행기를 타요.\n \n음식을 만들 때 기분이 좋아요.\n1. 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example.\n[보기]\n시간이 있다\n가 : 시간이 있을 때 뭐 해요?\n나 : 친구를 만나요.\n⑴\n피곤하다\n가 : 뭐 해요?\n나 : 커피를 마셔요.\n⑵\n한가하다\n가 : 뭐 해요?\n나 : 휴게실에서 쉬어요.\n⑶\n날씨가 맑다\n가 : 뭐 해요?\n나 : 공원에서 운동해요.\n2. 그림을 보고 [보기]와 같이 문장을 완성하세요. \nLook at the pictures and complete the sentences as shown in the example.\n[보기]\n 부산에 갈 때 KTX를 타요.\n⑴\n 집에서 \n책을 읽어요.\n⑵\n 산책해요.\n⑶\n 과자를 먹어요.\n때\n시간을 나타내는 명사와 함께 사용할 때는 \n‘명사 때’의 구성으로 사용할 수 있다. 단, \n‘주말’, ‘요일’, ‘오전’, ‘오후’ 등의 명사와는 \n사용할 수 없다.\nWhen used with nouns indicating time, \nHowever, it cannot be used with nouns like \n‘주말 (weekend)’, ‘요일 (day of the week)’, \n‘오전 (AM)’, or ‘오후 (PM)’.\n예 휴가 때 부산에 갈 거예요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 213,
+        "image": "assets/modules/textbook1/unit_17/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "17 휴가 \n VACATION 213\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•제주도, 제주도에 가다, \n비행기\n•속초, 속초에 가다, \n고속버스\n가 : 이번 휴가 때 뭐 할 거예요?\n나 : 제주도에 여행을 갈 거예요. \n가 : 그래요? 제주도에 갈 때 \n \n뭘 타고 가요?\n나 : 비행기를 탈 거예요.\n발음 │ PRONUNCIATION\nㄹ \n‘ㄹ’는 자음 앞에서는 [l]처럼 소리 나고, 모음 사이에서는 [r]처럼 소리 난다.\n‘ㄹ’ sounds like [l] before another consonant, and like [r] between vowels.\n⑴ 달, 물, 술\n⑵ 다리, 무리, 수리\n대화 CONVERSATION\n마 두 \n아궁 씨, 이번 휴가 때 뭐 할 거예요?\n \nWhat are you going to do during this vacation, \nAgung?\n아 궁 \n친구하고 부산에 여행을 갈 거예요.\n \nI’m going on a trip to Busan with a friend.\n마 두 \n그래요? 부산에 갈 때 뭘 타고 가요?\n \nReally? How are you getting to Busan?\n아 궁 \nKTX를 탈 거예요.\n \nI’m going to take the KTX.\n마 두 \n숙소는 예약했어요?\n \nHave you booked accomodation?\n아 궁 \n네, 싸고 좋은 호텔이 있어서 그 호텔을 예약\n했어요.\n \nYes, there’s a cheap and nice hotel, so I booked \nthat hotel.\n대답해 봐요! ANSWER ME!\n1 아궁 씨는 이번 휴가에 뭐 할 거예요? What is Agung going to do this vacation?\n2 아궁 씨는 부산에 갈 때 뭘 타고 갈 거예요? How will Agung get to Busan?\n108\n109",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 214,
+        "image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "214 한국어 표준교재 1\n어휘 VOCABULARY\n여행지 관련 어휘 Travel Destinations\n산 \nmountain\n호수\nlake\n강\nriver\n바다\nsea\n섬\nisland\n온천\nhot spring\n유적지\nhistoric site\n민속촌\nfolk village\n놀이공원\namusement park\n해수욕장\nbeach\n아름답다\nto be beautiful\n유명하다\nto be famous\n경치가 좋다\nto be scenic\n구경하다\nto sightsee\n관람하다\nto watch\n아주 very\n등산 hiking\n다음 next\n꼭 definitely\n 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example.\n[보기]\n가 : 어디에 가요?\n나 : 바다에 가요.\n⑴\n가 : 어디에 가요?\n나 : .\n⑵\n가 : 어디에 가요?\n나 : .\n⑶\n가 : 어디에 가요?\n나 : .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 215,
+        "image": "assets/modules/textbook1/unit_17/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "17 휴가 \n VACATION 215\n문법 GRAMMAR\n-(으)려고 하다\n‘-(으)려고 하다’는 동사에 붙어 어떤 행위를 하고자 하는 의향이 있음을 나타낸다.\n ‘-(으)려고 하다’ is attached to verbs to indicate an intention to do an action.\n받침 ○\n-으려고 하다\n \n읽다 → 읽으려고 하다\n받침 ×, 받침 ‘ㄹ’\n-려고 하다\n \n가다 → 가려고 하다\n \n만들다 → 만들려고 하다\n예 저는 휴가 때 책을 많이 읽으려고 해요.\n \n저는 내년에 이사하려고 해요.\n \n저녁에 불고기를 만들려고 해요.\n1. 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example.\n[보기]\n친구를 만나다\n가 : 내일 뭐 하려고 해요?\n나 : 친구를 만나려고 해요.\n⑴\n책을 읽다\n가 : 오후에 뭐 하려고 해요?\n나 : .\n⑵\n쇼핑하다\n가 : 주말에 뭐 하려고 해요?\n나 : .\n⑶\n제주도에 가다\n가 : 휴가 때 뭐 하려고 해요?\n나 : .\n2. 그림을 보고 [보기]와 같이 대화해 보세요. Look at the pictures and practice speaking as shown in the example.\n어디에 가려고 해요?\n가 : 어디에 가려고 해요?\n나 : 경주에 가려고 해요.\n[ 보기 ]\n⑴\n무엇을 타려고 해요?\n⑵\n무엇을 구경하려고 해요?\n⑶\n어디에서 묵으려고 해요?",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 216,
+        "image": "assets/modules/textbook1/unit_17/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "216 한국어 표준교재 1\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•경주에 가다, \n유적지를 구경하다\n•강릉에 가다, \n해수욕장에 가다 \n가 : 다음 휴가에 어디에 갈 거예요?\n나 : 경주에 가려고 해요.\n가 : 거기에서 뭐 하려고 해요?\n나 : 유적지를 구경하려고 해요.\n가 : 여보세요? 자야 씨, 바빠요? Hello? Jaya, are you busy?\n나 : 네, 좀 바빠요. 이따가 전화 드릴게요. \nYes, I’m a bit busy. I’ll call you later.\n유용한 표현 │ USEFUL EXPRESSION\n이따가 전화 드릴게요.\nI’ll call you later.\n대화 CONVERSATION\n자 야 \n왕민 씨, 제주도 여행은 어땠어요?\n \nWangmin, how was your trip to Jejudo Island?\n왕 민 \n아주 좋았어요. 경치가 좋고 음식도 맛있었어요.\n \nIt was very nice. The scenery was beautiful and the \nfood was delicious.\n자 야 \n제주도에서 뭐 했어요?\n \nWhat did you do in Jejudo Island?\n왕 민 \n해수욕장에 갔어요. 그리고 한라산 등산도 \n했어요.\n \nI went to the beach. I also hiked Hallasan Mountain.\n자 야 \n저도 다음 휴가 때 가족하고 제주도에 가려고 \n해요.\n \nI’m planning to go to Jejudo Island with my family \nfor my next vacation.\n왕 민 \n그래요? 해수욕장하고 한라산에 꼭 가세요. 정말 아름다워요.\n \nReally? Definitely visit the beach and Hallasan Mountain. They’re really beautiful.\n대답해 봐요! ANSWER ME!\n1 왕민 씨는 제주도에서 뭐 했어요? What did Wangmin do in Jejudo Island?\n2 자야 씨는 다음 휴가에 무엇을 하려고 해요? \nWhat is Jaya planning to do for the next vacation?\n110\n111",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 217,
+        "image": "assets/modules/textbook1/unit_17/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "17 휴가 \n VACATION 217\n문화와 정보 CULTURE & INFORMATION\n17 휴가 \n VACATION 217\n한국의 문화유산\nKorean's Cultural Heritage\n• 휴가 계획을 말할 수 있다. I can talk about vacation plans. \n↻\n• 여행 경험에 대해 말할 수 있다. I can talk about travel experiences. \n↻\n• 자신의 계획에 대해 말할 수 있다. I can talk about my own plans. \n↻\n확인해요 │ self assessment\n한국은 오랜 역사와 풍부한 문화유산을 가진 나라입니다. 수\n도인 서울에는 경복궁과 창덕궁 등 조선 시대의 궁궐이 잘 보존\n되어 있습니다. 경복궁은 가장 크고 아름다운 궁궐로 한국의 전\n통 건축 양식을 잘 보여 주고, 창덕궁은 '비원'이라고 불리는 아\n름다운 정원으로 유명합니다. 이러한 역사적인 건축물은 현대\n적인 빌딩과 어우러져 서울의 모습을 더욱 아름답게 합니다.\nKorea is a country with a long history and rich cultural \nheritage. In the capital city of Seoul, the palaces of the Joseon \nDynasty, such as Gyeongbokgung and Changdeokgung, are \nwell preserved. Gyeongbokgung is the largest and most \nbeautiful palace, showcasing traditional Korean architecture, \nwhile Changdeokgung is famous for its beautiful garden, \nknown as ‘Biwon’. These historic buildings combine with \nmodern structures that enhance the beauty of Seoul’s \nappearance.\n경주는 옛날 신라의 수도였\n던 도시로 다양한 문화유산이 \n보존되어 있습니다. 불국사와 \n석굴암은 신라의 불교문화를 \n상징하는 대표적인 문화유산\n입니다. 불국사에는 아름다운 \n전설을 지닌 석가탑과 다보탑\n이 있습니다. 석굴암에는 한국\n에서 가장 아름답다는 돌로 만\n든 불상이 있습니다. 이 불상\n을 통하여 신라 사람들의 뛰어난 기술과 예술적 감각을 엿볼 수 \n있습니다. 그래서 경주에는 많은 관광객이 찾아갑니다.\nGyeongju, the ancient capital of the Silla Dynasty, has \npreserved a variety of cultural heritage sites. The Bulguksa \nTemple and the Seokguram Grotto are representative cultural \nheritage sites symbolizing Silla's Buddhist culture. Bulguksa \nTemple is home to the Seokgatap and Dabotap pagodas, \nwhich are associated with beautiful legends. Seokguram \nGrotto houses what is considered the most beautiful stone \nBuddha statue in Korea, showcasing the advanced technology \nand artistic sensibilities of the Silla people. As a result, \nGyeongju attracts many tourists.\n한국의 문화유산을 말할 때 빼놓을 수 없는 곳은 안동입니\n다. 안동은 하회마을과 도산서원 등 조선 시대의 유교 문화가 \n고스란히 남아있는 도시입니다. 하회마을에는 전통 가옥이 그\n대로 보존되어 있으며, 1999년에는 영국의 엘리자베스 여왕\n이 방문하기도 했습니다. 그리고 도산서원은 조선시대의 교육 \n기관으로, 건물과 정원이 한국의 전통적인 미적 감각을 잘 보\n여줍니다.\nAn obvious choice when discussing Korea’s cultural heritage \nis Andong. Andong is a city where the Confucian culture of \nthe Joseon Dynasty is well preserved, with sites like Hahoe \nVillage and Dosan Seowon. Hahoe Village has traditional \nhouses preserved as they were in the past, and in 1999, \nQueen Elizabeth II of the United Kingdom visited the village. \nDosan Seowon is an education institute from the Joseon \nDynasty that showcases the traditional Korean aesthetic \nsense through its buildings and gardens.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 218,
+        "image": "assets/modules/textbook1/unit_17/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n218 한국어 표준교재 1\n1. \n다음 내용과 관계있는 그림을 고르십시오.\n짐을 싸고 있습니다. \n①\n②\n③\n④\n2. 다음 단어와 관계있는 것은 무엇입니까?\n호텔\n① 교통 \n② 숙소\n③ 초대 \n④ 취미\n3. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오. \n① 바다가 무척 아름답을 거예요. \n② 쓰레기는 봉투에 넣아야 해요. \n③ 저녁에 불고기를 만들려고 해요. \n④ 청소하기 전에 창문을 열으야 돼요. \n4. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n휴가 때 친구하고 부산에 여행을 갈 겁니다. 싸고 좋은 호텔이 있어서 오늘 . \n① 양보했습니다 \n② 정리했습니다\n③ 처방했습니다 \n④ 예약했습니다\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n서울에는 경복궁과 창덕궁 등 조선 시대의 궁궐이 잘 보존되어 있습니다. 이러한 역사적인 건축물은 \n현대적인 빌딩과 어우러져 서울의 모습을 더욱 아름답게 합니다. 안동은 조선 시대의 유교 문화가 \n고스란히 남아있는 도시입니다. 하회마을에는 전통 가옥이 그대로 보존되어 있습니다. 경주는 옛날 \n신라의 수도였던 도시로 다양한 문화유산이 보존되어 있습니다. 불국사와 석굴암은 신라의 불교문화를 \n상징하는 대표적인 문화유산입니다.\n① 경복궁과 창덕궁은 불교문화를 상징하는 문화유산입니다. \n② 하회마을에 가면 신라 시대의 전통 가옥을 볼 수 있습니다. \n③ 경주는 조선 시대의 유교 문화가 잘 보존되어 있는 도시입니다. \n④ 서울은 조선 시대의 궁궐과 현대적 빌딩이 잘 어우러진 도시입니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 219,
+        "image": "assets/modules/textbook1/unit_17/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n17 휴가 \n VACATION 219\n[1~2] 다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n1.\n①\nAugust\n8월\nSun Mon\nTue\nWed Thu\nFri\nSat\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10 11 12 13 14 15 16\n17 18 19 20 21 22 23\n24 25 26 27 28 29 30\n31\n②\nAugust\n8월\nSun Mon\nTue\nWed Thu\nFri\nSat\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10 11 12 13 14 15 16\n17 18 19 20 21 22 23\n24 25 26 27 28 29 30\n31\n③\nAugust\n8월\nSun Mon\nTue\nWed Thu\nFri\nSat\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10 11 12 13 14 15 16\n17 18 19 20 21 22 23\n24 25 26 27 28 29 30\n31\n④\nAugust\n8월\nSun Mon\nTue\nWed Thu\nFri\nSat\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10 11 12 13 14 15 16\n17 18 19 20 21 22 23\n24 25 26 27 28 29 30\n31\n2.\n①\n②\n③\n④\n3. 두 사람은 무엇에 대해 말하고 있습니까? \n① 운동 \n② 여행\n③ 약속 \n④ 증상\n4. 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n① 비행기로 가려고 해요. \n② 월요일에 가려고 해요.\n③ 친구하고 가려고 해요. \n④ 제주도로 가려고 해요. \n5. \n다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n① 부산은 바다가 아주 유명해요. \n② 수영을 하러 해수욕장에 갔어요. \n③ 친구들하고 부산에 가려고 해요. \n④ 부산에 갈 때 기차를 타고 갔어요.\n1. \n여 : 여름휴가는 언제예요?\n \n남 : 8월 1일부터 5일까지예요. \n2. 남 : 경주에 가면 뭘 하고 싶어요?\n \n여 : 박물관을 관람하고 싶어요.\n3. 여 : 제주도는 어땠어요?\n \n남 : 아주 좋았어요. 경치도 좋고 음식도 맛있었어요. \n4. 여 : 무엇을 타고 가려고 해요?\n5. 남 : 이번 휴가 때 뭐 할 거예요?\n듣기지문\n112",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 220,
+        "image": "assets/modules/textbook1/unit_17/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "220 한국어 표준교재 1\n학습 목표\nLEARNING OBJECTIVES\n취미에 대해 말할 수 있다.\nCan talk about hobbies.\n좋아하는 운동에 대해 말할 수 있다.\nCan talk about favorite sports.\n취미 \nHobbies\nC H A P T E R 1 8\n-는 것\n-(으)ㄹ까요?\nGRAMMAR\n문법\n취미 관련 어휘\nVocabulary Related to Hobbies\n운동 관련 어휘\nVocabulary Related to Sports\nVOCABULARY\n어휘\n한국인의 여가 생활\nKorea People's Leisure Activities\nCULTURE & INFORMATION\n문화와 정보\n220 한국어 표준교재 1\n저도 축구를 좋아해요. 이번 주말에 같이 축구할까요?\n저는 축구하는 것을 좋아해요.\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "audio": [
       {
         "track": 108,
@@ -88,16 +247,885 @@
         "audio_url": "assets/modules/textbook1/audio/unit_17/track_112.mp3"
       }
     ],
-    "vocab": [],
-    "grammar": [],
-    "conversation": [],
-    "culture": [],
-    "reading": [],
-    "listening": []
+    "vocab": [
+      {
+        "id": "vocab_1",
+        "front": "여행 관련 어휘",
+        "back": "Travel",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_2",
+        "front": "여행을 계획하다",
+        "back": "to plan a trip",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_3",
+        "front": "표를 사다",
+        "back": "to buy tickets",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_4",
+        "front": "숙소를 예약하다",
+        "back": "to book an accommodation",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_5",
+        "front": "짐을 싸다",
+        "back": "to pack luggage",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_6",
+        "front": "출발하다",
+        "back": "to depart",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_7",
+        "front": "도착하다",
+        "back": "to arrive",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_8",
+        "front": "짐을 풀다",
+        "back": "to unpack luggage",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_9",
+        "front": "묵다",
+        "back": "to stay",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_10",
+        "front": "여행지 관련 어휘",
+        "back": "Travel Destinations",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_11",
+        "front": "산",
+        "back": "mountain",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_12",
+        "front": "호수",
+        "back": "lake",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_13",
+        "front": "강",
+        "back": "river",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_14",
+        "front": "바다",
+        "back": "sea",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_15",
+        "front": "섬",
+        "back": "island",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_16",
+        "front": "온천",
+        "back": "hot spring",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_17",
+        "front": "유적지",
+        "back": "historic site",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_18",
+        "front": "민속촌",
+        "back": "folk village",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_19",
+        "front": "놀이공원",
+        "back": "amusement park",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_20",
+        "front": "해수욕장",
+        "back": "beach",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_21",
+        "front": "아름답다",
+        "back": "to be beautiful",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_22",
+        "front": "유명하다",
+        "back": "to be famous",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_23",
+        "front": "경치가 좋다",
+        "back": "to be scenic",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_24",
+        "front": "구경하다",
+        "back": "to sightsee",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_25",
+        "front": "관람하다",
+        "back": "to watch",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_26",
+        "front": "아주",
+        "back": "very",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_27",
+        "front": "등산",
+        "back": "hiking",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_28",
+        "front": "다음",
+        "back": "next",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar_1",
+        "front": "-(으)ㄹ 때",
+        "back": "‘-(으)ㄹ 때’는 동사, 형용사에 붙어 어떤 일이 일어나는\n순간이나 계속되는 동안을 나타낸다.\n‘-(으)ㄹ 때’ is attached to verbs and adjectives to\nindicate the moment when something happens or the\nduration during which something continues.\n받침 ○\n-을 때\n먹다 → 먹을 때\n받침 ×, 받침 ‘ㄹ’\n-ㄹ 때\n가다 → 갈 때\n만들다 → 만들 때",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
+      },
+      {
+        "id": "grammar_2",
+        "front": "-(으)려고 하다",
+        "back": "‘-(으)려고 하다’는 동사에 붙어 어떤 행위를 하고자 하는 의향이 있음을 나타낸다.\n‘-(으)려고 하다’ is attached to verbs to indicate an intention to do an action.\n받침 ○\n-으려고 하다\n읽다 → 읽으려고 하다\n받침 ×, 받침 ‘ㄹ’\n-려고 하다\n가다 → 가려고 하다\n만들다 → 만들려고 하다",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conversation_1",
+        "front": "아궁 씨, 이번 휴가 때 뭐 할 거예요?",
+        "back": "What are you going to do during this vacation, Agung?",
+        "speaker": "마 두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_2",
+        "front": "친구하고 부산에 여행을 갈 거예요.",
+        "back": "I’m going on a trip to Busan with a friend.",
+        "speaker": "아 궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_3",
+        "front": "그래요? 부산에 갈 때 뭘 타고 가요?",
+        "back": "Really? How are you getting to Busan?",
+        "speaker": "마 두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_4",
+        "front": "KTX를 탈 거예요.",
+        "back": "I’m going to take the KTX.",
+        "speaker": "아 궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_5",
+        "front": "숙소는 예약했어요?",
+        "back": "Have you booked accomodation?",
+        "speaker": "마 두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_6",
+        "front": "네, 싸고 좋은 호텔이 있어서 그 호텔을 예약\n했어요.",
+        "back": "Yes, there’s a cheap and nice hotel, so I booked that hotel.",
+        "speaker": "아 궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_7",
+        "front": "왕민 씨, 제주도 여행은 어땠어요?",
+        "back": "Wangmin, how was your trip to Jejudo Island?",
+        "speaker": "자 야",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_8",
+        "front": "아주 좋았어요. 경치가 좋고 음식도 맛있었어요.",
+        "back": "It was very nice. The scenery was beautiful and the food was delicious.",
+        "speaker": "왕 민",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_9",
+        "front": "제주도에서 뭐 했어요?",
+        "back": "What did you do in Jejudo Island?",
+        "speaker": "자 야",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_10",
+        "front": "해수욕장에 갔어요. 그리고 한라산 등산도\n했어요.",
+        "back": "I went to the beach. I also hiked Hallasan Mountain.",
+        "speaker": "왕 민",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_11",
+        "front": "저도 다음 휴가 때 가족하고 제주도에 가려고\n해요.",
+        "back": "I’m planning to go to Jejudo Island with my family for my next vacation.",
+        "speaker": "자 야",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_12",
+        "front": "그래요? 해수욕장하고 한라산에 꼭 가세요. 정말 아름다워요.",
+        "back": "Really? Definitely visit the beach and Hallasan Mountain. They’re really beautiful.",
+        "speaker": "왕 민",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      }
+    ],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "17 휴가",
+        "back": "VACATION 217",
+        "body": "17 휴가\nVACATION 217\n한국의 문화유산\nKorean's Cultural Heritage\n• 휴가 계획을 말할 수 있다. I can talk about vacation plans.\n• 여행 경험에 대해 말할 수 있다. I can talk about travel experiences.\n• 자신의 계획에 대해 말할 수 있다. I can talk about my own plans.\n한국은 오랜 역사와 풍부한 문화유산을 가진 나라입니다. 수\n도인 서울에는 경복궁과 창덕궁 등 조선 시대의 궁궐이 잘 보존\n되어 있습니다. 경복궁은 가장 크고 아름다운 궁궐로 한국의 전\n통 건축 양식을 잘 보여 주고, 창덕궁은 '비원'이라고 불리는 아\n름다운 정원으로 유명합니다. 이러한 역사적인 건축물은 현대\n적인 빌딩과 어우러져 서울의 모습을 더욱 아름답게 합니다.\nKorea is a country with a long history and rich cultural\nheritage. In the capital city of Seoul, the palaces of the Joseon\nDynasty, such as Gyeongbokgung and Changdeokgung, are",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook1/unit_17/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
+    "reading": [
+      {
+        "id": "u17_r1",
+        "nomor": 1,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n짐을 싸고 있습니다.",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_17/choice_images/reading/u17_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_17/choice_images/reading/u17_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_17/choice_images/reading/u17_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_17/choice_images/reading/u17_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_17/choice_images/reading/u17_r1_a.jpg",
+          "b": "assets/modules/textbook1/unit_17/choice_images/reading/u17_r1_b.jpg",
+          "c": "assets/modules/textbook1/unit_17/choice_images/reading/u17_r1_c.jpg",
+          "d": "assets/modules/textbook1/unit_17/choice_images/reading/u17_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_17/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u17_r2",
+        "nomor": 2,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 단어와 관계있는 것은 무엇입니까?\n호텔",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "교통",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "숙소",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "초대",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "취미",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_17/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u17_r3",
+        "nomor": 3,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "바다가 무척 아름답을 거예요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "쓰레기는 봉투에 넣아야 해요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "저녁에 불고기를 만들려고 해요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "청소하기 전에 창문을 열으야 돼요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_17/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u17_r4",
+        "nomor": 4,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n휴가 때 친구하고 부산에 여행을 갈 겁니다. 싸고 좋은 호텔이 있어서 오늘 .",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "양보했습니다",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "정리했습니다",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "처방했습니다",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "예약했습니다",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_17/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u17_r5",
+        "nomor": 5,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n서울에는 경복궁과 창덕궁 등 조선 시대의 궁궐이 잘 보존되어 있습니다. 이러한 역사적인 건축물은\n현대적인 빌딩과 어우러져 서울의 모습을 더욱 아름답게 합니다. 안동은 조선 시대의 유교 문화가\n고스란히 남아있는 도시입니다. 하회마을에는 전통 가옥이 그대로 보존되어 있습니다. 경주는 옛날\n신라의 수도였던 도시로 다양한 문화유산이 보존되어 있습니다. 불국사와 석굴암은 신라의 불교문화를\n상징하는 대표적인 문화유산입니다.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "경복궁과 창덕궁은 불교문화를 상징하는 문화유산입니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "하회마을에 가면 신라 시대의 전통 가옥을 볼 수 있습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "경주는 조선 시대의 유교 문화가 잘 보존되어 있는 도시입니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "서울은 조선 시대의 궁궐과 현대적 빌딩이 잘 어우러진 도시입니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_17/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ],
+    "listening": [
+      {
+        "id": "u17_l1",
+        "nomor": 1,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "",
+        "jawaban": "c",
+        "audio_teks": "여 : 여름휴가는 언제예요?\n남 : 8월 1일부터 5일까지예요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_17/track_112.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "August 8월 Sun Mon Tue Wed Thu Fri Sat",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "August 8월 Sun Mon Tue Wed Thu Fri Sat",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "August 8월 Sun Mon Tue Wed Thu Fri Sat",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "August 8월 Sun Mon Tue Wed Thu Fri Sat",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_17/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u17_l2",
+        "nomor": 2,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "",
+        "jawaban": "d",
+        "audio_teks": "남 : 경주에 가면 뭘 하고 싶어요?\n여 : 박물관을 관람하고 싶어요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_17/track_112.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_17/choice_images/listening/u17_l2_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_17/choice_images/listening/u17_l2_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_17/choice_images/listening/u17_l2_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_17/choice_images/listening/u17_l2_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_17/choice_images/listening/u17_l2_a.jpg",
+          "b": "assets/modules/textbook1/unit_17/choice_images/listening/u17_l2_b.jpg",
+          "c": "assets/modules/textbook1/unit_17/choice_images/listening/u17_l2_c.jpg",
+          "d": "assets/modules/textbook1/unit_17/choice_images/listening/u17_l2_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_17/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u17_l3",
+        "nomor": 3,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
+        "jawaban": "b",
+        "audio_teks": "여 : 제주도는 어땠어요?\n남 : 아주 좋았어요. 경치도 좋고 음식도 맛있었어요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_17/track_112.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "운동",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "여행",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "약속",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "증상",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_17/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u17_l4",
+        "nomor": 4,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "a",
+        "audio_teks": "여 : 무엇을 타고 가려고 해요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_17/track_112.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "비행기로 가려고 해요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "월요일에 가려고 해요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "친구하고 가려고 해요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "제주도로 가려고 해요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_17/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u17_l5",
+        "nomor": 5,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+        "jawaban": "c",
+        "audio_teks": "남 : 이번 휴가 때 뭐 할 거예요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_17/track_112.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "부산은 바다가 아주 유명해요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "수영을 하러 해수욕장에 갔어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "친구들하고 부산에 가려고 해요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "부산에 갈 때 기차를 타고 갔어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_17/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ]
   },
   "integrity": {
     "pdf_pages": 10,
     "lesson_audio": 5,
+    "lesson_flow": 10,
+    "vocab_cards": 28,
+    "grammar_cards": 2,
+    "conversation_cards": 12,
+    "culture_cards": 1,
+    "reading_questions": 5,
+    "listening_questions": 5,
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_scripts": 5,
     "source_page_start_index": 210,
     "source_page_end_index": 219
   }

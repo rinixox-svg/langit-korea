@@ -9,15 +9,22 @@
       "unit": 31,
       "title_ko": "복장과 근무 태도",
       "title_en": "Attire and Work Attitude",
-      "title_id": "Pakaian dan Sikap Kerja",
+      "title_id": "Pakaian dan sikap kerja",
       "module_url": "assets/modules/textbook2/unit_31/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_31_attire_work_attitude.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 39,
+        "lesson_flow": 10,
+        "vocab_cards": 42,
+        "grammar_cards": 2,
+        "conversation_cards": 11,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -25,15 +32,22 @@
       "unit": 32,
       "title_ko": "회사 시설 이용",
       "title_en": "Use of Company Facilities",
-      "title_id": "Penggunaan Fasilitas Perusahaan",
+      "title_id": "Penggunaan fasilitas perusahaan",
       "module_url": "assets/modules/textbook2/unit_32/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_32_use_of_company_facilities.pdf",
       "integrity": {
         "pdf_pages": 10,
+        "lesson_flow": 10,
         "vocab_cards": 33,
+        "grammar_cards": 2,
+        "conversation_cards": 12,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -41,15 +55,22 @@
       "unit": 33,
       "title_ko": "동료와의 관계",
       "title_en": "Colleague Relationships",
-      "title_id": "Hubungan dengan Rekan Kerja",
+      "title_id": "Hubungan dengan rekan kerja",
       "module_url": "assets/modules/textbook2/unit_33/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_33_colleague_relationships.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 39,
+        "lesson_flow": 10,
+        "vocab_cards": 42,
+        "grammar_cards": 2,
+        "conversation_cards": 5,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -57,15 +78,22 @@
       "unit": 34,
       "title_ko": "성희롱 및 성추행 예방",
       "title_en": "Sexual Harassment Prevention",
-      "title_id": "Pencegahan Pelecehan Seksual",
+      "title_id": "Pencegahan pelecehan seksual",
       "module_url": "assets/modules/textbook2/unit_34/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_34_sexual_harassment_prevention.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 32,
+        "lesson_flow": 10,
+        "vocab_cards": 42,
+        "grammar_cards": 2,
+        "conversation_cards": 8,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -73,15 +101,22 @@
       "unit": 35,
       "title_ko": "작업장 관리",
       "title_en": "Workplace Management",
-      "title_id": "Manajemen Tempat Kerja",
+      "title_id": "Pengelolaan tempat kerja",
       "module_url": "assets/modules/textbook2/unit_35/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_35_workplace_management.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 35,
+        "lesson_flow": 10,
+        "vocab_cards": 39,
+        "grammar_cards": 2,
+        "conversation_cards": 5,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -89,15 +124,22 @@
       "unit": 36,
       "title_ko": "출하 관리",
       "title_en": "Shipment Management",
-      "title_id": "Manajemen Pengiriman",
+      "title_id": "Pengelolaan pengiriman",
       "module_url": "assets/modules/textbook2/unit_36/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_36_shipment_management.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 39,
+        "lesson_flow": 10,
+        "vocab_cards": 46,
+        "grammar_cards": 2,
+        "conversation_cards": 11,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -105,15 +147,22 @@
       "unit": 37,
       "title_ko": "기계 가공",
       "title_en": "Machine Processing",
-      "title_id": "Pemrosesan Mesin",
+      "title_id": "Pemrosesan mesin",
       "module_url": "assets/modules/textbook2/unit_37/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_37_machine_processing.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 49,
+        "lesson_flow": 10,
+        "vocab_cards": 42,
+        "grammar_cards": 2,
+        "conversation_cards": 12,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -121,15 +170,22 @@
       "unit": 38,
       "title_ko": "기계 조립",
       "title_en": "Machine Assembly",
-      "title_id": "Perakitan Mesin",
+      "title_id": "Perakitan mesin",
       "module_url": "assets/modules/textbook2/unit_38/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_38_machine_assembly.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 38,
+        "lesson_flow": 10,
+        "vocab_cards": 46,
+        "grammar_cards": 2,
+        "conversation_cards": 9,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -137,15 +193,22 @@
       "unit": 39,
       "title_ko": "금속 가공",
       "title_en": "Metal Processing",
-      "title_id": "Pengolahan Logam",
+      "title_id": "Pengolahan logam",
       "module_url": "assets/modules/textbook2/unit_39/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_39_metal_processing.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 48,
+        "lesson_flow": 10,
+        "vocab_cards": 7,
+        "grammar_cards": 2,
+        "conversation_cards": 8,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -153,15 +216,22 @@
       "unit": 40,
       "title_ko": "플라스틱 고무 성형",
       "title_en": "Plastic and Rubber Molding",
-      "title_id": "Pembentukan Plastik dan Karet",
+      "title_id": "Pencetakan plastik dan karet",
       "module_url": "assets/modules/textbook2/unit_40/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_40_plastic_rubber_molding.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 43,
+        "lesson_flow": 10,
+        "vocab_cards": 38,
+        "grammar_cards": 2,
+        "conversation_cards": 9,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -169,15 +239,22 @@
       "unit": 41,
       "title_ko": "섬유 제조",
       "title_en": "Textile Manufacturing",
-      "title_id": "Manufaktur Tekstil",
+      "title_id": "Manufaktur tekstil",
       "module_url": "assets/modules/textbook2/unit_41/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_41_textile_manufacturing.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 42,
+        "lesson_flow": 10,
+        "vocab_cards": 38,
+        "grammar_cards": 2,
+        "conversation_cards": 14,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -185,15 +262,22 @@
       "unit": 42,
       "title_ko": "가구 제작",
       "title_en": "Furniture Making",
-      "title_id": "Pembuatan Furnitur",
+      "title_id": "Pembuatan furnitur",
       "module_url": "assets/modules/textbook2/unit_42/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_42_furniture_making.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 47,
+        "lesson_flow": 10,
+        "vocab_cards": 41,
+        "grammar_cards": 2,
+        "conversation_cards": 12,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -201,15 +285,22 @@
       "unit": 43,
       "title_ko": "건축 시공",
       "title_en": "Building Construction",
-      "title_id": "Konstruksi Bangunan",
+      "title_id": "Konstruksi bangunan",
       "module_url": "assets/modules/textbook2/unit_43/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_43_building_construction.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 29,
+        "lesson_flow": 10,
+        "vocab_cards": 32,
+        "grammar_cards": 2,
+        "conversation_cards": 8,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -217,15 +308,22 @@
       "unit": 44,
       "title_ko": "토목 시공",
       "title_en": "Civil Engineering",
-      "title_id": "Teknik Sipil",
+      "title_id": "Konstruksi sipil",
       "module_url": "assets/modules/textbook2/unit_44/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_44_civil_engineering.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 35,
+        "lesson_flow": 10,
+        "vocab_cards": 44,
+        "grammar_cards": 2,
+        "conversation_cards": 8,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -233,15 +331,22 @@
       "unit": 45,
       "title_ko": "농작물 재배",
       "title_en": "Crop Cultivation",
-      "title_id": "Budidaya Tanaman",
+      "title_id": "Budidaya tanaman",
       "module_url": "assets/modules/textbook2/unit_45/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_45_crop_cultivation.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 56,
+        "lesson_flow": 10,
+        "vocab_cards": 7,
+        "grammar_cards": 2,
+        "conversation_cards": 6,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -254,10 +359,17 @@
       "source_pdf": "assets/langit-korea-modules/unit_46_animal_husbry.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 41,
+        "lesson_flow": 10,
+        "vocab_cards": 37,
+        "grammar_cards": 2,
+        "conversation_cards": 12,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -265,15 +377,22 @@
       "unit": 47,
       "title_ko": "연안 어업과 양식",
       "title_en": "Coastal Fishing and Aquaculture",
-      "title_id": "Perikanan dan Budidaya",
+      "title_id": "Perikanan pesisir dan budidaya perairan",
       "module_url": "assets/modules/textbook2/unit_47/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_47_coastal_fishing_aquaculture.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 43,
+        "lesson_flow": 10,
+        "vocab_cards": 40,
+        "grammar_cards": 2,
+        "conversation_cards": 12,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -281,15 +400,22 @@
       "unit": 48,
       "title_ko": "선체 건조",
       "title_en": "Ship Hull Construction",
-      "title_id": "Konstruksi Lambung Kapal",
+      "title_id": "Pembuatan lambung kapal",
       "module_url": "assets/modules/textbook2/unit_48/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_48_ship_hull_construction.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 42,
+        "lesson_flow": 10,
+        "vocab_cards": 17,
+        "grammar_cards": 2,
+        "conversation_cards": 7,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -297,15 +423,22 @@
       "unit": 49,
       "title_ko": "광물 자원 개발 생산",
       "title_en": "Mineral Resource Development",
-      "title_id": "Pengembangan Sumber Daya Mineral",
+      "title_id": "Pengembangan sumber daya mineral",
       "module_url": "assets/modules/textbook2/unit_49/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_49_mineral_resource_development.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 45,
+        "lesson_flow": 10,
+        "vocab_cards": 29,
+        "grammar_cards": 2,
+        "conversation_cards": 8,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -313,15 +446,22 @@
       "unit": 50,
       "title_ko": "산림 자원 조성",
       "title_en": "Forest Resource Development",
-      "title_id": "Pengembangan Sumber Daya Hutan",
+      "title_id": "Pengembangan sumber daya hutan",
       "module_url": "assets/modules/textbook2/unit_50/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_50_forest_resource_development.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 36,
+        "lesson_flow": 10,
+        "vocab_cards": 2,
+        "grammar_cards": 2,
+        "conversation_cards": 8,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -329,15 +469,22 @@
       "unit": 51,
       "title_ko": "숙박 서비스",
       "title_en": "Accommodation Services",
-      "title_id": "Layanan Akomodasi",
+      "title_id": "Layanan akomodasi",
       "module_url": "assets/modules/textbook2/unit_51/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_51_accommodation_services.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 41,
+        "lesson_flow": 10,
+        "vocab_cards": 6,
+        "grammar_cards": 2,
+        "conversation_cards": 12,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -345,15 +492,22 @@
       "unit": 52,
       "title_ko": "음식 조리",
       "title_en": "Food Preparation",
-      "title_id": "Persiapan Makanan",
+      "title_id": "Persiapan makanan",
       "module_url": "assets/modules/textbook2/unit_52/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_52_food_preparation.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 55,
+        "lesson_flow": 10,
+        "vocab_cards": 19,
+        "grammar_cards": 2,
+        "conversation_cards": 12,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -361,15 +515,22 @@
       "unit": 53,
       "title_ko": "산업 안전 및 보건 표지",
       "title_en": "Industrial Safety Signs",
-      "title_id": "Tanda Keselamatan Industri",
+      "title_id": "Rambu keselamatan industri",
       "module_url": "assets/modules/textbook2/unit_53/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_53_industrial_safety_signs.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 49,
+        "lesson_flow": 10,
+        "vocab_cards": 46,
+        "grammar_cards": 2,
+        "conversation_cards": 8,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -377,15 +538,22 @@
       "unit": 54,
       "title_ko": "산업 안전 및 보건 수칙",
       "title_en": "Industrial Safety Rules",
-      "title_id": "Aturan Keselamatan Industri",
+      "title_id": "Peraturan keselamatan industri",
       "module_url": "assets/modules/textbook2/unit_54/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_54_industrial_safety_rules.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 42,
+        "lesson_flow": 10,
+        "vocab_cards": 19,
+        "grammar_cards": 2,
+        "conversation_cards": 8,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -393,15 +561,22 @@
       "unit": 55,
       "title_ko": "산업 안전 및 위생 장비",
       "title_en": "Safety and Hygiene Equipment",
-      "title_id": "Peralatan K3",
+      "title_id": "Peralatan keselamatan dan higiene",
       "module_url": "assets/modules/textbook2/unit_55/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_55_safety_hygiene_equipment.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 51,
+        "lesson_flow": 10,
+        "vocab_cards": 2,
+        "grammar_cards": 2,
+        "conversation_cards": 8,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -409,15 +584,22 @@
       "unit": 56,
       "title_ko": "산업 재해 및 응급 처치",
       "title_en": "Industrial Accidents and First Aid",
-      "title_id": "Kecelakaan Industri dan P3K",
+      "title_id": "Kecelakaan kerja dan pertolongan pertama",
       "module_url": "assets/modules/textbook2/unit_56/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_56_industrial_accidents_first_ai.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 50,
+        "lesson_flow": 10,
+        "vocab_cards": 34,
+        "grammar_cards": 2,
+        "conversation_cards": 13,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -425,15 +607,22 @@
       "unit": 57,
       "title_ko": "고용허가제",
       "title_en": "Employment Permit System",
-      "title_id": "Sistem Izin Kerja G2G",
+      "title_id": "Sistem izin kerja",
       "module_url": "assets/modules/textbook2/unit_57/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_57_employment_permit_system.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 42,
+        "lesson_flow": 10,
+        "vocab_cards": 29,
+        "grammar_cards": 2,
+        "conversation_cards": 6,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -441,15 +630,22 @@
       "unit": 58,
       "title_ko": "근로기준법",
       "title_en": "Labor Standards Act",
-      "title_id": "UU Ketenagakerjaan Korea",
+      "title_id": "Undang-Undang Standar Ketenagakerjaan",
       "module_url": "assets/modules/textbook2/unit_58/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_58_labor_stards_act.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 46,
+        "lesson_flow": 10,
+        "vocab_cards": 3,
+        "grammar_cards": 2,
+        "conversation_cards": 6,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -457,15 +653,22 @@
       "unit": 59,
       "title_ko": "출입국관리법",
       "title_en": "Immigration Control Act",
-      "title_id": "UU Imigrasi Korea",
+      "title_id": "Undang-Undang Imigrasi",
       "module_url": "assets/modules/textbook2/unit_59/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_59_immigration_control_act.pdf",
       "integrity": {
         "pdf_pages": 10,
-        "vocab_cards": 33,
+        "lesson_flow": 10,
+        "vocab_cards": 34,
+        "grammar_cards": 2,
+        "conversation_cards": 7,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     },
     {
@@ -473,15 +676,22 @@
       "unit": 60,
       "title_ko": "근로자 보험",
       "title_en": "Workers Insurance",
-      "title_id": "Asuransi Pekerja",
+      "title_id": "Asuransi pekerja",
       "module_url": "assets/modules/textbook2/unit_60/module.json",
       "source_pdf": "assets/langit-korea-modules/unit_60_workers_insurance.pdf",
       "integrity": {
         "pdf_pages": 10,
+        "lesson_flow": 10,
         "vocab_cards": 34,
+        "grammar_cards": 2,
+        "conversation_cards": 15,
+        "culture_cards": 1,
         "reading_questions": 5,
         "listening_questions": 5,
-        "listening_audio": 5
+        "reading_answers": 5,
+        "listening_answers": 5,
+        "listening_audio": 5,
+        "listening_scripts": 5
       }
     }
   ]

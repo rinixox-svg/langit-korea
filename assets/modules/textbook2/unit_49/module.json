@@ -4,7 +4,7 @@
   "unit": 49,
   "title_ko": "광물 자원 개발 생산",
   "title_en": "Mineral Resource Development",
-  "title_id": "Pengembangan Sumber Daya Mineral",
+  "title_id": "Pengembangan sumber daya mineral",
   "source_pdf": "assets/langit-korea-modules/unit_49_mineral_resource_development.pdf",
   "page_start": 197,
   "page_end": 206,
@@ -61,582 +61,635 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 197,
+        "image": "assets/modules/textbook2/unit_49/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "49 광물 자원 개발 생산 \n MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 197\n일손 worker\n탄광 coal mining\n석탄 coal\n석회석 limestone \n어휘 VOCABULARY\n갱도 시설 관련 어휘 Tunnel Facilities\n갱도\ntunnel\n사갱\nshaft \n권양기\nwinch\n광부\nminer \n인차\nmantrip\n광차\nmine cart \n막장/채광장\nmine/mining site \n수갱\ndrainage shaft \n수평갱\nhorizontal shaft \n티플링실\ntippling room \n선탄장\ncoal washery\n갱구\ntunnel entrance \n1. 관계있는 것끼리 연결하세요. Connect the related items.\n⑴\n권양기\n●\n ●\n갱의 입구\n⑵\n갱구\n●\n●\n수갱을 이동할 때 타는 기구\n⑶\n막장\n●\n●\n갱도의 가장 마지막 장소\n⑷\n광차\n●\n●\n광석을 운반할 때 사용하는 기구\n2. 빈칸에 알맞은 말을 쓰세요. Write the correct words in the blanks.\n⑴\n가 : 직업이 뭐예요?\n나 : 저는 이에요/예요. 석회석을 캐는 일을 해요.\n⑵\n가: 캐낸 석탄은 어디에 모아요?\n나 : 갱 안에 있는 에 모았다가 선탄장으로 보내요.\n⑶\n가 : 에서는 무슨 일을 해요?\n나 : 못 쓰는 돌을 골라내고 출하 준비를 해요.\n⑷\n가 : 지금 뭐 하고 있어요?\n나 : 에 석탄을 싣고 있어요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 198,
+        "image": "assets/modules/textbook2/unit_49/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "198 한국어 표준교재 2\n문법 GRAMMAR\n-던\n‘-던’은 동사, 형용사에 붙어 뒤에 오는 명사를 꾸며 주면서 과거의 어떤 일이나 상태를 다시 떠올림을 나타낸다. \n동사에 붙으면 과거의 어떤 일이 완료되지 않았음을 나타내고, 형용사에 붙으면 과거의 어떤 상태를 나타낸다.\n‘-던’ is attached to verbs and adjectives to modify the following noun that indicates recollection about a past \nevent or state. When attached to a verb, it indicates that a past event was not completed, and when attached to \nan adjective, it indicates a past state. \n예 작업대 위에 있던 플라이어가 안 보여요.\n \n새 기계는 전에 쓰던 것보다 작동이 잘 돼요.\n \n사장님이 부르셔서 하던 일을 멈추고 사무실로 갔어요.\n1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.\n일하다 있다 사용하다 싣다\n⑴\n⑵\n⑶\n⑷\n막장에서 광차에 석탄을 분이 반장님이에요.\n저기가 제가 탄광이에요.\n휴게실에 선풍기는 어디로 가져갔어요? \n이 컴퓨터는 아궁 씨가 거예요.\n2. 그림을 보고 [보기]와 같이 대화해 보세요. Look at the pictures and practice speaking as shown in the example.\n \n권양기를 타고 내려가다\n반장님\n가 : 권양기 타고 내려가던 사람이 누구예요?\n나 : 권양기를 타고 내려가던 사람은 반장님이에요.\n[ 보기 ]\n⑴\n티플링실에서 일하다\n왕민\n⑵\n울타리망을 치다\n다린두\n⑶\n아까 용접을 하다\n아궁\n⑷\n콘크리트를 타설하다\n유수프",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 199,
+        "image": "assets/modules/textbook2/unit_49/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "49 광물 자원 개발 생산 \n MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 199\n대화 CONVERSATION\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•티플링실, 우리가 어제 일하다\n•4번 막장, 아까 우리가 컨베이어를 설치하다\n가 : 티플링실이 어디예요? \n나 : 우리가 어제 일하던 곳이 티플링실이에요. \n \n그런데 왜요? \n가 : 반장님이 거기로 오라고 하셔서요. \n발음 │ PRONUNCIATION\n받침 ‘ㄱ, ㄷ, ㅂ, ㅈ’이 뒤 음절 첫소리 ‘ㅎ’와 결합되는 경우, 두 음을 합쳐서 [ㅋ, ㅌ, ㅍ, ㅊ]로 발음한다.\nWhen final consonants ‘ㄱ, ㄷ, ㅂ, ㅈ’ combine with the initial consonant ‘ㅎ’ in the following syllable, \nthe two sounds combine and are pronounced as [ㅋ, ㅌ, ㅍ, ㅊ] respectively.\n⑴ 특히[트키] \n역할[여칼] \n맏형[마텽] \n입학[이팍]\n⑵ 먹히다[머키다] \n좁히다[조피다] \n꽂히다[꼬치다] \n269\n왕\n민 \n반장님, 오늘도 4번 막장에서 작업하면 돼요?\n \nBanjangnim, can we work in section 4 today again? \n반장님 \n아니요, 왕민 씨하고 장웨이 씨는 선탄장으로 가세요. 내일 석탄 출하를 해야 돼서 일손이 더 필요하대요.\n \nNo, could you and Zhangwei please go to the coal washery? They said they need more workers because they \nhave to ship the coal tomorrow.\n왕\n민 \n선탄장요? 거기서는 뭘 하면 돼요?\n \nThe coal washery? What shall we do there? \n반장님 선탄장에서는 큰 석탄을 부수고 불순물을 골라내야 \n돼요. 세척도 하고요. 내일까지 거기서 일하고 모레부터\n는 다시 4번 막장으로 오세요.\n \nIn the coal washery we need to break up the large coal and \npick out the impurities. We’ll also need to clean it. Work there \nuntil tomorrow and come back to section 4 the day after. \n왕\n민 알겠습니다. 그런데 선탄장은 어디 있어요?\n \nGot it. But where is the coal washery?\n반장님 갱구 오른쪽에 있어요.\n \nIt's on the right side of the tunnel entrance. \n대답해 봐요! ANSWER ME!\n1 왕민 씨는 오늘 어디에서 작업할 거예요? Where will Wangmin work today? \n2 선탄장에서는 무슨 일을 해요? What do they do in the coal washery?\n268",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 200,
+        "image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "200 한국어 표준교재 2\n어휘 VOCABULARY\n채광 및 광석 운반 작업 관련 어휘 \nMining and Ore Transport Operations\n바위에 구멍을 뚫다\nto drill a hole in the rock \n폭약을 설치하다\nto install explosives \n발파하다/폭파하다\nto blast \n버력을 골라내다\nto pick out impurities\n지주를 세우다\nto set up supports \n레일을 깔다\nto lay rails \n석탄을 부수다/깨다\nto break up coal \n석탄을 퍼 올리다\nto scoop up coal \n착암기\nrock drill\n함마(해머)\nsledgehammer\n컨베이어\nconveyor belt \n스크레이퍼\nscraper \n덩어리 lump\n채탄 coal mining\n간격 space, interval\n 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.\n⑴\n가 : 뭘 가지고 올까요? \n나 : 을/를 가지고 오세요. .\n⑵\n가 : 이/가 뭐예요?\n나 : 못 쓰는 돌을 (이)라고 해요.\n⑶\n가 : 이제 뭐 할까요? \n나 : (으)로 바위에 구멍을 뚫으세요.\n⑷\n가 : 뭘 해야 돼요? \n나 : 을/를 깔아야 돼요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 201,
+        "image": "assets/modules/textbook2/unit_49/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "49 광물 자원 개발 생산 \n MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 201\n문법 GRAMMAR\n-느라고\n‘-느라고’는 동사에 붙어 앞의 내용이 부정적인 결과에 대한 이유나 원인임을 나타낸다.\n‘-느라고’ is attached to a verb to indicate that the preceding content is the reason or cause for a negative result. \n예 작업장을 정리하느라고 조금 늦게 퇴근했어요.\n \n오전에는 장비를 고치느라고 다른 일을 못 했어요.\n \n아지자 씨는 밭에서 잡초를 뽑느라고 바쁜 것 같아요.\n1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.\n도와주다 받다 깔다 깨다\n⑴어제는 프엉 씨를 늦게 퇴근했어요.\n⑵큰 석탄을 왕민 씨가 부르는 걸 못 들었어요.\n⑶오전에는 안전 교육을 일을 못 했어요.\n⑷왕민 씨는 지금 레일을 바쁜 것 같아요. \n2. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example.\n가 : 왜 아직 점심을 못 먹었어요?\n나 : 채탄 준비를 하느라고 점심을 못 먹었어요. (채탄 준비를 하다)\n[ 보기 ]\n⑴가 : 왜 아직 퇴근을 못 했어요?\n나 : . (푸캄 씨를 기다리다)\n⑵가 : 왜 내가 부르는 소리를 못 들었어요?\n나 : . (다른 생각을 하다)\n⑶가 : 왜 옷이 젖었어요? \n나 : . (선탄장에서 세척 작업을 하다)\n⑷가 : 왜 아직 작업을 시작 못 했어요?\n나 : . (오늘 할 일을 점검하다)",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 202,
+        "image": "assets/modules/textbook2/unit_49/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "202 한국어 표준교재 2\n지 훈 \n왕민 씨, 이제 폭약을 설치해도 되겠지요?\n \nWangmin, is it okay to install the explosives now? \n왕 민 \n네, 석탄이 거의 다 나온 것 같아요. 오늘은 석탄 덩어리가 크네요. 버력도 많고요.\n \nYes, it looks like we've gottan almost all of the coal out. The coal lumps are quite large today, and there are \nmany impurities too. \n지 훈 \n그렇죠? 그러면 이번에는 폭약 설치 간격을 좀 좁게 해야 될 것 같네요.\n \nYeah, right? Then this time I think we need to shorten the space between each explosive when we install them. \n왕 민 \n과장님이 폭약을 설치하시죠? 과장님 모시고 올까요?\n \nShouldn't the gwajangnim install the explosives? \nShould I bring him here? \n지 훈 \n과장님은 지금 식사 중이세요. 다른 막장의 \n지주가 흔들려서 다시 설치하느라고 점심을 \n못 드셨대요. 식사 끝나면 이쪽으로 오실 거예요.\n \nThe gwajangnim is currently having lunch. He said he \ncouldn’t eat because he had to reinstall the supports in \nanother section since it was shaking. He will come here \nonce he finishes eating.\n왕 민 \n그럼 기다리는 동안 버력을 좀 골라내고 있을게요.\n \nThen I’ll pick out some impurities while we wait. \n대화 CONVERSATION\n대답해 봐요! ANSWER ME!\n1 왜 오늘은 폭약 설치 간격을 좁게 해야 돼요? \nWhy do they need to shorten the space between each explosive today? \n2 과장님은 왜 지금 점심을 드세요? Why is the gwajangnim having lunch now? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•막장으로 이동하다, 레일을 손보다, 레일을 다 손보고 \n같이 가다\n•버력을 골라내다, 지주를 점검하다, 지주를 다 점검하고 \n같이 작업하다\n가: 왕민 씨는 어디 있어요? 같이 막장으로 이동하죠. \n나: 왕민 씨는 지금 레일을 손보느라고 바쁠 거예요. \n가: 그럼 레일을 다 손보고 같이 가자고 해 주세요.\n가 : 투안 씨 팀은 항상 분위기가 좋은 것 같아요. \nI feel like Tuan's team always has a good atmosphere. \n나 : 네, 팀원들끼리 손발이 잘 맞아요. \nYes, the team members work well together. \n유용한 표현 │ USEFUL EXPRESSION\n손발이 잘 맞아요.\nWe work well \ntogether. \n271\n270",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 203,
+        "image": "assets/modules/textbook2/unit_49/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "49 광물 자원 개발 생산 \n MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 203\n문화와 정보 CULTURE & INFORMATION\n• 갱도 시설에 대해 말할 수 있다. I can talk about tunnel facilities. \n↻\n• 채광 및 광석 운반 작업에 대해 묻고 대답할 수 있다. \nI can ask and answer questions about mining and ore transport operations. \n↻\n• 부정적인 결과의 이유나 원인을 설명할 수 있다. \nI can explain the reasons or causes for negative outcomes. \n↻\n확인해요 │ self assessment\n49 광물 자원 개발 생산 \n MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 203\n전선 접속 방법\nMethod of Connecting Electric Wires\n전선을 접속하기 전에 안전을 위하여 안전장갑을 착용하고 \n전원에서 전선을 분리합니다. 전선이 전원에 연결된 상태에\n서 작업을 하거나 젖은 손으로 작업을 하면 감전 사고가 발생\n할 수 있기 때문에 위험합니다.\nBefore connecting the electrical wires, put on safety gloves \nand disconnect the wires from the power source for safety. It \ncan be dangerous to work with wires still connected to the \npower source or with wet hands, as this may cause electrical \nshock. \n그 다음 자를 이용하여 한쪽 전선의 끝부분에서 6cm 정도 \n되는 위치를 재고, 롱 노즈 플라이어를 사용하여 전선 피복을 \n벗깁니다. 그리고 다른 전선도 동일한 방법으로 피복을 벗깁\n니다. \nNext, use a ruler to measure approximately 6 cm from the \nend of one wire and strip the insulation using the long-nose \npliers. Repeat the same process for the other wire.\n다음으로 롱 노즈 플라이어를 사용하여 피복을 벗겨낸 두 \n개의 구리선을 트위스트 방식으로 묶습니다. 두 구리선은 간\n격이 생기지 않도록 촘촘하게 묶어야 하고, 다 묶은 뒤에 구리\n선의 끝부분은 롱 노즈 플라이어를 사용하여 깔끔하게 고정\n시켜야 합니다.\nNext, use long-nose pliers to twist the two stripped copper \nwires together. The wires should be twisted tightly to avoid \nany gaps, and once twisted, the ends of the copper wires \nshould be neatly secured with the long-nose pliers.\n전선을 접속할 때는 먼저 안전장갑, 롱 노즈 플라이어, 자\n를 준비합니다.\nWhen connecting electrical wires, first prepare safety gloves, \nlong-nose pliers, and a ruler.\n전선 \nelectrical wires\n롱 노즈 플라이어\nlong-nosed pliers\n안전장갑 \nsafety gloves\n자 \nruler",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 204,
+        "image": "assets/modules/textbook2/unit_49/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n204 한국어 표준교재 2\n1. \n다음 내용과 관계있는 그림을 고르십시오.\n스크레이퍼\n①\n②\n③\n④\n2. 다음 그림과 관계있는 내용은 무엇입니까?\n① 착암기 – 바위를 뚫어요.\n② 착암기 – 광석을 운반해요.\n③ 컨베이어 – 바위를 뚫어요.\n④ 컨베이어 – 광석을 운반해요.\n[3~4] 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n3.\n발파 작업 후에는 먼저 석탄으로 사용할 수 없는 을 골라내야 합니다.\n① 버력 \n \n \n② 폭약 \n③ 전선 \n \n \n④ 레일\n4.\n컨베이어에 퍼 올릴 수 없을 정도로 큰 석탄은 함마를 이용해서 됩니다. \n① 붙이면 \n \n \n② 부수면\n③ 고르면 \n \n \n④ 박으면\n5. \n다음은 무엇에 대한 설명입니까?\n롱 노즈 플라이어를 사용하여 피복을 벗겨낸 두 개의 구리선을 트위스트 방식으로 묶습니다. 두 구리선은 \n간격이 생기지 않도록 촘촘하게 묶어야 하고, 다 묶은 뒤에 구리선의 끝부분은 롱 노즈 플라이어를 사용하여 \n깔끔하게 고정시켜야 합니다.\n① 전선 접속 방법 \n \n \n② 전선 절단 방법\n③ 전선 교체 방법 \n \n \n④ 전선 운반 방법",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 205,
+        "image": "assets/modules/textbook2/unit_49/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n49 광물 자원 개발 생산 \n MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 205\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n[2~3] 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n2.\n① 사람들을 부를 거예요. \n \n \n② 아무 소리도 안 들려요.\n③ 이쪽으로 가까이 오세요. \n \n④ 좀 더 이따가 할 거예요.\n3.\n① 한번 알아볼게요. \n \n \n② 이제 시작할 거예요. \n③ 이 정도는 괜찮지요? \n \n \n④ 석탄을 실어야 되지요?\n4. 두 사람은 무엇에 대해 말하고 있습니까?\n① 작업 순서 \n \n \n② 작업 장소\n③ 작업 시간 \n \n \n④ 작업 복장\n5. \n다음 중 들은 내용과 같은 것은 무엇입니까? \n① 반장님은 발파 계획에 대해 모르고 있습니다. \n② 왕민 씨는 지금 기계 사용법을 배우고 있습니다. \n③ 반장님은 왕민 씨와 발파 작업을 하고 있습니다. \n④ 왕민 씨는 작업을 멈추고 작업장에서 나가야 합니다.\n1. \n남 : 작업장까지 어떻게 가요?\n \n여 : 인차를 타고 갈 거예요.\n2. 남 : 지금 발파할 거예요?\n3. 남 : 석탄을 너무 많이 실으면 안 돼요.\n4. 여 : 반장님, 레일을 깔기 시작할까요? \n \n남 : 지주부터 세우고 레일을 깔아야 해요. \n5. 여 : 왕민 씨, 발파한다는 소리 못 들었어요? \n \n남 : 죄송합니다, 반장님. 기계 소리 때문에 못 들었어요.\n \n여 : 5분 후에 발파할 거니까 하던 일 멈추고 얼른 나가세요.\n듣기지문\n272",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 206,
+        "image": "assets/modules/textbook2/unit_49/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "206 한국어 표준교재 2\n학습 목표\nLEARNING OBJECTIVES\n분 감기 작업의 절차에 대해 말할 수 있다.\nCan talk about the procedures for root-ball wrapping.\n조재 작업에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about bucking tasks.\n산림 자원 조성 \nForest Resource Management \nC H A P T E R 5 0\n-다가\n간접 인용의 축약형\nGRAMMAR\n문법\n굴취 및 분 감기 관련 어휘\nVocabulary Related to Trenching \nand Root Ball Wrapping \n벌목 작업 관련 어휘\nVocabulary Related to Logging Work\nVOCABULARY\n어휘\n한국의 산림 자원\nKorea's Forest Resources\nCULTURE & INFORMATION\n문화와 정보\n영호 씨가 집재장으로 옮기래요.\n나무를 어디로 옮길까요?\n206 한국어 표준교재 2\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "vocab": [
       {
         "id": "vocab_1",
-        "front": "49 광물 자원 개발 생산",
-        "back": "MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 197",
-        "raw": {
-          "korean": "49  광물 자원 개발 생산",
-          "indonesia": "MINERAL RESOURCE DEVELOPMENT AND PRODUCTION   197"
-        }
+        "front": "갱도 시설 관련 어휘",
+        "back": "Tunnel Facilities",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_2",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "갱도",
+        "back": "tunnel",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_3",
-        "front": "갱도 시설 관련 어휘",
-        "back": "Tunnel Facilities",
-        "raw": {
-          "korean": "갱도 시설 관련 어휘",
-          "indonesia": "Tunnel Facilities"
-        }
+        "front": "사갱",
+        "back": "shaft",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_4",
-        "front": "갱도",
-        "back": "tunnel",
-        "raw": {
-          "korean": "갱도",
-          "indonesia": "tunnel"
-        }
+        "front": "권양기",
+        "back": "winch",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_5",
-        "front": "사갱",
-        "back": "shaft",
-        "raw": {
-          "korean": "사갱",
-          "indonesia": "shaft"
-        }
+        "front": "광부",
+        "back": "miner",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_6",
-        "front": "권양기",
-        "back": "winch",
-        "raw": {
-          "korean": "권양기",
-          "indonesia": "winch"
-        }
+        "front": "인차",
+        "back": "mantrip",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_7",
-        "front": "광부",
-        "back": "miner",
-        "raw": {
-          "korean": "광부",
-          "indonesia": "miner"
-        }
+        "front": "광차",
+        "back": "mine cart",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_8",
-        "front": "인차",
-        "back": "mantrip",
-        "raw": {
-          "korean": "인차",
-          "indonesia": "mantrip"
-        }
+        "front": "막장/채광장",
+        "back": "mine/mining site",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_9",
-        "front": "광차",
-        "back": "mine cart",
-        "raw": {
-          "korean": "광차",
-          "indonesia": "mine cart"
-        }
+        "front": "수갱",
+        "back": "drainage shaft",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_10",
-        "front": "막장/채광장",
-        "back": "mine/mining site",
-        "raw": {
-          "korean": "막장/채광장",
-          "indonesia": "mine/mining site"
-        }
+        "front": "수평갱",
+        "back": "horizontal shaft",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_11",
-        "front": "수갱",
-        "back": "drainage shaft",
-        "raw": {
-          "korean": "수갱",
-          "indonesia": "drainage shaft"
-        }
+        "front": "티플링실",
+        "back": "tippling room",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_12",
-        "front": "수평갱",
-        "back": "horizontal shaft",
-        "raw": {
-          "korean": "수평갱",
-          "indonesia": "horizontal shaft"
-        }
+        "front": "선탄장",
+        "back": "coal washery",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_13",
-        "front": "티플링실",
-        "back": "tippling room",
-        "raw": {
-          "korean": "티플링실",
-          "indonesia": "tippling room"
-        }
+        "front": "갱구",
+        "back": "tunnel entrance",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_14",
-        "front": "선탄장",
-        "back": "coal washery",
-        "raw": {
-          "korean": "선탄장",
-          "indonesia": "coal washery"
-        }
+        "front": "채광 및 광석 운반 작업 관련 어휘",
+        "back": "Mining and Ore Transport Operations",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_15",
-        "front": "갱구",
-        "back": "tunnel entrance",
-        "raw": {
-          "korean": "갱구",
-          "indonesia": "tunnel entrance"
-        }
+        "front": "바위에 구멍을 뚫다",
+        "back": "to drill a hole in the rock",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_16",
-        "front": "1. 관계있는 것끼리 연결하세요. Connect the related items.",
-        "back": "⑴",
-        "raw": {
-          "korean": "1. \u0007관계있는 것끼리 연결하세요. Connect the related items.",
-          "indonesia": "⑴"
-        }
+        "front": "폭약을 설치하다",
+        "back": "to install explosives",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_17",
-        "front": "권양기",
-        "back": "●",
-        "raw": {
-          "korean": "권양기",
-          "indonesia": "●"
-        }
+        "front": "발파하다/폭파하다",
+        "back": "to blast",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_18",
-        "front": "갱의 입구",
-        "back": "⑵",
-        "raw": {
-          "korean": "갱의 입구",
-          "indonesia": "⑵"
-        }
+        "front": "버력을 골라내다",
+        "back": "to pick out impurities",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_19",
-        "front": "갱구",
-        "back": "●",
-        "raw": {
-          "korean": "갱구",
-          "indonesia": "●"
-        }
+        "front": "지주를 세우다",
+        "back": "to set up supports",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_20",
-        "front": "수갱을 이동할 때 타는 기구",
-        "back": "⑶",
-        "raw": {
-          "korean": "수갱을 이동할 때 타는 기구",
-          "indonesia": "⑶"
-        }
+        "front": "레일을 깔다",
+        "back": "to lay rails",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_21",
-        "front": "막장",
-        "back": "●",
-        "raw": {
-          "korean": "막장",
-          "indonesia": "●"
-        }
+        "front": "석탄을 부수다/깨다",
+        "back": "to break up coal",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_22",
-        "front": "갱도의 가장 마지막 장소",
-        "back": "⑷",
-        "raw": {
-          "korean": "갱도의 가장 마지막 장소",
-          "indonesia": "⑷"
-        }
+        "front": "석탄을 퍼 올리다",
+        "back": "to scoop up coal",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_23",
-        "front": "광차",
-        "back": "●",
-        "raw": {
-          "korean": "광차",
-          "indonesia": "●"
-        }
+        "front": "착암기",
+        "back": "rock drill",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_24",
-        "front": "2. 빈칸에 알맞은 말을 쓰세요. Write the correct words in the blanks.",
-        "back": "⑴",
-        "raw": {
-          "korean": "2. \u0007빈칸에 알맞은 말을 쓰세요. Write the correct words in the blanks.",
-          "indonesia": "⑴"
-        }
+        "front": "함마(해머)",
+        "back": "sledgehammer",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_25",
-        "front": "나 : 저는 이에요/예요. 석회석을 캐는 일을 해요.",
-        "back": "⑵",
-        "raw": {
-          "korean": "나 : 저는                                           이에요/예요. 석회석을 캐는 일을 해요.",
-          "indonesia": "⑵"
-        }
+        "front": "컨베이어",
+        "back": "conveyor belt",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_26",
-        "front": "나 : 갱 안에 있는 에 모았다가 선탄장으로 보내요.",
-        "back": "⑶",
-        "raw": {
-          "korean": "나 : 갱 안에 있는                                            에 모았다가 선탄장으로 보내요.",
-          "indonesia": "⑶"
-        }
+        "front": "스크레이퍼",
+        "back": "scraper",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_27",
-        "front": "나 : 못 쓰는 돌을 골라내고 출하 준비를 해요.",
-        "back": "⑷",
-        "raw": {
-          "korean": "나 : 못 쓰는 돌을 골라내고 출하 준비를 해요.",
-          "indonesia": "⑷"
-        }
+        "front": "덩어리",
+        "back": "lump",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_28",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "채탄",
+        "back": "coal mining",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_29",
-        "front": "채광 및 광석 운반 작업 관련 어휘",
-        "back": "Mining and Ore Transport Operations",
-        "raw": {
-          "korean": "채광 및 광석 운반 작업 관련 어휘",
-          "indonesia": "Mining and Ore Transport Operations"
-        }
-      },
-      {
-        "id": "vocab_30",
-        "front": "바위에 구멍을 뚫다",
-        "back": "to drill a hole in the rock",
-        "raw": {
-          "korean": "바위에 구멍을 뚫다",
-          "indonesia": "to drill a hole in the rock"
-        }
-      },
-      {
-        "id": "vocab_31",
-        "front": "폭약을 설치하다",
-        "back": "to install explosives",
-        "raw": {
-          "korean": "폭약을 설치하다",
-          "indonesia": "to install explosives"
-        }
-      },
-      {
-        "id": "vocab_32",
-        "front": "발파하다/폭파하다",
-        "back": "to blast",
-        "raw": {
-          "korean": "발파하다/폭파하다",
-          "indonesia": "to blast"
-        }
-      },
-      {
-        "id": "vocab_33",
-        "front": "버력을 골라내다",
-        "back": "to pick out impurities",
-        "raw": {
-          "korean": "버력을 골라내다",
-          "indonesia": "to pick out impurities"
-        }
-      },
-      {
-        "id": "vocab_34",
-        "front": "지주를 세우다",
-        "back": "to set up supports",
-        "raw": {
-          "korean": "지주를 세우다",
-          "indonesia": "to set up supports"
-        }
-      },
-      {
-        "id": "vocab_35",
-        "front": "레일을 깔다",
-        "back": "to lay rails",
-        "raw": {
-          "korean": "레일을 깔다",
-          "indonesia": "to lay rails"
-        }
-      },
-      {
-        "id": "vocab_36",
-        "front": "석탄을 부수다/깨다",
-        "back": "to break up coal",
-        "raw": {
-          "korean": "석탄을 부수다/깨다",
-          "indonesia": "to break up coal"
-        }
-      },
-      {
-        "id": "vocab_37",
-        "front": "석탄을 퍼 올리다",
-        "back": "to scoop up coal",
-        "raw": {
-          "korean": "석탄을 퍼 올리다",
-          "indonesia": "to scoop up coal"
-        }
-      },
-      {
-        "id": "vocab_38",
-        "front": "착암기",
-        "back": "rock drill",
-        "raw": {
-          "korean": "착암기",
-          "indonesia": "rock drill"
-        }
-      },
-      {
-        "id": "vocab_39",
-        "front": "함마(해머)",
-        "back": "sledgehammer",
-        "raw": {
-          "korean": "함마(해머)",
-          "indonesia": "sledgehammer"
-        }
-      },
-      {
-        "id": "vocab_40",
-        "front": "컨베이어",
-        "back": "conveyor belt",
-        "raw": {
-          "korean": "컨베이어",
-          "indonesia": "conveyor belt"
-        }
-      },
-      {
-        "id": "vocab_41",
-        "front": "스크레이퍼",
-        "back": "scraper",
-        "raw": {
-          "korean": "스크레이퍼",
-          "indonesia": "scraper"
-        }
-      },
-      {
-        "id": "vocab_42",
-        "front": "그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.",
-        "back": "⑴",
-        "raw": {
-          "korean": "그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.",
-          "indonesia": "⑴"
-        }
-      },
-      {
-        "id": "vocab_43",
-        "front": "나 : 을/를 가지고 오세요. .",
-        "back": "⑵",
-        "raw": {
-          "korean": "나 :                                               을/를 가지고 오세요. .",
-          "indonesia": "⑵"
-        }
-      },
-      {
-        "id": "vocab_44",
-        "front": "나 : 못 쓰는 돌을 (이)라고 해요.",
-        "back": "⑶",
-        "raw": {
-          "korean": "나 : 못 쓰는 돌을                                               (이)라고 해요.",
-          "indonesia": "⑶"
-        }
-      },
-      {
-        "id": "vocab_45",
-        "front": "나 : (으)로 바위에 구멍을 뚫으세요.",
-        "back": "⑷",
-        "raw": {
-          "korean": "나 :                                               (으)로 바위에 구멍을 뚫으세요.",
-          "indonesia": "⑷"
-        }
+        "front": "간격",
+        "back": "space, interval",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       }
     ],
     "grammar": [
       {
         "id": "grammar_1",
-        "front": "198 한국어 표준교재 2",
-        "back": "문법 GRAMMAR",
-        "raw": {
-          "pattern": "198   한국어 표준교재  2",
-          "explanation": "문법  GRAMMAR"
-        }
+        "front": "-던",
+        "back": "‘-던’은 동사, 형용사에 붙어 뒤에 오는 명사를 꾸며 주면서 과거의 어떤 일이나 상태를 다시 떠올림을 나타낸다.\n동사에 붙으면 과거의 어떤 일이 완료되지 않았음을 나타내고, 형용사에 붙으면 과거의 어떤 상태를 나타낸다.\n‘-던’ is attached to verbs and adjectives to modify the following noun that indicates recollection about a past\nevent or state. When attached to a verb, it indicates that a past event was not completed, and when attached to\nan adjective, it indicates a past state.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
       },
       {
         "id": "grammar_2",
-        "front": "동사에 붙으면 과거의 어떤 일이 완료되지 않았음을 나타내고, 형용사에 붙으면 과거의 어떤 상태를 나타낸다.",
-        "back": "‘-던’ is attached to verbs and adjectives to modify the following noun that indicates recollection about a past",
-        "raw": {
-          "pattern": "동사에 붙으면 과거의 어떤 일이 완료되지 않았음을 나타내고, 형용사에 붙으면 과거의 어떤 상태를 나타낸다.",
-          "explanation": "‘-던’ is attached to verbs and adjectives to modify the following noun that indicates recollection about a past"
-        }
-      },
-      {
-        "id": "grammar_3",
-        "front": "사장님이 부르셔서 하던 일을 멈추고 사무실로 갔어요.",
-        "back": "1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.",
-        "raw": {
-          "pattern": "사장님이 부르셔서 하던 일을 멈추고 사무실로 갔어요.",
-          "explanation": "1. \u0007알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options."
-        }
-      },
-      {
-        "id": "grammar_4",
-        "front": "이 컴퓨터는 아궁 씨가 거예요.",
-        "back": "2. 그림을 보고 [보기]와 같이 대화해 보세요. Look at the pictures and practice speaking as shown in the example.",
-        "raw": {
-          "pattern": "이 컴퓨터는 아궁 씨가                                                   거예요.",
-          "explanation": "2. \u0007그림을 보고 [보기]와 같이 대화해 보세요. Look at the pictures and practice speaking as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_5",
-        "front": "49 광물 자원 개발 생산",
-        "back": "MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 201",
-        "raw": {
-          "pattern": "49  광물 자원 개발 생산",
-          "explanation": "MINERAL RESOURCE DEVELOPMENT AND PRODUCTION   201"
-        }
-      },
-      {
-        "id": "grammar_6",
-        "front": "‘-느라고’는 동사에 붙어 앞의 내용이 부정적인 결과에 대한 이유나 원인임을 나타낸다.",
-        "back": "‘-느라고’ is attached to a verb to indicate that the preceding content is the reason or cause for a negative result.",
-        "raw": {
-          "pattern": "‘-느라고’는 동사에 붙어 앞의 내용이 부정적인 결과에 대한 이유나 원인임을 나타낸다.",
-          "explanation": "‘-느라고’ is attached to a verb to indicate that the preceding content is the reason or cause for a negative result."
-        }
-      },
-      {
-        "id": "grammar_7",
-        "front": "아지자 씨는 밭에서 잡초를 뽑느라고 바쁜 것 같아요.",
-        "back": "1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.",
-        "raw": {
-          "pattern": "아지자 씨는 밭에서 잡초를 뽑느라고 바쁜 것 같아요.",
-          "explanation": "1. \u0007알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options."
-        }
-      },
-      {
-        "id": "grammar_8",
-        "front": "⑷왕민 씨는 지금 레일을 바쁜 것 같아요.",
-        "back": "2. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example.",
-        "raw": {
-          "pattern": "⑷왕민 씨는 지금 레일을                                               바쁜 것 같아요.",
-          "explanation": "2. \u0007[보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example."
-        }
+        "front": "-느라고",
+        "back": "‘-느라고’는 동사에 붙어 앞의 내용이 부정적인 결과에 대한 이유나 원인임을 나타낸다.\n‘-느라고’ is attached to a verb to indicate that the preceding content is the reason or cause for a negative result.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
       }
     ],
     "conversation": [
       {
         "id": "conversation_1",
-        "front": "티플링실이 어디예요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "티플링실이 어디예요?"
-        }
+        "front": "제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•티플링실, 우리가 어제 일하다\n•4번 막장, 아까 우리가 컨베이어를 설치하다\n가 : 티플링실이 어디예요?\n나 : 우리가 어제 일하던 곳이 티플링실이에요.\n그런데 왜요?\n가 : 반장님이 거기로 오라고 하셔서요.\n발음 │ PRONUNCIATION\n받침 ‘ㄱ, ㄷ, ㅂ, ㅈ’이 뒤 음절 첫소리 ‘ㅎ’와 결합되는 경우, 두 음을 합쳐서 [ㅋ, ㅌ, ㅍ, ㅊ]로 발음한다.\nWhen final consonants ‘ㄱ, ㄷ, ㅂ, ㅈ’ combine with the initial consonant ‘ㅎ’ in the following syllable,\nthe two sounds combine and are pronounced as [ㅋ, ㅌ, ㅍ, ㅊ] respectively.\n⑴ 특히[트키]",
+        "back": "",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_2",
-        "front": "우리가 어제 일하던 곳이 티플링실이에요. 그런데 왜요?",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "우리가 어제 일하던 곳이 티플링실이에요. 그런데 왜요?"
-        }
+        "front": "⑵ 먹히다[머키다]\n좁히다[조피다]\n꽂히다[꼬치다]",
+        "back": "",
+        "speaker": "입학[이팍]",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_3",
-        "front": "반장님이 거기로 오라고 하셔서요. 발음 │ PRONUNCIATION 받침 ‘ㄱ, ㄷ, ㅂ, ㅈ’이 뒤 음절 첫소리 ‘ㅎ’와 결합되는 경우, 두 음을 합쳐서 [ㅋ, ㅌ, ㅍ, ㅊ]로 발음한다. When final consonants ‘ㄱ, ㄷ, ㅂ, ㅈ’ combine with the initial consonant ‘ㅎ’ in the following syllable, the two sounds combine and are pronounced as [ㅋ, ㅌ, ㅍ, ㅊ] respectively. ⑴ 특히[트키] 역할[여칼] 맏형[마텽] 입학[이팍] ⑵ 먹히다[머키다] 좁히다[조피다] 꽂히다[꼬치다] 269 왕 민 반장님, 오늘도 4번 막장에서 작업하면 돼요? Banjangnim, can we work in section 4 today again? 반장님 아니요, 왕민 씨하고 장웨이 씨는 선탄장으로 가세요. 내일 석탄 출하를 해야 돼서 일손이 더 필요하대요. No, could you and Zhangwei please go to the coal washery? They said they need more workers because they have to ship the coal tomorrow. 왕 민 선탄장요? 거기서는 뭘 하면 돼요? The coal washery? What shall we do there? 반장님 선탄장에서는 큰 석탄을 부수고 불순물을 골라내야 돼요. 세척도 하고요. 내일까지 거기서 일하고 모레부터 는 다시 4번 막장으로 오세요. In the coal washery we need to break up the large coal and pick out the impurities. We’ll also need to clean it. Work there until tomorrow and come back to section 4 the day after. 왕 민 알겠습니다. 그런데 선탄장은 어디 있어요? Got it. But where is the coal washery? 반장님 갱구 오른쪽에 있어요. It's on the right side of the tunnel entrance. 대답해 봐요! ANSWER ME! 1 왕민 씨는 오늘 어디에서 작업할 거예요? Where will Wangmin work today? 2 선탄장에서는 무슨 일을 해요? What do they do in the coal washery? 268",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "반장님이 거기로 오라고 하셔서요. 발음 │ PRONUNCIATION 받침 ‘ㄱ, ㄷ, ㅂ, ㅈ’이 뒤 음절 첫소리 ‘ㅎ’와 결합되는 경우, 두 음을 합쳐서 [ㅋ, ㅌ, ㅍ, ㅊ]로 발음한다. When final consonants ‘ㄱ, ㄷ, ㅂ, ㅈ’ combine with the initial consonant ‘ㅎ’ in the following syllable, the two sounds combine and are pronounced as [ㅋ, ㅌ, ㅍ, ㅊ] respectively. ⑴ 특히[트키] 역할[여칼] 맏형[마텽] 입학[이팍] ⑵ 먹히다[머키다] 좁히다[조피다] 꽂히다[꼬치다] 269 왕 민 \u0007반장님, 오늘도 4번 막장에서 작업하면 돼요? Banjangnim, can we work in section 4 today again? 반장님 \u0007아니요, 왕민 씨하고 장웨이 씨는 선탄장으로 가세요. 내일 석탄 출하를 해야 돼서 일손이 더 필요하대요. \u0007No, could you and Zhangwei please go to the coal washery? They said they need more workers because they have to ship the coal tomorrow. 왕 민 \u0007선탄장요? 거기서는 뭘 하면 돼요? The coal washery? What shall we do there? 반장님 \u0007선탄장에서는 큰 석탄을 부수고 불순물을 골라내야 돼요. 세척도 하고요. 내일까지 거기서 일하고 모레부터 는 다시 4번 막장으로 오세요. \u0007In the coal washery we need to break up the large coal and pick out the impurities. We’ll also need to clean it. Work there until tomorrow and come back to section 4 the day after. 왕 민 \u0007알겠습니다. 그런데 선탄장은 어디 있어요? Got it. But where is the coal washery? 반장님 \u0007갱구 오른쪽에 있어요. It's on the right side of the tunnel entrance. 대답해 봐요!  ANSWER ME! 1  \u0007왕민 씨는 오늘 어디에서 작업할 거예요? Where will Wangmin work today? 2  \u0007선탄장에서는 무슨 일을 해요? What do they do in the coal washery? 268"
-        }
+        "front": "반장님, 오늘도 4번 막장에서 작업하면 돼요?",
+        "back": "Banjangnim, can we work in section 4 today again?",
+        "speaker": "민",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_4",
-        "front": "왕민 씨는 어디 있어요? 같이 막장으로 이동하죠.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "왕민 씨는 어디 있어요? 같이 막장으로 이동하죠."
-        }
+        "front": "아니요, 왕민 씨하고 장웨이 씨는 선탄장으로 가세요. 내일 석탄 출하를 해야 돼서 일손이 더 필요하대요.",
+        "back": "No, could you and Zhangwei please go to the coal washery? They said they need more workers because they have to ship the coal tomorrow.",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_5",
-        "front": "왕민 씨는 지금 레일을 손보느라고 바쁠 거예요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "왕민 씨는 지금 레일을 손보느라고 바쁠 거예요."
-        }
+        "front": "선탄장요? 거기서는 뭘 하면 돼요?",
+        "back": "The coal washery? What shall we do there?",
+        "speaker": "민",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_6",
-        "front": "그럼 레일을 다 손보고 같이 가자고 해 주세요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "그럼 레일을 다 손보고 같이 가자고 해 주세요."
-        }
+        "front": "반장님 선탄장에서는 큰 석탄을 부수고 불순물을 골라내야\n돼요. 세척도 하고요. 내일까지 거기서 일하고 모레부터\n는 다시 4번 막장으로 오세요.",
+        "back": "In the coal washery we need to break up the large coal and pick out the impurities. We’ll also need to clean it. Work there until tomorrow and come back to section 4 the day after.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_7",
-        "front": "투안 씨 팀은 항상 분위기가 좋은 것 같아요. I feel like Tuan's team always has a good atmosphere.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "\u0007투안 씨 팀은 항상 분위기가 좋은 것 같아요. I feel like Tuan's team always has a good atmosphere."
-        }
+        "front": "민 알겠습니다. 그런데 선탄장은 어디 있어요?",
+        "back": "Got it. But where is the coal washery?",
+        "speaker": "왕",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_8",
-        "front": "네, 팀원들끼리 손발이 잘 맞아요. Yes, the team members work well together. 유용한 표현 │ USEFUL EXPRESSION 손발이 잘 맞아요. We work well together. 271 270",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "\u0007네, 팀원들끼리 손발이 잘 맞아요. Yes, the team members work well together. 유용한 표현 │ USEFUL EXPRESSION 손발이 잘 맞아요. We work well together. 271 270"
-        }
+        "front": "반장님 갱구 오른쪽에 있어요.",
+        "back": "It's on the right side of the tunnel entrance.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       }
     ],
-    "culture": [],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "49 광물 자원 개발 생산",
+        "back": "I can ask and answer questions about mining and ore transport operations.",
+        "body": "• 갱도 시설에 대해 말할 수 있다. I can talk about tunnel facilities.\n• 채광 및 광석 운반 작업에 대해 묻고 대답할 수 있다.\nI can ask and answer questions about mining and ore transport operations.\n• 부정적인 결과의 이유나 원인을 설명할 수 있다.\nI can explain the reasons or causes for negative outcomes.\n49 광물 자원 개발 생산\nMINERAL RESOURCE DEVELOPMENT AND PRODUCTION 203\n전선 접속 방법\nMethod of Connecting Electric Wires\n전선을 접속하기 전에 안전을 위하여 안전장갑을 착용하고\n전원에서 전선을 분리합니다. 전선이 전원에 연결된 상태에\n서 작업을 하거나 젖은 손으로 작업을 하면 감전 사고가 발생\n할 수 있기 때문에 위험합니다.\nBefore connecting the electrical wires, put on safety gloves\nand disconnect the wires from the power source for safety. It\ncan be dangerous to work with wires still connected to the",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook2/unit_49/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
     "reading": [
       {
-        "id": "u49_m1",
+        "id": "u49_r1",
         "nomor": 1,
         "tipe": "membaca",
-        "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
-        "teks_soal": "스크레이퍼",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n스크레이퍼",
+        "jawaban": "c",
         "audio_teks": "",
         "audio_url": "",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r1_a.jpg",
+          "b": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r1_b.jpg",
+          "c": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r1_c.jpg",
+          "d": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_49/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u49_m2",
+        "id": "u49_r2",
         "nomor": 2,
         "tipe": "membaca",
-        "instruksi": "다음 그림과 관계있는 내용은 무엇입니까?",
-        "teks_soal": "",
-        "jawaban": "b",
+        "instruksi": "",
+        "teks_soal": "다음 그림과 관계있는 내용은 무엇입니까?",
+        "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -644,36 +697,45 @@
             "key": "a",
             "label": "A",
             "text": "착암기 – 바위를 뚫어요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r2_a.jpg"
           },
           {
             "key": "b",
             "label": "B",
             "text": "착암기 – 광석을 운반해요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r2_b.jpg"
           },
           {
             "key": "c",
             "label": "C",
             "text": "컨베이어 – 바위를 뚫어요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r2_c.jpg"
           },
           {
             "key": "d",
             "label": "D",
             "text": "컨베이어 – 광석을 운반해요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r2_d.jpg"
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r2_a.jpg",
+          "b": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r2_b.jpg",
+          "c": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r2_c.jpg",
+          "d": "assets/modules/textbook2/unit_49/choice_images/reading/u49_r2_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_49/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u49_m3",
+        "id": "u49_r3",
         "nomor": 3,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "발파 작업 후에는 먼저 석탄으로 사용할 수 없는 을 골라내야 합니다.",
-        "jawaban": "c",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n발파 작업 후에는 먼저 석탄으로 사용할 수 없는 을 골라내야 합니다.",
+        "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -702,15 +764,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_49/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u49_m4",
+        "id": "u49_r4",
         "nomor": 4,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "컨베이어에 퍼 올릴 수 없을 정도로 큰 석탄은 함마를 이용해서 됩니다.",
-        "jawaban": "d",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n컨베이어에 퍼 올릴 수 없을 정도로 큰 석탄은 함마를 이용해서 됩니다.",
+        "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -739,15 +805,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_49/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u49_m5",
+        "id": "u49_r5",
         "nomor": 5,
         "tipe": "membaca",
-        "instruksi": "다음은 무엇에 대한 설명입니까?",
-        "teks_soal": "롱 노즈 플라이어를 사용하여 피복을 벗겨낸 두 개의 구리선을 트위스트 방식으로 묶습니다. 두 구리선은 간격이 생기지 않도록 촘촘하게 묶어야 하고, 다 묶은 뒤에 구리선의 끝부분은 롱 노즈 플라이어를 사용하여 깔끔하게 고정시켜야 합니다. 204 한국어 표준교재 2",
-        "jawaban": "b",
+        "instruksi": "",
+        "teks_soal": "다음은 무엇에 대한 설명입니까?\n롱 노즈 플라이어를 사용하여 피복을 벗겨낸 두 개의 구리선을 트위스트 방식으로 묶습니다. 두 구리선은\n간격이 생기지 않도록 촘촘하게 묶어야 하고, 다 묶은 뒤에 구리선의 끝부분은 롱 노즈 플라이어를 사용하여\n깔끔하게 고정시켜야 합니다.",
+        "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -776,7 +846,11 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_49/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ],
     "listening": [
@@ -785,174 +859,225 @@
         "nomor": 1,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 작업장까지 어떻게 가요? 여 : 인차를 타고 갈 거예요.",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
         "jawaban": "a",
-        "audio_teks": "1. 남 : 작업장까지 어떻게 가요?\n여 : 인차를 타고 갈 거예요.\n2. 남 : 지금 발파할 거예요?\n3. 남 : 석탄을 너무 많이 실으면 안 돼요.\n4. 여 : 반장님, 레일을 깔기 시작할까요?\n남 : 지주부터 세우고 레일을 깔아야 해요.\n5. 여 : 왕민 씨, 발파한다는 소리 못 들었어요?\n남 : 죄송합니다, 반장님. 기계 소리 때문에 못 들었어요.\n여 : 5분 후에 발파할 거니까 하던 일 멈추고 얼른 나가세요.\n49 광물 자원 개발 생산 MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 205",
+        "audio_teks": "남 : 작업장까지 어떻게 가요?\n여 : 인차를 타고 갈 거예요.",
         "audio_url": "assets/modules/textbook2/audio/unit_49/listening_1.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_01.jpeg"
+            "image": "assets/modules/textbook2/unit_49/choice_images/listening/u49_l1_a.jpg"
           },
           {
             "key": "b",
             "label": "B",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_02.jpeg"
+            "image": "assets/modules/textbook2/unit_49/choice_images/listening/u49_l1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_49/choice_images/listening/u49_l1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_49/choice_images/listening/u49_l1_d.jpg"
           }
         ],
         "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_01.jpeg",
-          "b": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_02.jpeg"
-        }
+          "a": "assets/modules/textbook2/unit_49/choice_images/listening/u49_l1_a.jpg",
+          "b": "assets/modules/textbook2/unit_49/choice_images/listening/u49_l1_b.jpg",
+          "c": "assets/modules/textbook2/unit_49/choice_images/listening/u49_l1_c.jpg",
+          "d": "assets/modules/textbook2/unit_49/choice_images/listening/u49_l1_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_49/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u49_l2",
         "nomor": 2,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 지금 발파할 거예요?",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
         "jawaban": "d",
-        "audio_teks": "1. 남 : 작업장까지 어떻게 가요?\n여 : 인차를 타고 갈 거예요.\n2. 남 : 지금 발파할 거예요?\n3. 남 : 석탄을 너무 많이 실으면 안 돼요.\n4. 여 : 반장님, 레일을 깔기 시작할까요?\n남 : 지주부터 세우고 레일을 깔아야 해요.\n5. 여 : 왕민 씨, 발파한다는 소리 못 들었어요?\n남 : 죄송합니다, 반장님. 기계 소리 때문에 못 들었어요.\n여 : 5분 후에 발파할 거니까 하던 일 멈추고 얼른 나가세요.\n49 광물 자원 개발 생산 MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 205",
+        "audio_teks": "남 : 지금 발파할 거예요?",
         "audio_url": "assets/modules/textbook2/audio/unit_49/listening_2.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_02.jpeg"
+            "text": "사람들을 부를 거예요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_02.jpeg"
+            "text": "아무 소리도 안 들려요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_02.jpeg"
+            "text": "이쪽으로 가까이 오세요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_02.jpeg"
+            "text": "좀 더 이따가 할 거예요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_02.jpeg",
-          "b": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_02.jpeg",
-          "c": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_02.jpeg",
-          "d": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_02.jpeg"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_49/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u49_l3",
         "nomor": 3,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 석탄을 너무 많이 실으면 안 돼요.",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
         "jawaban": "c",
-        "audio_teks": "1. 남 : 작업장까지 어떻게 가요?\n여 : 인차를 타고 갈 거예요.\n2. 남 : 지금 발파할 거예요?\n3. 남 : 석탄을 너무 많이 실으면 안 돼요.\n4. 여 : 반장님, 레일을 깔기 시작할까요?\n남 : 지주부터 세우고 레일을 깔아야 해요.\n5. 여 : 왕민 씨, 발파한다는 소리 못 들었어요?\n남 : 죄송합니다, 반장님. 기계 소리 때문에 못 들었어요.\n여 : 5분 후에 발파할 거니까 하던 일 멈추고 얼른 나가세요.\n49 광물 자원 개발 생산 MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 205",
+        "audio_teks": "남 : 석탄을 너무 많이 실으면 안 돼요.",
         "audio_url": "assets/modules/textbook2/audio/unit_49/listening_3.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_03.png"
+            "text": "한번 알아볼게요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_03.png"
+            "text": "이제 시작할 거예요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_03.png"
+            "text": "이 정도는 괜찮지요?",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_03.png"
+            "text": "석탄을 실어야 되지요?",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_03.png",
-          "b": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_03.png",
-          "c": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_03.png",
-          "d": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_03.png"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_49/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u49_l4",
         "nomor": 4,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 반장님, 레일을 깔기 시작할까요? 남 : 지주부터 세우고 레일을 깔아야 해요.",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
         "jawaban": "a",
-        "audio_teks": "1. 남 : 작업장까지 어떻게 가요?\n여 : 인차를 타고 갈 거예요.\n2. 남 : 지금 발파할 거예요?\n3. 남 : 석탄을 너무 많이 실으면 안 돼요.\n4. 여 : 반장님, 레일을 깔기 시작할까요?\n남 : 지주부터 세우고 레일을 깔아야 해요.\n5. 여 : 왕민 씨, 발파한다는 소리 못 들었어요?\n남 : 죄송합니다, 반장님. 기계 소리 때문에 못 들었어요.\n여 : 5분 후에 발파할 거니까 하던 일 멈추고 얼른 나가세요.\n49 광물 자원 개발 생산 MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 205",
+        "audio_teks": "여 : 반장님, 레일을 깔기 시작할까요?\n남 : 지주부터 세우고 레일을 깔아야 돼요.",
         "audio_url": "assets/modules/textbook2/audio/unit_49/listening_4.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_04.png"
+            "text": "작업 순서",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_04.png"
+            "text": "작업 장소",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_04.png"
+            "text": "작업 시간",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_04.png"
+            "text": "작업 복장",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_04.png",
-          "b": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_04.png",
-          "c": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_04.png",
-          "d": "assets/langit-korea-extracted/unit_49/images/u49_h9_soal_listening_04.png"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_49/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u49_l5",
         "nomor": 5,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 왕민 씨, 발파한다는 소리 못 들었어요? 남 : 죄송합니다, 반장님. 기계 소리 때문에 못 들었어요. 여 : 5분 후에 발파할 거니까 하던 일 멈추고 얼른 나가세요. 49 광물 자원 개발 생산 MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 205",
+        "teks_soal": "다음 중 들은 내용과 같은 것은 무엇입니까?",
         "jawaban": "d",
-        "audio_teks": "1. 남 : 작업장까지 어떻게 가요?\n여 : 인차를 타고 갈 거예요.\n2. 남 : 지금 발파할 거예요?\n3. 남 : 석탄을 너무 많이 실으면 안 돼요.\n4. 여 : 반장님, 레일을 깔기 시작할까요?\n남 : 지주부터 세우고 레일을 깔아야 해요.\n5. 여 : 왕민 씨, 발파한다는 소리 못 들었어요?\n남 : 죄송합니다, 반장님. 기계 소리 때문에 못 들었어요.\n여 : 5분 후에 발파할 거니까 하던 일 멈추고 얼른 나가세요.\n49 광물 자원 개발 생산 MINERAL RESOURCE DEVELOPMENT AND PRODUCTION 205",
+        "audio_teks": "여 : 왕민 씨, 발파한다는 소리 못 들었어요?\n남 : 죄송합니다, 반장님. 기계 소리 때문에 못 들었어요.\n여 : 5분 후에 발파할 거니까 하던 일 멈추고 얼른 나가세요.",
         "audio_url": "assets/modules/textbook2/audio/unit_49/listening_5.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "반장님은 발파 계획에 대해 모르고 있습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "왕민 씨는 지금 기계 사용법을 배우고 있습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "반장님은 왕민 씨와 발파 작업을 하고 있습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "왕민 씨는 작업을 멈추고 작업장에서 나가야 합니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_49/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ]
   },
   "integrity": {
     "pdf_pages": 10,
-    "vocab_cards": 45,
+    "lesson_flow": 10,
+    "vocab_cards": 29,
+    "grammar_cards": 2,
+    "conversation_cards": 8,
+    "culture_cards": 1,
     "reading_questions": 5,
     "listening_questions": 5,
-    "listening_audio": 5
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_audio": 5,
+    "listening_scripts": 5
   }
 }

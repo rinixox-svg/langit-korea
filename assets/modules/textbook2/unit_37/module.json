@@ -4,7 +4,7 @@
   "unit": 37,
   "title_ko": "기계 가공",
   "title_en": "Machine Processing",
-  "title_id": "Pemrosesan Mesin",
+  "title_id": "Pemrosesan mesin",
   "source_pdf": "assets/langit-korea-modules/unit_37_machine_processing.pdf",
   "page_start": 77,
   "page_end": 86,
@@ -61,615 +61,763 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 77,
+        "image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "37 기계 가공 \n MACHINE PROCESSING 77\n어휘 VOCABULARY\n기계 작동 관련 어휘 Operating Machines\n작동하다\nto operate \n멈추다\nto stop\n전원을 켜다\nto turn on the power\n전원을 끄다\nto turn off the power\n스위치를 올리다\nto turn on the switch\n스위치를 내리다\nto turn off the switch\n레버를 당기다\nto pull the lever\n레버를 밀다\nto push the lever\n부품을 장착하다/끼우다\nto install/insert a part\n부품을 해체하다/빼다\nto disassemble/remove a part\n(버튼을) 누르다\nto press (a button)\n(핸들을) 돌리다\nto turn (a handle)\n좌\n우\n상\n하\n좌\nleft\n우\nright\n상\nup\n하\ndown\n회전\nrotation\n밀리다 to be delayed\n우선 first of all\n이물질 foreign substance\n끼다 to get stuck\n제대로 properly\n점검하다 to inspect\n아무리 no matter how\n환풍기 ventilator\n 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.\n⑴\n가 : 뭐 하고 있어요?\n나 : 고 있어요.\n⑵\n가 : 이 기계는 어떻게 작동해요?\n나: 아야/어야 \n돼요.\n⑶\n가 : 이 기계는 어떻게 작동해요?\n나 : 아야/어야 \n돼요.\n⑷\n가 : 뭐 하고 있어요?\n나 : 고 있어요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 78,
+        "image": "assets/modules/textbook2/unit_37/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "78 한국어 표준교재 2\n문법 GRAMMAR\n-아도/어도\n‘-아도/어도’는 동사, 형용사에 붙어 뒤의 내용이 앞의 내용을 바탕으로 한 기대에 어긋남을 나타낸다.\n‘-아도/어도’ is attached to a verb or adjective to express that the following content goes against the expectations \nof the preceding content.\nㅏ, ㅗ\n-아도\n \n자다 → 자도\nㅓ, ㅜ, ㅣ…\n-어도\n \n쉬다 → 쉬어도\n-하다\n-해도\n \n일하다 → 일해도\n예 잔업 후에는 늦잠을 자도 피곤해요.\n \n버튼을 눌러도 작동하지 않아서 수리를 맡겼습니다.\n \n작업이 끝나면 피곤해도 작업장 정리를 해야 해요.\n1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.\n전원을 켜다 여러 번 읽다 계속 전화하다 오랫동안 환기를 하다\n⑴ 늦은 밤이라서 받지 않아요.\n⑵ 기계가 작동되지 않으면 점검을 하세요.\n⑶ 한국어 실력이 부족해서 설명서를 이해하지 못했어요.\n⑷ 환풍기를 안 켜서 냄새가 없어지지 않아요.\n2. 그림을 보고 [보기]와 같이 대화해 보세요. Look at the pictures and practice speaking as shown in the example.\n스위치를 올리다/\n작동이 안 되다\n가 : 무슨 문제가 있어요?\n나 : 스위치를 올려도 작동이 안 돼요.\n[ 보기 ]\n⑴\n⑵\n⑶\n⑷\n전원을 끄다/ \n기계가 멈추지 않다\n버튼을 누르다/ \n전원이 안 켜지다\n창문을 열다/ \n냄새가 나다\n일이 많아 바쁘다/기계를 \n꼼꼼하게 점검해야 되다",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 79,
+        "image": "assets/modules/textbook2/unit_37/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "37 기계 가공 \n MACHINE PROCESSING 79\n대화 CONVERSATION\n마\n두 \n반장님, 기계가 자꾸 멈춰서 작업이 많이 밀렸어요.\n \nBanjangnim, the machine keeps stopping, so it's delaying \nthe work a lot.\n반장님 \n어제까지는 괜찮았는데 갑자기 왜요? 우선 전원부터 \n끄세요.\n \nIt was fine only yesterday. What happened? First, turn off \nthe power.\n마\n두 \n오전에는 문제가 없었는데 오후 작업 때부터 \n작동이 잘 안 돼요.\n \nThere was no problem in the morning, but since the \nafternoon, the machine hasn’t been working well. \n반장님 \n아, 여기에 이물질이 껴 있네요. 작업 전에 점검 안 했어요?\n \nAh, there’s some foreign substance stuck here. Didn’t you inspect it before starting work?\n마\n두 \n죄송합니다. 오늘은 작업할 게 많아서 제대로 점검을 못 했어요.\n \nSorry. There’s so much work today that I couldn’t inspect it properly.\n반장님 \n아무리 바빠도 작업 전에 꼼꼼하게 점검해야 돼요. 잘못하면 사고가 날 수 있어요.\n \nNo matter how busy you are, you need to inspect the machine thoroughly before starting. Otherwise, it could \nlead to an accident.\n대답해 봐요! ANSWER ME!\n1 기계는 언제부터 작동이 안 돼요? Since when did the machine stop working?\n2 기계는 왜 작동이 안 돼요? Why is the machine not working?\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•기계에 문제가 생기다, 전원을 확인하다, 전원을 켜다\n•기계가 멈추다, 기계를 점검하다, 이물질을 없애다\n가 : 푸캄 씨, 일 다 끝났어요?\n나 : 아니요, 기계에 문제가 생겨서 작업을 못 하고 있어요.\n가 : 전원을 확인했어요?\n나 : 네, 전원을 켜도 작동이 안 돼요. \n발음 │ PRONUNCIATION\n받침 ‘ㄺ, ㄻ’ 뒤에 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’가 연결되는 경우, 겹자음 중 뒤의 것만 발음하고 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’는 된소리로 발\n음한다.\nWhen ‘ㄺ, ㄻ’ is followed by ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’, the second consonant of the cluster is pronounced, and ‘ㄱ, \nㄷ, ㅂ, ㅅ, ㅈ’ are pronounced as tense sounds.\n⑴ 닭고기[닥꼬기] \n흙바닥[흑빠닥] \n맑다[막따] \n⑵ 젊지[점찌] \n삶다[삼따] \n닮고[담꼬] \n209\n208",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 80,
+        "image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "80 한국어 표준교재 2\n 관계있는 것끼리 연결하세요. Connect the related items.\n⑴\n선반 기계\n●\n ●\n먼지를 떨어요.\n⑵\n프레스 기계\n●\n●\n공작물을 갈아요.\n⑶\n드릴링머신\n●\n●\n구멍을 뚫어요.\n⑷\n에어컴프레서\n●\n●\n철판을 구부려요.\n칩 chip\n도면 blueprint\n정확하다 to be accurate\n양 quantity\n낫다 to be better\n어휘 VOCABULARY\n기구와 용도 관련 어휘 Tools and their Uses\n드릴링머신\ndrilling machine\n전동커터기\nelectric cutter\n에어컴프레서\nair compressor\n구멍을 내다/뚫다\nto drill holes\n먼지를 떨다\nto dust off\n밀링 머신\nmilling machine\n선반 기계\nlathe machine\n프레스 기계\npress machine\n자르다\nto cut\n깎다\nto trim\n압축하다\nto compress\n도려내다\nto carve\n철판을 구부리다\nto bend a metal plate\n철판을 찍어 내다\nto stamp a metal plate\n공작물을 갈다\nto grind a workpiece",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 81,
+        "image": "assets/modules/textbook2/unit_37/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "37 기계 가공 \n MACHINE PROCESSING 81\n문법 GRAMMAR\n-자고 하다\n‘-자고 하다’는 동사에 붙여 다른 사람이 함께 하자고 요청한 내용을 전달할 때 사용한다.\n‘-자고 하다’ is attached to a verb when relaying a suggestion made by someone else to do something together.\n예 민민아웅 씨가 오늘 저녁에 같이 퇴근하자고 했어요.\n \n프엉 씨가 오전에 작업이 끝나면 같이 점심을 먹자고 했어요.\n \n반장님께서 다음 주에 회식을 하자고 하셨어요.\n1. [보기]와 같이 문장을 바꾸세요. Change the sentences as shown in the example. \n마두 : 같이 작업장을 청소합시다. \n⊙ 마두 씨가 같이 작업장을 청소하자고 했어요. \n[ 보기 ]\n⑴\n칼로 : 작업 전에 기계를 점검합시다.\n⊙ . \n⑵\n아궁 : 안전 교육을 같이 들읍시다. \n⊙ . \n⑶\n다라 : 공구를 사용한 후에 제자리에 둡시다.\n⊙ . \n⑷\n반장님: 작업할 때는 창문을 열어서 환기합시다.\n⊙ . \n2. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example.\n가 : 유수프 씨가 뭐라고 했어요?\n나 : 한 시부터 작업을 시작하자고 했어요. (한 시부터 작업을 시작하다)\n[ 보기 ]\n⑴\n가 : 공장장님이 뭐라고 하셨어요?\n나 : 주문해야 되니까 . (창고에 가서 필요한 공구를 조사하다)\n⑵\n가 : 유진 씨가 뭐라고 했어요?\n나 : 위험하니까 . (기계 주변에 있는 칩을 정리하다)\n⑶\n가 : 반장님이 뭐라고 하셨어요?\n나 : 주문이 많이 들어왔으니까 . (오늘 야근을 하다)\n⑷\n가 : 프엉 씨를 만났어요?\n나 : 아니요, 오늘은 시간이 없으니까 . (내일 만나다)",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 82,
+        "image": "assets/modules/textbook2/unit_37/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "82 한국어 표준교재 2\n대화 CONVERSATION\n진 수 \n아궁 씨, 반장님이 오후에 철판에 구멍 뚫는 작업을 하자고 하셨어요. 여기 이 도면을 보고 \n구멍 좀 뚫어 주세요.\n \nAgung, the banjangnim said we should work on drilling holes in the metal plate this afternoon. \nCould you look at this blueprint and drill the holes?\n아 궁 \n네, 알겠습니다. 밀링 머신으로 하면 되지요?\n \nYes, understood. I should use the milling machine, right?\n진 수 \n이건 밀링 머신보다 드릴링머신으로 하는 게 좋을 거예요.\n \nIt’s better to use the drilling machine for this job than the milling machine.\n아 궁 \n그래요? 밀링 머신이 정확하지 않아요?\n \nReally? Isn’t the milling machine accurate?\n진 수 \n네, 맞아요. 그런데 오늘은 양이 많고 구멍을 뚫기만 \n하면 되니까 드릴링머신으로 하는 게 나아요.\n \nYes, it is, but since we have a large quantity today and \njust need to drill holes, the drilling machine is better.\n아 궁 \n아, 밀링 머신은 꼼꼼하게 작업할 때 쓰는 게 좋다고 \n하셨지요? 알겠습니다. 드릴링머신으로 작업할게요.\n \nAh, you said the milling machine is better for detailed work, \nright? Understood. I’ll use the drilling machine for this job.\n대답해 봐요! ANSWER ME!\n1 반장님은 오늘 무슨 작업을 하자고 하셨어요? \nWhat task did the banjangnim ask them to do today?\n2 진수 씨는 왜 오늘 작업에 드릴링머신이 좋다고 생각해요? \nWhy does Jinsu think the drilling machine is better for today’s work?\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•철판에 구멍을 뚫다, 전기 절단기, 드릴링머신\n•철판을 구부리다, 선반 기계, 프레스 기계\n가 : 오늘 철판에 구멍을 뚫자고 했지요? \n나 : 네, 같이 합시다.\n가 : 전기 절단기로 하면 돼요? \n나 : 아니요, 드릴링머신으로 작업해야 돼요.\n가 : 일을 참 잘하네요. 이제 내가 배워야겠어요. \nYou’re really good at your work. Now I must learn from you.\n나 : 아닙니다. 아직 부족한 게 많습니다. \nNo, I still have much to learn.\n유용한 표현 │ USEFUL EXPRESSION\n부족한 게 많습니다.\nI still have \nmuch to learn.\n211\n210",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 83,
+        "image": "assets/modules/textbook2/unit_37/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "37 기계 가공 \n MACHINE PROCESSING 83\n문화와 정보 CULTURE & INFORMATION\n• 기계 작동 방법에 대해 말할 수 있다. I can talk about how to operate machines. \n↻\n• 기구의 용도에 대해 묻고 대답할 수 있다. I can ask and answer questions about the purpose of tools. \n↻\n• 제안하거나 권유하는 말을 듣고 다른 사람에게 전달할 수 있다. \nI can listen to suggestions or advice and relay them to others. \n↻\n확인해요 │ self assessment\n37 기계 가공 \n MACHINE PROCESSING 83\n한국의 가전제품 \nKorea's Home Appliances\n한국의 가전제품은 최신 기능과 세련된 디자인을 바탕으로 세계인들의 사랑을 받고 있습니\n다. 삼성과 LG가 한국 가전제품의 대표적인 브랜드인데, 텔레비전(TV), 냉장고, 세탁기, 에어\n컨, 청소기, 전자레인지 등과 같은 다양한 가전제품이 전 세계 가전제품 시장을 휩쓸고 있습니\n다. 2023년 미국 가전제품 시장 점유율을 보면 이 두 회사의 점유율이 40%를 차지할 정도로 \n한국의 가전제품은 인기가 많습니다.\nKorean home appliances are loved by people around the world for their latest functions and \nsophisticated design. Samsung and LG are the leading brands in Korean home appliances, \nwith a range of products such as televisions, refrigerators, washing machines, air \nconditioners, vacuum cleaners, and microwaves dominating the global market. In 2023, \nKorean home appliances were so popular that Samsung and LG together held a 40% share \nof the U.S. home appliance market.\n한국의 가전제품은 IoT(Internet of Things, 사물인터넷) 등의 첨단 기술을 활용한 스마트 기능도 잘 갖추고 있어 사용자가 더욱 \n편리하게 사용할 수 있습니다. 예를 들어, 사용자가 집 근처에 오면 에어컨이 자동으로 켜져서 더운 날 집에 들어가서 바로 땀을 식\n힐 수 있습니다. 냉장고에는 원격 제어 기능뿐만 아니라 식품의 재고를 관리하고 유통 기한을 알려 주며 레시피를 추천하는 등의 스\n마트 기능이 탑재되어 있습니다. \nKorean home appliances are well-equipped with smart features that utilize advanced technologies such as the Internet of Things \n(IoT), enhancing user convenience. For example, air conditioners can automatically turn on when a user approaches their home, \nallowing them to enter a cool environment on a hot day. Refrigerators come with remote control capabilities and smart features \nthat manage food inventory, notify users of expiration dates, and even recommend recipes.\n한편 최근에는 디자인과 기능을 소비자의 취향에 맞춘 비스포크\n(bespoke) 가전제품들이 출시되어, 한국 제품의 인지도를 더욱 높이고 있\n습니다. 비스포크 냉장고는 색상과 소재뿐만 아니라 냉동실과 냉장실의 위\n치를 소비자가 선택할 수 있고, 제균 및 탈취 기능이나 쇼케이스(홈바)의 탑\n재 여부도 소비자가 결정할 수 있습니다. \nLately, Bespoke home appliances have been introduced, catering to \nconsumers’ preferences in both design and functionality, further \nenhancing the recognition of Korean products. Bespoke refrigerators \nallow consumers to choose not only the color and material but also the \nplacement of the freezer and refrigerator compartments. Additionally, users can decide whether to include features such as \nsterilization and deodorization functions or a home bar.\n2023년 미국 \n생활가전 시장 점유율\n 단위:%\n21\n삼성\n전자\n19\nLG\n전자\n18\nGE\n15\n월풀",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 84,
+        "image": "assets/modules/textbook2/unit_37/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n84 한국어 표준교재 2\n1. \n다음 그림과 관계있는 내용은 무엇입니까?\n① 밀링 머신 – 철판을 구부려요.\n② 밀링 머신 – 공작물을 갈아요.\n③ 프레스 기계 – 철판을 구부려요.\n④ 프레스 기계 – 공작물을 갈아요.\n2. 다음 단어와 관계있는 것은 무엇입니까? \n선반 기계\n① 기계 가공 \n② 상품 포장 \n③ 제품 운반 \n④ 자재 관리\n3. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오. \n① 전원을 끄도 멈추지 않아요. \n \n② 비가 안 와도 덮개를 덮으세요.\n③ 창문을 열도 냄새가 계속 나요. \n④ 스위치를 올리도 작동이 안 돼요.\n4. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n선반 기계의 높이가 좀 낮아요. 그래서 을/를 돌려 높이를 맞췄어요.\n① 핸들 \n \n \n② 커터\n③ 스위치 \n \n \n④ 환풍기\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국의 가전제품은 최신 기능과 세련된 디자인으로 세계인들의 사랑을 받고 있습니다. 텔레비전, \n냉장고, 세탁기, 에어컨 등과 같은 다양한 가전제품이 전 세계 가전제품 시장을 휩쓸고 있습니다. 2023년 \n미국 가전제품 시장에서 한국 상품의 시장 점유율이 40%를 차지할 정도로 인기가 많습니다.\n① 한국의 가전제품은 세계 여러 나라에서 인기가 있습니다.\n② 한국의 기업은 아직 미국 시장으로는 진출하지 않았습니다. \n③ 한국의 가전제품은 디자인보다는 기능에 집중하고 있습니다.\n④ 한국의 기업들은 소형 가전제품 개발에 중점을 두고 있습니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 85,
+        "image": "assets/modules/textbook2/unit_37/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n37 기계 가공 \n MACHINE PROCESSING 85\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n[2~3] 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n2.\n① 미리 바꿔 놨어요. \n \n \n② 먼저 들어가겠습니다. \n③ 조심해서 작업하세요. \n \n \n④ 곧 작업을 시작할게요.\n3.\n① 치우는 걸 깜빡했어요. \n \n \n② 제가 깨끗하게 치웠어요.\n③ 칩이 튀니까 조심하세요. \n \n④ 기계에 칩이 끼면 고장이 잘 나요.\n4. 두 사람은 무엇에 대해 말하고 있습니까? \n① 작동 순서 \n \n \n② 작업 수칙 \n③ 작동 방법 \n \n \n④ 작업 복장\n5. \n다음 중 들은 내용과 같은 것은 무엇입니까?\n① 남자는 작업을 하면서 다른 생각을 했습니다.\n② 남자는 프레스 기계 때문에 손을 다쳤습니다.\n③ 여자는 남자에게 작업 방법을 알려 주고 있습니다.\n④ 여자는 프레스 기계를 사용해서 작업하고 있습니다.\n1. \n남 : 무슨 버튼을 눌러야 돼요?\n \n여 : 빨간색 버튼을 누르세요.\n2. 남 : 커터를 좀 교체해 주세요. \n3. 남 : 작업하고 나서 칩을 안 치웠네요. \n4. 여 : 반장님, 밀링 머신의 먼지를 털고 작업해야 되지요? \n \n남 : 그럼요, 밀링 작업을 할 때는 작업대 위를 깨끗이 치우고 해야 돼요.\n5. 여 : 마두 씨, 손 괜찮아요? 프레스 기계는 조금만 방심해도 큰 사고가 날 수 있어요. \n \n남 : 네, 괜찮아요. 잠깐 딴생각을 했어요. 다칠 뻔했네요.\n \n여 : 많이 놀랐죠? 좀 쉬었다가 하세요.\n듣기지문\n212",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 86,
+        "image": "assets/modules/textbook2/unit_37/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "기계 조립 \nMachine Assembly \nC H A P T E R 3 8\n86 한국어 표준교재 2\n학습 목표\nLEARNING OBJECTIVES\n조립 공구와 부품에 대해 말할 수 있다.\nCan talk about assembly tools and parts.\n공구 사용법에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about how to use tools.\n-(으)면서\n-는 중이다\nGRAMMAR\n문법\n조립 공구와 부품\nAssembly Tools and Parts\n조립 및 분해 작업 관련 어휘\nVocabulary Related to the Assembly \nand Disassembly Process\nVOCABULARY\n어휘\n한국의 자동차 산업\nKorea’s Automobile Industry\nCULTURE & INFORMATION\n문화와 정보\n네, 도면을 보면서 필요한 부품하고 \n공구도 챙겨 놓고 작업 순서도 확인했어요.\n조립할 때 쓸 부품하고 공구는 준비됐어요?\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "vocab": [
       {
         "id": "vocab_1",
-        "front": "37 기계 가공",
-        "back": "MACHINE PROCESSING 77",
-        "raw": {
-          "korean": "37  기계 가공",
-          "indonesia": "MACHINE PROCESSING   77"
-        }
+        "front": "기계 작동 관련 어휘",
+        "back": "Operating Machines",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_2",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "작동하다",
+        "back": "to operate",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_3",
-        "front": "기계 작동 관련 어휘",
-        "back": "Operating Machines",
-        "raw": {
-          "korean": "기계 작동 관련 어휘",
-          "indonesia": "\u0007Operating Machines"
-        }
+        "front": "멈추다",
+        "back": "to stop",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_4",
-        "front": "작동하다",
-        "back": "to operate",
-        "raw": {
-          "korean": "작동하다",
-          "indonesia": "to operate"
-        }
+        "front": "전원을 켜다",
+        "back": "to turn on the power",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_5",
-        "front": "멈추다",
-        "back": "to stop",
-        "raw": {
-          "korean": "멈추다",
-          "indonesia": "to stop"
-        }
+        "front": "전원을 끄다",
+        "back": "to turn off the power",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_6",
-        "front": "전원을 켜다",
-        "back": "to turn on the power",
-        "raw": {
-          "korean": "전원을 켜다",
-          "indonesia": "to turn on the power"
-        }
+        "front": "스위치를 올리다",
+        "back": "to turn on the switch",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_7",
-        "front": "전원을 끄다",
-        "back": "to turn off the power",
-        "raw": {
-          "korean": "전원을 끄다",
-          "indonesia": "to turn off the power"
-        }
+        "front": "스위치를 내리다",
+        "back": "to turn off the switch",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_8",
-        "front": "스위치를 올리다",
-        "back": "to turn on the switch",
-        "raw": {
-          "korean": "스위치를 올리다",
-          "indonesia": "to turn on the switch"
-        }
+        "front": "레버를 당기다",
+        "back": "to pull the lever",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_9",
-        "front": "스위치를 내리다",
-        "back": "to turn off the switch",
-        "raw": {
-          "korean": "스위치를 내리다",
-          "indonesia": "to turn off the switch"
-        }
+        "front": "레버를 밀다",
+        "back": "to push the lever",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_10",
-        "front": "레버를 당기다",
-        "back": "to pull the lever",
-        "raw": {
-          "korean": "레버를 당기다",
-          "indonesia": "to pull the lever"
-        }
+        "front": "부품을 장착하다/끼우다",
+        "back": "to install/insert a part",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_11",
-        "front": "레버를 밀다",
-        "back": "to push the lever",
-        "raw": {
-          "korean": "레버를 밀다",
-          "indonesia": "to push the lever"
-        }
+        "front": "부품을 해체하다/빼다",
+        "back": "to disassemble/remove a part",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_12",
-        "front": "부품을 장착하다/끼우다",
-        "back": "to install/insert a part",
-        "raw": {
-          "korean": "부품을 장착하다/끼우다",
-          "indonesia": "to install/insert a part"
-        }
+        "front": "(버튼을) 누르다",
+        "back": "to press (a button)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_13",
-        "front": "부품을 해체하다/빼다",
-        "back": "to disassemble/remove a part",
-        "raw": {
-          "korean": "부품을 해체하다/빼다",
-          "indonesia": "to disassemble/remove a part"
-        }
+        "front": "(핸들을) 돌리다",
+        "back": "to turn (a handle)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_14",
-        "front": "(버튼을) 누르다",
-        "back": "to press (a button)",
-        "raw": {
-          "korean": "(버튼을) 누르다",
-          "indonesia": "to press (a button)"
-        }
+        "front": "좌",
+        "back": "left",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_15",
-        "front": "(핸들을) 돌리다",
-        "back": "to turn (a handle)",
-        "raw": {
-          "korean": "(핸들을) 돌리다",
-          "indonesia": "to turn (a handle)"
-        }
+        "front": "우",
+        "back": "right",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_16",
-        "front": "좌",
-        "back": "left",
-        "raw": {
-          "korean": "좌",
-          "indonesia": "left"
-        }
+        "front": "상",
+        "back": "up",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_17",
-        "front": "우",
-        "back": "right",
-        "raw": {
-          "korean": "우",
-          "indonesia": "right"
-        }
+        "front": "하",
+        "back": "down",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_18",
-        "front": "상",
-        "back": "up",
-        "raw": {
-          "korean": "상",
-          "indonesia": "up"
-        }
+        "front": "회전",
+        "back": "rotation",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_19",
-        "front": "하",
-        "back": "down",
-        "raw": {
-          "korean": "하",
-          "indonesia": "down"
-        }
+        "front": "밀리다",
+        "back": "to be delayed",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_20",
-        "front": "회전",
-        "back": "rotation",
-        "raw": {
-          "korean": "회전",
-          "indonesia": "rotation"
-        }
+        "front": "우선",
+        "back": "first of all",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_21",
-        "front": "그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.",
-        "back": "⑴",
-        "raw": {
-          "korean": "\u0007그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.",
-          "indonesia": "⑴"
-        }
+        "front": "이물질",
+        "back": "foreign substance",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_22",
-        "front": "나 : 고 있어요.",
-        "back": "⑵",
-        "raw": {
-          "korean": "나 :                                고 있어요.",
-          "indonesia": "⑵"
-        }
+        "front": "끼다",
+        "back": "to get stuck",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_23",
-        "front": "돼요.",
-        "back": "⑶",
-        "raw": {
-          "korean": "돼요.",
-          "indonesia": "⑶"
-        }
+        "front": "제대로",
+        "back": "properly",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_24",
-        "front": "돼요.",
-        "back": "⑷",
-        "raw": {
-          "korean": "돼요.",
-          "indonesia": "⑷"
-        }
+        "front": "점검하다",
+        "back": "to inspect",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_25",
-        "front": "관계있는 것끼리 연결하세요. Connect the related items.",
-        "back": "⑴",
-        "raw": {
-          "korean": "\u0007관계있는 것끼리 연결하세요. Connect the related items.",
-          "indonesia": "⑴"
-        }
+        "front": "아무리",
+        "back": "no matter how",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_26",
-        "front": "선반 기계",
-        "back": "●",
-        "raw": {
-          "korean": "선반 기계",
-          "indonesia": "●"
-        }
+        "front": "환풍기",
+        "back": "ventilator",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_27",
-        "front": "먼지를 떨어요.",
-        "back": "⑵",
-        "raw": {
-          "korean": "먼지를 떨어요.",
-          "indonesia": "⑵"
-        }
+        "front": "기구와 용도 관련 어휘",
+        "back": "Tools and their Uses",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_28",
-        "front": "프레스 기계",
-        "back": "●",
-        "raw": {
-          "korean": "프레스 기계",
-          "indonesia": "●"
-        }
+        "front": "드릴링머신",
+        "back": "drilling machine",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_29",
-        "front": "공작물을 갈아요.",
-        "back": "⑶",
-        "raw": {
-          "korean": "공작물을 갈아요.",
-          "indonesia": "⑶"
-        }
+        "front": "전동커터기",
+        "back": "electric cutter",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_30",
-        "front": "드릴링머신",
-        "back": "●",
-        "raw": {
-          "korean": "드릴링머신",
-          "indonesia": "●"
-        }
+        "front": "에어컴프레서",
+        "back": "air compressor",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_31",
-        "front": "구멍을 뚫어요.",
-        "back": "⑷",
-        "raw": {
-          "korean": "구멍을 뚫어요.",
-          "indonesia": "⑷"
-        }
+        "front": "구멍을 내다/뚫다",
+        "back": "to drill holes",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_32",
-        "front": "에어컴프레서",
-        "back": "●",
-        "raw": {
-          "korean": "에어컴프레서",
-          "indonesia": "●"
-        }
+        "front": "먼지를 떨다",
+        "back": "to dust off",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_33",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "밀링 머신",
+        "back": "milling machine",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_34",
-        "front": "기구와 용도 관련 어휘",
-        "back": "Tools and their Uses",
-        "raw": {
-          "korean": "기구와 용도 관련 어휘",
-          "indonesia": "Tools and their Uses"
-        }
+        "front": "선반 기계",
+        "back": "lathe machine",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_35",
-        "front": "드릴링머신",
-        "back": "drilling machine",
-        "raw": {
-          "korean": "드릴링머신",
-          "indonesia": "drilling machine"
-        }
+        "front": "프레스 기계",
+        "back": "press machine",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_36",
-        "front": "전동커터기",
-        "back": "electric cutter",
-        "raw": {
-          "korean": "전동커터기",
-          "indonesia": "electric cutter"
-        }
+        "front": "자르다",
+        "back": "to cut",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_37",
-        "front": "에어컴프레서",
-        "back": "air compressor",
-        "raw": {
-          "korean": "에어컴프레서",
-          "indonesia": "air compressor"
-        }
+        "front": "깎다",
+        "back": "to trim",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_38",
-        "front": "구멍을 내다/뚫다",
-        "back": "to drill holes",
-        "raw": {
-          "korean": "구멍을 내다/뚫다",
-          "indonesia": "to drill holes"
-        }
+        "front": "압축하다",
+        "back": "to compress",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_39",
-        "front": "먼지를 떨다",
-        "back": "to dust off",
-        "raw": {
-          "korean": "먼지를 떨다",
-          "indonesia": "to dust off"
-        }
+        "front": "도려내다",
+        "back": "to carve",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_40",
-        "front": "밀링 머신",
-        "back": "milling machine",
-        "raw": {
-          "korean": "밀링 머신",
-          "indonesia": "milling machine"
-        }
+        "front": "철판을 구부리다",
+        "back": "to bend a metal plate",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_41",
-        "front": "선반 기계",
-        "back": "lathe machine",
-        "raw": {
-          "korean": "선반 기계",
-          "indonesia": "lathe machine"
-        }
+        "front": "철판을 찍어 내다",
+        "back": "to stamp a metal plate",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_42",
-        "front": "프레스 기계",
-        "back": "press machine",
-        "raw": {
-          "korean": "프레스 기계",
-          "indonesia": "press machine"
-        }
-      },
-      {
-        "id": "vocab_43",
-        "front": "자르다",
-        "back": "to cut",
-        "raw": {
-          "korean": "자르다",
-          "indonesia": "to cut"
-        }
-      },
-      {
-        "id": "vocab_44",
-        "front": "깎다",
-        "back": "to trim",
-        "raw": {
-          "korean": "깎다",
-          "indonesia": "to trim"
-        }
-      },
-      {
-        "id": "vocab_45",
-        "front": "압축하다",
-        "back": "to compress",
-        "raw": {
-          "korean": "압축하다",
-          "indonesia": "to compress"
-        }
-      },
-      {
-        "id": "vocab_46",
-        "front": "도려내다",
-        "back": "to carve",
-        "raw": {
-          "korean": "도려내다",
-          "indonesia": "to carve"
-        }
-      },
-      {
-        "id": "vocab_47",
-        "front": "철판을 구부리다",
-        "back": "to bend a metal plate",
-        "raw": {
-          "korean": "철판을 구부리다",
-          "indonesia": "to bend a metal plate"
-        }
-      },
-      {
-        "id": "vocab_48",
-        "front": "철판을 찍어 내다",
-        "back": "to stamp a metal plate",
-        "raw": {
-          "korean": "철판을 찍어 내다",
-          "indonesia": "to stamp a metal plate"
-        }
-      },
-      {
-        "id": "vocab_49",
         "front": "공작물을 갈다",
         "back": "to grind a workpiece",
-        "raw": {
-          "korean": "공작물을 갈다",
-          "indonesia": "to grind a workpiece"
-        }
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       }
     ],
     "grammar": [
       {
         "id": "grammar_1",
-        "front": "78 한국어 표준교재 2",
-        "back": "문법 GRAMMAR",
-        "raw": {
-          "pattern": "78   한국어 표준교재  2",
-          "explanation": "문법  GRAMMAR"
-        }
+        "front": "-아도/어도",
+        "back": "‘-아도/어도’는 동사, 형용사에 붙어 뒤의 내용이 앞의 내용을 바탕으로 한 기대에 어긋남을 나타낸다.\n‘-아도/어도’ is attached to a verb or adjective to express that the following content goes against the expectations\nof the preceding content.\nㅏ, ㅗ\n-아도\n자다 → 자도\nㅓ, ㅜ, ㅣ…\n-어도\n쉬다 → 쉬어도\n-하다\n-해도\n일하다 → 일해도",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
       },
       {
         "id": "grammar_2",
-        "front": "‘-아도/어도’는 동사, 형용사에 붙어 뒤의 내용이 앞의 내용을 바탕으로 한 기대에 어긋남을 나타낸다.",
-        "back": "‘-아도/어도’ is attached to a verb or adjective to express that the following content goes against the expectations",
-        "raw": {
-          "pattern": "‘-아도/어도’는 동사, 형용사에 붙어 뒤의 내용이 앞의 내용을 바탕으로 한 기대에 어긋남을 나타낸다.",
-          "explanation": "‘-아도/어도’ is attached to a verb or adjective to express that the following content goes against the expectations"
-        }
-      },
-      {
-        "id": "grammar_3",
-        "front": "작업이 끝나면 피곤해도 작업장 정리를 해야 해요.",
-        "back": "1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.",
-        "raw": {
-          "pattern": "작업이 끝나면 피곤해도 작업장 정리를 해야 해요.",
-          "explanation": "1. \u0007알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options."
-        }
-      },
-      {
-        "id": "grammar_4",
-        "front": "⑷ 환풍기를 안 켜서 냄새가 없어지지 않아요.",
-        "back": "2. 그림을 보고 [보기]와 같이 대화해 보세요. Look at the pictures and practice speaking as shown in the example.",
-        "raw": {
-          "pattern": "⑷\t 환풍기를 안 켜서                                                        냄새가 없어지지 않아요.",
-          "explanation": "2. \u0007그림을 보고 [보기]와 같이 대화해 보세요. Look at the pictures and practice speaking as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_5",
-        "front": "37 기계 가공",
-        "back": "MACHINE PROCESSING 81",
-        "raw": {
-          "pattern": "37  기계 가공",
-          "explanation": "MACHINE PROCESSING   81"
-        }
-      },
-      {
-        "id": "grammar_6",
-        "front": "‘-자고 하다’는 동사에 붙여 다른 사람이 함께 하자고 요청한 내용을 전달할 때 사용한다.",
-        "back": "‘-자고 하다’ is attached to a verb when relaying a suggestion made by someone else to do something together.",
-        "raw": {
-          "pattern": "‘-자고 하다’는 동사에 붙여 다른 사람이 함께 하자고 요청한 내용을 전달할 때 사용한다.",
-          "explanation": "‘-자고 하다’ is attached to a verb when relaying a suggestion made by someone else to do something together."
-        }
-      },
-      {
-        "id": "grammar_7",
-        "front": "반장님께서 다음 주에 회식을 하자고 하셨어요.",
-        "back": "1. [보기]와 같이 문장을 바꾸세요. Change the sentences as shown in the example.",
-        "raw": {
-          "pattern": "반장님께서 다음 주에 회식을 하자고 하셨어요.",
-          "explanation": "1. \u0007[보기]와 같이 문장을 바꾸세요. Change the sentences as shown in the example."
-        }
+        "front": "-자고 하다",
+        "back": "‘-자고 하다’는 동사에 붙여 다른 사람이 함께 하자고 요청한 내용을 전달할 때 사용한다.\n‘-자고 하다’ is attached to a verb when relaying a suggestion made by someone else to do something together.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
       }
     ],
     "conversation": [
       {
         "id": "conversation_1",
-        "front": "푸캄 씨, 일 다 끝났어요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "푸캄 씨, 일 다 끝났어요?"
-        }
+        "front": "반장님, 기계가 자꾸 멈춰서 작업이 많이 밀렸어요.",
+        "back": "Banjangnim, the machine keeps stopping, so it's delaying the work a lot.",
+        "speaker": "두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_2",
-        "front": "아니요, 기계에 문제가 생겨서 작업을 못 하고 있어요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "아니요, 기계에 문제가 생겨서 작업을 못 하고 있어요."
-        }
+        "front": "어제까지는 괜찮았는데 갑자기 왜요? 우선 전원부터\n끄세요.",
+        "back": "It was fine only yesterday. What happened? First, turn off the power.",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_3",
-        "front": "전원을 확인했어요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "전원을 확인했어요?"
-        }
+        "front": "오전에는 문제가 없었는데 오후 작업 때부터\n작동이 잘 안 돼요.",
+        "back": "There was no problem in the morning, but since the afternoon, the machine hasn’t been working well.",
+        "speaker": "두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_4",
-        "front": "네, 전원을 켜도 작동이 안 돼요. 발음 │ PRONUNCIATION 받침 ‘ㄺ, ㄻ’ 뒤에 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’가 연결되는 경우, 겹자음 중 뒤의 것만 발음하고 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’는 된소리로 발 음한다. When ‘ㄺ, ㄻ’ is followed by ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’, the second consonant of the cluster is pronounced, and ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’ are pronounced as tense sounds. ⑴ 닭고기[닥꼬기] 흙바닥[흑빠닥] 맑다[막따] ⑵ 젊지[점찌] 삶다[삼따] 닮고[담꼬] 209 208",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "네, 전원을 켜도 작동이 안 돼요. 발음 │ PRONUNCIATION 받침 ‘ㄺ, ㄻ’ 뒤에 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’가 연결되는 경우, 겹자음 중 뒤의 것만 발음하고 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’는 된소리로 발 음한다. When ‘ㄺ, ㄻ’ is followed by ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’, the second consonant of the cluster is pronounced, and ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’ are pronounced as tense sounds. ⑴ 닭고기[닥꼬기] 흙바닥[흑빠닥] 맑다[막따] ⑵ 젊지[점찌] 삶다[삼따] 닮고[담꼬] 209 208"
-        }
+        "front": "아, 여기에 이물질이 껴 있네요. 작업 전에 점검 안 했어요?",
+        "back": "Ah, there’s some foreign substance stuck here. Didn’t you inspect it before starting work?",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_5",
-        "front": "오늘 철판에 구멍을 뚫자고 했지요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "오늘 철판에 구멍을 뚫자고 했지요?"
-        }
+        "front": "죄송합니다. 오늘은 작업할 게 많아서 제대로 점검을 못 했어요.",
+        "back": "Sorry. There’s so much work today that I couldn’t inspect it properly.",
+        "speaker": "두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_6",
-        "front": "네, 같이 합시다.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "네, 같이 합시다."
-        }
+        "front": "아무리 바빠도 작업 전에 꼼꼼하게 점검해야 돼요. 잘못하면 사고가 날 수 있어요.",
+        "back": "No matter how busy you are, you need to inspect the machine thoroughly before starting. Otherwise, it could lead to an accident.",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_7",
-        "front": "전기 절단기로 하면 돼요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "전기 절단기로 하면 돼요?"
-        }
+        "front": "아궁 씨, 반장님이 오후에 철판에 구멍 뚫는 작업을 하자고 하셨어요. 여기 이 도면을 보고\n구멍 좀 뚫어 주세요.",
+        "back": "Agung, the banjangnim said we should work on drilling holes in the metal plate this afternoon. Could you look at this blueprint and drill the holes?",
+        "speaker": "진 수",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_8",
-        "front": "아니요, 드릴링머신으로 작업해야 돼요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "아니요, 드릴링머신으로 작업해야 돼요."
-        }
+        "front": "네, 알겠습니다. 밀링 머신으로 하면 되지요?",
+        "back": "Yes, understood. I should use the milling machine, right?",
+        "speaker": "아 궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_9",
-        "front": "일을 참 잘하네요. 이제 내가 배워야겠어요. You’re really good at your work. Now I must learn from you.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "\u0007일을 참 잘하네요. 이제 내가 배워야겠어요. You’re really good at your work. Now I must learn from you."
-        }
+        "front": "이건 밀링 머신보다 드릴링머신으로 하는 게 좋을 거예요.",
+        "back": "It’s better to use the drilling machine for this job than the milling machine.",
+        "speaker": "진 수",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_10",
-        "front": "아닙니다. 아직 부족한 게 많습니다. No, I still have much to learn. 유용한 표현 │ USEFUL EXPRESSION 부족한 게 많습니다. I still have much to learn. 211 210",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "\u0007아닙니다. 아직 부족한 게 많습니다. No, I still have much to learn. 유용한 표현 │ USEFUL EXPRESSION 부족한 게 많습니다. I still have much to learn. 211 210"
-        }
+        "front": "그래요? 밀링 머신이 정확하지 않아요?",
+        "back": "Really? Isn’t the milling machine accurate?",
+        "speaker": "아 궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_11",
+        "front": "네, 맞아요. 그런데 오늘은 양이 많고 구멍을 뚫기만\n하면 되니까 드릴링머신으로 하는 게 나아요.",
+        "back": "Yes, it is, but since we have a large quantity today and just need to drill holes, the drilling machine is better.",
+        "speaker": "진 수",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_12",
+        "front": "아, 밀링 머신은 꼼꼼하게 작업할 때 쓰는 게 좋다고\n하셨지요? 알겠습니다. 드릴링머신으로 작업할게요.",
+        "back": "Ah, you said the milling machine is better for detailed work, right? Understood. I’ll use the drilling machine for this job.",
+        "speaker": "아 궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       }
     ],
-    "culture": [],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "37 기계 가공",
+        "back": "I can listen to suggestions or advice and relay them to others.",
+        "body": "• 기계 작동 방법에 대해 말할 수 있다. I can talk about how to operate machines.\n• 기구의 용도에 대해 묻고 대답할 수 있다. I can ask and answer questions about the purpose of tools.\n• 제안하거나 권유하는 말을 듣고 다른 사람에게 전달할 수 있다.\nI can listen to suggestions or advice and relay them to others.\n37 기계 가공\nMACHINE PROCESSING 83\n한국의 가전제품\nKorea's Home Appliances\n한국의 가전제품은 최신 기능과 세련된 디자인을 바탕으로 세계인들의 사랑을 받고 있습니\n다. 삼성과 LG가 한국 가전제품의 대표적인 브랜드인데, 텔레비전(TV), 냉장고, 세탁기, 에어\n컨, 청소기, 전자레인지 등과 같은 다양한 가전제품이 전 세계 가전제품 시장을 휩쓸고 있습니\n다. 2023년 미국 가전제품 시장 점유율을 보면 이 두 회사의 점유율이 40%를 차지할 정도로\n한국의 가전제품은 인기가 많습니다.\nKorean home appliances are loved by people around the world for their latest functions and\nsophisticated design. Samsung and LG are the leading brands in Korean home appliances,\nwith a range of products such as televisions, refrigerators, washing machines, air",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook2/unit_37/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
     "reading": [
       {
-        "id": "u37_m1",
+        "id": "u37_r1",
         "nomor": 1,
         "tipe": "membaca",
-        "instruksi": "다음 그림과 관계있는 내용은 무엇입니까?",
-        "teks_soal": "",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 그림과 관계있는 내용은 무엇입니까?",
+        "jawaban": "c",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -677,36 +825,45 @@
             "key": "a",
             "label": "A",
             "text": "밀링 머신 – 철판을 구부려요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_37/choice_images/reading/u37_r1_a.jpg"
           },
           {
             "key": "b",
             "label": "B",
             "text": "밀링 머신 – 공작물을 갈아요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_37/choice_images/reading/u37_r1_b.jpg"
           },
           {
             "key": "c",
             "label": "C",
             "text": "프레스 기계 – 철판을 구부려요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_37/choice_images/reading/u37_r1_c.jpg"
           },
           {
             "key": "d",
             "label": "D",
             "text": "프레스 기계 – 공작물을 갈아요.",
-            "image": ""
+            "image": "assets/modules/textbook2/unit_37/choice_images/reading/u37_r1_d.jpg"
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook2/unit_37/choice_images/reading/u37_r1_a.jpg",
+          "b": "assets/modules/textbook2/unit_37/choice_images/reading/u37_r1_b.jpg",
+          "c": "assets/modules/textbook2/unit_37/choice_images/reading/u37_r1_c.jpg",
+          "d": "assets/modules/textbook2/unit_37/choice_images/reading/u37_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_37/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u37_m2",
+        "id": "u37_r2",
         "nomor": 2,
         "tipe": "membaca",
         "instruksi": "",
-        "teks_soal": "다음 단어와 관계있는 것은 무엇입니까? 선반 기계",
-        "jawaban": "b",
+        "teks_soal": "다음 단어와 관계있는 것은 무엇입니까?\n선반 기계",
+        "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -735,15 +892,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_37/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u37_m3",
+        "id": "u37_r3",
         "nomor": 3,
         "tipe": "membaca",
-        "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
-        "teks_soal": "",
-        "jawaban": "c",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -772,15 +933,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_37/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u37_m4",
+        "id": "u37_r4",
         "nomor": 4,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "선반 기계의 높이가 좀 낮아요. 그래서 을/를 돌려 높이를 맞췄어요.",
-        "jawaban": "d",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n선반 기계의 높이가 좀 낮아요. 그래서 을/를 돌려 높이를 맞췄어요.",
+        "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -809,14 +974,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_37/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u37_m5",
+        "id": "u37_r5",
         "nomor": 5,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "한국의 가전제품은 최신 기능과 세련된 디자인으로 세계인들의 사랑을 받고 있습니다. 텔레비전, 냉장고, 세탁기, 에어컨 등과 같은 다양한 가전제품이 전 세계 가전제품 시장을 휩쓸고 있습니다. 2023년 미국 가전제품 시장에서 한국 상품의 시장 점유율이 40%를 차지할 정도로 인기가 많습니다. 84 한국어 표준교재 2",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국의 가전제품은 최신 기능과 세련된 디자인으로 세계인들의 사랑을 받고 있습니다. 텔레비전,\n냉장고, 세탁기, 에어컨 등과 같은 다양한 가전제품이 전 세계 가전제품 시장을 휩쓸고 있습니다. 2023년\n미국 가전제품 시장에서 한국 상품의 시장 점유율이 40%를 차지할 정도로 인기가 많습니다.",
         "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
@@ -846,7 +1015,11 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_37/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ],
     "listening": [
@@ -855,174 +1028,225 @@
         "nomor": 1,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 무슨 버튼을 눌러야 돼요? 여 : 빨간색 버튼을 누르세요.",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
         "jawaban": "b",
-        "audio_teks": "1. 남 : 무슨 버튼을 눌러야 돼요?\n여 : 빨간색 버튼을 누르세요.\n2. 남 : 커터를 좀 교체해 주세요.\n3. 남 : 작업하고 나서 칩을 안 치웠네요.\n4. 여 : 반장님, 밀링 머신의 먼지를 털고 작업해야 되지요?\n남 : 그럼요, 밀링 작업을 할 때는 작업대 위를 깨끗이 치우고 해야 돼요.\n5. 여 : 마두 씨, 손 괜찮아요? 프레스 기계는 조금만 방심해도 큰 사고가 날 수 있어요.\n남 : 네, 괜찮아요. 잠깐 딴생각을 했어요. 다칠 뻔했네요.\n여 : 많이 놀랐죠? 좀 쉬었다가 하세요.\n37 기계 가공 MACHINE PROCESSING 85",
+        "audio_teks": "남 : 무슨 버튼을 눌러야 돼요?\n여 : 빨간색 버튼을 누르세요.",
         "audio_url": "assets/modules/textbook2/audio/unit_37/listening_1.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_01.jpeg"
+            "image": "assets/modules/textbook2/unit_37/choice_images/listening/u37_l1_a.jpg"
           },
           {
             "key": "b",
             "label": "B",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_02.jpeg"
+            "image": "assets/modules/textbook2/unit_37/choice_images/listening/u37_l1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_37/choice_images/listening/u37_l1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_37/choice_images/listening/u37_l1_d.jpg"
           }
         ],
         "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_01.jpeg",
-          "b": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_02.jpeg"
-        }
+          "a": "assets/modules/textbook2/unit_37/choice_images/listening/u37_l1_a.jpg",
+          "b": "assets/modules/textbook2/unit_37/choice_images/listening/u37_l1_b.jpg",
+          "c": "assets/modules/textbook2/unit_37/choice_images/listening/u37_l1_c.jpg",
+          "d": "assets/modules/textbook2/unit_37/choice_images/listening/u37_l1_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_37/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u37_l2",
         "nomor": 2,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 커터를 좀 교체해 주세요.",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
         "jawaban": "a",
-        "audio_teks": "1. 남 : 무슨 버튼을 눌러야 돼요?\n여 : 빨간색 버튼을 누르세요.\n2. 남 : 커터를 좀 교체해 주세요.\n3. 남 : 작업하고 나서 칩을 안 치웠네요.\n4. 여 : 반장님, 밀링 머신의 먼지를 털고 작업해야 되지요?\n남 : 그럼요, 밀링 작업을 할 때는 작업대 위를 깨끗이 치우고 해야 돼요.\n5. 여 : 마두 씨, 손 괜찮아요? 프레스 기계는 조금만 방심해도 큰 사고가 날 수 있어요.\n남 : 네, 괜찮아요. 잠깐 딴생각을 했어요. 다칠 뻔했네요.\n여 : 많이 놀랐죠? 좀 쉬었다가 하세요.\n37 기계 가공 MACHINE PROCESSING 85",
+        "audio_teks": "남 : 커터를 좀 교체해 주세요.",
         "audio_url": "assets/modules/textbook2/audio/unit_37/listening_2.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_02.jpeg"
+            "text": "미리 바꿔 놨어요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_02.jpeg"
+            "text": "먼저 들어가겠습니다.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_02.jpeg"
+            "text": "조심해서 작업하세요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_02.jpeg"
+            "text": "곧 작업을 시작할게요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_02.jpeg",
-          "b": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_02.jpeg",
-          "c": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_02.jpeg",
-          "d": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_02.jpeg"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_37/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u37_l3",
         "nomor": 3,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 작업하고 나서 칩을 안 치웠네요.",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
         "jawaban": "a",
-        "audio_teks": "1. 남 : 무슨 버튼을 눌러야 돼요?\n여 : 빨간색 버튼을 누르세요.\n2. 남 : 커터를 좀 교체해 주세요.\n3. 남 : 작업하고 나서 칩을 안 치웠네요.\n4. 여 : 반장님, 밀링 머신의 먼지를 털고 작업해야 되지요?\n남 : 그럼요, 밀링 작업을 할 때는 작업대 위를 깨끗이 치우고 해야 돼요.\n5. 여 : 마두 씨, 손 괜찮아요? 프레스 기계는 조금만 방심해도 큰 사고가 날 수 있어요.\n남 : 네, 괜찮아요. 잠깐 딴생각을 했어요. 다칠 뻔했네요.\n여 : 많이 놀랐죠? 좀 쉬었다가 하세요.\n37 기계 가공 MACHINE PROCESSING 85",
+        "audio_teks": "남 : 작업하고 나서 칩을 안 치웠네요.",
         "audio_url": "assets/modules/textbook2/audio/unit_37/listening_3.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_03.png"
+            "text": "치우는 걸 깜빡했어요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_03.png"
+            "text": "제가 깨끗하게 치웠어요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_03.png"
+            "text": "칩이 튀니까 조심하세요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_03.png"
+            "text": "기계에 칩이 끼면 고장이 잘 나요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_03.png",
-          "b": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_03.png",
-          "c": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_03.png",
-          "d": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_03.png"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_37/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u37_l4",
         "nomor": 4,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 반장님, 밀링 머신의 먼지를 털고 작업해야 되지요? 남 : 그럼요, 밀링 작업을 할 때는 작업대 위를 깨끗이 치우고 해야 돼요.",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
         "jawaban": "b",
-        "audio_teks": "1. 남 : 무슨 버튼을 눌러야 돼요?\n여 : 빨간색 버튼을 누르세요.\n2. 남 : 커터를 좀 교체해 주세요.\n3. 남 : 작업하고 나서 칩을 안 치웠네요.\n4. 여 : 반장님, 밀링 머신의 먼지를 털고 작업해야 되지요?\n남 : 그럼요, 밀링 작업을 할 때는 작업대 위를 깨끗이 치우고 해야 돼요.\n5. 여 : 마두 씨, 손 괜찮아요? 프레스 기계는 조금만 방심해도 큰 사고가 날 수 있어요.\n남 : 네, 괜찮아요. 잠깐 딴생각을 했어요. 다칠 뻔했네요.\n여 : 많이 놀랐죠? 좀 쉬었다가 하세요.\n37 기계 가공 MACHINE PROCESSING 85",
+        "audio_teks": "여 : 반장님, 밀링 기계의 먼지를 털고 작업해야 되지요?\n남 : 그럼요, 밀링 작업을 할 때는 작업대 위를 깨끗이 치우고\n해야 돼요.",
         "audio_url": "assets/modules/textbook2/audio/unit_37/listening_4.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_04.png"
+            "text": "작동 순서",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_04.png"
+            "text": "작업 수칙",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_04.png"
+            "text": "작동 방법",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_04.png"
+            "text": "작업 복장",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_04.png",
-          "b": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_04.png",
-          "c": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_04.png",
-          "d": "assets/langit-korea-extracted/unit_37/images/u37_h9_soal_listening_04.png"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_37/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u37_l5",
         "nomor": 5,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 마두 씨, 손 괜찮아요? 프레스 기계는 조금만 방심해도 큰 사고가 날 수 있어요. 남 : 네, 괜찮아요. 잠깐 딴생각을 했어요. 다칠 뻔했네요. 여 : 많이 놀랐죠? 좀 쉬었다가 하세요. 37 기계 가공 MACHINE PROCESSING 85",
+        "teks_soal": "다음 중 들은 내용과 같은 것은 무엇입니까?",
         "jawaban": "a",
-        "audio_teks": "1. 남 : 무슨 버튼을 눌러야 돼요?\n여 : 빨간색 버튼을 누르세요.\n2. 남 : 커터를 좀 교체해 주세요.\n3. 남 : 작업하고 나서 칩을 안 치웠네요.\n4. 여 : 반장님, 밀링 머신의 먼지를 털고 작업해야 되지요?\n남 : 그럼요, 밀링 작업을 할 때는 작업대 위를 깨끗이 치우고 해야 돼요.\n5. 여 : 마두 씨, 손 괜찮아요? 프레스 기계는 조금만 방심해도 큰 사고가 날 수 있어요.\n남 : 네, 괜찮아요. 잠깐 딴생각을 했어요. 다칠 뻔했네요.\n여 : 많이 놀랐죠? 좀 쉬었다가 하세요.\n37 기계 가공 MACHINE PROCESSING 85",
+        "audio_teks": "여 : 마두 씨, 손 괜찮아요? 프레스 기계는 조금만 방심해도 큰\n사고가 날 수 있어요.\n남 : 네, 괜찮아요. 잠깐 딴생각을 했어요. 다칠 뻔했네요.\n여: 많이 놀랐죠? 좀 쉬었다가 하세요.",
         "audio_url": "assets/modules/textbook2/audio/unit_37/listening_5.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "남자는 작업을 하면서 다른 생각을 했습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "남자는 프레스 기계 때문에 손을 다쳤습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "여자는 남자에게 작업 방법을 알려 주고 있습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "여자는 프레스 기계를 사용해서 작업하고 있습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_37/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ]
   },
   "integrity": {
     "pdf_pages": 10,
-    "vocab_cards": 49,
+    "lesson_flow": 10,
+    "vocab_cards": 42,
+    "grammar_cards": 2,
+    "conversation_cards": 12,
+    "culture_cards": 1,
     "reading_questions": 5,
     "listening_questions": 5,
-    "listening_audio": 5
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_audio": 5,
+    "listening_scripts": 5
   }
 }

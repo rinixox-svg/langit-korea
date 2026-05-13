@@ -4,7 +4,7 @@
   "unit": 39,
   "title_ko": "금속 가공",
   "title_en": "Metal Processing",
-  "title_id": "Pengolahan Logam",
+  "title_id": "Pengolahan logam",
   "source_pdf": "assets/langit-korea-modules/unit_39_metal_processing.pdf",
   "page_start": 97,
   "page_end": 106,
@@ -61,636 +61,413 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 97,
+        "image": "assets/modules/textbook2/unit_39/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "39 금속 가공 \n METAL PROCESSING 97\n망치\nhammer \n전기 드릴\nelectric drill \n쇠톱\nhacksaw \n줄\nfile \n정\nchisel \n리머\nreamer \n금 긋기 바늘\nscriber \n바이스\nvise \n공구 종류\ntypes of tools \n못을 박다\nto hammer a nail \n구멍을 뚫다\nto drill a hole \n파이프를 자르다\nto cut a pipe \n금속을 깎다\nto shave metal \n돌을 쪼다\nto chisel stone \n구멍을 다듬다\nto smooth a hole \n금을 긋다\nto draw a line \n물체를 고정하다\nto fix/fasten an object \n공구 사용법\ntool usage\n어휘 VOCABULARY\n작업용 공구 관련 어휘 Workplace Tools\n 관계있는 것을 연결하고 [보기]와 같이 문장을 쓰세요. \nConnect the related items and write the sentences as shown in the example.\n[보기]\n●\n●\n못을 박다\n금 긋기 바늘로 금을 그어요.\n[ 보기 ]\n⑴ .\n⑵ .\n⑶ .\n⑷ .\n⑴\n●\n●\n구멍을 뚫다\n⑵\n●\n●\n금을 긋다\n⑶\n●\n●\n금속을 깎다\n⑷\n●\n●\n파이프를 자르다",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 98,
+        "image": "assets/modules/textbook2/unit_39/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "98 한국어 표준교재 2\n문법 GRAMMAR\n-(으)라고 하다\n‘-(으)라고 하다’는 동사에 붙여 다른 사람이 명령한 내용을 전달할 때 사용한다.\n‘-(으)라고 하다’ is attached to a verb to relay a command from someone else. \n동사\n받침 ○\n-으라고 하다\n \n먹다 → 먹으라고 하다\n받침 ×, 받침 ‘ㄹ’\n-라고 하다\n \n배우다 → 배우라고 하다\n \n만들다 → 만들라고 하다\n예 닛차난 씨가 자재에 덮개를 덮으라고 했어요.\n \n마두 씨가 작업장을 청소하라고 했어요.\n \n반장님이 내일까지 제품을 다 만들라고 했어요.\n※ 하지 못하게 하는 내용을 전달할 때는 ‘-지 말라고 하다’를 사용한다.\nWhen relaying instructions to stop doing something, ‘-지 말라고 하다’ is used. \n예 아궁 씨가 출근 시간에 늦지 말라고 했어요.\n1. 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example. \n자를 곳에 \n금을 그으세요.\n가 : 진수 씨가 뭐라고 했어요?\n나 : 자를 곳에 금을 그으라고 했어요.\n[ 보기 ]\n⑴\n못을 \n박으세요.\n가 : 진수 씨가 뭐라고 \n했어요? \n나 : .\n⑵\n파이프를 \n자르세요.\n가 : 진수 씨가 뭐라고 \n했어요? \n나 : .\n⑶\n바이스로 물체를 \n고정하세요.\n가 : 진수 씨가 뭐라고 \n했어요? \n나 : .\n⑷\n전기 드릴로 \n구멍을 뚫으세요.\n가 : 진수 씨가 뭐라고 \n했어요? \n나 : .\n2. 그림을 보고 [보기]와 같이 문장을 완성하세요. \nLook at the picture and complete the sentences as shown in the example. \n여러분, 도면을 보고\n부품을 가져오세요.\n공구가 미끄러우니까\n잘 잡으세요.\n사용한 공구는\n공구함에 넣으세요.\n밀링 작업을 할 때 \n가죽 장갑을 끼세요. \n반장님이 도면을 보고 부품을 가져오라고 했어요.\n[ 보기 ]\n⑴ 반장님이 .\n⑵ 반장님이 .\n⑶ 반장님이 .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 99,
+        "image": "assets/modules/textbook2/unit_39/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "39 금속 가공 \n METAL PROCESSING 99\n대화 CONVERSATION\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions. \n•망치, 못을 박다\n•쇠톱, 파이프를 자르다\n가 : 뭘 찾고 있어요?\n나 : 망치를 찾고 있어요.\n가 : 망치는 왜요?\n나 : 반장님이 못을 박으라고 했어요.\n발음 │ PRONUNCIATION\n어간의 받침 ‘ㄴ, ㅁ’  뒤에 결합되는 어미의 첫소리 ‘ㄱ, ㄷ, ㅅ, ㅈ’은 된소리로 발음한다.\nWhen the final consonants ‘ㄴ’ and ‘ㅁ’ in verb stems are followed by the initial consonants ‘ㄱ, ㄷ, ㅅ, \nㅈ’ of endings, ‘ㄱ, ㄷ, ㅅ, ㅈ’ are pronounced as tense sounds.\n⑴ 신고[신꼬] \n안고[안꼬] \n껴안다[껴안따]\n⑵ 남고[남꼬] \n더듬지[더듬찌] \n219\n마 두 \n아궁 씨, 바쁘지 않으면 나 좀 도와줄래요?\n \nAgung, can you help me if you’re not too busy? \n아 궁 \n네, 무슨 일이에요?\n \nSure, what's up?\n마 두 \n반장님이 여기 있는 파이프를 자르라고 했어요. \n그런데 잘 못 자르겠어요.\n \nBanjangnim told me to cut the pipes here, \nbut I can’t seem to do it well. \n아 궁 \n먼저 파이프를 바이스로 고정하세요. 그러면 \n움직이지 않아서 자르기 쉬울 거예요.\n \nFirst, secure the pipe with a vise. That way, \nit won’t move, and cutting will be easier. \n마 두 \n아, 그러면 얼른 바이스를 가져올게요. 알려 줘서 고마워요.\n \nAh, okay, I’ll quickly get the vise. Thanks for telling me. \n아 궁 \n아니에요. 그런데 쇠톱으로 작업할 때에는 장갑을 꼭 끼고 하세요.\n \nNo problem. Also, make sure to wear gloves when working with the hacksaw. \n대답해 봐요! ANSWER ME!\n1 반장님은 마두 씨에게 무슨 일을 시켰어요? What task did Banjangnim assign to Madhu? \n2 파이프를 자를 때 바이스가 왜 필요해요? Why is a vise necessary when cutting the pipe? \n218",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 100,
+        "image": "assets/modules/textbook2/unit_39/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "100 한국어 표준교재 2\n두께 thickness\n속도가 빠르다/느리다 to have fast/slow speed\n소화기 fire extinguisher\n불꽃이 세다/약하다 to have a strong/weak flame\n준비하다 to prepare\n조절기 regulator\n밀리미터 millimeter (mm)\n가스가 새다 to leak gas\n어휘 VOCABULARY\n절단 및 용접 관련 어휘 Cutting and Welding\n 그림을 보고 알맞은 것을 골라 문장을 완성하세요. \nLook at the pictures and complete the sentences with the correct options.\n불꽃 토치 용접봉 판금 가위 전기 절단기\n⑸\n⑷\n⑵\n⑴\n⑶\n용접 작업 : 이을 부분에 ⑴ 을/를 대고 ⑵ (으)로 용접을 합니다. 이때 \n⑶ 이/가 튀는 걸 조심해야 합니다.\n절단 작업 : 두꺼운 금속이나 목재를 자를 때는 ⑷ 을/를 사용하지만, 얇은 금속판을 자를 때는 \n⑸ 을/를 사용합니다.\n절단하다\nto cut \n판금 가위\nsheet metal shears \n절단기\ncutter \n전기 절단기\nchop saw \n굵다\nto be thick (in diameter)\n가늘다\nto be thin (in diameter)\n두껍다\nto be thick\n얇다\nto be thin\n절단\ncutting\n용접하다\nto weld\n토치\ntorch\n용접봉\nwelding rod\n전기 용접기\nelectric welder\n가스 용접기\ngas welder\n불꽃을 조절하다\nto adjust the flame\n불꽃이 튀다\nto have sparks fly\n용접\nwelding",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 101,
+        "image": "assets/modules/textbook2/unit_39/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "39 금속 가공 \n METAL PROCESSING 101\n1. 그림을 보고 [보기]와 같이 문장을 완성하세요. \nLook at the pictures and complete the sentences as shown in the example.\n \n용접하기 전에 불꽃을 조절합니다. (용접하다)\n[ 보기 ]\n⑴\n \n 자를 곳에 금을 긋습니다. \n(두꺼운 철판을 절단하다)\n⑵\n \n 바이스로 고정합니다.\n(파이프를 자르다)\n⑶\n \n 재고를 파악합니다.\n(제품을 주문하다)\n2. 관계있는 것끼리 연결하고 [보기]와 같이 문장을 쓰세요. \nConnect the related items and write the sentences as shown in the example.\n조립 작업을 하다 \n철판을 자르다 \n차에 상품을 싣다\n작업장을 청소하다 \n●\n●\n●\n●\n●\n●\n●\n●\n치수를 재다\n환기를 하다\n공구를 가져오다\n수량을 확인하다\n [보기] \n 조립 작업을 하기 전에 공구를 가져오세요 .\n \n⑴ \n .\n \n⑵ \n .\n \n⑶ \n .\n문법 GRAMMAR\n–기 전에 \n‘-기 전에’는 동사에 붙어 앞의 행위보다 뒤의 행위를 먼저 함을 나타낸다.\n‘-기 전에’ attaches to verbs and expresses that the action that follows happened prior to the preceding action.\n예 작업을 시작하기 전에 먼저 작업복을 입어요. \n \n라벨을 붙이기 전에 상자를 밀봉합니다.\n \n상자에 담기 전에 제품을 크기별로 분류하세요.\n※ 명사와 함께 사용할 때는 ‘명사 전에’의 구성으로 사용한다.\nWhen used with nouns it takes the form ‘noun 전에’.\n예 퇴근 전에 작업장을 정리합니다. \n \n \n10분 전에 출근했어요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 102,
+        "image": "assets/modules/textbook2/unit_39/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "102 한국어 표준교재 2\n마\n두 \n반장님, 오늘 용접 작업을 해야 되는데요. 전기 용접기와 가스 용접기 중에서 어느 게 좋을까요?\n \nBanjangnim, I need to do welding today. Should I use the electric welder or the gas welder? \n반장님 \n철판 두께가 어떻게 돼요?\n \nWhat’s the thickness of the metal plate? \n마\n두 \n5밀리미터예요.\n \nIt’s 5 millimeters. \n반장님 \n그러면 가스 용접기로 합시다. 얇은 철판은 \n가스 용접기로 작업하는 게 더 좋아요.\n \nThen, let’s use the gas welder. It’s better to use the \ngas welder for thin metal plates. \n마\n두 \n알겠습니다. 용접 방향은 오른쪽에서 왼쪽으로 \n해야 되지요?\n \nGot it. The welding direction should be from right to \nleft, correct? \n반장님 \n맞아요. 얇은 철판은 그렇게 하는 게 좋아요. 그리고 작업을 시작하기 전에 가스가 새는지 \n꼭 확인하세요. \n \nYes, for thin metal plates, that’s the best way. Also, make sure to check for gas leaks before you start working. \n대화 CONVERSATION\n대답해 봐요! ANSWER ME!\n1 마두 씨는 오늘 무슨 일을 할 거예요? What work is Madhu going to do today? \n2 마두 씨는 용접 작업을 하기 전에 뭘 먼저 해야 돼요? \nWhat should Madhu do first before starting the welding work? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•용접 작업, 용접기를 사용하다, 불꽃을 조절하다, \n불꽃에 다치다\n•절단 작업, 쇠톱으로 자르다, 바이스로 고정하다, \n손을 다치다\n가 : 용접 작업을 할 때는 뭘 주의해야 돼요?\n나 : 용접기를 사용하기 전에 불꽃을 조절해야 돼요.\n \n불꽃에 다치지 않게 조심하세요.\n가 : 네, 명심하겠습니다. \n가 : 민수 씨가 어제 입원을 했대요. \nI heard that Minsu was hospitalized yesterday.\n나 : 그게 정말이에요? Is that true? \n유용한 표현 │ USEFUL EXPRESSION\n그게 정말이에요?\nIs that true?\n221\n220",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 103,
+        "image": "assets/modules/textbook2/unit_39/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "39 금속 가공 \n METAL PROCESSING 103\n문화와 정보 CULTURE & INFORMATION\n• 공구의 이름과 사용 방법을 말할 수 있다. I can talk about the names and usages of tools. \n↻\n• 절단과 용접 작업에 대해 이야기할 수 있다. I can talk about cutting and welding work. \n↻\n• 지시받은 내용을 다른 사람에게 전달할 수 있다. I can relay instructions that I have received to others. \n↻\n확인해요 │ self assessment\n39 금속 가공 \n METAL PROCESSING 103\n그라인더 사용 시 주의 사항\nSafety Precautions When Using a Grinder\n그라인더는 빠른 속도로 회전하는 원반 형태의 날을 가진 전동 공구로, 물체를 절단하거나 물체의 표면을 매\n끄럽게 갈 때 사용합니다. 그라인더를 이용하면 작업을 쉽게 할 수 있지만 작업 시 큰 상해를 입을 수 있으므로 \n특별히 조심해야 합니다.\nA grinder is a power tool with a disc-shaped blade that rotates at high speeds, used for cutting materials or \nsmoothing surfaces. While a grinder can make tasks easier, it can also cause severe injuries if not used carefully, \nso it is essential to exercise caution while operating it.\n먼저, 전원을 꽂을 때는 그라인더의 전원 스위치가 꺼진(OFF) 상태인지를 확인해야 합니다. 그라인더의 날을 \n교체할 때도 반드시 전원을 끈 상태에서 작업해야 합니다. 또한 작업 전에는 보안경이나 방진 마스크 등과 같은 \n보호구를 착용하고, 그라인더에 안전커버(방호덮개)를 장착해야 합니다. 화재가 발생할 가능성이 있기 때문에 주\n변을 정리하고 소화기를 비치해야 하는 것도 잊어서는 안 됩니다.\nFirst, make sure the grinder’s power is switched off when \nplugging it in. When replacing the grinder's disk, also always \nensure the power is turned off. Additionally, put on protective \ngear such as safety goggles or a dust mask, and install the \nprotective shield on the grinder before starting work. Since there \nis a risk of fire, remember to keep the area tidy and have a fire \nextinguisher readily available.\n작업 중에 과부하가 걸리면 그라인더가 위로 솟구쳐 오르거나 \n절단하는 재료가 앞으로 튕겨져 나가는 킥백(Kickback)현상이 \n나타날 수 있기 때문에 아주 조심해야 합니다. 바닥에 물체를 놓\n아두고 절단 작업을 할 때는 그라인더의 날이 안쪽(왼쪽)으로 향\n하게 잡아야 합니다. 그라인더의 올바른 사용법만 익혀도 위험\n으로부터 자신을 보호할 수 있습니다.\nWhile operating a grinder, be very cautious not to overload it. If \nthis happens, kickback can occur, throwing cut materials into the \nair or at the operator. When cutting objects placed on the floor, \nhold the grinder with the wheel facing inward to the left. By mastering the correct use of the grinder, you can \nprotect yourself from potential hazards.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 104,
+        "image": "assets/modules/textbook2/unit_39/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n104 한국어 표준교재 2\n1. \n다음 내용과 관계있는 그림을 고르십시오.\n쇠톱입니다.\n①\n②\n③\n④\n2. 다음 단어와 의미가 비슷한 말은 무엇입니까?\n자르다\n① 조립하다 \n② 혼합하다 \n③ 절단하다 \n④ 조절하다\n[3~4] 빈칸에 들어갈 가장 알맞은 것을 고르십시오. \n3.\n 가 얇은 철판은 판금 가위로 자르면 됩니다. 그러나 두꺼운 철판은 전기 절단기로 \n잘라야 합니다.\n① 두께 \n② 깊이 \n③ 길이 \n④ 무게\n4.\n파이프가 움직이면 자르기 힘듭니다. 움직이지 않게 파이프를 .\n① 깎아야 합니다 \n \n \n② 고정해야 합니다\n③ 끊어야 합니다 \n \n \n④ 측정해야 합니다\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n그라인더로 작업할 때는 큰 상해를 입을 수 있으므로 조심해야 합니다. 그라인더의 날을 교체할 때에는 \n반드시 전원을 꺼야 합니다. 그리고 바닥에 물체를 놓아두고 절단 작업을 할 때는 그라인더의 날이 \n안쪽(왼쪽)으로 향하게 잡아야 합니다. 또한 작업 전에는 보안경이나 방진 마스크 등과 같은 보호구를 \n착용해야 합니다. \n① 그라인더의 날은 전원을 켠 상태에서 교체합니다. \n② 그라인더로 작업할 때에는 보안경을 써야 합니다. \n③ 그라인더로 작업할 때에 마스크는 쓰지 않아도 됩니다.\n④ 물체를 바닥에 놓고 작업할 때에는 날이 밖으로 향해야 합니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 105,
+        "image": "assets/modules/textbook2/unit_39/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n39 금속 가공 \n METAL PROCESSING 105\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n2. 다음을 듣고 물음에 알맞은 대답을 고르십시오. \n① 네, 잘할 수 있어요. \n \n \n② 네, 해 보고 싶어요.\n③ 아니요, 힘들지 않아요. \n \n④ 아니요, 어려운 것 같아요.\n3. 두 사람은 무엇에 대해 말하고 있습니까? \n① 작업 규칙 \n \n \n② 작업 도구 \n③ 작업 순서 \n \n \n④ 작업 장소\n4. 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n① 네, 공구함에 잘 넣어 놓겠습니다. \n② 네, 물건이 있는지 확인하겠습니다.\n③ 네, 다치지 않도록 주의하겠습니다. \n④ 네, 잘 보이는 곳에 보관하겠습니다.\n5. \n다음 중 들은 내용과 같은 것은 무엇입니까?\n① 남자는 방금 작업을 마쳤습니다. \n② 남자는 용접봉을 찾고 있었습니다.\n③ 여자는 자하라 씨를 찾고 있습니다. \n④ 자하라 씨는 지금 절단 작업을 합니다.\n1. \n여 : 공구함에 망치가 있을 거예요. 몇 개 갖다줄까요?\n \n남 : 두 개 갖다주세요. 고맙습니다.\n2. 여 : 용접이 힘들어요?\n3. 남 : 반장님이 표면을 깎으라고 하셨는데, 뭘로 깎아야 돼요?\n \n여 : 이건 금속이라서 줄로 깎아야 돼요. 공구함에 줄이 있을 거예요.\n4. 남 : 용접할 때 불꽃이 튈 수 있으니까 조심하세요.\n5. 여 : 마두 씨, 절단 작업은 다 끝났어요?\n \n남 : 네, 방금 다 했어요.\n \n여 : 그럼 자하라 씨한테 용접봉 좀 가져다주세요. 아까부터 찾고 있었어요.\n듣기지문\n222",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 106,
+        "image": "assets/modules/textbook2/unit_39/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "106 한국어 표준교재 2\n학습 목표\nLEARNING OBJECTIVES\n혼합과 측정에 필요한 표현을 사용할 수 있다.\nCan use expressions needed for mixing and measuring.\n불량 발생에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about the occurrence of defects. \n플라스틱 고무 성형 \nPlastic and Rubber Molding \nC H A P T E R 4 0\n-는 대신에\n-나/(으)ㄴ가 보다\nGRAMMAR\n문법\n혼합 및 측정 관련 어휘\nVocabulary Related to Mixing And \nMeasuring\n제품 불량 관련 어휘\nVocabulary Related to Product \nDefects\nVOCABULARY\n어휘\n친환경 에너지\nEco-friendly Energy\nCULTURE & INFORMATION\n문화와 정보\n온도가 너무 높은가 봐요. 온도를 조절하세요.\n불량이 발생했어요.\n106 한국어 표준교재 2\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "vocab": [
       {
         "id": "vocab_1",
-        "front": "39 금속 가공",
-        "back": "METAL PROCESSING 97",
-        "raw": {
-          "korean": "39  금속 가공",
-          "indonesia": "METAL PROCESSING   97"
-        }
+        "front": "작업용 공구 관련 어휘",
+        "back": "Workplace Tools",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_2",
-        "front": "망치",
-        "back": "hammer",
-        "raw": {
-          "korean": "망치",
-          "indonesia": "hammer"
-        }
+        "front": "관계있는 것을 연결하고 [보기]와 같이 문장을 쓰세요.",
+        "back": "Connect the related items and write the sentences as shown in the example. ● ●",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_3",
-        "front": "전기 드릴",
-        "back": "electric drill",
-        "raw": {
-          "korean": "전기 드릴",
-          "indonesia": "electric drill"
-        }
+        "front": "금 긋기 바늘로 금을 그어요.",
+        "back": "⑴ . ⑵ . ⑶ . ⑷ . ● ●",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_4",
-        "front": "쇠톱",
-        "back": "hacksaw",
-        "raw": {
-          "korean": "쇠톱",
-          "indonesia": "hacksaw"
-        }
+        "front": "구멍을 뚫다",
+        "back": "● ●",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_5",
-        "front": "줄",
-        "back": "file",
-        "raw": {
-          "korean": "줄",
-          "indonesia": "file"
-        }
+        "front": "금을 긋다",
+        "back": "● ●",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_6",
-        "front": "정",
-        "back": "chisel",
-        "raw": {
-          "korean": "정",
-          "indonesia": "chisel"
-        }
+        "front": "금속을 깎다",
+        "back": "● ●",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_7",
-        "front": "리머",
-        "back": "reamer",
-        "raw": {
-          "korean": "리머",
-          "indonesia": "reamer"
-        }
-      },
-      {
-        "id": "vocab_8",
-        "front": "금 긋기 바늘",
-        "back": "scriber",
-        "raw": {
-          "korean": "금 긋기 바늘",
-          "indonesia": "scriber"
-        }
-      },
-      {
-        "id": "vocab_9",
-        "front": "바이스",
-        "back": "vise",
-        "raw": {
-          "korean": "바이스",
-          "indonesia": "vise"
-        }
-      },
-      {
-        "id": "vocab_10",
-        "front": "공구 종류",
-        "back": "types of tools",
-        "raw": {
-          "korean": "공구 종류",
-          "indonesia": "types of tools"
-        }
-      },
-      {
-        "id": "vocab_11",
-        "front": "못을 박다",
-        "back": "to hammer a nail",
-        "raw": {
-          "korean": "못을 박다",
-          "indonesia": "to hammer a nail"
-        }
-      },
-      {
-        "id": "vocab_12",
-        "front": "구멍을 뚫다",
-        "back": "to drill a hole",
-        "raw": {
-          "korean": "구멍을 뚫다",
-          "indonesia": "to drill a hole"
-        }
-      },
-      {
-        "id": "vocab_13",
-        "front": "파이프를 자르다",
-        "back": "to cut a pipe",
-        "raw": {
-          "korean": "파이프를 자르다",
-          "indonesia": "to cut a pipe"
-        }
-      },
-      {
-        "id": "vocab_14",
-        "front": "금속을 깎다",
-        "back": "to shave metal",
-        "raw": {
-          "korean": "금속을 깎다",
-          "indonesia": "to shave metal"
-        }
-      },
-      {
-        "id": "vocab_15",
-        "front": "돌을 쪼다",
-        "back": "to chisel stone",
-        "raw": {
-          "korean": "돌을 쪼다",
-          "indonesia": "to chisel stone"
-        }
-      },
-      {
-        "id": "vocab_16",
-        "front": "구멍을 다듬다",
-        "back": "to smooth a hole",
-        "raw": {
-          "korean": "구멍을 다듬다",
-          "indonesia": "to smooth a hole"
-        }
-      },
-      {
-        "id": "vocab_17",
-        "front": "금을 긋다",
-        "back": "to draw a line",
-        "raw": {
-          "korean": "금을 긋다",
-          "indonesia": "to draw a line"
-        }
-      },
-      {
-        "id": "vocab_18",
-        "front": "물체를 고정하다",
-        "back": "to fix/fasten an object",
-        "raw": {
-          "korean": "물체를 고정하다",
-          "indonesia": "to fix/fasten an object"
-        }
-      },
-      {
-        "id": "vocab_19",
-        "front": "공구 사용법",
-        "back": "tool usage",
-        "raw": {
-          "korean": "공구 사용법",
-          "indonesia": "tool usage"
-        }
-      },
-      {
-        "id": "vocab_20",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
-      },
-      {
-        "id": "vocab_21",
-        "front": "작업용 공구 관련 어휘",
-        "back": "Workplace Tools",
-        "raw": {
-          "korean": "작업용 공구 관련 어휘",
-          "indonesia": "\u0007Workplace Tools"
-        }
-      },
-      {
-        "id": "vocab_22",
-        "front": "관계있는 것을 연결하고 [보기]와 같이 문장을 쓰세요.",
-        "back": "Connect the related items and write the sentences as shown in the example.",
-        "raw": {
-          "korean": "\u0007관계있는 것을 연결하고 [보기]와 같이 문장을 쓰세요.",
-          "indonesia": "Connect the related items and write the sentences as shown in the example."
-        }
-      },
-      {
-        "id": "vocab_23",
-        "front": "[보기]",
-        "back": "●",
-        "raw": {
-          "korean": "[보기]",
-          "indonesia": "●"
-        }
-      },
-      {
-        "id": "vocab_24",
-        "front": "[ 보기 ]",
-        "back": "⑴ .",
-        "raw": {
-          "korean": "[ 보기 ]",
-          "indonesia": "⑴\t                                                             ."
-        }
-      },
-      {
-        "id": "vocab_25",
-        "front": "구멍을 뚫다",
-        "back": "⑵",
-        "raw": {
-          "korean": "구멍을 뚫다",
-          "indonesia": "⑵"
-        }
-      },
-      {
-        "id": "vocab_26",
-        "front": "금을 긋다",
-        "back": "⑶",
-        "raw": {
-          "korean": "금을 긋다",
-          "indonesia": "⑶"
-        }
-      },
-      {
-        "id": "vocab_27",
-        "front": "금속을 깎다",
-        "back": "⑷",
-        "raw": {
-          "korean": "금속을 깎다",
-          "indonesia": "⑷"
-        }
-      },
-      {
-        "id": "vocab_28",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
-      },
-      {
-        "id": "vocab_29",
         "front": "절단 및 용접 관련 어휘",
         "back": "Cutting and Welding",
-        "raw": {
-          "korean": "절단 및 용접 관련 어휘",
-          "indonesia": "Cutting and Welding"
-        }
-      },
-      {
-        "id": "vocab_30",
-        "front": "그림을 보고 알맞은 것을 골라 문장을 완성하세요.",
-        "back": "Look at the pictures and complete the sentences with the correct options.",
-        "raw": {
-          "korean": "\u0007그림을 보고 알맞은 것을 골라 문장을 완성하세요.",
-          "indonesia": "Look at the pictures and complete the sentences with the correct options."
-        }
-      },
-      {
-        "id": "vocab_31",
-        "front": "불꽃 토치 용접봉 판금 가위 전기 절단기",
-        "back": "⑸",
-        "raw": {
-          "korean": "불꽃               토치               용접봉               판금 가위               전기 절단기",
-          "indonesia": "⑸"
-        }
-      },
-      {
-        "id": "vocab_32",
-        "front": "절단하다",
-        "back": "to cut",
-        "raw": {
-          "korean": "절단하다",
-          "indonesia": "to cut"
-        }
-      },
-      {
-        "id": "vocab_33",
-        "front": "판금 가위",
-        "back": "sheet metal shears",
-        "raw": {
-          "korean": "판금 가위",
-          "indonesia": "sheet metal shears"
-        }
-      },
-      {
-        "id": "vocab_34",
-        "front": "절단기",
-        "back": "cutter",
-        "raw": {
-          "korean": "절단기",
-          "indonesia": "cutter"
-        }
-      },
-      {
-        "id": "vocab_35",
-        "front": "전기 절단기",
-        "back": "chop saw",
-        "raw": {
-          "korean": "전기 절단기",
-          "indonesia": "chop saw"
-        }
-      },
-      {
-        "id": "vocab_36",
-        "front": "굵다",
-        "back": "to be thick (in diameter)",
-        "raw": {
-          "korean": "굵다",
-          "indonesia": "to be thick (in diameter)"
-        }
-      },
-      {
-        "id": "vocab_37",
-        "front": "가늘다",
-        "back": "to be thin (in diameter)",
-        "raw": {
-          "korean": "가늘다",
-          "indonesia": "to be thin (in diameter)"
-        }
-      },
-      {
-        "id": "vocab_38",
-        "front": "두껍다",
-        "back": "to be thick",
-        "raw": {
-          "korean": "두껍다",
-          "indonesia": "to be thick"
-        }
-      },
-      {
-        "id": "vocab_39",
-        "front": "얇다",
-        "back": "to be thin",
-        "raw": {
-          "korean": "얇다",
-          "indonesia": "to be thin"
-        }
-      },
-      {
-        "id": "vocab_40",
-        "front": "절단",
-        "back": "cutting",
-        "raw": {
-          "korean": "절단",
-          "indonesia": "cutting"
-        }
-      },
-      {
-        "id": "vocab_41",
-        "front": "용접하다",
-        "back": "to weld",
-        "raw": {
-          "korean": "용접하다",
-          "indonesia": "to weld"
-        }
-      },
-      {
-        "id": "vocab_42",
-        "front": "토치",
-        "back": "torch",
-        "raw": {
-          "korean": "토치",
-          "indonesia": "torch"
-        }
-      },
-      {
-        "id": "vocab_43",
-        "front": "용접봉",
-        "back": "welding rod",
-        "raw": {
-          "korean": "용접봉",
-          "indonesia": "welding rod"
-        }
-      },
-      {
-        "id": "vocab_44",
-        "front": "전기 용접기",
-        "back": "electric welder",
-        "raw": {
-          "korean": "전기 용접기",
-          "indonesia": "electric welder"
-        }
-      },
-      {
-        "id": "vocab_45",
-        "front": "가스 용접기",
-        "back": "gas welder",
-        "raw": {
-          "korean": "가스 용접기",
-          "indonesia": "gas welder"
-        }
-      },
-      {
-        "id": "vocab_46",
-        "front": "불꽃을 조절하다",
-        "back": "to adjust the flame",
-        "raw": {
-          "korean": "불꽃을 조절하다",
-          "indonesia": "to adjust the flame"
-        }
-      },
-      {
-        "id": "vocab_47",
-        "front": "불꽃이 튀다",
-        "back": "to have sparks fly",
-        "raw": {
-          "korean": "불꽃이 튀다",
-          "indonesia": "to have sparks fly"
-        }
-      },
-      {
-        "id": "vocab_48",
-        "front": "용접",
-        "back": "welding",
-        "raw": {
-          "korean": "용접",
-          "indonesia": "welding"
-        }
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       }
     ],
     "grammar": [
       {
         "id": "grammar_1",
-        "front": "98 한국어 표준교재 2",
-        "back": "문법 GRAMMAR",
-        "raw": {
-          "pattern": "98   한국어 표준교재  2",
-          "explanation": "문법  GRAMMAR"
-        }
+        "front": "-(으)라고 하다",
+        "back": "‘-(으)라고 하다’는 동사에 붙여 다른 사람이 명령한 내용을 전달할 때 사용한다.\n‘-(으)라고 하다’ is attached to a verb to relay a command from someone else.\n동사\n받침 ○\n-으라고 하다\n먹다 → 먹으라고 하다\n받침 ×, 받침 ‘ㄹ’\n-라고 하다\n배우다 → 배우라고 하다\n만들다 → 만들라고 하다",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
       },
       {
         "id": "grammar_2",
-        "front": "‘-(으)라고 하다’는 동사에 붙여 다른 사람이 명령한 내용을 전달할 때 사용한다.",
-        "back": "‘-(으)라고 하다’ is attached to a verb to relay a command from someone else.",
-        "raw": {
-          "pattern": "‘-(으)라고 하다’는 동사에 붙여 다른 사람이 명령한 내용을 전달할 때 사용한다.",
-          "explanation": "‘-(으)라고 하다’ is attached to a verb to relay a command from someone else."
-        }
-      },
-      {
-        "id": "grammar_3",
-        "front": "※ 하지 못하게 하는 내용을 전달할 때는 ‘-지 말라고 하다’를 사용한다.",
-        "back": "When relaying instructions to stop doing something, ‘-지 말라고 하다’ is used.",
-        "raw": {
-          "pattern": "※ 하지 못하게 하는 내용을 전달할 때는 ‘-지 말라고 하다’를 사용한다.",
-          "explanation": "When relaying instructions to stop doing something, ‘-지 말라고 하다’ is used."
-        }
-      },
-      {
-        "id": "grammar_4",
-        "front": "1. 그림을 보고 [보기]와 같이 대화를 완성하세요.",
-        "back": "Look at the pictures and complete the conversations as shown in the example.",
-        "raw": {
-          "pattern": "1. \u0007그림을 보고 [보기]와 같이 대화를 완성하세요.",
-          "explanation": "Look at the pictures and complete the conversations as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_5",
-        "front": "2. 그림을 보고 [보기]와 같이 문장을 완성하세요.",
-        "back": "Look at the picture and complete the sentences as shown in the example.",
-        "raw": {
-          "pattern": "2. \u0007그림을 보고 [보기]와 같이 문장을 완성하세요.",
-          "explanation": "Look at the picture and complete the sentences as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_6",
-        "front": "39 금속 가공",
-        "back": "METAL PROCESSING 101",
-        "raw": {
-          "pattern": "39  금속 가공",
-          "explanation": "METAL PROCESSING   101"
-        }
-      },
-      {
-        "id": "grammar_7",
-        "front": "1. 그림을 보고 [보기]와 같이 문장을 완성하세요.",
-        "back": "Look at the pictures and complete the sentences as shown in the example.",
-        "raw": {
-          "pattern": "1. \u0007그림을 보고 [보기]와 같이 문장을 완성하세요.",
-          "explanation": "Look at the pictures and complete the sentences as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_8",
-        "front": "2. 관계있는 것끼리 연결하고 [보기]와 같이 문장을 쓰세요.",
-        "back": "Connect the related items and write the sentences as shown in the example.",
-        "raw": {
-          "pattern": "2. \u0007관계있는 것끼리 연결하고 [보기]와 같이 문장을 쓰세요.",
-          "explanation": "Connect the related items and write the sentences as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_9",
-        "front": "‘-기 전에’는 동사에 붙어 앞의 행위보다 뒤의 행위를 먼저 함을 나타낸다.",
-        "back": "‘-기 전에’ attaches to verbs and expresses that the action that follows happened prior to the preceding action.",
-        "raw": {
-          "pattern": "‘-기 전에’는 동사에 붙어 앞의 행위보다 뒤의 행위를 먼저 함을 나타낸다.",
-          "explanation": "‘-기 전에’ attaches to verbs and expresses that the action that follows happened prior to the preceding action."
-        }
-      },
-      {
-        "id": "grammar_10",
-        "front": "※ 명사와 함께 사용할 때는 ‘명사 전에’의 구성으로 사용한다.",
-        "back": "When used with nouns it takes the form ‘noun 전에’.",
-        "raw": {
-          "pattern": "※ 명사와 함께 사용할 때는 ‘명사 전에’의 구성으로 사용한다.",
-          "explanation": "When used with nouns it takes the form ‘noun 전에’."
-        }
+        "front": "–기 전에",
+        "back": "‘-기 전에’는 동사에 붙어 앞의 행위보다 뒤의 행위를 먼저 함을 나타낸다.\n‘-기 전에’ attaches to verbs and expresses that the action that follows happened prior to the preceding action.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
       }
     ],
     "conversation": [
       {
         "id": "conversation_1",
-        "front": "뭘 찾고 있어요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "뭘 찾고 있어요?"
-        }
+        "front": "제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•망치, 못을 박다\n•쇠톱, 파이프를 자르다\n가 : 뭘 찾고 있어요?\n나 : 망치를 찾고 있어요.\n가 : 망치는 왜요?\n나 : 반장님이 못을 박으라고 했어요.\n발음 │ PRONUNCIATION\n어간의 받침 ‘ㄴ, ㅁ’  뒤에 결합되는 어미의 첫소리 ‘ㄱ, ㄷ, ㅅ, ㅈ’은 된소리로 발음한다.\nWhen the final consonants ‘ㄴ’ and ‘ㅁ’ in verb stems are followed by the initial consonants ‘ㄱ, ㄷ, ㅅ,\nㅈ’ of endings, ‘ㄱ, ㄷ, ㅅ, ㅈ’ are pronounced as tense sounds.\n⑴ 신고[신꼬]",
+        "back": "",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_2",
-        "front": "망치를 찾고 있어요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "망치를 찾고 있어요."
-        }
+        "front": "껴안다[껴안따]\n⑵ 남고[남꼬]\n더듬지[더듬찌]",
+        "back": "",
+        "speaker": "안고[안꼬]",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_3",
-        "front": "망치는 왜요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "망치는 왜요?"
-        }
+        "front": "아궁 씨, 바쁘지 않으면 나 좀 도와줄래요?",
+        "back": "Agung, can you help me if you’re not too busy?",
+        "speaker": "마 두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_4",
-        "front": "반장님이 못을 박으라고 했어요. 발음 │ PRONUNCIATION 어간의 받침 ‘ㄴ, ㅁ’  뒤에 결합되는 어미의 첫소리 ‘ㄱ, ㄷ, ㅅ, ㅈ’은 된소리로 발음한다. When the final consonants ‘ㄴ’ and ‘ㅁ’ in verb stems are followed by the initial consonants ‘ㄱ, ㄷ, ㅅ, ㅈ’ of endings, ‘ㄱ, ㄷ, ㅅ, ㅈ’ are pronounced as tense sounds. ⑴ 신고[신꼬] 안고[안꼬] 껴안다[껴안따] ⑵ 남고[남꼬] 더듬지[더듬찌] 219 마 두 아궁 씨, 바쁘지 않으면 나 좀 도와줄래요? Agung, can you help me if you’re not too busy? 아 궁 네, 무슨 일이에요? Sure, what's up? 마 두 반장님이 여기 있는 파이프를 자르라고 했어요. 그런데 잘 못 자르겠어요. Banjangnim told me to cut the pipes here, but I can’t seem to do it well. 아 궁 먼저 파이프를 바이스로 고정하세요. 그러면 움직이지 않아서 자르기 쉬울 거예요. First, secure the pipe with a vise. That way, it won’t move, and cutting will be easier. 마 두 아, 그러면 얼른 바이스를 가져올게요. 알려 줘서 고마워요. Ah, okay, I’ll quickly get the vise. Thanks for telling me. 아 궁 아니에요. 그런데 쇠톱으로 작업할 때에는 장갑을 꼭 끼고 하세요. No problem. Also, make sure to wear gloves when working with the hacksaw. 대답해 봐요! ANSWER ME! 1 반장님은 마두 씨에게 무슨 일을 시켰어요? What task did Banjangnim assign to Madhu? 2 파이프를 자를 때 바이스가 왜 필요해요? Why is a vise necessary when cutting the pipe? 218",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "반장님이 못을 박으라고 했어요. 발음 │ PRONUNCIATION 어간의 받침 ‘ㄴ, ㅁ’  뒤에 결합되는 어미의 첫소리 ‘ㄱ, ㄷ, ㅅ, ㅈ’은 된소리로 발음한다. When the final consonants ‘ㄴ’ and ‘ㅁ’ in verb stems are followed by the initial consonants ‘ㄱ, ㄷ, ㅅ, ㅈ’ of endings, ‘ㄱ, ㄷ, ㅅ, ㅈ’ are pronounced as tense sounds. ⑴ 신고[신꼬] 안고[안꼬] 껴안다[껴안따] ⑵ 남고[남꼬] 더듬지[더듬찌] 219 마  두 \u0007아궁 씨, 바쁘지 않으면 나 좀 도와줄래요? Agung, can you help me if you’re not too busy? 아  궁 네, 무슨 일이에요? Sure, what's up? 마  두 \u0007반장님이 여기 있는 파이프를 자르라고 했어요. 그런데 잘 못 자르겠어요. \u0007Banjangnim told me to cut the pipes here, but I can’t seem to do it well. 아  궁 \u0007먼저 파이프를 바이스로 고정하세요. 그러면 움직이지 않아서 자르기 쉬울 거예요. \u0007First, secure the pipe with a vise. That way, it won’t move, and cutting will be easier. 마  두 \u0007아, 그러면 얼른 바이스를 가져올게요. 알려 줘서 고마워요. Ah, okay, I’ll quickly get the vise. Thanks for telling me. 아  궁 \u0007아니에요. 그런데 쇠톱으로 작업할 때에는 장갑을 꼭 끼고 하세요. No problem. Also, make sure to wear gloves when working with the hacksaw. 대답해 봐요!  ANSWER ME! 1  \u0007반장님은 마두 씨에게 무슨 일을 시켰어요? What task did Banjangnim assign to Madhu? 2  \u0007파이프를 자를 때 바이스가 왜 필요해요? Why is a vise necessary when cutting the pipe? 218"
-        }
+        "front": "네, 무슨 일이에요?",
+        "back": "Sure, what's up?",
+        "speaker": "아 궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_5",
-        "front": "용접 작업을 할 때는 뭘 주의해야 돼요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "용접 작업을 할 때는 뭘 주의해야 돼요?"
-        }
+        "front": "반장님이 여기 있는 파이프를 자르라고 했어요.\n그런데 잘 못 자르겠어요.",
+        "back": "Banjangnim told me to cut the pipes here, but I can’t seem to do it well.",
+        "speaker": "마 두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_6",
-        "front": "용접기를 사용하기 전에 불꽃을 조절해야 돼요. 불꽃에 다치지 않게 조심하세요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "용접기를 사용하기 전에 불꽃을 조절해야 돼요. 불꽃에 다치지 않게 조심하세요."
-        }
+        "front": "먼저 파이프를 바이스로 고정하세요. 그러면\n움직이지 않아서 자르기 쉬울 거예요.",
+        "back": "First, secure the pipe with a vise. That way, it won’t move, and cutting will be easier.",
+        "speaker": "아 궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_7",
-        "front": "네, 명심하겠습니다.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "네, 명심하겠습니다."
-        }
+        "front": "아, 그러면 얼른 바이스를 가져올게요. 알려 줘서 고마워요.",
+        "back": "Ah, okay, I’ll quickly get the vise. Thanks for telling me.",
+        "speaker": "마 두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_8",
-        "front": "민수 씨가 어제 입원을 했대요. I heard that Minsu was hospitalized yesterday.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "\u0007민수 씨가 어제 입원을 했대요. I heard that Minsu was hospitalized yesterday."
-        }
-      },
-      {
-        "id": "conversation_9",
-        "front": "그게 정말이에요? Is that true? 유용한 표현 │ USEFUL EXPRESSION 그게 정말이에요? Is that true? 221 220",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "\u0007그게 정말이에요? Is that true? 유용한 표현 │ USEFUL EXPRESSION 그게 정말이에요? Is that true? 221 220"
-        }
+        "front": "아니에요. 그런데 쇠톱으로 작업할 때에는 장갑을 꼭 끼고 하세요.",
+        "back": "No problem. Also, make sure to wear gloves when working with the hacksaw.",
+        "speaker": "아 궁",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       }
     ],
-    "culture": [],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "39 금속 가공",
+        "back": "METAL PROCESSING 103",
+        "body": "• 공구의 이름과 사용 방법을 말할 수 있다. I can talk about the names and usages of tools.\n• 절단과 용접 작업에 대해 이야기할 수 있다. I can talk about cutting and welding work.\n• 지시받은 내용을 다른 사람에게 전달할 수 있다. I can relay instructions that I have received to others.\n39 금속 가공\nMETAL PROCESSING 103\n그라인더 사용 시 주의 사항\nSafety Precautions When Using a Grinder\n그라인더는 빠른 속도로 회전하는 원반 형태의 날을 가진 전동 공구로, 물체를 절단하거나 물체의 표면을 매\n끄럽게 갈 때 사용합니다. 그라인더를 이용하면 작업을 쉽게 할 수 있지만 작업 시 큰 상해를 입을 수 있으므로\n특별히 조심해야 합니다.\nA grinder is a power tool with a disc-shaped blade that rotates at high speeds, used for cutting materials or\nsmoothing surfaces. While a grinder can make tasks easier, it can also cause severe injuries if not used carefully,\nso it is essential to exercise caution while operating it.\n먼저, 전원을 꽂을 때는 그라인더의 전원 스위치가 꺼진(OFF) 상태인지를 확인해야 합니다. 그라인더의 날을\n교체할 때도 반드시 전원을 끈 상태에서 작업해야 합니다. 또한 작업 전에는 보안경이나 방진 마스크 등과 같은\n보호구를 착용하고, 그라인더에 안전커버(방호덮개)를 장착해야 합니다. 화재가 발생할 가능성이 있기 때문에 주",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook2/unit_39/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
     "reading": [
       {
-        "id": "u39_m1",
+        "id": "u39_r1",
         "nomor": 1,
         "tipe": "membaca",
-        "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
-        "teks_soal": "쇠톱입니다.",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n쇠톱입니다.",
+        "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_39/choice_images/reading/u39_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_39/choice_images/reading/u39_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_39/choice_images/reading/u39_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_39/choice_images/reading/u39_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook2/unit_39/choice_images/reading/u39_r1_a.jpg",
+          "b": "assets/modules/textbook2/unit_39/choice_images/reading/u39_r1_b.jpg",
+          "c": "assets/modules/textbook2/unit_39/choice_images/reading/u39_r1_c.jpg",
+          "d": "assets/modules/textbook2/unit_39/choice_images/reading/u39_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_39/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u39_m2",
+        "id": "u39_r2",
         "nomor": 2,
         "tipe": "membaca",
         "instruksi": "",
-        "teks_soal": "다음 단어와 의미가 비슷한 말은 무엇입니까? 자르다",
-        "jawaban": "b",
+        "teks_soal": "다음 단어와 의미가 비슷한 말은 무엇입니까?\n자르다",
+        "jawaban": "c",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -719,15 +496,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_39/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u39_m3",
+        "id": "u39_r3",
         "nomor": 3,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "가 얇은 철판은 판금 가위로 자르면 됩니다. 그러나 두꺼운 철판은 전기 절단기로 잘라야 합니다.",
-        "jawaban": "c",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n가 얇은 철판은 판금 가위로 자르면 됩니다. 그러나 두꺼운 철판은 전기 절단기로\n잘라야 합니다.",
+        "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -756,15 +537,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_39/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u39_m4",
+        "id": "u39_r4",
         "nomor": 4,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "파이프가 움직이면 자르기 힘듭니다. 움직이지 않게 파이프를 .",
-        "jawaban": "d",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n파이프가 움직이면 자르기 힘듭니다. 움직이지 않게 파이프를 .",
+        "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -793,15 +578,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_39/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u39_m5",
+        "id": "u39_r5",
         "nomor": 5,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "그라인더로 작업할 때는 큰 상해를 입을 수 있으므로 조심해야 합니다. 그라인더의 날을 교체할 때에는 반드시 전원을 꺼야 합니다. 그리고 바닥에 물체를 놓아두고 절단 작업을 할 때는 그라인더의 날이 안쪽(왼쪽)으로 향하게 잡아야 합니다. 또한 작업 전에는 보안경이나 방진 마스크 등과 같은 보호구를 착용해야 합니다. 104 한국어 표준교재 2",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n그라인더로 작업할 때는 큰 상해를 입을 수 있으므로 조심해야 합니다. 그라인더의 날을 교체할 때에는\n반드시 전원을 꺼야 합니다. 그리고 바닥에 물체를 놓아두고 절단 작업을 할 때는 그라인더의 날이\n안쪽(왼쪽)으로 향하게 잡아야 합니다. 또한 작업 전에는 보안경이나 방진 마스크 등과 같은 보호구를\n착용해야 합니다.",
+        "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -830,7 +619,11 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_39/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ],
     "listening": [
@@ -839,218 +632,225 @@
         "nomor": 1,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 공구함에 망치가 있을 거예요. 몇 개 갖다줄까요? 남 : 두 개 갖다주세요. 고맙습니다.",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
         "jawaban": "a",
-        "audio_teks": "1. 여 : 공구함에 망치가 있을 거예요. 몇 개 갖다줄까요?\n남 : 두 개 갖다주세요. 고맙습니다.\n2. 여 : 용접이 힘들어요?\n3. 남 : 반장님이 표면을 깎으라고 하셨는데, 뭘로 깎아야 돼요?\n여 : 이건 금속이라서 줄로 깎아야 돼요. 공구함에 줄이 있을 거예요.\n4. 남 : 용접할 때 불꽃이 튈 수 있으니까 조심하세요.\n5. 여 : 마두 씨, 절단 작업은 다 끝났어요?\n남 : 네, 방금 다 했어요.\n여 : 그럼 자하라 씨한테 용접봉 좀 가져다주세요. 아까부터 찾고 있었어요.\n39 금속 가공 METAL PROCESSING 105",
+        "audio_teks": "여 : 공구함에 망치가 있을 거예요. 몇 개 갖다줄까요?\n남 : 두 개 갖다주세요. 고맙습니다.",
         "audio_url": "assets/modules/textbook2/audio/unit_39/listening_1.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_01.png"
+            "image": "assets/modules/textbook2/unit_39/choice_images/listening/u39_l1_a.jpg"
           },
           {
             "key": "b",
             "label": "B",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_02.png"
+            "image": "assets/modules/textbook2/unit_39/choice_images/listening/u39_l1_b.jpg"
           },
           {
             "key": "c",
             "label": "C",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_03.png"
+            "image": "assets/modules/textbook2/unit_39/choice_images/listening/u39_l1_c.jpg"
           },
           {
             "key": "d",
             "label": "D",
             "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_04.png"
+            "image": "assets/modules/textbook2/unit_39/choice_images/listening/u39_l1_d.jpg"
           }
         ],
         "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_01.png",
-          "b": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_02.png",
-          "c": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_03.png",
-          "d": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_04.png"
-        }
+          "a": "assets/modules/textbook2/unit_39/choice_images/listening/u39_l1_a.jpg",
+          "b": "assets/modules/textbook2/unit_39/choice_images/listening/u39_l1_b.jpg",
+          "c": "assets/modules/textbook2/unit_39/choice_images/listening/u39_l1_c.jpg",
+          "d": "assets/modules/textbook2/unit_39/choice_images/listening/u39_l1_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_39/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u39_l2",
         "nomor": 2,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 용접이 힘들어요?",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
         "jawaban": "c",
-        "audio_teks": "1. 여 : 공구함에 망치가 있을 거예요. 몇 개 갖다줄까요?\n남 : 두 개 갖다주세요. 고맙습니다.\n2. 여 : 용접이 힘들어요?\n3. 남 : 반장님이 표면을 깎으라고 하셨는데, 뭘로 깎아야 돼요?\n여 : 이건 금속이라서 줄로 깎아야 돼요. 공구함에 줄이 있을 거예요.\n4. 남 : 용접할 때 불꽃이 튈 수 있으니까 조심하세요.\n5. 여 : 마두 씨, 절단 작업은 다 끝났어요?\n남 : 네, 방금 다 했어요.\n여 : 그럼 자하라 씨한테 용접봉 좀 가져다주세요. 아까부터 찾고 있었어요.\n39 금속 가공 METAL PROCESSING 105",
+        "audio_teks": "여 : 용접이 힘들어요?",
         "audio_url": "assets/modules/textbook2/audio/unit_39/listening_2.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_02.png"
+            "text": "네, 잘할 수 있어요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_02.png"
+            "text": "네, 해 보고 싶어요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_02.png"
+            "text": "아니요, 힘들지 않아요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_02.png"
+            "text": "아니요, 어려운 것 같아요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_02.png",
-          "b": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_02.png",
-          "c": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_02.png",
-          "d": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_02.png"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_39/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u39_l3",
         "nomor": 3,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 반장님이 표면을 깎으라고 하셨는데, 뭘로 깎아야 돼요? 여 : 이건 금속이라서 줄로 깎아야 돼요. 공구함에 줄이 있을 거예요.",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
         "jawaban": "b",
-        "audio_teks": "1. 여 : 공구함에 망치가 있을 거예요. 몇 개 갖다줄까요?\n남 : 두 개 갖다주세요. 고맙습니다.\n2. 여 : 용접이 힘들어요?\n3. 남 : 반장님이 표면을 깎으라고 하셨는데, 뭘로 깎아야 돼요?\n여 : 이건 금속이라서 줄로 깎아야 돼요. 공구함에 줄이 있을 거예요.\n4. 남 : 용접할 때 불꽃이 튈 수 있으니까 조심하세요.\n5. 여 : 마두 씨, 절단 작업은 다 끝났어요?\n남 : 네, 방금 다 했어요.\n여 : 그럼 자하라 씨한테 용접봉 좀 가져다주세요. 아까부터 찾고 있었어요.\n39 금속 가공 METAL PROCESSING 105",
+        "audio_teks": "남 : 반장님이 표면을 깎으라고 하셨는데, 뭘로 깎아야 돼요?\n여 : 이건 금속이라서 줄로 깎아야 돼요. 공구함에 줄이 있을 거\n예요.",
         "audio_url": "assets/modules/textbook2/audio/unit_39/listening_3.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_03.png"
+            "text": "작업 규칙",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_03.png"
+            "text": "작업 도구",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_03.png"
+            "text": "작업 순서",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_03.png"
+            "text": "작업 장소",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_03.png",
-          "b": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_03.png",
-          "c": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_03.png",
-          "d": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_03.png"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_39/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u39_l4",
         "nomor": 4,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 용접할 때 불꽃이 튈 수 있으니까 조심하세요.",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
         "jawaban": "c",
-        "audio_teks": "1. 여 : 공구함에 망치가 있을 거예요. 몇 개 갖다줄까요?\n남 : 두 개 갖다주세요. 고맙습니다.\n2. 여 : 용접이 힘들어요?\n3. 남 : 반장님이 표면을 깎으라고 하셨는데, 뭘로 깎아야 돼요?\n여 : 이건 금속이라서 줄로 깎아야 돼요. 공구함에 줄이 있을 거예요.\n4. 남 : 용접할 때 불꽃이 튈 수 있으니까 조심하세요.\n5. 여 : 마두 씨, 절단 작업은 다 끝났어요?\n남 : 네, 방금 다 했어요.\n여 : 그럼 자하라 씨한테 용접봉 좀 가져다주세요. 아까부터 찾고 있었어요.\n39 금속 가공 METAL PROCESSING 105",
+        "audio_teks": "남 : 용접할 때 불꽃이 튈 수 있으니까 조심하세요.",
         "audio_url": "assets/modules/textbook2/audio/unit_39/listening_4.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_04.png"
+            "text": "네, 공구함에 잘 넣어 놓겠습니다.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_04.png"
+            "text": "네, 물건이 있는지 확인하겠습니다.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_04.png"
+            "text": "네, 다치지 않도록 주의하겠습니다.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_04.png"
+            "text": "네, 잘 보이는 곳에 보관하겠습니다.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_04.png",
-          "b": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_04.png",
-          "c": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_04.png",
-          "d": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_04.png"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_39/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u39_l5",
         "nomor": 5,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 마두 씨, 절단 작업은 다 끝났어요? 남 : 네, 방금 다 했어요. 여 : 그럼 자하라 씨한테 용접봉 좀 가져다주세요. 아까부터 찾고 있었어요. 39 금속 가공 METAL PROCESSING 105",
+        "teks_soal": "다음 중 들은 내용과 같은 것은 무엇입니까?",
         "jawaban": "a",
-        "audio_teks": "1. 여 : 공구함에 망치가 있을 거예요. 몇 개 갖다줄까요?\n남 : 두 개 갖다주세요. 고맙습니다.\n2. 여 : 용접이 힘들어요?\n3. 남 : 반장님이 표면을 깎으라고 하셨는데, 뭘로 깎아야 돼요?\n여 : 이건 금속이라서 줄로 깎아야 돼요. 공구함에 줄이 있을 거예요.\n4. 남 : 용접할 때 불꽃이 튈 수 있으니까 조심하세요.\n5. 여 : 마두 씨, 절단 작업은 다 끝났어요?\n남 : 네, 방금 다 했어요.\n여 : 그럼 자하라 씨한테 용접봉 좀 가져다주세요. 아까부터 찾고 있었어요.\n39 금속 가공 METAL PROCESSING 105",
+        "audio_teks": "여 : 마두 씨, 절단 작업은 다 끝났어요?\n남 : 네, 방금 다 했어요.\n여 : 그럼 자하라 씨한테 용접봉 좀 가져다주세요. 아까부터 찾\n고 있었어요.",
         "audio_url": "assets/modules/textbook2/audio/unit_39/listening_5.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_05.png"
+            "text": "남자는 방금 작업을 마쳤습니다.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_05.png"
+            "text": "남자는 용접봉을 찾고 있었습니다.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_05.png"
+            "text": "여자는 자하라 씨를 찾고 있습니다.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_05.png"
+            "text": "자하라 씨는 지금 절단 작업을 합니다.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_05.png",
-          "b": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_05.png",
-          "c": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_05.png",
-          "d": "assets/langit-korea-extracted/unit_39/images/u39_h9_soal_listening_05.png"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_39/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ]
   },
   "integrity": {
     "pdf_pages": 10,
-    "vocab_cards": 48,
+    "lesson_flow": 10,
+    "vocab_cards": 7,
+    "grammar_cards": 2,
+    "conversation_cards": 8,
+    "culture_cards": 1,
     "reading_questions": 5,
     "listening_questions": 5,
-    "listening_audio": 5
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_audio": 5,
+    "listening_scripts": 5
   }
 }

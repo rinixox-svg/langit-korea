@@ -4,7 +4,7 @@
   "unit": 56,
   "title_ko": "산업 재해 및 응급 처치",
   "title_en": "Industrial Accidents and First Aid",
-  "title_id": "Kecelakaan Industri dan P3K",
+  "title_id": "Kecelakaan kerja dan pertolongan pertama",
   "source_pdf": "assets/langit-korea-modules/unit_56_industrial_accidents_first_ai.pdf",
   "page_start": 267,
   "page_end": 276,
@@ -61,657 +61,783 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 267,
+        "image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "56 산업 재해 및 응급 처치 \n INDUSTRIAL ACCIDENTS AND FIRST AID 267\n 관계있는 것끼리 연결하세요. Connect the related items.\n⑴\n●\n ●\n불이 났을 때 \n자동으로 경보를 울리는 장치\n⑵\n●\n●\n화재의 확산을 막기 위해 \n설치한 문\n⑶\n●\n●\n불을 끌 때 사용하는 기구\n⑷\n●\n●\n수도에 연결되어 \n물이 나오는 시설\n어휘 VOCABULARY\n소방 장비 표지 Fire Safety Equipment Signs\n소화기\nfire extinguisher \n소방 사다리\nfire ladder \n화재 경보기\nfire alarm \n화재 비상 전화\nfire emergency \nphone \n소방 호스릴 \n(소화전)\nfire hose station \n(fire hydrant)\n소방장비\nfirefighting \nequipment \n방화문\nfire door \n소방 장비 표지 fire safety equipment signs\n삐다 to sprain\n베이다 to get cut\n사고 상황별 초기 대응 요령 initial response guidelines by accident\n감전\nelectric shock \n전원 차단\ncut off power\n질식\nsuffocation \n작업 중지, 대피\nstop work, evacuate \n화재\nfire \n초기 진화 및 대피\ntry to extinguish and \nevacuate\n무너짐\ncollapse \n작업 중지, 대피\nstop work, \nevacuate\n기계 재해\nmachinery accident \n기계 정지\nstop machinery \n유해 물질 유출\nhazardous \nmaterial spill \n밸브 차단, 대피, \n호흡기 및 피부 보호\ncut off valve, evacuate, \nprotect respiratory \nsystem and skin \n인화성 · 산화성 \n물질 유출\nflammable and \noxidizing material \nspill \n점화원 제거, \n화기 사용 금지\nremove ignition sources, \nprohibit use of open \nflames",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 268,
+        "image": "assets/modules/textbook2/unit_56/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "268 한국어 표준교재 2\n문법 GRAMMAR\n-(으)ㄹ 뻔하다\n‘-(으)ㄹ 뻔하다’는 동사에 붙어 어떤 일이 실제로 일어나지는 않았지만 일어날 가능성이 매우 높았음을 나타낸다.\n‘-(으)ㄹ 뻔하다’ is attached to a verb to indicate that although an action did not actually happen, the possibility of its \nhappening was very high. \n받침 ○\n-을 뻔하다\n \n늦다 → 늦을 뻔하다\n받침 ×, 받침 ‘ㄹ’\n-ㄹ 뻔하다\n \n다치다 → 다칠 뻔하다\n예 길이 막혀서 늦을 뻔했어요.\n \n바닥이 미끄러워서 넘어질 뻔했어요.\n \n보안경을 쓰지 않았으면 크게 다칠 뻔했어요.\n1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.\n삐다 데다 베이다 넘어지다\n⑴\n손가락이 .\n⑵\n손을 .\n⑶\n발목을 .\n⑷\n빨리 걷다가 .\n2. 그림을 보고 글을 완성하세요. Look at the pictures and complete the text. \n1\n2\n3\n다치다　　　들어가다　　　넘어지다　　　누출되다\n오늘 작업 현장에서 위험한 일이 많았습니다. \n가스 배관이 조금 깨져 있었습니다. 가스가 누출될 뻔했습니다. \n빨리 발견해서 다행이었습니다. \n그리고 안전표지를 못 보고 출입 금지 구역에 ⑴ 　　　 　 . \n반장님께서 공사장에 있는 표지판을 잘 보고 다니라고 하셨습니다. \n오후에는 작업을 하는데 위에서 벽돌이 떨어졌습니다. 그래서 \n머리를 ⑵ 　　　　　 　　　. \n퇴근하기 전에는 뛰어가다가 철근에 걸려서 ⑶ 　 　　 　　. \n앞으로 조심해야겠습니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 269,
+        "image": "assets/modules/textbook2/unit_56/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "56 산업 재해 및 응급 처치 \n INDUSTRIAL ACCIDENTS AND FIRST AID 269\n대답해 봐요! ANSWER ME!\n1 마두 씨 친구의 공장에 왜 불이 날 뻔했어요? \nWhy did a fire almost happen in Madhu’s friend’s factory? \n2 불이 났을 때 동료들이 어떻게 했어요? What did the colleagues do when the fire broke out? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•바닥이 미끄럽다, 넘어지다 \n•파편이 튀다, 손을 다치다\n가 : 바닥이 미끄러워서 넘어질 뻔했어요.\n나 : 큰일 날 뻔했네요. 넘어지지 않도록 조심하세요.\n가 : 네, 주의하겠습니다.\n발음 │ PRONUNCIATION\n합성어 및 파생어에서, 앞 낱말이나 접두사의 끝이 ‘ㄹ’이고 뒤 낱말이나 접미사의 첫음절이 ‘이, 야, 여, 요, 유’인 경우\n에는, ‘ㄴ’ 소리를 첨가한다. ‘ㄹ’ 받침 뒤에 첨가되는 ‘ㄴ’ 소리는 [ㄹ]로 발음한다.\nIn compound words and derived words, when the final consonant of the first word or prefix is ‘ㄹ’ and \nthe first syllable of the following word or suffix is ‘이, 야, 여, 요, 유’, ‘ㄴ’ is inserted. The ‘ㄴ’ inserted after a \n‘ㄹ’ in the final consonant is pronounced as [ㄹ].\n⑴ 들-일[들릴] \n별-일[별릴] \n설-익다[설릭따] \n볼-일[볼릴]\n⑵ 물-약[물략] \n서울-역[서울력] \n물-엿[물렫] \n휘발-유[휘발류] \n304\n대화 CONVERSATION\n진 수마두 씨, 무슨 일 있어요? 얼굴이 안 좋아 보여요.\n \nMadhu, is something wrong? You don’t look well. \n마 두 친구한테 전화가 왔는데 공장에서 일하다가 불을 낼 \n뻔했대요. 용접하다가 불꽃이 주변에 있던 상자에 튀었대요. \nI got a call from my friend and he said while he was working at the \nfactory he almost started a fire. A spark flew off while welding and \nhit a box nearby. \n진 수친구는 괜찮아요? 많이 놀랐겠어요. 불은 바로 껐대요?\n \nIs your friend okay? They must have been very scared. Did they \nmanage to put out the fire right away? \n마 두 다행히 옆에 있던 동료가 소화기로 진화했대요. \nFortunately, a colleague was nearby and put it out with a fire extinguisher.\n진 수정말 큰일 날 뻔했네요. 마두 씨도 용접할 때 조심하세요. 작업을 시작하기 전에 주변에 불이 쉽게 붙을 \n것 같은 물건이 없는지 확인하는 거 잊지 마세요.\n \nThat was a close call. Madhu, you be careful when welding, too. Before starting work, don't forget to check if \nthere are any objects around that could catch fire easily. \n마 두 네, 항상 조심할게요. \nYes, I'll always be careful. \n303",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 270,
+        "image": "assets/modules/textbook2/unit_56/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "270 한국어 표준교재 2\n소방서(119) 신고 방법\nHow to report to the fire \ndepartment (119)\n① 응급 상황에 대해 설명하기 \nexplain the emergency\n② 사건이 발생한 주소 말하기\nsay the address where \nthe accident occurred\n③ 신고 후 다른 사람과 \n통화하지 않기\nafter reporting, don't \nphone other people\n응급 상황 대처 요령 emergency response guidelines\n화재가 \n났을 때\nIn case of \nfire \n1\n2\n3\n4\n•“불이야!” 하고 외치기\nshout “fire!”\n•화재 경보기 누르기 \npress the fire alarm\n•소화기로 진화하기\nput out the fire with \na fire extinguisher \n•진화가 어려우면 \n대피하기\nif it’s difficult to put \nout, evacuate\n•소방서(119)에 신고\n하기\nreport to the fire \ndepartment (119)\n응급 상황이 \n생겼을 때\nWhen an \nemergency \noccurs \n1\n2\n3\n•상태 파악하기\nassess the situation\n•도움 요청하기 \ncall for help\n•소방서(119)에 신고 \n하기\nreport to the fire \ndepartment (119)\n•응급 처치하기\nadminister first aid\n 그림을 보고 글을 완성하세요. Look at the pictures and complete the text. \n1\n2\n4\n3\n불이 나면 먼저 “불이야!” 하고 큰 소리로 외쳐야 합니다. \n그리고 ⑴ 　　 　 　을/를 눌러야 합니다. \n⑵ 　　 　　(으)로 불을 끕니다.\n그런데 화재 규모가 크면 바로 ⑶ 　　 　을/를 \n하는 것이 좋습니다. 그리고 ⑷ 　　 　 에 신고해야 \n합니다. \n어휘 VOCABULARY\n응급 상황 대처 요령 Emergency Response Guidelines\n사고 대응 요령 accident response guidelines\n사고 발생\naccident \noccurs\n작업 중지 및 \n긴급 대피\nstop work and \nurgently evacuate\n신고 및 응급조치\nreport and take \nemergency \nmeasures\n현장 보존\npreserve \nthe site\n•관리감독자, 상급자에게 보고하기 report to the supervisor or superior\n•소방서(119), 경찰서(112)에 신고하기 report to the fire department (119) or police (112)\n•사고 원인 조사가 끝낼 때까지 현장 보존하기 \npreserve the site until the investigation of the accident's cause is finished",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 271,
+        "image": "assets/modules/textbook2/unit_56/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "56 산업 재해 및 응급 처치 \n INDUSTRIAL ACCIDENTS AND FIRST AID 271\n문법 GRAMMAR\n-자마자\n‘-자마자’는 동사에 붙어 앞의 행위가 끝난 후에 뒤의 행위가 \n곧바로 이어서 이루어짐을 나타낸다.\n‘-자마자’ is attached to a verb to indicate that after the \ncompletion of the first action, the following action immediately \noccurs. \n예 회사에 도착하자마자 전화할게요.\n \n불이 나자마자 119에 신고했어요.\n \n사고가 발생하자마자 작업을 중지했어요.\n‘-는 대로’는 앞뒤의 행위가 우연히 \n이어서 일어났을 때는 사용할 수 없\n으나, ‘-자마자’는 가능하다.\n‘-는 대로’ cannot be used when the \nsecond action coincidentally follows \nthe first, but ‘-자마자’ can. \n예 집에 도착하자마자 회사에서 전화가 \n왔어요. (O)\n \n집에 도착하는 대로 회사에서 전화가 \n왔어요. (X)\n1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.\n받다　　　　　　끝내다　　　　　　도색하다　　　　　　도착하다\n⑴ 신청한 제품이 정리했어요.\n⑵ 바로 만지면 안 돼요.\n⑶ 작업을 작업장을 정리하세요.\n⑷ 월급을 부모님께 송금했어요.\n2. [보기]와 같이 알맞은 것을 연결하고 문장을 쓰세요. \nConnect the related items and write the sentences as shown in the example.\n[보기]\n⑴\n⑵\n⑶\n유해 물질이 유출되다 \n플러그에 물을 쏟다 \n기계에 장갑이 끼이다 \n화재가 발생하다\n●\n●\n●\n●\n●\n●\n●\n●\n기계의 전원을 차단하다\n기계를 정지하다\n밖으로 대피하다\n소화기로 불을 끄다\n [보기] \n 유해 물질이 유출되자마자 밖으로 대피했어요 .\n \n⑴ \n .\n \n⑵ \n .\n \n⑶ \n .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 272,
+        "image": "assets/modules/textbook2/unit_56/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "272 한국어 표준교재 2\n대화 CONVERSATION\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•불이 나다, 119에 신고하다, 대피하다\n•다친 사람을 보다, 주변에 도움을 요청하다, 응급 처치를 하다\n가 : 불이 나면 어떻게 해야 돼요?\n나 : 불이 나자마자 119에 신고해야 돼요. \n \n그리고 서둘러 대피해야 돼요.\n가 : 맞아요. 꼭 그렇게 해야 돼요. \n가 : 요즘은 주문이 많네요. 바쁘지요? \nThere are a lot of orders lately. It’s busy, isn’t it? \n나 : 네, 일손이 부족해요. Yes, we’re understaffed.\n유용한 표현 │ USEFUL EXPRESSION\n일손이 부족해요.\nWe’re understaffed.\n306\n강연자 \n여러분, 일하다가 혹시 사고가 발생할 뻔한 적이 있습니까? 사고가 발생하면 어떻게 해야 할까요?\n \nHas anyone ever almost had an accident occur while working? What should we do when an accident occurs? \n \n사고가 발생하자마자 바로 작업을 중지하고, 관리자나 작업반장에게 보고해야 합니다.\n \nAs soon as an accident occurs, we should stop work immediately and report it to the supervisor or team leader. \n \n만약 화재가 발생하면 빨리 119에 신고하고 다른 사람들에게도 알려야 합니다. \n그리고 소화기로 불을 꺼야 합니다.\n \nIf a fire breaks out, we should quickly report to 119 and \ninform others as well. Then, use a fire extinguisher to put \nout the fire.\n \n다친 사람이 있으면 응급 처치를 해야 합니다.\n \nWe should administer first aid if someone gets injured.\n \n그리고 중요한 것이 하나 더 있습니다. 사고 원인을 \n조사해야 하니까 사고 현장을 정리하지 말고 그대로 \n두어야 합니다.\n \nAnd there's one more important thing. Since the cause of \nthe accident needs to be investigated, you shouldn't clean \nup the site of the accident and instead leave it as it is.\n대답해 봐요! ANSWER ME!\n1 화재가 발생하면 어떻게 해야 돼요? What should someone do if a fire occurs? \n2 왜 사고 현장을 정리하면 안 돼요? Why shouldn't someone clean up the site of the accident?\n3. 상급자에게 보고하기\n \n소방서(119), \n \n경찰서(112)에 신고하기\n305",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 273,
+        "image": "assets/modules/textbook2/unit_56/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "문화와 정보 CULTURE & INFORMATION\n56 산업 재해 및 응급 처치 \n INDUSTRIAL ACCIDENTS AND FIRST AID 273\n• 사고 상황별 대응 요령에 대해 말할 수 있다. \nI can talk about the response guidelines for different types of accidents. \n↻\n• 어떤 상황이 일어날 가능성이 매우 높았음을 표현할 수 있다. \nI can express when something was highly likely to happen. \n↻\n• 어떤 상황이 일어나고 곧바로 다른 상황이 일어남을 표현할 수 있다. \nI can express when one event happens immediately after another. \n↻\n확인해요 │ self assessment\n비상 상황 표지\nEmergency Situation Signs\n응급처치\nfirst aid\n응급 상황 시 취하는 임시 의료 조치\ntemporary medical measures \ntaken in an emergency\n자동 심장 박동기\nautomated external defibrillator \n심장의 정상적인 리듬을 \n유지하기 위해 사용되는 의료 기기\nmedical device to maintain normal \nheart rhythm\n비상 전화\nemergency telephone \n응급 상황에서 사용할 수 있도록 \n마련된 전화\ntelephone for emergency use\n들것\nstretcher \n환자를 옮길 때 \n사용하는 기구\nequipment used to \nmove a patient\n음료수\ndrinking water \n마실 수 있는 물\nwater that is drinkable\n산소 호흡기\noxygen resuscitator \n숨을 쉴 수 있도록 산소를 \n공급하는 장치\ndevice that supplies air \nso one can breath\n구급 가방\nmedical grab bag\n응급 처치에 필요한 \n물품이 들어 있는 가방\nkit containing first aid \nsupplies\n※ 산업표준심의회의 KS S ISO 7010:2019를 따라 제시하였습니다.\n비상 탈출용 호흡기\nemergency escape breathing device \n갑작스러운 비상 상황에서 \n벗어날 때 사용하는 호흡 장치\nbreathing device used in the escape of \na sudden emergency\n구명 부이\nlifebuoy\n물에 빠진 사람을 구하기 \n위해 사용되는 도구\ndevice used to save a \nperson stuck in water\n구명 조끼\nlifejacket\n물에 빠졌을 때 생명을 \n지키기 위해 입는 조끼\nvest worn to save one's life \nwhen stuck in water",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 274,
+        "image": "assets/modules/textbook2/unit_56/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n274 한국어 표준교재 2\n[1~2] 다음 내용과 관계있는 그림을 고르십시오.\n1.\n산소 호흡기입니다.\n①\n②\n③\n④\n2.\n소방장비입니다.\n①\n②\n③\n④\n3. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n오늘 작업장에 불이 나서 119에 을/를 했습니다. 다행히 큰 피해는 없었습니다. \n① 신고 \n② 교환 \n③ 안내 \n④ 신청\n4. 다음 글을 읽고 내용과 같은 것을 고르십시오.\n화재 예방 교육 안내\n다음 주에 화재 예방 교육이 있습니다.\n신입 사원 여러분은 반드시 참석해 주십시오.\n● 일시 : 9월 23일(월) \n10:00~11:00\n● 장소 : 회의실(2층 사무실 옆)\n● 대상 : 신입 사원\n① 화재 예방 교육은 주말에 있습니다.\n② 화재 예방 교육은 11시에 시작합니다.\n③ 신입 사원은 교육을 듣지 않아도 됩니다.\n④ 2층 회의실에서 화재 예방 교육을 합니다.\n5. \n다음은 무엇에 대한 설명입니까?\n불을 끌 때 사용하는 기구로 쉽게 불을 끌 수 있는 화학물질이 채워져 있습니다.\n① 소화기 \n② 방화문 \n③ 소방 호스 릴 \n④ 화재 경보기",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 275,
+        "image": "assets/modules/textbook2/unit_56/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n[1~2] 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n1.\n① 네, 소화기예요. \n \n \n② 네, 많이 있어요.\n③ 아니요, 소화기가 없어요. \n \n④ 아니요, 사용법을 몰라요.\n2.\n① 어제 다쳤어요. \n \n \n② 마두 씨가 다쳤어요.\n③ 작업장에서 다쳤어요. \n \n \n④ 파편이 튀어서 다쳤어요.\n3. 두 사람은 무엇에 대해 말하고 있습니까? \n① 작업 시 주의 사항 \n \n \n② 작업장의 정돈 상태\n③ 응급 상황 대처 요령 \n \n \n④ 작업 도구 사용 방법\n4. 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n① 바닥에 내려놓으세요.\n② 철근을 빨리 가져오세요.\n③ 빨리 발견해서 다행이에요.\n④ 현장에서는 항상 조심하세요.\n5. \n여자가 이어서 할 행동은 무엇입니까?\n① 불을 끄러 갑니다.\n② 용접기를 끄러 갑니다.\n③ 반장님을 부르러 갑니다.\n④ 소화기를 가지러 갑니다.\n1. \n남 : 소화기 사용법을 알아요?\n2. 여 : 왜 손을 다쳤어요?\n3. 여 : 가스 냄새가 나는 것 같아요.\n \n남 : 정말 냄새가 나네요. 빨리 밸브를 잠그고 창문을 엽시다.\n4. 남 : 철근에 걸려서 넘어질 뻔했어요.\n5. 남 : 자하라 씨, 큰일 났어요. 용접하다가 불꽃이 상자에 튀었어요.\n \n여 : 용접기부터 끄세요. 어, 저기 불이 붙은 것 같아요. 소화기 가져와서 얼른 불을 끄세요.\n \n남 : 네, 빨리 가져올게요.\n \n여 : 저는 반장님을 불러올게요.\n듣기지문\n56 산업 재해 및 응급 처치 \n INDUSTRIAL ACCIDENTS AND FIRST AID 275\n307",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 276,
+        "image": "assets/modules/textbook2/unit_56/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "276 한국어 표준교재 2\n학습 목표\nLEARNING OBJECTIVES\n고용허가제의 업종에 대해 말할 수 있다.\nCan talk about the industries under the employment permit system. \n고용허가제 취업 절차에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about the employment permit system job procedures. \n고용허가제 \nEmployment Permit System \nC H A P T E R 5 7\n276 한국어 표준교재 2\n정말 축하해요.\n한국에 일하러 가게 되었어요.\n-는/(으)ㄴ 줄 알았다, 몰랐다\n-게 되다\nGRAMMAR\n문법\n고용허가제의 업종\nEmployment Permit System Industries \n고용허가제 취업 절차\nProcedures to Gain Employment \nthrough the Employment Permit \nSystem\nVOCABULARY\n어휘\n고용허가제\nEmployment Permit System (EPS)\nCULTURE & INFORMATION\n문화와 정보\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "vocab": [
       {
         "id": "vocab_1",
-        "front": "56 산업 재해 및 응급 처치",
-        "back": "INDUSTRIAL ACCIDENTS AND FIRST AID 267",
-        "raw": {
-          "korean": "56  산업 재해 및 응급 처치",
-          "indonesia": "INDUSTRIAL ACCIDENTS AND FIRST AID   267"
-        }
+        "front": "소방 장비 표지",
+        "back": "Fire Safety Equipment Signs",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_2",
-        "front": "관계있는 것끼리 연결하세요. Connect the related items.",
-        "back": "⑴ ● ●",
-        "raw": {
-          "korean": "\u0007관계있는 것끼리 연결하세요. Connect the related items.",
-          "indonesia": "⑴ ● ●"
-        }
+        "front": "소화기",
+        "back": "fire extinguisher",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_3",
-        "front": "자동으로 경보를 울리는 장치",
-        "back": "⑵",
-        "raw": {
-          "korean": "자동으로 경보를 울리는 장치",
-          "indonesia": "⑵"
-        }
+        "front": "소방 사다리",
+        "back": "fire ladder",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_4",
-        "front": "설치한 문",
-        "back": "⑶",
-        "raw": {
-          "korean": "설치한 문",
-          "indonesia": "⑶"
-        }
+        "front": "화재 경보기",
+        "back": "fire alarm",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_5",
-        "front": "불을 끌 때 사용하는 기구",
-        "back": "⑷",
-        "raw": {
-          "korean": "불을 끌 때 사용하는 기구",
-          "indonesia": "⑷"
-        }
+        "front": "화재 비상 전화",
+        "back": "fire emergency phone",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_6",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "(소화전)",
+        "back": "fire hose station (fire hydrant)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_7",
-        "front": "소화기",
-        "back": "fire extinguisher",
-        "raw": {
-          "korean": "소화기",
-          "indonesia": "fire extinguisher"
-        }
+        "front": "소방장비",
+        "back": "firefighting equipment",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_8",
-        "front": "소방 사다리",
-        "back": "fire ladder",
-        "raw": {
-          "korean": "소방 사다리",
-          "indonesia": "fire ladder"
-        }
+        "front": "방화문",
+        "back": "fire door",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_9",
-        "front": "화재 경보기",
-        "back": "fire alarm",
-        "raw": {
-          "korean": "화재 경보기",
-          "indonesia": "fire alarm"
-        }
+        "front": "소방 장비 표지",
+        "back": "fire safety equipment signs",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_10",
-        "front": "화재 비상 전화",
-        "back": "fire emergency",
-        "raw": {
-          "korean": "화재 비상 전화",
-          "indonesia": "fire emergency"
-        }
+        "front": "삐다",
+        "back": "to sprain",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_11",
-        "front": "(소화전)",
-        "back": "fire hose station",
-        "raw": {
-          "korean": "(소화전)",
-          "indonesia": "fire hose station"
-        }
+        "front": "베이다",
+        "back": "to get cut",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_12",
-        "front": "소방장비",
-        "back": "firefighting",
-        "raw": {
-          "korean": "소방장비",
-          "indonesia": "firefighting"
-        }
+        "front": "사고 상황별 초기 대응 요령",
+        "back": "initial response guidelines by accident",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_13",
-        "front": "방화문",
-        "back": "fire door",
-        "raw": {
-          "korean": "방화문",
-          "indonesia": "fire door"
-        }
+        "front": "감전",
+        "back": "electric shock",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_14",
-        "front": "감전",
-        "back": "electric shock",
-        "raw": {
-          "korean": "감전",
-          "indonesia": "electric shock"
-        }
+        "front": "전원 차단",
+        "back": "cut off power",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_15",
-        "front": "전원 차단",
-        "back": "cut off power",
-        "raw": {
-          "korean": "전원 차단",
-          "indonesia": "cut off power"
-        }
+        "front": "질식",
+        "back": "suffocation",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_16",
-        "front": "질식",
-        "back": "suffocation",
-        "raw": {
-          "korean": "질식",
-          "indonesia": "suffocation"
-        }
+        "front": "작업 중지, 대피",
+        "back": "stop work, evacuate",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_17",
-        "front": "작업 중지, 대피",
-        "back": "stop work, evacuate",
-        "raw": {
-          "korean": "작업 중지, 대피",
-          "indonesia": "stop work, evacuate"
-        }
+        "front": "화재",
+        "back": "fire",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_18",
-        "front": "화재",
-        "back": "fire",
-        "raw": {
-          "korean": "화재",
-          "indonesia": "fire"
-        }
+        "front": "초기 진화 및 대피",
+        "back": "try to extinguish and evacuate",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_19",
-        "front": "초기 진화 및 대피",
-        "back": "try to extinguish and",
-        "raw": {
-          "korean": "초기 진화 및 대피",
-          "indonesia": "try to extinguish and"
-        }
+        "front": "무너짐",
+        "back": "collapse",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_20",
-        "front": "무너짐",
-        "back": "collapse",
-        "raw": {
-          "korean": "무너짐",
-          "indonesia": "collapse"
-        }
+        "front": "기계 재해",
+        "back": "machinery accident",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_21",
-        "front": "작업 중지, 대피",
-        "back": "stop work,",
-        "raw": {
-          "korean": "작업 중지, 대피",
-          "indonesia": "stop work,"
-        }
+        "front": "기계 정지",
+        "back": "stop machinery",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_22",
-        "front": "기계 재해",
-        "back": "machinery accident",
-        "raw": {
-          "korean": "기계 재해",
-          "indonesia": "machinery accident"
-        }
+        "front": "유해 물질 유출",
+        "back": "hazardous material spill",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_23",
-        "front": "기계 정지",
-        "back": "stop machinery",
-        "raw": {
-          "korean": "기계 정지",
-          "indonesia": "stop machinery"
-        }
+        "front": "호흡기 및 피부 보호",
+        "back": "cut off valve, evacuate, protect respiratory system and skin",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_24",
-        "front": "유해 물질 유출",
-        "back": "hazardous",
-        "raw": {
-          "korean": "유해 물질 유출",
-          "indonesia": "hazardous"
-        }
+        "front": "물질 유출",
+        "back": "flammable and oxidizing material spill",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_25",
-        "front": "호흡기 및 피부 보호",
-        "back": "cut off valve, evacuate,",
-        "raw": {
-          "korean": "호흡기 및 피부 보호",
-          "indonesia": "cut off valve, evacuate,"
-        }
+        "front": "화기 사용 금지",
+        "back": "remove ignition sources, prohibit use of open flames",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_26",
-        "front": "물질 유출",
-        "back": "flammable and",
-        "raw": {
-          "korean": "물질 유출",
-          "indonesia": "flammable and"
-        }
+        "front": "응급 상황 대처 요령",
+        "back": "Emergency Response Guidelines",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_27",
-        "front": "화기 사용 금지",
-        "back": "remove ignition sources,",
-        "raw": {
-          "korean": "화기 사용 금지",
-          "indonesia": "remove ignition sources,"
-        }
+        "front": "사고 대응 요령",
+        "back": "accident response guidelines",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_28",
-        "front": "소방서(119) 신고 방법",
-        "back": "How to report to the fire",
-        "raw": {
-          "korean": "소방서(119) 신고 방법",
-          "indonesia": "How to report to the fire"
-        }
+        "front": "사고 발생",
+        "back": "accident occurs",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_29",
-        "front": "① 응급 상황에 대해 설명하기",
-        "back": "explain the emergency",
-        "raw": {
-          "korean": "① \u0007응급 상황에 대해 설명하기",
-          "indonesia": "explain the emergency"
-        }
+        "front": "긴급 대피",
+        "back": "stop work and urgently evacuate",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_30",
-        "front": "② 사건이 발생한 주소 말하기",
-        "back": "say the address where",
-        "raw": {
-          "korean": "② \u0007사건이 발생한 주소 말하기",
-          "indonesia": "say the address where"
-        }
+        "front": "신고 및 응급조치",
+        "back": "report and take emergency measures",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_31",
-        "front": "통화하지 않기",
-        "back": "after reporting, don't",
-        "raw": {
-          "korean": "통화하지 않기",
-          "indonesia": "after reporting, don't"
-        }
+        "front": "현장 보존",
+        "back": "preserve the site",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_32",
-        "front": "났을 때",
-        "back": "In case of",
-        "raw": {
-          "korean": "났을 때",
-          "indonesia": "In case of"
-        }
+        "front": "•관리감독자, 상급자에게 보고하기",
+        "back": "report to the supervisor or superior",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_33",
-        "front": "•“불이야!” 하고 외치기",
-        "back": "shout “fire!”",
-        "raw": {
-          "korean": "•“불이야!” 하고 외치기",
-          "indonesia": "shout “fire!”"
-        }
+        "front": "•소방서(119), 경찰서(112)에 신고하기",
+        "back": "report to the fire department (119) or police (112)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_34",
-        "front": "•화재 경보기 누르기",
-        "back": "press the fire alarm",
-        "raw": {
-          "korean": "•화재 경보기 누르기",
-          "indonesia": "press the fire alarm"
-        }
-      },
-      {
-        "id": "vocab_35",
-        "front": "•소화기로 진화하기",
-        "back": "put out the fire with",
-        "raw": {
-          "korean": "•소화기로 진화하기",
-          "indonesia": "put out the fire with"
-        }
-      },
-      {
-        "id": "vocab_36",
-        "front": "대피하기",
-        "back": "if it’s difficult to put",
-        "raw": {
-          "korean": "대피하기",
-          "indonesia": "if it’s difficult to put"
-        }
-      },
-      {
-        "id": "vocab_37",
-        "front": "하기",
-        "back": "report to the fire",
-        "raw": {
-          "korean": "하기",
-          "indonesia": "report to the fire"
-        }
-      },
-      {
-        "id": "vocab_38",
-        "front": "생겼을 때",
-        "back": "When an",
-        "raw": {
-          "korean": "생겼을 때",
-          "indonesia": "When an"
-        }
-      },
-      {
-        "id": "vocab_39",
-        "front": "•상태 파악하기",
-        "back": "assess the situation",
-        "raw": {
-          "korean": "•상태 파악하기",
-          "indonesia": "assess the situation"
-        }
-      },
-      {
-        "id": "vocab_40",
-        "front": "•도움 요청하기",
-        "back": "call for help",
-        "raw": {
-          "korean": "•도움 요청하기",
-          "indonesia": "call for help"
-        }
-      },
-      {
-        "id": "vocab_41",
-        "front": "하기",
-        "back": "report to the fire",
-        "raw": {
-          "korean": "하기",
-          "indonesia": "report to the fire"
-        }
-      },
-      {
-        "id": "vocab_42",
-        "front": "•응급 처치하기",
-        "back": "administer first aid",
-        "raw": {
-          "korean": "•\u0007응급 처치하기",
-          "indonesia": "administer first aid"
-        }
-      },
-      {
-        "id": "vocab_43",
-        "front": "그림을 보고 글을 완성하세요. Look at the pictures and complete the text.",
-        "back": "1 2 4 3",
-        "raw": {
-          "korean": "\u0007그림을 보고 글을 완성하세요. Look at the pictures and complete the text.",
-          "indonesia": "1 2 4 3"
-        }
-      },
-      {
-        "id": "vocab_44",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
-      },
-      {
-        "id": "vocab_45",
-        "front": "응급 상황 대처 요령",
-        "back": "Emergency Response Guidelines",
-        "raw": {
-          "korean": "응급 상황 대처 요령",
-          "indonesia": "Emergency Response Guidelines"
-        }
-      },
-      {
-        "id": "vocab_46",
-        "front": "사고 발생",
-        "back": "accident",
-        "raw": {
-          "korean": "사고 발생",
-          "indonesia": "accident"
-        }
-      },
-      {
-        "id": "vocab_47",
-        "front": "긴급 대피",
-        "back": "stop work and",
-        "raw": {
-          "korean": "긴급 대피",
-          "indonesia": "stop work and"
-        }
-      },
-      {
-        "id": "vocab_48",
-        "front": "신고 및 응급조치",
-        "back": "report and take",
-        "raw": {
-          "korean": "신고 및 응급조치",
-          "indonesia": "report and take"
-        }
-      },
-      {
-        "id": "vocab_49",
-        "front": "현장 보존",
-        "back": "preserve",
-        "raw": {
-          "korean": "현장 보존",
-          "indonesia": "preserve"
-        }
-      },
-      {
-        "id": "vocab_50",
         "front": "•사고 원인 조사가 끝낼 때까지 현장 보존하기",
         "back": "preserve the site until the investigation of the accident's cause is finished",
-        "raw": {
-          "korean": "•\u0007사고 원인 조사가 끝낼 때까지 현장 보존하기",
-          "indonesia": "preserve the site until the investigation of the accident's cause is finished"
-        }
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       }
     ],
     "grammar": [
       {
         "id": "grammar_1",
-        "front": "268 한국어 표준교재 2",
-        "back": "문법 GRAMMAR",
-        "raw": {
-          "pattern": "268   한국어 표준교재  2",
-          "explanation": "문법  GRAMMAR"
-        }
+        "front": "-(으)ㄹ 뻔하다",
+        "back": "‘-(으)ㄹ 뻔하다’는 동사에 붙어 어떤 일이 실제로 일어나지는 않았지만 일어날 가능성이 매우 높았음을 나타낸다.\n‘-(으)ㄹ 뻔하다’ is attached to a verb to indicate that although an action did not actually happen, the possibility of its\nhappening was very high.\n받침 ○\n-을 뻔하다\n늦다 → 늦을 뻔하다\n받침 ×, 받침 ‘ㄹ’\n-ㄹ 뻔하다\n다치다 → 다칠 뻔하다",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
       },
       {
         "id": "grammar_2",
-        "front": "‘-(으)ㄹ 뻔하다’는 동사에 붙어 어떤 일이 실제로 일어나지는 않았지만 일어날 가능성이 매우 높았음을 나타낸다.",
-        "back": "‘-(으)ㄹ 뻔하다’ is attached to a verb to indicate that although an action did not actually happen, the possibility of its",
-        "raw": {
-          "pattern": "‘-(으)ㄹ 뻔하다’는 동사에 붙어 어떤 일이 실제로 일어나지는 않았지만 일어날 가능성이 매우 높았음을 나타낸다.",
-          "explanation": "‘-(으)ㄹ 뻔하다’ is attached to a verb to indicate that although an action did not actually happen, the possibility of its"
-        }
-      },
-      {
-        "id": "grammar_3",
-        "front": "보안경을 쓰지 않았으면 크게 다칠 뻔했어요.",
-        "back": "1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.",
-        "raw": {
-          "pattern": "보안경을 쓰지 않았으면 크게 다칠 뻔했어요.",
-          "explanation": "1. \u0007알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options."
-        }
-      },
-      {
-        "id": "grammar_4",
-        "front": "빨리 걷다가 .",
-        "back": "2. 그림을 보고 글을 완성하세요. Look at the pictures and complete the text.",
-        "raw": {
-          "pattern": "빨리 걷다가                                    .",
-          "explanation": "2. \u0007그림을 보고 글을 완성하세요. Look at the pictures and complete the text."
-        }
-      },
-      {
-        "id": "grammar_5",
-        "front": "56 산업 재해 및 응급 처치",
-        "back": "INDUSTRIAL ACCIDENTS AND FIRST AID 271",
-        "raw": {
-          "pattern": "56  산업 재해 및 응급 처치",
-          "explanation": "INDUSTRIAL ACCIDENTS AND FIRST AID   271"
-        }
-      },
-      {
-        "id": "grammar_6",
-        "front": "곧바로 이어서 이루어짐을 나타낸다.",
-        "back": "‘-자마자’ is attached to a verb to indicate that after the",
-        "raw": {
-          "pattern": "곧바로 이어서 이루어짐을 나타낸다.",
-          "explanation": "‘-자마자’ is attached to a verb to indicate that after the"
-        }
-      },
-      {
-        "id": "grammar_7",
-        "front": "으나, ‘-자마자’는 가능하다.",
-        "back": "‘-는 대로’ cannot be used when the",
-        "raw": {
-          "pattern": "으나, ‘-자마자’는 가능하다.",
-          "explanation": "‘-는 대로’ cannot be used when the"
-        }
-      },
-      {
-        "id": "grammar_8",
-        "front": "예 집에 도착하자마자 회사에서 전화가",
-        "back": "왔어요. (O)",
-        "raw": {
-          "pattern": "예\t \u0007집에 도착하자마자 회사에서 전화가",
-          "explanation": "왔어요. (O)"
-        }
-      },
-      {
-        "id": "grammar_9",
-        "front": "집에 도착하는 대로 회사에서 전화가",
-        "back": "왔어요. (X)",
-        "raw": {
-          "pattern": "\u0007집에 도착하는 대로 회사에서 전화가",
-          "explanation": "왔어요. (X)"
-        }
-      },
-      {
-        "id": "grammar_10",
-        "front": "2. [보기]와 같이 알맞은 것을 연결하고 문장을 쓰세요.",
-        "back": "Connect the related items and write the sentences as shown in the example.",
-        "raw": {
-          "pattern": "2. \u0007[보기]와 같이 알맞은 것을 연결하고 문장을 쓰세요.",
-          "explanation": "Connect the related items and write the sentences as shown in the example."
-        }
+        "front": "-자마자",
+        "back": "‘-자마자’는 동사에 붙어 앞의 행위가 끝난 후에 뒤의 행위가\n곧바로 이어서 이루어짐을 나타낸다.\n‘-자마자’ is attached to a verb to indicate that after the\ncompletion of the first action, the following action immediately\noccurs.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
       }
     ],
     "conversation": [
       {
         "id": "conversation_1",
-        "front": "바닥이 미끄러워서 넘어질 뻔했어요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "바닥이 미끄러워서 넘어질 뻔했어요."
-        }
+        "front": "진 수마두 씨, 무슨 일 있어요? 얼굴이 안 좋아 보여요.",
+        "back": "Madhu, is something wrong? You don’t look well.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_2",
-        "front": "큰일 날 뻔했네요. 넘어지지 않도록 조심하세요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "큰일 날 뻔했네요. 넘어지지 않도록 조심하세요."
-        }
+        "front": "마 두 친구한테 전화가 왔는데 공장에서 일하다가 불을 낼\n뻔했대요. 용접하다가 불꽃이 주변에 있던 상자에 튀었대요.",
+        "back": "I got a call from my friend and he said while he was working at the factory he almost started a fire. A spark flew off while welding and hit a box nearby.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_3",
-        "front": "네, 주의하겠습니다. 발음 │ PRONUNCIATION 합성어 및 파생어에서, 앞 낱말이나 접두사의 끝이 ‘ㄹ’이고 뒤 낱말이나 접미사의 첫음절이 ‘이, 야, 여, 요, 유’인 경우 에는, ‘ㄴ’ 소리를 첨가한다. ‘ㄹ’ 받침 뒤에 첨가되는 ‘ㄴ’ 소리는 [ㄹ]로 발음한다. In compound words and derived words, when the final consonant of the first word or prefix is ‘ㄹ’ and the first syllable of the following word or suffix is ‘이, 야, 여, 요, 유’, ‘ㄴ’ is inserted. The ‘ㄴ’ inserted after a ‘ㄹ’ in the final consonant is pronounced as [ㄹ]. ⑴ 들-일[들릴] 별-일[별릴] 설-익다[설릭따] 볼-일[볼릴] ⑵ 물-약[물략] 서울-역[서울력] 물-엿[물렫] 휘발-유[휘발류] 304 대화 CONVERSATION 진 수마두 씨, 무슨 일 있어요? 얼굴이 안 좋아 보여요. Madhu, is something wrong? You don’t look well. 마 두 친구한테 전화가 왔는데 공장에서 일하다가 불을 낼 뻔했대요. 용접하다가 불꽃이 주변에 있던 상자에 튀었대요. I got a call from my friend and he said while he was working at the factory he almost started a fire. A spark flew off while welding and hit a box nearby. 진 수친구는 괜찮아요? 많이 놀랐겠어요. 불은 바로 껐대요? Is your friend okay? They must have been very scared. Did they manage to put out the fire right away? 마 두 다행히 옆에 있던 동료가 소화기로 진화했대요. Fortunately, a colleague was nearby and put it out with a fire extinguisher. 진 수정말 큰일 날 뻔했네요. 마두 씨도 용접할 때 조심하세요. 작업을 시작하기 전에 주변에 불이 쉽게 붙을 것 같은 물건이 없는지 확인하는 거 잊지 마세요. That was a close call. Madhu, you be careful when welding, too. Before starting work, don't forget to check if there are any objects around that could catch fire easily. 마 두 네, 항상 조심할게요. Yes, I'll always be careful. 303",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "네, 주의하겠습니다. 발음 │ PRONUNCIATION 합성어 및 파생어에서, 앞 낱말이나 접두사의 끝이 ‘ㄹ’이고 뒤 낱말이나 접미사의 첫음절이 ‘이, 야, 여, 요, 유’인 경우 에는, ‘ㄴ’ 소리를 첨가한다. ‘ㄹ’ 받침 뒤에 첨가되는 ‘ㄴ’ 소리는 [ㄹ]로 발음한다. In compound words and derived words, when the final consonant of the first word or prefix is ‘ㄹ’ and the first syllable of the following word or suffix is ‘이, 야, 여, 요, 유’, ‘ㄴ’ is inserted. The ‘ㄴ’ inserted after a ‘ㄹ’ in the final consonant is pronounced as [ㄹ]. ⑴ 들-일[들릴] 별-일[별릴] 설-익다[설릭따] 볼-일[볼릴] ⑵ 물-약[물략] 서울-역[서울력] 물-엿[물렫] 휘발-유[휘발류] 304 대화  CONVERSATION 진  수마두 씨, 무슨 일 있어요? 얼굴이 안 좋아 보여요. Madhu, is something wrong? You don’t look well. 마  두 \u0007친구한테 전화가 왔는데 공장에서 일하다가 불을 낼 뻔했대요. 용접하다가 불꽃이 주변에 있던 상자에 튀었대요. I got a call from my friend and he said while he was working at the factory he almost started a fire. A spark flew off while welding and hit a box nearby. 진  수친구는 괜찮아요? 많이 놀랐겠어요. 불은 바로 껐대요? \u0007Is your friend okay? They must have been very scared. Did they manage to put out the fire right away? 마  두 \u0007다행히 옆에 있던 동료가 소화기로 진화했대요. Fortunately, a colleague was nearby and put it out with a fire extinguisher. 진  수정말 큰일 날 뻔했네요. 마두 씨도 용접할 때 조심하세요. 작업을 시작하기 전에 주변에 불이 쉽게 붙을 것 같은 물건이 없는지 확인하는 거 잊지 마세요. \u0007That was a close call. Madhu, you be careful when welding, too. Before starting work, don't forget to check if there are any objects around that could catch fire easily. 마  두 \u0007네, 항상 조심할게요. Yes, I'll always be careful. 303"
-        }
+        "front": "진 수친구는 괜찮아요? 많이 놀랐겠어요. 불은 바로 껐대요?",
+        "back": "Is your friend okay? They must have been very scared. Did they manage to put out the fire right away?",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_4",
-        "front": "불이 나면 어떻게 해야 돼요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "불이 나면 어떻게 해야 돼요?"
-        }
+        "front": "마 두 다행히 옆에 있던 동료가 소화기로 진화했대요.",
+        "back": "Fortunately, a colleague was nearby and put it out with a fire extinguisher.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_5",
-        "front": "불이 나자마자 119에 신고해야 돼요. 그리고 서둘러 대피해야 돼요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "불이 나자마자 119에 신고해야 돼요. 그리고 서둘러 대피해야 돼요."
-        }
+        "front": "진 수정말 큰일 날 뻔했네요. 마두 씨도 용접할 때 조심하세요. 작업을 시작하기 전에 주변에 불이 쉽게 붙을\n것 같은 물건이 없는지 확인하는 거 잊지 마세요.",
+        "back": "That was a close call. Madhu, you be careful when welding, too. Before starting work, don't forget to check if there are any objects around that could catch fire easily.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_6",
-        "front": "맞아요. 꼭 그렇게 해야 돼요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "맞아요. 꼭 그렇게 해야 돼요."
-        }
+        "front": "마 두 네, 항상 조심할게요.",
+        "back": "Yes, I'll always be careful.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_7",
-        "front": "요즘은 주문이 많네요. 바쁘지요? There are a lot of orders lately. It’s busy, isn’t it?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "\u0007요즘은 주문이 많네요. 바쁘지요? There are a lot of orders lately. It’s busy, isn’t it?"
-        }
+        "front": "제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•불이 나다, 119에 신고하다, 대피하다\n•다친 사람을 보다, 주변에 도움을 요청하다, 응급 처치를 하다\n가 : 불이 나면 어떻게 해야 돼요?\n나 : 불이 나자마자 119에 신고해야 돼요.\n그리고 서둘러 대피해야 돼요.\n가 : 맞아요. 꼭 그렇게 해야 돼요.\n가 : 요즘은 주문이 많네요. 바쁘지요?",
+        "back": "There are a lot of orders lately. It’s busy, isn’t it?",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_8",
-        "front": "네, 일손이 부족해요. Yes, we’re understaffed. 유용한 표현 │ USEFUL EXPRESSION 일손이 부족해요. We’re understaffed. 306 강연자 여러분, 일하다가 혹시 사고가 발생할 뻔한 적이 있습니까? 사고가 발생하면 어떻게 해야 할까요? Has anyone ever almost had an accident occur while working? What should we do when an accident occurs? 사고가 발생하자마자 바로 작업을 중지하고, 관리자나 작업반장에게 보고해야 합니다. As soon as an accident occurs, we should stop work immediately and report it to the supervisor or team leader. 만약 화재가 발생하면 빨리 119에 신고하고 다른 사람들에게도 알려야 합니다. 그리고 소화기로 불을 꺼야 합니다. If a fire breaks out, we should quickly report to 119 and inform others as well. Then, use a fire extinguisher to put out the fire. 다친 사람이 있으면 응급 처치를 해야 합니다. We should administer first aid if someone gets injured. 그리고 중요한 것이 하나 더 있습니다. 사고 원인을 조사해야 하니까 사고 현장을 정리하지 말고 그대로 두어야 합니다. And there's one more important thing. Since the cause of the accident needs to be investigated, you shouldn't clean up the site of the accident and instead leave it as it is. 대답해 봐요! ANSWER ME! 1 화재가 발생하면 어떻게 해야 돼요? What should someone do if a fire occurs? 2 왜 사고 현장을 정리하면 안 돼요? Why shouldn't someone clean up the site of the accident? 3. 상급자에게 보고하기 소방서(119), 경찰서(112)에 신고하기 305",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "\u0007네, 일손이 부족해요. Yes, we’re understaffed. 유용한 표현 │ USEFUL EXPRESSION 일손이 부족해요. We’re understaffed. 306 강연자 \u0007여러분, 일하다가 혹시 사고가 발생할 뻔한 적이 있습니까? 사고가 발생하면 어떻게 해야 할까요? Has anyone ever almost had an accident occur while working? What should we do when an accident occurs? \u0007사고가 발생하자마자 바로 작업을 중지하고, 관리자나 작업반장에게 보고해야 합니다. \u0007As soon as an accident occurs, we should stop work immediately and report it to the supervisor or team leader. \u0007만약 화재가 발생하면 빨리 119에 신고하고 다른 사람들에게도 알려야 합니다. 그리고 소화기로 불을 꺼야 합니다. \u0007If a fire breaks out, we should quickly report to 119 and inform others as well. Then, use a fire extinguisher to put out the fire. 다친 사람이 있으면 응급 처치를 해야 합니다. We should administer first aid if someone gets injured. \u0007그리고 중요한 것이 하나 더 있습니다. 사고 원인을 조사해야 하니까 사고 현장을 정리하지 말고 그대로 두어야 합니다. \u0007And there's one more important thing. Since the cause of the accident needs to be investigated, you shouldn't clean up the site of the accident and instead leave it as it is. 대답해 봐요!  ANSWER ME! 1  \u0007화재가 발생하면 어떻게 해야 돼요? What should someone do if a fire occurs? 2  \u0007왜 사고 현장을 정리하면 안 돼요? Why shouldn't someone clean up the site of the accident? 3. 상급자에게 보고하기 소방서(119), 경찰서(112)에 신고하기 305"
-        }
+        "front": "나 : 네, 일손이 부족해요. Yes, we’re understaffed.\n유용한 표현 │ USEFUL EXPRESSION\n일손이 부족해요.",
+        "back": "We’re understaffed.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_9",
+        "front": "여러분, 일하다가 혹시 사고가 발생할 뻔한 적이 있습니까? 사고가 발생하면 어떻게 해야 할까요?",
+        "back": "Has anyone ever almost had an accident occur while working? What should we do when an accident occurs?",
+        "speaker": "강연자",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_10",
+        "front": "사고가 발생하자마자 바로 작업을 중지하고, 관리자나 작업반장에게 보고해야 합니다.",
+        "back": "As soon as an accident occurs, we should stop work immediately and report it to the supervisor or team leader.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_11",
+        "front": "만약 화재가 발생하면 빨리 119에 신고하고 다른 사람들에게도 알려야 합니다.\n그리고 소화기로 불을 꺼야 합니다.",
+        "back": "If a fire breaks out, we should quickly report to 119 and inform others as well. Then, use a fire extinguisher to put out the fire.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_12",
+        "front": "다친 사람이 있으면 응급 처치를 해야 합니다.",
+        "back": "We should administer first aid if someone gets injured.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_13",
+        "front": "그리고 중요한 것이 하나 더 있습니다. 사고 원인을\n조사해야 하니까 사고 현장을 정리하지 말고 그대로\n두어야 합니다.",
+        "back": "And there's one more important thing. Since the cause of the accident needs to be investigated, you shouldn't clean up the site of the accident and instead leave it as it is.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       }
     ],
-    "culture": [],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "56 산업 재해 및 응급 처치",
+        "back": "INDUSTRIAL ACCIDENTS AND FIRST AID 273",
+        "body": "56 산업 재해 및 응급 처치\nINDUSTRIAL ACCIDENTS AND FIRST AID 273\n• 사고 상황별 대응 요령에 대해 말할 수 있다.\nI can talk about the response guidelines for different types of accidents.\n• 어떤 상황이 일어날 가능성이 매우 높았음을 표현할 수 있다.\nI can express when something was highly likely to happen.\n• 어떤 상황이 일어나고 곧바로 다른 상황이 일어남을 표현할 수 있다.\nI can express when one event happens immediately after another.\n비상 상황 표지\nEmergency Situation Signs\n응급처치\nfirst aid\n응급 상황 시 취하는 임시 의료 조치\ntemporary medical measures\ntaken in an emergency\n자동 심장 박동기",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook2/unit_56/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
     "reading": [
       {
-        "id": "u56_m1",
+        "id": "u56_r1",
         "nomor": 1,
         "tipe": "membaca",
         "instruksi": "",
-        "teks_soal": "산소 호흡기입니다.",
-        "jawaban": "a",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n산소 호흡기입니다.",
+        "jawaban": "c",
         "audio_teks": "",
         "audio_url": "",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r1_a.jpg",
+          "b": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r1_b.jpg",
+          "c": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r1_c.jpg",
+          "d": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_56/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u56_m2",
+        "id": "u56_r2",
         "nomor": 2,
         "tipe": "membaca",
         "instruksi": "",
-        "teks_soal": "소방장비입니다.",
-        "jawaban": "b",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n소방장비입니다.",
+        "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r2_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r2_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r2_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r2_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r2_a.jpg",
+          "b": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r2_b.jpg",
+          "c": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r2_c.jpg",
+          "d": "assets/modules/textbook2/unit_56/choice_images/reading/u56_r2_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_56/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u56_m3",
+        "id": "u56_r3",
         "nomor": 3,
         "tipe": "membaca",
         "instruksi": "",
-        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오. 오늘 작업장에 불이 나서 119에 을/를 했습니다. 다행히 큰 피해는 없었습니다.",
-        "jawaban": "c",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n오늘 작업장에 불이 나서 119에 을/를 했습니다. 다행히 큰 피해는 없었습니다.",
+        "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -740,14 +866,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_56/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u56_m4",
+        "id": "u56_r4",
         "nomor": 4,
         "tipe": "membaca",
         "instruksi": "",
-        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오. 화재 예방 교육 안내 다음 주에 화재 예방 교육이 있습니다. 신입 사원 여러분은 반드시 참석해 주십시오. ● 일시 : 9월 23일(월) 10:00~11:00 ● 장소 : 회의실(2층 사무실 옆) ● 대상 : 신입 사원",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n화재 예방 교육 안내\n다음 주에 화재 예방 교육이 있습니다.\n신입 사원 여러분은 반드시 참석해 주십시오.\n● 일시 : 9월 23일(월)\n10:00~11:00\n● 장소 : 회의실(2층 사무실 옆)\n● 대상 : 신입 사원",
         "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
@@ -777,15 +907,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_56/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u56_m5",
+        "id": "u56_r5",
         "nomor": 5,
         "tipe": "membaca",
         "instruksi": "",
-        "teks_soal": "다음은 무엇에 대한 설명입니까? 불을 끌 때 사용하는 기구로 쉽게 불을 끌 수 있는 화학물질이 채워져 있습니다.",
-        "jawaban": "b",
+        "teks_soal": "다음은 무엇에 대한 설명입니까?\n불을 끌 때 사용하는 기구로 쉽게 불을 끌 수 있는 화학물질이 채워져 있습니다.",
+        "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -814,7 +948,11 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_56/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ],
     "listening": [
@@ -823,98 +961,220 @@
         "nomor": 1,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 소화기 사용법을 알아요?",
+        "teks_soal": "",
         "jawaban": "d",
-        "audio_teks": "56 산업 재해 및 응급 처치 \n INDUSTRIAL ACCIDENTS AND FIRST AID 275",
+        "audio_teks": "남 : 소화기 사용법을 알아요?",
         "audio_url": "assets/modules/textbook2/audio/unit_56/listening_1.mp3",
         "pilihan": [
           {
             "key": "a",
             "label": "A",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_56/images/u56_h9_soal_listening_01_a.png"
+            "text": "네, 소화기예요.",
+            "image": ""
           },
           {
             "key": "b",
             "label": "B",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_56/images/u56_h9_soal_listening_01_b.png"
+            "text": "네, 많이 있어요.",
+            "image": ""
           },
           {
             "key": "c",
             "label": "C",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_56/images/u56_h9_soal_listening_01_c.png"
+            "text": "아니요, 소화기가 없어요.",
+            "image": ""
           },
           {
             "key": "d",
             "label": "D",
-            "text": "",
-            "image": "assets/langit-korea-extracted/unit_56/images/u56_h9_soal_listening_01_d.png"
+            "text": "아니요, 사용법을 몰라요.",
+            "image": ""
           }
         ],
-        "gambar_pilihan": {
-          "a": "assets/langit-korea-extracted/unit_56/images/u56_h9_soal_listening_01_a.png",
-          "b": "assets/langit-korea-extracted/unit_56/images/u56_h9_soal_listening_01_b.png",
-          "c": "assets/langit-korea-extracted/unit_56/images/u56_h9_soal_listening_01_c.png",
-          "d": "assets/langit-korea-extracted/unit_56/images/u56_h9_soal_listening_01_d.png"
-        }
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_56/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u56_l2",
         "nomor": 2,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 왜 손을 다쳤어요?",
+        "teks_soal": "",
         "jawaban": "d",
-        "audio_teks": "56 산업 재해 및 응급 처치 \n INDUSTRIAL ACCIDENTS AND FIRST AID 275",
+        "audio_teks": "여 : 왜 손을 다쳤어요?",
         "audio_url": "assets/modules/textbook2/audio/unit_56/listening_2.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "어제 다쳤어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "마두 씨가 다쳤어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "작업장에서 다쳤어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "파편이 튀어서 다쳤어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_56/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u56_l3",
         "nomor": 3,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 가스 냄새가 나는 것 같아요. 남 : 정말 냄새가 나네요. 빨리 밸브를 잠그고 창문을 엽시다.",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
         "jawaban": "c",
-        "audio_teks": "56 산업 재해 및 응급 처치 \n INDUSTRIAL ACCIDENTS AND FIRST AID 275",
+        "audio_teks": "여 : 가스 냄새가 나는 것 같아요.\n남 : 정말 냄새가 나네요. 빨리 밸브를 잠그고 창문을 엽시다.",
         "audio_url": "assets/modules/textbook2/audio/unit_56/listening_3.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "작업 시 주의 사항",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "작업장의 정돈 상태",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "응급 상황 대처 요령",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "작업 도구 사용 방법",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_56/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u56_l4",
         "nomor": 4,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 철근에 걸려서 넘어질 뻔했어요.",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
         "jawaban": "d",
-        "audio_teks": "56 산업 재해 및 응급 처치 \n INDUSTRIAL ACCIDENTS AND FIRST AID 275",
+        "audio_teks": "남 : 철근에 걸려서 넘어질 뻔했어요.",
         "audio_url": "assets/modules/textbook2/audio/unit_56/listening_4.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "바닥에 내려놓으세요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "철근을 빨리 가져오세요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "빨리 발견해서 다행이에요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "현장에서는 항상 조심하세요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_56/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u56_l5",
         "nomor": 5,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 자하라 씨, 큰일 났어요. 용접하다가 불꽃이 상자에 튀었어요. 여 : 용접기부터 끄세요. 어, 저기 불이 붙은 것 같아요. 소화기 가져와서 얼른 불을 끄세요. 남 : 네, 빨리 가져올게요. 여 : 저는 반장님을 불러올게요. 듣기지문 56 산업 재해 및 응급 처치 INDUSTRIAL ACCIDENTS AND FIRST AID 275 307",
+        "teks_soal": "여자가 이어서 할 행동은 무엇입니까?",
         "jawaban": "c",
-        "audio_teks": "56 산업 재해 및 응급 처치 \n INDUSTRIAL ACCIDENTS AND FIRST AID 275",
+        "audio_teks": "남 : 자하라 씨, 큰일 났어요. 용접하다가 불꽃이 상자에 튀었\n어요.\n여 : 용접기부터 끄세요. 어, 저기 불이 붙은 것 같아요. 소화기\n가져와서 얼른 불을 끄세요.\n남 : 네, 빨리 가져올게요.\n여 : 저는 반장님을 불러올게요.",
         "audio_url": "assets/modules/textbook2/audio/unit_56/listening_5.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "불을 끄러 갑니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "용접기를 끄러 갑니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "반장님을 부르러 갑니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "소화기를 가지러 갑니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_56/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ]
   },
   "integrity": {
     "pdf_pages": 10,
-    "vocab_cards": 50,
+    "lesson_flow": 10,
+    "vocab_cards": 34,
+    "grammar_cards": 2,
+    "conversation_cards": 13,
+    "culture_cards": 1,
     "reading_questions": 5,
     "listening_questions": 5,
-    "listening_audio": 5
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_audio": 5,
+    "listening_scripts": 5
   }
 }

@@ -4,7 +4,7 @@
   "unit": 57,
   "title_ko": "고용허가제",
   "title_en": "Employment Permit System",
-  "title_id": "Sistem Izin Kerja G2G",
+  "title_id": "Sistem izin kerja",
   "source_pdf": "assets/langit-korea-modules/unit_57_employment_permit_system.pdf",
   "page_start": 277,
   "page_end": 286,
@@ -61,561 +61,567 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 277,
+        "image": "assets/modules/textbook2/unit_57/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "57 고용허가제 \n EMPLOYMENT PERMIT SYSTEM 277\n어휘 VOCABULARY\n고용허가제의 업종 Employment Permit System Industries\n제조업\nmanufacturing\n건설업\nconstruction\n농업\nagriculture \n축산업\nlivestock\n어업\nfishery\n조선업\nshipbuilding \n임업\nforestry \n광업\nmining \n서비스업\nservice\n호텔 · 콘도업\nhotel and condo business\n음식서비스업\nfood service \n업종 industry type\n가산점 extra point\n 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.\n⑴\n가 : 무슨 업종을 신청했어요?\n나 : .\n⑵\n가 : 무슨 업종을 신청하고 싶어요?\n나 : .\n⑶\n가 : 무슨 업종을 신청하려고 해요?\n나 : .\n⑷\n가 : 무슨 업종을 신청할 거예요?\n나 : .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 278,
+        "image": "assets/modules/textbook2/unit_57/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "278 한국어 표준교재 2\n문법 GRAMMAR\n-는/(으)ㄴ 줄 알았다, 몰랐다\n‘-는/(으)ㄴ 줄 알았다’는 동사, 형용사에 붙여 어떤 상황을 실제와는 다르게 인식하였음을 깨달았을 때 사용한다. \n‘-는/(으)ㄴ 줄 몰랐다’는 동사, 형용사에 붙여 실제의 어떤 상황을 인식하지 못했음을 깨달았을 때 사용한다.\n‘-는/(으)ㄴ 줄 알았다’ is used when you realize that you had perceived a situation differently from reality. ‘-는/(으)ㄴ \n줄 몰랐다’ is used when you realize that you had not recognized a certain situation. \n동사, \n있다/없다\n현재\n-는 줄 알았다, 몰랐다\n \n오다 → 오는 줄 알았다, 몰랐다\n과거\n받침 ○\n-은 줄 알았다, 몰랐다\n \n먹다 → 먹은 줄 알았다, 몰랐다\n받침 ×, 받침 ‘ㄹ’\n-ㄴ 줄 알았다, 몰랐다\n \n보다 → 본 줄 알았다, 몰랐다\n \n팔다 → 판 줄 알았다, 몰랐다\n형용사\n받침 ○\n-은 줄 알았다, 몰랐다\n \n작다 → 작은 줄 알았다, 몰랐다\n받침 ×, 받침 ‘ㄹ’\n-ㄴ 줄 알았다, 몰랐다\n \n크다 → 큰 줄 알았다, 몰랐다\n \n멀다 → 먼 줄 알았다, 몰랐다\n예 택배 일이 서비스업에 포함되는 줄 몰랐어요.\n \n칼로 씨가 조선업을 신청한 줄 알았어요.\n \n한국의 여름이 이렇게 더운 줄 몰랐어요.\n1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요. \nComplete the sentences with the correct options as shown in the example.\n퇴근하다 되다 신청하다 부르다\n일하느라고 벌써 점심시간이 된 줄 몰랐어요.\n[ 보기 ]\n⑴ 아까는 너무 시끄러워서 반장님이 저를 .\n⑵ 칼로 씨는 농업을 신청했대요. 나처럼 제조업을 .\n⑶ 아지자 씨가 안 보여서 오늘은 일찍 .\n2. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example.\n가 : 이 상자는 정말 무겁네요.\n나 : 그래요? 상자가 크지 않아서 이렇게 무거운 줄 몰랐어요.\n[ 보기 ]\n⑴\n가 : 아지자 씨가 농사 경험이 있대요.\n나 : 그래요? .\n⑵\n가 : 자야 씨, 왜 전화를 안 받았어요? \n나 : 미안해요. .\n⑶\n가 : 저는 건설업을 신청했어요.\n나 : 그래요? .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 279,
+        "image": "assets/modules/textbook2/unit_57/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "57 고용허가제 \n EMPLOYMENT PERMIT SYSTEM 279\n유수프 \n안녕하세요? 저, 한국에서 일하고 싶어서 왔는데요.\n \nHello, I’m here because I want to work in Korea.\n직\n원 \n그래요? 이쪽으로 앉으세요. 무슨 업종에서 일하고 싶으세요? \n제조업, 농업, 어업, 건설업 여러 업종이 있어요.\n \nReally? Please take a seat. In which industry do you want to work? \nThere are several industries like manufacturing, agriculture, \nfishery, and construction. \n유수프 \n어, 건설업이 있는 줄 몰랐어요. 건설업을 신청해도 돼요?\n \nOh, I didn’t know the construction was included. Can I apply \nfor that? \n직\n원 \n그럼요. 혹시 비슷한 일을 해 본 적이 있어요?\n \nOf course. Do you by chance have similar work experience?\n유수프 \n네, 예전에 건물을 짓는 일을 해 본 적이 있어서 잘할 수 있을 것 같아요.\n \nYes, I worked in constructing buildings before, so I think I'll do well. \n직\n원 \n잘됐네요. 같은 업종에서 일해 본 경험이 있으면 가산점을 받을 수 있어요.\n \nThat’s great. You can get extra points if you have experience in the same industry.\n대화 CONVERSATION\n대답해 봐요! ANSWER ME!\n1 유수프 씨는 왜 직원을 찾아왔어요? Why did Yusuf come to see the official? \n2 유수프 씨는 무슨 일을 해 본 적이 있어요? Where has Yusuf worked before? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•배 만드는 일을 하고 싶다, 조선업, 요즘 조선업에서 사람을 많이 뽑다\n•농사일을 한 경험이 있다, 농업, 경험이 있는 업종을 선택하면 가산점을 받다\n가 : 한국에 가면 무슨 일을 하고 싶어요?\n나 : 배 만드는 일을 하고 싶어서 조선업을 신청하려고 해요.\n가 : 잘됐네요. 요즘 조선업에서 사람을 많이 뽑는대요.\n나 : 그래요? 조선업에서 사람을 많이 뽑는 줄 몰랐어요.\n발음 │ PRONUNCIATION\n두 낱말을 이어 한 마디로 발음할 때, 뒤 낱말이 ‘이, 야, 여, 요, 유’인 경우에는, ‘ㄴ’ 소리를 첨가하여 [니, 냐, 녀, 뇨, 뉴]\n로 발음한다. 이때, 앞 음절의 끝 자음이 장애음인 경우 같은 위치에서 나는 비음으로 발음한다. 또한 ‘ㄹ’ 받침 뒤에 첨\n가되는 ‘ㄴ’ 소리는 [ㄹ]로 발음한다.\nWhen two words are pronounced in succession as one unit, if the second word starts with ‘이, 야, 여, 요, 유’ \n‘ㄴ’ is inserted, and then pronounced as [니, 냐, 녀, 뇨, 뉴]. In this case, if the final consonant of the preceding \nsyllable is an obstruent, it is pronounced as a nasal sound produced in the same place of articulation. \nAdditionally, a ‘ㄴ’ inserted after a final consonant ‘ㄹ’ is pronounced as [ㄹ]. \n⑴ 한 일[한닐] \n옷 입다[온닙다] \n⑵ 잘 입다[잘립다] \n할 일 없이[할리럽씨]\n309\n308",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 280,
+        "image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "280 한국어 표준교재 2\n 관계있는 것끼리 연결하세요. Connect the related items.\n⑴\n구직자 명부 작성\n●\n ●\n사업장에 가서 일을 시작해요. \n⑵\n사업장 배치\n●\n●\n일할 회사와 근로 계약을 해요.\n⑶\n사전 취업 교육\n●\n●\n한국에 가기 전 교육을 받아요.\n⑷\n표준근로계약 체결\n●\n●\n시험에 합격한 사람들의 명단을 만들어요.\n비자 visa\n신입 사원 new employee\n공지 notice\n훨씬 much (more)\n어휘 VOCABULARY\n고용허가제 취업 절차 Procedures to Gain Employment through \nthe Employment Permit System\n1차 평가 1st round test\n한국어능력시험(EPS-TOPIK)\nEmployment Permit System - Test of \nProficiency in Korean (EPS-TOPIK)\n한국어능력시험(EPS-TOPIK)을 봅니다.\nJob seekers take the Employment Permit System - Test of \nProficiency in Korean (EPS-TOPIK)\n2차 평가 2nd round test\n기능 시험\nskills test\n기초 기능과 체력 및 면접 평가를 받습니다.\nEvaluations are received for basic skills and physical ability, and an \ninterview is conducted.\n구직자 명부 작성 및 송부\nrequest and forwarding of job seekers roster\n합격한 사람들의 구직자 명부를 작성해서 한국에 보냅니다.\nRoaster of job seekers who passed is requested and sent to Korea.\n표준근로계약 체결\nsigning of a standard labor contract\n한국에서 일할 회사와 근로 계약을 합니다.\nA labor contract is signed with a company in Korea.\n입국 및 취업 교육\narrival and employment training \n한국에 입국한 다음 직장 문화, 관계 법령 등에 관한 교육을 받습니다.\nAfter arriving in Korea, workers receive training on workplace \nculture, relevant laws, etc. \n사전 취업 교육\npre-employment training\n한국에 가기 전 한국어와 한국문화, 법률, 산업안전 등에 대해 교육을 \n받습니다. \nBefore going to Korea, workers receive training on Korean language, \nKorean culture, law, and industry safety. \n사업장 배치\njob placement \n계약한 회사에 배치되어 일을 시작합니다.\nWorkers are assigned to a company and start working.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 281,
+        "image": "assets/modules/textbook2/unit_57/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "57 고용허가제 \n EMPLOYMENT PERMIT SYSTEM 281\n문법 GRAMMAR\n-게 되다\n‘-게 되다’는 주로 동사에 붙어 외부 요인에 의해 상황이나 상태가 변화하여 어떤 결과에 이르렀음을 나타낸다.\n‘-게 되다’ is usually attached to a verb and indicates that a situation or state changes due to external factors, \nresulting in a certain outcome. \n예 디안 씨 옆 방에서 살게 되었어요.\n \n프엉 씨하고 같은 회사에서 일하게 되었어요.\n \n한국에 온 후 한국에 대해 더 많이 알게 되었습니다.\n1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.\n혼자 방을 쓰다 안전 수칙을 알다 일을 시작하다 한국에서 일할 기회를 얻다 \n⑴ 사전 취업 교육이 모두 끝나서 .\n⑵ 회사에서 안전 교육을 받아서 .\n⑶ 룸메이트가 고향으로 돌아가서 .\n⑷ 한국어능력시험(EPS-TOPIK)과 기능 시험에 합격해서 .\n2. 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example.\n컴퓨터 교육 안내\n모집 기간 •8/11 ~ 8/20\n신청 방법\n•방문 신청\n교육 기간 •9/1(일) ~ 11/24(일) \n오후 1:00~3:00\n문의/상담 031-555-4512\n가 : 어떻게 알고 컴퓨터 교육을 신청했어요?\n나 : 포스터를 보고 신청하게 되었어요.\n[ 보기 ]\n⑴\n가 : 왜 한국어 공부를 시작했어요?\n나 : 한국에서 일하고 싶어서\n \n . \n⑵\n가 : 우리 회사가 신입 사원을 뽑는 \n것을 어떻게 알았어요?\n나 : 홈페이지 공지를 보고 \n .\n⑶\nEPS\n가 : 고용허가제에 대해 어떻게 \n알았어요?\n나 : 신문을 보고 .\n⑷\n가 : 어떻게 프엉 씨를 만났어요?\n나 : 친구의 소개로\n \n .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 282,
+        "image": "assets/modules/textbook2/unit_57/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "282 한국어 표준교재 2\n대화 CONVERSATION\n칼\n로 \n선생님, 저 시험에 합격해서 한국에 일하러 가게 \n되었어요.\n \nI passed the test and I’m going to work in Korea. \n선생님 \n정말 축하해요. 그런데 어디에서 일하게 \n되었어요?\n \nCongratulations. But where will you be working? \n칼\n로 \n어제 부산에 있는 조선소하고 근로계약을 했어요.\n \nYesterday I signed a contract with a shipyard in Busan. \n선생님 \n한국에 가기 전에 비자도 신청하고 교육도 \n받아야 해서 정말 바쁘겠네요.\n \nYou must be really busy since you need to apply \nfor a visa and receive training before going to Korea. \n칼\n로 \n네, 한국 생활이 너무 기대돼요. 한국에서 살면 한국어도 더 잘하게 되겠죠?\n \nYes, I'm really excited for Korean life. While living in Korea I'm sure my Korean will get better, right? \n선생님 \n그럼요. 지금보다 훨씬 잘하게 될 거예요.\n \nOf course. Your Korean will get much better than now.\n대답해 봐요! ANSWER ME!\n1 칼로 씨는 어디에서 일하게 되었어요? Where will Carlo be working? \n2 칼로 씨는 한국 생활에 대해 어떻게 생각해요? How does Carlo feel about Korean life?\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•축사, 축사에서 한 번도 해 본 적이 없다, 열심히 노력하다\n•플라스틱 공장, 작업장에서 필요한 한국어를 잘 모르다, \n부지런히 배우다\n가 : 어디에서 일하게 되었어요?\n나 : 축사에서 일하게 되었어요.\n \n그런데 저는 축사에서 한 번도 일을 해 본 적이 없어요. \n가 : 열심히 노력하면 금방 잘할 거예요.\n가 : 출근할 때 버스 안에서 넘어졌어요. \nI fell down on the bus on my way to work. \n나 : 큰일 날 뻔했네요. 괜찮아요? That was a close call. Are you okay? \n유용한 표현 │ USEFUL EXPRESSION\n큰일 날 뻔했네요.\nThat was a close call. \n311\n310",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 283,
+        "image": "assets/modules/textbook2/unit_57/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "57 고용허가제 \n EMPLOYMENT PERMIT SYSTEM 283\n문화와 정보 CULTURE & INFORMATION\n• 고용허가제의 업종에 대해 말할 수 있다. \nI can talk about the industries under the employment permit system. \n↻\n• 고용허가제 취업 절차에 대해 묻고 대답할 수 있다. \nI can ask and answer questions about the employment permit system job procedures. \n↻\n• 상황이나 상태의 변화에 대해 묻고 대답할 수 있다. \nI can ask and answer questions about changes in situations or conditions. \n↻\n확인해요 │ self assessment\n57 고용허가제 \n EMPLOYMENT PERMIT SYSTEM 283\n고용허가제 \nEmployment Permit System (EPS)\n고용허가제란 인력을 구하지 못한 한국 기업이 일정한 요건\n을 갖춘 외국인 근로자를 합법적으로 고용할 수 있도록 허가해 \n주는 제도를 말합니다. 2004년 8월부터 시행하고 있으며 한국\n의 고용노동부와 한국산업인력공단이 담당하고 있습니다.\nThe Employment Permit System refers to a system that \nallows Korean companies that are unable to find domestic \nlabor to legally hire foreign workers who meet certain \nrequirements. It has been in effect since August 2004 and is \nmanaged by the Ministry of Employment and Labor and the \nHuman Resources Development Service of Korea. \n외국인 근로자는 최초 입국 후 3년간 일을 할 수 있는데, 취\n업 기간이 끝난 후에 고용주가 재고용을 원하면 1년 10개월 동\n안 더 일할 수 있습니다. 그 후에도 재입국 특례 고용 허가를 받\n게 되면 다시 4년 10개월까지 더 일할 수 있어 최장 9년 8개월 \n동안 한국에서 일하는 것이 가능합니다.\nForeign workers can initially work for a period of three years. \nIf the employer wishes to rehire them after the end of that \nemployment period, they can do so for an additional 1 year \nand 10 months. After that, if they receive a special re-entry \nemployment permit they can work for an additional 4 years \nand 10 months, allowing them to work in Korea for up to 9 \nyears and 8 months.\n외국인 근로자는 ‘표준근로계약서’에 따라 근로계약을 체결\n하며, 각종 보험에 가입하는 것이 의무화되어 있어 임금 체불이\n나 상해 등의 피해로부터 보호받을 수 있습니다. 또한 근로기준\n법 등 한국의 국내법에서 정한 기본적인 권리를 한국인과 동등\n하게 보장받습니다.\nForeign workers sign an employment contract in accordance \nwith the Standard Labor Contract and are required to join \nvarious insurance programs which protect them from issues \nsuch as delay in wage payments or injuries. Additionally, they \nare guaranteed the same basic rights as Korean workers \nstipulated in domestic laws like the Labor Standards Act.\n취업 기간 중 정당한 사유로 근로계약을 해지당하였거나 사\n업장의 휴업, 폐업 등 정상적인 근로관계를 지속하기 곤란한 \n경우에는 사업장 변경도 가능합니다. 다만, 같은 업종과 같은 \n지역 내에서만 변경할 수 있습니다. 최초 3년간은 3회, 재고용 \n기간 중에는 2회의 사업장 변경이 가능하나 반드시 근로계약 \n종료 후 1개월 이내에 관할 고용복지플러스센터에 사업장 변\n경 신청을 해야 합니다. 그리고 사업장 변경 신청을 하고 3개\n월 이내에 법무부 출입국 · 외국인 사무소로부터 「출입국관리\n법」에 따른 근무처 변경 허가를 받아야 한다는 점도 잊어서는 \n안 됩니다.\nIf the labor contract is terminated for valid reasons during the \nemployment period, or if it becomes difficult to maintain a \nnormal working relationship due to closure or suspension of \nthe workplace, foreign workers are able to change their \nworkplace. However, the change is restricted to the same \nindustry and region. Workers can change workplaces up to \nthree times during the initial three-year period and twice \nduring the reemployment period. The application for \nworkplace change must be submitted to the local \nEmployment Welfare Plus Center within one month of the \ncontract termination. Additionally, it is important to note that \nworkers must receive permission for a change in workplace \nfrom the Ministry of Justice’s Immigration Office within three \nmonths of application in accordance with the Immigration \nAct.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 284,
+        "image": "assets/modules/textbook2/unit_57/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n284 한국어 표준교재 2\n1. \n다음 중 밑줄 친 부분이 맞는 문장을 고르십시오. \n① 작업장이 더럽은 줄 몰랐어요. \n② 지금 밖에 비가 오는 줄 몰랐어요.\n③ 벌써 퇴근 시간이 되는 줄 몰랐어요. \n④ 왕민 씨가 키가 작는 줄 몰랐어요.\n2. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n저는 배를 만드는 회사에서 일해 본 적이 있어요. 그래서 을 신청했어요.\n① 제조업 \n② 조선업 \n③ 건설업 \n④ 축산업\n3. 다음 글을 읽고 내용과 같은 것을 고르십시오.\n● 시험 국가 : 중국\n● 접수 기간 : 2024년 9월 13일 ~ 2024년 9월 15일\n● 시험 공고일 : 2024년 9월 23일\n● 시험일 : 2024년 9월 26일\n한국어능력시험(EPS-TOPIK)\n① 이 시험은 9월 23일에 칩니다.\n② 이 시험은 한국에서 실시됩니다.\n③ 이 시험은 사흘 동안 접수가 가능합니다.\n④ 이 시험의 결과는 9월 26일에 알 수 있습니다. \n4. 다음은 무엇에 대한 설명입니까?\n고용허가제의 업종 중 하나로 곡식이나 채소, 과일을 재배하는 업종입니다.\n① 임업 \n② 농업 \n③ 광업 \n④ 어업\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n고용허가제는 고용노동부가 한국 내의 인력 부족 문제를 해결하고 외국인 노동자를 합법적으로 \n고용하기 위해 마련한 제도입니다. 자국에서 선발 시험을 통과한 지원자들은 사업주와 계약 후 한국 \n비자를 받을 수 있습니다. 한국에 온 후에는 한국인 노동자들과 동등하게 노동법이 정한 기본적인 권리를 \n보장 받으며 일할 수 있습니다.\n① 지원자들은 한국에 입국한 후 사업주와 고용 계약을 합니다.\n② 고용허가제는 한국에 살고 있는 외국인을 위한 취업 제도입니다.\n③ 지원자들은 시험에 통과해야 한국에서 일할 기회를 얻을 수 있습니다.\n④ 고용허가제로 한국에 온 외국인은 한국인들과 다른 노동법의 보호를 받습니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 285,
+        "image": "assets/modules/textbook2/unit_57/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n57 고용허가제 \n EMPLOYMENT PERMIT SYSTEM 285\n[1~2] 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n1.\n① 네, 어제 비자를 받았어요. \n \n② 네, 비자를 신청할 거예요. \n③ 아니요, 비자를 신청하세요. \n④ 아니요, 비자가 빨리 나왔어요.\n2.\n① 다음 주에 가게 되었어요. \n \n② 한국에 가게 되었어요. \n③ 왕민 씨가 가게 되었어요. \n \n④ 고용허가제로 가게 되었어요.\n3. 두 사람은 무엇에 대해 말하고 있습니까?\n① 신청 기간 \n \n \n② 신청 비용\n③ 신청 방법 \n \n \n④ 신청 변경\n4. 다음 중 들은 내용과 같은 것은 무엇입니까? \n① 여자는 남자에게 한국어를 가르쳐 줬습니다.\n② 여자는 남자와 함께 이번에 시험을 쳤습니다.\n③ 남자는 시험에 떨어져서 기분이 안 좋습니다.\n④ 남자는 한국어를 공부하러 한국에 가려고 합니다.\n5. \n남자가 이어서 할 행동은 무엇입니까?\n① 센터로 갑니다.\n② 계약서에 서명을 합니다.\n③ 여자에게 전화를 겁니다.\n④ 고용허가제를 신청합니다.\n1. \n남 : 신청한 비자가 나왔어요?\n2. 남 : 언제 한국에 가요?\n3. 여 : 고용허가제를 신청하고 싶은데 어떻게 하면 돼요?\n \n남 : 이 신청서를 작성해 주시면 됩니다. \n4. 남 : 선생님, 저 이번에 고용허가제 시험에 합격했어요.\n \n여 : 그래요? 연락이 없어서 시험에 떨어진 줄 알았어요. 정말 축하해요.\n \n남 : 감사합니다. 선생님께서 한국어를 잘 가르쳐 주신 덕분입니다.\n5. 여 : 안녕하세요? 이번에 고용허가제 시험에 합격한 칼로 씨 되십니까?\n \n남 : 안녕하세요? 무슨 일이시죠?\n \n여 : 칼로 씨와 고용 계약을 하고 싶다는 회사가 있어서 연락드립니다.\n \n남 : 정말요? 지금 바로 센터로 가겠습니다.\n듣기지문\n312",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 286,
+        "image": "assets/modules/textbook2/unit_57/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "학습 목표\nLEARNING OBJECTIVES\n표준근로계약서의 근로 조건에 대해 묻고 대답할 수 있다.\nCan ask and answer questions related to working conditions of the standard labor contract.\n급여 명세서를 보고 이해할 수 있다.\nCan read and understand read pay stubs.\n근로기준법 \nLabor Standards Act \nC H A P T E R 5 8\n286 한국어 표준교재 2\n뿐만 아니라\n-(으)면 좋겠다\nGRAMMAR\n문법\n근로 조건 관련 어휘\nVocabulary Related to Working \nConditions \n급여 명세서 관련 어휘\nVocabulary Related to Pay Stubs \nVOCABULARY\n어휘\n표준근로계약서\nStandard Labor Contract \nCULTURE & INFORMATION\n문화와 정보\n일이 많을 때는 기본 근무시간뿐만 아니라 \n야간이나 휴일에도 일할 수 있어요.\n표준근로계약서에 있는 근무시간에만 일을 하면 돼요?\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "vocab": [
       {
         "id": "vocab_1",
-        "front": "57 고용허가제",
-        "back": "EMPLOYMENT PERMIT SYSTEM 277",
-        "raw": {
-          "korean": "57  고용허가제",
-          "indonesia": "EMPLOYMENT PERMIT SYSTEM   277"
-        }
+        "front": "고용허가제의 업종",
+        "back": "Employment Permit System Industries",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_2",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "제조업",
+        "back": "manufacturing",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_3",
-        "front": "고용허가제의 업종",
-        "back": "Employment Permit System Industries",
-        "raw": {
-          "korean": "고용허가제의 업종",
-          "indonesia": "\u0007Employment Permit System Industries"
-        }
+        "front": "건설업",
+        "back": "construction",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_4",
-        "front": "제조업",
-        "back": "manufacturing",
-        "raw": {
-          "korean": "제조업",
-          "indonesia": "manufacturing"
-        }
+        "front": "농업",
+        "back": "agriculture",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_5",
-        "front": "건설업",
-        "back": "construction",
-        "raw": {
-          "korean": "건설업",
-          "indonesia": "construction"
-        }
+        "front": "축산업",
+        "back": "livestock",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_6",
-        "front": "농업",
-        "back": "agriculture",
-        "raw": {
-          "korean": "농업",
-          "indonesia": "agriculture"
-        }
+        "front": "어업",
+        "back": "fishery",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_7",
-        "front": "축산업",
-        "back": "livestock",
-        "raw": {
-          "korean": "축산업",
-          "indonesia": "livestock"
-        }
+        "front": "조선업",
+        "back": "shipbuilding",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_8",
-        "front": "어업",
-        "back": "fishery",
-        "raw": {
-          "korean": "어업",
-          "indonesia": "fishery"
-        }
+        "front": "임업",
+        "back": "forestry",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_9",
-        "front": "조선업",
-        "back": "shipbuilding",
-        "raw": {
-          "korean": "조선업",
-          "indonesia": "shipbuilding"
-        }
+        "front": "광업",
+        "back": "mining",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_10",
-        "front": "임업",
-        "back": "forestry",
-        "raw": {
-          "korean": "임업",
-          "indonesia": "forestry"
-        }
+        "front": "서비스업",
+        "back": "service",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_11",
-        "front": "광업",
-        "back": "mining",
-        "raw": {
-          "korean": "광업",
-          "indonesia": "mining"
-        }
+        "front": "호텔 · 콘도업",
+        "back": "hotel and condo business",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_12",
-        "front": "서비스업",
-        "back": "service",
-        "raw": {
-          "korean": "서비스업",
-          "indonesia": "service"
-        }
+        "front": "음식서비스업",
+        "back": "food service",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_13",
-        "front": "호텔 · 콘도업",
-        "back": "hotel and condo business",
-        "raw": {
-          "korean": "호텔 · 콘도업",
-          "indonesia": "hotel and condo business"
-        }
+        "front": "업종",
+        "back": "industry type",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_14",
-        "front": "음식서비스업",
-        "back": "food service",
-        "raw": {
-          "korean": "음식서비스업",
-          "indonesia": "food service"
-        }
+        "front": "가산점",
+        "back": "extra point",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_15",
-        "front": "그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.",
-        "back": "⑴",
-        "raw": {
-          "korean": "\u0007그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.",
-          "indonesia": "⑴"
-        }
+        "front": "고용허가제 취업 절차",
+        "back": "Procedures to Gain Employment through",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_16",
-        "front": "나 : .",
-        "back": "⑵",
-        "raw": {
-          "korean": "나 :                                                                                                         .",
-          "indonesia": "⑵"
-        }
+        "front": "한국어능력시험(EPS-TOPIK)",
+        "back": "Employment Permit System - Test of Proficiency in Korean (EPS-TOPIK)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_17",
-        "front": "나 : .",
-        "back": "⑶",
-        "raw": {
-          "korean": "나 :                                                                                                         .",
-          "indonesia": "⑶"
-        }
+        "front": "한국어능력시험(EPS-TOPIK)을 봅니다.",
+        "back": "Job seekers take the Employment Permit System - Test of Proficiency in Korean (EPS-TOPIK)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_18",
-        "front": "나 : .",
-        "back": "⑷",
-        "raw": {
-          "korean": "나 :                                                                                                         .",
-          "indonesia": "⑷"
-        }
+        "front": "기능 시험",
+        "back": "skills test",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_19",
-        "front": "관계있는 것끼리 연결하세요. Connect the related items.",
-        "back": "⑴",
-        "raw": {
-          "korean": "\u0007관계있는 것끼리 연결하세요. Connect the related items.",
-          "indonesia": "⑴"
-        }
+        "front": "기초 기능과 체력 및 면접 평가를 받습니다.",
+        "back": "Evaluations are received for basic skills and physical ability, and an interview is conducted.",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_20",
-        "front": "구직자 명부 작성",
-        "back": "●",
-        "raw": {
-          "korean": "구직자 명부 작성",
-          "indonesia": "●"
-        }
+        "front": "구직자 명부 작성 및 송부",
+        "back": "request and forwarding of job seekers roster",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_21",
-        "front": "사업장에 가서 일을 시작해요.",
-        "back": "⑵",
-        "raw": {
-          "korean": "사업장에 가서 일을 시작해요.",
-          "indonesia": "⑵"
-        }
+        "front": "합격한 사람들의 구직자 명부를 작성해서 한국에 보냅니다.",
+        "back": "Roaster of job seekers who passed is requested and sent to Korea.",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_22",
-        "front": "사업장 배치",
-        "back": "●",
-        "raw": {
-          "korean": "사업장 배치",
-          "indonesia": "●"
-        }
+        "front": "표준근로계약 체결",
+        "back": "signing of a standard labor contract",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_23",
-        "front": "일할 회사와 근로 계약을 해요.",
-        "back": "⑶",
-        "raw": {
-          "korean": "일할 회사와 근로 계약을 해요.",
-          "indonesia": "⑶"
-        }
+        "front": "한국에서 일할 회사와 근로 계약을 합니다.",
+        "back": "A labor contract is signed with a company in Korea.",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_24",
-        "front": "사전 취업 교육",
-        "back": "●",
-        "raw": {
-          "korean": "사전 취업 교육",
-          "indonesia": "●"
-        }
+        "front": "입국 및 취업 교육",
+        "back": "arrival and employment training",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_25",
-        "front": "한국에 가기 전 교육을 받아요.",
-        "back": "⑷",
-        "raw": {
-          "korean": "한국에 가기 전 교육을 받아요.",
-          "indonesia": "⑷"
-        }
+        "front": "한국에 입국한 다음 직장 문화, 관계 법령 등에 관한 교육을 받습니다.",
+        "back": "After arriving in Korea, workers receive training on workplace culture, relevant laws, etc.",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_26",
-        "front": "표준근로계약 체결",
-        "back": "●",
-        "raw": {
-          "korean": "표준근로계약 체결",
-          "indonesia": "●"
-        }
+        "front": "사전 취업 교육",
+        "back": "pre-employment training",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_27",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "받습니다.",
+        "back": "Before going to Korea, workers receive training on Korean language, Korean culture, law, and industry safety.",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_28",
-        "front": "고용허가제 취업 절차",
-        "back": "Procedures to Gain Employment through",
-        "raw": {
-          "korean": "고용허가제 취업 절차",
-          "indonesia": "\u0007Procedures to Gain Employment through"
-        }
+        "front": "사업장 배치",
+        "back": "job placement",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_29",
-        "front": "한국어능력시험(EPS-TOPIK)",
-        "back": "Employment Permit System - Test of Proficiency in Korean (EPS-TOPIK)",
-        "raw": {
-          "korean": "한국어능력시험(EPS-TOPIK)",
-          "indonesia": "Employment Permit System - Test of Proficiency in Korean (EPS-TOPIK)"
-        }
-      },
-      {
-        "id": "vocab_30",
-        "front": "한국어능력시험(EPS-TOPIK)을 봅니다.",
-        "back": "Job seekers take the Employment Permit System - Test of Proficiency in Korean (EPS-TOPIK)",
-        "raw": {
-          "korean": "한국어능력시험(EPS-TOPIK)을 봅니다.",
-          "indonesia": "Job seekers take the Employment Permit System - Test of Proficiency in Korean (EPS-TOPIK)"
-        }
-      },
-      {
-        "id": "vocab_31",
-        "front": "기능 시험",
-        "back": "skills test",
-        "raw": {
-          "korean": "기능 시험",
-          "indonesia": "skills test"
-        }
-      },
-      {
-        "id": "vocab_32",
-        "front": "기초 기능과 체력 및 면접 평가를 받습니다.",
-        "back": "Evaluations are received for basic skills and physical ability, and an",
-        "raw": {
-          "korean": "기초 기능과 체력 및 면접 평가를 받습니다.",
-          "indonesia": "Evaluations are received for basic skills and physical ability, and an"
-        }
-      },
-      {
-        "id": "vocab_33",
-        "front": "구직자 명부 작성 및 송부",
-        "back": "request and forwarding of job seekers roster",
-        "raw": {
-          "korean": "구직자 명부 작성 및 송부",
-          "indonesia": "request and forwarding of job seekers roster"
-        }
-      },
-      {
-        "id": "vocab_34",
-        "front": "합격한 사람들의 구직자 명부를 작성해서 한국에 보냅니다.",
-        "back": "Roaster of job seekers who passed is requested and sent to Korea.",
-        "raw": {
-          "korean": "합격한 사람들의 구직자 명부를 작성해서 한국에 보냅니다.",
-          "indonesia": "Roaster of job seekers who passed is requested and sent to Korea."
-        }
-      },
-      {
-        "id": "vocab_35",
-        "front": "표준근로계약 체결",
-        "back": "signing of a standard labor contract",
-        "raw": {
-          "korean": "표준근로계약 체결",
-          "indonesia": "signing of a standard labor contract"
-        }
-      },
-      {
-        "id": "vocab_36",
-        "front": "한국에서 일할 회사와 근로 계약을 합니다.",
-        "back": "A labor contract is signed with a company in Korea.",
-        "raw": {
-          "korean": "한국에서 일할 회사와 근로 계약을 합니다.",
-          "indonesia": "A labor contract is signed with a company in Korea."
-        }
-      },
-      {
-        "id": "vocab_37",
-        "front": "입국 및 취업 교육",
-        "back": "arrival and employment training",
-        "raw": {
-          "korean": "입국 및 취업 교육",
-          "indonesia": "arrival and employment training"
-        }
-      },
-      {
-        "id": "vocab_38",
-        "front": "한국에 입국한 다음 직장 문화, 관계 법령 등에 관한 교육을 받습니다.",
-        "back": "After arriving in Korea, workers receive training on workplace",
-        "raw": {
-          "korean": "한국에 입국한 다음 직장 문화, 관계 법령 등에 관한 교육을 받습니다.",
-          "indonesia": "After arriving in Korea, workers receive training on workplace"
-        }
-      },
-      {
-        "id": "vocab_39",
-        "front": "사전 취업 교육",
-        "back": "pre-employment training",
-        "raw": {
-          "korean": "사전 취업 교육",
-          "indonesia": "pre-employment training"
-        }
-      },
-      {
-        "id": "vocab_40",
-        "front": "받습니다.",
-        "back": "Before going to Korea, workers receive training on Korean language,",
-        "raw": {
-          "korean": "받습니다.",
-          "indonesia": "Before going to Korea, workers receive training on Korean language,"
-        }
-      },
-      {
-        "id": "vocab_41",
-        "front": "사업장 배치",
-        "back": "job placement",
-        "raw": {
-          "korean": "사업장 배치",
-          "indonesia": "job placement"
-        }
-      },
-      {
-        "id": "vocab_42",
         "front": "계약한 회사에 배치되어 일을 시작합니다.",
         "back": "Workers are assigned to a company and start working.",
-        "raw": {
-          "korean": "계약한 회사에 배치되어 일을 시작합니다.",
-          "indonesia": "Workers are assigned to a company and start working."
-        }
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       }
     ],
     "grammar": [
       {
         "id": "grammar_1",
-        "front": "278 한국어 표준교재 2",
-        "back": "문법 GRAMMAR",
-        "raw": {
-          "pattern": "278   한국어 표준교재  2",
-          "explanation": "문법  GRAMMAR"
-        }
+        "front": "-는/(으)ㄴ 줄 알았다, 몰랐다",
+        "back": "‘-는/(으)ㄴ 줄 알았다’는 동사, 형용사에 붙여 어떤 상황을 실제와는 다르게 인식하였음을 깨달았을 때 사용한다.\n‘-는/(으)ㄴ 줄 몰랐다’는 동사, 형용사에 붙여 실제의 어떤 상황을 인식하지 못했음을 깨달았을 때 사용한다.\n‘-는/(으)ㄴ 줄 알았다’ is used when you realize that you had perceived a situation differently from reality. ‘-는/(으)ㄴ\n줄 몰랐다’ is used when you realize that you had not recognized a certain situation.\n동사,\n있다/없다\n현재\n-는 줄 알았다, 몰랐다\n오다 → 오는 줄 알았다, 몰랐다\n과거\n받침 ○\n-은 줄 알았다, 몰랐다\n먹다 → 먹은 줄 알았다, 몰랐다\n받침 ×, 받침 ‘ㄹ’\n-ㄴ 줄 알았다, 몰랐다\n보다 → 본 줄 알았다, 몰랐다\n팔다 → 판 줄 알았다, 몰랐다\n형용사\n받침 ○\n-은 줄 알았다, 몰랐다\n작다 → 작은 줄 알았다, 몰랐다\n받침 ×, 받침 ‘ㄹ’\n-ㄴ 줄 알았다, 몰랐다\n크다 → 큰 줄 알았다, 몰랐다\n멀다 → 먼 줄 알았다, 몰랐다",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
       },
       {
         "id": "grammar_2",
-        "front": "‘-는/(으)ㄴ 줄 몰랐다’는 동사, 형용사에 붙여 실제의 어떤 상황을 인식하지 못했음을 깨달았을 때 사용한다.",
-        "back": "‘-는/(으)ㄴ 줄 알았다’ is used when you realize that you had perceived a situation differently from reality. ‘-는/(으)ㄴ",
-        "raw": {
-          "pattern": "‘-는/(으)ㄴ 줄 몰랐다’는 동사, 형용사에 붙여 실제의 어떤 상황을 인식하지 못했음을 깨달았을 때 사용한다.",
-          "explanation": "‘-는/(으)ㄴ 줄 알았다’ is used when you realize that you had perceived a situation differently from reality. ‘-는/(으)ㄴ"
-        }
-      },
-      {
-        "id": "grammar_3",
-        "front": "1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
-        "back": "Complete the sentences with the correct options as shown in the example.",
-        "raw": {
-          "pattern": "1. \u0007알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
-          "explanation": "Complete the sentences with the correct options as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_4",
-        "front": "⑶ 아지자 씨가 안 보여서 오늘은 일찍 .",
-        "back": "2. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example.",
-        "raw": {
-          "pattern": "⑶\t 아지자 씨가 안 보여서 오늘은 일찍                                                       .",
-          "explanation": "2. \u0007[보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_5",
-        "front": "57 고용허가제",
-        "back": "EMPLOYMENT PERMIT SYSTEM 281",
-        "raw": {
-          "pattern": "57  고용허가제",
-          "explanation": "EMPLOYMENT PERMIT SYSTEM   281"
-        }
-      },
-      {
-        "id": "grammar_6",
-        "front": "‘-게 되다’는 주로 동사에 붙어 외부 요인에 의해 상황이나 상태가 변화하여 어떤 결과에 이르렀음을 나타낸다.",
-        "back": "‘-게 되다’ is usually attached to a verb and indicates that a situation or state changes due to external factors,",
-        "raw": {
-          "pattern": "‘-게 되다’는 주로 동사에 붙어 외부 요인에 의해 상황이나 상태가 변화하여 어떤 결과에 이르렀음을 나타낸다.",
-          "explanation": "‘-게 되다’ is usually attached to a verb and indicates that a situation or state changes due to external factors,"
-        }
-      },
-      {
-        "id": "grammar_7",
-        "front": "한국에 온 후 한국에 대해 더 많이 알게 되었습니다.",
-        "back": "1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.",
-        "raw": {
-          "pattern": "한국에 온 후 한국에 대해 더 많이 알게 되었습니다.",
-          "explanation": "1. \u0007알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options."
-        }
-      },
-      {
-        "id": "grammar_8",
-        "front": "⑶ 룸메이트가 고향으로 돌아가서 .",
-        "back": "⑷ 한국어능력시험(EPS-TOPIK)과 기능 시험에 합격해서 .",
-        "raw": {
-          "pattern": "⑶\t 룸메이트가 고향으로 돌아가서                                                       .",
-          "explanation": "⑷\t 한국어능력시험(EPS-TOPIK)과 기능 시험에 합격해서                                                       ."
-        }
-      },
-      {
-        "id": "grammar_9",
-        "front": "2. 그림을 보고 [보기]와 같이 대화를 완성하세요.",
-        "back": "Look at the pictures and complete the conversations as shown in the example.",
-        "raw": {
-          "pattern": "2. \u0007그림을 보고 [보기]와 같이 대화를 완성하세요.",
-          "explanation": "Look at the pictures and complete the conversations as shown in the example."
-        }
+        "front": "-게 되다",
+        "back": "‘-게 되다’는 주로 동사에 붙어 외부 요인에 의해 상황이나 상태가 변화하여 어떤 결과에 이르렀음을 나타낸다.\n‘-게 되다’ is usually attached to a verb and indicates that a situation or state changes due to external factors,\nresulting in a certain outcome.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
       }
     ],
     "conversation": [
       {
         "id": "conversation_1",
-        "front": "한국에 가면 무슨 일을 하고 싶어요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "한국에 가면 무슨 일을 하고 싶어요?"
-        }
+        "front": "선생님, 저 시험에 합격해서 한국에 일하러 가게\n되었어요.",
+        "back": "I passed the test and I’m going to work in Korea.",
+        "speaker": "로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_2",
-        "front": "배 만드는 일을 하고 싶어서 조선업을 신청하려고 해요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "배 만드는 일을 하고 싶어서 조선업을 신청하려고 해요."
-        }
+        "front": "정말 축하해요. 그런데 어디에서 일하게\n되었어요?",
+        "back": "Congratulations. But where will you be working?",
+        "speaker": "선생님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_3",
-        "front": "잘됐네요. 요즘 조선업에서 사람을 많이 뽑는대요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "잘됐네요. 요즘 조선업에서 사람을 많이 뽑는대요."
-        }
+        "front": "어제 부산에 있는 조선소하고 근로계약을 했어요.",
+        "back": "Yesterday I signed a contract with a shipyard in Busan.",
+        "speaker": "로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_4",
-        "front": "그래요? 조선업에서 사람을 많이 뽑는 줄 몰랐어요. 발음 │ PRONUNCIATION 두 낱말을 이어 한 마디로 발음할 때, 뒤 낱말이 ‘이, 야, 여, 요, 유’인 경우에는, ‘ㄴ’ 소리를 첨가하여 [니, 냐, 녀, 뇨, 뉴] 로 발음한다. 이때, 앞 음절의 끝 자음이 장애음인 경우 같은 위치에서 나는 비음으로 발음한다. 또한 ‘ㄹ’ 받침 뒤에 첨 가되는 ‘ㄴ’ 소리는 [ㄹ]로 발음한다. When two words are pronounced in succession as one unit, if the second word starts with ‘이, 야, 여, 요, 유’ ‘ㄴ’ is inserted, and then pronounced as [니, 냐, 녀, 뇨, 뉴]. In this case, if the final consonant of the preceding syllable is an obstruent, it is pronounced as a nasal sound produced in the same place of articulation. Additionally, a ‘ㄴ’ inserted after a final consonant ‘ㄹ’ is pronounced as [ㄹ]. ⑴ 한 일[한닐] 옷 입다[온닙다] ⑵ 잘 입다[잘립다] 할 일 없이[할리럽씨] 309 308",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "그래요? 조선업에서 사람을 많이 뽑는 줄 몰랐어요. 발음 │ PRONUNCIATION 두 낱말을 이어 한 마디로 발음할 때, 뒤 낱말이 ‘이, 야, 여, 요, 유’인 경우에는, ‘ㄴ’ 소리를 첨가하여 [니, 냐, 녀, 뇨, 뉴] 로 발음한다. 이때, 앞 음절의 끝 자음이 장애음인 경우 같은 위치에서 나는 비음으로 발음한다. 또한 ‘ㄹ’ 받침 뒤에 첨 가되는 ‘ㄴ’ 소리는 [ㄹ]로 발음한다. When two words are pronounced in succession as one unit, if the second word starts with ‘이, 야, 여, 요, 유’ ‘ㄴ’ is inserted, and then pronounced as [니, 냐, 녀, 뇨, 뉴]. In this case, if the final consonant of the preceding syllable is an obstruent, it is pronounced as a nasal sound produced in the same place of articulation. Additionally, a ‘ㄴ’ inserted after a final consonant ‘ㄹ’ is pronounced as [ㄹ]. ⑴ 한 일[한닐] 옷 입다[온닙다] ⑵ 잘 입다[잘립다] 할 일 없이[할리럽씨] 309 308"
-        }
+        "front": "한국에 가기 전에 비자도 신청하고 교육도\n받아야 해서 정말 바쁘겠네요.",
+        "back": "You must be really busy since you need to apply for a visa and receive training before going to Korea.",
+        "speaker": "선생님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_5",
-        "front": "어디에서 일하게 되었어요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "어디에서 일하게 되었어요?"
-        }
+        "front": "네, 한국 생활이 너무 기대돼요. 한국에서 살면 한국어도 더 잘하게 되겠죠?",
+        "back": "Yes, I'm really excited for Korean life. While living in Korea I'm sure my Korean will get better, right?",
+        "speaker": "로",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_6",
-        "front": "축사에서 일하게 되었어요. 그런데 저는 축사에서 한 번도 일을 해 본 적이 없어요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "축사에서 일하게 되었어요. 그런데 저는 축사에서 한 번도 일을 해 본 적이 없어요."
-        }
-      },
-      {
-        "id": "conversation_7",
-        "front": "열심히 노력하면 금방 잘할 거예요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "열심히 노력하면 금방 잘할 거예요."
-        }
-      },
-      {
-        "id": "conversation_8",
-        "front": "출근할 때 버스 안에서 넘어졌어요. I fell down on the bus on my way to work.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "\u0007출근할 때 버스 안에서 넘어졌어요. I fell down on the bus on my way to work."
-        }
-      },
-      {
-        "id": "conversation_9",
-        "front": "큰일 날 뻔했네요. 괜찮아요? That was a close call. Are you okay? 유용한 표현 │ USEFUL EXPRESSION 큰일 날 뻔했네요. That was a close call. 311 310",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "\u0007큰일 날 뻔했네요. 괜찮아요? That was a close call. Are you okay? 유용한 표현 │ USEFUL EXPRESSION 큰일 날 뻔했네요. That was a close call. 311 310"
-        }
+        "front": "그럼요. 지금보다 훨씬 잘하게 될 거예요.",
+        "back": "Of course. Your Korean will get much better than now.",
+        "speaker": "선생님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
       }
     ],
-    "culture": [],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "57 고용허가제",
+        "back": "I can talk about the industries under the employment permit system.",
+        "body": "• 고용허가제의 업종에 대해 말할 수 있다.\nI can talk about the industries under the employment permit system.\n• 고용허가제 취업 절차에 대해 묻고 대답할 수 있다.\nI can ask and answer questions about the employment permit system job procedures.\n• 상황이나 상태의 변화에 대해 묻고 대답할 수 있다.\nI can ask and answer questions about changes in situations or conditions.\n57 고용허가제\nEMPLOYMENT PERMIT SYSTEM 283\n고용허가제\nEmployment Permit System (EPS)\n고용허가제란 인력을 구하지 못한 한국 기업이 일정한 요건\n을 갖춘 외국인 근로자를 합법적으로 고용할 수 있도록 허가해\n주는 제도를 말합니다. 2004년 8월부터 시행하고 있으며 한국\n의 고용노동부와 한국산업인력공단이 담당하고 있습니다.\nThe Employment Permit System refers to a system that\nallows Korean companies that are unable to find domestic",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook2/unit_57/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
     "reading": [
       {
-        "id": "u57_m1",
+        "id": "u57_r1",
         "nomor": 1,
         "tipe": "membaca",
-        "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
-        "teks_soal": "",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -644,14 +650,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_57/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u57_m2",
+        "id": "u57_r2",
         "nomor": 2,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "저는 배를 만드는 회사에서 일해 본 적이 있어요. 그래서 을 신청했어요.",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n저는 배를 만드는 회사에서 일해 본 적이 있어요. 그래서 을 신청했어요.",
         "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
@@ -681,14 +691,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_57/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u57_m3",
+        "id": "u57_r3",
         "nomor": 3,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "한국어능력시험(EPS-TOPIK) ● 시험 국가 : 중국 ● 접수 기간 : 2024년 9월 13일 ~ 2024년 9월 15일 ● 시험일 : 2024년 9월 26일",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n● 시험 국가 : 중국\n● 접수 기간 : 2024년 9월 13일 ~ 2024년 9월 15일\n● 시험 공고일 : 2024년 9월 23일\n● 시험일 : 2024년 9월 26일\n한국어능력시험(EPS-TOPIK)",
         "jawaban": "c",
         "audio_teks": "",
         "audio_url": "",
@@ -718,15 +732,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_57/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u57_m4",
+        "id": "u57_r4",
         "nomor": 4,
         "tipe": "membaca",
-        "instruksi": "다음은 무엇에 대한 설명입니까?",
-        "teks_soal": "고용허가제의 업종 중 하나로 곡식이나 채소, 과일을 재배하는 업종입니다.",
-        "jawaban": "d",
+        "instruksi": "",
+        "teks_soal": "다음은 무엇에 대한 설명입니까?\n고용허가제의 업종 중 하나로 곡식이나 채소, 과일을 재배하는 업종입니다.",
+        "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -755,15 +773,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_57/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u57_m5",
+        "id": "u57_r5",
         "nomor": 5,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "고용허가제는 고용노동부가 한국 내의 인력 부족 문제를 해결하고 외국인 노동자를 합법적으로 고용하기 위해 마련한 제도입니다. 자국에서 선발 시험을 통과한 지원자들은 사업주와 계약 후 한국 비자를 받을 수 있습니다. 한국에 온 후에는 한국인 노동자들과 동등하게 노동법이 정한 기본적인 권리를 보장 받으며 일할 수 있습니다. 284 한국어 표준교재 2",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n고용허가제는 고용노동부가 한국 내의 인력 부족 문제를 해결하고 외국인 노동자를 합법적으로\n고용하기 위해 마련한 제도입니다. 자국에서 선발 시험을 통과한 지원자들은 사업주와 계약 후 한국\n비자를 받을 수 있습니다. 한국에 온 후에는 한국인 노동자들과 동등하게 노동법이 정한 기본적인 권리를\n보장 받으며 일할 수 있습니다.",
+        "jawaban": "c",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -792,7 +814,11 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_57/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ],
     "listening": [
@@ -801,68 +827,220 @@
         "nomor": 1,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 신청한 비자가 나왔어요?",
+        "teks_soal": "",
         "jawaban": "a",
-        "audio_teks": "1. 남 : 신청한 비자가 나왔어요?\n2. 남 : 언제 한국에 가요?\n3. 여 : 고용허가제를 신청하고 싶은데 어떻게 하면 돼요?\n남 : 이 신청서를 작성해 주시면 됩니다.\n4. 남 : 선생님, 저 이번에 고용허가제 시험에 합격했어요.\n여 : 그래요? 연락이 없어서 시험에 떨어진 줄 알았어요. 정말 축하해요.\n남 : 감사합니다. 선생님께서 한국어를 잘 가르쳐 주신 덕분입니다.\n5. 여 : 안녕하세요? 이번에 고용허가제 시험에 합격한 칼로 씨 되십니까?\n남 : 안녕하세요? 무슨 일이시죠?\n여 : 칼로 씨와 고용 계약을 하고 싶다는 회사가 있어서 연락드립니다.\n남 : 정말요? 지금 바로 센터로 가겠습니다.\n57 고용허가제 EMPLOYMENT PERMIT SYSTEM 285",
+        "audio_teks": "남 : 신청한 비자가 나왔어요?",
         "audio_url": "assets/modules/textbook2/audio/unit_57/listening_1.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "네, 어제 비자를 받았어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "네, 비자를 신청할 거예요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "아니요, 비자를 신청하세요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "아니요, 비자가 빨리 나왔어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_57/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u57_l2",
         "nomor": 2,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 언제 한국에 가요?",
+        "teks_soal": "",
         "jawaban": "a",
-        "audio_teks": "1. 남 : 신청한 비자가 나왔어요?\n2. 남 : 언제 한국에 가요?\n3. 여 : 고용허가제를 신청하고 싶은데 어떻게 하면 돼요?\n남 : 이 신청서를 작성해 주시면 됩니다.\n4. 남 : 선생님, 저 이번에 고용허가제 시험에 합격했어요.\n여 : 그래요? 연락이 없어서 시험에 떨어진 줄 알았어요. 정말 축하해요.\n남 : 감사합니다. 선생님께서 한국어를 잘 가르쳐 주신 덕분입니다.\n5. 여 : 안녕하세요? 이번에 고용허가제 시험에 합격한 칼로 씨 되십니까?\n남 : 안녕하세요? 무슨 일이시죠?\n여 : 칼로 씨와 고용 계약을 하고 싶다는 회사가 있어서 연락드립니다.\n남 : 정말요? 지금 바로 센터로 가겠습니다.\n57 고용허가제 EMPLOYMENT PERMIT SYSTEM 285",
+        "audio_teks": "남 : 언제 한국에 가요?",
         "audio_url": "assets/modules/textbook2/audio/unit_57/listening_2.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "다음 주에 가게 되었어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "한국에 가게 되었어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "왕민 씨가 가게 되었어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "고용허가제로 가게 되었어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_57/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u57_l3",
         "nomor": 3,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 고용허가제를 신청하고 싶은데 어떻게 하면 돼요? 남 : 이 신청서를 작성해 주시면 됩니다.",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
         "jawaban": "c",
-        "audio_teks": "1. 남 : 신청한 비자가 나왔어요?\n2. 남 : 언제 한국에 가요?\n3. 여 : 고용허가제를 신청하고 싶은데 어떻게 하면 돼요?\n남 : 이 신청서를 작성해 주시면 됩니다.\n4. 남 : 선생님, 저 이번에 고용허가제 시험에 합격했어요.\n여 : 그래요? 연락이 없어서 시험에 떨어진 줄 알았어요. 정말 축하해요.\n남 : 감사합니다. 선생님께서 한국어를 잘 가르쳐 주신 덕분입니다.\n5. 여 : 안녕하세요? 이번에 고용허가제 시험에 합격한 칼로 씨 되십니까?\n남 : 안녕하세요? 무슨 일이시죠?\n여 : 칼로 씨와 고용 계약을 하고 싶다는 회사가 있어서 연락드립니다.\n남 : 정말요? 지금 바로 센터로 가겠습니다.\n57 고용허가제 EMPLOYMENT PERMIT SYSTEM 285",
+        "audio_teks": "여 : 고용허가제를 신청하고 싶은데 어떻게 하면 돼요?\n남 : 이 신청서를 작성해 주시면 됩니다.",
         "audio_url": "assets/modules/textbook2/audio/unit_57/listening_3.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "신청 기간",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "신청 비용",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "신청 방법",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "신청 변경",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_57/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u57_l4",
         "nomor": 4,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 선생님, 저 이번에 고용허가제 시험에 합격했어요. 여 : 그래요? 연락이 없어서 시험에 떨어진 줄 알았어요. 정말 축하해요. 남 : 감사합니다. 선생님께서 한국어를 잘 가르쳐 주신 덕분입니다.",
+        "teks_soal": "다음 중 들은 내용과 같은 것은 무엇입니까?",
         "jawaban": "a",
-        "audio_teks": "1. 남 : 신청한 비자가 나왔어요?\n2. 남 : 언제 한국에 가요?\n3. 여 : 고용허가제를 신청하고 싶은데 어떻게 하면 돼요?\n남 : 이 신청서를 작성해 주시면 됩니다.\n4. 남 : 선생님, 저 이번에 고용허가제 시험에 합격했어요.\n여 : 그래요? 연락이 없어서 시험에 떨어진 줄 알았어요. 정말 축하해요.\n남 : 감사합니다. 선생님께서 한국어를 잘 가르쳐 주신 덕분입니다.\n5. 여 : 안녕하세요? 이번에 고용허가제 시험에 합격한 칼로 씨 되십니까?\n남 : 안녕하세요? 무슨 일이시죠?\n여 : 칼로 씨와 고용 계약을 하고 싶다는 회사가 있어서 연락드립니다.\n남 : 정말요? 지금 바로 센터로 가겠습니다.\n57 고용허가제 EMPLOYMENT PERMIT SYSTEM 285",
+        "audio_teks": "남 : 선생님, 저 이번에 고용허가제 시험에 합격했어요.\n여 : 그래요? 연락이 없어서 시험에 떨어진 줄 알았어요. 정말\n축하해요.\n남 : 감사합니다. 선생님께서 한국어를 잘 가르쳐 주신 덕분입\n니다.",
         "audio_url": "assets/modules/textbook2/audio/unit_57/listening_4.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "여자는 남자에게 한국어를 가르쳐 줬습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "여자는 남자와 함께 이번에 시험을 쳤습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "남자는 시험에 떨어져서 기분이 안 좋습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "남자는 한국어를 공부하러 한국에 가려고 합니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_57/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u57_l5",
         "nomor": 5,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 안녕하세요? 이번에 고용허가제 시험에 합격한 칼로 씨 되십니까? 남 : 안녕하세요? 무슨 일이시죠? 여 : 칼로 씨와 고용 계약을 하고 싶다는 회사가 있어서 연락드립니다. 남 : 정말요? 지금 바로 센터로 가겠습니다. 57 고용허가제 EMPLOYMENT PERMIT SYSTEM 285",
+        "teks_soal": "남자가 이어서 할 행동은 무엇입니까?",
         "jawaban": "a",
-        "audio_teks": "1. 남 : 신청한 비자가 나왔어요?\n2. 남 : 언제 한국에 가요?\n3. 여 : 고용허가제를 신청하고 싶은데 어떻게 하면 돼요?\n남 : 이 신청서를 작성해 주시면 됩니다.\n4. 남 : 선생님, 저 이번에 고용허가제 시험에 합격했어요.\n여 : 그래요? 연락이 없어서 시험에 떨어진 줄 알았어요. 정말 축하해요.\n남 : 감사합니다. 선생님께서 한국어를 잘 가르쳐 주신 덕분입니다.\n5. 여 : 안녕하세요? 이번에 고용허가제 시험에 합격한 칼로 씨 되십니까?\n남 : 안녕하세요? 무슨 일이시죠?\n여 : 칼로 씨와 고용 계약을 하고 싶다는 회사가 있어서 연락드립니다.\n남 : 정말요? 지금 바로 센터로 가겠습니다.\n57 고용허가제 EMPLOYMENT PERMIT SYSTEM 285",
+        "audio_teks": "여 : 안녕하세요? 이번에 고용허가제 시험에 합격한 칼로 씨 되\n십니까?\n남 : 안녕하세요? 무슨 일이시죠?\n여 : 칼로 씨와 고용 계약을 하고 싶다는 회사가 있어서 연락드\n립니다.\n남 : 정말요? 지금 바로 센터로 가겠습니다.",
         "audio_url": "assets/modules/textbook2/audio/unit_57/listening_5.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "센터로 갑니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "계약서에 서명을 합니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "여자에게 전화를 겁니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "고용허가제를 신청합니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_57/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ]
   },
   "integrity": {
     "pdf_pages": 10,
-    "vocab_cards": 42,
+    "lesson_flow": 10,
+    "vocab_cards": 29,
+    "grammar_cards": 2,
+    "conversation_cards": 6,
+    "culture_cards": 1,
     "reading_questions": 5,
     "listening_questions": 5,
-    "listening_audio": 5
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_audio": 5,
+    "listening_scripts": 5
   }
 }

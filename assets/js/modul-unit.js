@@ -8,6 +8,7 @@ const PROGRESS_KEY = 'lk_module_progress_v2';
 
 const BASE_TABS = [
   { id: 'source', label: 'HALAMAN ASLI' },
+  { id: 'flow', label: 'ALUR BELAJAR' },
   { id: 'audio', label: 'AUDIO' },
   { id: 'vocab', label: 'KOSAKATA' },
   { id: 'grammar', label: 'GRAMMAR' },
@@ -44,8 +45,8 @@ export async function renderModule(unit) {
     const book = getBookForUnit(currentUnit);
     moduleData = await fetchJson(`${MODULE_ROOTS[book]}/unit_${currentUnit}/module.json`);
     currentTabs = buildTabs(moduleData);
-    activeTab = currentTabs[0]?.id || 'source';
-    activePractice = 'reading';
+    activeTab = getInitialTab(currentTabs);
+    activePractice = getInitialPractice();
     cardState = {};
     answers = loadProgress(currentUnit).answers || {};
 
@@ -90,6 +91,7 @@ function buildTabs(data) {
   const sections = data.sections || {};
   return BASE_TABS.filter(tab => {
     if (tab.id === 'source') return true;
+    if (tab.id === 'flow') return (sections.lesson_flow || []).length;
     if (tab.id === 'practice') return (sections.reading || []).length || (sections.listening || []).length;
     return (sections[tab.id] || []).length;
   });
@@ -99,6 +101,16 @@ function clampUnit(unit) {
   const n = Number(unit);
   if (!Number.isFinite(n)) return 31;
   return Math.min(60, Math.max(1, n));
+}
+
+function getInitialTab(tabs) {
+  const requested = new URLSearchParams(location.search).get('tab');
+  return tabs.some(tab => tab.id === requested) ? requested : (tabs[0]?.id || 'source');
+}
+
+function getInitialPractice() {
+  const requested = new URLSearchParams(location.search).get('practice');
+  return requested === 'listening' ? 'listening' : 'reading';
 }
 
 function renderNav(navEl) {
@@ -117,12 +129,14 @@ function renderShell(container) {
   const audioCount = (moduleData.sections.audio || []).length || moduleData.integrity.lesson_audio || 0;
   const readingCount = (moduleData.sections.reading || []).length;
   const listeningCount = (moduleData.sections.listening || []).length;
+  const flowCount = (moduleData.sections.lesson_flow || []).length;
   container.innerHTML = `
     <section class="module-hero">
       <div>
         <div class="module-kicker">${bookLabel} · Unit ${moduleData.unit}</div>
         <h1 class="module-title">${escapeHtml(moduleData.title_ko)}</h1>
         <p class="module-subtitle">${escapeHtml(moduleData.title_en || moduleData.title_id || '')}</p>
+        ${moduleData.title_id ? `<p class="module-subtitle module-subtitle-id">${escapeHtml(moduleData.title_id)}</p>` : ''}
       </div>
       <div class="module-actions">
         <button class="btn btn-outline" type="button" data-unit-prev>Unit ${Math.max(1, currentUnit - 1)}</button>
@@ -135,6 +149,7 @@ function renderShell(container) {
 
     <section class="source-summary">
       <div><strong>${moduleData.integrity.pdf_pages}</strong><span>halaman asli</span></div>
+      ${flowCount ? `<div><strong>${flowCount}</strong><span>alur halaman</span></div>` : ''}
       ${audioCount ? `<div><strong>${audioCount}</strong><span>audio unit</span></div>` : ''}
       ${(moduleData.sections.vocab || []).length ? `<div><strong>${moduleData.sections.vocab.length}</strong><span>kartu kosakata</span></div>` : ''}
       ${readingCount ? `<div><strong>${readingCount}</strong><span>reading</span></div>` : ''}
@@ -155,6 +170,7 @@ function renderShell(container) {
   });
 
   renderSource();
+  renderFlow();
   renderAudio();
   renderCards('vocab', 'Kosakata', moduleData.sections.vocab || []);
   renderCards('grammar', 'Grammar', moduleData.sections.grammar || []);
@@ -164,6 +180,7 @@ function renderShell(container) {
 }
 
 function showSection(tabId) {
+  if (activeTab && activeTab !== tabId) stopAudio();
   activeTab = tabId;
   document.querySelectorAll('.seksi-nav-btn').forEach(button => {
     button.classList.toggle('active', button.dataset.tab === tabId);
@@ -197,6 +214,133 @@ function renderSource() {
     showToast('Halaman asli ditandai selesai.', 'success');
     updateProgress();
   });
+}
+
+function renderFlow() {
+  const el = document.getElementById('section_flow');
+  if (!el) return;
+  const blocks = moduleData.sections.lesson_flow || [];
+  if (!blocks.length) {
+    el.innerHTML = `<div class="module-empty"><p>Belum ada alur belajar untuk unit ini.</p></div>`;
+    return;
+  }
+  el.innerHTML = `
+    <div class="learning-map">
+      ${blocks.map((block, idx) => `
+        <button class="learning-step" type="button" data-flow-page="${block.page}">
+          <span>${String(idx + 1).padStart(2, '0')}</span>
+          <strong>${escapeHtml(block.title_id || block.title_ko || 'Materi')}</strong>
+        </button>
+      `).join('')}
+    </div>
+    <div class="flow-list">
+      ${blocks.map(block => `
+        <article class="flow-card" id="flow_page_${block.page}">
+          <div class="flow-thumb">
+            ${block.image ? `<img src="${escapeAttr(block.image)}" alt="Halaman ${block.page}" loading="lazy" />` : ''}
+          </div>
+          <div class="flow-body">
+            <div class="flow-meta">
+              <span>Halaman ${block.page}${block.book_page ? ` · buku ${block.book_page}` : ''}</span>
+              <span>${escapeHtml(verificationLabel(block.verification))}</span>
+            </div>
+            <h2>${escapeHtml(block.title_id || block.title_ko || 'Materi')}</h2>
+            <p class="flow-subtitle">${escapeHtml(block.title_ko || '')}${block.title_en ? ` · ${escapeHtml(block.title_en)}` : ''}</p>
+            <div class="flow-tags">
+              ${(block.sections || []).map(section => `<span>${escapeHtml(sectionLabel(section))}</span>`).join('')}
+            </div>
+            ${renderFlowHighlights(block)}
+            <details class="flow-detail">
+              <summary>Teks resmi hasil ekstraksi</summary>
+              <p>${textToHtml(block.body || '')}</p>
+            </details>
+            <div class="flow-actions">
+              ${renderFlowAction(block)}
+              <button class="btn btn-outline" type="button" data-source-page="${block.page}">Halaman asli</button>
+            </div>
+          </div>
+        </article>
+      `).join('')}
+    </div>
+  `;
+  el.querySelectorAll('[data-flow-page]').forEach(button => {
+    button.addEventListener('click', () => {
+      document.getElementById(`flow_page_${button.dataset.flowPage}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+  el.querySelectorAll('[data-source-page]').forEach(button => {
+    button.addEventListener('click', () => {
+      showSection('source');
+      document.getElementById(`page_${button.dataset.sourcePage}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+  el.querySelectorAll('[data-open-tab]').forEach(button => {
+    button.addEventListener('click', () => showSection(button.dataset.openTab));
+  });
+}
+
+function renderFlowHighlights(block) {
+  const page = Number(block.page);
+  const sections = block.sections || [];
+  if (sections.includes('vocab')) {
+    const cards = (moduleData.sections.vocab || []).filter(card => Number(card.source_page) === page).slice(0, 10);
+    if (cards.length) {
+      return `<div class="flow-mini-grid">${cards.map(card => `
+        <div class="flow-mini-term">
+          <strong>${textToHtml(card.front)}</strong>
+          <span>${textToHtml(cardBackText(card))}</span>
+        </div>
+      `).join('')}</div>`;
+    }
+  }
+  if (sections.includes('grammar')) {
+    const cards = (moduleData.sections.grammar || []).filter(card => Number(card.source_page) === page).slice(0, 2);
+    if (cards.length) {
+      return `<div class="flow-focus-list">${cards.map(card => `
+        <article>
+          <strong>${textToHtml(card.front)}</strong>
+          <p>${textToHtml(truncateText(cardBackText(card), 220))}</p>
+        </article>
+      `).join('')}</div>`;
+    }
+  }
+  if (sections.includes('conversation')) {
+    const cards = (moduleData.sections.conversation || []).filter(card => Number(card.source_page) === page).slice(0, 4);
+    if (cards.length) {
+      return `<div class="flow-dialog-preview">${cards.map((card, idx) => `
+        <div class="dialog-bubble ${idx % 2 === 0 ? 'speaker-a' : 'speaker-b'}">
+          <div class="dialog-label">${escapeHtml(card.speaker || (idx % 2 === 0 ? 'A' : 'B'))}</div>
+          <p class="korean-text">${textToHtml(card.front)}</p>
+          ${card.back ? `<p class="indo-text">${textToHtml(card.back)}</p>` : ''}
+        </div>
+      `).join('')}</div>`;
+    }
+  }
+  if (sections.includes('culture') || sections.includes('self_assessment')) {
+    const card = (moduleData.sections.culture || []).find(item => Number(item.source_page) === page);
+    if (card) {
+      return `<div class="flow-focus-list"><article><strong>${textToHtml(card.front)}</strong><p>${textToHtml(truncateText(card.body || card.back, 340))}</p></article></div>`;
+    }
+  }
+  if (sections.includes('reading') || sections.includes('listening')) {
+    const kind = sections.includes('reading') ? 'reading' : 'listening';
+    const questions = moduleData.sections[kind] || [];
+    return `<div class="flow-practice-preview">
+      <strong>${questions.length} soal ${kind === 'reading' ? 'reading' : 'listening'} resmi</strong>
+      <span>${questions.filter(question => question.jawaban).length} jawaban appendix tersambung</span>
+    </div>`;
+  }
+  return `<div class="flow-focus-list"><article><strong>${escapeHtml(block.title_id || block.title_ko || 'Materi')}</strong><p>${textToHtml(truncateText(block.body, 260))}</p></article></div>`;
+}
+
+function renderFlowAction(block) {
+  const sections = block.sections || [];
+  if (sections.includes('vocab')) return `<button class="btn btn-primary" type="button" data-open-tab="vocab">Latih kosakata</button>`;
+  if (sections.includes('grammar')) return `<button class="btn btn-primary" type="button" data-open-tab="grammar">Buka grammar</button>`;
+  if (sections.includes('conversation')) return `<button class="btn btn-primary" type="button" data-open-tab="conversation">Latih dialog</button>`;
+  if (sections.includes('culture') || sections.includes('self_assessment')) return `<button class="btn btn-primary" type="button" data-open-tab="culture">Baca budaya</button>`;
+  if (sections.includes('reading') || sections.includes('listening')) return `<button class="btn btn-primary" type="button" data-open-tab="practice">Kerjakan latihan</button>`;
+  return '';
 }
 
 function renderAudio() {
@@ -249,10 +393,12 @@ function renderCards(sectionId, title, cards) {
         <button class="study-card ${state.flipped ? 'flipped' : ''}" type="button" data-flip="${sectionId}">
           <span class="study-card-face front">
             <span class="korean-text">${textToHtml(card.front || '-')}</span>
-            ${sectionId.startsWith('conversation') && card.back ? `<span class="hint-text">${escapeHtml(card.back)}</span>` : ''}
+            ${cardSourceLabel(card)}
           </span>
           <span class="study-card-face back">
-            <span class="indo-text">${textToHtml(card.back || card.front || '-')}</span>
+            <span class="answer-label">${escapeHtml(cardBackLabel(card))}</span>
+            <span class="indo-text">${textToHtml(cardBackText(card) || card.front || '-')}</span>
+            ${card.korean_note ? `<span class="hint-text">${textToHtml(card.korean_note)}</span>` : ''}
           </span>
         </button>
         <div class="deck-actions">
@@ -282,7 +428,7 @@ function renderCards(sectionId, title, cards) {
   });
   el.querySelector(`[data-search="${sectionId}"]`).addEventListener('input', event => {
     const query = event.target.value.trim().toLowerCase();
-    const filtered = cards.filter(c => `${c.front} ${c.back}`.toLowerCase().includes(query)).slice(0, 120);
+    const filtered = cards.filter(c => `${c.front} ${c.back} ${c.translation_id || ''} ${c.speaker || ''}`.toLowerCase().includes(query)).slice(0, 120);
     el.querySelector(`[data-term-list="${sectionId}"]`).innerHTML = renderTermList(filtered, sectionId);
     bindTermRows(el, sectionId, title, cards);
   });
@@ -293,7 +439,7 @@ function renderTermList(cards, sectionId) {
   return cards.map(card => `
     <button class="term-row" type="button" data-jump-card="${sectionId}:${escapeAttr(card.id)}">
       <span class="korean-text">${textToHtml(card.front || '-')}</span>
-      <span class="indo-text">${textToHtml(card.back || '')}</span>
+      <span class="indo-text">${textToHtml(cardBackText(card) || '')}</span>
     </button>
   `).join('');
 }
@@ -329,8 +475,9 @@ function renderConversation() {
     <div class="conversation-panel">
       ${cards.map((card, idx) => `
         <div class="dialog-bubble ${idx % 2 === 0 ? 'speaker-a' : 'speaker-b'}">
-          <div class="dialog-label">${escapeHtml(card.back || (idx % 2 === 0 ? 'A' : 'B'))}</div>
+          <div class="dialog-label">${escapeHtml(card.speaker || (idx % 2 === 0 ? 'A' : 'B'))}</div>
           <p class="korean-text">${textToHtml(card.front)}</p>
+          ${card.back ? `<p class="indo-text">${textToHtml(card.back)}</p>` : ''}
         </div>
       `).join('')}
     </div>
@@ -383,24 +530,38 @@ function renderQuestionList(kind) {
   area.querySelectorAll('[data-audio]').forEach(button => {
     button.addEventListener('click', () => playAudio(button.dataset.audio, button));
   });
+  area.querySelectorAll('[data-source-page]').forEach(button => {
+    button.addEventListener('click', () => {
+      showSection('source');
+      document.getElementById(`page_${button.dataset.sourcePage}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
 }
 
 function renderQuestion(question) {
   const key = questionKey(question);
   const chosen = answers[key];
   const isDone = !!chosen;
+  const hasImageOptions = (question.pilihan || []).some(option => option.image);
   return `
-    <article class="quiz-card ${isDone ? 'answered' : ''}">
+    <article class="quiz-card ${isDone ? 'answered' : ''} ${hasImageOptions ? 'image-quiz' : ''}">
       <div class="quiz-head">
         <span>${question.tipe === 'mendengarkan' ? 'Listening' : 'Reading'} ${question.nomor}</span>
         ${question.audio_url ? `<button class="audio-btn" type="button" data-audio="${escapeAttr(question.audio_url)}">Putar audio</button>` : ''}
       </div>
+      ${question.source_page_image ? `
+        <div class="question-source">
+          <img src="${escapeAttr(question.source_page_image)}" alt="Halaman asli soal ${question.nomor}" loading="lazy" />
+          <button class="btn btn-outline" type="button" data-source-page="${escapeAttr(question.source_page || '')}">Halaman asli</button>
+        </div>
+      ` : ''}
       ${question.instruksi ? `<p class="quiz-instruction">${textToHtml(question.instruksi)}</p>` : ''}
       ${question.teks_soal ? `<p class="korean-text">${textToHtml(question.teks_soal)}</p>` : ''}
-      <div class="mc-options">
+      <div class="mc-options ${hasImageOptions ? 'image-options' : ''}">
         ${question.pilihan.map(option => renderOption(question, option, chosen)).join('')}
       </div>
-      ${isDone ? `<div class="mc-feedback show ${chosen === question.jawaban ? 'correct' : 'wrong'}">${chosen === question.jawaban ? 'Benar' : `Jawaban benar: ${question.jawaban.toUpperCase()}`}</div>` : ''}
+      ${isDone ? renderFeedback(question, chosen) : ''}
+      ${question.audio_teks ? `<details class="script-detail"><summary>Naskah listening</summary><p>${textToHtml(question.audio_teks)}</p></details>` : ''}
     </article>
   `;
 }
@@ -410,7 +571,7 @@ function renderOption(question, option, chosen) {
   const correct = chosen && question.jawaban === option.key;
   const wrong = selected && chosen !== question.jawaban;
   return `
-    <button class="mc-opt ${selected ? 'selected' : ''} ${correct ? 'correct' : ''} ${wrong ? 'wrong' : ''}" type="button" data-answer="${questionKey(question)}:${option.key}">
+    <button class="mc-opt ${option.image ? 'has-image' : ''} ${selected ? 'selected' : ''} ${correct ? 'correct' : ''} ${wrong ? 'wrong' : ''}" type="button" data-answer="${questionKey(question)}:${option.key}">
       <span class="mc-letter">${option.label}</span>
       <span class="option-body">
         ${option.image ? `<img class="option-image" src="${escapeAttr(option.image)}" alt="Pilihan ${option.label}" loading="lazy" />` : ''}
@@ -428,7 +589,9 @@ function answerQuestion(button) {
   answers[key] = chosen;
   saveProgress();
   renderQuestionList(activePractice);
-  if (chosen === question.jawaban) {
+  if (!question.jawaban) {
+    showToast('Jawaban tersimpan.', 'success');
+  } else if (chosen === question.jawaban) {
     showToast('Benar.', 'success');
   } else {
     showToast(`Jawaban benar: ${question.jawaban.toUpperCase()}`, 'error');
@@ -446,8 +609,7 @@ function questionKey(question) {
 
 function playAudio(url, button) {
   if (!url) return;
-  if (audio) audio.pause();
-  if (audioButton) audioButton.classList.remove('playing');
+  stopAudio();
   audio = new Audio(url);
   audioButton = button;
   button.classList.add('playing');
@@ -460,6 +622,67 @@ function playAudio(url, button) {
     button.classList.remove('playing');
     audioButton = null;
   });
+}
+
+function stopAudio() {
+  if (audio) {
+    audio.pause();
+    audio.currentTime = 0;
+  }
+  if (audioButton) audioButton.classList.remove('playing');
+  audio = null;
+  audioButton = null;
+}
+
+function renderFeedback(question, chosen) {
+  if (!question.jawaban) {
+    return `<div class="mc-feedback show correct">Jawabanmu tersimpan. Cek halaman asli atau pembahasan bersama tutor.</div>`;
+  }
+  const ok = chosen === question.jawaban;
+  return `<div class="mc-feedback show ${ok ? 'correct' : 'wrong'}">${ok ? 'Benar' : `Jawaban benar: ${question.jawaban.toUpperCase()}`}</div>`;
+}
+
+function cardBackText(card) {
+  return card.translation_id || card.back || '';
+}
+
+function cardBackLabel(card) {
+  if (card.translation_id) return 'ID terkurasi';
+  if (card.back_lang === 'ko_en_official') return 'Catatan resmi';
+  if (card.back) return 'EN resmi dari textbook';
+  return 'Materi';
+}
+
+function cardSourceLabel(card) {
+  if (!card.source_page) return '';
+  return `<span class="source-pill">Halaman ${escapeHtml(card.source_page)}</span>`;
+}
+
+function sectionLabel(section) {
+  const labels = {
+    overview: 'Ringkasan',
+    vocab: 'Kosakata',
+    grammar: 'Tata bahasa',
+    pronunciation: 'Pelafalan',
+    conversation: 'Percakapan',
+    useful_expression: 'Ungkapan',
+    culture: 'Budaya',
+    self_assessment: 'Cek diri',
+    reading: 'Reading',
+    listening: 'Listening',
+    preview: 'Preview',
+  };
+  return labels[section] || section;
+}
+
+function verificationLabel(value) {
+  return value ? 'PDF resmi' : '';
+}
+
+function truncateText(value, limit = 420) {
+  const text = String(value || '').trim();
+  if (text.length <= limit) return text;
+  return `${text.slice(0, limit).trim()}...`;
 }
 
 function loadProgress(unit) {

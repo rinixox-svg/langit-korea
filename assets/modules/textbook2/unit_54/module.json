@@ -4,7 +4,7 @@
   "unit": 54,
   "title_ko": "산업 안전 및 보건 수칙",
   "title_en": "Industrial Safety Rules",
-  "title_id": "Aturan Keselamatan Industri",
+  "title_id": "Peraturan keselamatan industri",
   "source_pdf": "assets/langit-korea-modules/unit_54_industrial_safety_rules.pdf",
   "page_start": 247,
   "page_end": 256,
@@ -61,600 +61,534 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 247,
+        "image": "assets/modules/textbook2/unit_54/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "54 산업 안전 및 보건 수칙 \n INDUSTRIAL SAFETY AND HEALTH REGULATIONS 247\n어휘 VOCABULARY\n안전 및 보건 수칙 Safety and Health Preservation Regulations\n 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example.\n가 : 작업을 시작할까요?\n나 : 작업을 하기 전에 먼저 환기 장치를 켜세요.\n[ 보기 ]\n⑴\n가 : 작업장이 너무 시끄러워요.\n나 : 그럼 .\n⑵\n가 : 석면 제거 작업을 할 거예요.\n나 : 그럼 .\n⑶\n가 : 작업이 끝났어요. \n나 : 그럼 .\n⑷\n가 : 산소가 부족한 것 같아요.\n나 : 그럼 .\n수칙을 지키다 to follow the rules\n수칙을 어기다 to break the rules\n화학물질\nchemical \nsubstances \n소음\nnoise \n밀폐공간\nconfined \nspaces \n“관계자 외 출입 금지”\n위 험\n석면\nasbestos \n공사중\n관계자 외 \n출입 금지\n석면 취급/\n해체 중\n개인 보호구를 착용하다 \nto wear personal protective \nequipment\n작업 후에 샤워하다 \nto shower after \nwork\n흡연이나 음식물 섭취를 \n하지 않다 \nto not smoke or eat\n환기 장치를 켜다 \nto turn on the \nventilation system\n출입 금지 장소에 들어가지 않다 \nto not enter restricted areas\n흡연이나 음식물 섭취를 \n하지 않다 \nto not smoke or eat\n귀마개를 착용하다 \nto wear earplugs \n산소 부족 시 작업을 \n중단하고 대피하다 \nto stop work and \nevacuate in the case of \ninsufficient oxygen\n출입 금지 \n장소에 \n들어가지 않다 \nto not enter \nrestricted \nareas\n환기 장치를 켜다 \nto turn on the \nventilation system",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 248,
+        "image": "assets/modules/textbook2/unit_54/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "248 한국어 표준교재 2\n1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요. \nComplete the sentences with the correct options as shown in the example. \n귀마개를 착용하다\n창문을 열다\n서둘러 샤워를 하다 \n바로 정리하다\n냉장고에 보관하다\n소음이 심하면 귀마개를 착용하도록 하세요.\n[ 보기 ]\n⑴\n⑵\n⑶\n⑷\n남은 음식은 .\n청소할 때에는 .\n작업 도구는 사용하고 나서 .\n화학물질 작업을 한 후에는 .\n2. 그림을 보고 [보기]와 같이 문장을 완성하세요. \nLook at the picture and complete the sentences as shown in the example.\n질식 위험 공간\n“관계자 외 출입 금지”\n출입 전 산소 및 유해가스 농도 측정\n작업전• 작업중 지속적인 환기\n구조작업 시 공기호흡기 또는 송기마스크 착용\n위 험\n질식 위험 공간에서 작업할 때에는 관계자 외에는 출입을 금하도록 하세요.\n[ 보기 ]\n⑴\n⑵\n⑶\n출입 전에 산소 농도를 .\n작업을 할 때 지속적으로 .\n구조 작업을 할 때 공기호흡기를 .\n문법 GRAMMAR\n-도록 하다\n‘-도록 하다’는 동사에 붙어 다른 사람에게 어떤 일을 하게 함을 나타\n낸다.\n‘-도록 하다’ is attached to verbs to indicate making another person do \nsomething. \n예 작업을 할 때는 개인 보호구를 착용하도록 하세요.\n \n10일까지 휴가를 신청하도록 하세요.\n \n안전 규칙을 지키도록 하세요.\n※ 부정적인 내용을 서술할 때에는 ‘-지 않도록 하다’를 사용한다.\n \nTo state negative contents, it takes the form ‘-지 않도록 하다’.\n \n예 이곳에는 들어가지 않도록 하세요.\n \n \n출근 시간에 늦지 않도록 하세요.\n시킴을 당하는 사람이 드러\n나지 않으면 사동의 의미가 \n없어진다.\nIf the person being directed \nisn’t specified, the causative \nmeaning disappears. \n예 제가 현장에 가 보도록 하겠\n습니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 249,
+        "image": "assets/modules/textbook2/unit_54/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "54 산업 안전 및 보건 수칙 \n INDUSTRIAL SAFETY AND HEALTH REGULATIONS 249\n대화 CONVERSATION\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•개인 보호구를 착용하다, 출입 금지 장소에 들어가지 않다\n•산소 농도를 확인하다, 산소가 부족하면 밖으로 대피하다\n가 : 작업을 하기 전에 먼저 개인 보호구를 착용하도록\n \n하세요.\n나 : 네, 알겠습니다. \n가 : 그리고 출입 금지 장소에 들어가지 않도록 하세요.\n나 : 네, 주의하겠습니다. \n발음 │ PRONUNCIATION\n합성어 및 파생어에서, 앞 낱말이나 접두사의 끝이 비음(ㄴ, ㅁ, ㅇ)이고 뒤 낱말이나 접미사의 첫음절이 ‘이, 야, 여, 요, \n유’인 경우에는, ‘ㄴ’ 소리를 첨가하여 [니, 냐, 녀, 뇨, 뉴]로 발음한다.\nIn compound and derived words, when the final consonant of the first word or prefix is a nasal sound \n(ㄴ, ㅁ, ㅇ) and the first syllable of the next word or suffix begins with ‘이, 야, 여, 요, 유’, ‘ㄴ’ is inserted \nand pronounced as [니, 냐, 녀, 뇨, 뉴].\n⑴ 맨-입[맨닙] \n한-여름[한녀름] \n눈-요기[눈뇨기]\n⑵ 솜-이불[솜니불] \n식용-유[시굥뉴]\n294\n반장님 \n마두 씨, 오늘은 화학물질을 혼합하는 작업을 할 거예요. 개인 보호구는 다 착용했지요?\n \nMadhu, today you’ll be mixing chemicals. Have you put on all your protective gear? \n마\n두 \n네, 모두 착용했습니다.\n \nYes, I’ve put it all on. \n반장님 \n잘했어요. 작업을 시작하기 전에 먼저 환기 장치를 \n켜도록 하세요.\n \nGood. Before you start, turn on the ventilator first. \n마\n두 \n네, 알겠습니다.\n \nYes, got it. \n반장님 \n여기는 화학물질이 많으니까 절대 담배를 피우면 \n안 돼요. 음식도 먹으면 안 되고요.\n \nThere are a lot of chemicals here, so never smoke. Also \ndon't eat anything.\n마\n두 \n네, 주의하도록 하겠습니다.\n \nYes, I’ll be careful. \n대답해 봐요! ANSWER ME!\n1 마두 씨는 오늘 무슨 작업을 해요? What kind of work is Madhu doing today? \n2 작업장에서 가장 먼저 해야 할 일은 뭐예요? \nWhat is the first thing they must do in the workplace? \n293",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 250,
+        "image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "250 한국어 표준교재 2\n사고를 막다 to prevent accidents\n사고를 줄이다 to reduce accidents\n조작하다 to operate\n반드시 absolutely \n 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요. \nComplete the sentences with the correct options as shown in the example. \n전원 차단 방호덮개 설치 안전대 착용 안전보건표지판 설치\n기계를 점검할 때에는 반드시 전원을 차단해야 합니다.\n[ 보기 ]\n⑴높은 곳에서 작업할 때에는 반드시 .\n⑵끼임 위험이 있는 기계에는 반드시 .\n⑶정비 작업을 할 때에는 다른 사람이 기계를 조작하지 못하도록 .\n어휘 VOCABULARY\n산업 재해 예방을 위한 준수 사항 \nTerms of Compliance for Industrial Accident Prevention\n끼일 수 있는 곳\nplaces where hands or feet could be trapped \n정비, 수리, 교체 작업 \nmaintenance, repairs, and replacements\n① 방호덮개 설치 \ninstallation of protective covers\n② 방호장치 해체 금지 \ndismantling of safety devices prohibited\n③ 동작 중인 기계에 접촉 금지 \napproaching running \nmachinery prohibited\n떨어질 수 있는 곳\nplaces one could fall\n개인 보호구 착용 \nwearing personal protective equipment \n① 작업 발판, 안전 난간 설치 \n \ninstallation of work platforms, safety rails\n② 개구부 방호덮개 설치 \ninstallation of protective \ncovers on openings\n③ 안전대 착용 \nsafety harness use \n① 안전모 : 추락, 물체 낙하 등 위험 작업 \nsafety helmet: for work with risk of fall or \nfalling objects\n② 안전대 : 추락할 위험이 있는 작업 \nsafety harness: for work \nwith fall hazards \n③ 안전화 : 물체의 낙하, \n물체에 끼임 등 위험 작업 \nsafety shoes: for work with \nrisk of falling objects or \ntrapping hazards\n① 안전보건교육 실시 \nimplementation of safety and health prevention \neducation\n② 점검 수리 중 전원 차단 \npower cut-off during \ninspection or repair \n③ 스위치 잠금장치 설치 \ninstallation of switch locking \ndevice\n④ 안전보건표지판 설치 등 \n작업 수칙 준수 \nadherence to work regulations such as the installation \nof safety sign",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 251,
+        "image": "assets/modules/textbook2/unit_54/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "54 산업 안전 및 보건 수칙 \n INDUSTRIAL SAFETY AND HEALTH REGULATIONS 251\n문법 GRAMMAR\n-기 위해\n‘-기 위해’는 동사에 붙어 앞의 내용이 뒤의 내용의 목적임을 나타낸다.\n‘-기 위해’ is attached to verbs to indicate that the preceding content is the purpose of the following content. \n예 돈을 벌기 위해 한국에 가려고 해요. \n음식을 만들기 위해 장을 봤어요.\n \n혼합 작업을 하기 위해 기계를 켰어요.\n※ 명사와 함께 사용할 때는 ‘명사+을/를 위해’의 구성으로 사용한다.\n \nWhen used with nouns it takes the form ‘noun+을/를 위해’.\n \n예 부모님의 건강을 위해 인삼을 사 드렸어요. \n아버지는 가족을 위해 일하십니다.\n1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요. \nComplete the sentences with the correct options as shown in the example.\n환기를 하다\n병원에 가다\n제품을 납품하다 \n고향으로 송금하다\n환기를 하기 위해 창문을 열었습니다.\n[ 보기 ]\n⑴\n⑵\n⑶\n 포장을 했습니다.\n 은행에 갈 겁니다.\n 일찍 퇴근했습니다.\n2. 관계있는 것끼리 연결하고 [보기]와 같이 대화를 완성하세요. \nConnect the related items and complete the conversations as shown in the example.\n재해 발생을 줄이다 \n끼임 사고를 막다 \n추락 사고를 방지하다 \n전원 스위치를 켜지 않도록 하다\n●\n●\n●\n●\n●\n●\n●\n●\n방호덮개를 설치하다\n안전보건표지판을 설치하다\n안전보건교육을 실시하다\n안전 난간을 설치하다\n가 : 작업 수칙을 준수하지 않으면 재해가 발생할 위험이 있습니다.\n나 : 그러면 재해 발생을 줄이기 위해 안전보건교육을 실시하겠습니다.\n[ 보기 ]\n \n⑴ 가 : 이 기계는 끼일 위험이 있습니다.\n \n \n나 : 그러면 .\n \n⑵ 가 : 여기는 높아서 작업자가 떨어질 위험이 있습니다.\n \n \n나 : 그러면 .\n \n⑶ 가 : 점검 중에 다른 사람이 전원 스위치를 켤 위험이 있습니다.\n \n \n나 : 그러면 .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 252,
+        "image": "assets/modules/textbook2/unit_54/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "252 한국어 표준교재 2\n김진수 \n오늘은 사고 예방을 위한 안전보건교육을 \n실시하겠습니다. \n작업 중 사고가 나는 것을 막기 위해서는 \n반드시 작업안전보건 수칙을 준수해야 합니다. \n먼저 손이나 발이 끼일 수 있는 곳에는 덮개를 \n설치해야 합니다. 그리고 동작 중인 기계에는 \n가까이 접근하지 않아야 합니다. 떨어질 위험이 \n있는 장소에는 안전 난간을 설치해야 합니다. \n그리고 작업자는 반드시 안전대를 착용해야 \n합니다. 우리 모두 작업안전보건 수칙을 \n준수하여 사고를 예방하도록 합시다.\n \nToday, we will be conducting safety and health \npreservation training for preventing accidents. To \nprevent accidents during work, it is essential to \nfollow safety and health preservation regulations. First, install covers in places where hands or \nfeet might get trapped. Also, you should not approach machinery that is in operation. Safety rails must be \ninstalled in areas where there is a risk of falling. Additionally, workers must wear safety harnesses. \nLet’s all follow the safety and health preservation regulations to prevent accidents.\n대화 CONVERSATION\n대답해 봐요! ANSWER ME!\n1 끼임 사고가 발생할 수 있는 곳에는 무엇을 설치해야 돼요? \nWhat should be installed in places where hands or feet could get trapped? \n2 추락 위험이 있는 곳에서는 작업자가 무엇을 착용해야 돼요? \nWhat should the worker wear in places with fall hazards?\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•개구부, 방호덮개, 추락 사고를 예방하다\n•기계, 방호장치, 위험한 기계를 만지지 못하게 하다\n가 : 개구부에 방호덮개를 설치했어요?\n나 : 네, 했어요. 그런데 이건 왜 설치해요?\n가 : 추락 사고를 예방하기 위해서 설치하는 거예요.\n나 : 아, 우리의 안전을 위한 거네요.\n가 : 포장 작업이 급한데 누가 좋을까요? \nThe packing work is urgent. Who would be good for it? \n나 : 민수 씨가 손이 빨라요. \nMinsu is a fast worker.\n유용한 표현 │ USEFUL EXPRESSION\n손이 빨라요.\n(Someone) is a fast \nworker.\n296\n295",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 253,
+        "image": "assets/modules/textbook2/unit_54/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "54 산업 안전 및 보건 수칙 \n INDUSTRIAL SAFETY AND HEALTH REGULATIONS 253\n문화와 정보 CULTURE & INFORMATION\n• 안전 및 보건과 관련된 수칙에 대해 묻고 대답할 수 있다. \nI can ask and answer questions about safety and health preservation regulations. \n↻\n• 산업 재해를 예방하기 위해 지켜야 할 행동을 말할 수 있다. \nI can say what actions must be taken to prevent industrial accidents. \n↻\n• 작업장의 안전을 위한 준수 사항에 대해 말할 수 있다. \nI can talk about safety compliance in the workplace. \n↻\n확인해요 │ self assessment\n54 산업 안전 및 보건 수칙 \n INDUSTRIAL SAFETY AND HEALTH REGULATIONS 253\n대피로 표지\nEvacuation Route Signs\n시계 반대 방향으로 \n돌리면 열림\nturn counterclockwise to open \n왼쪽을 밀면 열리는 문\ndoor that opens by pushing \non the left side\n시계 방향으로 돌리면 열림\nturn clockwise to open \n오른쪽을 밀면 열리는 문\ndoor that opens by pushing \non the right side\n오른쪽으로 미끄러져 \n열리는 문/오른쪽 미닫이 문\ndoor that opens by sliding to \nthe right\n왼쪽을 당기면 열리는 문\ndoor that opens by pulling \non the left side\n왼쪽으로 미끄러져 열리는 문 \n/왼쪽 미닫이 문\ndoor that opens by sliding to \nthe left\n오른쪽을 당기면 열리는 문\ndoor that opens by pulling on \nthe right side\n유리창을 깨고 밖으로 \n나갈 때 사용하는 망치\nhammer used for breaking \nwindows to escape\n위험할 때 밖으로 \n나갈 수 있는 사다리 \nladder used to exit in \nemergencies\n탈출 사다리\nescape ladder\n비상 망치\nemergency hammer \n사고가 났을 때 밖으로 나갈 수 있는 문\ndoor used to exit in the case of an accident\n건물 안에 있는 사람을 구조하기 위해 \n구조대가 접근할 수 있도록 만든 창문\na window designed for rescue \nteams to access people inside \n비상구(왼쪽)\nemergency exit (left) \n탈출 사다리가 있는 \n비상 창문\nemergency \nwindow with \nescape ladder \n비상구(오른쪽)\nemergency exit (right) \n구조 창문\nrescue window\n※ 산업표준심의회의 KS S ISO 7010:2019를 따라 제시하였습니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 254,
+        "image": "assets/modules/textbook2/unit_54/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n254 한국어 표준교재 2\n1. \n다음 내용과 관계있는 그림을 고르십시오.\n음식물을 먹지 마십시오.\n①\n②\n③\n④\n2. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.\n① 안전을 위해 수칙을 지키세요. \n② 이상이 있으면 기계를 예방하세요. \n③ 소음이 심하면 귀마개를 켜세요. \n④ 작업 전에 환기 장치를 착용하세요.\n3. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n이 작업장은 소음이 심합니다. 를 반드시 착용하도록 하십시오.\n① 마스크 \n \n \n② 귀마개 \n③ 보호대 \n \n \n④ 안전대\n4. 다음 글을 읽고 내용과 같은 것을 고르십시오.\n•안전모 착용\n•흡연 금지\n•관계자 외 출입 금지\n•작업 중 반드시 환기\n안전 수칙\n① 여기에서는 담배를 피워도 됩니다.\n② 보호구를 반드시 착용해야 합니다.\n③ 누구든지 작업장에 들어갈 수 있습니다.\n④ 작업이 끝나면 환기 장치를 켜야 합니다.\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n비상구는 갑작스러운 사고가 생겼을 때 빨리 밖으로 나갈 수 있도록 만들어 놓은 출입구입니다. \n비상구를 나타내는 표지판은 녹색입니다. 만약 건물에 화재가 발생하면 엘리베이터를 타지 말고 \n비상구를 통해 밖으로 나가야 합니다. 평소에 비상구가 어디에 있는지 알아 두면 긴급 상황에서 시간을 \n절약할 수 있습니다.\n① 화재가 발생하면 엘리베이터로 이동해야 합니다. \n② 비상구를 나타내는 표지판의 색깔은 다양합니다.\n③ 비상구는 사람들이 건물로 들어가는 출입구입니다. \n \n④ 비상구의 위치를 알아 두면 빨리 나갈 수 있습니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 255,
+        "image": "assets/modules/textbook2/unit_54/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n54 산업 안전 및 보건 수칙 \n INDUSTRIAL SAFETY AND HEALTH REGULATIONS 255\n[1~2] 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n1.\n① 네, 안전모를 쓰세요. \n \n \n② 네, 안전모를 벗으세요.\n③ 아니요, 안전모를 써야 해요. \n④ 아니요, 안전모를 벗지 마세요.\n2.\n① 마두 씨가 직접 설치하세요. \n② 잘 보이는 곳에 설치하세요. \n③ 수리가 끝날 때까지 설치하세요. \n④ 작업을 시작하기 전에 설치하세요.\n3. 두 사람은 무엇에 대해 말하고 있습니까? \n① 시설 관리 \n \n \n② 업무 평가\n③ 안전 수칙 \n \n \n④ 작업 시간\n4. 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n① 그럼 빨리 치워야겠네요. \n \n② 그럼 나중에 다시 올게요.\n③ 그럼 잠깐 쉬었다가 할게요. \n \n④ 그럼 보호구를 착용해야겠네요.\n5. \n남자가 이어서 할 행동은 무엇입니까?\n① 커피를 마십니다. \n② 환기 장치를 켭니다.\n③ 혼합 작업을 시작합니다. \n④ 작업복으로 갈아입습니다.\n1. \n여 : 안전모를 착용할까요?\n2. 남 : 어디에 표지판을 설치할까요?\n3. 남 : 산소가 얼마나 있는지 자주 확인하도록 하세요.\n \n여 : 알겠습니다. 산소가 부족하면 작업을 중단하도록 하겠습니다.\n4. 남 : 높은 곳에서 작업할 때는 떨어지는 사고가 날 수 있어요.\n5. 여 : 오늘은 화학물질을 혼합하는 작업을 할 거예요. 작업복으로 갈아입으셨지요?\n \n남 : 네, 그런데 작업장에서 커피를 마셔도 돼요?\n \n여 : 아니요, 음식물은 안 돼요. 그리고 작업 시작하기 전에 환기 장치부터 켜도록 하세요.\n \n남 : 알겠습니다.\n듣기지문\n297",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 256,
+        "image": "assets/modules/textbook2/unit_54/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "256 한국어 표준교재 2\n학습 목표\nLEARNING OBJECTIVES\n보호구의 종류와 기능을 말할 수 있다.\nCan explain the types and functions of protective gear. \n작업에 필요한 보호 장비에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about protective equipment needed for work.\n산업 안전 및 위생 장비 \nIndustrial Safety and Hygiene Equipment \nC H A P T E R 5 5\n-는/(으)ㄴ 대로\n-(으)ㄹ 테니까\nGRAMMAR\n문법\n안전 장비\nSafety Equipment \n안전ㆍ위생 장비\nSafety and Hygiene Equipment \nVOCABULARY\n어휘\n지시 표지(강제행동 표지)\nDirective Signs \n(Mandatory Action Signs) \nCULTURE & INFORMATION\n문화와 정보\n256 한국어 표준교재 2\nEPS-TOPIK\n네, 귀덮개도 착용할까요?\n교육받은 대로 안전대를 착용하세요.",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "vocab": [
       {
         "id": "vocab_1",
-        "front": "54 산업 안전 및 보건 수칙",
-        "back": "INDUSTRIAL SAFETY AND HEALTH REGULATIONS 247",
-        "raw": {
-          "korean": "54  산업 안전 및 보건 수칙",
-          "indonesia": "INDUSTRIAL SAFETY AND HEALTH REGULATIONS   247"
-        }
+        "front": "안전 및 보건 수칙",
+        "back": "Safety and Health Preservation Regulations",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_2",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
+        "front": "산업 재해 예방을 위한 준수 사항",
+        "back": "Terms of Compliance for Industrial Accident Prevention",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_3",
-        "front": "안전 및 보건 수칙",
-        "back": "Safety and Health Preservation Regulations",
-        "raw": {
-          "korean": "안전 및 보건 수칙",
-          "indonesia": "\u0007Safety and Health Preservation Regulations"
-        }
+        "front": "끼일 수 있는 곳",
+        "back": "places where hands or feet could be trapped",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_4",
-        "front": "그림을 보고 [보기]와 같이 대화를 완성하세요.",
-        "back": "Look at the pictures and complete the conversations as shown in the example.",
-        "raw": {
-          "korean": "\u0007그림을 보고 [보기]와 같이 대화를 완성하세요.",
-          "indonesia": "Look at the pictures and complete the conversations as shown in the example."
-        }
+        "front": "정비, 수리, 교체 작업",
+        "back": "maintenance, repairs, and replacements",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_5",
-        "front": "[ 보기 ]",
-        "back": "⑴",
-        "raw": {
-          "korean": "[ 보기 ]",
-          "indonesia": "⑴"
-        }
+        "front": "① 방호덮개 설치",
+        "back": "installation of protective covers",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_6",
-        "front": "나 : 그럼 .",
-        "back": "⑵",
-        "raw": {
-          "korean": "나 : 그럼                                      .",
-          "indonesia": "⑵"
-        }
+        "front": "② 방호장치 해체 금지",
+        "back": "dismantling of safety devices prohibited",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_7",
-        "front": "나 : 그럼 .",
-        "back": "⑶",
-        "raw": {
-          "korean": "나 : 그럼                                      .",
-          "indonesia": "⑶"
-        }
+        "front": "③ 동작 중인 기계에 접촉 금지",
+        "back": "approaching running machinery prohibited",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_8",
-        "front": "나 : 그럼 .",
-        "back": "⑷",
-        "raw": {
-          "korean": "나 : 그럼                                      .",
-          "indonesia": "⑷"
-        }
+        "front": "떨어질 수 있는 곳",
+        "back": "places one could fall",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_9",
-        "front": "화학물질",
-        "back": "chemical",
-        "raw": {
-          "korean": "화학물질",
-          "indonesia": "chemical"
-        }
+        "front": "개인 보호구 착용",
+        "back": "wearing personal protective equipment",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_10",
-        "front": "소음",
-        "back": "noise",
-        "raw": {
-          "korean": "소음",
-          "indonesia": "noise"
-        }
+        "front": "① 작업 발판, 안전 난간 설치",
+        "back": "installation of work platforms, safety rails",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_11",
-        "front": "밀폐공간",
-        "back": "confined",
-        "raw": {
-          "korean": "밀폐공간",
-          "indonesia": "confined"
-        }
+        "front": "② 개구부 방호덮개 설치",
+        "back": "installation of protective covers on openings",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_12",
-        "front": "석면",
-        "back": "asbestos",
-        "raw": {
-          "korean": "석면",
-          "indonesia": "asbestos"
-        }
+        "front": "③ 안전대 착용",
+        "back": "safety harness use",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_13",
-        "front": "개인 보호구를 착용하다",
-        "back": "to wear personal protective",
-        "raw": {
-          "korean": "개인 보호구를 착용하다",
-          "indonesia": "to wear personal protective"
-        }
+        "front": "① 안전모 : 추락, 물체 낙하 등 위험 작업",
+        "back": "safety helmet: for work with risk of fall or falling objects",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_14",
-        "front": "작업 후에 샤워하다",
-        "back": "to shower after",
-        "raw": {
-          "korean": "작업 후에 샤워하다",
-          "indonesia": "to shower after"
-        }
+        "front": "② 안전대 : 추락할 위험이 있는 작업",
+        "back": "safety harness: for work with fall hazards",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_15",
-        "front": "하지 않다",
-        "back": "to not smoke or eat",
-        "raw": {
-          "korean": "하지 않다",
-          "indonesia": "to not smoke or eat"
-        }
+        "front": "물체에 끼임 등 위험 작업",
+        "back": "safety shoes: for work with risk of falling objects or trapping hazards",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_16",
-        "front": "환기 장치를 켜다",
-        "back": "to turn on the",
-        "raw": {
-          "korean": "환기 장치를 켜다",
-          "indonesia": "to turn on the"
-        }
+        "front": "① 안전보건교육 실시",
+        "back": "implementation of safety and health prevention education",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_17",
-        "front": "출입 금지 장소에 들어가지 않다",
-        "back": "to not enter restricted areas",
-        "raw": {
-          "korean": "출입 금지 장소에 들어가지 않다",
-          "indonesia": "to not enter restricted areas"
-        }
+        "front": "② 점검 수리 중 전원 차단",
+        "back": "power cut-off during inspection or repair",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_18",
-        "front": "하지 않다",
-        "back": "to not smoke or eat",
-        "raw": {
-          "korean": "하지 않다",
-          "indonesia": "to not smoke or eat"
-        }
+        "front": "③ 스위치 잠금장치 설치",
+        "back": "installation of switch locking device",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       },
       {
         "id": "vocab_19",
-        "front": "귀마개를 착용하다",
-        "back": "to wear earplugs",
-        "raw": {
-          "korean": "귀마개를 착용하다",
-          "indonesia": "to wear earplugs"
-        }
-      },
-      {
-        "id": "vocab_20",
-        "front": "중단하고 대피하다",
-        "back": "to stop work and",
-        "raw": {
-          "korean": "중단하고 대피하다",
-          "indonesia": "to stop work and"
-        }
-      },
-      {
-        "id": "vocab_21",
-        "front": "들어가지 않다",
-        "back": "to not enter",
-        "raw": {
-          "korean": "들어가지 않다",
-          "indonesia": "to not enter"
-        }
-      },
-      {
-        "id": "vocab_22",
-        "front": "환기 장치를 켜다",
-        "back": "to turn on the",
-        "raw": {
-          "korean": "환기 장치를 켜다",
-          "indonesia": "to turn on the"
-        }
-      },
-      {
-        "id": "vocab_23",
-        "front": "알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
-        "back": "Complete the sentences with the correct options as shown in the example.",
-        "raw": {
-          "korean": "\u0007알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
-          "indonesia": "Complete the sentences with the correct options as shown in the example."
-        }
-      },
-      {
-        "id": "vocab_24",
-        "front": "어휘",
-        "back": "VOCABULARY",
-        "raw": {
-          "korean": "어휘",
-          "indonesia": "VOCABULARY"
-        }
-      },
-      {
-        "id": "vocab_25",
-        "front": "산업 재해 예방을 위한 준수 사항",
-        "back": "Terms of Compliance for Industrial Accident Prevention",
-        "raw": {
-          "korean": "산업 재해 예방을 위한 준수 사항",
-          "indonesia": "Terms of Compliance for Industrial Accident Prevention"
-        }
-      },
-      {
-        "id": "vocab_26",
-        "front": "끼일 수 있는 곳",
-        "back": "places where hands or feet could be trapped",
-        "raw": {
-          "korean": "끼일 수 있는 곳",
-          "indonesia": "places where hands or feet could be trapped"
-        }
-      },
-      {
-        "id": "vocab_27",
-        "front": "정비, 수리, 교체 작업",
-        "back": "maintenance, repairs, and replacements",
-        "raw": {
-          "korean": "정비, 수리, 교체 작업",
-          "indonesia": "maintenance, repairs, and replacements"
-        }
-      },
-      {
-        "id": "vocab_28",
-        "front": "① 방호덮개 설치",
-        "back": "installation of protective covers",
-        "raw": {
-          "korean": "① \u0007방호덮개 설치",
-          "indonesia": "installation of protective covers"
-        }
-      },
-      {
-        "id": "vocab_29",
-        "front": "② 방호장치 해체 금지",
-        "back": "dismantling of safety devices prohibited",
-        "raw": {
-          "korean": "② \u0007방호장치 해체 금지",
-          "indonesia": "dismantling of safety devices prohibited"
-        }
-      },
-      {
-        "id": "vocab_30",
-        "front": "③ 동작 중인 기계에 접촉 금지",
-        "back": "approaching running",
-        "raw": {
-          "korean": "③ \u0007동작 중인 기계에 접촉 금지",
-          "indonesia": "approaching running"
-        }
-      },
-      {
-        "id": "vocab_31",
-        "front": "떨어질 수 있는 곳",
-        "back": "places one could fall",
-        "raw": {
-          "korean": "떨어질 수 있는 곳",
-          "indonesia": "places one could fall"
-        }
-      },
-      {
-        "id": "vocab_32",
-        "front": "개인 보호구 착용",
-        "back": "wearing personal protective equipment",
-        "raw": {
-          "korean": "개인 보호구 착용",
-          "indonesia": "wearing personal protective equipment"
-        }
-      },
-      {
-        "id": "vocab_33",
-        "front": "① 작업 발판, 안전 난간 설치",
-        "back": "installation of work platforms, safety rails",
-        "raw": {
-          "korean": "① \u0007작업 발판, 안전 난간 설치",
-          "indonesia": "installation of work platforms, safety rails"
-        }
-      },
-      {
-        "id": "vocab_34",
-        "front": "② 개구부 방호덮개 설치",
-        "back": "installation of protective",
-        "raw": {
-          "korean": "② \u0007개구부 방호덮개 설치",
-          "indonesia": "installation of protective"
-        }
-      },
-      {
-        "id": "vocab_35",
-        "front": "③ 안전대 착용",
-        "back": "safety harness use",
-        "raw": {
-          "korean": "③ \u0007안전대 착용",
-          "indonesia": "safety harness use"
-        }
-      },
-      {
-        "id": "vocab_36",
-        "front": "① 안전모 : 추락, 물체 낙하 등 위험 작업",
-        "back": "safety helmet: for work with risk of fall or",
-        "raw": {
-          "korean": "① \u0007안전모 : 추락, 물체 낙하 등 위험 작업",
-          "indonesia": "safety helmet: for work with risk of fall or"
-        }
-      },
-      {
-        "id": "vocab_37",
-        "front": "② 안전대 : 추락할 위험이 있는 작업",
-        "back": "safety harness: for work",
-        "raw": {
-          "korean": "② \u0007안전대 : 추락할 위험이 있는 작업",
-          "indonesia": "safety harness: for work"
-        }
-      },
-      {
-        "id": "vocab_38",
-        "front": "물체에 끼임 등 위험 작업",
-        "back": "safety shoes: for work with",
-        "raw": {
-          "korean": "물체에 끼임 등 위험 작업",
-          "indonesia": "safety shoes: for work with"
-        }
-      },
-      {
-        "id": "vocab_39",
-        "front": "① 안전보건교육 실시",
-        "back": "implementation of safety and health prevention",
-        "raw": {
-          "korean": "① \u0007안전보건교육 실시",
-          "indonesia": "implementation of safety and health prevention"
-        }
-      },
-      {
-        "id": "vocab_40",
-        "front": "② 점검 수리 중 전원 차단",
-        "back": "power cut-off during",
-        "raw": {
-          "korean": "② \u0007점검 수리 중 전원 차단",
-          "indonesia": "power cut-off during"
-        }
-      },
-      {
-        "id": "vocab_41",
-        "front": "③ 스위치 잠금장치 설치",
-        "back": "installation of switch locking",
-        "raw": {
-          "korean": "③ \u0007스위치 잠금장치 설치",
-          "indonesia": "installation of switch locking"
-        }
-      },
-      {
-        "id": "vocab_42",
         "front": "작업 수칙 준수",
-        "back": "adherence to work regulations such as the installation",
-        "raw": {
-          "korean": "작업 수칙 준수",
-          "indonesia": "adherence to work regulations such as the installation"
-        }
+        "back": "adherence to work regulations such as the installation of safety sign",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
       }
     ],
     "grammar": [
       {
         "id": "grammar_1",
-        "front": "1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
-        "back": "Complete the sentences with the correct options as shown in the example.",
-        "raw": {
-          "pattern": "1. \u0007알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
-          "explanation": "Complete the sentences with the correct options as shown in the example."
-        }
+        "front": "-도록 하다",
+        "back": "‘-도록 하다’는 동사에 붙어 다른 사람에게 어떤 일을 하게 함을 나타\n낸다.\n‘-도록 하다’ is attached to verbs to indicate making another person do\nsomething.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
       },
       {
         "id": "grammar_2",
-        "front": "2. 그림을 보고 [보기]와 같이 문장을 완성하세요.",
-        "back": "Look at the picture and complete the sentences as shown in the example.",
-        "raw": {
-          "pattern": "2. \u0007그림을 보고 [보기]와 같이 문장을 완성하세요.",
-          "explanation": "Look at the picture and complete the sentences as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_3",
-        "front": "구조 작업을 할 때 공기호흡기를 .",
-        "back": "문법 GRAMMAR",
-        "raw": {
-          "pattern": "구조 작업을 할 때 공기호흡기를                                                           .",
-          "explanation": "문법  GRAMMAR"
-        }
-      },
-      {
-        "id": "grammar_4",
-        "front": "낸다.",
-        "back": "‘-도록 하다’ is attached to verbs to indicate making another person do",
-        "raw": {
-          "pattern": "낸다.",
-          "explanation": "‘-도록 하다’ is attached to verbs to indicate making another person do"
-        }
-      },
-      {
-        "id": "grammar_5",
-        "front": "※ 부정적인 내용을 서술할 때에는 ‘-지 않도록 하다’를 사용한다.",
-        "back": "To state negative contents, it takes the form ‘-지 않도록 하다’.",
-        "raw": {
-          "pattern": "※ 부정적인 내용을 서술할 때에는 ‘-지 않도록 하다’를 사용한다.",
-          "explanation": "To state negative contents, it takes the form ‘-지 않도록 하다’."
-        }
-      },
-      {
-        "id": "grammar_6",
-        "front": "없어진다.",
-        "back": "If the person being directed",
-        "raw": {
-          "pattern": "없어진다.",
-          "explanation": "If the person being directed"
-        }
-      },
-      {
-        "id": "grammar_7",
-        "front": "54 산업 안전 및 보건 수칙",
-        "back": "INDUSTRIAL SAFETY AND HEALTH REGULATIONS 251",
-        "raw": {
-          "pattern": "54  산업 안전 및 보건 수칙",
-          "explanation": "INDUSTRIAL SAFETY AND HEALTH REGULATIONS   251"
-        }
-      },
-      {
-        "id": "grammar_8",
-        "front": "‘-기 위해’는 동사에 붙어 앞의 내용이 뒤의 내용의 목적임을 나타낸다.",
-        "back": "‘-기 위해’ is attached to verbs to indicate that the preceding content is the purpose of the following content.",
-        "raw": {
-          "pattern": "‘-기 위해’는 동사에 붙어 앞의 내용이 뒤의 내용의 목적임을 나타낸다.",
-          "explanation": "‘-기 위해’ is attached to verbs to indicate that the preceding content is the purpose of the following content."
-        }
-      },
-      {
-        "id": "grammar_9",
-        "front": "※ 명사와 함께 사용할 때는 ‘명사+을/를 위해’의 구성으로 사용한다.",
-        "back": "When used with nouns it takes the form ‘noun+을/를 위해’.",
-        "raw": {
-          "pattern": "※ 명사와 함께 사용할 때는 ‘명사+을/를 위해’의 구성으로 사용한다.",
-          "explanation": "When used with nouns it takes the form ‘noun+을/를 위해’."
-        }
-      },
-      {
-        "id": "grammar_10",
-        "front": "1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
-        "back": "Complete the sentences with the correct options as shown in the example.",
-        "raw": {
-          "pattern": "1. \u0007알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
-          "explanation": "Complete the sentences with the correct options as shown in the example."
-        }
-      },
-      {
-        "id": "grammar_11",
-        "front": "2. 관계있는 것끼리 연결하고 [보기]와 같이 대화를 완성하세요.",
-        "back": "Connect the related items and complete the conversations as shown in the example.",
-        "raw": {
-          "pattern": "2. \u0007관계있는 것끼리 연결하고 [보기]와 같이 대화를 완성하세요.",
-          "explanation": "Connect the related items and complete the conversations as shown in the example."
-        }
+        "front": "-기 위해",
+        "back": "‘-기 위해’는 동사에 붙어 앞의 내용이 뒤의 내용의 목적임을 나타낸다.\n‘-기 위해’ is attached to verbs to indicate that the preceding content is the purpose of the following content.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
       }
     ],
     "conversation": [
       {
         "id": "conversation_1",
-        "front": "작업을 하기 전에 먼저 개인 보호구를 착용하도록 하세요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "작업을 하기 전에 먼저 개인 보호구를 착용하도록 하세요."
-        }
+        "front": "제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•개인 보호구를 착용하다, 출입 금지 장소에 들어가지 않다\n•산소 농도를 확인하다, 산소가 부족하면 밖으로 대피하다\n가 : 작업을 하기 전에 먼저 개인 보호구를 착용하도록\n하세요.\n나 : 네, 알겠습니다.\n가 : 그리고 출입 금지 장소에 들어가지 않도록 하세요.\n나 : 네, 주의하겠습니다.\n발음 │ PRONUNCIATION\n합성어 및 파생어에서, 앞 낱말이나 접두사의 끝이 비음(ㄴ, ㅁ, ㅇ)이고 뒤 낱말이나 접미사의 첫음절이 ‘이, 야, 여, 요,\n유’인 경우에는, ‘ㄴ’ 소리를 첨가하여 [니, 냐, 녀, 뇨, 뉴]로 발음한다.",
+        "back": "In compound and derived words, when the final consonant of the first word or prefix is a nasal sound",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_2",
-        "front": "네, 알겠습니다.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "네, 알겠습니다."
-        }
+        "front": "(ㄴ, ㅁ, ㅇ) and the first syllable of the next word or suffix begins with ‘이, 야, 여, 요, 유’, ‘ㄴ’ is inserted\nand pronounced as [니, 냐, 녀, 뇨, 뉴].\n⑴ 맨-입[맨닙]\n한-여름[한녀름]\n눈-요기[눈뇨기]\n⑵ 솜-이불[솜니불]\n식용-유[시굥뉴]",
+        "back": "",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_3",
-        "front": "그리고 출입 금지 장소에 들어가지 않도록 하세요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "그리고 출입 금지 장소에 들어가지 않도록 하세요."
-        }
+        "front": "마두 씨, 오늘은 화학물질을 혼합하는 작업을 할 거예요. 개인 보호구는 다 착용했지요?",
+        "back": "Madhu, today you’ll be mixing chemicals. Have you put on all your protective gear?",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_4",
-        "front": "네, 주의하겠습니다. 발음 │ PRONUNCIATION 합성어 및 파생어에서, 앞 낱말이나 접두사의 끝이 비음(ㄴ, ㅁ, ㅇ)이고 뒤 낱말이나 접미사의 첫음절이 ‘이, 야, 여, 요, 유’인 경우에는, ‘ㄴ’ 소리를 첨가하여 [니, 냐, 녀, 뇨, 뉴]로 발음한다. In compound and derived words, when the final consonant of the first word or prefix is a nasal sound (ㄴ, ㅁ, ㅇ) and the first syllable of the next word or suffix begins with ‘이, 야, 여, 요, 유’, ‘ㄴ’ is inserted and pronounced as [니, 냐, 녀, 뇨, 뉴]. ⑴ 맨-입[맨닙] 한-여름[한녀름] 눈-요기[눈뇨기] ⑵ 솜-이불[솜니불] 식용-유[시굥뉴] 294 반장님 마두 씨, 오늘은 화학물질을 혼합하는 작업을 할 거예요. 개인 보호구는 다 착용했지요? Madhu, today you’ll be mixing chemicals. Have you put on all your protective gear? 마 두 네, 모두 착용했습니다. Yes, I’ve put it all on. 반장님 잘했어요. 작업을 시작하기 전에 먼저 환기 장치를 켜도록 하세요. Good. Before you start, turn on the ventilator first. 마 두 네, 알겠습니다. Yes, got it. 반장님 여기는 화학물질이 많으니까 절대 담배를 피우면 안 돼요. 음식도 먹으면 안 되고요. There are a lot of chemicals here, so never smoke. Also don't eat anything. 마 두 네, 주의하도록 하겠습니다. Yes, I’ll be careful. 대답해 봐요! ANSWER ME! 1 마두 씨는 오늘 무슨 작업을 해요? What kind of work is Madhu doing today? 2 작업장에서 가장 먼저 해야 할 일은 뭐예요? What is the first thing they must do in the workplace? 293",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "네, 주의하겠습니다. 발음 │ PRONUNCIATION 합성어 및 파생어에서, 앞 낱말이나 접두사의 끝이 비음(ㄴ, ㅁ, ㅇ)이고 뒤 낱말이나 접미사의 첫음절이 ‘이, 야, 여, 요, 유’인 경우에는, ‘ㄴ’ 소리를 첨가하여 [니, 냐, 녀, 뇨, 뉴]로 발음한다. In compound and derived words, when the final consonant of the first word or prefix is a nasal sound (ㄴ, ㅁ, ㅇ) and the first syllable of the next word or suffix begins with ‘이, 야, 여, 요, 유’, ‘ㄴ’ is inserted and pronounced as [니, 냐, 녀, 뇨, 뉴]. ⑴ 맨-입[맨닙] 한-여름[한녀름] 눈-요기[눈뇨기] ⑵ 솜-이불[솜니불] 식용-유[시굥뉴] 294 반장님 마두 씨, 오늘은 화학물질을 혼합하는 작업을 할 거예요. 개인 보호구는 다 착용했지요? Madhu, today you’ll be mixing chemicals. Have you put on all your protective gear? 마 두 \u0007네, 모두 착용했습니다. Yes, I’ve put it all on. 반장님 \u0007잘했어요. 작업을 시작하기 전에 먼저 환기 장치를 켜도록 하세요. Good. Before you start, turn on the ventilator first. 마 두 \u0007네, 알겠습니다. Yes, got it. 반장님 \u0007여기는 화학물질이 많으니까 절대 담배를 피우면 안 돼요. 음식도 먹으면 안 되고요. \u0007There are a lot of chemicals here, so never smoke. Also don't eat anything. 마 두 \u0007네, 주의하도록 하겠습니다. Yes, I’ll be careful. 대답해 봐요!  ANSWER ME! 1  \u0007마두 씨는 오늘 무슨 작업을 해요? What kind of work is Madhu doing today? 2  \u0007작업장에서 가장 먼저 해야 할 일은 뭐예요? What is the first thing they must do in the workplace? 293"
-        }
+        "front": "네, 모두 착용했습니다.",
+        "back": "Yes, I’ve put it all on.",
+        "speaker": "두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_5",
-        "front": "개구부에 방호덮개를 설치했어요?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "개구부에 방호덮개를 설치했어요?"
-        }
+        "front": "잘했어요. 작업을 시작하기 전에 먼저 환기 장치를\n켜도록 하세요.",
+        "back": "Good. Before you start, turn on the ventilator first.",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_6",
-        "front": "네, 했어요. 그런데 이건 왜 설치해요?",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "네, 했어요. 그런데 이건 왜 설치해요?"
-        }
+        "front": "네, 알겠습니다.",
+        "back": "Yes, got it.",
+        "speaker": "두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_7",
-        "front": "추락 사고를 예방하기 위해서 설치하는 거예요.",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "추락 사고를 예방하기 위해서 설치하는 거예요."
-        }
+        "front": "여기는 화학물질이 많으니까 절대 담배를 피우면\n안 돼요. 음식도 먹으면 안 되고요.",
+        "back": "There are a lot of chemicals here, so never smoke. Also don't eat anything.",
+        "speaker": "반장님",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       },
       {
         "id": "conversation_8",
-        "front": "아, 우리의 안전을 위한 거네요.",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "아, 우리의 안전을 위한 거네요."
-        }
-      },
-      {
-        "id": "conversation_9",
-        "front": "포장 작업이 급한데 누가 좋을까요? The packing work is urgent. Who would be good for it?",
-        "back": "가",
-        "raw": {
-          "speaker": "가",
-          "text": "\u0007포장 작업이 급한데 누가 좋을까요? The packing work is urgent. Who would be good for it?"
-        }
-      },
-      {
-        "id": "conversation_10",
-        "front": "민수 씨가 손이 빨라요. Minsu is a fast worker. 유용한 표현 │ USEFUL EXPRESSION 손이 빨라요. (Someone) is a fast worker. 296 295",
-        "back": "나",
-        "raw": {
-          "speaker": "나",
-          "text": "\u0007민수 씨가 손이 빨라요. Minsu is a fast worker. 유용한 표현 │ USEFUL EXPRESSION 손이 빨라요. (Someone) is a fast worker. 296 295"
-        }
+        "front": "네, 주의하도록 하겠습니다.",
+        "back": "Yes, I’ll be careful.",
+        "speaker": "두",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
       }
     ],
-    "culture": [],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "54 산업 안전 및 보건 수칙",
+        "back": "I can ask and answer questions about safety and health preservation regulations.",
+        "body": "• 안전 및 보건과 관련된 수칙에 대해 묻고 대답할 수 있다.\nI can ask and answer questions about safety and health preservation regulations.\n• 산업 재해를 예방하기 위해 지켜야 할 행동을 말할 수 있다.\nI can say what actions must be taken to prevent industrial accidents.\n• 작업장의 안전을 위한 준수 사항에 대해 말할 수 있다.\nI can talk about safety compliance in the workplace.\n54 산업 안전 및 보건 수칙\nINDUSTRIAL SAFETY AND HEALTH REGULATIONS 253\n대피로 표지\nEvacuation Route Signs\n시계 반대 방향으로\n돌리면 열림\nturn counterclockwise to open\n왼쪽을 밀면 열리는 문\ndoor that opens by pushing\non the left side",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook2/unit_54/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
     "reading": [
       {
-        "id": "u54_m1",
+        "id": "u54_r1",
         "nomor": 1,
         "tipe": "membaca",
-        "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
-        "teks_soal": "음식물을 먹지 마십시오.",
-        "jawaban": "a",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n음식물을 먹지 마십시오.",
+        "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_54/choice_images/reading/u54_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_54/choice_images/reading/u54_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_54/choice_images/reading/u54_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook2/unit_54/choice_images/reading/u54_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook2/unit_54/choice_images/reading/u54_r1_a.jpg",
+          "b": "assets/modules/textbook2/unit_54/choice_images/reading/u54_r1_b.jpg",
+          "c": "assets/modules/textbook2/unit_54/choice_images/reading/u54_r1_c.jpg",
+          "d": "assets/modules/textbook2/unit_54/choice_images/reading/u54_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_54/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u54_m2",
+        "id": "u54_r2",
         "nomor": 2,
         "tipe": "membaca",
-        "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
-        "teks_soal": "",
-        "jawaban": "b",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "a",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -683,15 +617,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_54/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u54_m3",
+        "id": "u54_r3",
         "nomor": 3,
         "tipe": "membaca",
-        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
-        "teks_soal": "이 작업장은 소음이 심합니다. 를 반드시 착용하도록 하십시오.",
-        "jawaban": "c",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n이 작업장은 소음이 심합니다. 를 반드시 착용하도록 하십시오.",
+        "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -720,15 +658,19 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_54/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u54_m4",
+        "id": "u54_r4",
         "nomor": 4,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "안전 수칙 •관계자 외 출입 금지 •작업 중 반드시 환기",
-        "jawaban": "d",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n•안전모 착용\n•흡연 금지\n•관계자 외 출입 금지\n•작업 중 반드시 환기\n안전 수칙",
+        "jawaban": "b",
         "audio_teks": "",
         "audio_url": "",
         "pilihan": [
@@ -757,14 +699,18 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_54/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
-        "id": "u54_m5",
+        "id": "u54_r5",
         "nomor": 5,
         "tipe": "membaca",
-        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
-        "teks_soal": "비상구는 갑작스러운 사고가 생겼을 때 빨리 밖으로 나갈 수 있도록 만들어 놓은 출입구입니다. 비상구를 나타내는 표지판은 녹색입니다. 만약 건물에 화재가 발생하면 엘리베이터를 타지 말고 비상구를 통해 밖으로 나가야 합니다. 평소에 비상구가 어디에 있는지 알아 두면 긴급 상황에서 시간을 절약할 수 있습니다. 254 한국어 표준교재 2",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n비상구는 갑작스러운 사고가 생겼을 때 빨리 밖으로 나갈 수 있도록 만들어 놓은 출입구입니다.\n비상구를 나타내는 표지판은 녹색입니다. 만약 건물에 화재가 발생하면 엘리베이터를 타지 말고\n비상구를 통해 밖으로 나가야 합니다. 평소에 비상구가 어디에 있는지 알아 두면 긴급 상황에서 시간을\n절약할 수 있습니다.",
         "jawaban": "d",
         "audio_teks": "",
         "audio_url": "",
@@ -794,7 +740,11 @@
             "image": ""
           }
         ],
-        "gambar_pilihan": {}
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook2/unit_54/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ],
     "listening": [
@@ -803,68 +753,220 @@
         "nomor": 1,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 안전모를 착용할까요?",
+        "teks_soal": "",
         "jawaban": "a",
-        "audio_teks": "1. 여 : 안전모를 착용할까요?\n2. 남 : 어디에 표지판을 설치할까요?\n3. 남 : 산소가 얼마나 있는지 자주 확인하도록 하세요.\n여 : 알겠습니다. 산소가 부족하면 작업을 중단하도록 하겠습니다.\n4. 남 : 높은 곳에서 작업할 때는 떨어지는 사고가 날 수 있어요.\n5. 여 : 오늘은 화학물질을 혼합하는 작업을 할 거예요. 작업복으로 갈아입으셨지요?\n남 : 네, 그런데 작업장에서 커피를 마셔도 돼요?\n여 : 아니요, 음식물은 안 돼요. 그리고 작업 시작하기 전에 환기 장치부터 켜도록 하세요.\n남 : 알겠습니다.\n54 산업 안전 및 보건 수칙 INDUSTRIAL SAFETY AND HEALTH REGULATIONS 255",
+        "audio_teks": "여 : 안전모를 착용할까요?",
         "audio_url": "assets/modules/textbook2/audio/unit_54/listening_1.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "네, 안전모를 쓰세요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "네, 안전모를 벗으세요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "아니요, 안전모를 써야 해요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "아니요, 안전모를 벗지 마세요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_54/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u54_l2",
         "nomor": 2,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 어디에 표지판을 설치할까요?",
+        "teks_soal": "",
         "jawaban": "b",
-        "audio_teks": "1. 여 : 안전모를 착용할까요?\n2. 남 : 어디에 표지판을 설치할까요?\n3. 남 : 산소가 얼마나 있는지 자주 확인하도록 하세요.\n여 : 알겠습니다. 산소가 부족하면 작업을 중단하도록 하겠습니다.\n4. 남 : 높은 곳에서 작업할 때는 떨어지는 사고가 날 수 있어요.\n5. 여 : 오늘은 화학물질을 혼합하는 작업을 할 거예요. 작업복으로 갈아입으셨지요?\n남 : 네, 그런데 작업장에서 커피를 마셔도 돼요?\n여 : 아니요, 음식물은 안 돼요. 그리고 작업 시작하기 전에 환기 장치부터 켜도록 하세요.\n남 : 알겠습니다.\n54 산업 안전 및 보건 수칙 INDUSTRIAL SAFETY AND HEALTH REGULATIONS 255",
+        "audio_teks": "남 : 어디에 표지판을 설치할까요?",
         "audio_url": "assets/modules/textbook2/audio/unit_54/listening_2.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "마두 씨가 직접 설치하세요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "잘 보이는 곳에 설치하세요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "수리가 끝날 때까지 설치하세요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "작업을 시작하기 전에 설치하세요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_54/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u54_l3",
         "nomor": 3,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 산소가 얼마나 있는지 자주 확인하도록 하세요. 여 : 알겠습니다. 산소가 부족하면 작업을 중단하도록 하겠습니다.",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
         "jawaban": "c",
-        "audio_teks": "1. 여 : 안전모를 착용할까요?\n2. 남 : 어디에 표지판을 설치할까요?\n3. 남 : 산소가 얼마나 있는지 자주 확인하도록 하세요.\n여 : 알겠습니다. 산소가 부족하면 작업을 중단하도록 하겠습니다.\n4. 남 : 높은 곳에서 작업할 때는 떨어지는 사고가 날 수 있어요.\n5. 여 : 오늘은 화학물질을 혼합하는 작업을 할 거예요. 작업복으로 갈아입으셨지요?\n남 : 네, 그런데 작업장에서 커피를 마셔도 돼요?\n여 : 아니요, 음식물은 안 돼요. 그리고 작업 시작하기 전에 환기 장치부터 켜도록 하세요.\n남 : 알겠습니다.\n54 산업 안전 및 보건 수칙 INDUSTRIAL SAFETY AND HEALTH REGULATIONS 255",
+        "audio_teks": "남 : 산소가 얼마나 있는지 자주 확인하도록 하세요.\n여 : 알겠습니다. 산소가 부족하면 작업을 중단하도록 하겠습\n니다.",
         "audio_url": "assets/modules/textbook2/audio/unit_54/listening_3.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "시설 관리",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "업무 평가",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "안전 수칙",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "작업 시간",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_54/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u54_l4",
         "nomor": 4,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "남 : 높은 곳에서 작업할 때는 떨어지는 사고가 날 수 있어요.",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
         "jawaban": "d",
-        "audio_teks": "1. 여 : 안전모를 착용할까요?\n2. 남 : 어디에 표지판을 설치할까요?\n3. 남 : 산소가 얼마나 있는지 자주 확인하도록 하세요.\n여 : 알겠습니다. 산소가 부족하면 작업을 중단하도록 하겠습니다.\n4. 남 : 높은 곳에서 작업할 때는 떨어지는 사고가 날 수 있어요.\n5. 여 : 오늘은 화학물질을 혼합하는 작업을 할 거예요. 작업복으로 갈아입으셨지요?\n남 : 네, 그런데 작업장에서 커피를 마셔도 돼요?\n여 : 아니요, 음식물은 안 돼요. 그리고 작업 시작하기 전에 환기 장치부터 켜도록 하세요.\n남 : 알겠습니다.\n54 산업 안전 및 보건 수칙 INDUSTRIAL SAFETY AND HEALTH REGULATIONS 255",
+        "audio_teks": "남 : 높은 곳에서 작업할 때는 떨어지는 사고가 날 수 있어요.",
         "audio_url": "assets/modules/textbook2/audio/unit_54/listening_4.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "그럼 빨리 치워야겠네요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "그럼 나중에 다시 올게요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "그럼 잠깐 쉬었다가 할게요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "그럼 보호구를 착용해야겠네요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_54/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       },
       {
         "id": "u54_l5",
         "nomor": 5,
         "tipe": "mendengarkan",
         "instruksi": "듣고 알맞은 답을 고르십시오.",
-        "teks_soal": "여 : 오늘은 화학물질을 혼합하는 작업을 할 거예요. 작업복으로 갈아입으셨지요? 남 : 네, 그런데 작업장에서 커피를 마셔도 돼요? 여 : 아니요, 음식물은 안 돼요. 그리고 작업 시작하기 전에 환기 장치부터 켜도록 하세요. 남 : 알겠습니다. 54 산업 안전 및 보건 수칙 INDUSTRIAL SAFETY AND HEALTH REGULATIONS 255",
+        "teks_soal": "남자가 이어서 할 행동은 무엇입니까?",
         "jawaban": "b",
-        "audio_teks": "1. 여 : 안전모를 착용할까요?\n2. 남 : 어디에 표지판을 설치할까요?\n3. 남 : 산소가 얼마나 있는지 자주 확인하도록 하세요.\n여 : 알겠습니다. 산소가 부족하면 작업을 중단하도록 하겠습니다.\n4. 남 : 높은 곳에서 작업할 때는 떨어지는 사고가 날 수 있어요.\n5. 여 : 오늘은 화학물질을 혼합하는 작업을 할 거예요. 작업복으로 갈아입으셨지요?\n남 : 네, 그런데 작업장에서 커피를 마셔도 돼요?\n여 : 아니요, 음식물은 안 돼요. 그리고 작업 시작하기 전에 환기 장치부터 켜도록 하세요.\n남 : 알겠습니다.\n54 산업 안전 및 보건 수칙 INDUSTRIAL SAFETY AND HEALTH REGULATIONS 255",
+        "audio_teks": "여 : 오늘은 화학물질을 혼합하는 작업을 할 거예요. 작업복으\n로 갈아입으셨지요?\n남 : 네, 그런데 작업장에서 커피를 마셔도 돼요?\n여 : 아니요, 음식물은 안 돼요. 그리고 작업 시작하기 전에 환\n기 장치부터 켜도록 하세요.\n남 : 알겠습니다.",
         "audio_url": "assets/modules/textbook2/audio/unit_54/listening_5.mp3",
-        "pilihan": [],
-        "gambar_pilihan": {}
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "커피를 마십니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "환기 장치를 켭니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "혼합 작업을 시작합니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "작업복으로 갈아입습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook2/unit_54/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix",
+        "answer_source": "official_appendix"
       }
     ]
   },
   "integrity": {
     "pdf_pages": 10,
-    "vocab_cards": 42,
+    "lesson_flow": 10,
+    "vocab_cards": 19,
+    "grammar_cards": 2,
+    "conversation_cards": 8,
+    "culture_cards": 1,
     "reading_questions": 5,
     "listening_questions": 5,
-    "listening_audio": 5
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_audio": 5,
+    "listening_scripts": 5
   }
 }

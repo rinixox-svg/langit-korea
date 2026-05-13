@@ -4,7 +4,7 @@
   "unit": 21,
   "title_ko": "병원",
   "title_en": "HOSPITAL",
-  "title_id": "",
+  "title_id": "Rumah sakit",
   "source_pdf": "assets/modules/textbook1/unit_21/source.pdf",
   "page_start": 251,
   "page_end": 260,
@@ -61,6 +61,165 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 251,
+        "image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "21 병원 \n HOSPITAL 251\n어휘 VOCABULARY\n접수 및 진료 관련 어휘 Hospital Registration and Consultations\n접수를 하다\nto register\n기다리다\nto wait\n체온을 재다\nto take one's \ntemperature\n진료를 하다/받다\nto provide/receive \na medical consultation\n치료를 하다/받다\nto provide/receive treatment\n엑스레이를 찍다\nto take an x-ray\n주사를 놓다/맞다\nto give/get an injection\n수술을 하다/받다\nto perform/undergo surgery\n처방을 하다/받다\nto prescribe/\nreceive a prescription\n약\nmedicine\n신분증\nidentification card\n처방전\nprescription\n저희 we/our (humble form of 우리)\n처음 first time\n전화번호 phone number\n보호자 guardian\n진료실 consultation room\n부르다 to call\n 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example.\n[보기]\n가 : 왕민 씨는 뭘 하고 있어요?\n나 : 진료를 받고 있어요.\n⑴\n가 : 칼로 씨는 뭘 하고 있어요?\n나 : .\n⑵\n가 : 딜로바 씨는 뭘 하고 있어요?\n나 : .\n⑶\n가 : 아지자 씨는 뭘 하고 있어요?\n나 : .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 252,
+        "image": "assets/modules/textbook1/unit_21/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "252 한국어 표준교재 1\n문법 GRAMMAR\n-(으)면\n‘-(으)면’은 동사, 형용사에 붙어 앞의 내용이 뒤의 내용에 대한 조건이나 가정임을 나타낸다. \n‘-(으)면’ is attached to verbs or adjectives to show that the preceding content is a condition or assumption for the \nfollowing content.\n받침 ○\n-으면\n \n먹다 → 먹으면 \n받침 ×, 받침 ‘ㄹ’\n-면\n \n아프다 → 아프면\n \n살다 → 살면\n예 시간이 있으면 공원에서 축구해요. \n \n아지자 씨 전화번호를 알면 가르쳐 주세요.\n \n가 : 한국에 가면 뭘 하고 싶어요?\n \n나 : 한국 회사에서 일하고 싶어요.\n1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요. \nComplete the sentences with the correct options as shown in the example.\n받다 불다 도착하다 피곤하다\n[보기]\n피곤하면 좀 쉬세요.\n⑴\n월급을 제가 저녁을 살게요.\n⑵\n사무실에 전화해 주세요.\n⑶\n바람이 많이 문을 닫으세요.\n2. 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example.\n가 : 처음 병원에 가면 뭘 해야 돼요?\n나 : 접수부터 하세요. \n[ 보기 ]\n⑴\n가 : 진료실에 들어가세요.\n나 : 네, 알겠습니다.\n⑵\n가 : 뭘 하고 싶어요?\n나 : 제주도에 가고 싶어요.\n⑶\n가 : 내일 산에 갈 거예요?\n나 : 안 갈 거예요.\n딜로바 씨, 진료실로 \n들어가세요.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 253,
+        "image": "assets/modules/textbook1/unit_21/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "21 병원 \n HOSPITAL 253\n간호사 \n안녕하세요? 저희 병원에 처음 오셨어요?\n \nHello. Is this your first time at our hospital?\n아지자 \n네, 처음이에요. \n \nYes, it’s my first time.\n간호사 \n그럼 여기에 이름과 전화번호를 써 주세요. \n그리고 신분증을 보여 주세요. \n \nThen please write your name and phone number \nhere. Also, please show me your identification \ncard?\n아지자 \n신분증 여기 있어요.\n \nHere’s my identification card.\n간호사 \n잠시만 기다리세요. \n그리고 이름을 부르면 진료실로 들어가세요.\n \nPlease wait a moment. Please go into the consultation room when your name is called.\n아지자 \n네, 감사합니다.\n \nAlright, thank you.\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•신분증이 없다, \n접수를 못 하다, 신분증 \n•보호자가 없다, \n수술을 못 받다, 보호자 \n가 : 신분증이 없으면 접수를 못 해요?\n나 : 네, 신분증이 필요해요. \n발음 │ PRONUNCIATION\nㄷ, ㅌ, \nㅅ, ㅆ, \nㅈ, ㅊ \n‘ㄷ, ㅌ, ㅅ, ㅆ, ㅈ, ㅊ’는 초성에서는 서로 다르게 발음되는데 종성에서는 모두 파열되\n지 않은 [ㄷ]으로 발음된다. \nThe consonants ‘ㄷ, ㅌ, ㅅ, ㅆ, ㅈ, ㅊ’ are pronounced differently in the initial \nposition but are all pronounced as unreleased [ㄷ] in the final position.\n⑴ 다 : 타 : 사 : 싸 : 자 : 차 \n⑵ 닫다, 밭, 옷, 있다, 낮, 꽃\n대화 CONVERSATION\n대답해 봐요! ANSWER ME!\n1 아지자 씨는 지금 어디에 있어요? Where is Aziza right now?\n2 병원에 처음 가면 무엇이 필요해요?\nWhat do you need when you go to the hospital for the first time?\n128\n129",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 254,
+        "image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab",
+          "conversation"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "254 한국어 표준교재 1\n어휘 VOCABULARY\n신체 및 증상 관련 어휘 1 Body Parts and Symptoms I\n머리 head\n귀 ear\n눈 eye\n코 nose\n입 mouth\n얼굴 face\n이 tooth\n다리 leg\n발목 ankle\n어깨 shoulder\n팔 arm\n손 hand\n몸 body\n배 stomach\n무릎 knee\n발 foot\n가슴 chest\n허리 waist\n손목 wrist\n손가락 finger\n감기에 걸리다\nto catch a cold\n머리가 아프다\nto have a headache\n배가 아프다\nto have a stomachache\n다리를 다치다\nto injure one's leg\n눈병이 나다\nto get an eye infection\n환자 patient\n운전하다 to drive\n차다 to be cold\n 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example.\n[보기]\n가 : 어디가 아파요? \n나 : 머리가 아파요.\n⑴\n가 : 어디가 아파요?\n나 : .\n⑵\n가 : 어디를 다쳤어요?\n나 : .\n⑶\n가 : 어디를 다쳤어요?\n나 : .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 255,
+        "image": "assets/modules/textbook1/unit_21/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "21 병원 \n HOSPITAL 255\n문법 GRAMMAR\n-지 마세요\n‘-지 마세요’는 동사에 붙여 어떤 행동을 하지 말 것을 요청하거나 어떤 행동을 하지 못하도록 금지할 때 사용한다. \n‘-지 마세요’ is attached to verbs to request that someone not do something or to prohibit an action.\n예 여기에 앉지 마세요.\n \n신발을 신고 방에 들어가지 마세요. \n \n눈이 많이 올 때는 등산하지 마세요.\n1. 그림을 보고 [보기]와 같이 문장을 완성하세요. \nLook at the pictures and complete the sentences as shown in the example.\n목이 아프면 차가운 주스를 마시지 마세요 . (차가운 주스를 마시다)\n[ 보기 ]\n⑴\n많이 피곤하면 . (운동하다)\n⑵\n배가 아프면 . (매운 음식을 먹다)\n⑶\n눈이 아프면 . (텔레비전을 보다)\n2. 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example.\n가 : 손을 다쳤어요. \n나 : 그럼 오늘은 요리를 하지 마세요. \n[ 보기 ]\n⑴\n가 : 주사를 맞았어요. \n나 : 그럼 오늘은 .\n⑵\n가 : 술을 마셨어요.\n나 : 그럼 .\n⑶\n가 : 다리가 많이 아파요.\n나 : 그럼 . \n⑷\n가 : 어제 잠을 못 잤어요.\n나 : 그럼 오늘은 .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 256,
+        "image": "assets/modules/textbook1/unit_21/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "256 한국어 표준교재 1\n의 사 \n어디가 아프세요?\n \nWhere does it hurt?\n자 야 \n목이 너무 아프고 머리도 아파요.\n \nMy throat hurts a lot and I have a headache, too.\n의 사 \n요즘 감기 환자가 많아요. 언제부터 아프셨\n어요? \n \nThese days there are many patients with colds. \nHow long have you been feeling this way?\n자 야 \n어제부터 아팠어요.\n \nSince yesterday.\n의 사 \n처방전을 드릴게요. 약을 드시고 따뜻한 물을 \n많이 드세요. 그리고 말을 많이 하지 마세요. \n \nI’ll give you a prescription. Take the medicine and \ndrink plenty of warm water. Also, try not to talk \ntoo much.\n자 야 \n네, 알겠습니다. \n \nYes, I understand.\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•배가 아프다, \n찬 음식을 먹다\n•다리를 다쳤다, \n많이 걷다\n가 : 배가 아파요. \n나 : 배가 아프면 찬 음식을 먹지 마세요.\n가 : 네, 그럴게요.\n가 : 머리가 너무 아파요. My head hurts a lot.\n나 : 약 먹고 푹 쉬세요. Take your medicine and get plenty of rest.\n유용한 표현 │ USEFUL EXPRESSION\n푹 쉬세요.\nGet plenty of rest.\n대화 CONVERSATION\n대답해 봐요! ANSWER ME!\n1 자야 씨는 어디가 아파요? What's wrong with Jaya?\n2 자야 씨는 무엇을 하면 안 돼요? What should Jaya avoid doing?\n130\n131",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 257,
+        "image": "assets/modules/textbook1/unit_21/pages/page_07.jpg",
+        "kind": "culture",
+        "sections": [
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "문화와 정보 CULTURE & INFORMATION\n확인해요 │ self assessment\n• 병원 접수 시 필요한 표현을 사용할 수 있다. I can use the expressions needed for hospital registration. \n↻\n• 증상에 대해 묻고 대답할 수 있다. I can ask and answer questions about symptoms. \n↻\n• 금지 표현을 사용할 수 있다. I can use expressions for prohibiting something. \n↻\n21 병원 \n HOSPITAL 257\n한국의 의료 체계\nThe Korean Medical System\n한국의 병원은 1차, 2차, 3차 의료기관으로 나뉩니다. 1차 의\n료기관은 주로 외래 환자를 진료하는 작은 규모의 동네 의원이\n나 보건소를 말하고, 2차 의료기관은 병상 수가 30개 이상인 \n조금 큰 병원을 말합니다. 1, 2차 의료기관에서 진료를 받았는\n데도 증상이 낫지 않거나 정밀검사, 복잡한 수술 등이 필요하면 \n3차 의료기관을 방문하게 됩니다. 3차 의료기관인 상급종합병\n원은 정부의 평가를 통과한 대형 병원으로 1, 2차 의료기관에서 \n발행한 진료 의뢰서가 있어야 진료를 받을 수 있습니다. 의료비\n는 상급 기관으로 갈수록 비싸지며 2, 3차 의료기관의 경우 예\n약을 해야 진료를 받을 수 있습니다.\nKorean hospitals are divided into three levels: primary, \nsecondary, and tertiary medical institutions. Primary medical \ninstitutions refer to small local clinics or public health centers \nthat primarily treat outpatients. Secondary medical \ninstitutions are slightly larger hospitals with 30 or more beds. \nIf symptoms do not improve after visiting a primary or \nsecondary medical institution, or if more detailed \nexaminations or complex surgeries are needed, patients visit \na tertiary medical institution. Tertiary medical institutions are \nlarge hospitals that have passed government evaluations \nwhere you need a referral from a primary or secondary \nmedical institution to receive treatment. Medical costs \nincrease as you move to higher level institutions, and you \nusually need to make a reservation to receive treatment at \nsecondary or tertiary medical institutions.\n몸이 아프면 먼저 의원에 갑니다. 전문 분야가 세분되어 있어 \n아픈 곳에 맞는 의원을 찾아가면 됩니다. 대부분의 의원에서도 \n전문의가 직접 진료합니다. 다음은 진료 분야입니다.\nIf you feel unwell, you should first visit a clinic. The medical \nspecialties are separated, so you should visit a clinic that \nmatches your symptoms. Most clinics are staffed by \nspecialists. Here are some examples of specialties:\n2024년 5월 20일부터는 의원이나 병원에서 진료를 받을 때 \n반드시 건강보험증이나 신분증(주민등록증, 운전면허증, 여권, \n외국인 등록증 등)을 가지고 가야 합니다. 그래야 건강보험 급\n여를 적용받을 수 있습니다. \nFrom May 20, 2024, you must bring your health insurance \ncard or identification card (resident registration card, driver's \nlicense, passport, or residence card, etc.) when visiting a clinic \nor hospital for treatment. This is necessary to receive health \ninsurance benefits.\n내과\ninternal medicine\n이비인후과\notorhinolaryngology \n(ENT)\n치과\ndentistry\n산부인과\nobstetrics and \ngynecology\n정형외과\northopedics\n피부과\ndermatology\n안과\nophthalmology\n성형외과\nplastic surgery\n소아청소년과\npediatrics\n한의원\nKorean traditional \nmedicine clinics",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 258,
+        "image": "assets/modules/textbook1/unit_21/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n258 한국어 표준교재 1\n1. \n다음 단어와 관계있는 것은 무엇입니까? \n신체\n① 딸기 \n② 가슴 \n③ 지폐 \n④ 시장\n2. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.\n① 기숙사에 살으면 편해요. \n② 많이 아프면 병원에 가세요. \n③ 방이 덥으면 창문을 여세요. \n④ 시간이 있면 영화를 볼 거예요. \n[3~4] 빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오. \n3.\n어제 다리를 다쳤습니다. 걸으면 다리가 너무 아픕니다. 그래서 병원에 가서 치료를 . \n① 보내려고 합니다 \n② 시키려고 합니다\n③ 받으려고 합니다 \n④ 만들려고 합니다\n4.\n한국에서 처음 병원에 가면 신분증을 . 신분증이 없으면 접수를 할 수 없습니다. \n① 알아봐야 합니다 \n② 기다려야 합니다 \n③ 신청해야 합니다 \n④ 보여 줘야 합니다\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국의 병원은 1차, 2차, 3차 의료기관으로 나뉩니다. 1차 병원은 주로 외래 환자를 진료하는 동네 \n의원이나 보건소를 말합니다. 1차 병원은 예약하지 않고 가도 됩니다. 하지만 병상이 30개 이상이 있는 \n2차 병원부터는 예약을 한 후에 진료를 받을 수 있습니다. 그리고 의료비도 1차 병원보다 비쌉니다. \n① 동네 의원은 3차 의료기관입니다. \n② 2차 의료기관의 병상 수는 30개보다 적습니다.\n③ 한국에서는 보건소에 갈 때 예약을 해야 합니다.\n④ 3차 의료기관의 의료비는 의원보다 더 비쌉니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 259,
+        "image": "assets/modules/textbook1/unit_21/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n21 병원 \n HOSPITAL 259\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n2. 여자는 왜 전화를 했습니까?\n① 진료 예약을 하려고 \n② 예약 시간을 바꾸려고 \n③ 병원 위치를 물어보려고 \n④ 의사 선생님과 통화하려고\n[3~4] 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n3.\n① 네, 환자가 아파요. \n② 네, 환자가 적어요. \n③ 아니요, 환자가 체온을 재요. \n④ 아니요, 환자가 많지 않아요.\n4.\n① 다리를 다쳤어요. \n② 퇴근 후에 갈게요.\n③ 병원은 회사 앞에 있어요. \n④ 진료실 앞에서 기다리세요.\n5. \n두 사람은 무엇에 대해 말하고 있습니까? \n① 위치 \n② 색깔 \n③ 교통 \n④ 증상\n1. \n여 : 민민아웅 씨, 옷을 어깨 위로 올려 주세요.\n \n남 : 네, 그런데 주사가 많이 아파요?\n2. 남 : 네, 우리 병원입니다.\n \n여 : 저, 토요일로 예약을 하고 싶은데 주말에도 진료하나요?\n3. 남 : 요즘 병원에 환자가 많아요?\n4. 여 : 어디가 아프세요?\n5. 남 : 아지자 씨, 눈이 아파요? 눈이 빨개요.\n \n여 : 네, 아침부터 눈이 아프고 눈물이 나요.\n듣기지문\n132",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 260,
+        "image": "assets/modules/textbook1/unit_21/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "260 한국어 표준교재 1\n학습 목표\nLEARNING OBJECTIVES\n약에 대해 물어볼 수 있다. \nCan ask about medication.\n약 구매를 위하여 증상에 대해 말할 수 있다. \nCan describe symptoms in order to purchase medicine.\n약국 \nPharmacy\nC H A P T E R 2 2\n-(으)니까\n-(으)ㄴ 후에\nGRAMMAR\n문법\n증상 관련 어휘 2\nVocabulary Related to Symptoms 2\n의약품 및 치료법 \nMedications and Treatments\nVOCABULARY\n어휘\n의약품 구입\nPurchasing Medications\nCULTURE & INFORMATION\n문화와 정보\n식사하신 후에 드세요.\n이 약은 언제 먹어야 해요?\n260 한국어 표준교재 1\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "audio": [
       {
         "track": 128,
@@ -88,16 +247,837 @@
         "audio_url": "assets/modules/textbook1/audio/unit_21/track_132.mp3"
       }
     ],
-    "vocab": [],
-    "grammar": [],
+    "vocab": [
+      {
+        "id": "vocab_1",
+        "front": "접수 및 진료 관련 어휘",
+        "back": "Hospital Registration and Consultations",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_2",
+        "front": "접수를 하다",
+        "back": "to register",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_3",
+        "front": "기다리다",
+        "back": "to wait",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_4",
+        "front": "체온을 재다",
+        "back": "to take one's temperature",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_5",
+        "front": "진료를 하다/받다",
+        "back": "to provide/receive a medical consultation",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_6",
+        "front": "치료를 하다/받다",
+        "back": "to provide/receive treatment",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_7",
+        "front": "엑스레이를 찍다",
+        "back": "to take an x-ray",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_8",
+        "front": "주사를 놓다/맞다",
+        "back": "to give/get an injection",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_9",
+        "front": "수술을 하다/받다",
+        "back": "to perform/undergo surgery",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_10",
+        "front": "처방을 하다/받다",
+        "back": "to prescribe/ receive a prescription",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_11",
+        "front": "약",
+        "back": "medicine",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_12",
+        "front": "신분증",
+        "back": "identification card",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_13",
+        "front": "처방전",
+        "back": "prescription",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_14",
+        "front": "저희",
+        "back": "we/our (humble form of 우리)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_15",
+        "front": "처음",
+        "back": "first time",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_16",
+        "front": "전화번호",
+        "back": "phone number",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_17",
+        "front": "보호자",
+        "back": "guardian",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_18",
+        "front": "진료실",
+        "back": "consultation room",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_19",
+        "front": "부르다",
+        "back": "to call",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_20",
+        "front": "머리",
+        "back": "head",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_21",
+        "front": "얼굴",
+        "back": "face",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_22",
+        "front": "다리",
+        "back": "leg",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_23",
+        "front": "발목",
+        "back": "ankle",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_24",
+        "front": "어깨",
+        "back": "shoulder",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_25",
+        "front": "무릎",
+        "back": "knee",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_26",
+        "front": "가슴",
+        "back": "chest",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_27",
+        "front": "허리",
+        "back": "waist",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_28",
+        "front": "손목",
+        "back": "wrist",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_29",
+        "front": "손가락",
+        "back": "finger",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_30",
+        "front": "감기에 걸리다",
+        "back": "to catch a cold",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_31",
+        "front": "머리가 아프다",
+        "back": "to have a headache",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_32",
+        "front": "배가 아프다",
+        "back": "to have a stomachache",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_33",
+        "front": "다리를 다치다",
+        "back": "to injure one's leg",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_34",
+        "front": "눈병이 나다",
+        "back": "to get an eye infection",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_35",
+        "front": "환자",
+        "back": "patient",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_36",
+        "front": "운전하다",
+        "back": "to drive",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_37",
+        "front": "차다",
+        "back": "to be cold",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar_1",
+        "front": "-(으)면",
+        "back": "‘-(으)면’은 동사, 형용사에 붙어 앞의 내용이 뒤의 내용에 대한 조건이나 가정임을 나타낸다.\n‘-(으)면’ is attached to verbs or adjectives to show that the preceding content is a condition or assumption for the\nfollowing content.\n받침 ○\n-으면\n먹다 → 먹으면\n받침 ×, 받침 ‘ㄹ’\n-면\n아프다 → 아프면\n살다 → 살면",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
+      },
+      {
+        "id": "grammar_2",
+        "front": "-지 마세요",
+        "back": "‘-지 마세요’는 동사에 붙여 어떤 행동을 하지 말 것을 요청하거나 어떤 행동을 하지 못하도록 금지할 때 사용한다.\n‘-지 마세요’ is attached to verbs to request that someone not do something or to prohibit an action.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
+      }
+    ],
     "conversation": [],
-    "culture": [],
-    "reading": [],
-    "listening": []
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "21 병원",
+        "back": "HOSPITAL 257",
+        "body": "• 병원 접수 시 필요한 표현을 사용할 수 있다. I can use the expressions needed for hospital registration.\n• 증상에 대해 묻고 대답할 수 있다. I can ask and answer questions about symptoms.\n• 금지 표현을 사용할 수 있다. I can use expressions for prohibiting something.\n21 병원\nHOSPITAL 257\n한국의 의료 체계\nThe Korean Medical System\n한국의 병원은 1차, 2차, 3차 의료기관으로 나뉩니다. 1차 의\n료기관은 주로 외래 환자를 진료하는 작은 규모의 동네 의원이\n나 보건소를 말하고, 2차 의료기관은 병상 수가 30개 이상인\n조금 큰 병원을 말합니다. 1, 2차 의료기관에서 진료를 받았는\n데도 증상이 낫지 않거나 정밀검사, 복잡한 수술 등이 필요하면\n3차 의료기관을 방문하게 됩니다. 3차 의료기관인 상급종합병\n원은 정부의 평가를 통과한 대형 병원으로 1, 2차 의료기관에서\n발행한 진료 의뢰서가 있어야 진료를 받을 수 있습니다. 의료비\n는 상급 기관으로 갈수록 비싸지며 2, 3차 의료기관의 경우 예",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook1/unit_21/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
+    "reading": [
+      {
+        "id": "u21_r1",
+        "nomor": 1,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 단어와 관계있는 것은 무엇입니까?\n신체",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "딸기",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "가슴",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "지폐",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "시장",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_21/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u21_r2",
+        "nomor": 2,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "기숙사에 살으면 편해요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "많이 아프면 병원에 가세요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "방이 덥으면 창문을 여세요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "시간이 있면 영화를 볼 거예요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_21/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u21_r3",
+        "nomor": 3,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.\n어제 다리를 다쳤습니다. 걸으면 다리가 너무 아픕니다. 그래서 병원에 가서 치료를 .",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "보내려고 합니다",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "시키려고 합니다",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "받으려고 합니다",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "만들려고 합니다",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_21/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u21_r4",
+        "nomor": 4,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "빈칸에 들어갈 알맞은 표현을 골라 문장을 완성하십시오.\n한국에서 처음 병원에 가면 신분증을 . 신분증이 없으면 접수를 할 수 없습니다.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "알아봐야 합니다",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "기다려야 합니다",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "신청해야 합니다",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "보여 줘야 합니다",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_21/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u21_r5",
+        "nomor": 5,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국의 병원은 1차, 2차, 3차 의료기관으로 나뉩니다. 1차 병원은 주로 외래 환자를 진료하는 동네\n의원이나 보건소를 말합니다. 1차 병원은 예약하지 않고 가도 됩니다. 하지만 병상이 30개 이상이 있는\n2차 병원부터는 예약을 한 후에 진료를 받을 수 있습니다. 그리고 의료비도 1차 병원보다 비쌉니다.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "동네 의원은 3차 의료기관입니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "2차 의료기관의 병상 수는 30개보다 적습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "한국에서는 보건소에 갈 때 예약을 해야 합니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "3차 의료기관의 의료비는 의원보다 더 비쌉니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_21/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ],
+    "listening": [
+      {
+        "id": "u21_l1",
+        "nomor": 1,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.",
+        "jawaban": "d",
+        "audio_teks": "여 : 민민아웅 씨, 옷을 어깨 위로 올려 주세요.\n남 : 네. 그런데 주사가 많이 아파요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_21/track_132.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_21/choice_images/listening/u21_l1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_21/choice_images/listening/u21_l1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_21/choice_images/listening/u21_l1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_21/choice_images/listening/u21_l1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_21/choice_images/listening/u21_l1_a.jpg",
+          "b": "assets/modules/textbook1/unit_21/choice_images/listening/u21_l1_b.jpg",
+          "c": "assets/modules/textbook1/unit_21/choice_images/listening/u21_l1_c.jpg",
+          "d": "assets/modules/textbook1/unit_21/choice_images/listening/u21_l1_d.jpg"
+        },
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_21/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u21_l2",
+        "nomor": 2,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "여자는 왜 전화를 했습니까?",
+        "jawaban": "a",
+        "audio_teks": "남 : 네, 우리 병원입니다.\n여 : 저, 토요일로 예약을 하고 싶은데 주말에도 진료하나요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_21/track_132.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "진료 예약을 하려고",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "예약 시간을 바꾸려고",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "병원 위치를 물어보려고",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "의사 선생님과 통화하려고",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_21/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u21_l3",
+        "nomor": 3,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "d",
+        "audio_teks": "남 : 요즘 병원에 환자가 많아요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_21/track_132.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "네, 환자가 아파요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "네, 환자가 적어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "아니요, 환자가 체온을 재요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "아니요, 환자가 많지 않아요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_21/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u21_l4",
+        "nomor": 4,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 물음에 알맞은 대답을 고르십시오.",
+        "jawaban": "a",
+        "audio_teks": "여 : 어디가 아프세요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_21/track_132.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "다리를 다쳤어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "퇴근 후에 갈게요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "병원은 회사 앞에 있어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "진료실 앞에서 기다리세요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_21/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u21_l5",
+        "nomor": 5,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
+        "jawaban": "d",
+        "audio_teks": "남 : 아지자 씨, 눈이 아파요? 눈이 빨개요.\n여 : 네, 아침부터 눈이 아프고 눈물이 나요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_21/track_132.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "위치",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "색깔",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "교통",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "증상",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_21/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ]
   },
   "integrity": {
     "pdf_pages": 10,
     "lesson_audio": 5,
+    "lesson_flow": 10,
+    "vocab_cards": 37,
+    "grammar_cards": 2,
+    "conversation_cards": 0,
+    "culture_cards": 1,
+    "reading_questions": 5,
+    "listening_questions": 5,
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_scripts": 5,
     "source_page_start_index": 250,
     "source_page_end_index": 259
   }

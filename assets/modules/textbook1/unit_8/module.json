@@ -4,7 +4,7 @@
   "unit": 8,
   "title_ko": "가족과 친구",
   "title_en": "FAMILY AND FRIENDS",
-  "title_id": "",
+  "title_id": "Keluarga dan teman",
   "source_pdf": "assets/modules/textbook1/unit_8/source.pdf",
   "page_start": 121,
   "page_end": 130,
@@ -61,6 +61,164 @@
     }
   ],
   "sections": {
+    "lesson_flow": [
+      {
+        "id": "page_01",
+        "page": 1,
+        "book_page": 121,
+        "image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 1",
+        "title_en": "VOCABULARY 1",
+        "title_id": "Kosakata 1",
+        "body": "8 가족과 친구 \n FAMILY AND FRIENDS 121\n어휘 VOCABULARY\n가족 Family\n형/오빠\nolder brother (to a \nyounger brother)/\nolder brother (to a \nyounger sister)\n누나/언니\nolder sister (to a \nyounger brother)/\nolder sister (to a \nyounger sister)\n할아버지\ngrandfather\n할머니\ngrandmother\n나(남자)\nme (man)\n여동생\nyounger sister\n아내 \nwife\n남동생 \nyounger brother\n아들\nson\n딸\ndaughter\n나(여자)\nme (woman)\n남편\nhusband\n아버지(아빠)\nfather (dad)\n어머니(엄마) \nmother (mom)\n부모님\nparents\n이름\nname\n집\nhouse\n나이\nage\n성함 \nname (honorific)\n댁\nhouse (honorific)\n연세 \nage (honorific)\n있다\nto exist\n먹다\nto eat\n자다\nto sleep\n말하다\nto speak\n아프다\nto be sick\n계시다 \nto exist (honorific)\n잡수시다/드시다 \nto eat (honorific)\n주무시다\nto sleep (honorific)\n말씀하시다 \nto speak (honorific)\n편찮으시다\nto be sick (honorific)\n형제\nbrothers\n자매\nsisters\n남매 \nbrother \nand \nsister\n피자 pizza\n비빔밥 bibimbap\n마당 yard\n창문 window\n닦다 to wipe\n 그림을 보고 [보기]와 같이 문장을 완성하세요. \nLook at the pictures and complete the sentences as shown in the example.\n[보기]\n할머니가 말씀하십니다.\n⑴\n할아버지가 .\n⑵\n할머니가 아침을 .\n⑶\n할아버지가 방에 .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_02",
+        "page": 2,
+        "book_page": 122,
+        "image": "assets/modules/textbook1/unit_8/pages/page_02.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 1",
+        "title_en": "GRAMMAR 1",
+        "title_id": "Tata bahasa 1",
+        "body": "122 한국어 표준교재 1\n문법 GRAMMAR\n-(으)시-\n서술어에 주체를 높이는 ‘-(으)시-’가 \n있으면 조사 ‘이/가’ 대신에 ‘께서’, \n‘은/는’ 대신에 ‘께서는’을 사용한다.\nWhen the predicate includes ‘-(으)시-’, \nwhich is the subject honorific marker, \n‘이/가’ is replaced with ‘께서’, and ‘은/\n는’ is replaced with ‘께서는’.\n예 아버지께서는 회사원이십니다.\n‘-(으)시-’는 동사, 형용사에 붙어 문장의 주체가 높임의 \n대상임을 나타낸다.\n‘-(으)시-’ is attached to verbs and adjectives to show that \nthe subject of the sentence is honorific.\n받침 ○\n-으시-\n 읽다 → 읽으세요/읽으십니다\n받침 ×, 받침 ‘ㄹ’\n-시-\n 보다 → 보세요/보십니다\n예 할머니께서 텔레비전을 보세요.\n \n어머니께서 음식을 만드십니다.\n \n할아버지께서 신문을 읽으십니다.\n1. [보기]와 같이 문장을 완성하세요. Complete the sentences as shown in the example.\n왕민 씨는 기숙사에 있어요. 반장님께서는 사무실에 계세요.\n[ 보기 ]\n⑴ 형은 피자를 먹어요. 어머니께서는 비빔밥을 .\n⑵ 누나는 방을 청소해요. 할아버지께서는 마당을 .\n⑶ 동생이 슈퍼마켓에 가요. 아버지께서도 슈퍼마켓에 .\n⑷ 오빠가 텔레비전을 봐요. 할머니께서도 텔레비전을 .\n2. [보기]와 같이 대화를 완성하세요. Complete the conversations as shown in the example.\n가 : 어머니께서 무엇을 하십니까?\n나 : 어머니께서 청소를 하십니다.\n[ 보기 ]\n⑴\n가 : 할아버지께서 무엇을 하십니까?\n나 : .\n⑵\n가 : 할머니께서 무엇을 하십니까?\n나 : .\n⑶\n가 : 아버지께서 무엇을 하십니까?\n나 : .\n⑷\n가 : 어머니께서 무엇을 하십니까?\n나 : .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_03",
+        "page": 3,
+        "book_page": 123,
+        "image": "assets/modules/textbook1/unit_8/pages/page_03.jpg",
+        "kind": "pronunciation",
+        "sections": [
+          "pronunciation",
+          "conversation"
+        ],
+        "title_ko": "대화 1 / 발음",
+        "title_en": "CONVERSATION 1 / PRONUNCIATION",
+        "title_id": "Percakapan 1 dan pelafalan",
+        "body": "8 가족과 친구 \n FAMILY AND FRIENDS 123\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•인도네시아, 아버지, 회사원\n•태국, 어머니, 간호사\n가 : 부모님께서는 어디에 계세요?\n나 : 인도네시아에 계세요.\n가 : 아버지께서는 무슨 일을 하세요?\n나 : 회사원이세요.\n발음 │ PRONUNCIATION\nㅂ, ㅃ, ㅍ \n'ㅂ, ㅃ, ㅍ'는 입술에서 공기가 파열되어 발음되는 자음이다. ‘ㅃ’는 공기의 세기가 가장 \n약한 자음이고, ‘ㅍ’는 공기의 세기가 가장 센 자음이다. ‘ㅂ’는 평음으로 공기의 세기가 \n두 자음의 중간 정도이다. \n'ㅂ, ㅃ, ㅍ' are bi-labial plosive consonants. ‘ㅃ’ is pronounced with the \nweakest aspiration, ‘ㅍ’ with the strongest, and ‘ㅂ’ with a moderate \naspiration.\n⑴ 빠, 바, 파 : 뽀, 보, 포\n⑵ 빠르다, 바다, 파도\n대화 CONVERSATION\n마 두 프엉 씨, 어머니께서 한국에 계세요?\n \nPhuong, is your mother in Korea?\n프 엉 네, 같이 살아요.\n \nYes, she lives with me.\n마 두 어머니께서는 한국에서 무슨 일을 하세요?\n \nWhat does your mother do in Korea?\n프 엉 베트남 식당에서 일하세요. 어머니께서 \n요리를 잘하세요.\n \nShe works at a Vietnamese restaurant. She is good \nat cooking.\n대답해 봐요! ANSWER ME!\n1 프엉 씨 어머니는 어디에 계세요? Where is Phuong's mother?\n2 프엉 씨의 어머니는 어디에서 일하세요? Where does Phuong's mother work?\n63\n64",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_04",
+        "page": 4,
+        "book_page": 124,
+        "image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "kind": "vocab",
+        "sections": [
+          "vocab"
+        ],
+        "title_ko": "어휘 2",
+        "title_en": "VOCABULARY 2",
+        "title_id": "Kosakata 2",
+        "body": "124 한국어 표준교재 1\n어휘 VOCABULARY\n외모와 성격 Looks and Personality\n예쁘다\nto be pretty\n멋있다\nto be good looking \n귀엽다\nto be cute\n잘생기다\nto be handsome\n키가 크다\nto be tall\n키가 작다\nto be short\n머리가 길다\nto have long hair\n머리가 짧다\nto have short hair\n재미있다\nto be interesting\n친절하다\n to be kind\n착하다\n to be nice\n부지런하다 \n to be diligent\n활발하다\nto be active\n얌전하다\nto be calm\n똑똑하다\nto be smart\n성격이 급하다\nto be impatient\n 그림을 보고 [보기]와 같이 문장을 완성하세요. \nLook at the pictures and complete the sentences as shown in the example.\n[보기]\n가 : 마두 씨는 멋있어요?\n나 : 네, 멋있어요.\n⑴\n가 : 닛차난 씨는 키가 커요?\n나 : 네, .\n⑵\n가 : 자야 씨는 머리가 짧아요?\n나 : 아니요, .\n⑶\n가 : 동생은 얌전해요?\n나 : 아니요, .",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_05",
+        "page": 5,
+        "book_page": 125,
+        "image": "assets/modules/textbook1/unit_8/pages/page_05.jpg",
+        "kind": "grammar",
+        "sections": [
+          "grammar",
+          "conversation"
+        ],
+        "title_ko": "문법 2",
+        "title_en": "GRAMMAR 2",
+        "title_id": "Tata bahasa 2",
+        "body": "8 가족과 친구 \n FAMILY AND FRIENDS 125\n문법 GRAMMAR\n-고\n두 가지 이상의 행위를 시간적인 순서\n대로 연결할 때에도 ‘-고’를 사용한다. \n‘-고’ is also used to connect two or \nmore actions in chronological order.\n예 카림 씨는 운동을 하고 샤워했어요.\n‘-고’는 동사, 형용사에 붙여 두 가지 이상의 상태, 행위, 사실을 \n나열함을 나타낸다.\n‘-고’ is attached to verbs and adjectives to list two or more \nstates, actions, or facts.\n예 닛차난 씨는 키가 크고 머리가 길어요.\n \n저는 음식을 만들고 민민아웅 씨는 설거지를 해요.\n \n다라 씨는 캄보디아 사람이고 칼로 씨는 필리핀 사람이에요.\n1. 대화를 완성하세요. Complete the conversations.\n⑴\n싸다\n맛있다\n 가 : 사과가 어때요?\n나 : .\n \n⑵\n춥다\n눈이 오다\n 가 : 지금 날씨가 어때요?\n나 : .\n \n⑶\n재미있다\n착하다\n 가 : 칼로 씨는 어때요?\n나 : .\n \n⑷\n빨래하다\n청소하다\n 가 : 주말에 뭐 했어요?\n나 : .\n \n⑸\n똑똑하다\n부지런하다\n 가 : 자야 씨는 어때요?\n나 : .\n \n⑹\n쉽다\n재미있다\n 가 : 한국어 공부가 어때요?\n나 : .\n \n2. [보기]와 같이 쓰고 친구를 소개해 보세요. Write to introduce your friend as shown in the example.\n제 친구 닛차난은 태국 사람입니다.\n닛차난은 키가 크고 예쁩니다.\n그리고 친절합니다.\n[ 보기 ]\n친구 1\n친구 2\n친구 이름\n(국적)\n닛차난(태국)\n외모\n키가 크다, 예쁘다\n성격\n 친절하다",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_06",
+        "page": 6,
+        "book_page": 126,
+        "image": "assets/modules/textbook1/unit_8/pages/page_06.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "useful_expression"
+        ],
+        "title_ko": "대화 2 / 유용한 표현",
+        "title_en": "CONVERSATION 2 / USEFUL EXPRESSION",
+        "title_id": "Percakapan 2 dan ungkapan praktis",
+        "body": "126 한국어 표준교재 1\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n동생\n•동생, 똑똑하다, 활발하다\n•오빠, 착하다, 친절하다\n가 : 이 사람은 누구예요?\n나 : 제 동생이에요. \n \n제 동생은 똑똑하고 활발해요. \n가 : 죄송하지만 한 번 더 말씀해 주시겠어요? 제가 잘 못 들었어요. \nI’m sorry, but could you say that again? I didn’t hear you well.\n나 : 아, 이천 원 더 주셔야 돼요. \nAh, you need to pay 2,000 won more.\n유용한 표현 │ USEFUL EXPRESSION\n한 번 더 \n말씀해 주시겠어요?\nCould you say that \nagain?\n대화 CONVERSATION\n왕\n민 \n가족사진이네요. 이분이 어머니세요? \n \nOh, a family photo. Is this your mother?\n닛차난 \n네, 이분이 어머니시고, 이분이 아버지세요.\n \nYes, this is my mother, and this is my father.\n왕\n민 \n아버지께서 키가 크고 멋있으세요. \n \n아버지께서는 무슨 일을 하세요? \n \nYour father is so tall and good-looking.\nWhat does your father do?\n닛차난 \n아버지께서는 경찰관이세요. \n \nMy father is a police officer.\n대답해 봐요! ANSWER ME!\n1 닛차난 씨의 아버지께서는 무슨 일을 하세요? What does Nitchanan's father do?\n2 닛차난 씨의 아버지께서는 키가 작으세요? Is Nitchanan's father short?\n66\n65",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_07",
+        "page": 7,
+        "book_page": 127,
+        "image": "assets/modules/textbook1/unit_8/pages/page_07.jpg",
+        "kind": "conversation",
+        "sections": [
+          "conversation",
+          "culture",
+          "self_assessment"
+        ],
+        "title_ko": "문화와 정보 / 확인해요",
+        "title_en": "CULTURE & INFORMATION / SELF ASSESSMENT",
+        "title_id": "Budaya, informasi, dan cek diri",
+        "body": "문화와 정보 CULTURE & INFORMATION\n확인해요 │ self assessment\n• 가족과 친구에 대해 묻고 대답할 수 있다. I can ask and answer questions about family and friends. \n↻\n• 외모와 성격에 대해 말할 수 있다. I can talk about appearance and personality. \n↻\n• 높임말을 사용하여 말할 수 있다. I can speak using honorific language. \n↻\n8 가족과 친구 \n FAMILY AND FRIENDS 127\n높임말과 반말\nHonorific Language and Non-honorific (Banmal)\n한국어에는 높임말(존댓말)과 반말이 있\n습니다. 높임말은 자신보다 나이가 많거나 \n지위가 높은 사람에게 사용하며, 반말은 나\n이가 적은 사람에게 사용합니다. 그러나 자\n신보다 나이가 적어도 처음 만난 사람이나 \n가깝지 않은 사람에게는 상대방을 존중하\n는 의미로 높임말을 사용하는 것이 좋습니\n다. 최근에는 직장에서도 자신보다 어리거나 지위가 낮은 사람에게 높임말을 사용하는 경우가 많습니다. \n한국어로 말할 때는 대화 상대방이나 대화 상황에 따라 높임말과 반말을 잘 구별해서 사용해야 합니다. 그렇지 않\n으면 상대방을 불편하게 할 수 있습니다.\nIn Korean there is honorific (polite) language, and non-honorific language. Honorific language is used for people \nwho are older or higher in status than yourself. Non-honorific language is used for people who are younger than \nyou. However, even if someone is younger, if you are meeting them for the first time or if you are not close, it is \nbetter to use honorific language to show respect. Recently, it is common in workplaces to still use honorific \nlanguage with colleagues who are younger or lower in hierarchy.\nWhen speaking in Korean, it is important to choose well between honorific and non-honorific language \ndepending on the conversation partner or situation to avoid making them uncomfortable.\n한편, 자신보다 나이가 많아도 가족과 같\n이 아주 가까운 관계라면 반말을 사용하기\n도 합니다. 딸이나 아들이 부모님께 반말을 \n하는 것을 쉽게 들을 수 있는 것도 이 때문\n입니다. 이와 같이 높임말과 반말은 존중의 \n정도뿐만 아니라 친밀감의 정도를 드러내\n는 중요한 역할을 합니다.\nOn the other hand, even with older family members or very close relationships, non-honorific language can be \nused. It is common to hear children using non-honorific language with their parents because of this. Thus, \nhonorific and non-honorific language reflects not only the degree of respect but also the degree of intimacy.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_08",
+        "page": 8,
+        "book_page": 128,
+        "image": "assets/modules/textbook1/unit_8/pages/page_08.jpg",
+        "kind": "reading",
+        "sections": [
+          "reading"
+        ],
+        "title_ko": "읽기",
+        "title_en": "READING",
+        "title_id": "Latihan membaca",
+        "body": "읽기 READING\n128 한국어 표준교재 1\n1. \n다음 내용과 관계있는 그림을 고르십시오.\n할머니입니다.\n①\n②\n③\n④\n2. 다음 단어와 의미가 비슷한 말은 무엇입니까?\n연세\n① 이름 \n② 나이 \n③ 고향 \n④ 국적\n3. 다음 단어의 반대말은 무엇입니까?\n활발하다\n① 친절하다 \n② 똑똑하다 \n③ 얌전하다 \n④ 부지런하다\n4. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.\n① 어머니께서 청소를 하십니다. \n② 아버지께서 창문을 닦십니다.\n③ 할머니께서 음식을 만들십니다. \n④ 할아버지께서는 키가 크으십니다.\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국에서는 자신보다 나이가 많은 사람에게 높임말을 사용합니다. 그러나 자신보다 나이가 많아도 \n가족과 같이 가까운 관계일 때는 반말을 사용하기도 합니다. 그리고 자신보다 나이가 적은 사람에게는 \n반말을 사용합니다. 하지만 나이가 적어도 처음 만났거나 친하지 않은 사람에게는 높임말을 사용해야 \n합니다.\n① 한국에서는 친한 사람에게 높임말을 사용해서 말합니다.\n② 한국 사람은 상대의 나이에 따라 사용하는 말이 다릅니다.\n③ 나이가 어린 사람에게는 친하지 않아도 반말을 사용합니다.\n④ 가족처럼 가까운 관계여도 나이가 많으면 높임말을 사용해야 합니다.",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_09",
+        "page": 9,
+        "book_page": 129,
+        "image": "assets/modules/textbook1/unit_8/pages/page_09.jpg",
+        "kind": "listening",
+        "sections": [
+          "listening"
+        ],
+        "title_ko": "듣기",
+        "title_en": "LISTENING",
+        "title_id": "Latihan mendengar",
+        "body": "듣기 LISTENING\n8 가족과 친구 \n FAMILY AND FRIENDS 129\n[1~2] 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n1.\n① 네, 아버지께서는 집에 계세요.\n② 네, 아버지께서는 키가 크세요.\n③ 아니요, 아버지께서는 회사원이세요.\n④ 아니요, 아버지께서는 네팔에 사세요.\n2.\n① 학생이에요.\n② 부지런해요.\n③ 한 명 있어요.\n④ 미얀마에 있어요.\n[3~4] 두 사람은 무엇에 대해 말하고 있습니까?\n3.\n① 가족 \n② 고향 \n③ 나이 \n④ 친구 \n4.\n① 성격 \n② 외모 \n③ 직업 \n④ 취미 \n5. \n다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n① 가족은 베트남에 살아요.\n② 남동생은 지금 게임해요.\n③ 가족은 지금 베트남에 없어요. \n④ 남동생은 없고 오빠가 있어요.\n1. \n여 : 아버지께서 키가 크세요?\n2. 남 : 여동생이 몇 명이에요?\n3. 남 : 이분이 딜로바 씨 아버지세요?\n \n여 : 네. 그리고 그 옆에 계신 분은 제 어머니세요.\n4. 남 : 동생도 닛차난 씨처럼 키가 커요?\n \n여 : 아니요. 제 동생은 키가 작아요.\n5. 남 : 프엉 씨는 남동생이 있어요?\n듣기지문\n67",
+        "verification": "extracted_from_official_pdf_page"
+      },
+      {
+        "id": "page_10",
+        "page": 10,
+        "book_page": 130,
+        "image": "assets/modules/textbook1/unit_8/pages/page_10.jpg",
+        "kind": "preview",
+        "sections": [
+          "preview"
+        ],
+        "title_ko": "다음 단원 미리보기",
+        "title_en": "NEXT UNIT PREVIEW",
+        "title_id": "Preview unit berikutnya",
+        "body": "학습 목표\nLEARNING OBJECTIVES\n음식을 주문할 수 있다.\nCan order food.\n물건의 개수를 말할 수 있다.\nCan say how many items there are.\n음식 주문 \nOrdering Food\nC H A P T E R 0 9\n비빔밥 주세요.\n뭐 드시겠어요?\n130 한국어 표준교재 1\n불고기\n김치찌개\n비빔밥\n된장찌개\n메 뉴\n주세요\n하고\nGRAMMAR\n문법\n음식\nFood\n숫자와 분류사\nNumbers and Classifiers\nVOCABULARY\n어휘\n한국인의 식사\nKorean Meals\nCULTURE & INFORMATION\n문화와 정보\nEPS-TOPIK",
+        "verification": "extracted_from_official_pdf_page"
+      }
+    ],
     "audio": [
       {
         "track": 63,
@@ -88,16 +246,1126 @@
         "audio_url": "assets/modules/textbook1/audio/unit_8/track_067.mp3"
       }
     ],
-    "vocab": [],
-    "grammar": [],
-    "conversation": [],
-    "culture": [],
-    "reading": [],
-    "listening": []
+    "vocab": [
+      {
+        "id": "vocab_1",
+        "front": "가족",
+        "back": "Family",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_2",
+        "front": "형/오빠",
+        "back": "older brother (to a younger brother)/ older brother (to a younger sister)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_3",
+        "front": "누나/언니",
+        "back": "older sister (to a younger brother)/ older sister (to a younger sister)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_4",
+        "front": "할아버지",
+        "back": "grandfather",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_5",
+        "front": "할머니",
+        "back": "grandmother",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_6",
+        "front": "나(남자)",
+        "back": "me (man)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_7",
+        "front": "여동생",
+        "back": "younger sister",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_8",
+        "front": "아내",
+        "back": "wife",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_9",
+        "front": "남동생",
+        "back": "younger brother",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_10",
+        "front": "아들",
+        "back": "son",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_11",
+        "front": "딸",
+        "back": "daughter",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_12",
+        "front": "나(여자)",
+        "back": "me (woman)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_13",
+        "front": "남편",
+        "back": "husband",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_14",
+        "front": "아버지(아빠)",
+        "back": "father (dad)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_15",
+        "front": "어머니(엄마)",
+        "back": "mother (mom)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_16",
+        "front": "부모님",
+        "back": "parents",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_17",
+        "front": "이름",
+        "back": "name",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_18",
+        "front": "집",
+        "back": "house",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_19",
+        "front": "나이",
+        "back": "age",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_20",
+        "front": "성함",
+        "back": "name (honorific)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_21",
+        "front": "댁",
+        "back": "house (honorific)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_22",
+        "front": "연세",
+        "back": "age (honorific)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_23",
+        "front": "있다",
+        "back": "to exist",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_24",
+        "front": "먹다",
+        "back": "to eat",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_25",
+        "front": "자다",
+        "back": "to sleep",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_26",
+        "front": "말하다",
+        "back": "to speak",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_27",
+        "front": "아프다",
+        "back": "to be sick",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_28",
+        "front": "계시다",
+        "back": "to exist (honorific)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_29",
+        "front": "잡수시다/드시다",
+        "back": "to eat (honorific)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_30",
+        "front": "주무시다",
+        "back": "to sleep (honorific)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_31",
+        "front": "말씀하시다",
+        "back": "to speak (honorific)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_32",
+        "front": "편찮으시다",
+        "back": "to be sick (honorific)",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_33",
+        "front": "형제",
+        "back": "brothers",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_34",
+        "front": "자매",
+        "back": "sisters",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_35",
+        "front": "남매",
+        "back": "brother and sister",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_36",
+        "front": "피자",
+        "back": "pizza",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_37",
+        "front": "비빔밥",
+        "back": "bibimbap",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_38",
+        "front": "마당",
+        "back": "yard",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_39",
+        "front": "창문",
+        "back": "window",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_40",
+        "front": "닦다",
+        "back": "to wipe",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 1,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_01.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_41",
+        "front": "외모와 성격",
+        "back": "Looks and Personality",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_42",
+        "front": "예쁘다",
+        "back": "to be pretty",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_43",
+        "front": "멋있다",
+        "back": "to be good looking",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_44",
+        "front": "귀엽다",
+        "back": "to be cute",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_45",
+        "front": "잘생기다",
+        "back": "to be handsome",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_46",
+        "front": "키가 크다",
+        "back": "to be tall",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_47",
+        "front": "키가 작다",
+        "back": "to be short",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_48",
+        "front": "머리가 길다",
+        "back": "to have long hair",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_49",
+        "front": "머리가 짧다",
+        "back": "to have short hair",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_50",
+        "front": "재미있다",
+        "back": "to be interesting",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_51",
+        "front": "친절하다",
+        "back": "to be kind",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_52",
+        "front": "착하다",
+        "back": "to be nice",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_53",
+        "front": "부지런하다",
+        "back": "to be diligent",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_54",
+        "front": "활발하다",
+        "back": "to be active",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_55",
+        "front": "얌전하다",
+        "back": "to be calm",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_56",
+        "front": "똑똑하다",
+        "back": "to be smart",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      },
+      {
+        "id": "vocab_57",
+        "front": "성격이 급하다",
+        "back": "to be impatient",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 4,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_04.jpg",
+        "verification": "official_pdf_text_pair"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar_1",
+        "front": "-(으)시-",
+        "back": "서술어에 주체를 높이는 ‘-(으)시-’가\n있으면 조사 ‘이/가’ 대신에 ‘께서’,\n‘은/는’ 대신에 ‘께서는’을 사용한다.\nWhen the predicate includes ‘-(으)시-’,\nwhich is the subject honorific marker,\n‘이/가’ is replaced with ‘께서’, and ‘은/\n는’ is replaced with ‘께서는’.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 2,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_02.jpg",
+        "verification": "official_pdf_grammar_block"
+      },
+      {
+        "id": "grammar_2",
+        "front": "-고",
+        "back": "두 가지 이상의 행위를 시간적인 순서\n대로 연결할 때에도 ‘-고’를 사용한다.\n‘-고’ is also used to connect two or\nmore actions in chronological order.",
+        "back_lang": "ko_en_official",
+        "translation_id": "",
+        "source_page": 5,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_05.jpg",
+        "verification": "official_pdf_grammar_block"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conversation_1",
+        "front": "마 두 프엉 씨, 어머니께서 한국에 계세요?",
+        "back": "Phuong, is your mother in Korea?",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_2",
+        "front": "프 엉 네, 같이 살아요.",
+        "back": "Yes, she lives with me.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_3",
+        "front": "마 두 어머니께서는 한국에서 무슨 일을 하세요?",
+        "back": "What does your mother do in Korea?",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_4",
+        "front": "프 엉 베트남 식당에서 일하세요. 어머니께서\n요리를 잘하세요.",
+        "back": "She works at a Vietnamese restaurant. She is good at cooking.",
+        "speaker": "",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 3,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_03.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_5",
+        "front": "가족사진이네요. 이분이 어머니세요?",
+        "back": "Oh, a family photo. Is this your mother?",
+        "speaker": "민",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_6",
+        "front": "네, 이분이 어머니시고, 이분이 아버지세요.",
+        "back": "Yes, this is my mother, and this is my father.",
+        "speaker": "닛차난",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_7",
+        "front": "아버지께서 키가 크고 멋있으세요.\n아버지께서는 무슨 일을 하세요?",
+        "back": "Your father is so tall and good-looking. What does your father do?",
+        "speaker": "민",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      },
+      {
+        "id": "conversation_8",
+        "front": "아버지께서는 경찰관이세요.",
+        "back": "My father is a police officer.",
+        "speaker": "닛차난",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 6,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_06.jpg",
+        "verification": "official_pdf_conversation_block"
+      }
+    ],
+    "culture": [
+      {
+        "id": "culture_1",
+        "front": "8 가족과 친구",
+        "back": "FAMILY AND FRIENDS 127",
+        "body": "• 가족과 친구에 대해 묻고 대답할 수 있다. I can ask and answer questions about family and friends.\n• 외모와 성격에 대해 말할 수 있다. I can talk about appearance and personality.\n• 높임말을 사용하여 말할 수 있다. I can speak using honorific language.\n8 가족과 친구\nFAMILY AND FRIENDS 127\n높임말과 반말\nHonorific Language and Non-honorific (Banmal)\n한국어에는 높임말(존댓말)과 반말이 있\n습니다. 높임말은 자신보다 나이가 많거나\n지위가 높은 사람에게 사용하며, 반말은 나\n이가 적은 사람에게 사용합니다. 그러나 자\n신보다 나이가 적어도 처음 만난 사람이나\n가깝지 않은 사람에게는 상대방을 존중하\n는 의미로 높임말을 사용하는 것이 좋습니\n다. 최근에는 직장에서도 자신보다 어리거나 지위가 낮은 사람에게 높임말을 사용하는 경우가 많습니다.\n한국어로 말할 때는 대화 상대방이나 대화 상황에 따라 높임말과 반말을 잘 구별해서 사용해야 합니다. 그렇지 않",
+        "back_lang": "en_official",
+        "translation_id": "",
+        "source_page": 7,
+        "source_image": "assets/modules/textbook1/unit_8/pages/page_07.jpg",
+        "verification": "official_pdf_culture_block"
+      }
+    ],
+    "reading": [
+      {
+        "id": "u8_r1",
+        "nomor": 1,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 내용과 관계있는 그림을 고르십시오.\n할머니입니다.",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_8/choice_images/reading/u8_r1_a.jpg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_8/choice_images/reading/u8_r1_b.jpg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_8/choice_images/reading/u8_r1_c.jpg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/modules/textbook1/unit_8/choice_images/reading/u8_r1_d.jpg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/modules/textbook1/unit_8/choice_images/reading/u8_r1_a.jpg",
+          "b": "assets/modules/textbook1/unit_8/choice_images/reading/u8_r1_b.jpg",
+          "c": "assets/modules/textbook1/unit_8/choice_images/reading/u8_r1_c.jpg",
+          "d": "assets/modules/textbook1/unit_8/choice_images/reading/u8_r1_d.jpg"
+        },
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_8/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u8_r2",
+        "nomor": 2,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 단어와 의미가 비슷한 말은 무엇입니까?\n연세",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "이름",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "나이",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "고향",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "국적",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_8/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u8_r3",
+        "nomor": 3,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 단어의 반대말은 무엇입니까?\n활발하다",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "친절하다",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "똑똑하다",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "얌전하다",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "부지런하다",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_8/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u8_r4",
+        "nomor": 4,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "어머니께서 청소를 하십니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "아버지께서 창문을 닦십니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "할머니께서 음식을 만들십니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "할아버지께서는 키가 크으십니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_8/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u8_r5",
+        "nomor": 5,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국에서는 자신보다 나이가 많은 사람에게 높임말을 사용합니다. 그러나 자신보다 나이가 많아도\n가족과 같이 가까운 관계일 때는 반말을 사용하기도 합니다. 그리고 자신보다 나이가 적은 사람에게는\n반말을 사용합니다. 하지만 나이가 적어도 처음 만났거나 친하지 않은 사람에게는 높임말을 사용해야\n합니다.",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "한국에서는 친한 사람에게 높임말을 사용해서 말합니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "한국 사람은 상대의 나이에 따라 사용하는 말이 다릅니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "나이가 어린 사람에게는 친하지 않아도 반말을 사용합니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "가족처럼 가까운 관계여도 나이가 많으면 높임말을 사용해야 합니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 8,
+        "source_page_image": "assets/modules/textbook1/unit_8/pages/page_08.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ],
+    "listening": [
+      {
+        "id": "u8_l1",
+        "nomor": 1,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "",
+        "jawaban": "b",
+        "audio_teks": "여 : 아버지께서 키가 크세요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_8/track_067.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "네, 아버지께서는 집에 계세요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "네, 아버지께서는 키가 크세요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "아니요, 아버지께서는 회사원이세요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "아니요, 아버지께서는 네팔에 사세요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_8/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u8_l2",
+        "nomor": 2,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "",
+        "jawaban": "c",
+        "audio_teks": "남 : 여동생이 몇 명이에요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_8/track_067.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "학생이에요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "부지런해요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "한 명 있어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "미얀마에 있어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_8/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u8_l3",
+        "nomor": 3,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
+        "jawaban": "a",
+        "audio_teks": "남 : 이분이 딜로바 씨 아버지세요?\n여 : 네. 그리고 그 옆에 계신 분은 제 어머니세요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_8/track_067.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "가족",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "고향",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "나이",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "친구",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_8/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u8_l4",
+        "nomor": 4,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "두 사람은 무엇에 대해 말하고 있습니까?",
+        "jawaban": "b",
+        "audio_teks": "남 : 동생도 닛차난 씨처럼 키가 커요?\n여 : 아니요. 제 동생은 키가 작아요.",
+        "audio_url": "assets/modules/textbook1/audio/unit_8/track_067.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "성격",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "외모",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "직업",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "취미",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_8/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      },
+      {
+        "id": "u8_l5",
+        "nomor": 5,
+        "tipe": "mendengarkan",
+        "instruksi": "",
+        "teks_soal": "다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.",
+        "jawaban": "d",
+        "audio_teks": "남 : 프엉 씨는 남동생이 있어요?",
+        "audio_url": "assets/modules/textbook1/audio/unit_8/track_067.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "가족은 베트남에 살아요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "남동생은 지금 게임해요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "가족은 지금 베트남에 없어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "남동생은 없고 오빠가 있어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {},
+        "source_page": 9,
+        "source_page_image": "assets/modules/textbook1/unit_8/pages/page_09.jpg",
+        "verification": "question_from_official_pdf_answer_from_official_appendix"
+      }
+    ]
   },
   "integrity": {
     "pdf_pages": 10,
     "lesson_audio": 5,
+    "lesson_flow": 10,
+    "vocab_cards": 57,
+    "grammar_cards": 2,
+    "conversation_cards": 8,
+    "culture_cards": 1,
+    "reading_questions": 5,
+    "listening_questions": 5,
+    "reading_answers": 5,
+    "listening_answers": 5,
+    "listening_scripts": 5,
     "source_page_start_index": 120,
     "source_page_end_index": 129
   }

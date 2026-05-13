@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Script Upload Soal ke Supabase - Langit Korea
@@ -6,6 +6,7 @@ Hanya upload soal (tanpa MP3 upload karena sudah ada)
 """
 
 import json
+import os
 from datetime import datetime
 from pathlib import Path
 
@@ -14,9 +15,13 @@ from supabase import create_client
 print("=== UPLOAD SOAL KE SUPABASE ===\n")
 
 # ========== KONFIGURASI ==========
-SUPABASE_URL = "https://mozmuwrkfsipzfupybwh.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1vem11d3JrZnNpcHpmdXB5YndoIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NzY5NTk1NCwiZXhwIjoyMDkzMjcxOTU0fQ.SZSNk6xV-vq17beo_LwWzsZSp9UVGdqfR-R35cGxawE"
+SUPABASE_URL = os.getenv("SUPABASE_URL", "https://mozmuwrkfsipzfupybwh.supabase.co")
+SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_KEY", "")
 # ========== ========== ==========
+
+if not SUPABASE_KEY:
+    print("[ERROR] SUPABASE_SERVICE_KEY belum diset di environment.")
+    exit(1)
 
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
@@ -156,3 +161,4 @@ with open(laporan_path, "w", encoding="utf-8") as f:
 
 print(f"[OK] Laporan: {laporan_path}")
 print("\n=== SELESAI ===")
+

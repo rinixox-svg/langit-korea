@@ -24,6 +24,19 @@ from zipfile import ZipFile, ZipInfo
 
 import fitz
 
+from module_textbook_utils import (
+    UNIT_TITLE_ID,
+    attach_choice_images_from_pdf_page,
+    build_lesson_flow,
+    extract_conversation_cards,
+    extract_culture_cards,
+    extract_grammar_cards,
+    extract_listening_scripts_from_texts,
+    extract_practice_answers_from_texts,
+    extract_vocab_cards,
+    parse_practice_questions_from_page,
+)
+
 
 ROOT = Path(__file__).resolve().parents[1]
 TEXTBOOK_ZIP = ROOT / "assets" / "EPS-TOPIK_textbook1 (1).zip"
@@ -140,6 +153,16 @@ def build(force: bool = False) -> None:
     pdf_bytes = load_main_pdf_bytes()
     doc = fitz.open(stream=pdf_bytes, filetype="pdf")
     audio_tracks = build_audio_index()
+    practice_answers = extract_practice_answers_from_texts(
+        (doc[idx].get_text("text") for idx in range(362, min(366, doc.page_count))),
+        1,
+        UNIT_COUNT,
+    )
+    listening_scripts = extract_listening_scripts_from_texts(
+        (doc[idx].get_text("text") for idx in range(366, min(370, doc.page_count))),
+        1,
+        UNIT_COUNT,
+    )
     units = []
 
     with ZipFile(LISTENING_ZIP) as audio_zip:
@@ -195,29 +218,76 @@ def build(force: bool = False) -> None:
                     "audio_url": rel(out_audio),
                 })
 
+            unit_answers = practice_answers.get(unit, {})
+            unit_scripts = listening_scripts.get(unit, {})
+            reading_questions = parse_practice_questions_from_page(
+                pages[7],
+                unit,
+                "reading",
+                answers=unit_answers.get("reading", {}),
+            )
+            listening_questions = parse_practice_questions_from_page(
+                pages[8],
+                unit,
+                "listening",
+                answers=unit_answers.get("listening", {}),
+                scripts=unit_scripts,
+                audio_url=unit_audio[-1]["audio_url"] if unit_audio else "",
+            )
+            attach_choice_images_from_pdf_page(
+                doc[start + 7],
+                reading_questions,
+                unit_root / "choice_images" / "reading",
+                rel,
+                force,
+            )
+            attach_choice_images_from_pdf_page(
+                doc[start + 8],
+                listening_questions,
+                unit_root / "choice_images" / "listening",
+                rel,
+                force,
+            )
+            lesson_flow = build_lesson_flow(pages, page_start=start + 1)
+            vocab_cards = extract_vocab_cards(pages)
+            grammar_cards = extract_grammar_cards(pages)
+            conversation_cards = extract_conversation_cards(pages)
+            culture_cards = extract_culture_cards(pages)
+
             module = {
                 "book": "textbook1",
                 "source": "EPS-TOPIK Standard Textbook 1",
                 "unit": unit,
                 "title_ko": title_ko,
                 "title_en": title_en,
-                "title_id": "",
+                "title_id": UNIT_TITLE_ID.get(unit, ""),
                 "source_pdf": rel(source_pdf),
                 "page_start": start + 1,
                 "page_end": end + 1,
                 "pages": pages,
                 "sections": {
+                    "lesson_flow": lesson_flow,
                     "audio": unit_audio,
-                    "vocab": [],
-                    "grammar": [],
-                    "conversation": [],
-                    "culture": [],
-                    "reading": [],
-                    "listening": [],
+                    "vocab": vocab_cards,
+                    "grammar": grammar_cards,
+                    "conversation": conversation_cards,
+                    "culture": culture_cards,
+                    "reading": reading_questions,
+                    "listening": listening_questions,
                 },
                 "integrity": {
                     "pdf_pages": len(pages),
                     "lesson_audio": len(unit_audio),
+                    "lesson_flow": len(lesson_flow),
+                    "vocab_cards": len(vocab_cards),
+                    "grammar_cards": len(grammar_cards),
+                    "conversation_cards": len(conversation_cards),
+                    "culture_cards": len(culture_cards),
+                    "reading_questions": len(reading_questions),
+                    "listening_questions": len(listening_questions),
+                    "reading_answers": sum(1 for q in reading_questions if q.get("jawaban")),
+                    "listening_answers": sum(1 for q in listening_questions if q.get("jawaban")),
+                    "listening_scripts": sum(1 for q in listening_questions if q.get("audio_teks")),
                     "source_page_start_index": start,
                     "source_page_end_index": end,
                 },
@@ -231,12 +301,17 @@ def build(force: bool = False) -> None:
                 "book": "textbook1",
                 "title_ko": title_ko,
                 "title_en": title_en,
+                "title_id": UNIT_TITLE_ID.get(unit, ""),
                 "page_start": start + 1,
                 "page_end": end + 1,
                 "audio_count": len(unit_audio),
                 "module": rel(unit_root / "module.json"),
             })
-            print(f"unit {unit:02d}: pages=10 audio={len(unit_audio)} title={title_ko}")
+            print(
+                f"unit {unit:02d}: pages=10 audio={len(unit_audio)} "
+                f"vocab={len(vocab_cards)} reading={len(reading_questions)} "
+                f"listening={len(listening_questions)} title={title_ko}"
+            )
 
     index = {
         "book": "textbook1",
