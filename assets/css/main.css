@@ -122,6 +122,20 @@ input[type="button"] {
 .text-center { text-align: center; } /* Pusatkan teks */
 .text-secondary { color: var(--teks-sekunder); } /* Warna teks sekunder */
 
+/* Form Elements */
+.form-input {
+  display: inline-block;
+  padding: 10px 14px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-family: var(--font-utama);
+  font-size: 0.95rem;
+  background: white;
+  min-height: 44px;
+  width: 100%;
+  max-width: 400px;
+}
+
 /* Indikator Loading */
 .loading-indicator {
   display: flex;

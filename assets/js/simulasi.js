@@ -404,7 +404,16 @@ export const Simulasi = {
   },
 };
 
+// Assign to window for onclick handlers
+window.Simulasi = Simulasi;
+
 // Init
 (async function() {
-  await Simulasi.init();
+  try {
+    await Simulasi.init();
+  } catch (e) {
+    console.error('Simulasi init error:', e);
+    document.getElementById('loadingDiv').style.display = 'none';
+    document.getElementById('errorDiv').style.display = 'block';
+  }
 })();
