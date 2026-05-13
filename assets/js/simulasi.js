@@ -11,15 +11,13 @@ export const Simulasi = {
   letters: ['A','B','C','D'],
 
   async init() {
+    // Check auth — but don't block, progress just won't save
+    this.currentUser = null;
     try {
-      // Check auth first
       const { data: { user } } = await supabase.auth.getUser();
-      if (!user) {
-        window.location.href = 'login.html';
-        return;
-      }
+      this.currentUser = user;
     } catch (e) {
-      console.warn('Auth check failed, continuing anyway:', e);
+      console.warn('Auth check failed, public mode:', e);
     }
 
     const params = new URLSearchParams(location.search);
@@ -336,7 +334,7 @@ export const Simulasi = {
 
   async saveProgress() {
     try {
-      const { data: { user } } = await supabase.auth.getUser();
+      const user = this.currentUser;
       if (!user) return;
 
       const answers = this.state.answers;
