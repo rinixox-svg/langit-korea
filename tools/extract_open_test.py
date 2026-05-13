@@ -194,6 +194,44 @@ def build_row(num, q_text, opts, answers, year, mp3_urls, qtype):
         "tingkat": "sedang", "akses": "free",
     }
 
+# ── Listening PDF Processor ──
+
+def _process_listening_pdf(args, listening_items, _glob, split_listening_items_fn):
+    """Process listening PDF and merge items into listening_items list."""
+    import fitz
+    for lpath in _glob.glob(args.listening_pdf):
+        safe = lpath.encode("ascii", errors="replace").decode("ascii")
+        print("Listening PDF:", safe[:80])
+        try:
+            ldoc = fitz.open(lpath)
+            lblocks = []
+            for pn in range(len(ldoc)):
+                pd = ldoc[pn].get_text("dict")
+                for b in pd.get("blocks", []):
+                    if b["type"] == 0:
+                        for line in b.get("lines", []):
+                            t = "".join(s["text"] for s in line.get("spans", []))
+                            if t.strip():
+                                bb = line["bbox"]
+                                lblocks.append({"text": t.strip(), "page": pn+1,
+                                                "x0": round(bb[0],1), "y0": round(bb[1],1)})
+            ldoc.close()
+            print(f"  {len(lblocks)} blocks")
+            litems = split_listening_items_fn(lblocks)
+            if litems:
+                existing = {li["number"]: li for li in listening_items}
+                for li in litems:
+                    existing[li["number"]] = li
+                listening_items.clear()
+                listening_items.extend(list(existing.values()))
+                listening_items.sort(key=lambda x: x["number"])
+                print(f"  Listening items: {len(listening_items)}")
+        except ImportError as e:
+            print(f"  PDF mode requires PyMuPDF + parsing_rules: {e}")
+        except Exception as e:
+            err = str(e).encode("ascii", errors="replace").decode("ascii")
+            print(f"  Listening PDF error: {err[:80]}")
+
 # ── Main ──
 
 def main():
@@ -203,6 +241,7 @@ def main():
     parser.add_argument("--yes", action="store_true", help="Auto-confirm insert")
     parser.add_argument("--year", type=int, default=2023)
     parser.add_argument("--pdf", help="Path to reading PDF file (or glob pattern)")
+    parser.add_argument("--listening-pdf", help="Path to listening PDF file")
     parser.add_argument("--hwp", help="Path to reading HWP file (or glob pattern)")
     parser.add_argument("--answers", help="Path to answer file(s) (PDF/HWP, comma-separated)")
     parser.add_argument("--audio-zip", help="Path to audio ZIP file")
@@ -305,15 +344,12 @@ def main():
                                     "options": opts,
                                 })
                         reading_text = passage or ""
-                    # Also try listening mode
-                    litems = split_listening_items(blocks)
-                    if litems:
-                        listening_items = litems
-                        print(f"  Listening: {len(litems)} items")
-            except ImportError as e:
-                print(f"  PDF mode requires PyMuPDF + parsing_rules: {e}")
             except Exception as e:
-                print(f"  PDF processing error (non-fatal): {e}")
+                err = str(e).encode("ascii", errors="replace").decode("ascii")
+                print(f"  PDF processing error: {err[:100]}")
+    
+    if args.listening_pdf:
+        _process_listening_pdf(args, listening_items, _glob, split_listening_items)
         if args.hwp:
             for path in _glob.glob(args.hwp):
                 safe = path.encode("ascii", errors="replace").decode("ascii")
