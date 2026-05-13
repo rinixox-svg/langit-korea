@@ -1,0 +1,449 @@
+{
+  "book": "textbook1",
+  "source": "EPS-TOPIK Standard Textbook 1",
+  "units": [
+    {
+      "unit": 1,
+      "book": "textbook1",
+      "title_ko": "자기소개",
+      "title_en": "SELF INTRODUCTION",
+      "page_start": 51,
+      "page_end": 60,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_1/module.json"
+    },
+    {
+      "unit": 2,
+      "book": "textbook1",
+      "title_ko": "생활용품",
+      "title_en": "DAILY NECESSITIES",
+      "page_start": 61,
+      "page_end": 70,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_2/module.json"
+    },
+    {
+      "unit": 3,
+      "book": "textbook1",
+      "title_ko": "위치와 장소",
+      "title_en": "LOCATIONS AND PLACES",
+      "page_start": 71,
+      "page_end": 80,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_3/module.json"
+    },
+    {
+      "unit": 4,
+      "book": "textbook1",
+      "title_ko": "동작과 사물",
+      "title_en": "ACTIONS AND OBJECTS",
+      "page_start": 81,
+      "page_end": 90,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_4/module.json"
+    },
+    {
+      "unit": 5,
+      "book": "textbook1",
+      "title_ko": "날짜와 요일",
+      "title_en": "DATES AND DAYS OF THE WEEK",
+      "page_start": 91,
+      "page_end": 100,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_5/module.json"
+    },
+    {
+      "unit": 6,
+      "book": "textbook1",
+      "title_ko": "하루 일과",
+      "title_en": "DAILY ROUTINE",
+      "page_start": 101,
+      "page_end": 110,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_6/module.json"
+    },
+    {
+      "unit": 7,
+      "book": "textbook1",
+      "title_ko": "계절과 날씨",
+      "title_en": "SEASONS AND THE WEATHER",
+      "page_start": 111,
+      "page_end": 120,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_7/module.json"
+    },
+    {
+      "unit": 8,
+      "book": "textbook1",
+      "title_ko": "가족과 친구",
+      "title_en": "FAMILY AND FRIENDS",
+      "page_start": 121,
+      "page_end": 130,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_8/module.json"
+    },
+    {
+      "unit": 9,
+      "book": "textbook1",
+      "title_ko": "음식 주문",
+      "title_en": "ORDERING FOOD",
+      "page_start": 131,
+      "page_end": 140,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_9/module.json"
+    },
+    {
+      "unit": 10,
+      "book": "textbook1",
+      "title_ko": "물건 구입",
+      "title_en": "SHOPPING",
+      "page_start": 141,
+      "page_end": 150,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_10/module.json"
+    },
+    {
+      "unit": 11,
+      "book": "textbook1",
+      "title_ko": "집안일",
+      "title_en": "HOUSEHOLD CHORES",
+      "page_start": 151,
+      "page_end": 160,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_11/module.json"
+    },
+    {
+      "unit": 12,
+      "book": "textbook1",
+      "title_ko": "대중교통",
+      "title_en": "PUBLIC TRANSPORTATION",
+      "page_start": 161,
+      "page_end": 170,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_12/module.json"
+    },
+    {
+      "unit": 13,
+      "book": "textbook1",
+      "title_ko": "주말 활동",
+      "title_en": "WEEKEND ACTIVITIES",
+      "page_start": 171,
+      "page_end": 180,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_13/module.json"
+    },
+    {
+      "unit": 14,
+      "book": "textbook1",
+      "title_ko": "길 찾기",
+      "title_en": "GETTING DIRECTIONS",
+      "page_start": 181,
+      "page_end": 190,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_14/module.json"
+    },
+    {
+      "unit": 15,
+      "book": "textbook1",
+      "title_ko": "옷차림",
+      "title_en": "CLOTHING",
+      "page_start": 191,
+      "page_end": 200,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_15/module.json"
+    },
+    {
+      "unit": 16,
+      "book": "textbook1",
+      "title_ko": "집 구하기",
+      "title_en": "FINDING A HOUSE",
+      "page_start": 201,
+      "page_end": 210,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_16/module.json"
+    },
+    {
+      "unit": 17,
+      "book": "textbook1",
+      "title_ko": "휴가",
+      "title_en": "VACATION",
+      "page_start": 211,
+      "page_end": 220,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_17/module.json"
+    },
+    {
+      "unit": 18,
+      "book": "textbook1",
+      "title_ko": "취미",
+      "title_en": "HOBBIES",
+      "page_start": 221,
+      "page_end": 230,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_18/module.json"
+    },
+    {
+      "unit": 19,
+      "book": "textbook1",
+      "title_ko": "요리",
+      "title_en": "COOKING",
+      "page_start": 231,
+      "page_end": 240,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_19/module.json"
+    },
+    {
+      "unit": 20,
+      "book": "textbook1",
+      "title_ko": "인터넷과 스마트폰",
+      "title_en": "THE INTERNET AND SMARTPHONES",
+      "page_start": 241,
+      "page_end": 250,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_20/module.json"
+    },
+    {
+      "unit": 21,
+      "book": "textbook1",
+      "title_ko": "병원",
+      "title_en": "HOSPITAL",
+      "page_start": 251,
+      "page_end": 260,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_21/module.json"
+    },
+    {
+      "unit": 22,
+      "book": "textbook1",
+      "title_ko": "약국",
+      "title_en": "PHARMACY",
+      "page_start": 261,
+      "page_end": 270,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_22/module.json"
+    },
+    {
+      "unit": 23,
+      "book": "textbook1",
+      "title_ko": "우체국",
+      "title_en": "POST OFFICE",
+      "page_start": 271,
+      "page_end": 280,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_23/module.json"
+    },
+    {
+      "unit": 24,
+      "book": "textbook1",
+      "title_ko": "은행",
+      "title_en": "BANK",
+      "page_start": 281,
+      "page_end": 290,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_24/module.json"
+    },
+    {
+      "unit": 25,
+      "book": "textbook1",
+      "title_ko": "외국인 근로자 지원기관",
+      "title_en": "FOREIGN WORKERS SUPPORT CENTER",
+      "page_start": 291,
+      "page_end": 300,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_25/module.json"
+    },
+    {
+      "unit": 26,
+      "book": "textbook1",
+      "title_ko": "한국의 주거 문화와 음식 문화",
+      "title_en": "KOREAN HOUSING CULTURE AND FOOD CULTURE",
+      "page_start": 301,
+      "page_end": 310,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_26/module.json"
+    },
+    {
+      "unit": 27,
+      "book": "textbook1",
+      "title_ko": "한국의 기념일",
+      "title_en": "KOREAN COMMEMORATIVE DAYS",
+      "page_start": 311,
+      "page_end": 320,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_27/module.json"
+    },
+    {
+      "unit": 28,
+      "book": "textbook1",
+      "title_ko": "한국의 명절",
+      "title_en": "KOREAN TRADITIONAL HOLIDAYS",
+      "page_start": 321,
+      "page_end": 330,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_28/module.json"
+    },
+    {
+      "unit": 29,
+      "book": "textbook1",
+      "title_ko": "한국의 예절",
+      "title_en": "KOREAN ETIQUETTE",
+      "page_start": 331,
+      "page_end": 340,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_29/module.json"
+    },
+    {
+      "unit": 30,
+      "book": "textbook1",
+      "title_ko": "한국의 대중문화",
+      "title_en": "KOREAN POPULAR CULTURE",
+      "page_start": 341,
+      "page_end": 350,
+      "audio_count": 5,
+      "module": "assets/modules/textbook1/unit_30/module.json"
+    }
+  ],
+  "preliminary_audio": [
+    {
+      "track": 1,
+      "label": "Track 001",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_001.mp3"
+    },
+    {
+      "track": 2,
+      "label": "Track 002",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_002.mp3"
+    },
+    {
+      "track": 3,
+      "label": "Track 003",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_003.mp3"
+    },
+    {
+      "track": 4,
+      "label": "Track 004",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_004.mp3"
+    },
+    {
+      "track": 5,
+      "label": "Track 005",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_005.mp3"
+    },
+    {
+      "track": 6,
+      "label": "Track 006",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_006.mp3"
+    },
+    {
+      "track": 7,
+      "label": "Track 007",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_007.mp3"
+    },
+    {
+      "track": 8,
+      "label": "Track 008",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_008.mp3"
+    },
+    {
+      "track": 9,
+      "label": "Track 009",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_009.mp3"
+    },
+    {
+      "track": 10,
+      "label": "Track 010",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_010.mp3"
+    },
+    {
+      "track": 11,
+      "label": "Track 011",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_011.mp3"
+    },
+    {
+      "track": 12,
+      "label": "Track 012",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_012.mp3"
+    },
+    {
+      "track": 13,
+      "label": "Track 013",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_013.mp3"
+    },
+    {
+      "track": 14,
+      "label": "Track 014",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_014.mp3"
+    },
+    {
+      "track": 15,
+      "label": "Track 015",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_015.mp3"
+    },
+    {
+      "track": 16,
+      "label": "Track 016",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_016.mp3"
+    },
+    {
+      "track": 17,
+      "label": "Track 017",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_017.mp3"
+    },
+    {
+      "track": 18,
+      "label": "Track 018",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_018.mp3"
+    },
+    {
+      "track": 19,
+      "label": "Track 019",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_019.mp3"
+    },
+    {
+      "track": 20,
+      "label": "Track 020",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_020.mp3"
+    },
+    {
+      "track": 21,
+      "label": "Track 021",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_021.mp3"
+    },
+    {
+      "track": 22,
+      "label": "Track 022",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_022.mp3"
+    },
+    {
+      "track": 23,
+      "label": "Track 023",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_023.mp3"
+    },
+    {
+      "track": 24,
+      "label": "Track 024",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_024.mp3"
+    },
+    {
+      "track": 25,
+      "label": "Track 025",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_025.mp3"
+    },
+    {
+      "track": 26,
+      "label": "Track 026",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_026.mp3"
+    },
+    {
+      "track": 27,
+      "label": "인사",
+      "audio_url": "assets/modules/textbook1/preliminary/audio/track_027.mp3"
+    }
+  ],
+  "integrity": {
+    "unit_count": 30,
+    "pages_per_unit": 10,
+    "preliminary_audio": 27,
+    "unit_audio": 150
+  }
+}

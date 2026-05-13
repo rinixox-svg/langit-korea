@@ -1,773 +1,524 @@
-import { supabase } from './supabase.js';
 import { showToast } from './utils.js';
 
-// ── Navigation & state ──
-const NAV = [
-  { id: 'kosakata', label: 'KOSAKATA', seksi: ['vocab1','vocab2'] },
-  { id: 'grammar', label: 'GRAMMAR', seksi: ['grammar1','grammar2'] },
-  { id: 'percakapan', label: 'PERCAKAPAN', seksi: ['conversation1','conversation2'] },
-  { id: 'budaya', label: 'BUDAYA', seksi: ['budaya'] },
-  { id: 'mini_test', label: 'MINI TEST', seksi: ['mini_test'] },
+const MODULE_ROOTS = {
+  textbook1: 'assets/modules/textbook1',
+  textbook2: 'assets/modules/textbook2',
+};
+const PROGRESS_KEY = 'lk_module_progress_v2';
+
+const BASE_TABS = [
+  { id: 'source', label: 'HALAMAN ASLI' },
+  { id: 'audio', label: 'AUDIO' },
+  { id: 'vocab', label: 'KOSAKATA' },
+  { id: 'grammar', label: 'GRAMMAR' },
+  { id: 'conversation', label: 'PERCAKAPAN' },
+  { id: 'culture', label: 'BUDAYA' },
+  { id: 'practice', label: 'LATIHAN' },
 ];
 
-let unitData = [];            // all records from DB
-let groupedBySeksi = {};      // { seksi: [records] }
-let completedSeksi = {};      // { seksi: true }
+let bookIndexes = {};
+let allUnits = [];
+let currentTabs = [];
+let moduleData = null;
 let currentUnit = 31;
-let currentMode = {};         // { navId: 'belajar'|'serius' }
-let flashcardState = {};      // { cardIdx, flipped }
-let matchState = {};          // { left, right, selected, pairs }
-let wordState = {};           // { words, slots }
-let dialogState = {};         // { blanks, options, answers }
-let quizState = {};           // { idx, answered, correct }
+let activeTab = 'source';
+let activePractice = 'reading';
+let cardState = {};
+let answers = {};
+let audio = null;
+let audioButton = null;
 
-// ── Public render function ──
 export async function renderModule(unit) {
-  currentUnit = unit;
+  currentUnit = clampUnit(unit || 31);
   const loading = document.getElementById('loadingDiv');
   const errorDiv = document.getElementById('errorDiv');
   const content = document.getElementById('contentArea');
   const nav = document.getElementById('seksiNav');
-  const label = document.getElementById('progressLabel');
 
   if (loading) loading.style.display = 'block';
   if (errorDiv) errorDiv.style.display = 'none';
   if (content) content.innerHTML = '';
-  if (label) label.textContent = `Unit ${unit} — 0% selesai`;
 
   try {
-    unitData = await fetchData(unit);
-    if (!unitData.length) throw new Error('No data');
-
-    groupedBySeksi = groupBySeksi(unitData);
-    completedSeksi = {};
-    currentMode = {};
-    NAV.forEach(t => { currentMode[t.id] = 'belajar'; });
+    await loadIndexes();
+    const book = getBookForUnit(currentUnit);
+    moduleData = await fetchJson(`${MODULE_ROOTS[book]}/unit_${currentUnit}/module.json`);
+    currentTabs = buildTabs(moduleData);
+    activeTab = currentTabs[0]?.id || 'source';
+    activePractice = 'reading';
+    cardState = {};
+    answers = loadProgress(currentUnit).answers || {};
 
     renderNav(nav);
-    renderSections(content);
+    renderShell(content);
+    showSection(activeTab);
     updateProgress();
+  } catch (error) {
+    console.error('renderModule error:', error);
+    if (errorDiv) {
+      errorDiv.style.display = 'block';
+      errorDiv.innerHTML = `<p>Gagal memuat modul lokal unit ${currentUnit}.</p><p class="hint-text">${escapeHtml(error.message)}</p>`;
+    }
+  } finally {
     if (loading) loading.style.display = 'none';
-    showSection(NAV[0].id);
-  } catch (e) {
-    console.error('renderModule error:', e);
-    if (loading) loading.style.display = 'none';
-    if (errorDiv) errorDiv.style.display = 'block';
   }
 }
 
-// ── Data fetching ──
-async function fetchData(unit) {
-  const { data, error } = await supabase
-    .from('latihan_interaktif')
-    .select('*')
-    .eq('unit', unit)
-    .order('seksi', { ascending: true })
-    .order('urutan', { ascending: true });
-  if (error) throw error;
-  return data || [];
+async function fetchJson(url) {
+  const response = await fetch(url, { cache: 'no-store' });
+  if (!response.ok) throw new Error(`${url} HTTP ${response.status}`);
+  return response.json();
 }
 
-function groupBySeksi(data) {
-  const g = {};
-  for (const r of data) {
-    if (!g[r.seksi]) g[r.seksi] = [];
-    g[r.seksi].push(r);
-  }
-  return g;
-}
-
-// ── Navigation ──
-function renderNav(navEl) {
-  navEl.innerHTML = NAV.map(t => `
-    <button class="seksi-nav-btn" data-nav="${t.id}">${t.label}</button>
-  `).join('');
-  navEl.querySelectorAll('.seksi-nav-btn').forEach(btn => {
-    btn.addEventListener('click', () => showSection(btn.dataset.nav));
-  });
-}
-
-function showSection(navId) {
-  document.querySelectorAll('.seksi-nav-btn').forEach(b => {
-    b.classList.toggle('active', b.dataset.nav === navId);
-  });
-  document.querySelectorAll('.seksi-section').forEach(s => {
-    s.classList.toggle('active', s.dataset.nav === navId);
-  });
-}
-
-// ── Render sections ──
-function renderSections(container) {
-  container.innerHTML = NAV.map(t => {
-    const records = t.seksi.flatMap(s => groupedBySeksi[s] || []);
-    return `
-      <div class="seksi-section" data-nav="${t.id}">
-        <div class="seksi-header">
-          <div class="seksi-title">${t.label}</div>
-          <div class="mode-toggle">
-            <button class="mode-btn active" data-mode="belajar" data-nav="${t.id}">Belajar</button>
-            <button class="mode-btn serious" data-mode="serius" data-nav="${t.id}">Serius</button>
-          </div>
-        </div>
-        <div id="content_${t.id}" class="seksi-content"></div>
-      </div>
-    `;
-  }).join('');
-
-  // Mode toggle
-  document.querySelectorAll('.mode-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const navId = btn.dataset.nav;
-      const mode = btn.dataset.mode;
-      currentMode[navId] = mode;
-      const parent = btn.closest('.mode-toggle');
-      parent.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      renderContent(navId);
-    });
-  });
-
-  // Initial renders
-  NAV.forEach(t => renderContent(t.id));
-}
-
-// ── Render content per nav section ──
-function renderContent(navId) {
-  const tab = NAV.find(t => t.id === navId);
-  if (!tab) return;
-  const el = document.getElementById(`content_${navId}`);
-  if (!el) return;
-
-  const mode = currentMode[navId] || 'belajar';
-  const records = tab.seksi.flatMap(s => groupedBySeksi[s] || []);
-
-  if (!records.length) {
-    el.innerHTML = `<div class="module-empty"><p>Belum ada materi untuk bagian ini.</p></div>`;
-    return;
-  }
-
-  if (mode === 'belajar') {
-    renderBelajar(el, records, navId);
-  } else {
-    renderSerius(el, records, navId);
-  }
-}
-
-// ── BELAJAR mode ──
-function renderBelajar(el, records, navId) {
-  const belajarRecords = records.filter(r =>
-    ['flashcard','cocokkan','pilih_kata','lengkapi_dialog'].includes(r.tipe_latihan)
-  );
-  if (!belajarRecords.length) {
-    el.innerHTML = `<div class="module-empty"><p>Semua materi sudah dipelajari! Coba mode Serius.</p></div>`;
-    return;
-  }
-
-  const html = belajarRecords.map((r, i) => {
-    switch (r.tipe_latihan) {
-      case 'flashcard': return renderFlashcardHTML(r, i);
-      case 'cocokkan': return renderCocokkanHTML(r, i);
-      case 'pilih_kata': return renderPilihKataHTML(r, i);
-      case 'lengkapi_dialog': return renderDialogHTML(r, i);
-      default: return '';
-    }
-  }).join('');
-  el.innerHTML = html;
-
-  // Attach events
-  belajarRecords.forEach((r, i) => {
-    switch (r.tipe_latihan) {
-      case 'flashcard': initFlashcard(r, i); break;
-      case 'cocokkan': initCocokkan(r, i); break;
-      case 'pilih_kata': initPilihKata(r, i); break;
-      case 'lengkapi_dialog': initDialog(r, i); break;
-    }
-  });
-}
-
-// ── SERIUS mode ──
-function renderSerius(el, records, navId) {
-  const seriusRecords = records.filter(r =>
-    ['pilihan_ganda','pemahaman_dialog'].includes(r.tipe_latihan)
-  );
-  if (!seriusRecords.length) {
-    // Generate from belajar records
-    const mc = generateMCFromRecords(records);
-    if (!mc.length) {
-      el.innerHTML = `<div class="module-empty"><p>Belum ada soal untuk mode ini.</p></div>`;
-      return;
-    }
-    renderQuiz(el, mc, navId);
-    return;
-  }
-
-  const mc = seriusRecords.map(r => ({
-    question: r.teks_korea || r.soal || '',
-    options: parseOptions(r),
-    answer: r.jawaban || '',
-    explanation: r.teks_indo || '',
-    audio: r.audio_url || '',
-  })).filter(q => q.question && q.options.length > 1);
-  renderQuiz(el, mc, navId);
-}
-
-function parseOptions(r) {
-  if (r.opsi && Array.isArray(r.opsi)) return r.opsi;
-  if (r.pilihan_a) {
-    return [r.pilihan_a, r.pilihan_b, r.pilihan_c, r.pilihan_d].filter(Boolean);
-  }
-  return [];
-}
-
-function generateMCFromRecords(records) {
-  const qs = records.filter(r => r.teks_korea && r.teks_indo).map(r => {
-    const opts = shuffleArray([
-      r.teks_indo || r.teks_korea.slice(0, 40),
-      'Tidak tahu',
-      'A, B, C salah',
-      'Semua benar',
-    ]);
-    return {
-      question: `Apa arti dari "${r.teks_korea.slice(0, 60)}..."?`,
-      options: opts,
-      answer: 'A',
-      explanation: r.teks_indo || '',
-      audio: r.audio_url || '',
-    };
-  });
-  return qs;
-}
-
-function renderQuiz(el, questions, navId) {
-  quizState[navId] = { idx: 0, answered: false, correct: 0, total: questions.length };
-  renderQuestion(el, questions, navId, 0);
-  
-  // Expose for event handlers
-  window.__quizQuestions = window.__quizQuestions || {};
-  window.__quizQuestions[navId] = questions;
-}
-
-function renderQuestion(el, questions, navId, idx) {
-  if (idx >= questions.length) {
-    showQuizResult(el, navId);
-    return;
-  }
-  const q = questions[idx];
-  const letters = ['A','B','C','D'];
-  
-  el.innerHTML = `
-    <div class="mini-test-card fade-in">
-      <div class="mini-test-progress">
-        ${questions.map((_, i) => `<div class="mini-test-dot ${i < idx ? 'answered' : ''}"></div>`).join('')}
-      </div>
-      ${q.audio ? `<button class="audio-btn" onclick="playAudio('${q.audio}', this)">🔊 Dengarkan</button>` : ''}
-      <p class="korean-text">${q.question}</p>
-      <div class="mc-options">
-        ${q.options.map((opt, i) => `
-          <div class="mc-opt" data-q="${navId}" data-ans="${letters[i]}" data-correct="${letters[i] === q.answer}" data-answer="${q.answer}" onclick="answerMC(this)">
-            <span class="mc-letter">${letters[i]}</span>
-            <span>${opt}</span>
-          </div>
-        `).join('')}
-      </div>
-      <div class="mc-feedback" id="mcFeedback_${navId}"></div>
-      <button class="btn btn-primary" id="mcNext_${navId}" style="display:none;margin-top:12px" onclick="nextMC('${navId}')">
-        ${idx < questions.length - 1 ? 'Soal Berikutnya →' : 'Lihat Hasil'}
-      </button>
-    </div>
-  `;
-}
-
-// ── Flashcard ──
-function renderFlashcardHTML(r, i) {
-  return `
-    <div class="ex-card fade-in">
-      ${r.audio_url ? `<button class="audio-btn" onclick="playAudio('${r.audio_url}', this)">🔊 Dengarkan</button>` : ''}
-      <div class="flashcard" id="fc_${i}">
-        <div class="flashcard-inner">
-          <div class="flashcard-front">
-            <p class="korean-text">${r.teks_korea || 'Klik untuk lihat arti'}</p>
-            ${r.teks_inggris ? `<p class="hint-text">${r.teks_inggris}</p>` : ''}
-            <p style="font-size:0.8rem;color:var(--teks-sekunder);margin-top:8px">Tap untuk balik</p>
-          </div>
-          <div class="flashcard-back">
-            <p>Arti:</p>
-            <p class="korean-text">${r.teks_indo || r.teks_korea || ''}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  `;
-}
-
-function initFlashcard(r, i) {
-  const el = document.getElementById(`fc_${i}`);
-  if (!el) return;
-  el.addEventListener('click', () => el.classList.toggle('flipped'));
-}
-
-// ── Cocokkan ──
-function renderCocokkanHTML(r, i) {
-  return `
-    <div class="ex-card fade-in">
-      <p style="font-weight:600;margin-bottom:12px">🔗 Cocokkan pasangan berikut</p>
-      ${r.audio_url ? `<button class="audio-btn" onclick="playAudio('${r.audio_url}', this)">🔊 Dengarkan</button>` : ''}
-      <div class="match-grid" id="match_${i}"></div>
-      <p id="matchStatus_${i}" class="hint-text" style="margin-top:8px">Tap item kiri, lalu tap pasangannya di kanan</p>
-    </div>
-  `;
-}
-
-function initCocokkan(r, i) {
-  const grid = document.getElementById(`match_${i}`);
-  if (!grid) return;
-
-  let pairs = [];
-  if (r.pasangan && typeof r.pasangan === 'object') {
-    pairs = Object.entries(r.pasangan);
-  } else if (r.teks_korea && r.teks_indo) {
-    // Try to parse korea/indo from text
-    const korean = (r.teks_korea || '').split('\n').filter(Boolean);
-    const indo = (r.teks_indo || '').split('\n').filter(Boolean);
-    const len = Math.min(korean.length, indo.length);
-    if (len > 0) {
-      pairs = korean.slice(0, len).map((k, j) => [k, indo[j]]);
-    } else {
-      pairs = [['Kosong (Kiri)', 'Kosong (Kanan)']];
-    }
-  } else {
-    pairs = [['Contoh kata', 'Contoh arti']];
-  }
-
-  // Create shuffled left and right columns
-  const leftItems = pairs.map((p, j) => ({ id: `l${j}`, text: p[0], pairId: j }));
-  const rightItems = shuffleArray(pairs.map((p, j) => ({ id: `r${j}`, text: p[1], pairId: j })));
-
-  let selected = null;
-  let matched = new Set();
-
-  function renderGrid() {
-    grid.innerHTML = `
-      <div>
-        ${leftItems.map(item => `
-          <div class="match-item ${matched.has(item.id) ? 'matched' : ''}" data-id="${item.id}" data-pair="${item.pairId}" data-side="left">${item.text}</div>
-        `).join('')}
-      </div>
-      <div>
-        ${rightItems.map(item => `
-          <div class="match-item ${matched.has(item.id) ? 'matched' : ''}" data-id="${item.id}" data-pair="${item.pairId}" data-side="right">${item.text}</div>
-        `).join('')}
-      </div>
-    `;
-
-    grid.querySelectorAll('.match-item:not(.matched)').forEach(el => {
-      el.addEventListener('click', () => handleClick(el));
-    });
-  }
-
-  function handleClick(el) {
-    if (matched.has(el.dataset.id)) return;
-    const pairId = parseInt(el.dataset.pair);
-
-    if (!selected) {
-      selected = el;
-      el.classList.add('selected');
-      return;
-    }
-
-    // Already selected something
-    if (selected.dataset.id === el.dataset.id) {
-      selected.classList.remove('selected');
-      selected = null;
-      return;
-    }
-
-    const sPair = parseInt(selected.dataset.pair);
-    const sSide = selected.dataset.side;
-    const eSide = el.dataset.side;
-
-    if (sSide === eSide) {
-      // Same side - switch selection
-      selected.classList.remove('selected');
-      selected = el;
-      el.classList.add('selected');
-      return;
-    }
-
-    // Different sides - check match
-    if (sPair === pairId) {
-      matched.add(selected.dataset.id);
-      matched.add(el.dataset.id);
-      selected.classList.remove('selected');
-      selected.classList.add('matched');
-      el.classList.add('matched');
-      selected = null;
-
-      // Check completion
-      if (matched.size === leftItems.length + rightItems.length) {
-        document.getElementById(`matchStatus_${i}`).textContent = '✅ Semua benar!';
-        markSeksiComplete(r.seksi);
-      }
-    } else {
-      selected.classList.remove('selected');
-      selected.classList.add('wrong');
-      el.classList.add('wrong');
-      setTimeout(() => {
-        selected.classList.remove('wrong');
-        el.classList.remove('wrong');
-        selected = null;
-      }, 400);
-    }
-  }
-
-  renderGrid();
-}
-
-// ── Pilih Kata ──
-function renderPilihKataHTML(r, i) {
-  if (!r.teks_korea) return '';
-  return `
-    <div class="ex-card fade-in">
-      <p style="font-weight:600;margin-bottom:12px">📝 Lengkapi kalimat</p>
-      ${r.audio_url ? `<button class="audio-btn" onclick="playAudio('${r.audio_url}', this)">🔊 Dengarkan</button>` : ''}
-      <div id="pilihKata_${i}">
-        <div class="slot-row" id="slotRow_${i}"></div>
-        <div class="word-grid" id="wordGrid_${i}"></div>
-      </div>
-      <button class="btn btn-outline" id="pilihCheck_${i}" style="display:none;margin-top:12px" onclick="checkPilihKata(${i})">Cek Jawaban</button>
-    </div>
-  `;
-}
-
-function initPilihKata(r, i) {
-  const slotRow = document.getElementById(`slotRow_${i}`);
-  const wordGrid = document.getElementById(`wordGrid_${i}`);
-  if (!slotRow || !wordGrid) return;
-
-  // Extract potential words from text
-  const words = extractWords(r.teks_korea);
-  const selectedWords = words.slice(0, Math.min(5, words.length));
-  const blanks = selectedWords.slice(0, Math.min(3, selectedWords.length));
-  const remaining = shuffleArray(selectedWords.concat(generateDistractors(selectedWords, 3)));
-
-  wordState[i] = { blanks, words: remaining, filled: [], seksi: r.seksi };
-
-  // Render slots
-  const segments = segmentText(r.teks_korea, blanks);
-  slotRow.innerHTML = segments.map(s => {
-    if (s.blank) {
-      return `<span class="word-slot" data-idx="${s.idx}" onclick="fillSlot(${i}, ${s.idx})"></span>`;
-    }
-    return s.text;
-  }).join('');
-
-  // Render word chips
-  wordGrid.innerHTML = remaining.map((w, j) => `
-    <span class="word-chip" data-word="${w}" data-idx="${j}" onclick="pickWord(${i}, this)">${w}</span>
-  `).join('');
-
-  // Show check button
-  document.getElementById(`pilihCheck_${i}`).style.display = '';
-}
-
-function fillSlot(i, idx) {
-  const slot = document.querySelector(`#slotRow_${i} .word-slot[data-idx="${idx}"]`);
-  if (!slot || !slot.classList.contains('filled')) {
-    // If slot is empty, do nothing (wait for word selection)
-  }
-}
-
-window.pickWord = function(i, el) {
-  const word = el.dataset.word;
-  const state = wordState[i];
-  if (!state) return;
-
-  // Find first empty slot
-  const slots = document.querySelectorAll(`#slotRow_${i} .word-slot:not(.filled)`);
-  if (!slots.length) return;
-
-  const slot = slots[0];
-  const idx = slot.dataset.idx;
-  slot.textContent = word;
-  slot.classList.add('filled');
-  slot.dataset.word = word;
-  el.classList.add('used');
-
-  state.filled.push(word);
-
-  // Check if all filled
-  const remainingEmpty = document.querySelectorAll(`#slotRow_${i} .word-slot:not(.filled)`).length;
-  if (remainingEmpty === 0) {
-    document.getElementById(`pilihCheck_${i}`).disabled = false;
-  }
-};
-
-window.checkPilihKata = function(i) {
-  const state = wordState[i];
-  if (!state) return;
-  markSeksiComplete(state.seksi || '');
-  showToast('✅ Bagus! Lanjut ke materi berikutnya.', 'success');
-};
-
-// ── Dialog ──
-function renderDialogHTML(r, i) {
-  return `
-    <div class="ex-card fade-in">
-      <p style="font-weight:600;margin-bottom:12px">💬 Lengkapi percakapan</p>
-      ${r.audio_url ? `<button class="audio-btn" onclick="playAudio('${r.audio_url}', this)">🔊 Dengarkan</button>` : ''}
-      <div id="dialog_${i}"></div>
-    </div>
-  `;
-}
-
-function initDialog(r, i) {
-  const el = document.getElementById(`dialog_${i}`);
-  if (!el) return;
-
-  let dialogData = [];
-  if (r.dialog && Array.isArray(r.dialog)) {
-    dialogData = r.dialog;
-  } else {
-    // Parse from text
-    const lines = (r.teks_korea || '').split('\n').filter(Boolean);
-    dialogData = lines.slice(0, 6).map((line, j) => ({
-      speaker: j % 2 === 0 ? 'A' : 'B',
-      text: line,
-    }));
-  }
-
-  const blanks = dialogData.filter(d => d.text && d.text.includes('___'));
-  const options = shuffleArray(blanks.map(b => {
-    const parts = b.text.split('___');
-    return parts[1] ? parts[1].trim() : '...';
+async function loadIndexes() {
+  if (allUnits.length) return;
+  const entries = await Promise.all(Object.entries(MODULE_ROOTS).map(async ([book, root]) => {
+    const index = await fetchJson(`${root}/index.json`);
+    return [book, index];
   }));
-
-  el.innerHTML = dialogData.map((d, j) => {
-    const hasBlank = d.text && d.text.includes('___');
-    return `
-      <div class="dialog-bubble speaker-${d.speaker.toLowerCase()}">
-        <div class="dialog-label">${d.speaker === 'A' ? 'A :' : 'B :'}</div>
-        <p>${hasBlank ? d.text.replace('___', `<span class="blank-btn" data-idx="${j}" onclick="fillDialog(${i}, ${j})">??</span>`) : d.text}</p>
-      </div>
-    `;
-  }).join('');
-
-  el.innerHTML += `
-    <div class="blank-options" id="dialogOpts_${i}">
-      ${options.map((opt, j) => `<span class="blank-opt" data-opt="${opt}" onclick="pickDialogOpt(${i}, this)">${opt}</span>`).join('')}
-    </div>
-  `;
+  bookIndexes = Object.fromEntries(entries);
+  allUnits = Object.values(bookIndexes)
+    .flatMap(index => index.units || [])
+    .sort((a, b) => a.unit - b.unit);
 }
 
-window.fillDialog = function(i, idx) {
-  const btn = document.querySelector(`#dialog_${i} .blank-btn[data-idx="${idx}"]`);
-  if (!btn || btn.classList.contains('filled')) return;
+function getBookForUnit(unit) {
+  return Number(unit) <= 30 ? 'textbook1' : 'textbook2';
+}
 
-  // Show options - they're already visible
-  const opts = document.querySelectorAll(`#dialogOpts_${i} .blank-opt:not(.used)`);
-  if (!opts.length) return;
+function buildTabs(data) {
+  const sections = data.sections || {};
+  return BASE_TABS.filter(tab => {
+    if (tab.id === 'source') return true;
+    if (tab.id === 'practice') return (sections.reading || []).length || (sections.listening || []).length;
+    return (sections[tab.id] || []).length;
+  });
+}
 
-  btn.dataset.highlight = 'true';
-};
+function clampUnit(unit) {
+  const n = Number(unit);
+  if (!Number.isFinite(n)) return 31;
+  return Math.min(60, Math.max(1, n));
+}
 
-window.pickDialogOpt = function(i, el) {
-  const opt = el.dataset.opt;
-  // Find highlighted blank
-  const blanks = document.querySelectorAll(`#dialog_${i} .blank-btn:not(.filled)`);
-  const highlighted = Array.from(blanks).find(b => b.dataset.highlight === 'true');
+function renderNav(navEl) {
+  if (!navEl) return;
+  navEl.innerHTML = currentTabs.map(tab => `
+    <button class="seksi-nav-btn" data-tab="${tab.id}" type="button">${tab.label}</button>
+  `).join('');
+  navEl.querySelectorAll('[data-tab]').forEach(button => {
+    button.addEventListener('click', () => showSection(button.dataset.tab));
+  });
+}
 
-  // Fallback: fill first empty
-  const target = highlighted || blanks[0];
-  if (!target) return;
+function renderShell(container) {
+  if (!container || !moduleData) return;
+  const bookLabel = moduleData.book === 'textbook1' ? 'Textbook 1' : 'Textbook 2';
+  const audioCount = (moduleData.sections.audio || []).length || moduleData.integrity.lesson_audio || 0;
+  const readingCount = (moduleData.sections.reading || []).length;
+  const listeningCount = (moduleData.sections.listening || []).length;
+  container.innerHTML = `
+    <section class="module-hero">
+      <div>
+        <div class="module-kicker">${bookLabel} · Unit ${moduleData.unit}</div>
+        <h1 class="module-title">${escapeHtml(moduleData.title_ko)}</h1>
+        <p class="module-subtitle">${escapeHtml(moduleData.title_en || moduleData.title_id || '')}</p>
+      </div>
+      <div class="module-actions">
+        <button class="btn btn-outline" type="button" data-unit-prev>Unit ${Math.max(1, currentUnit - 1)}</button>
+        <select class="unit-select" aria-label="Pilih unit" data-unit-select>
+          ${allUnits.map(u => `<option value="${u.unit}" ${u.unit === currentUnit ? 'selected' : ''}>Unit ${u.unit} · ${escapeHtml(u.title_ko)}</option>`).join('')}
+        </select>
+        <button class="btn btn-outline" type="button" data-unit-next>Unit ${Math.min(60, currentUnit + 1)}</button>
+      </div>
+    </section>
 
-  target.textContent = opt;
-  target.classList.add('filled');
-  target.style.borderColor = '';
-  target.dataset.highlight = '';
-  el.classList.add('used');
-};
+    <section class="source-summary">
+      <div><strong>${moduleData.integrity.pdf_pages}</strong><span>halaman asli</span></div>
+      ${audioCount ? `<div><strong>${audioCount}</strong><span>audio unit</span></div>` : ''}
+      ${(moduleData.sections.vocab || []).length ? `<div><strong>${moduleData.sections.vocab.length}</strong><span>kartu kosakata</span></div>` : ''}
+      ${readingCount ? `<div><strong>${readingCount}</strong><span>reading</span></div>` : ''}
+      ${listeningCount ? `<div><strong>${listeningCount}</strong><span>listening</span></div>` : ''}
+    </section>
 
-// ── Answer MC (global handler) ──
-window.answerMC = function(el) {
-  const navId = el.dataset.q;
-  const ans = el.dataset.ans;
-  const correct = el.dataset.correct === 'true';
-  const answer = el.dataset.answer;
-  const state = quizState[navId];
-  if (!state || state.answered) return;
+    ${currentTabs.map(tab => `<section class="seksi-section module-section" data-section="${tab.id}" id="section_${tab.id}"></section>`).join('')}
+  `;
 
-  state.answered = true;
-  const feedback = document.getElementById(`mcFeedback_${navId}`);
-  const nextBtn = document.getElementById(`mcNext_${navId}`);
-
-  // Disable all options
-  el.closest('.mc-options').querySelectorAll('.mc-opt').forEach(o => {
-    o.style.pointerEvents = 'none';
+  container.querySelector('[data-unit-select]').addEventListener('change', event => {
+    location.href = `modul-unit.html?unit=${event.target.value}`;
+  });
+  container.querySelector('[data-unit-prev]').addEventListener('click', () => {
+    location.href = `modul-unit.html?unit=${Math.max(1, currentUnit - 1)}`;
+  });
+  container.querySelector('[data-unit-next]').addEventListener('click', () => {
+    location.href = `modul-unit.html?unit=${Math.min(60, currentUnit + 1)}`;
   });
 
-  if (correct) {
-    el.classList.add('correct');
-    state.correct++;
-    if (feedback) {
-      feedback.className = 'mc-feedback show correct';
-      feedback.textContent = '✅ Benar!';
-    }
-  } else {
-    el.classList.add('wrong');
-    // Highlight correct answer
-    el.closest('.mc-options').querySelectorAll('.mc-opt').forEach(o => {
-      if (o.dataset.ans === answer && !o.classList.contains('wrong')) {
-        o.classList.add('correct');
-      }
-    });
-    if (feedback) {
-      feedback.className = 'mc-feedback show wrong';
-      feedback.textContent = `❌ Jawaban benar: ${answer}`;
-    }
-  }
+  renderSource();
+  renderAudio();
+  renderCards('vocab', 'Kosakata', moduleData.sections.vocab || []);
+  renderCards('grammar', 'Grammar', moduleData.sections.grammar || []);
+  renderConversation();
+  renderCards('culture', 'Budaya', moduleData.sections.culture || []);
+  renderPractice();
+}
 
-  if (nextBtn) nextBtn.style.display = '';
-};
+function showSection(tabId) {
+  activeTab = tabId;
+  document.querySelectorAll('.seksi-nav-btn').forEach(button => {
+    button.classList.toggle('active', button.dataset.tab === tabId);
+  });
+  document.querySelectorAll('.module-section').forEach(section => {
+    section.classList.toggle('active', section.dataset.section === tabId);
+  });
+  markSeen(tabId);
+  updateProgress();
+}
 
-window.nextMC = function(navId) {
-  const state = quizState[navId];
-  const questions = window.__quizQuestions ? window.__quizQuestions[navId] : null;
-  if (!state || !questions) return;
-
-  state.idx++;
-  state.answered = false;
-
-  const el = document.getElementById(`content_${navId}`);
+function renderSource() {
+  const el = document.getElementById('section_source');
   if (!el) return;
+  el.innerHTML = `
+    <div class="source-toolbar">
+      <a class="btn btn-outline" href="${escapeAttr(moduleData.source_pdf)}" target="_blank" rel="noopener">Buka PDF</a>
+      <button class="btn btn-primary" type="button" data-mark-source>Beri tanda sudah dibaca</button>
+    </div>
+    <div class="page-grid">
+      ${moduleData.pages.map(page => `
+        <figure class="page-frame" id="page_${page.number}">
+          <img src="${escapeAttr(page.image)}" alt="Unit ${moduleData.unit} halaman ${page.number}" loading="lazy" />
+          <figcaption>Halaman ${page.number}${moduleData.page_start ? ` · buku ${moduleData.page_start + page.number - 1}` : ''}</figcaption>
+        </figure>
+      `).join('')}
+    </div>
+  `;
+  el.querySelector('[data-mark-source]').addEventListener('click', () => {
+    markSeen('source_done');
+    showToast('Halaman asli ditandai selesai.', 'success');
+    updateProgress();
+  });
+}
 
-  if (state.idx >= questions.length) {
-    showQuizResult(el, navId);
+function renderAudio() {
+  const el = document.getElementById('section_audio');
+  if (!el) return;
+  const tracks = moduleData.sections.audio || [];
+  if (!tracks.length) {
+    el.innerHTML = `<div class="module-empty"><p>Belum ada audio unit untuk modul ini.</p></div>`;
     return;
   }
 
-  renderQuestion(el, questions, navId, state.idx);
-};
+  el.innerHTML = `
+    <div class="audio-list">
+      ${tracks.map(track => `
+        <article class="audio-row">
+          <div>
+            <strong>Track ${String(track.track).padStart(3, '0')}</strong>
+            <span>${escapeHtml(track.label || 'Audio')}</span>
+          </div>
+          <button class="audio-btn" type="button" data-audio="${escapeAttr(track.audio_url)}">Putar audio</button>
+        </article>
+      `).join('')}
+    </div>
+  `;
+  el.querySelectorAll('[data-audio]').forEach(button => {
+    button.addEventListener('click', () => playAudio(button.dataset.audio, button));
+  });
+}
 
-function showQuizResult(el, navId) {
-  const state = quizState[navId];
-  if (!state) return;
-  const pct = state.total > 0 ? Math.round((state.correct / state.total) * 100) : 0;
+function renderCards(sectionId, title, cards) {
+  const el = document.getElementById(`section_${sectionId}`);
+  if (!el) return;
+  if (!cards.length) {
+    el.innerHTML = `<div class="module-empty"><p>Belum ada data ${escapeHtml(title.toLowerCase())} yang bersih untuk unit ini.</p></div>`;
+    return;
+  }
+
+  const state = cardState[sectionId] || { idx: 0, flipped: false };
+  cardState[sectionId] = state;
+  const card = cards[state.idx] || cards[0];
+  const list = cards.slice(0, 80);
 
   el.innerHTML = `
-    <div class="mini-test-score fade-in">
-      <h3>${pct >= 70 ? '🎉 Selamat!' : pct >= 40 ? '💪 Terus Semangat!' : '📚 Ayo Belajar Lagi!'}</h3>
-      <div style="font-size:3rem;font-weight:700;color:${pct >= 70 ? 'var(--hijau-berhasil)' : pct >= 40 ? 'var(--kuning-sedang)' : 'var(--merah-salah)'}">${state.correct}/${state.total}</div>
-      <p>(${pct}% benar)</p>
-      <button class="btn btn-primary" style="margin-top:16px" onclick="location.reload()">Ulangi</button>
+    <div class="study-layout">
+      <div class="deck-panel">
+        <div class="deck-meta">
+          <span>${escapeHtml(title)}</span>
+          <span>${state.idx + 1}/${cards.length}</span>
+        </div>
+        <button class="study-card ${state.flipped ? 'flipped' : ''}" type="button" data-flip="${sectionId}">
+          <span class="study-card-face front">
+            <span class="korean-text">${textToHtml(card.front || '-')}</span>
+            ${sectionId.startsWith('conversation') && card.back ? `<span class="hint-text">${escapeHtml(card.back)}</span>` : ''}
+          </span>
+          <span class="study-card-face back">
+            <span class="indo-text">${textToHtml(card.back || card.front || '-')}</span>
+          </span>
+        </button>
+        <div class="deck-actions">
+          <button class="btn btn-outline" type="button" data-card-prev="${sectionId}">Sebelumnya</button>
+          <button class="btn btn-primary" type="button" data-card-known="${sectionId}">Saya ingat</button>
+          <button class="btn btn-outline" type="button" data-card-next="${sectionId}">Berikutnya</button>
+        </div>
+      </div>
+      <div class="list-panel">
+        <input class="module-search" type="search" placeholder="Cari..." data-search="${sectionId}" />
+        <div class="term-list" data-term-list="${sectionId}">
+          ${renderTermList(list, sectionId)}
+        </div>
+      </div>
     </div>
   `;
 
-  if (pct >= 70) {
-    // Mark relevant seksi as complete
-    const tab = NAV.find(t => t.id === navId);
-    if (tab) tab.seksi.forEach(s => markSeksiComplete(s));
+  el.querySelector(`[data-flip="${sectionId}"]`).addEventListener('click', () => {
+    cardState[sectionId].flipped = !cardState[sectionId].flipped;
+    renderCards(sectionId, title, cards);
+  });
+  el.querySelector(`[data-card-prev="${sectionId}"]`).addEventListener('click', () => moveCard(sectionId, title, cards, -1));
+  el.querySelector(`[data-card-next="${sectionId}"]`).addEventListener('click', () => moveCard(sectionId, title, cards, 1));
+  el.querySelector(`[data-card-known="${sectionId}"]`).addEventListener('click', () => {
+    markKnown(sectionId, card.id);
+    moveCard(sectionId, title, cards, 1);
+  });
+  el.querySelector(`[data-search="${sectionId}"]`).addEventListener('input', event => {
+    const query = event.target.value.trim().toLowerCase();
+    const filtered = cards.filter(c => `${c.front} ${c.back}`.toLowerCase().includes(query)).slice(0, 120);
+    el.querySelector(`[data-term-list="${sectionId}"]`).innerHTML = renderTermList(filtered, sectionId);
+    bindTermRows(el, sectionId, title, cards);
+  });
+  bindTermRows(el, sectionId, title, cards);
+}
+
+function renderTermList(cards, sectionId) {
+  return cards.map(card => `
+    <button class="term-row" type="button" data-jump-card="${sectionId}:${escapeAttr(card.id)}">
+      <span class="korean-text">${textToHtml(card.front || '-')}</span>
+      <span class="indo-text">${textToHtml(card.back || '')}</span>
+    </button>
+  `).join('');
+}
+
+function bindTermRows(container, sectionId, title, cards) {
+  container.querySelectorAll(`[data-jump-card^="${sectionId}:"]`).forEach(button => {
+    button.addEventListener('click', () => {
+      const id = button.dataset.jumpCard.slice(sectionId.length + 1);
+      const idx = cards.findIndex(card => card.id === id);
+      if (idx < 0) return;
+      cardState[sectionId] = { idx, flipped: false };
+      renderCards(sectionId, title, cards);
+    });
+  });
+}
+
+function moveCard(sectionId, title, cards, delta) {
+  const state = cardState[sectionId];
+  state.idx = (state.idx + delta + cards.length) % cards.length;
+  state.flipped = false;
+  renderCards(sectionId, title, cards);
+}
+
+function renderConversation() {
+  const cards = moduleData.sections.conversation || [];
+  const el = document.getElementById('section_conversation');
+  if (!el) return;
+  if (!cards.length) {
+    renderCards('conversation', 'Percakapan', cards);
+    return;
+  }
+  el.innerHTML = `
+    <div class="conversation-panel">
+      ${cards.map((card, idx) => `
+        <div class="dialog-bubble ${idx % 2 === 0 ? 'speaker-a' : 'speaker-b'}">
+          <div class="dialog-label">${escapeHtml(card.back || (idx % 2 === 0 ? 'A' : 'B'))}</div>
+          <p class="korean-text">${textToHtml(card.front)}</p>
+        </div>
+      `).join('')}
+    </div>
+    <div class="section-divider"></div>
+    <div id="section_conversation_cards"></div>
+  `;
+  if (!cardState.conversation_cards) cardState.conversation_cards = { idx: 0, flipped: false };
+  renderCards('conversation_cards', 'Percakapan', cards);
+}
+
+function renderPractice() {
+  const el = document.getElementById('section_practice');
+  if (!el) return;
+  const hasReading = (moduleData.sections.reading || []).length > 0;
+  const hasListening = (moduleData.sections.listening || []).length > 0;
+  if (!hasReading && !hasListening) {
+    el.innerHTML = `<div class="module-empty"><p>Belum ada latihan untuk unit ini.</p></div>`;
+    return;
+  }
+  if (activePractice === 'reading' && !hasReading) activePractice = 'listening';
+  if (activePractice === 'listening' && !hasListening) activePractice = 'reading';
+  el.innerHTML = `
+    <div class="practice-tabs">
+      ${hasReading ? `<button class="mode-btn ${activePractice === 'reading' ? 'active' : ''}" type="button" data-practice="reading">Reading</button>` : ''}
+      ${hasListening ? `<button class="mode-btn ${activePractice === 'listening' ? 'active' : ''}" type="button" data-practice="listening">Listening</button>` : ''}
+    </div>
+    <div class="practice-area" id="practiceArea"></div>
+  `;
+  el.querySelectorAll('[data-practice]').forEach(button => {
+    button.addEventListener('click', () => {
+      activePractice = button.dataset.practice;
+      renderPractice();
+    });
+  });
+  renderQuestionList(activePractice);
+}
+
+function renderQuestionList(kind) {
+  const area = document.getElementById('practiceArea');
+  if (!area) return;
+  const questions = moduleData.sections[kind] || [];
+  if (!questions.length) {
+    area.innerHTML = `<div class="module-empty"><p>Belum ada soal ${kind}.</p></div>`;
+    return;
+  }
+  area.innerHTML = questions.map(question => renderQuestion(question)).join('');
+  area.querySelectorAll('[data-answer]').forEach(button => {
+    button.addEventListener('click', () => answerQuestion(button));
+  });
+  area.querySelectorAll('[data-audio]').forEach(button => {
+    button.addEventListener('click', () => playAudio(button.dataset.audio, button));
+  });
+}
+
+function renderQuestion(question) {
+  const key = questionKey(question);
+  const chosen = answers[key];
+  const isDone = !!chosen;
+  return `
+    <article class="quiz-card ${isDone ? 'answered' : ''}">
+      <div class="quiz-head">
+        <span>${question.tipe === 'mendengarkan' ? 'Listening' : 'Reading'} ${question.nomor}</span>
+        ${question.audio_url ? `<button class="audio-btn" type="button" data-audio="${escapeAttr(question.audio_url)}">Putar audio</button>` : ''}
+      </div>
+      ${question.instruksi ? `<p class="quiz-instruction">${textToHtml(question.instruksi)}</p>` : ''}
+      ${question.teks_soal ? `<p class="korean-text">${textToHtml(question.teks_soal)}</p>` : ''}
+      <div class="mc-options">
+        ${question.pilihan.map(option => renderOption(question, option, chosen)).join('')}
+      </div>
+      ${isDone ? `<div class="mc-feedback show ${chosen === question.jawaban ? 'correct' : 'wrong'}">${chosen === question.jawaban ? 'Benar' : `Jawaban benar: ${question.jawaban.toUpperCase()}`}</div>` : ''}
+    </article>
+  `;
+}
+
+function renderOption(question, option, chosen) {
+  const selected = chosen === option.key;
+  const correct = chosen && question.jawaban === option.key;
+  const wrong = selected && chosen !== question.jawaban;
+  return `
+    <button class="mc-opt ${selected ? 'selected' : ''} ${correct ? 'correct' : ''} ${wrong ? 'wrong' : ''}" type="button" data-answer="${questionKey(question)}:${option.key}">
+      <span class="mc-letter">${option.label}</span>
+      <span class="option-body">
+        ${option.image ? `<img class="option-image" src="${escapeAttr(option.image)}" alt="Pilihan ${option.label}" loading="lazy" />` : ''}
+        ${option.text ? `<span>${textToHtml(option.text)}</span>` : ''}
+      </span>
+    </button>
+  `;
+}
+
+function answerQuestion(button) {
+  const [key, chosen] = button.dataset.answer.split(':');
+  if (answers[key]) return;
+  const question = findQuestionByKey(key);
+  if (!question) return;
+  answers[key] = chosen;
+  saveProgress();
+  renderQuestionList(activePractice);
+  if (chosen === question.jawaban) {
+    showToast('Benar.', 'success');
+  } else {
+    showToast(`Jawaban benar: ${question.jawaban.toUpperCase()}`, 'error');
+  }
+  updateProgress();
+}
+
+function findQuestionByKey(key) {
+  return [...(moduleData.sections.reading || []), ...(moduleData.sections.listening || [])].find(q => questionKey(q) === key);
+}
+
+function questionKey(question) {
+  return `${question.tipe}_${question.nomor}`;
+}
+
+function playAudio(url, button) {
+  if (!url) return;
+  if (audio) audio.pause();
+  if (audioButton) audioButton.classList.remove('playing');
+  audio = new Audio(url);
+  audioButton = button;
+  button.classList.add('playing');
+  audio.onended = () => {
+    button.classList.remove('playing');
+    audioButton = null;
+  };
+  audio.play().catch(error => {
+    console.warn(error);
+    button.classList.remove('playing');
+    audioButton = null;
+  });
+}
+
+function loadProgress(unit) {
+  try {
+    return JSON.parse(localStorage.getItem(`${PROGRESS_KEY}_${unit}`)) || { seen: {}, known: {}, answers: {} };
+  } catch (_) {
+    return { seen: {}, known: {}, answers: {} };
   }
 }
 
-// ── Audio ──
-window.playAudio = function(url, btn) {
-  if (!url) return;
-  let audio = document.querySelector(`audio[data-src="${url}"]`);
-  if (!audio) {
-    audio = document.createElement('audio');
-    audio.dataset.src = url;
-    audio.src = url;
-    document.body.appendChild(audio);
-  }
-  // Stop others
-  document.querySelectorAll('audio').forEach(a => { if (a !== audio) a.pause(); });
-  audio.currentTime = 0;
-  audio.play().catch(e => console.warn('Audio play failed:', e));
+function saveProgress() {
+  const current = loadProgress(currentUnit);
+  current.answers = answers;
+  localStorage.setItem(`${PROGRESS_KEY}_${currentUnit}`, JSON.stringify(current));
+}
 
-  if (btn) {
-    btn.classList.add('playing');
-    audio.onended = () => btn.classList.remove('playing');
-  }
-};
+function markSeen(tabId) {
+  const current = loadProgress(currentUnit);
+  current.seen[tabId] = true;
+  localStorage.setItem(`${PROGRESS_KEY}_${currentUnit}`, JSON.stringify(current));
+}
 
-// ── Progress ──
-function markSeksiComplete(seksi) {
-  if (!seksi || completedSeksi[seksi]) return;
-  completedSeksi[seksi] = true;
-  updateProgress();
-  saveProgress();
+function markKnown(sectionId, cardId) {
+  const current = loadProgress(currentUnit);
+  current.known[sectionId] = current.known[sectionId] || {};
+  current.known[sectionId][cardId] = true;
+  localStorage.setItem(`${PROGRESS_KEY}_${currentUnit}`, JSON.stringify(current));
 }
 
 function updateProgress() {
-  const totalSeksi = new Set();
-  NAV.forEach(t => t.seksi.forEach(s => totalSeksi.add(s)));
-  const total = totalSeksi.size;
-  const done = Object.keys(completedSeksi).filter(s => completedSeksi[s]).length;
-  const pct = total > 0 ? Math.round((done / total) * 100) : 0;
-
+  const progress = loadProgress(currentUnit);
+  const readingTotal = moduleData?.sections.reading?.length || 0;
+  const listeningTotal = moduleData?.sections.listening?.length || 0;
+  const answered = Object.keys(progress.answers || {}).length;
+  const seenCount = Object.keys(progress.seen || {}).filter(k => k !== 'source').length;
+  const knownCount = Object.values(progress.known || {}).reduce((sum, group) => sum + Object.keys(group || {}).length, 0);
+  const total = currentTabs.length + readingTotal + listeningTotal + Math.min(60, moduleData?.sections.vocab?.length || 0);
+  const done = seenCount + answered + Math.min(60, knownCount);
+  const pct = total ? Math.min(100, Math.round(done / total * 100)) : 0;
   const fill = document.getElementById('progressFill');
   const label = document.getElementById('progressLabel');
-  if (fill) fill.style.width = pct + '%';
+  if (fill) fill.style.width = `${pct}%`;
   if (label) label.textContent = `Unit ${currentUnit} — ${pct}% selesai`;
 }
 
-async function saveProgress() {
-  try {
-    const { data: { user } } = await supabase.auth.getUser();
-    if (!user) return;
-
-    for (const [seksi, done] of Object.entries(completedSeksi)) {
-      if (done) {
-        await supabase.from('progress_unit').upsert({
-          user_id: user.id,
-          unit_id: currentUnit,
-          seksi: seksi,
-          completed: true,
-          updated_at: new Date().toISOString(),
-        }, { onConflict: 'user_id,unit_id,seksi' });
-      }
-    }
-  } catch (e) {
-    console.warn('Progress save failed:', e);
-  }
+function escapeHtml(value) {
+  return String(value || '').replace(/[&<>"']/g, char => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;',
+  }[char]));
 }
 
-// ── Utils ──
-function shuffleArray(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
+function escapeAttr(value) {
+  return escapeHtml(value).replace(/`/g, '&#96;');
 }
 
-function extractWords(text) {
-  // Extract Korean/words from text
-  if (!text) return [];
-  const lines = text.split('\n').filter(Boolean);
-  // Use first few lines or words
-  return lines.slice(0, 8);
-}
-
-function generateDistractors(words, count) {
-  const distractors = ['???', '???', '???', '???', '???', '???'];
-  return distractors.slice(0, count);
-}
-
-function segmentText(text, blanks) {
-  // Split text and mark blank segments
-  if (!blanks || !blanks.length) return [{ text: text || '' }];
-  const result = [];
-  let remaining = text || '';
-  blanks.forEach((blank, idx) => {
-    const pos = remaining.indexOf(blank);
-    if (pos >= 0) {
-      if (pos > 0) result.push({ text: remaining.slice(0, pos) });
-      result.push({ blank: true, idx });
-      remaining = remaining.slice(pos + blank.length);
-    }
-  });
-  if (remaining) result.push({ text: remaining });
-  return result;
+function textToHtml(value) {
+  return escapeHtml(value).replace(/\n/g, '<br>');
 }

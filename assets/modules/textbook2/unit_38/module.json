@@ -1,0 +1,913 @@
+{
+  "book": "textbook2",
+  "source": "EPS-TOPIK Standard Textbook 2",
+  "unit": 38,
+  "title_ko": "기계 조립",
+  "title_en": "Machine Assembly",
+  "title_id": "Perakitan Mesin",
+  "source_pdf": "assets/langit-korea-modules/unit_38_machine_assembly.pdf",
+  "page_start": 87,
+  "page_end": 96,
+  "pages": [
+    {
+      "number": 1,
+      "image": "assets/modules/textbook2/unit_38/pages/page_01.jpg",
+      "text": "38 기계 조립 \n MACHINE ASSEMBLY 87\n어휘 VOCABULARY\n조립 공구와 부품 Assembly Tools and Parts\n플라이어\npliers\n롱 노즈 플라이어\nlong-nosed pliers\n펜치\npincers\n니퍼\nnippers\n스패너\nwrench\n멍키 스패너\nadjustable wrench\n토크 렌치\ntorque wrench\n육각 렌치\nhex key\n파이프 렌치\npipe wrench\n볼트\nbolt\n너트\nnut\n나사못\nscrew\n조이다\nto tighten\n풀다\nto loosen\n상태 condition\n확인하다 to confirm\n조립하다 to assemble\n단단하다 to be solid\n파손되다 to be damaged\n느슨하다 to be loose\n고정하다 to make something fixed\n조절하다 to control\n철사 wire\n힘 strength\n분해하다 to disassemble\n 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.\n⑴\n가 : 이 철사는 뭘로 잘라요?\n나 : (으)로 자르면 돼요.\n⑵\n가 : 스패너로 조립할까요?\n나 : 아니요, (으)로 조이는 게 더 좋아요.\n⑶\n가: 이 은/는 다른 것과 모양이 다르네요. \n나: 맞아요. 부품 사이즈에 맞게 조절할 수 있어서 좋아요.\n⑷\n가 : 반장님, 파이프를 조일 때는 무슨 공구를 사용해요?\n나 : 을/를 사용하면 돼요."
+    },
+    {
+      "number": 2,
+      "image": "assets/modules/textbook2/unit_38/pages/page_02.jpg",
+      "text": "88 한국어 표준교재 2\n문법 GRAMMAR\n-(으)면서 \n‘-(으)면서’는 동사, 형용사에 붙어 앞 절의 행위가 뒤 절의 행위와 동시에 일어남을 나타내거나 앞 절과 뒤 절에서 \n말하는 상태가 동시에 유지되고 있음을 나타낸다.\n‘-(으)면서’ is attached to verbs or adjectives to indicate that the actions in the first and second clauses happen \nsimultaneously, or that the states in both clauses are maintained at the same time.\n받침 ○\n-으면서\n \n앉다 → 앉으면서\n받침 ×, 받침 ‘ㄹ’\n-면서\n \n일하다 → 일하면서\n \n만들다 → 만들면서\n예 마두 씨는 항상 웃으면서 이야기를 해요.\n \n위험하니까 작업하면서 이야기하지 마세요. \n \n공구함을 정리하면서 공구 상태를 꼭 확인하세요.\n1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.\n돕다 당기다 조이다 확인하다 \n⑴ 스패너를 앞쪽으로 돌려야 조립이 잘돼요. \n⑵ 직장에서는 서로 사이좋게 일해야 돼요.\n⑶ 재작업하지 않게 작업 도면을 부품을 조립하세요.\n⑷ 멍키 스패너로 부품의 고정 상태를 확인했어요.\n2. [보기]와 같이 알맞은 것을 연결하고 문장을 쓰세요. \nConnect the related items and write the sentences as shown in the example.\n[보기]\n⑴\n⑵\n⑶\n안전 규칙을 지키다 \n창고를 정리하다 \n힘 조절을 하다\n작업 도면을 보다 \n●\n●\n●\n●\n●\n●\n●\n●\n너트를 조이다\n작업하다 \n작업 순서를 확인하다\n재고를 파악하다\n [보기] \n 안전 규칙을 지키면서 작업하세요 .\n \n⑴ \n .\n \n⑵ \n .\n \n⑶ \n ."
+    },
+    {
+      "number": 3,
+      "image": "assets/modules/textbook2/unit_38/pages/page_03.jpg",
+      "text": "38 기계 조립 \n MACHINE ASSEMBLY 89\n반장님 \n조립할 때 쓸 부품하고 공구는 준비됐어요?\n \nAre the parts and tools ready for assembly?\n마\n두 \n네, 볼트하고 너트, 토크 렌치를 준비해 놓았습니다. \n그리고 이게 오늘 조립할 기계의 도면입니다. \n그런데 반장님, 여기 있는 토크 값이 뭐예요?\n \nYes, I’ve prepared the bolts, nuts, and torque wrench, \nand here is the blueprint for today’s machine assembly. \nBy the way, what does the torque value here mean?\n반장님 \n볼트를 돌릴 때 들어가는 힘을 말해요. 여기 있는 \n토크 값대로 조여야 볼트가 파손되지 않아요.\n \nIt refers to the amount of force needed to tighten the bolt. You must tighten it according to the torque value \nto not damage the bolt. \n마\n두 \n아, 그래서 토크 렌치가 있어야 되네요.\n \nAh, so that’s why the torque wrench is necessary.\n반장님 \n네, 맞아요. 토크 렌치가 있으면 토크 값을 미리 설정해서 볼트를 조일 수 있어요.\n \nYes, with the torque wrench, you can set the torque value in advance and tighten the bolt accordingly.\n마\n두 \n아, 이제 이해했습니다. 그럼 도면을 보면서 토크 값을 먼저 확인하겠습니다.\n \nI understand now. I will check the torque value first while reading the blueprint.\n대화 CONVERSATION\n대답해 봐요! ANSWER ME!\n1 오늘 조립 작업에 필요한 부품과 공구는 뭐예요? \nWhat are the parts and tools needed for today’s assembly work? \n2 토크 렌치의 기능은 뭐예요? What is the function of a torque wrench?\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•도면을 보다, 기계 부품을 조립하다, 스패너\n•기계를 분해하다, 고장 원인을 찾다, 육각 렌치\n가 : 지금 무슨 작업을 하고 있어요?\n나 : 도면을 보면서 기계 부품을 조립하고 있어요.\n가 : 무슨 공구로 작업하고 있어요?\n나 : 스패너로 작업하고 있어요.\n발음 │ PRONUNCIATION\n받침 ‘ㅄ, ㄵ, ㄼ’ 뒤에 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’가 연결되는 경우, 겹자음 중 앞의 것만 발음하고 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’는 된소리로 \n발음한다. \nWhen ‘ㅄ, ㄵ, ㄼ’ are followed by ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’, only the first consonant of the cluster is pronounced, \nand ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’ are pronounced as tense sounds.\n⑴ 값지다[갑찌다] \n앉자[안짜] \n얹고[언꼬]\n⑵ 넓다[널따] \n여덟 개[여덜깨] \n214\n213"
+    },
+    {
+      "number": 4,
+      "image": "assets/modules/textbook2/unit_38/pages/page_04.jpg",
+      "text": "90 한국어 표준교재 2\n어휘 VOCABULARY\n조립 및 분해 작업 관련 어휘 Assembly and Disassembly Process\n일자 드라이버\nflat-head screwdriver\n십자드라이버\nphillips screwdriver\n베어링\nbearings\n기어\ngear\n코일 스프링\ncoil spring\n풀러\npuller\n수준기\nlevel instrument\n육각형\nhexagon\n사각형\nquadrilateral\n원형\ncircle\n마모되다\nto be worn down\n교체하다 to substitute\n생기다 to be formed\n없어지다 to disappear\n경사 slope\n해결 solution\n자석 magnet\n가져오다 to bring\n평평하다 to be flat\n축 shaft\n돌아가다 to rotate\n 그림을 보고 문장을 완성하세요. Look at the pictures and complete the sentences.\n⑴\n (으)로 경사를 측정해서 평평한 곳에 기계를 설치해요.\n⑵\n기계 부품이 단단하게 고정되어 있어서 을/를 사용해서 부품을 \n분리했어요.\n⑶\n기계에 을/를 장착하여 부품들이 손상되지 않았습니다.\n⑷\n 을/를 교체해서 기계의 축이 부드럽게 돌아갑니다."
+    },
+    {
+      "number": 5,
+      "image": "assets/modules/textbook2/unit_38/pages/page_05.jpg",
+      "text": "38 기계 조립 \n MACHINE ASSEMBLY 91\n문법 GRAMMAR\n-는 중이다\n‘-는 중이다’는 동사에 붙어 어떤 행위가 진행되고 있음을 나타낸다.\n‘-는 중이다’ is attached to verbs to indicate that an action is currently in progress.\n예 지금 트럭에 제품을 싣는 중입니다.\n \n반장님은 지금 사장님과 이야기를 나누는 중이에요.\n \n도면을 보면서 작업 순서를 확인하는 중이니까 잠시만 기다려 주세요.\n※ 명사와 함께 사용할 때는 ‘명사 중이다’의 구성으로 사용한다.\n \nWhen used with nouns it takes the form ‘noun 중이다’.\n \n예 기계가 작동 중일 때는 전원을 끄지 마세요. \n1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요. \nComplete the sentences with the correct options as shown in the example.\n풀다 조이다 가져오다 포장하다 분해하다\n생산된 제품을 출하하려고 지금 포장하는 중입니다. \n[ 보기 ]\n⑴ 조립이 잘못되어서 지금 제품을 .\n⑵ 지금 스패너로 너트를 단단하게 .\n⑶ 고장난 제품을 수리하려고 일자 드라이버로 나사못을 .\n⑷ 조립할 부품을 창고에서 .\n2. 알맞은 것을 골라 대화를 완성하세요. Complete the conversations with the correct options.\n분류하다 교체하다 확인하다 점검하다 \n⑴ 가 : 지금 뭐 하고 있어요?\n \n나 : 부품을 조립하려고 도면을 .\n⑵ 가 : 지금 작업을 시작할 수 있어요?\n \n나 : 아니요, 기계가 작동하지 않아서 기계를 . \n⑶ 가 : 이 드라이버들은 왜 여기에 있어요?\n \n나 : 지금 마모된 드라이버들을 .\n⑷ 가 : 고장난 기계의 부품은 도착했어요?\n \n나 : 네, 아까 도착해서 지금 부품을 크기에 따라 ."
+    },
+    {
+      "number": 6,
+      "image": "assets/modules/textbook2/unit_38/pages/page_06.jpg",
+      "text": "92 한국어 표준교재 2\n반장님 \n지금 무슨 작업을 하고 있어요?\n \nWhat task are you doing right now?\n아\n궁 \n나사못을 조이는 중입니다. 방금 조립이 끝났는데 이 부분이 단단하게 고정이 안 되어 있어서요.\n \nI’m tightening the screws. I just finished the assembly, but this part isn’t fixed tightly enough. \n반장님 \n여기는 공간이 좁아서 자석식 드라이버로 조립해야 될 거예요. 한 손으로 나사와 드라이버를 \n다룰 수 있어서 좁은 곳에 있는 나사를 쉽게 조일 수 있어요. 공구함에 있으니까 그걸로 \n작업해 보세요.\n \nSince the space here is narrow, you’ll need to assemble it with \na magnetic screwdriver. You can use one hand for both the \nscrew and the screwdriver, making it easier to tighten screws \nin tight spaces. It’s in the toolbox, so try using it.\n아\n궁 \n네, 자석식 드라이버로 다시 조립해 보겠습니다.\n \nOkay, I’ll try assembling it again using the magnetic screwdriver.\n반장님 \n아, 그리고 작업할 때 이물질을 자주 제거해 주세요. \n자석에 금속 이물질이 쉽게 붙어요.\n \nAlso, when you are working, please frequently remove any \nforeign objects. Metal debris tends to stick to the magnet.\n대화 CONVERSATION\n대답해 봐요! ANSWER ME!\n1 아궁 씨는 지금 무엇을 하고 있어요? What is Agung doing right now?\n2 왜 자석식 드라이버를 사용해야 돼요? Why does he need to use a magnetic screwdriver? \n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•작업 공구를 정리하다, 공구 상태를 확인하다\n•도면을 확인하다, 필요한 부품을 적어 놓다\n가 : 무슨 작업을 하고 있어요?\n나 : 지금 작업 공구를 정리하는 중입니다.\n가 : 작업 공구를 정리하면서 공구 상태를 확인하세요.\n가 : 반장님, 지금 통화 괜찮으세요? \nBanjangnim, is it okay to talk right now? \n나 : 네, 괜찮아요. 무슨 일 있어요? Yes, it’s fine. What’s going on? \n유용한 표현 │ USEFUL EXPRESSION\n지금 통화 괜찮으세요?\nIs it okay to call \nright now?\n216\n215"
+    },
+    {
+      "number": 7,
+      "image": "assets/modules/textbook2/unit_38/pages/page_07.jpg",
+      "text": "38 기계 조립 \n MACHINE ASSEMBLY 93\n문화와 정보 CULTURE & INFORMATION\n• 조립 공구와 부품의 명칭을 활용하여 대화할 수 있다. \nI can have a conversation using the names of assembly tools and parts. \n↻\n• 공구 사용법에 대해 묻고 대답할 수 있다. I can ask and answer questions about how to use tools. \n↻\n• 지금 하고 있는 일을 표현할 수 있다. I can express what I am currently doing. \n↻\n확인해요 │ self assessment\n38 기계 조립 \n MACHINE ASSEMBLY 93\n한국의 자동차 산업 \nKorea’s Automobile Industry\n자동차 산업은 한국의 주요 성장 동력 산업의 하나입니다. 한\n국은 수출을 중심으로 자동차 산업을 꾸준히 발전시켜 2023년 \n기준 세계 5위의 자동차 생산국이 되었습니다. 2023년 세계 자\n동차 시장의 점유율을 보면 일본이 29.1%로 1위, 유럽이 \n24.9%로 2위, 3위는 17.9%의 중국이며, 점유율 8.5%의 한국\n은 15.2%인 미국에 이어 5위를 차지하였습니다.\nThe automotive industry is one of Korea's major growth \nindustries. Korea has steadily developed its automotive sector \nwith a focus on exports, becoming the world’s fifth-largest \ncar producer as of 2023. In the global automotive market \nshare for 2023, Japan leads with 29.1%, Europe ranks second \nwith 24.9%, China is third with 17.9%, fourth is the United \nstates with 15.2%, and Korea follows with 8.5%.\n한국의 주요 자동차 회사들은 글로벌 경쟁력을 바탕으로 현\n재 세계 시장에서 선도적인 역할을 하고 있습니다. 한국에는 현\n대자동차, 기아자동차, KGM, 한국GM, 르노코리아 등 다양한 \n기업이 있는데 그중 현대자동차는 2023년 자동차 판매량에서 \n세계 3위를 차지한 글로벌 기업입니다.\nKorea's major automotive companies currently play a leading \nrole in the global market thanks to their competitive edge. \nVarious Korean companies such as Hyundai Motor, Kia \nMotors, KGM, GM Korea, and Renault Korea operate in the \nautomotive industry. Among them, Hyundai Motor is a global \nleader, ranking third in global car sales in 2023.\n한국의 자동차 기업들은 최근 전기차(EV)나 수소차와 같은 \n친환경 자동차 분야의 기술 개발에 많은 투자를 하고 있습니다. \n친환경 자동차 분야의 기술 혁신을 바탕으로 현대자동차와 기\n아자동차는 2024년 1분기를 기준으로 전기차 판매 실적에서 \n세계 4위에 오르기도 했습니다. 또한 미래 자동차 기술의 핵심\n인 자율주행 기술의 연구와 개발에도 투자를 아끼지 않고 있습\n니다.\nKorean automotive companies are heavily investing in the \ndevelopment of eco-friendly vehicles like electric vehicles \n(EVs) and hydrogen vehicles. Hyundai Motor and Kia Motors \nranked fourth in global electric vehicle sales in the first \nquarter of 2024 based on technological innovations in the \neco-friendly automotive sector. They are also dedicating \nsubstantial resources to researching and developing \nautonomous driving technology, which is considered to be a \nkey aspect of future automotive advancements."
+    },
+    {
+      "number": 8,
+      "image": "assets/modules/textbook2/unit_38/pages/page_08.jpg",
+      "text": "읽기 READING\n94 한국어 표준교재 2\n1. \n다음 내용과 관계있는 그림을 고르십시오.\n드라이버입니다.\n①\n②\n③\n④\n2. 다음 단어와 관계있는 것은 무엇입니까?\n스패너\n① 기계 \n \n \n② 공구 \n③ 자재 \n \n \n④ 부품\n3. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오. \n① 펜치로 철사를 재요. \n \n \n② 니퍼로 철사를 뚫어요. \n③ 스패너로 너트를 묶어요. \n \n④ 드라이버로 나사를 돌려요.\n4. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n오늘은 기계 을/를 하는 날입니다. 제대로 작동하는지 확인해야 합니다. \n① 청소 \n \n \n② 포장\n③ 점검 \n \n \n④ 분류\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국의 자동차 산업은 한국 경제 성장을 이끄는 중요한 산업 중 하나입니다. 2023년 기준 한국의 \n자동차 시장 점유율은 일본, 유럽, 중국, 미국에 이어 세계 5위입니다. 한국의 자동차 회사들은 미래의 \n자동차 기술인 전기차, 수소차와 같은 친환경 자동차기술과 자율주행 기술 개발에 많은 투자를 하고 \n있습니다.\n① 미국은 2023년에 세계에서 가장 많은 자동차를 생산했습니다.\n② 한국의 자동차 기업들은 수소차 개발에 투자를 하지 않습니다.\n③ 한국의 자동차 기업들은 자율주행 기술 개발에 관심이 없습니다.\n④ 2023년 한국의 자동차 시장 점유율은 세계에서 다섯 번째로 높습니다."
+    },
+    {
+      "number": 9,
+      "image": "assets/modules/textbook2/unit_38/pages/page_09.jpg",
+      "text": "듣기 LISTENING\n38 기계 조립 \n MACHINE ASSEMBLY 95\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n2. 다음을 듣고 물음에 알맞은 대답을 고르십시오. \n① 제가 할 거예요. \n \n \n② 혼자 할 거예요. \n③ 내일부터 할 거예요. \n \n \n④ 작업장에서 할 거예요. \n3. 두 사람은 무엇에 대해 말하고 있습니까? \n① 작업 도구 \n \n \n② 작업 순서 \n③ 작업 시간 \n \n \n④ 작업 장소\n4. 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n① 필요한 기계를 미리 준비하세요. \n② 작동을 멈추고 점검을 요청합시다.\n③ 도면을 보고 작업 순서를 확인할게요. \n④ 작업하기 전에 조립 부품을 가져오세요.\n5. \n여자가 다른 공구로 작업해야 하는 이유는 무엇입니까?\n① 스패너가 부러져서 \n \n \n② 스패너가 무거워서\n③ 스패너가 너무 커서 \n \n \n④ 스패너를 잃어버려서\n1. \n여 : 플라이어가 의자 위에 있어요. \n2. 남 : 언제 부품 조립을 시작할 거예요?\n3. 여 : 이 나사는 뭐로 조여야 돼요?\n \n남 : 나사가 커서 제일 큰 드라이버로 조여야 돼요. \n4. 남 : 기계에서 소음이 나요. \n5. 남 : 지금 무슨 작업을 하고 있어요? \n \n여 : 이 부품을 조여야 되는데 잘 안 되네요.\n \n남 : 스패너 치수가 안 맞는 것 같아요. 아주 작은 치수의 스패너로 해 보세요.\n \n여 : 알겠어요. 작은 스패너로 해 볼게요.\n듣기지문\n217"
+    },
+    {
+      "number": 10,
+      "image": "assets/modules/textbook2/unit_38/pages/page_10.jpg",
+      "text": "학습 목표\nLEARNING OBJECTIVES\n공구의 이름과 사용 방법을 말할 수 있다.\nCan talk about the names and usages of tools. \n절단과 용접 작업에 대해 이야기할 수 있다.\nCan talk about cutting and welding work. \n금속 가공 \nMetal Processing \nC H A P T E R 3 9\n-(으)라고 하다\n-기 전에\nGRAMMAR\n문법\n작업용 공구 관련 어휘\nVocabulary Related to Workplace \nTools \n절단 및 용접 관련 어휘\nVocabulary Related to Cutting and \nWelding \nVOCABULARY\n어휘\n그라인더 사용 시 주의 사항\nSafety Precautions When Using a \nGrinder\nCULTURE & INFORMATION\n문화와 정보\n반장님이 용접 작업을 하라고 했어요.\n오늘은 무슨 일을 해요?\n96 한국어 표준교재 2\nEPS-TOPIK"
+    }
+  ],
+  "sections": {
+    "vocab": [
+      {
+        "id": "vocab_1",
+        "front": "38 기계 조립",
+        "back": "MACHINE ASSEMBLY 87",
+        "raw": {
+          "korean": "38  기계 조립",
+          "indonesia": "MACHINE ASSEMBLY   87"
+        }
+      },
+      {
+        "id": "vocab_2",
+        "front": "어휘",
+        "back": "VOCABULARY",
+        "raw": {
+          "korean": "어휘",
+          "indonesia": "VOCABULARY"
+        }
+      },
+      {
+        "id": "vocab_3",
+        "front": "조립 공구와 부품",
+        "back": "Assembly Tools and Parts",
+        "raw": {
+          "korean": "조립 공구와 부품",
+          "indonesia": "Assembly Tools and Parts"
+        }
+      },
+      {
+        "id": "vocab_4",
+        "front": "플라이어",
+        "back": "pliers",
+        "raw": {
+          "korean": "플라이어",
+          "indonesia": "pliers"
+        }
+      },
+      {
+        "id": "vocab_5",
+        "front": "롱 노즈 플라이어",
+        "back": "long-nosed pliers",
+        "raw": {
+          "korean": "롱 노즈 플라이어",
+          "indonesia": "long-nosed pliers"
+        }
+      },
+      {
+        "id": "vocab_6",
+        "front": "펜치",
+        "back": "pincers",
+        "raw": {
+          "korean": "펜치",
+          "indonesia": "pincers"
+        }
+      },
+      {
+        "id": "vocab_7",
+        "front": "니퍼",
+        "back": "nippers",
+        "raw": {
+          "korean": "니퍼",
+          "indonesia": "nippers"
+        }
+      },
+      {
+        "id": "vocab_8",
+        "front": "스패너",
+        "back": "wrench",
+        "raw": {
+          "korean": "스패너",
+          "indonesia": "wrench"
+        }
+      },
+      {
+        "id": "vocab_9",
+        "front": "멍키 스패너",
+        "back": "adjustable wrench",
+        "raw": {
+          "korean": "멍키 스패너",
+          "indonesia": "adjustable wrench"
+        }
+      },
+      {
+        "id": "vocab_10",
+        "front": "토크 렌치",
+        "back": "torque wrench",
+        "raw": {
+          "korean": "토크 렌치",
+          "indonesia": "torque wrench"
+        }
+      },
+      {
+        "id": "vocab_11",
+        "front": "육각 렌치",
+        "back": "hex key",
+        "raw": {
+          "korean": "육각 렌치",
+          "indonesia": "hex key"
+        }
+      },
+      {
+        "id": "vocab_12",
+        "front": "파이프 렌치",
+        "back": "pipe wrench",
+        "raw": {
+          "korean": "파이프 렌치",
+          "indonesia": "pipe wrench"
+        }
+      },
+      {
+        "id": "vocab_13",
+        "front": "볼트",
+        "back": "bolt",
+        "raw": {
+          "korean": "볼트",
+          "indonesia": "bolt"
+        }
+      },
+      {
+        "id": "vocab_14",
+        "front": "너트",
+        "back": "nut",
+        "raw": {
+          "korean": "너트",
+          "indonesia": "nut"
+        }
+      },
+      {
+        "id": "vocab_15",
+        "front": "나사못",
+        "back": "screw",
+        "raw": {
+          "korean": "나사못",
+          "indonesia": "screw"
+        }
+      },
+      {
+        "id": "vocab_16",
+        "front": "조이다",
+        "back": "to tighten",
+        "raw": {
+          "korean": "조이다",
+          "indonesia": "to tighten"
+        }
+      },
+      {
+        "id": "vocab_17",
+        "front": "풀다",
+        "back": "to loosen",
+        "raw": {
+          "korean": "풀다",
+          "indonesia": "to loosen"
+        }
+      },
+      {
+        "id": "vocab_18",
+        "front": "그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.",
+        "back": "⑴",
+        "raw": {
+          "korean": "그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.",
+          "indonesia": "⑴"
+        }
+      },
+      {
+        "id": "vocab_19",
+        "front": "나 : (으)로 자르면 돼요.",
+        "back": "⑵",
+        "raw": {
+          "korean": "나 :                                             (으)로  자르면 돼요.",
+          "indonesia": "⑵"
+        }
+      },
+      {
+        "id": "vocab_20",
+        "front": "나 : 아니요, (으)로 조이는 게 더 좋아요.",
+        "back": "⑶",
+        "raw": {
+          "korean": "나 : 아니요,                                             (으)로  조이는 게 더 좋아요.",
+          "indonesia": "⑶"
+        }
+      },
+      {
+        "id": "vocab_21",
+        "front": "나: 맞아요. 부품 사이즈에 맞게 조절할 수 있어서 좋아요.",
+        "back": "⑷",
+        "raw": {
+          "korean": "나: 맞아요. 부품 사이즈에 맞게 조절할 수 있어서 좋아요.",
+          "indonesia": "⑷"
+        }
+      },
+      {
+        "id": "vocab_22",
+        "front": "어휘",
+        "back": "VOCABULARY",
+        "raw": {
+          "korean": "어휘",
+          "indonesia": "VOCABULARY"
+        }
+      },
+      {
+        "id": "vocab_23",
+        "front": "조립 및 분해 작업 관련 어휘",
+        "back": "Assembly and Disassembly Process",
+        "raw": {
+          "korean": "조립 및 분해 작업 관련 어휘",
+          "indonesia": "Assembly and Disassembly Process"
+        }
+      },
+      {
+        "id": "vocab_24",
+        "front": "일자 드라이버",
+        "back": "flat-head screwdriver",
+        "raw": {
+          "korean": "일자 드라이버",
+          "indonesia": "flat-head screwdriver"
+        }
+      },
+      {
+        "id": "vocab_25",
+        "front": "십자드라이버",
+        "back": "phillips screwdriver",
+        "raw": {
+          "korean": "십자드라이버",
+          "indonesia": "phillips screwdriver"
+        }
+      },
+      {
+        "id": "vocab_26",
+        "front": "베어링",
+        "back": "bearings",
+        "raw": {
+          "korean": "베어링",
+          "indonesia": "bearings"
+        }
+      },
+      {
+        "id": "vocab_27",
+        "front": "기어",
+        "back": "gear",
+        "raw": {
+          "korean": "기어",
+          "indonesia": "gear"
+        }
+      },
+      {
+        "id": "vocab_28",
+        "front": "코일 스프링",
+        "back": "coil spring",
+        "raw": {
+          "korean": "코일 스프링",
+          "indonesia": "coil spring"
+        }
+      },
+      {
+        "id": "vocab_29",
+        "front": "풀러",
+        "back": "puller",
+        "raw": {
+          "korean": "풀러",
+          "indonesia": "puller"
+        }
+      },
+      {
+        "id": "vocab_30",
+        "front": "수준기",
+        "back": "level instrument",
+        "raw": {
+          "korean": "수준기",
+          "indonesia": "level instrument"
+        }
+      },
+      {
+        "id": "vocab_31",
+        "front": "육각형",
+        "back": "hexagon",
+        "raw": {
+          "korean": "육각형",
+          "indonesia": "hexagon"
+        }
+      },
+      {
+        "id": "vocab_32",
+        "front": "사각형",
+        "back": "quadrilateral",
+        "raw": {
+          "korean": "사각형",
+          "indonesia": "quadrilateral"
+        }
+      },
+      {
+        "id": "vocab_33",
+        "front": "원형",
+        "back": "circle",
+        "raw": {
+          "korean": "원형",
+          "indonesia": "circle"
+        }
+      },
+      {
+        "id": "vocab_34",
+        "front": "마모되다",
+        "back": "to be worn down",
+        "raw": {
+          "korean": "마모되다",
+          "indonesia": "to be worn down"
+        }
+      },
+      {
+        "id": "vocab_35",
+        "front": "그림을 보고 문장을 완성하세요. Look at the pictures and complete the sentences.",
+        "back": "⑴",
+        "raw": {
+          "korean": "그림을 보고 문장을 완성하세요. Look at the pictures and complete the sentences.",
+          "indonesia": "⑴"
+        }
+      },
+      {
+        "id": "vocab_36",
+        "front": "(으)로 경사를 측정해서 평평한 곳에 기계를 설치해요.",
+        "back": "⑵",
+        "raw": {
+          "korean": "(으)로 경사를 측정해서 평평한 곳에 기계를 설치해요.",
+          "indonesia": "⑵"
+        }
+      },
+      {
+        "id": "vocab_37",
+        "front": "분리했어요.",
+        "back": "⑶",
+        "raw": {
+          "korean": "분리했어요.",
+          "indonesia": "⑶"
+        }
+      },
+      {
+        "id": "vocab_38",
+        "front": "기계에 을/를 장착하여 부품들이 손상되지 않았습니다.",
+        "back": "⑷",
+        "raw": {
+          "korean": "기계에                                    을/를 장착하여 부품들이 손상되지 않았습니다.",
+          "indonesia": "⑷"
+        }
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar_1",
+        "front": "88 한국어 표준교재 2",
+        "back": "문법 GRAMMAR",
+        "raw": {
+          "pattern": "88   한국어 표준교재  2",
+          "explanation": "문법  GRAMMAR"
+        }
+      },
+      {
+        "id": "grammar_2",
+        "front": "말하는 상태가 동시에 유지되고 있음을 나타낸다.",
+        "back": "‘-(으)면서’ is attached to verbs or adjectives to indicate that the actions in the first and second clauses happen",
+        "raw": {
+          "pattern": "말하는 상태가 동시에 유지되고 있음을 나타낸다.",
+          "explanation": "‘-(으)면서’ is attached to verbs or adjectives to indicate that the actions in the first and second clauses happen"
+        }
+      },
+      {
+        "id": "grammar_3",
+        "front": "공구함을 정리하면서 공구 상태를 꼭 확인하세요.",
+        "back": "1. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.",
+        "raw": {
+          "pattern": "공구함을 정리하면서 공구 상태를 꼭 확인하세요.",
+          "explanation": "1. \u0007알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options."
+        }
+      },
+      {
+        "id": "grammar_4",
+        "front": "2. [보기]와 같이 알맞은 것을 연결하고 문장을 쓰세요.",
+        "back": "Connect the related items and write the sentences as shown in the example.",
+        "raw": {
+          "pattern": "2. \u0007[보기]와 같이 알맞은 것을 연결하고 문장을 쓰세요.",
+          "explanation": "Connect the related items and write the sentences as shown in the example."
+        }
+      },
+      {
+        "id": "grammar_5",
+        "front": "38 기계 조립",
+        "back": "MACHINE ASSEMBLY 91",
+        "raw": {
+          "pattern": "38  기계 조립",
+          "explanation": "MACHINE ASSEMBLY   91"
+        }
+      },
+      {
+        "id": "grammar_6",
+        "front": "‘-는 중이다’는 동사에 붙어 어떤 행위가 진행되고 있음을 나타낸다.",
+        "back": "‘-는 중이다’ is attached to verbs to indicate that an action is currently in progress.",
+        "raw": {
+          "pattern": "‘-는 중이다’는 동사에 붙어 어떤 행위가 진행되고 있음을 나타낸다.",
+          "explanation": "‘-는 중이다’ is attached to verbs to indicate that an action is currently in progress."
+        }
+      },
+      {
+        "id": "grammar_7",
+        "front": "※ 명사와 함께 사용할 때는 ‘명사 중이다’의 구성으로 사용한다.",
+        "back": "When used with nouns it takes the form ‘noun 중이다’.",
+        "raw": {
+          "pattern": "※ 명사와 함께 사용할 때는 ‘명사 중이다’의 구성으로 사용한다.",
+          "explanation": "When used with nouns it takes the form ‘noun 중이다’."
+        }
+      },
+      {
+        "id": "grammar_8",
+        "front": "1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
+        "back": "Complete the sentences with the correct options as shown in the example.",
+        "raw": {
+          "pattern": "1. \u0007알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
+          "explanation": "Complete the sentences with the correct options as shown in the example."
+        }
+      },
+      {
+        "id": "grammar_9",
+        "front": "⑷ 조립할 부품을 창고에서 .",
+        "back": "2. 알맞은 것을 골라 대화를 완성하세요. Complete the conversations with the correct options.",
+        "raw": {
+          "pattern": "⑷\t 조립할 부품을 창고에서                                                                         .",
+          "explanation": "2. \u0007알맞은 것을 골라 대화를 완성하세요. Complete the conversations with the correct options."
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conversation_1",
+        "front": "지금 무슨 작업을 하고 있어요?",
+        "back": "가",
+        "raw": {
+          "speaker": "가",
+          "text": "지금 무슨 작업을 하고 있어요?"
+        }
+      },
+      {
+        "id": "conversation_2",
+        "front": "도면을 보면서 기계 부품을 조립하고 있어요.",
+        "back": "나",
+        "raw": {
+          "speaker": "나",
+          "text": "도면을 보면서 기계 부품을 조립하고 있어요."
+        }
+      },
+      {
+        "id": "conversation_3",
+        "front": "무슨 공구로 작업하고 있어요?",
+        "back": "가",
+        "raw": {
+          "speaker": "가",
+          "text": "무슨 공구로 작업하고 있어요?"
+        }
+      },
+      {
+        "id": "conversation_4",
+        "front": "스패너로 작업하고 있어요. 발음 │ PRONUNCIATION 받침 ‘ㅄ, ㄵ, ㄼ’ 뒤에 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’가 연결되는 경우, 겹자음 중 앞의 것만 발음하고 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’는 된소리로 발음한다. When ‘ㅄ, ㄵ, ㄼ’ are followed by ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’, only the first consonant of the cluster is pronounced, and ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’ are pronounced as tense sounds. ⑴ 값지다[갑찌다] 앉자[안짜] 얹고[언꼬] ⑵ 넓다[널따] 여덟 개[여덜깨] 214 213",
+        "back": "나",
+        "raw": {
+          "speaker": "나",
+          "text": "스패너로 작업하고 있어요. 발음 │ PRONUNCIATION 받침 ‘ㅄ, ㄵ, ㄼ’ 뒤에 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’가 연결되는 경우, 겹자음 중 앞의 것만 발음하고 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’는 된소리로 발음한다. When ‘ㅄ, ㄵ, ㄼ’ are followed by ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’, only the first consonant of the cluster is pronounced, and ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’ are pronounced as tense sounds. ⑴ 값지다[갑찌다] 앉자[안짜] 얹고[언꼬] ⑵ 넓다[널따] 여덟 개[여덜깨] 214 213"
+        }
+      },
+      {
+        "id": "conversation_5",
+        "front": "무슨 작업을 하고 있어요?",
+        "back": "가",
+        "raw": {
+          "speaker": "가",
+          "text": "무슨 작업을 하고 있어요?"
+        }
+      },
+      {
+        "id": "conversation_6",
+        "front": "지금 작업 공구를 정리하는 중입니다.",
+        "back": "나",
+        "raw": {
+          "speaker": "나",
+          "text": "지금 작업 공구를 정리하는 중입니다."
+        }
+      },
+      {
+        "id": "conversation_7",
+        "front": "작업 공구를 정리하면서 공구 상태를 확인하세요.",
+        "back": "가",
+        "raw": {
+          "speaker": "가",
+          "text": "작업 공구를 정리하면서 공구 상태를 확인하세요."
+        }
+      },
+      {
+        "id": "conversation_8",
+        "front": "반장님, 지금 통화 괜찮으세요? Banjangnim, is it okay to talk right now?",
+        "back": "가",
+        "raw": {
+          "speaker": "가",
+          "text": "\u0007반장님, 지금 통화 괜찮으세요? Banjangnim, is it okay to talk right now?"
+        }
+      },
+      {
+        "id": "conversation_9",
+        "front": "네, 괜찮아요. 무슨 일 있어요? Yes, it’s fine. What’s going on? 유용한 표현 │ USEFUL EXPRESSION 지금 통화 괜찮으세요? Is it okay to call right now? 216 215",
+        "back": "나",
+        "raw": {
+          "speaker": "나",
+          "text": "\u0007네, 괜찮아요. 무슨 일 있어요? Yes, it’s fine. What’s going on? 유용한 표현 │ USEFUL EXPRESSION 지금 통화 괜찮으세요? Is it okay to call right now? 216 215"
+        }
+      }
+    ],
+    "culture": [],
+    "reading": [
+      {
+        "id": "u38_m1",
+        "nomor": 1,
+        "tipe": "membaca",
+        "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
+        "teks_soal": "드라이버입니다.",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [],
+        "gambar_pilihan": {}
+      },
+      {
+        "id": "u38_m2",
+        "nomor": 2,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 단어와 관계있는 것은 무엇입니까? 스패너",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "기계",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "공구",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "자재",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "부품",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {}
+      },
+      {
+        "id": "u38_m3",
+        "nomor": 3,
+        "tipe": "membaca",
+        "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "teks_soal": "",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "펜치로 철사를 재요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "니퍼로 철사를 뚫어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "스패너로 너트를 묶어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "드라이버로 나사를 돌려요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {}
+      },
+      {
+        "id": "u38_m4",
+        "nomor": 4,
+        "tipe": "membaca",
+        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+        "teks_soal": "오늘은 기계 을/를 하는 날입니다. 제대로 작동하는지 확인해야 합니다.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "청소",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "포장",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "점검",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "분류",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {}
+      },
+      {
+        "id": "u38_m5",
+        "nomor": 5,
+        "tipe": "membaca",
+        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+        "teks_soal": "한국의 자동차 산업은 한국 경제 성장을 이끄는 중요한 산업 중 하나입니다. 2023년 기준 한국의 자동차 시장 점유율은 일본, 유럽, 중국, 미국에 이어 세계 5위입니다. 한국의 자동차 회사들은 미래의 자동차 기술인 전기차, 수소차와 같은 친환경 자동차기술과 자율주행 기술 개발에 많은 투자를 하고 있습니다. 94 한국어 표준교재 2",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "미국은 2023년에 세계에서 가장 많은 자동차를 생산했습니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "한국의 자동차 기업들은 수소차 개발에 투자를 하지 않습니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "한국의 자동차 기업들은 자율주행 기술 개발에 관심이 없습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "2023년 한국의 자동차 시장 점유율은 세계에서 다섯 번째로 높습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {}
+      }
+    ],
+    "listening": [
+      {
+        "id": "u38_l1",
+        "nomor": 1,
+        "tipe": "mendengarkan",
+        "instruksi": "듣고 알맞은 답을 고르십시오.",
+        "teks_soal": "여 : 플라이어가 의자 위에 있어요.",
+        "jawaban": "c",
+        "audio_teks": "1. 여 : 플라이어가 의자 위에 있어요.\n2. 남 : 언제 부품 조립을 시작할 거예요?\n3. 여 : 이 나사는 뭐로 조여야 돼요?\n남 : 나사가 커서 제일 큰 드라이버로 조여야 돼요.\n4. 남 : 기계에서 소음이 나요.\n5. 남 : 지금 무슨 작업을 하고 있어요?\n여 : 이 부품을 조여야 되는데 잘 안 되네요.\n남 : 스패너 치수가 안 맞는 것 같아요. 아주 작은 치수의 스패너로 해 보세요.\n여 : 알겠어요. 작은 스패너로 해 볼게요.\n38 기계 조립 MACHINE ASSEMBLY 95",
+        "audio_url": "assets/modules/textbook2/audio/unit_38/listening_1.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_01.jpeg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_02.jpeg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_01.jpeg",
+          "b": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_02.jpeg"
+        }
+      },
+      {
+        "id": "u38_l2",
+        "nomor": 2,
+        "tipe": "mendengarkan",
+        "instruksi": "듣고 알맞은 답을 고르십시오.",
+        "teks_soal": "남 : 언제 부품 조립을 시작할 거예요?",
+        "jawaban": "c",
+        "audio_teks": "1. 여 : 플라이어가 의자 위에 있어요.\n2. 남 : 언제 부품 조립을 시작할 거예요?\n3. 여 : 이 나사는 뭐로 조여야 돼요?\n남 : 나사가 커서 제일 큰 드라이버로 조여야 돼요.\n4. 남 : 기계에서 소음이 나요.\n5. 남 : 지금 무슨 작업을 하고 있어요?\n여 : 이 부품을 조여야 되는데 잘 안 되네요.\n남 : 스패너 치수가 안 맞는 것 같아요. 아주 작은 치수의 스패너로 해 보세요.\n여 : 알겠어요. 작은 스패너로 해 볼게요.\n38 기계 조립 MACHINE ASSEMBLY 95",
+        "audio_url": "assets/modules/textbook2/audio/unit_38/listening_2.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_02.jpeg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_02.jpeg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_02.jpeg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_02.jpeg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_02.jpeg",
+          "b": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_02.jpeg",
+          "c": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_02.jpeg",
+          "d": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_02.jpeg"
+        }
+      },
+      {
+        "id": "u38_l3",
+        "nomor": 3,
+        "tipe": "mendengarkan",
+        "instruksi": "듣고 알맞은 답을 고르십시오.",
+        "teks_soal": "여 : 이 나사는 뭐로 조여야 돼요? 남 : 나사가 커서 제일 큰 드라이버로 조여야 돼요.",
+        "jawaban": "a",
+        "audio_teks": "1. 여 : 플라이어가 의자 위에 있어요.\n2. 남 : 언제 부품 조립을 시작할 거예요?\n3. 여 : 이 나사는 뭐로 조여야 돼요?\n남 : 나사가 커서 제일 큰 드라이버로 조여야 돼요.\n4. 남 : 기계에서 소음이 나요.\n5. 남 : 지금 무슨 작업을 하고 있어요?\n여 : 이 부품을 조여야 되는데 잘 안 되네요.\n남 : 스패너 치수가 안 맞는 것 같아요. 아주 작은 치수의 스패너로 해 보세요.\n여 : 알겠어요. 작은 스패너로 해 볼게요.\n38 기계 조립 MACHINE ASSEMBLY 95",
+        "audio_url": "assets/modules/textbook2/audio/unit_38/listening_3.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_03.png"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_03.png"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_03.png"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_03.png"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_03.png",
+          "b": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_03.png",
+          "c": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_03.png",
+          "d": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_03.png"
+        }
+      },
+      {
+        "id": "u38_l4",
+        "nomor": 4,
+        "tipe": "mendengarkan",
+        "instruksi": "듣고 알맞은 답을 고르십시오.",
+        "teks_soal": "남 : 기계에서 소음이 나요.",
+        "jawaban": "b",
+        "audio_teks": "1. 여 : 플라이어가 의자 위에 있어요.\n2. 남 : 언제 부품 조립을 시작할 거예요?\n3. 여 : 이 나사는 뭐로 조여야 돼요?\n남 : 나사가 커서 제일 큰 드라이버로 조여야 돼요.\n4. 남 : 기계에서 소음이 나요.\n5. 남 : 지금 무슨 작업을 하고 있어요?\n여 : 이 부품을 조여야 되는데 잘 안 되네요.\n남 : 스패너 치수가 안 맞는 것 같아요. 아주 작은 치수의 스패너로 해 보세요.\n여 : 알겠어요. 작은 스패너로 해 볼게요.\n38 기계 조립 MACHINE ASSEMBLY 95",
+        "audio_url": "assets/modules/textbook2/audio/unit_38/listening_4.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_04.png"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_04.png"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_04.png"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_04.png"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_04.png",
+          "b": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_04.png",
+          "c": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_04.png",
+          "d": "assets/langit-korea-extracted/unit_38/images/u38_h9_soal_listening_04.png"
+        }
+      },
+      {
+        "id": "u38_l5",
+        "nomor": 5,
+        "tipe": "mendengarkan",
+        "instruksi": "듣고 알맞은 답을 고르십시오.",
+        "teks_soal": "남 : 지금 무슨 작업을 하고 있어요? 여 : 이 부품을 조여야 되는데 잘 안 되네요. 남 : 스패너 치수가 안 맞는 것 같아요. 아주 작은 치수의 스패너로 해 보세요. 여 : 알겠어요. 작은 스패너로 해 볼게요. 38 기계 조립 MACHINE ASSEMBLY 95",
+        "jawaban": "c",
+        "audio_teks": "1. 여 : 플라이어가 의자 위에 있어요.\n2. 남 : 언제 부품 조립을 시작할 거예요?\n3. 여 : 이 나사는 뭐로 조여야 돼요?\n남 : 나사가 커서 제일 큰 드라이버로 조여야 돼요.\n4. 남 : 기계에서 소음이 나요.\n5. 남 : 지금 무슨 작업을 하고 있어요?\n여 : 이 부품을 조여야 되는데 잘 안 되네요.\n남 : 스패너 치수가 안 맞는 것 같아요. 아주 작은 치수의 스패너로 해 보세요.\n여 : 알겠어요. 작은 스패너로 해 볼게요.\n38 기계 조립 MACHINE ASSEMBLY 95",
+        "audio_url": "assets/modules/textbook2/audio/unit_38/listening_5.mp3",
+        "pilihan": [],
+        "gambar_pilihan": {}
+      }
+    ]
+  },
+  "integrity": {
+    "pdf_pages": 10,
+    "vocab_cards": 38,
+    "reading_questions": 5,
+    "listening_questions": 5,
+    "listening_audio": 5
+  }
+}

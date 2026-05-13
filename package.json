@@ -1,4 +1,14 @@
 {
+  "scripts": {
+    "open-test:build": "python -X utf8 scripts/build_open_test_2025.py",
+    "open-test:upload": "python -X utf8 scripts/build_open_test_2025.py --upload-supabase",
+    "modules:textbook1:build": "python -X utf8 scripts/build_textbook1_modules.py",
+    "modules:textbook1:force": "python -X utf8 scripts/build_textbook1_modules.py --force",
+    "modules:textbook2:build": "python -X utf8 scripts/build_textbook2_modules.py",
+    "modules:textbook2:force": "python -X utf8 scripts/build_textbook2_modules.py --force",
+    "special-eps:work:build": "python -X utf8 scripts/build_special_eps_work.py",
+    "special-eps:work:force": "python -X utf8 scripts/build_special_eps_work.py --force"
+  },
   "dependencies": {
     "pdf-parse": "^2.4.5"
   }

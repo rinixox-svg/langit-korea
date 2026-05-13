@@ -1,0 +1,979 @@
+{
+  "book": "textbook2",
+  "source": "EPS-TOPIK Standard Textbook 2",
+  "unit": 48,
+  "title_ko": "선체 건조",
+  "title_en": "Ship Hull Construction",
+  "title_id": "Konstruksi Lambung Kapal",
+  "source_pdf": "assets/langit-korea-modules/unit_48_ship_hull_construction.pdf",
+  "page_start": 187,
+  "page_end": 196,
+  "pages": [
+    {
+      "number": 1,
+      "image": "assets/modules/textbook2/unit_48/pages/page_01.jpg",
+      "text": "48 선체 건조 \n SHIP HULL CONSTRUCTION 187\n에어 스프레이 건\nair spray gun\n에어리스 스프레이 건\nairless spray gun\n페인트/도료 호스\npaint hose\n에어리스 스프레이 펌프\nairless spray pump\n물기 moisture\n부식 corrosion\n면적 area\n매끄럽다 to be smooth\n마무리하다 to finish\n골고루 evenly\n금이 가다 to get cracked\n어휘 VOCABULARY\n선박 도장 관련 어휘 Ship Painting\n선체 hull\n 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.\n갑판 선미부 에어 스프레이 건\n⑴ 에서 도장 작업을 할 때는 바닥에 미끄러지지 않게 조심해야 돼요.\n⑵ 선수부 도장은 끝났으니까 오후에는 프로펠러가 있는 을/를 도장합시다.\n⑶ (으)로 도장 작업을 하면 붓으로 하는 것보다 더 빨리 할 수 있어요.\n분사하다 부식이 일어나다 균열이 생기다\n⑷ 녹이 슬면 선체에 기 쉬우니까 도장할 때 페인트를 골고루 칠해야 돼요.\n⑸ 도장을 마친 선체 표면에 (으)면 금이 간 부분을 다시 도장해야 합니다.\n⑹ 선체 도장 작업을 할 때는 도료 호스가 연결된 스프레이 건으로 페인트를 아요/어요.\n변색\ndiscoloration\n녹 rust\n균열 crack\n분사하다 to spray\n조타실\nwheelhouse\n갑판\ndeck\n선원실\ncrew’s quarters\n프로펠러 \npropeller\n선미부 \nstern section\n중앙부\nmidsection\n선수부 \nbow section"
+    },
+    {
+      "number": 2,
+      "image": "assets/modules/textbook2/unit_48/pages/page_02.jpg",
+      "text": "188 한국어 표준교재 2\n문법 GRAMMAR\n-아지다/어지다\n‘-아지다/어지다’가 동사에 붙을 \n경우 어떤 행위가 저절로 또는 \n외부 요인에 의해 일어나게 됨을 \n나타낸다.\nWhen ‘-아지다/어지다’ is attached \nto a verb, it shows that an action \nhappens either automatically or \ndue to an external factor.\n예 기름 얼룩은 잘 지워지지 않습니다.\n‘-아지다/어지다’는 형용사에 붙어 어떤 상태가 조금씩 변화되어 \n감을 나타낸다.\n‘-아지다/어지다’ attaches to adjectives to indicate that a state \ngradually changes.\nㅏ, ㅗ\n-아지다\n \n많다 → 많아지다\nㅓ, ㅜ, ㅣ…\n-어지다\n \n길다 → 길어지다\n-하다\n-해지다\n \n깨끗하다 → 깨끗해지다\n예 선반 주문이 늘어서 야간작업이 많아졌어요.\n \n제품 출고 시기가 되면 더 바빠질 거예요.\n \n이제 한국 생활에 익숙해졌어요.\n1. [보기]와 같이 문장을 쓰세요. Write the sentences as shown in the example.\n도장 작업을 하다 / 선체가 깨끗하다 ⊙ 도장 작업을 해서 선체가 깨끗해졌습니다.\n[ 보기 ]\n⑴새 기계가 들어오다 / 작업 속도가 빠르다 \n⊙ .\n⑵균열이 많이 생기다 / 선체가 약하다 \n⊙ .\n⑶선체의 녹을 제거하다 / 표면이 매끄럽다 \n⊙ .\n⑷도장 작업을 오래 하다 / 작업장 공기가 나쁘다 ⊙ .\n2. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.\n옮기다 만들다 기다리다 칠하다\n⑴ 벌써부터 고향에 갈 날이 아요/어요.\n⑵ 제품이 완성되면 바로 창고로 아요/어요.\n⑶ 표면이 깨끗해서 페인트가 잘 아요/어요.\n⑷ 선체는 부식에 강한 철판으로 아요/어요."
+    },
+    {
+      "number": 3,
+      "image": "assets/modules/textbook2/unit_48/pages/page_03.jpg",
+      "text": "48 선체 건조 \n SHIP HULL CONSTRUCTION 189\n칼\n로 \n반장님, 도장 준비를 마쳤습니다.\n \nBanjangnim, I am done with the preparations for painting.\n반장님 \n선체 표면은 물로 깨끗하게 청소했지요?\n \nDid you clean the hull surface with water?\n칼\n로 \n네, 물 분사기로 청소한 후에 물기를 완전히 제거해 \n놓았습니다.\n \nYes, I cleaned it with a water sprayer then dried it completely.\n반장님 \n어디 봅시다. 표면이 깨끗해졌네요. 바로 도장 작업을 \n하면 되겠어요. \n \nLet’s see. The surface is clean now. You can start painting the \nsurface right away.\n칼\n로 \n에어 스프레이 건으로 작업하면 되지요?\n \nI can use the air spray gun, right?\n반장님 \n에어 스프레이 건 말고 에어리스 스프레이 건으로 작업하세요. 그래야 짧은 시간에 넓은 면적을 \n도장할 수 있어요. 분사 작업 끝나면 붓으로 마무리하는 것도 잊지 마시고요.\n \nUse the airless spray gun instead of the air spray gun. That way, you can paint a large area in a short time. \nDon't forget to finish with a brush after the spraying is done.\n대화 CONVERSATION\n대답해 봐요! ANSWER ME!\n1 도장 작업을 위해 무엇을 준비했어요? What did they do to prepare for painting?\n2 왜 에어리스 스프레이 건으로 작업해야 돼요? Why should they use the airless spray gun?\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•녹을 제거하다, 도장 작업, 선체가 부식에 강하다\n•선체의 페인트 균열을 스크래퍼로 없애다, 물청소, \n선체 표면이 깨끗하다\n가 : 오늘 할 작업은 뭐예요?\n나 : 오늘은 녹을 제거한 후에 도장 작업을 할 거예요. \n \n도장 작업을 해야 선체가 부식에 강해져요.\n발음 │ PRONUNCIATION\n‘ㅎ, ㄶ, ㅀ’ 뒤에 ‘ㄱ, ㄷ, ㅈ’가 연결되는 경우, ‘ㅎ’와 ‘ㄱ, ㄷ, ㅈ’가 결합되어 각각 [ㅋ, ㅌ, ㅊ]로 발음된다.\nIn cases where ‘ㅎ, ㄶ, ㅀ’ are followed by ‘ㄱ, ㄷ, ㅈ’, ‘ㅎ’ and the following consonant are combined and \npronounced as [ㅋ], [ㅌ], and [ㅊ] respectively.\n⑴ 놓고[노코] \n좋던[조:턴] \n쌓지[싸치]\n⑵ 많고[만:코] \n않던[안턴] \n닳지[달치]\n264\n263"
+    },
+    {
+      "number": 4,
+      "image": "assets/modules/textbook2/unit_48/pages/page_04.jpg",
+      "text": "190 한국어 표준교재 2\n어휘 VOCABULARY\n강관 비계 설치 관련 어휘 Steel Pipe Scaffold Installation\n안전 로프\nsafety rope\n수평\nhorizontal\n수직\nvertical\n대각선\ndiagonal\n안정성 stability\n지지대 support\n세우다 to set up\n임시로 temporarily\n구조물 temporary structure\n능률 efficiency\n고객 customer\n품질 quality\n정기적 regular\n고장 malfunction\n 관계있는 것끼리 연결하세요. Connect the related items.\n⑴\n띳장\n●\n ●\n작업자가 서서 일할 수 있는 곳\n⑵\n작업발판\n●\n●\n높은 곳에서 안전하게 작업할 수 있게 \n임시로 설치하는 구조물\n⑶\n가새\n●\n●\n작업발판의 지지대로 비계 기둥에 \n수평으로 설치하는 파이프\n⑷\n비계\n●\n●\n 비계의 안정성을 높이기 위해 \n대각선으로 설치하는 파이프\n⑸\n밑동잡이\n●\n●\n비계 기둥이 흔들리지 않도록 비계의 \n아랫부분에 설치하는 파이프\n작업발판 \nwork platform\n가새 \nbrace\n깔판 \nfloorboard\n비계기둥 \nscaffold pole\n밑동잡이\nbase stabilizer\n밑받침 철물\nbase metal fitting\n장선\njoist \n띳장\nwale\n안전난간 \nsafety railing"
+    },
+    {
+      "number": 5,
+      "image": "assets/modules/textbook2/unit_48/pages/page_05.jpg",
+      "text": "48 선체 건조 \n SHIP HULL CONSTRUCTION 191\n문법 GRAMMAR\n-는/(으)ㄴ 덕분에 \n‘-는/(으)ㄴ 덕분에’는 동사에 붙어 앞의 내용이 긍정적인 결과에 대한 이유나 원인임을 나타낸다.\n‘-는/(으)ㄴ 덕분에’ attaches to verbs to indicate that the preceding content is the reason or cause for a positive outcome.\n현재\n-는 덕분에\n \n잘하다 → 잘하는 덕분에\n과거\n받침 ○\n-은 덕분에\n \n잡다 → 잡은 덕분에\n받침 ×, 받침 ‘ㄹ’\n-ㄴ 덕분에\n \n배우다 → 배운 덕분에\n \n만들다 → 만든 덕분에\n예 한국어를 잘하는 덕분에 한국 생활이 편해요. \n \n비계를 튼튼하게 설치한 덕분에 안전하게 작업할 수 있습니다.\n \n수평을 잘 맞춘 덕분에 발판이 튼튼하게 설치되었습니다.\n※ 명사와 함께 사용할 때는 ‘명사 덕분에’의 구성으로 사용한다.\nWhen used with a noun, it takes the form ‘noun 덕분에’.\n예 경험이 많은 작업자들 덕분에 일이 빨리 끝났습니다.\n1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요. \nComplete the sentences with the correct options as shown in the example.\n안전 로프를 설치하다 품질 관리를 잘하다 최신 장비를 사용하다 클램프를 잘 설치하다\n클램프를 잘 설치한 덕분에 비계가 흔들리지 않아요.\n[ 보기 ]\n \n⑴ \n 작업 속도가 빨라졌어요.\n \n⑵ \n 고객 만족도가 높아졌습니다.\n \n⑶ \n 사고를 예방할 수 있었습니다. \n2. [보기]와 같이 문장을 바꾸세요. Change the sentences as shown in the example.\n선체에 비계를 설치해서 작업자들이 안전하게 일할 수 있습니다.\n⊙ 선체에 비계를 설치한 덕분에 작업자들이 안전하게 일할 수 있습니다.\n[ 보기 ]\n⑴ 작업장 환경이 좋아져서 작업 능률이 올랐습니다. \n \n⊙ . \n⑵ 정기적으로 기계를 점검해서 고장이 줄었습니다. \n \n⊙ . \n⑶ 반장님이 비계 설치 방법을 잘 가르쳐 주셔서 실수를 하지 않았습니다.\n \n⊙ . \n⑷ 소장님이 현장을 잘 관리해서 사고 없이 공사를 마쳤습니다.\n \n⊙ ."
+    },
+    {
+      "number": 6,
+      "image": "assets/modules/textbook2/unit_48/pages/page_06.jpg",
+      "text": "192 한국어 표준교재 2\n반장님 \n칼로 씨, 오늘 작업해야 하는 구역이 어디예요?\n \nCarlo, where is the area we need to work on today?\n칼\n로 \n조타실 쪽입니다.\n \nIt’s near the wheelhouse. \n반장님 \n비계 기둥은 다 세웠어요?\n \nHave all the scaffold columns been set up?\n칼\n로 \n네, 비계 기둥은 모두 세웠고, 띳장도 거의 다 \n붙였습니다.\n \nYes, all the scaffold columns have been set up, and we are \nalmost finished attaching the wale.\n반장님 \n생각보다 많이 진행했네요.\n \nYou have made so much more progress than I thought.\n칼\n로 \n잘 가르쳐 주신 덕분이에요. 띳장 작업이 끝나면 밑동잡이를 설치하는 거 맞지요?\n \nThanks to you for teaching me well. Once the waling is finished, we will install the base supports, right?\n반장님 \n네, 맞아요. 내가 수평을 확인하는 동안 칼로 씨는 띳장 작업을 마무리해 주세요. 밑동잡이는 함께 \n설치합시다. 안전 로프하고 가새도 설치해야 되니까 작업을 서두르죠.\n \nYes, that's right. Please finish the waling work while I check the level, Carlo. Let’s install the base supports \ntogether. We need to install the safety ropes and braces too, so let's hurry up.\n대화 CONVERSATION\n대답해 봐요! ANSWER ME!\n1 오늘 작업할 구역은 어디예요? Where are they working today?\n2 띳장 작업을 한 후에 무슨 작업을 해요? What are they going to do after waling?\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•비계 설치 작업, 비계를 설치하다, 용접 작업\n•안전 로프 설치 작업, 안전 로프를 설치하다, 배관 작업\n가 : 반장님, 비계 설치 작업을 다 마쳤습니다.\n나 : 수고했어요. 비계를 설치한 덕분에 높은 곳에서도 안전하게 \n \n작업할 수 있겠네요. \n가 : 네, 반장님. 그럼 이제 용접 작업을 시작하면 될까요?\n가 : 반장님, 승진 축하해요. 한턱내세요. \nBanjangnim, congratulations for the promotion. Please treat us.\n나 : 고마워요. 그럴게요. Thanks. I will.\n유용한 표현 │ USEFUL EXPRESSION\n한턱내세요.\nPlease treat us.\n266\n265"
+    },
+    {
+      "number": 7,
+      "image": "assets/modules/textbook2/unit_48/pages/page_07.jpg",
+      "text": "48 선체 건조 \n SHIP HULL CONSTRUCTION 193\n문화와 정보 CULTURE & INFORMATION\n• 선박 도장 작업에 대해 말할 수 있다. I can talk about ship painting tasks. \n↻\n• 강관 비계 구조에 대해 묻고 대답할 수 있다. \nI can ask and answer questions about the structure of steel pipe scaffolding. \n↻\n• 상태의 변화에 대해 표현할 수 있다. I can express changes in the state of something. \n↻\n확인해요 │ self assessment\n48 선체 건조 \n SHIP HULL CONSTRUCTION 193\n한국의 조선업\nKorea’s Shipbuilding Industry\n한국은 세계적으로 유명한 조선업 국가 중 하나로, 대형 선박 및 특수 선박을 건조하는 데 있어 높은 기술력\n을 갖추고 있습니다. 한국의 조선업은 1970년대에 정부 주도의 핵심 산업으로 시작되어, 세계적인 경쟁력을 갖\n추고 있습니다. 한국에는 현대중공업, 삼성중공업, 대우조선해양 등과 같은 세계적인 조선업체들이 있는데, 이\n들 업체는 전 세계 대형 선박 건조 분야에서 높은 시장 점유율을 차지하고 있습니다.\nSouth Korea is one of the world’s leading shipbuilding \nnations and known for its advanced technology in \nconstructing large and specialized vessels. The country's \nshipbuilding industry began in the 1970s as a key sector \npushed by the government, and has since developed \nsignificant global competitiveness. Major South Korean \nshipbuilders such as Hyundai Heavy Industries, Samsung \nHeavy Industries, and Daewoo Shipbuilding & Marine \nEngineering hold substantial market shares in the global \nlarge vessel construction sector.\n한국의 조선업은 기술력, 생산성, 가격 경쟁력 등에서 높은 평\n가를 받고 있습니다. 2020년을 기준으로 한국의 조선업은 R&D \n및 설계, 생산 부문의 기술력을 포함한 종합경쟁력에서 세계 1위\n를 차지하였습니다. 선종별 경쟁력에 있어서도 가스운반선, 유\n조선, 컨테이너선 등에서 높은 경쟁력을 확보하고 있습니다.\nSouth Korea's shipbuilding industry is highly regarded for its \ntechnology, productivity, and cost competitiveness. As of 2020, \nSouth Korea ranked first in overall competitiveness, including \nresearch and development (R&D), design, and production capabilities. The country also maintains high \ncompetitiveness in various vessel types, including gas carriers, oil tankers, and container ships.\n그러나 최근 몇 년간 한국의 조선업은 세계적인 경기 침체와 경쟁의 심화로 인해 다소 어려움을 겪고 있습니\n다. 이를 극복하고자 한국 조선업은 기술 혁신과 구조 개선을 통해 경쟁력을 강화하는 등 조선업 선도국의 입지\n를 유지하기 위한 노력을 끊임없이 하고 있습니다.\nHowever, in recent years, South Korea’s shipbuilding industry has faced some challenges due to the global \neconomic downturn and intensified competition. To overcome these difficulties, South Korea’s shipbuilding sector \nis continuously working to strengthen its competitive edge through technological innovation and structural \nimprovements, striving to maintain its position as a leading shipbuilding nation."
+    },
+    {
+      "number": 8,
+      "image": "assets/modules/textbook2/unit_48/pages/page_08.jpg",
+      "text": "읽기 READING\n194 한국어 표준교재 2\n1. \n다음 단어와 관계있는 것은 무엇입니까?\n도료 호스\n① 재료 \n \n \n② 원료 \n③ 기계 \n \n \n④ 도구\n2. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오. \n① 표면의 물기를 주웠어요. \n \n② 선체 표면의 녹을 제거했어요. \n③ 선체 내부의 온도를 처리했어요. \n④ 오늘 사용할 도료를 조립했어요.\n3. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n도장 작업을 할 때는 작업장을 환기시켜야 합니다. 그래서 도장 작업을 하기 전에 을/를 \n열어야 합니다.\n① 창문 \n \n \n② 줄자\n③ 송풍기 \n \n \n④ 사다리\n4. 다음은 무엇에 대한 설명입니까?\n에어리스 스프레이 건으로 페인트를 분사한 후 붓으로 페인트칠을 마무리합니다.\n① 포장 작업 \n \n \n② 도장 작업\n③ 연마 작업 \n \n \n④ 재단 작업\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국은 세계적으로 경쟁력 있는 조선업 국가로, 대형 선박 및 특수 선박 건조에서 높은 기술력을 \n갖추고 있습니다. 특히 가스운반선, 유조선, 컨테이너선 분야에서 강점을 보입니다. 최근 경기 침체로 \n어려움을 겪고 있지만, 기술 혁신과 구조 개선을 통해 경쟁력을 강화하고 있습니다.\n① 한국의 조선업체들은 주로 소형 선박을 만듭니다. \n② 한국의 조선업은 유조선 분야에서는 기술력이 약합니다.\n③ 한국의 조선업은 경기 침체에도 불구하고 큰 어려움 없이 성장하고 있습니다.\n④ 한국은 세계적으로 특수 선박 건조 분야에서 높은 기술력을 보유하고 있습니다."
+    },
+    {
+      "number": 9,
+      "image": "assets/modules/textbook2/unit_48/pages/page_09.jpg",
+      "text": "듣기 LISTENING\n48 선체 건조 \n SHIP HULL CONSTRUCTION 195\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오\n①\n②\n③\n④\n2. 다음을 듣고 물음에 알맞은 대답을 고르십시오. \n① 칼로 씨하고 할 거예요. \n \n② 내일 오전부터 할 거예요.\n③ 안전난간도 설치할 거예요. \n④ 오늘 네 시간 정도 할 거예요. \n3. 두 사람은 무엇에 대해 말하고 있습니까?\n① 작업 태도 \n \n \n② 작업 장소 \n③ 작업 수칙 \n \n \n④ 작업 순서\n4. 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n① 마스크를 주문했습니다. \n \n \n② 마스크는 작업대 옆에 있습니다. \n③ 지금 바로 마스크를 쓰겠습니다. \n④ 저기 마스크를 쓴 사람이 칼로 씨입니다.\n5. \n오늘 작업할 장소가 바뀐 이유는 무엇입니까?\n① 바람이 너무 강해서 \n \n \n② 작업할 사람이 없어서 \n③ 작업 계획이 잘못돼서 \n \n \n④ 도장 작업을 빨리 마쳐서\n1. \n여 : 로프가 어디에 있어요?\n \n남 : 사다리 옆에 있어요. \n2. 남 : 비계 설치 작업은 언제 시작해요?\n3. 남 : 깔판 작업을 모두 끝냈는데 밑받침 철물을 설치할까요? \n \n여 : 네, 그럽시다. 밑받침 철물 작업 후에 비계기둥을 세워 주세요.\n4. 여 : 칼로 씨, 도장 작업 중에는 마스크를 꼭 착용하세요.\n5. 남 : 오늘 작업할 곳은 갑판이지요? 빨리 가서 도장 작업을 마치겠습니다.\n \n여 : 아, 오늘은 실내 작업부터 먼저 합시다.\n \n남 : 작업 계획서를 보면 오늘은 갑판 도장 작업을 해야 되는데요. \n \n여 : 오늘 바람이 너무 많이 불어서 야외 작업은 어려울 것 같아요. \n듣기지문\n267"
+    },
+    {
+      "number": 10,
+      "image": "assets/modules/textbook2/unit_48/pages/page_10.jpg",
+      "text": "학습 목표\nLEARNING OBJECTIVES\n갱도 시설에 대해 말할 수 있다.\nCan talk about tunnel facilities. \n채광 및 광석 운반 작업에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about mining and ore transport operations.\n광물 자원 개발 생산 \nMineral Resource Development and Production \nC H A P T E R 4 9\n-던\n-느라고\nGRAMMAR\n문법\n갱도 시설 관련 어휘\nVocabulary Related to Tunnel \nFacilities \n채광 및 광석 운반 작업 관련 어휘\nVocabulary Related to Mining and \nOre Transport Operations\nVOCABULARY\n어휘\n전선 접속 방법\nMethod of Connecting Electric Wires\nCULTURE & INFORMATION\n문화와 정보\n반장님은 폭약 작업을 하느라고 바쁘실 거예요. \n반장님을 모셔 올까요?\n196 한국어 표준교재 2\nEPS-TOPIK"
+    }
+  ],
+  "sections": {
+    "vocab": [
+      {
+        "id": "vocab_1",
+        "front": "48 선체 건조",
+        "back": "SHIP HULL CONSTRUCTION 187",
+        "raw": {
+          "korean": "48  선체 건조",
+          "indonesia": "SHIP HULL CONSTRUCTION   187"
+        }
+      },
+      {
+        "id": "vocab_2",
+        "front": "에어 스프레이 건",
+        "back": "air spray gun",
+        "raw": {
+          "korean": "에어 스프레이 건",
+          "indonesia": "air spray gun"
+        }
+      },
+      {
+        "id": "vocab_3",
+        "front": "에어리스 스프레이 건",
+        "back": "airless spray gun",
+        "raw": {
+          "korean": "에어리스 스프레이 건",
+          "indonesia": "airless spray gun"
+        }
+      },
+      {
+        "id": "vocab_4",
+        "front": "페인트/도료 호스",
+        "back": "paint hose",
+        "raw": {
+          "korean": "페인트/도료 호스",
+          "indonesia": "paint hose"
+        }
+      },
+      {
+        "id": "vocab_5",
+        "front": "에어리스 스프레이 펌프",
+        "back": "airless spray pump",
+        "raw": {
+          "korean": "에어리스 스프레이 펌프",
+          "indonesia": "airless spray pump"
+        }
+      },
+      {
+        "id": "vocab_6",
+        "front": "금이 가다",
+        "back": "to get cracked",
+        "raw": {
+          "korean": "금이 가다",
+          "indonesia": "to get cracked"
+        }
+      },
+      {
+        "id": "vocab_7",
+        "front": "어휘",
+        "back": "VOCABULARY",
+        "raw": {
+          "korean": "어휘",
+          "indonesia": "VOCABULARY"
+        }
+      },
+      {
+        "id": "vocab_8",
+        "front": "선박 도장 관련 어휘",
+        "back": "Ship Painting",
+        "raw": {
+          "korean": "선박 도장 관련 어휘",
+          "indonesia": "\u0007Ship Painting"
+        }
+      },
+      {
+        "id": "vocab_9",
+        "front": "선체",
+        "back": "hull",
+        "raw": {
+          "korean": "선체",
+          "indonesia": "hull"
+        }
+      },
+      {
+        "id": "vocab_10",
+        "front": "변색",
+        "back": "discoloration",
+        "raw": {
+          "korean": "변색",
+          "indonesia": "discoloration"
+        }
+      },
+      {
+        "id": "vocab_11",
+        "front": "조타실",
+        "back": "wheelhouse",
+        "raw": {
+          "korean": "조타실",
+          "indonesia": "wheelhouse"
+        }
+      },
+      {
+        "id": "vocab_12",
+        "front": "갑판",
+        "back": "deck",
+        "raw": {
+          "korean": "갑판",
+          "indonesia": "deck"
+        }
+      },
+      {
+        "id": "vocab_13",
+        "front": "선원실",
+        "back": "crew’s quarters",
+        "raw": {
+          "korean": "선원실",
+          "indonesia": "crew’s quarters"
+        }
+      },
+      {
+        "id": "vocab_14",
+        "front": "프로펠러",
+        "back": "propeller",
+        "raw": {
+          "korean": "프로펠러",
+          "indonesia": "propeller"
+        }
+      },
+      {
+        "id": "vocab_15",
+        "front": "선미부",
+        "back": "stern section",
+        "raw": {
+          "korean": "선미부",
+          "indonesia": "stern section"
+        }
+      },
+      {
+        "id": "vocab_16",
+        "front": "중앙부",
+        "back": "midsection",
+        "raw": {
+          "korean": "중앙부",
+          "indonesia": "midsection"
+        }
+      },
+      {
+        "id": "vocab_17",
+        "front": "선수부",
+        "back": "bow section",
+        "raw": {
+          "korean": "선수부",
+          "indonesia": "bow section"
+        }
+      },
+      {
+        "id": "vocab_18",
+        "front": "어휘",
+        "back": "VOCABULARY",
+        "raw": {
+          "korean": "어휘",
+          "indonesia": "VOCABULARY"
+        }
+      },
+      {
+        "id": "vocab_19",
+        "front": "강관 비계 설치 관련 어휘",
+        "back": "Steel Pipe Scaffold Installation",
+        "raw": {
+          "korean": "강관 비계 설치 관련 어휘",
+          "indonesia": "Steel Pipe Scaffold Installation"
+        }
+      },
+      {
+        "id": "vocab_20",
+        "front": "안전 로프",
+        "back": "safety rope",
+        "raw": {
+          "korean": "안전 로프",
+          "indonesia": "safety rope"
+        }
+      },
+      {
+        "id": "vocab_21",
+        "front": "수평",
+        "back": "horizontal",
+        "raw": {
+          "korean": "수평",
+          "indonesia": "horizontal"
+        }
+      },
+      {
+        "id": "vocab_22",
+        "front": "수직",
+        "back": "vertical",
+        "raw": {
+          "korean": "수직",
+          "indonesia": "vertical"
+        }
+      },
+      {
+        "id": "vocab_23",
+        "front": "대각선",
+        "back": "diagonal",
+        "raw": {
+          "korean": "대각선",
+          "indonesia": "diagonal"
+        }
+      },
+      {
+        "id": "vocab_24",
+        "front": "관계있는 것끼리 연결하세요. Connect the related items.",
+        "back": "⑴",
+        "raw": {
+          "korean": "\u0007관계있는 것끼리 연결하세요. Connect the related items.",
+          "indonesia": "⑴"
+        }
+      },
+      {
+        "id": "vocab_25",
+        "front": "띳장",
+        "back": "●",
+        "raw": {
+          "korean": "띳장",
+          "indonesia": "●"
+        }
+      },
+      {
+        "id": "vocab_26",
+        "front": "작업자가 서서 일할 수 있는 곳",
+        "back": "⑵",
+        "raw": {
+          "korean": "작업자가 서서 일할 수 있는 곳",
+          "indonesia": "⑵"
+        }
+      },
+      {
+        "id": "vocab_27",
+        "front": "작업발판",
+        "back": "●",
+        "raw": {
+          "korean": "작업발판",
+          "indonesia": "●"
+        }
+      },
+      {
+        "id": "vocab_28",
+        "front": "임시로 설치하는 구조물",
+        "back": "⑶",
+        "raw": {
+          "korean": "임시로 설치하는 구조물",
+          "indonesia": "⑶"
+        }
+      },
+      {
+        "id": "vocab_29",
+        "front": "가새",
+        "back": "●",
+        "raw": {
+          "korean": "가새",
+          "indonesia": "●"
+        }
+      },
+      {
+        "id": "vocab_30",
+        "front": "수평으로 설치하는 파이프",
+        "back": "⑷",
+        "raw": {
+          "korean": "수평으로 설치하는 파이프",
+          "indonesia": "⑷"
+        }
+      },
+      {
+        "id": "vocab_31",
+        "front": "비계",
+        "back": "●",
+        "raw": {
+          "korean": "비계",
+          "indonesia": "●"
+        }
+      },
+      {
+        "id": "vocab_32",
+        "front": "대각선으로 설치하는 파이프",
+        "back": "⑸",
+        "raw": {
+          "korean": "대각선으로 설치하는 파이프",
+          "indonesia": "⑸"
+        }
+      },
+      {
+        "id": "vocab_33",
+        "front": "밑동잡이",
+        "back": "●",
+        "raw": {
+          "korean": "밑동잡이",
+          "indonesia": "●"
+        }
+      },
+      {
+        "id": "vocab_34",
+        "front": "작업발판",
+        "back": "work platform",
+        "raw": {
+          "korean": "작업발판",
+          "indonesia": "work platform"
+        }
+      },
+      {
+        "id": "vocab_35",
+        "front": "가새",
+        "back": "brace",
+        "raw": {
+          "korean": "가새",
+          "indonesia": "brace"
+        }
+      },
+      {
+        "id": "vocab_36",
+        "front": "깔판",
+        "back": "floorboard",
+        "raw": {
+          "korean": "깔판",
+          "indonesia": "floorboard"
+        }
+      },
+      {
+        "id": "vocab_37",
+        "front": "비계기둥",
+        "back": "scaffold pole",
+        "raw": {
+          "korean": "비계기둥",
+          "indonesia": "scaffold pole"
+        }
+      },
+      {
+        "id": "vocab_38",
+        "front": "밑동잡이",
+        "back": "base stabilizer",
+        "raw": {
+          "korean": "밑동잡이",
+          "indonesia": "base stabilizer"
+        }
+      },
+      {
+        "id": "vocab_39",
+        "front": "밑받침 철물",
+        "back": "base metal fitting",
+        "raw": {
+          "korean": "밑받침 철물",
+          "indonesia": "base metal fitting"
+        }
+      },
+      {
+        "id": "vocab_40",
+        "front": "장선",
+        "back": "joist",
+        "raw": {
+          "korean": "장선",
+          "indonesia": "joist"
+        }
+      },
+      {
+        "id": "vocab_41",
+        "front": "띳장",
+        "back": "wale",
+        "raw": {
+          "korean": "띳장",
+          "indonesia": "wale"
+        }
+      },
+      {
+        "id": "vocab_42",
+        "front": "안전난간",
+        "back": "safety railing",
+        "raw": {
+          "korean": "안전난간",
+          "indonesia": "safety railing"
+        }
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar_1",
+        "front": "188 한국어 표준교재 2",
+        "back": "문법 GRAMMAR",
+        "raw": {
+          "pattern": "188   한국어 표준교재  2",
+          "explanation": "문법  GRAMMAR"
+        }
+      },
+      {
+        "id": "grammar_2",
+        "front": "나타낸다.",
+        "back": "When ‘-아지다/어지다’ is attached",
+        "raw": {
+          "pattern": "나타낸다.",
+          "explanation": "When ‘-아지다/어지다’ is attached"
+        }
+      },
+      {
+        "id": "grammar_3",
+        "front": "감을 나타낸다.",
+        "back": "‘-아지다/어지다’ attaches to adjectives to indicate that a state",
+        "raw": {
+          "pattern": "감을 나타낸다.",
+          "explanation": "‘-아지다/어지다’ attaches to adjectives to indicate that a state"
+        }
+      },
+      {
+        "id": "grammar_4",
+        "front": "이제 한국 생활에 익숙해졌어요.",
+        "back": "1. [보기]와 같이 문장을 쓰세요. Write the sentences as shown in the example.",
+        "raw": {
+          "pattern": "이제 한국 생활에 익숙해졌어요.",
+          "explanation": "1. \u0007[보기]와 같이 문장을 쓰세요. Write the sentences as shown in the example."
+        }
+      },
+      {
+        "id": "grammar_5",
+        "front": "⑷도장 작업을 오래 하다 / 작업장 공기가 나쁘다 ⊙ .",
+        "back": "2. 알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options.",
+        "raw": {
+          "pattern": "⑷도장 작업을 오래 하다 / 작업장 공기가 나쁘다 \t ⊙                                                                                     .",
+          "explanation": "2. \u0007알맞은 것을 골라 문장을 완성하세요. Complete the sentences with the correct options."
+        }
+      },
+      {
+        "id": "grammar_6",
+        "front": "48 선체 건조",
+        "back": "SHIP HULL CONSTRUCTION 191",
+        "raw": {
+          "pattern": "48  선체 건조",
+          "explanation": "SHIP HULL CONSTRUCTION   191"
+        }
+      },
+      {
+        "id": "grammar_7",
+        "front": "‘-는/(으)ㄴ 덕분에’는 동사에 붙어 앞의 내용이 긍정적인 결과에 대한 이유나 원인임을 나타낸다.",
+        "back": "‘-는/(으)ㄴ 덕분에’ attaches to verbs to indicate that the preceding content is the reason or cause for a positive outcome.",
+        "raw": {
+          "pattern": "‘-는/(으)ㄴ 덕분에’는 동사에 붙어 앞의 내용이 긍정적인 결과에 대한 이유나 원인임을 나타낸다.",
+          "explanation": "‘-는/(으)ㄴ 덕분에’ attaches to verbs to indicate that the preceding content is the reason or cause for a positive outcome."
+        }
+      },
+      {
+        "id": "grammar_8",
+        "front": "※ 명사와 함께 사용할 때는 ‘명사 덕분에’의 구성으로 사용한다.",
+        "back": "When used with a noun, it takes the form ‘noun 덕분에’.",
+        "raw": {
+          "pattern": "※ 명사와 함께 사용할 때는 ‘명사 덕분에’의 구성으로 사용한다.",
+          "explanation": "When used with a noun, it takes the form ‘noun 덕분에’."
+        }
+      },
+      {
+        "id": "grammar_9",
+        "front": "1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
+        "back": "Complete the sentences with the correct options as shown in the example.",
+        "raw": {
+          "pattern": "1. \u0007알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
+          "explanation": "Complete the sentences with the correct options as shown in the example."
+        }
+      },
+      {
+        "id": "grammar_10",
+        "front": "사고를 예방할 수 있었습니다.",
+        "back": "2. [보기]와 같이 문장을 바꾸세요. Change the sentences as shown in the example.",
+        "raw": {
+          "pattern": "사고를 예방할 수 있었습니다.",
+          "explanation": "2. \u0007[보기]와 같이 문장을 바꾸세요. Change the sentences as shown in the example."
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conversation_1",
+        "front": "오늘 할 작업은 뭐예요?",
+        "back": "가",
+        "raw": {
+          "speaker": "가",
+          "text": "오늘 할 작업은 뭐예요?"
+        }
+      },
+      {
+        "id": "conversation_2",
+        "front": "오늘은 녹을 제거한 후에 도장 작업을 할 거예요. 도장 작업을 해야 선체가 부식에 강해져요. 발음 │ PRONUNCIATION ‘ㅎ, ㄶ, ㅀ’ 뒤에 ‘ㄱ, ㄷ, ㅈ’가 연결되는 경우, ‘ㅎ’와 ‘ㄱ, ㄷ, ㅈ’가 결합되어 각각 [ㅋ, ㅌ, ㅊ]로 발음된다. In cases where ‘ㅎ, ㄶ, ㅀ’ are followed by ‘ㄱ, ㄷ, ㅈ’, ‘ㅎ’ and the following consonant are combined and pronounced as [ㅋ], [ㅌ], and [ㅊ] respectively. ⑴ 놓고[노코] 좋던[조:턴] 쌓지[싸치] ⑵ 많고[만:코] 않던[안턴] 닳지[달치] 264 263",
+        "back": "나",
+        "raw": {
+          "speaker": "나",
+          "text": "\u0007오늘은 녹을 제거한 후에 도장 작업을 할 거예요. 도장 작업을 해야 선체가 부식에 강해져요. 발음 │ PRONUNCIATION ‘ㅎ, ㄶ, ㅀ’ 뒤에 ‘ㄱ, ㄷ, ㅈ’가 연결되는 경우, ‘ㅎ’와 ‘ㄱ, ㄷ, ㅈ’가 결합되어 각각 [ㅋ, ㅌ, ㅊ]로 발음된다. In cases where ‘ㅎ, ㄶ, ㅀ’ are followed by ‘ㄱ, ㄷ, ㅈ’, ‘ㅎ’ and the following consonant are combined and pronounced as [ㅋ], [ㅌ], and [ㅊ] respectively. ⑴ 놓고[노코] 좋던[조:턴] 쌓지[싸치] ⑵ 많고[만:코] 않던[안턴] 닳지[달치] 264 263"
+        }
+      },
+      {
+        "id": "conversation_3",
+        "front": "반장님, 비계 설치 작업을 다 마쳤습니다.",
+        "back": "가",
+        "raw": {
+          "speaker": "가",
+          "text": "반장님, 비계 설치 작업을 다 마쳤습니다."
+        }
+      },
+      {
+        "id": "conversation_4",
+        "front": "수고했어요. 비계를 설치한 덕분에 높은 곳에서도 안전하게 작업할 수 있겠네요.",
+        "back": "나",
+        "raw": {
+          "speaker": "나",
+          "text": "수고했어요. 비계를 설치한 덕분에 높은 곳에서도 안전하게 작업할 수 있겠네요."
+        }
+      },
+      {
+        "id": "conversation_5",
+        "front": "네, 반장님. 그럼 이제 용접 작업을 시작하면 될까요?",
+        "back": "가",
+        "raw": {
+          "speaker": "가",
+          "text": "네, 반장님. 그럼 이제 용접 작업을 시작하면 될까요?"
+        }
+      },
+      {
+        "id": "conversation_6",
+        "front": "반장님, 승진 축하해요. 한턱내세요. Banjangnim, congratulations for the promotion. Please treat us.",
+        "back": "가",
+        "raw": {
+          "speaker": "가",
+          "text": "\u0007반장님, 승진 축하해요. 한턱내세요. Banjangnim, congratulations for the promotion. Please treat us."
+        }
+      },
+      {
+        "id": "conversation_7",
+        "front": "고마워요. 그럴게요. Thanks. I will. 유용한 표현 │ USEFUL EXPRESSION 한턱내세요. Please treat us. 266 265",
+        "back": "나",
+        "raw": {
+          "speaker": "나",
+          "text": "\u0007고마워요. 그럴게요. Thanks. I will. 유용한 표현 │ USEFUL EXPRESSION 한턱내세요. Please treat us. 266 265"
+        }
+      }
+    ],
+    "culture": [],
+    "reading": [
+      {
+        "id": "u48_m1",
+        "nomor": 1,
+        "tipe": "membaca",
+        "instruksi": "",
+        "teks_soal": "다음 단어와 관계있는 것은 무엇입니까? 도료 호스",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "재료",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "원료",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "기계",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "도구",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {}
+      },
+      {
+        "id": "u48_m2",
+        "nomor": 2,
+        "tipe": "membaca",
+        "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "teks_soal": "",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "표면의 물기를 주웠어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "선체 표면의 녹을 제거했어요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "선체 내부의 온도를 처리했어요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "오늘 사용할 도료를 조립했어요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {}
+      },
+      {
+        "id": "u48_m3",
+        "nomor": 3,
+        "tipe": "membaca",
+        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+        "teks_soal": "도장 작업을 할 때는 작업장을 환기시켜야 합니다. 그래서 도장 작업을 하기 전에 을/를 열어야 합니다.",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "창문",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "줄자",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "송풍기",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "사다리",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {}
+      },
+      {
+        "id": "u48_m4",
+        "nomor": 4,
+        "tipe": "membaca",
+        "instruksi": "다음은 무엇에 대한 설명입니까?",
+        "teks_soal": "에어리스 스프레이 건으로 페인트를 분사한 후 붓으로 페인트칠을 마무리합니다.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "포장 작업",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "도장 작업",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "연마 작업",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "재단 작업",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {}
+      },
+      {
+        "id": "u48_m5",
+        "nomor": 5,
+        "tipe": "membaca",
+        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+        "teks_soal": "한국은 세계적으로 경쟁력 있는 조선업 국가로, 대형 선박 및 특수 선박 건조에서 높은 기술력을 갖추고 있습니다. 특히 가스운반선, 유조선, 컨테이너선 분야에서 강점을 보입니다. 최근 경기 침체로 어려움을 겪고 있지만, 기술 혁신과 구조 개선을 통해 경쟁력을 강화하고 있습니다. 194 한국어 표준교재 2",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "한국의 조선업체들은 주로 소형 선박을 만듭니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "한국의 조선업은 유조선 분야에서는 기술력이 약합니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "한국의 조선업은 경기 침체에도 불구하고 큰 어려움 없이 성장하고 있습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "한국은 세계적으로 특수 선박 건조 분야에서 높은 기술력을 보유하고 있습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {}
+      }
+    ],
+    "listening": [
+      {
+        "id": "u48_l1",
+        "nomor": 1,
+        "tipe": "mendengarkan",
+        "instruksi": "듣고 알맞은 답을 고르십시오.",
+        "teks_soal": "여 : 로프가 어디에 있어요? 남 : 사다리 옆에 있어요.",
+        "jawaban": "b",
+        "audio_teks": "1. 여 : 로프가 어디에 있어요?\n남 : 사다리 옆에 있어요.\n2. 남 : 비계 설치 작업은 언제 시작해요?\n3. 남 : 깔판 작업을 모두 끝냈는데 밑받침 철물을 설치할까요?\n여 : 네, 그럽시다. 밑받침 철물 작업 후에 비계기둥을 세워 주세요.\n4. 여 : 칼로 씨, 도장 작업 중에는 마스크를 꼭 착용하세요.\n5. 남 : 오늘 작업할 곳은 갑판이지요? 빨리 가서 도장 작업을 마치겠습니다.\n여 : 아, 오늘은 실내 작업부터 먼저 합시다.\n남 : 작업 계획서를 보면 오늘은 갑판 도장 작업을 해야 되는데요.\n여 : 오늘 바람이 너무 많이 불어서 야외 작업은 어려울 것 같아요.\n48 선체 건조 SHIP HULL CONSTRUCTION 195",
+        "audio_url": "assets/modules/textbook2/audio/unit_48/listening_1.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_01.png"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_02.png"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_03.png"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_04.png"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_01.png",
+          "b": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_02.png",
+          "c": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_03.png",
+          "d": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_04.png"
+        }
+      },
+      {
+        "id": "u48_l2",
+        "nomor": 2,
+        "tipe": "mendengarkan",
+        "instruksi": "듣고 알맞은 답을 고르십시오.",
+        "teks_soal": "남 : 비계 설치 작업은 언제 시작해요?",
+        "jawaban": "b",
+        "audio_teks": "1. 여 : 로프가 어디에 있어요?\n남 : 사다리 옆에 있어요.\n2. 남 : 비계 설치 작업은 언제 시작해요?\n3. 남 : 깔판 작업을 모두 끝냈는데 밑받침 철물을 설치할까요?\n여 : 네, 그럽시다. 밑받침 철물 작업 후에 비계기둥을 세워 주세요.\n4. 여 : 칼로 씨, 도장 작업 중에는 마스크를 꼭 착용하세요.\n5. 남 : 오늘 작업할 곳은 갑판이지요? 빨리 가서 도장 작업을 마치겠습니다.\n여 : 아, 오늘은 실내 작업부터 먼저 합시다.\n남 : 작업 계획서를 보면 오늘은 갑판 도장 작업을 해야 되는데요.\n여 : 오늘 바람이 너무 많이 불어서 야외 작업은 어려울 것 같아요.\n48 선체 건조 SHIP HULL CONSTRUCTION 195",
+        "audio_url": "assets/modules/textbook2/audio/unit_48/listening_2.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_02.png"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_02.png"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_02.png"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_02.png"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_02.png",
+          "b": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_02.png",
+          "c": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_02.png",
+          "d": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_02.png"
+        }
+      },
+      {
+        "id": "u48_l3",
+        "nomor": 3,
+        "tipe": "mendengarkan",
+        "instruksi": "듣고 알맞은 답을 고르십시오.",
+        "teks_soal": "남 : 깔판 작업을 모두 끝냈는데 밑받침 철물을 설치할까요? 여 : 네, 그럽시다. 밑받침 철물 작업 후에 비계기둥을 세워 주세요.",
+        "jawaban": "d",
+        "audio_teks": "1. 여 : 로프가 어디에 있어요?\n남 : 사다리 옆에 있어요.\n2. 남 : 비계 설치 작업은 언제 시작해요?\n3. 남 : 깔판 작업을 모두 끝냈는데 밑받침 철물을 설치할까요?\n여 : 네, 그럽시다. 밑받침 철물 작업 후에 비계기둥을 세워 주세요.\n4. 여 : 칼로 씨, 도장 작업 중에는 마스크를 꼭 착용하세요.\n5. 남 : 오늘 작업할 곳은 갑판이지요? 빨리 가서 도장 작업을 마치겠습니다.\n여 : 아, 오늘은 실내 작업부터 먼저 합시다.\n남 : 작업 계획서를 보면 오늘은 갑판 도장 작업을 해야 되는데요.\n여 : 오늘 바람이 너무 많이 불어서 야외 작업은 어려울 것 같아요.\n48 선체 건조 SHIP HULL CONSTRUCTION 195",
+        "audio_url": "assets/modules/textbook2/audio/unit_48/listening_3.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_03.png"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_03.png"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_03.png"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_03.png"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_03.png",
+          "b": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_03.png",
+          "c": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_03.png",
+          "d": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_03.png"
+        }
+      },
+      {
+        "id": "u48_l4",
+        "nomor": 4,
+        "tipe": "mendengarkan",
+        "instruksi": "듣고 알맞은 답을 고르십시오.",
+        "teks_soal": "여 : 칼로 씨, 도장 작업 중에는 마스크를 꼭 착용하세요.",
+        "jawaban": "c",
+        "audio_teks": "1. 여 : 로프가 어디에 있어요?\n남 : 사다리 옆에 있어요.\n2. 남 : 비계 설치 작업은 언제 시작해요?\n3. 남 : 깔판 작업을 모두 끝냈는데 밑받침 철물을 설치할까요?\n여 : 네, 그럽시다. 밑받침 철물 작업 후에 비계기둥을 세워 주세요.\n4. 여 : 칼로 씨, 도장 작업 중에는 마스크를 꼭 착용하세요.\n5. 남 : 오늘 작업할 곳은 갑판이지요? 빨리 가서 도장 작업을 마치겠습니다.\n여 : 아, 오늘은 실내 작업부터 먼저 합시다.\n남 : 작업 계획서를 보면 오늘은 갑판 도장 작업을 해야 되는데요.\n여 : 오늘 바람이 너무 많이 불어서 야외 작업은 어려울 것 같아요.\n48 선체 건조 SHIP HULL CONSTRUCTION 195",
+        "audio_url": "assets/modules/textbook2/audio/unit_48/listening_4.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_04.png"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_04.png"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_04.png"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_04.png"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_04.png",
+          "b": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_04.png",
+          "c": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_04.png",
+          "d": "assets/langit-korea-extracted/unit_48/images/u48_h9_soal_listening_04.png"
+        }
+      },
+      {
+        "id": "u48_l5",
+        "nomor": 5,
+        "tipe": "mendengarkan",
+        "instruksi": "듣고 알맞은 답을 고르십시오.",
+        "teks_soal": "남 : 오늘 작업할 곳은 갑판이지요? 빨리 가서 도장 작업을 마치겠습니다. 여 : 아, 오늘은 실내 작업부터 먼저 합시다. 남 : 작업 계획서를 보면 오늘은 갑판 도장 작업을 해야 되는데요. 여 : 오늘 바람이 너무 많이 불어서 야외 작업은 어려울 것 같아요. 48 선체 건조 SHIP HULL CONSTRUCTION 195",
+        "jawaban": "a",
+        "audio_teks": "1. 여 : 로프가 어디에 있어요?\n남 : 사다리 옆에 있어요.\n2. 남 : 비계 설치 작업은 언제 시작해요?\n3. 남 : 깔판 작업을 모두 끝냈는데 밑받침 철물을 설치할까요?\n여 : 네, 그럽시다. 밑받침 철물 작업 후에 비계기둥을 세워 주세요.\n4. 여 : 칼로 씨, 도장 작업 중에는 마스크를 꼭 착용하세요.\n5. 남 : 오늘 작업할 곳은 갑판이지요? 빨리 가서 도장 작업을 마치겠습니다.\n여 : 아, 오늘은 실내 작업부터 먼저 합시다.\n남 : 작업 계획서를 보면 오늘은 갑판 도장 작업을 해야 되는데요.\n여 : 오늘 바람이 너무 많이 불어서 야외 작업은 어려울 것 같아요.\n48 선체 건조 SHIP HULL CONSTRUCTION 195",
+        "audio_url": "assets/modules/textbook2/audio/unit_48/listening_5.mp3",
+        "pilihan": [],
+        "gambar_pilihan": {}
+      }
+    ]
+  },
+  "integrity": {
+    "pdf_pages": 10,
+    "vocab_cards": 42,
+    "reading_questions": 5,
+    "listening_questions": 5,
+    "listening_audio": 5
+  }
+}

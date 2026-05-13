@@ -1,0 +1,1217 @@
+{
+  "source": "Special EPS-TOPIK Work Related Questions",
+  "source_page": "https://epstopik.hrdkorea.or.kr/epstopik/book/pub/publicWorkBookList.do?lang=en",
+  "slug": "electronics-electricity",
+  "title": "Electronics, Electricity",
+  "title_ko": "전자, 전기",
+  "source_url": "https://eps.hrdkorea.or.kr/epstopik/eps_klt/upload/special/ElectronicsElectricity.pdf",
+  "source_pdf": "assets/special-eps/work-related/sources/ElectronicsElectricity.pdf",
+  "pages": [
+    {
+      "number": 1,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_01.jpg",
+      "text": "특별한국어능력시험문제(전기⦁전자제품제조업)\n1. 300/500 V 기기 배선용 단심 비닐절연전선의 약호는?\n ① NRF\n ② CV\n ③ NRI\n ④ FTC\n2. 줄(Joule)의 법칙에 의하여 전선에 전류가 흐르면 열이 발생한다. 줄의 법칙을 칼로리(cal)로 \n표현한 공식은? \n ① \n ② \n ③ \n ④ \n3. 전하의 이동을 전류라고 한다. 전류의 단위는 무엇인가?\n ① V\n ② A\n ③ W\n ④ Ω\n4. 전력케이블로 가장 많이 사용되고 있는 케이블은?\n ① NR\n ② NF\n ③ EV\n ④ CV\n5. 어느 두 점 사이를 5 c의 전하가 이동하여 외부에 대해 100 J의 일을 했다면, \n두 점 사이의 전위차는 몇 V 인가?\n ① 10                                  ② 20\n ③ 30                                  ④ 40"
+    },
+    {
+      "number": 2,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_02.jpg",
+      "text": "6. 100 V의 전압을 인가할 때 10 A의 전류가 흐르는 전열기가 있다. 이 전열기의 전력 \nP(kW)는 얼마인가? \n ① 1\n ② 2\n ③ 3\n ④ 4\n7. 100 V의 전압을 인가할 때 10 A의 전류가 흐르는 전열기가 있다. 이 전열기를 하루에 \n2시간씩 30일간 사용한다면, 이 전열기의 전력 P(kW) 및 30일간의 전력량(kWh)은 얼마인가?\n ① 4, 30\n ② 3, 40\n ③ 2, 50\n ④ 1, 60\n8. 옴(Ohm’s)의 법칙은 “도체에 흐르는 전류는 인가된 전압에 반비례한다.” 이때의 \n비례상수를 저항이라 하고 R로 표시한다. 수식과 저항의 단위는? \n ① \n ② \n\n\n ③ \n ④ \n\n\n9. 220V인 선로에서 전선의 저항이 22Ω이면 이 선로에 흐르는 전류는 몇 A인가?\n ① 1                                  ② 5\n ③ 10                                 ④ 15\n10. 전선 재료로서 구비하여야 할 조건 중 틀린 것은?\n ① 도전율이 클 것\n ② 접속이 쉬울 것\n ③ 가요성이 풍부할 것\n ④ 인장강도가 비교적 적을 것"
+    },
+    {
+      "number": 3,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_03.jpg",
+      "text": "11. 케이블의 약호 표시 중 CV가 뜻하는 것은?\n ① 폴리에틸렌절연 부틸고무시스 케이블 \n ② 비닐절연 가교폴리에틸렌시스 케이블\n ③ 클로로플렌고무절연 비닐시스 케이블\n ④ 가교폴리에틸렌절연 비닐시스 케이블\n12. 전선을 자르거나 직각으로 구부릴 때 사용하며, 모든 작업시 항상 갖추고 있어야 \n하는 필수적인 기본공구가 아닌 것은?\n ① 펜치\n ② 니퍼\n ③ 스트리퍼\n ④ 롱노우즈\n13. 작업을 완료한 후 회로를 정상적으로 결선하였는지 여부를 확인하기 위하여 사용\n하는 공구는?\n ① 벨테스터\n ② 스트리퍼\n ③ 니퍼\n ④ 롱노우즈\n14. 전선의 피복을 수직으로 벗기는데 편리한 공구는?\n ① 펜치\n ② 오리스트리퍼\n ③ 니퍼\n ④ 롱노우즈\n15. 형상에 따른 전선의 접속방법이 아닌 것은?\n ① 직선접속\n ② 분기접속\n ③ 종단접속\n ④ 박스접속"
+    },
+    {
+      "number": 4,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_04.jpg",
+      "text": "16. 전선을 직선 접속할 때 2.6 mm 이하의 단선에 적용하는 접속방법은?\n ① 브리타니어 직선접속\n ② 권선 직선접속\n ③ 트위스트 직선접속\n ④ 단권 직선접속\n17. “전선을 접속하는 경우에는 전선의 (   )을 증가시키지 않도록 접속하여야 하며, \n전선의 세기를 (    ) % 이상 감소시키지 않아야 한다.”에서 ( ) 안에 들어갈 적합한 말은? \n ① 전류, 20\n ② 저항, 20\n ③ 전압, 10\n ④ 전력, 10\n18. 와이어 커넥터를 이용한 접속 방법으로 적합하지 않은 것은? \n ① 외피는 자기소화성 난연 재질이다.\n ② 커넥터의 색상에는 황색, 적색, 청색, 회색이 있으며, 색상 별로 규격이 정해져 있다.\n ③ 커넥터 접속을 위하여 박스 내에서 전선의 여유는 5 ㎝ 정도 되도록 한다.\n ④ 접속하려는 전선의 심선이 2∼3 가닥인 경우, 전선의 피복을 10 mm 정도 벗기고 \n심선을 나란히 합쳐 소형 커넥터를 사용하여 접속한다.\n19. 전선과 스터드 단자의  접속 방법으로 적합한 것은? \n ① 전선을 고리형으로 만들고 나사를 죄어 접속한다.\n ② 전선을 직접 밀어 넣고 나사를 죄어 접속한다.\n ③ 누름 금구가 있으면 전선에는 납땜을 하지 않아도 된다.\n ④ 압축 또는 납땜에 의해 전선과 접속한다.\n20. 아우트렛 박스에서 전등 선로를 연결하고 있다. 접속 재료로서 가장 적합한 것은? \n ① 비닐 테이블\n ② 압칙단자\n ③ 와이어 커넥터\n ④ 레이진"
+    },
+    {
+      "number": 5,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_05.jpg",
+      "text": "21. 전선 및 케이블의 중간 접속재로 사용되는 것은? \n ① 링 슬리브\n ② 압착 터미널\n ③ 와이어 커넥터\n ④ 칼 브럭\n22. 전선의 직선단자로 사용되는 금속 단자는? \n ① 링 슬리브\n ② 스터드 단자\n ③ 와이어 커넥터\n ④ 고리형 단자\n23. 분전함 내에 설치하는 수지제 덕트에 수납하기에 적합한 전선은? \n ① 와이어\n ② 코드\n ③ 케이블\n ④ 캡타이어 케이블\n24. 합성수지관 공사에 적합한 전선은? \n ① 나전선\n ② 절연전선\n ③ 코드\n ④ 케이블\n25. 합성수지관 공사에서 배관의 지지는 몇 m 이하로 하여야 하는가? \n ① 0.5\n ② 1.0\n ③ 1.5\n ④ 2.0"
+    },
+    {
+      "number": 6,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_06.jpg",
+      "text": "26. 합성수지관 및 금속관 공사에서 16 mm 라고 표기되어 있다. 무엇을 의미하는가? \n ① 두께 중심과 두께 중심의 사이\n ② 외경\n ③ 내경\n ④ 나사 피치와 피치 사이\n27. 금속관을 사용할 때 케이블 피복 손상 방지용으로 사용되는 것은? \n ① 로크너트\n ② 커플링\n ③ 엘보\n ④ 부싱\n28. 금속관 공사의 인입구관 끝에 사용하는 재료는? \n ① 엔트런스 캡\n ② 링 리듀서\n ③ 엘보\n ④ 부싱\n29. 전선관 공사를 할 경우 경간이 너무 길거나 구부러지는 개소가 많아 배관 입선이 \n용이하지 않을 경우, 전선의 접속이 아닌 입선 목적에만 사용하는 중간박스는? \n ① 조인트박스\n ② 풀박스\n ③ 엘보\n ④ 부싱\n30. 전선관 공사를 할 경우 경간이 너무 길거나 구부러지는 개소가 많아 배관 입선이 \n용이하지 않을 경우 전선의 접속점을 만들어도 문제가 없는 경우에 사용하는 박스는? \n ① 엘보\n ② 풀박스\n ③ 조인트박스\n ④ 부싱"
+    },
+    {
+      "number": 7,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_07.jpg",
+      "text": "31. 금속재 사다리형 전선 관로로서 천장으로부터 달대볼트로 행거를 설치, 행거 위에 \n고정시키거나 벽면에 가대를 하여 브라켓을 설치 ․ 사용하는 관로공사는?  \n ① 플로어덕트 공사\n ② 금속덕트 공사\n ③ 버스덕트 공사\n ④ 케이블트레이 공사\n32. 케이블트레이 공사에 사용할 수 없는 전선은?  \n ① HFIX\n ② FR-8\n ③ FR-3\n ④ F-CV\n33. 주로 전기실, 발전기실 등의 일반인의 출입이 적은 실내에 사용되며, 바닥에 홈을 파고 \n홈에 덮개를 덮어 사용하는 관로공사는?   \n ① 플로어덕트 공사\n ② 배선용피트 공사\n ③ 버스덕트 공사\n ④ 금속덕트 공사\n34. 실내의 변압기와 배전반 사이의 간선에서 분기접점이 없는 전선로에 사용하는 가장  \n    적합한 덕트는?  \n ① 트롤리 버스덕트\n ② 플러그인 버스덕트\n ③ 피더 버스덕트\n ④ 와이어덕트\n35. 연질합성수지관으로서 가로등 배관 등 주로 지중 배관에 사용하는 전선관은?  \n ① 금속 전선관\n ②플렉시블 전선관\n ③ PVC 전선관\n ④ 폴리에틸렌(PE) 전선관"
+    },
+    {
+      "number": 8,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_08.jpg",
+      "text": "36. 지중전선관로의 허용전류를 결정할 때 기준온도는?  \n ① 20 ℃\n ② 30 ℃\n ③ 40 ℃\n ④ 50 ℃\n37. 금속덕트 공사의 지지점간의 거리는 몇 m 이하로 하여야 하는가?  \n ① 1.5\n ② 3.0\n ③ 4.0\n ④ 5.0\n38. 플로어덕트 공사의 시설방법으로 적합하지 않은 것은?  \n ① 전선은 연선을 사용할 것.\n ② 전선은 절연전선을 사용할 것.\n ③ 전선은 옥외용 비닐 절연전선을 사용할 것.\n ④ 플로어덕트 안에는 전선에 접속점이 없도록 할 것\n39. 과전류차단기로서 배선용차단기(MCCB)에 대한 설명으로 적합한 것은?  \n ① 정격전류에 1.25배의 전류로 자동적으로 즉시 동작할 것\n ② 정격전류에 2배의 전류로 융단 될 것\n ③ 정격전류에 1.1배의 전류에 견딜 것\n ④ 정격전류에 1배의 전류로 자동적으로 동작하지 아니할 것\n40. 누전차단기(ELB)의 내부 구성요소가 아닌 것은?  \n ① 동작부\n ② 검출부\n ③ 영상변류기\n ④ 차단부"
+    },
+    {
+      "number": 9,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_09.jpg",
+      "text": "41. 교류 또는 직류 전동기의 제어에 사용되는 것으로서 전자석의 흡입력을 이용하여 \n접촉부를 동작시키는 개폐기는?\n ① 배선용차단기(MCCB)\n ② 전자접촉기(MC)\n ③ 누전차단기(ELB)\n ④ 과전류계전기(OCR)\n42. 고압에 사용하는 퓨즈 중에서 포장퓨즈는?  \n ① 실 퓨즈\n ② 훅 퓨즈\n ③ 통형 퓨즈\n ④ 판형 퓨즈\n43. 3로 스위치 1개에는 몇 가닥의 전선이 필요한가?  \n ① 6\n ② 5\n ③ 4\n ④ 3\n44. 단극 스위치인 경우 3구 스위치의 전선 가닥수는?  \n ① 4\n ② 5\n ③ 6\n ④ 7\n45. 변압기 2차 측에는 어떤 접지를 하여야 하는가? \n ① 제1종 접지공사\n ② 제2종 접지공사\n ③ 제3종 접지공사\n ④ 특별 제3종 접지공사"
+    },
+    {
+      "number": 10,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_10.jpg",
+      "text": "46. 제1종 접지공사의 접지 저항치는 몇 오옴 이하이어야 하는가?\n ① 5 Ω\n ② 10 Ω\n ③ 30 Ω\n ④ 100 Ω\n47. 특별 제3종 접지공사의 접지 저항치는 몇 오옴 이하이어야 하는가? \n ① 5 Ω\n ② 10 Ω\n ③ 30 Ω\n ④ 100 Ω\n48. 피뢰설비에서 서지보호장치는 무엇인가? \n ① CB\n ② TR\n ③ SPD\n ④ L.A\n49. 접지공사의 목적으로 적합하지 않은 것은? \n ① 감전 방지\n ② 이상전압의 억제\n ③ 전로의 대지전압 상승\n ④ 보호계전기의 동작확보\n50. 접지공사에 적용하는 접지선의 약호는? \n ① GV\n ② HIV\n ③ CV\n ④ EV"
+    },
+    {
+      "number": 11,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_11.jpg",
+      "text": "51. 1개의 전자가 가지고 있는 전기량[C]은?\n ① 1.602×10\n ② 9.109×10\n ③ 1.602×10\n ④ 9.109×10\n52. 2[㎌]과 3[㎌]의 콘덴서 2개를 병렬로 연결하였다. 합성 정전 용량[㎌]은?\n ① 1.2                               ② 2\n ③ 3                                 ④ 5\n53. 3[Ω]과 6[Ω]의 저항 2개를 병렬로 연결하였다. 합성 저항[Ω]은?\n ① 1.2\n ② 2\n ③ 3\n ④ 9\n54. 10은 μ(micro)이다. 10의 기호는?\n ① k(kilo)\n ② T(tera)\n ③ M(mega)\n ④ P(peta)\n55.  다음 그림은 회로 시험기(Tester)로 저항을 측정하였더니 측정된 눈금이다. \n측정 단자를 ×10 단자에 선택을 하고 측정하였다면 저항값[Ω]은 얼마인가?\n① 40\n② 50\n③ 400\n④ 500"
+    },
+    {
+      "number": 12,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_12.jpg",
+      "text": "56. 저항의 색상이 순서대로 노랑, 보라, 빨강 순으로 되어 있다면 이 저항의 저항값[Ω]은?\n ① 47\n ② 470\n ③ 4700\n ④ 47000\n57. 콘덴서(condenser)의 종류 중 극성이 있는 것은?\n ① 세라믹 콘덴서\n ② 마일러 콘덴서\n ③ 전해 콘덴서\n ④ 종이 콘덴서\n58.  다음 회로에서 R=5[Ω], R=5[Ω], R=10[Ω]이다. 합성 저항[Ω]은?\n59.  그림에서 C=4[㎌], C=6[㎌]이다. 합성 정전 용량[㎌]은?\n60. 옥내 배선, 스위치 및 콘센트 등의 절연 저항을 측정할 경우는 모든 스위치를 열어  \n( ㉠ )상태로 한 다음 (  ㉡ )를 이용하여 측정한다. 에서 ㉠, ㉡에 들어갈 말로 옳은 것은?\n ① ㉠ - 부하,      ㉡ - 접지 저항계\n ② ㉠ - 부하,      ㉡ - 절연 저항계\n ③ ㉠ - 무부하,    ㉡ - 접지 저항계\n ④ ㉠ - 무부하,    ㉡ - 절연 저항계\n① 10\n② 12.5\n③ 20\n④ 250\n① 2.4\n② 4\n③ 6\n④ 10"
+    },
+    {
+      "number": 13,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_13.jpg",
+      "text": "61. 그림의 기호는 무엇을 의미하는가?\n62. 그림의 기호는 무엇을 의미하는가?\n63. 그림에서 R=2[Ω], R=5[Ω]이며, V=10[V]이다. R에 흐르는 전류 I은 몇 [A]인가?\n64. 교류의 1회 변화를 1사이클이라 하며, 1사이클 변화하는데 걸리는 시간을 주기라 한다. \n또한 1초 동안에 반복되는 사이클의 수를 주파수라 하는데, 이 주파수의 단위는?\n ① [Hz]\n ② [A]\n ③ [V]\n ④ [Ω]\n65. 다음 중 고유 저항이 10 ~ 10[Ω․m]인 재료를 무엇이라 하는가?\n ① 도체\n ② 절연체\n ③ 반도체\n ④ 초전도체\n① 직류 전원\n② 교류 전원\n③ 접속\n④ 접지\n① 배선용 차단기\n② 누전 차단기\n③ 분전반\n④ 배전반\n① 2\n② 3\n③ 5\n④ 7"
+    },
+    {
+      "number": 14,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_14.jpg",
+      "text": "66. 전기 회로에서 전압과 전류를 측정하고자 전압계와 전류계를 연결하였다. 이 때, \n전압계와 전류계의 연결 방법이 옳게 된 것은?\n ① 전압계-직렬, 전류계-병렬\n ② 전압계-병렬, 전류계-직렬\n ③ 전압계-병렬, 전류계-병렬\n ④ 전압계-직렬, 전류계-직렬\n67. 2전력계법에 의해 평형 3상 전력을 측정하였더니 전력계가 500[W], 1000[W]를   \n지시하였다. 이 때 소비전력[W]은?\n ① 500\n ② 1000\n ③ 1500\n ④ 2000\n68. 전기 도면에서 그림과 같은 기호는 무엇을 나타내는가?\n    \n69. 전류가 1초 동안에 한 일을 무엇이라 하는가?\n ① 전압\n ② 저항\n ③ 임피던스\n ④ 전력\n70. 전기 회로에서 저항의 양단에 전압을 가했을 때 흐르는 전류의 크기는 저항에   \n반비례하고 가해진 전압에 비례한다는 것은 어느 법칙인가?\n ① 주울의 법칙\n ② 오옴의 법칙\n ③ 키르히호프의 법칙\n ④ 패러데이의 법칙\n① 천장 은폐 배선\n② 바닥 은폐 배선\n③ 노출 배선\n④ 바닥 노출 배선"
+    },
+    {
+      "number": 15,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_15.jpg",
+      "text": "71. 그림과 같은 회로에서 양단에 100[V]를 공급하였다. 회로에 흐르는 전류[A]는 얼마인가?  \n     \n72. 3[Ω]과 6[Ω]를 병렬로 연결하고 20[V]의 전압을 가하였다. 이 때, 합성 저항과   \n전체 흐르는 전류[A]가 옳게 짝지어진 것은?\n ① 합성저항 : 2[Ω], 전류 : 10[A]\n ② 합성저항 : 3[Ω], 전류 : 6.6[A]\n ③ 합성저항 : 6[Ω], 전류 : 3.3[A]\n ④ 합성저항 : 9[Ω], 전류 : 2.2[A]\n73. 콘덴서의 용량이 10[㎌], 15[㎌] 두 개가 있다. 이 두 콘덴서를 직렬로 연결하면   \n합성 정전 용량[㎌]은?\n ① 6\n ② 10\n ③ 15\n ④ 20\n74. 다음 콘덴서 중 용량을 가변할 수 있는 것은?\n ① 전해 콘덴서\n ② 세라믹 콘덴서\n ③ 마일러 콘덴서\n ④ 바리콘(varicon)\n75. 콘덴서의 용량이 4[㎌], 6[㎌] 두 개가 있다. 이 두 콘덴서를 병렬로 연결하면 합성 정전 \n용량[㎌]은?\n ① 2.4\n ② 4\n ③ 6\n ④ 10\n① 1\n② 2\n③ 4\n④ 10"
+    },
+    {
+      "number": 16,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_16.jpg",
+      "text": "76. 그림과 같은 기호는 무엇을 의미하는가?\n77. 그림과 같은 기호는 어떤 게이트(Gate)를 의미하는가?\n78. 콘덴서의 용량이 C이고 공급 전압이 V일 때 저장되는 정전 에너지(W)는 얼마인가?\n  ① CV[J]                      ② \n[J]\n  ③ \n[J]                   ④  \n[J]\n79. 같은 종류의 도선이라도 도선의 단면적이( ㉠ ) 단위 시간에 그 단면을 지나는 \n자유 전자의 수가 많아지므로 저항이 작아 전류가 잘 흐르고, 도선의 길이가 \n( ㉡ )  자유 전자가 원자들과 충돌하는 횟수가 많아지므로 저항이 커서 전류가 잘 \n흐르지 못한다.  (  )안에 들어갈 말로 옳게 짝지어진 것은?\n ① ㉠ - 넓을수록,    ㉡ - 길수록\n ② ㉠ - 넓을수록,    ㉡ - 짫을수록\n ③ ㉠ - 작을수록,    ㉡ - 길수록\n ④ ㉠ - 작을수록,    ㉡ - 짫을수록\n   \n80.  그림에서 = 10[㎌], =20[㎌], =30[㎌]일 때 합성 정전 용량[㎌]은?\n① 다이오드(diode)\n② 실리콘 제어 정류기(SCR)\n③ 트랜지스터(transister)\n④ 다이액(diac)\n ① AND\n ② NOT\n ③ OR\n ④ NAND\n① \n\n           ② \n\n\n③ 11            ④ 60"
+    },
+    {
+      "number": 17,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_17.jpg",
+      "text": "81. 콘센트에 회로 시험기를 이용하여 교류 전압을 측정하였더니 실효값 200[V]를    \n지시하였다. 이 때, 최대값 [V]은 약 얼마인가?\n ① 110\n ② 200\n ③ 283\n ④ 380\n82. 그림에서 =20[Ω], =30[Ω]이고, 전압 V=120[V]를 가하였다면 회로에 흐르는 \n전체 전류 I[A]는 얼마인가?\n83. 내부 저항이 0.1[Ω], 전압이 1.5[V]인 건전지 10개를 직렬로 연결한 후, 2[Ω]의   \n저항과 연결하였다. 흐르는 전류[A]는?\n ① 1\n ② 3\n ③ 5\n ④ 7\n84. 그림에서 3[Ω]에 흐르는 전류[A]는 얼마인가?\n85. 그림은 계측기 눈금판의 기호이다. 다음 중에서 해당되는 것은?\n① 1\n② 2\n③ 5\n④ 10\n① 2\n② 4\n③ 6\n④ 8\n① 유도형\n② 전류력계형\n③ 가동 코일형\n④ 가동 철편형"
+    },
+    {
+      "number": 18,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_18.jpg",
+      "text": "86. 어느 콘덴서에 그림과 같이 적혀 있었다. 이 콘덴서의 용량[㎌]은?\n \n87. 10[Ω]의 저항 5개를 병렬로 연결하였다. 합성 저항[Ω]은?\n ① 2\n ② 5\n ③ 10\n ④ 50\n88. 10[Ω]의 저항에 2.5[A]의 전류를 흐르게 하려면 몇[V]의 전압이 필요한가?\n ① 10\n ② 20\n ③ 25\n ④ 30\n89. 회로 시험기(Tester)를 이용하여 여러 가지 사항들을 측정하였다. 다음 중 \n직접적으로 측정할 수 없는 것은?\n ① 전압\n ② 전류\n ③ 전력\n ④ 저항\n90. 3[Ω] 저항이 5개, 5[Ω] 저항이 5개, 10[Ω] 저항 2개를 전부 직렬로 연결하였다.  \n합성 저항[Ω]은?\n ① 20\n ② 40\n ③ 50\n ④ 60\n① 10[㎌]\n② 1[㎌]\n③ 0.1[㎌]\n④ 0.01[㎌]"
+    },
+    {
+      "number": 19,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_19.jpg",
+      "text": "91. 다음 그림에서 R=20[Ω], R=30[Ω], R=50[Ω], R=100[Ω]이고 전압을 200[V] 인가하였다. \nR에 걸리는 전압 V[V]는?\n92. 전력량의 단위로 옳은 것은?\n ① [Wh]\n ② [V]\n ③ [A]\n ④ [W]\n93. 0.1[A]는 몇[㎃]인가?\n ① 10\n ② 100\n ③ 1000\n ④ 10000\n94. C과 C의 직렬 회로에 V[V]의 전압을 가할 때 C, C에 걸리는 전압으로 옳은 것은?\n ① V= \n＋\n\n×V,   V= \n＋\n\n×V     ② V= \n＋\n\n×V,   V= \n＋\n\n×V\n ③ V= \n\n＋×V,   V= \n\n＋×V     ④ V= \n\n＋×V,    V= \n\n＋×V\n95. 그림은 트랜지스터의 기호이다. 다음 중 해당되지 않는 것은?\n① 20\n② 30\n③ 50\n④ 100\n① 캐소드(cathode)\n② 이미터(emitter)\n③ 베이스(base)\n④ 컬렉터(collector)"
+    },
+    {
+      "number": 20,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_20.jpg",
+      "text": "96. 일반적으로 교류 회로의 전력은 평균 전력 P=VIcosθ[W]로 나타낸다. 여기서 \ncosθ가 의미하는 것은?\n ① 전압(voltage)\n ② 전류(electric current)\n ③ 역률(power factor)\n ④ 주파수(frequency)\n97. 호도법으로 \n[rad]를 도수법으로 환산하면 얼마인가?\n ① 30°\n ② 45°\n ③ 60°\n ④ 90°\n \n98.  그림의 회로에서 양단에 20[V]를 가하였다. 틀린 것은?\n99.  그림의 기호는 전기 회로에서 무엇을 의미하는가?\n100. 다음 중 저항의 종류로 옳지 않은 것은?\n ① 탄소 피막 저항기\n ② 솔리드 저항기\n ③ 금속 피막 저항기\n ④ 마일러 저항기 \n① 합성 저항 R= 5[Ω]이다.\n② 회로에 흐르는 전체 전류는 4[A]이다.\n③ 10[Ω]에 흐르는 전류는 0.8[A]이다.\n④ 2.5[Ω]에 흐르는 전류는 2.2[A]이다.\n① 직류 전원\n② 교류 전원\n③ 전동기\n④ 발전기"
+    },
+    {
+      "number": 21,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_21.jpg",
+      "text": "101. 다음 중 원자의 기본구조가 아닌 것은?\n ① 분자\n ② 핵\n ③ 양자\n ④ 중성자\n102. 다음 중 단일 소자 반도체가 아닌 것은?\n① 실리콘(silicon)\n② 게르마늄(germanium)\n③ 카본(carbon)\n④ 동(copper)\n103. 다음 중 n형 반도체에서 5가 불순물 원자를 첨가하는 물질이 아닌 것은?\n ① 비소(As)\n ② 인(P)\n ③ 안티몬(Sb)\n ④ 알미늄(Al)\n104. 다음 중 n형 반도체에 다수 캐리어(carrier)는 무엇인가?\n ① 전도전자\n ② 양자\n ③ 가전자\n ④ 정공\n105. 다음 중 LED(light emitting diode)의 역할은?\n ① 역방향 바이어스(bias)일 때 광을 방출한다.\n ② 역방향 바이어스(bias)일 때 광을 감지한다.\n ③ 순방향 바이어스(bias)일 때 광을 방출한다.\n ④ 순방향 바이어스(bias)일 때 광을 감지한다."
+    },
+    {
+      "number": 22,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_22.jpg",
+      "text": "106. 다음 중 고주파에서와 고속 스위칭 응용에 사용되는 다이오드는?\n ① 레이저 다이오드(laser diode)\n ② 제너 다이오드(zener diode)\n ③ 터널 다이오드(tunnel diode)\n ④ 쇼트키 다이오드(schottky diode)\n107. 다음 중 부성저항 특성을 가진 다이오드는 어느 것인가?\n ① 터널 다이오드(tunnel diode)\n ② 제너 다이오드(zener diode)\n ③ 레이저 다이오드(laser diode)\n ④ 발광 다이오드(light emitting diode)\n108. 다음 중 전압 안정화에서 제너다이오드의 음극은 정상적으로 어떻게 되는가?\n ①  양극보다 더 양이 된다.\n ②  양극보다 더 음이 된다.\n ③  +0.7V이다.\n ④  정지된다.\n109. 다음 중 역방향 전압에 따른 가변 정전용량 다이오드는?\n ① 버랙터 다이오드(varactor diode)\n ② 제너 다이오드(zener diode)\n ③ 레이저 다이오드(laser diode)\n ④ 발광 다이오드(light emitting diode)\n110. 다음 중 바이폴라 트랜지스터(bipolar transistor)의 3단자는?\n ① npn\n ② pnp\n ③ 입력, 출력, 접지\n ④ 이미터(emitter), 컬랙터(collector), 베이스(base)"
+    },
+    {
+      "number": 23,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_23.jpg",
+      "text": "111. 다음 중 차단과 포화에서 동작될 때 트랜지스터(transistor)는 무엇처럼 동작하는가?\n ① 선형증폭기\n ② 가변용량\n ③ 가변저항\n ④ 스위치(switch)\n112. 다음 중 실리콘(silicon) BJT(bipolar transistor)의 순방향 바이어스(bias)된 베이스(base)-\n이미터(emitter) 접합 양단 전압은?\n ① 0V\n ② 0.5V\n ③ 0.7V\n ④ 1.0V\n113. 다음 중 트랜지스터(transistor)가 도통하지 않은 상태를 무엇이라 하는가?\n ① 차단(cut off)\n ② 포화(saturation)\n ③ 이득(gain)\n ④ 선형(linear)\n114. 다음 중 트랜지스터(transistor) 베이스 바이어스(base bias)의 결점은?\n ① 매우 복잡하다.\n ② 이득을 낮게 만든다.\n ③ 큰 누설전류를 만든다.\n ④ 아주 β에 의존한다.\n115. 다음 중 공통 베이스(base)증폭기의 입력저항은?\n ① 매우 높다.\n ② 매우 낮다.\n ③ 같다.\n ④ 무한대"
+    },
+    {
+      "number": 24,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_24.jpg",
+      "text": "116. 다음 중 다이리스터(thyristor)는 몇 개의 pn접합을 갖는가?\n ① 1개\n ② 2개\n ③ 3개\n ④ 4개\n117. 다음 중 SCR(silicon-controlled rectifier)이 쇼클리 다이오드(shockley diode)와    \n다른 이유는 무엇인가?\n ① 강제적 전환\n ② 게이트(gate) 단자를 가짐\n ③ 4층 구조를 갖지 않음\n ④ 다이리스터(thyristor)가 아님\n118. 다음 중 광 SCR(silicon-controlled rectifier)은 무엇에 대해 반응하는가?\n ① 전류\n ② 전압\n ③ 습기\n ④ 빛\n119. 다음 중 SCR(silicon-controlled rectifier)은 무엇인가?\n ① 저전력 소자\n ② 4층 다이오드(diode)\n ③ 고전류 소자\n ④ 양방향성\n120. 다음 중 트라이액(triac)은 어떠한 소자인가?\n ① 양방향성 SCR(silicon-controlled rectifier)과 유사함\n ② 4단자 소자\n ③ 고전류 소자\n ④ 2층 다이오드(diode)"
+    },
+    {
+      "number": 25,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_25.jpg",
+      "text": "121. 다음 중 트라이액(triac)에서 게이트(gate) 단자는 어떻게 구성되는가?\n ① 1개의 게이트만 있다.\n ② 3개의 게이트 단자가 있다.\n ③ 4개의 게이트 단자가 있다.\n ④ 공통게이트 단자가 있다.\n122. 다음 중 포토 트랜지스터(photo transistor)에서 베이스(base)전류는 어떻게 유지되는가?\n ① 바이어스(bias)전압에 의하여 유지\n ② 빛과 직접 비례하여 유지\n ③ 빛에 반비례하여 유지\n ④ 해당사항 없음\n123. 다음 중 UJT(unijunction transistor)의 특성이 아닌 것은 무엇인가?\n ① 부저항성\n ② 첨두점 전압\n ③ 양방향성 도통\n ④ 진성이탈비\n124. 다음 중 직접 회로(integrated circuit)의 특징으로 옳지 못한 것은?\n ① 소형이다.\n ② 경제적이다.\n ③ 신뢰성이 높다.\n ④ 모든 수동 소자의 직접이 가능하다.\n125. 다음 중 대규모 직접 회로(LSI : Large-Scale Intergrated)로 분류되는 것은?\n ① 직렬/병렬 입 ․ 출력 레지스터\n ② 십진 계수기\n ③ 마이크로프로세서(microprocessor)\n ④ 2진/16진 계수기"
+    },
+    {
+      "number": 26,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_26.jpg",
+      "text": "126. 다음 중 이상적인 연산 증폭기(OP Amp)가 갖추어야 할 조건 중 옳지 못한 것은?\n ① 전압 이득이 무한대(Av= ∞)일 것\n ② 대역폭아 무한대(Bw = ∞)일 것\n ③ 오프 셋(off set) 전압이 1이어야 할 것\n ④ 입력 임피던스가 무한대일 것(R1 = ∞)\n127. 다음 중 연산 증폭기(OP Amp)의 입출력 단자가 옳은 것은?\n ① 2개의 입력과 1개의 출력\n ② 1개의 입력과 2개의 출력\n ③ 1개의 입력과 1개의 출력\n ④ 2개의 입력과 2개의 출력\n128. 다음 중 NAND게이트의 논리식은?\n ① A+B\n ② \n + B\n ③ A +  \n ④ \n + \n129. 다음 중 기본 논리식이 A○\n×B인 게이트(gate)는 무엇인가?\n ① AND\n ② EX-OR\n ③ NOR \n ④ OR\n130. 다음 중 Bool 대수가 틀린 것은?\n ① A + 1 = 1\n ② A▪0 = 0\n ③ A + A = A\n ④ A + \n = 0"
+    },
+    {
+      "number": 27,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_27.jpg",
+      "text": "131. 외부 전원이 반드시 필요한 마이크(Microphone)는?\n ① 다이나믹 마이크(Dynamic Microphone)\n ② 리본 마이크(Ribbon Microphone)\n ③ 콘덴서 마이크(Conderser Microphone)\n ④ 일렉트레이트 마이크(Electret Microphone)\n132. 다음 마이크(Microphone)중에서 특별한 주의가 필요하고 야외에서 사용하는데   \n적합하지 않은 마이크(Microphone)는?\n ① 리본 마이크(Ribbon Microphone)\n ② 다이나믹 마이크(Dynamic Microphone)\n ③ 일렉트레이트 마이크(Electret Microphone)\n ④ 콘덴서 마이크(Conderser Microphone)\n133. 학교 강당에서 강연회를 확성할 경우에 어떠한 마이크(Microphone)를 사용하는 \n것이 적절한가?\n ① 헤미스페리칼(Hemispherical)\n ② 단일 지향 마이크(Uni-directional Microphone)\n ③ 무지향 마이크(Omni-directional Microphone)\n ④ 양지향 마이크(Bi-directional Microphone)\n134. 스피커(Speaker) 품질에 영향을 주는 특성이 아닌 것은?\n ① 재생 주파수 대역\n ② 최대 출력 레벨\n ③ 임피던스(Impedance)\n ④ 진폭\n135. 스피커(Speaker)에 100W를 입력했을 때, 10m 지점에서 음압 레벨이 100dB이며  \n스피커(Speaker)의 감도는 얼마인가?\n ①80dB\n ②97dB\n ③100dB\n ④120dB"
+    },
+    {
+      "number": 28,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_28.jpg",
+      "text": "136. 스피커(Speaker) 진동판에 의한 구분이 아닌 것은?\n ① 콘 스피커(Cone Speaker)\n ② 돔 스피커(Dome Speaker)\n ③ 리본 스피커(Ribbon Speaker)\n ④ 다이나믹 스피커(Dynamic Speaker)\n137. 앰프(AMP) 회로 중에서 효율이 가장 좋은 것은?\n ① A급\n ② AB급\n ③ B급\n ④ C급\n138. 파워(POWER) 앰프(AMP) 모드 중에서 상대적으로 소비 전력이 가장 많은 것은?\n ① A급\n ② B급\n ③ AB급\n ④ C급\n139. 앰프의 출력 임피던스가 0.5Ω이고, 스피커 임피던스가 10Ω이면 댐핑(damping \nfactor, DF)은 얼마인가?\n ① 20\n ② 30\n ③ 40\n ④ 60\n140. 음압 레벨(sound pressure level: SPL)의 단위는 무엇인가?\n ① W\n ② dB\n ③ phon\n ④ Hz"
+    },
+    {
+      "number": 29,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_29.jpg",
+      "text": "141. 다음 중 파장(λ), 주파수(f)와 음속(c)과의 관계를 나타내는 식은?\n ① λ = c/f\n ② λ = f/c\n ③ λ = c/\n ④ λ = /c\n142. 다음 중 1초 동안에 반복되는 사이클(cycle)의 수를 무엇이라 하는가?\n ① 음속(sound speed)\n ② 파장(wave length)\n ③ 주파수(frequncy)\n ④ 음파(sound wave)\n143. 다음 중 CCTV(Closed Circuit Television)구성의 4대 원칙으로 정의할 때 구성요소가 \n아닌 것은?\n ① 촬영부\n ② 감시부\n ③ 전송부\n ④ 기록부\n144. 다음 중 CCTV(Closed Circuit Television) 카메라의 전송방식에 의한 분류가 아닌 것은?\n ① 무지향 신호전송\n ② 불평형 신호전송\n ③ 디지털(digital) 신호전송\n ④ 평형 신호전송\n145. 다음 중 불평형 통신기법으로 현재 많이 사용하는 유선 케이블(cable)은 어느 것인가?\n ① 근거리 통신망\n ② 전화망\n ③ 동축케이블\n ④ 트위스트 페어 케이블(twisted pair cable)"
+    },
+    {
+      "number": 30,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_30.jpg",
+      "text": "146. 다음 중 고발포 케이블(cable)과 비교하여 ECX계열 동축케이블의 차이점으로   \n볼 수 없는 것은?\n ① 중심도선의 재질에 따른 저항에 많은 차이가 있다.\n ② 실드(shield)의 저항이 높다.\n ③ 기계적 강도가 약하다. \n ④ 절연 저항이 낮다.\n147. 다음 중 RS-232 EIA의 표준규격 통신에서 표준통신거리는 얼마인가?\n ① 15M\n ② 100M\n ③ 500M\n ④ 1200M\n148. 다음 중 통신방식에서 보내고 받는 것을 동시에 할 수 있는 방식은?\n ① 일방통신\n ② 반이중통신\n ③ 전이중통신\n ④ 무선통신\n149. 다음 중 순간 정전이 되거나 전력이 끊어지더라도 일정시간 동안 안정된 전력을 \n공급하는 장치는?\n ① 무정전 전원 공급기\n ② 자동 전압 조절기\n ③ 전연형 복권 트랜스\n ④ 전용 파워(POWER)\n150. 다음 중 TCP/IP를 이용한 CCTV 시스템 구현에서 필요 없는 장비는?\n ① 스위칭 허브(switching hub)\n ② 라우터(router)\n ③ 네트워크 카메라(network cameras)\n ④ 분배기(distributor)"
+    },
+    {
+      "number": 31,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_31.jpg",
+      "text": "151. 버스닥트의 종류에서 도중에 이동 부하를 접속할 수 있도록 만든 것은?  \n ① 피더(Feeder)버스닥트\n ② 프러그인(Plug-in)버스닥트\n ③ 트롤리(Trolley)버스닥트\n ④ 프러그(Plug)버스닥트\n152. 케이블 트레이(Cable Tray) 부속자재가 아닌 것은?\n ① 레듀서(Reducer)\n ② 엘보(Elbow)\n ③ 라이자(Riser)\n ④ 커넥터(Connector)\n153. 합성수지제 가요전선관(CD)의 시공 시 주의 사항이 아닌 것은?\n ① 온도 변화에 따른 신축을 고려한다.\n ② 콘크리트에 매입될 때 건물의 강도를 감소시키지 않게 바닥 두께의 2/3 이상은  \n배관하면 안 된다.\n ③ 합성수지관은 지지점의 거리를 1.5[m] 이하로 한다.\n ④ 합성수지제 가요관의 상호간 접속은 직접 접속한다. \n154. 금속제 전선관(Conduit)의 시공 시 주의 사항이 아닌 것은? \n ① 콘크리트 강도를 유지하기 위해 배관을 2개 이하로 겹치게 한다. \n ② 전선관의 최소 곡률 반경은 관의 반지름의 6배 이상으로 한다. \n ③ 전선관을 직각으로 굴곡하는 장소를 5개소 이하로 한다.\n ④ 관의 길이가 30[m]을 넘을 때 박스를 사용한다. \n155. 분기회로 산정 시 고려 사항이 아닌 것은? \n ① 전등과 콘센트 회로는 분리한다.\n ② 분기회로 전선의 길이는 전압 강하를 고려하여 20[m] 이하로 한다.\n ③ 같은 스위치로 점멸 되는 전등은 같은 회로로 한다.\n ④ 분기회로는 별도의 분기 차단기를 설치한다."
+    },
+    {
+      "number": 32,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_32.jpg",
+      "text": "156. 감전 위험 요소가 아닌 것은?\n ① 통전전류의 크기\n ② 통전시간\n ③ 통전경로\n ④ 통전장소\n157. 감전 현상이 아닌 것은?\n ① 호흡정지\n ② 심장마비\n ③ 근육이완\n ④ 추락 \n158. 전기감전에서 통전경로별 위험도가 가장 큰 것은?\n ① 왼손-가슴\n ② 오른손-가슴\n ③ 양손-양발\n ④ 왼손-오른손\n159. 우리나라는 몇[V]를 안전전압으로 규정하는가?\n ① 10\n ② 20\n ③ 30\n ④ 40\n160. 누전차단기를 설치하는 목적이 아닌 것은?\n ① 감전보호\n ② 누전화재 보호\n ③ 전기설비 및 전기기 보호\n ④ 절연보호"
+    },
+    {
+      "number": 33,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_33.jpg",
+      "text": "161. 케이블을 나선형으로 꼬아 놓은 형태이며, 전자기 간섭을 막기 위한 별도의 피복이 \n없는 전선은? \n ① UTP(unshielded twisted pair)\n ② FTP(foiled twisted pair) \n ③ STP(shielded twisted pair)\n ④ FSTP(foiled shielded twisted pair)\n162. 전체 케이블에 피복을 씌운 케이블의 명칭은?\n ① UTP(unshielded twisted pair)\n ② FTP(foiled twisted pair) \n ③ STP(shielded twisted pair)\n ④ FSTP(foiled shielded twisted pair) \n163. 전체 케이블에 피복을 씌우고 각각의 나선형 케이블 쌍에도 피복을 씌운 케이블의 \n명칭은?\n ① UTP(unshielded twisted pair)\n ② FTP(foiled twisted pair) \n ③ STP(shielded twisted pair)\n ④ FSTP(foiled shielded twisted pair)\n164. 카테고리 4의 통신용량은?\n ① 4Mbps\n ② 10Mbps\n ③ 16Mbps\n ④ 100Mbps\n165. 카테고리 5의 통신용량은?\n ① 4Mbps\n ② 10Mbps\n ③ 16Mbps\n ④ 100Mbps"
+    },
+    {
+      "number": 34,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_34.jpg",
+      "text": "166. 광대역 동축 케이블(broadband coaxial cable)의 저항 값[Ω]은 얼마인가?\n ① 35\n ② 45\n ③ 55\n ④ 75\n167. 기저 대역 동축 케이블(baseband coaxial cable)의 저항 값[Ω]은 얼마인가?\n \n ① 30\n ② 40\n ③ 50 \n ④ 70\n168. 동축 케이블(coaxial cable)의 특징이 아닌 것은?\n ① 대역폭이 넓다.\n ② 전송 속도가 빠르다.\n ③ 전기적 간섭이 적다.\n ④ 이중 나선 케이블에 비하여 가격이 비싸고 설치가 쉽다.\n169. 동축 케이블의 용도가 아닌 것은?\n ① 광대역 전송로로 사용된다.\n ② 장거리 전화 및 TV전송\n ③ TV 신호 분배 \n ④ 장거리 시스템 링크\n170. 광섬유 케이블(optical fiber cable)의 특징이 아닌 것은?\n ① 대역폭이 넓다.(3.3[GHz])\n ② 외부 간섭에 전혀 영향을 받지 않는다.\n ③ 네트워크 보안성이 크다.\n ④ 데이터 전송속도는 100[Gbps]정도이다."
+    },
+    {
+      "number": 35,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_35.jpg",
+      "text": "171. 광섬유 케이블(optical fiber cable)의 특징이 아닌 것은?\n ① 설치 시 고도의 기술이 필요하다.\n ② 고속데이터 전송과 원거리 전송에 사용된다.\n ③ 싱글모드는 20[km]까지 전송할 수 있다.\n ④ 멀티모드는 20[km]까지 전송할 수 있다.\n172. 정보 전송방식이 아닌 것은?\n ① 단방향(simplex)통신 방식\n ② 반이중(half duplex)통신 방식\n ③ 전이중(full duplex)통신 방식\n ④ 장 방향(long)통신 방식\n173. 정보전송에서 직렬 전송 방식의 특징이 아닌 것은? \n ① 전송속도가 느리다.\n ② 전송로 비용이 저렴하다.\n ③ 원거리 전송에 사용된다.\n ④ 직․병렬 변환회로가 필요 없다. \n174. 정보전송에서 병렬 전송 방식의 특징이 아닌 것은? \n ① 전송속도가 빠르다.\n ② 전송로 비용이 비싸다.\n ③ 원거리 전송에 사용된다.\n ④ 직․병렬 변환회로가 필요 없다.\n175. 네트워크 사용의 장점이 아닌 것은?\n ① 네트워크 관리자가 분산된 시스템을 한 위치에서 중앙 제어할 수 있다.\n ② 원하는 자료를 공유할 수 있다.\n ③ 원격지에 있는 자원을 사용할 수 없다.\n ④ 프린터나 스캐너 같은 고가의 장비를 여러 사용자가 공유하여 사용함으로써 최소의  \n비용으로 최대의 효과를 누릴 수 있다."
+    },
+    {
+      "number": 36,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_36.jpg",
+      "text": "176. 사무실, 학교 등의 일정 지역 내에 분산 되어 있는 주변기기, 워크스테이션 등의 \n자원을 서로 연결하여 정보를 전송, 저장, 처리하는 통신망으로 약 10[km]거리 내\n에서 10[Mbps]정도의 전송속도를 가지는 통신방식은?  \n ① LAN\n ② WAN\n ③ MAN\n ④ VAN\n177. 정보의 전송교환 방식이 아닌 것은?\n ① 회선교환(circuit switching) \n ② 메시지 교환(message switching)\n ③ 패킷 교환(packet switching) \n ④ 다중교환(multiple switching) \n178. 주로 전화선이나 근거리 통신망에 사용되는 전선은?\n ① UTP(unshielded twisted pair)\n ② Coaxial Cable\n ③ STP(shielded twisted pair)\n ④ Optical Fiber Cable\n179. 토큰링(Token-ring)형 근거리 통신망에 주로 사용되는 통신망은?\n ① UTP(unshielded twisted pair)\n ② Coaxial Cable\n ③ STP(shielded twisted pair)\n ④ Optical Fiber Cable\n180. 트위스트 페어(twisted pair) 케이블이나 동축케이블(Coaxial Cable)과 비교할 때 \n광케이블(Optical Fiber Cable)의 특징이 아닌 것은?\n ① 넓은 대역폭\n ② 작은 크기와 적은 무게\n ③ 보다 큰 감쇄도 및 넓은 리피터 설치 간격\n ④ 전자기적 격리"
+    },
+    {
+      "number": 37,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_37.jpg",
+      "text": "181. 정보 형태에 따른 정보 통신 서비스가 아닌 것은?\n ① 음성 통신\n ② 데이터 통신\n ③ 화상 통신\n ④ E-mail 서비스 통신\n182. 정보통신 표준화 기구가 아닌 것은?\n ① ISO\n ② ITU-T\n ③ IEEE\n ④ ANCI\n183. 정보 통신망 토폴리지(Topology) 방식 중 성(Star)형의 장점이 아닌 것은?\n ① 보수와 관리가 용이하다.\n ② 전송제어 기능이 간단하다.\n ③ 각 단말의 전송속도에 차이를 줄 수 있다.\n ④ 통신망의 구성이 복잡하나 견고하다.\n184. 정보 통신망 토폴리지(Topology) 방식 중 링(Ring)형의 장점이 아닌 것은?\n ① 공평한 통신망 서비스를 받을 수 있다.\n ② 통신회선이 장애가 날 때 융통성을 가질 수 있다.\n ③ 양방향의 데이터 전송이 가능하다.\n ④ 전체적인 통신 처리량이 증가한다.\n185. 정보 통신망 토폴리지(Topology) 방식 중 링(Ring)형의 단점이 아닌 것은?\n ① 단말기 증가가 어렵다.\n ② 전체적인 통신처리량이 증가한다.\n ③ 하나의 단말고장이 전체의 통신망에 영향을 준다.\n ④ 통신망의 구성이 복잡하다."
+    },
+    {
+      "number": 38,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_38.jpg",
+      "text": "186. 정보 통신망 토폴리지(Topology) 방식 중 버스(Bus)형의 장점이 아닌 것은?\n ① 통신회선이 1개이므로 물리적 구조가 간단하다.\n ② 단말의 증가와 삭제가 용이하다.\n ③ 단말의 고장이 통신망 전체에 영향을 주지 않으므로 통신망의 신뢰성을 높일 수 있다.\n ④ 방송모드이므로 경로 제어가 필요하다.\n187. 정보 통신망 토폴리지(Topology) 방식 중 버스(Bus)형의 단점이 아닌 것은?\n ① 기밀 보장이 어렵다.\n ② 노드수가 많아지면 망의 부하가 커져 성능이 저하한다.\n ③ 통신제어 기능을 가지므로 처리량이 증가한다.\n ④ 중앙 제어형에서는 우선순위 제어가 어렵다.\n188. 정보 통신망 토폴리지(Topology) 방식 중 모든 데이터가 제어 노드를 중심으로  \n라우팅되므로 중개 과정이 간단한 정보 통신망은?\n ① 트리(Tree)형\n ② 그물(Mesh)형\n ③ 버스(Bus)형\n ④ 망(Ring)형\n189. 정보 통신망 토폴리지(Topology) 방식 중 중앙호스트에 문제가 발생하면 \n전체 네트워크의 동작에 영향을 많이 주는 정보통신 방식은?\n ① 트리(Tree)형\n ② 그물(Mesh)형\n ③ 버스(Bus)형\n ④ 망(Ring)형 \n190. 정보통신망의 이용 분야가 아닌 것은?\n ① 정보 검색\n ② 금융 서비스\n ③ 고속 로밍 기능\n ④ E-mail"
+    },
+    {
+      "number": 39,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_39.jpg",
+      "text": "191. 통신망 아키텍쳐(Network Architecture)의 목적이 아닌 것은?\n ① 집중된 컴퓨터나 단말간의 정보교환\n ② 컴퓨터 자원의 공동이용\n ③ 컴퓨터 시스템의 신뢰성 향상\n ④ 분산처리에 따른 비용 성능비의 향상\n192. 정보전송 기술에서 신호선과 공통접지선 4개로 구성된 통신회선은?\n ① 2선식\n ② 4선식\n ③ 6선식\n ④ 8선식\n193. 통신회선의 접속 방식이 아닌 것은?\n ① 점-대-점 방식(Point-to-point)방식\n ② 단방향 전송(Simplex)방식\n ③ 집선(Concentration)방식\n ④ 다중화(Multiplexing)방식\n194. 핸드폰, PDA, 노트북과 같은 정보기기들 간의 양방향 근거리 통신이 가능하며  \n전송거리는 10~100[m] 까지 가능한 것은? \n ① Bluetooth\n ② Zigbee\n ③ UWB\n ④ IrDA\n195. UWB(Ultra Wide Band)의 기술적 특징이 아닌 것은? \n ① 고속 전송의 실현\n ② 극히 짧은 펄스를 이용한 송수신\n ③ Channel Capacity \n ④ 기존 협대역 시스템의 공유"
+    },
+    {
+      "number": 40,
+      "image": "assets/special-eps/work-related/electronics-electricity/pages/page_40.jpg",
+      "text": "196. 무선통신 기술에서 셀룰라 엔지니어링의 특징이 아닌 것은?\n ① 이동체가 교환기의 특정 단자에 수용되지 않으므로 경로 선택에 특별한 기능이 필요하다.\n ② 사용되는 주파수대가 한정되어 있지 않기 때문에 주파수를 효율적으로 이용하여 \n가입자 수용 용량을 증대시킬 수 있다. \n ③ 무선통신 방식이므로 페이딩을 극복하는 방식 및 제어 프로토콜이 필요하다.\n ④ 회선을 다수의 이용자가 공용하고 있고 또 이용자가 이동하고 있으므로 이동측의 \n호출 그리고 통화료 부과 등에 일반전화와 다른 기술이 필요하다.\n197. 무선통신 기술에서 무선망과 인터넷이 통합되어 언제 어디서든지 자유로이 인터넷을 \n이용할 수 있는 것은?\n ① UWB                                  ② WiBro\n ③ Bluetooth                              ④ Zigbee\n198. GPS 위성을 사용한 동기화 방식을 사용하는 비동기식은 위성을 이용하지 않고 기지국과 \n중계국간 동기화를 통해 데이터를 송수신하는 것은? \n ① IMT 2000 동기식                        ② 뮤선 LAN\n ③ Bluetooth                               ④ Zigbee\n199. WCDMA와 cdma2000으로 대별되는 3G 이동 통신과 4G 이동통신의 중간에 해당되는 기술은?\n ① LTE(Long Term Evolution) \n ② HAR(Home Location Register)\n ③ AMC(Adaptive Modulation and Coding)\n ④ H-ARQ(Hybrid-ARQ) \n200. 무선통신 기술에서 전송할 때 여러 개의 안테나에 서로 다른 데이터를 보내고 \n수신단에서 서로 다른 안테나로 전송된 데이터를 통해 무선 채널 특성을 찾아내어 \n분리하는 것을 특징으로 하는 것은?\n ① MIMO(Multiple Input  Multiple Output)\n ② LTE(Long Term Evolution) \n ③ HAR(Home Location Register)\n ④ AMC(Adaptive Modulation and Coding)"
+    }
+  ],
+  "answers": [
+    {
+      "number": 1,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 2,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 3,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 4,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 5,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 6,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 7,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 8,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 9,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 10,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 11,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 12,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 13,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 14,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 15,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 16,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 17,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 18,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 19,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 20,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 21,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 22,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 23,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 24,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 25,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 26,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 27,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 28,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 29,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 30,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 31,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 32,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 33,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 34,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 35,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 36,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 37,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 38,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 39,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 40,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 41,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 42,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 43,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 44,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 45,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 46,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 47,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 48,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 49,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 50,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 51,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 52,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 53,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 54,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 55,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 56,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 57,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 58,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 59,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 60,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 61,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 62,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 63,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 64,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 65,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 66,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 67,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 68,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 69,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 70,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 71,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 72,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 73,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 74,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 75,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 76,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 77,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 78,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 79,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 80,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 81,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 82,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 83,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 84,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 85,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 86,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 87,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 88,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 89,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 90,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 91,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 92,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 93,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 94,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 95,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 96,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 97,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 98,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 99,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 100,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 101,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 102,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 103,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 104,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 105,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 106,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 107,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 108,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 109,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 110,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 111,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 112,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 113,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 114,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 115,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 116,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 117,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 118,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 119,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 120,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 121,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 122,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 123,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 124,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 125,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 126,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 127,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 128,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 129,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 130,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 131,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 132,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 133,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 134,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 135,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 136,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 137,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 138,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 139,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 140,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 141,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 142,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 143,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 144,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 145,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 146,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 147,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 148,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 149,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 150,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 151,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 152,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 153,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 154,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 155,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 156,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 157,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 158,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 159,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 160,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 161,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 162,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 163,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 164,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 165,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 166,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 167,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 168,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 169,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 170,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 171,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 172,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 173,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 174,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 175,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 176,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 177,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 178,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 179,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 180,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 181,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 182,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 183,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 184,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 185,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 186,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 187,
+      "answer_symbol": "④",
+      "answer_key": "d"
+    },
+    {
+      "number": 188,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 189,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 190,
+      "answer_symbol": "③",
+      "answer_key": "c"
+    },
+    {
+      "number": 191,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 192,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 193,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 194,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 195,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 196,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 197,
+      "answer_symbol": "②",
+      "answer_key": "b"
+    },
+    {
+      "number": 198,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 199,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    },
+    {
+      "number": 200,
+      "answer_symbol": "①",
+      "answer_key": "a"
+    }
+  ],
+  "integrity": {
+    "pdf_pages": 40,
+    "answers": 200
+  }
+}

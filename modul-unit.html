@@ -6,9 +6,6 @@
   <title>Langit Korea — Modul Belajar</title>
   <link rel="stylesheet" href="assets/css/main.css" />
   <link rel="stylesheet" href="assets/css/modul-unit.css" />
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script type="module" src="assets/js/supabase.js"></script>
-  <script type="module" src="assets/js/auth.js"></script>
   <script type="module" src="assets/js/utils.js"></script>
   <script type="module" src="assets/js/modul-unit.js"></script>
 </head>
@@ -53,8 +50,7 @@
   </div>
 
   <script type="module">
-    import { supabase } from './assets/js/supabase.js';
-    import { navigateTo, showToast } from './assets/js/utils.js';
+    import { navigateTo } from './assets/js/utils.js';
     import { renderModule } from './assets/js/modul-unit.js';
 
     window.navigateTo = navigateTo;

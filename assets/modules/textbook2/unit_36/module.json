@@ -1,0 +1,915 @@
+{
+  "book": "textbook2",
+  "source": "EPS-TOPIK Standard Textbook 2",
+  "unit": 36,
+  "title_ko": "출하 관리",
+  "title_en": "Shipment Management",
+  "title_id": "Manajemen Pengiriman",
+  "source_pdf": "assets/langit-korea-modules/unit_36_shipment_management.pdf",
+  "page_start": 67,
+  "page_end": 76,
+  "pages": [
+    {
+      "number": 1,
+      "image": "assets/modules/textbook2/unit_36/pages/page_01.jpg",
+      "text": "36 출하 관리 \n SHIPMENT MANAGEMENT 67\n어휘 VOCABULARY\n포장 및 적재 작업 관련 어휘 Packaging and Loading Work\n싸다/포장하다\nto package\n담다/넣다\nto put in\n분류하다\nto sort\n묶다\nto tie\n밀봉하다\nto seal\n라벨을 붙이다\nto attach a label\n나르다\nto carry\n쌓다\nto stack \n포장 기준서\npackaging instructions\n완충재\ncushioning material\n방청지\nrust-proof paper\n파렛트(팰릿)\npallet \n깨지다 to break\n녹슬다 to rust\n업체 company\n지시하다 to instruct\n갖다 놓다 to bring and put\n꼼꼼하다 to be meticulous\n운송하다 to ship/transport\n손상되다 to get damaged\n신경을 쓰다 to pay attention\n크기 size\n-별 by (a category)\n 그림을 보고 [보기]와 같이 문장을 완성하세요. \nLook at the pictures and complete the sentences as shown in the example. \n깨지기 쉬우니까 하나씩 조심해서 나르세요 .\n[ 보기 ]\n⑴\n이물질이 들어갈 수 있으니까 \n테이프로 상자를 .\n⑵\n무거운 상자는 아래에, 가벼운 \n상자는 위에 .\n⑶\n녹슬 수 있으니까 방청지로\n .\n⑷\n포장이 끝나면 큰 것은 큰 것끼리, \n작은 것은 작은 것끼리\n ."
+    },
+    {
+      "number": 2,
+      "image": "assets/modules/textbook2/unit_36/pages/page_02.jpg",
+      "text": "68 한국어 표준교재 2\n문법 GRAMMAR\n-(으)ㄴ \n‘-(으)ㄴ’은 동사에 붙어 뒤에 오는 명사를 꾸며 주면서 어떤 일이 과거에 일어난 것임을 나타내거나 완료된 일의 결\n과가 유지되고 있음을 나타낸다.\n‘-(으)ㄴ’ is attached to a verb to describe the noun that follows and indicates that the action took place in the past \nor that the result of a completed action is maintained. \n받침 ○\n-은\n \n닫다 → 닫은\n받침 ×, 받침 ‘ㄹ’\n-ㄴ\n \n배우다 → 배운\n \n만들다 → 만든 \n예 완충재로 싼 제품은 저한테 주세요.\n \n제가 여기에 둔 포장 기준서 못 봤어요?\n \n파렛트에 쌓아 놓은 물건을 창고로 옮기세요.\n1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요. \nComplete the sentences with the correct options as shown in the example.\n받다 붙이다 일하다 만들다 정리하다 \n어제 작업장을 정리한 사람은 닛차난 씨예요.\n[ 보기 ]\n \n⑴ 라벨을 상자는 여기에 쌓아 주세요.\n \n⑵ 오후까지 주문을 물건을 포장해야 돼요.\n \n⑶ 오전에 공장에서 제품을 주문 업체에 보냈어요. \n \n⑷ 회사에서 성실하게 직원에게 휴가를 보내 준다고 해요.\n2. [보기]와 같이 문장을 바꾸세요. Change the sentences as shown in the example.\n오전에 반장님이 작업을 지시하셨어요. + 그 작업을 아직 못 했어요.\n⊙ 오전에 반장님이 지시하신 작업을 아직 못 했어요.\n[ 보기 ]\n \n⑴ 방금 자재가 도착했어요. + 그 자재를 작업장에 갖다 놓으세요.\n \n ⊙ .\n \n⑵ 파렛트에 상자를 쌓아 놓았어요. + 그 상자를 창고로 옮기세요. \n \n ⊙ .\n \n⑶ 재고 상품을 상자에 담았어요. + 그 재고 상품을 차에 실었어요.\n \n ⊙ .\n \n⑷ 제품을 방청지로 싸지 않았어요. + 그 제품은 녹슬 수 있어요.\n \n ⊙ .\n형용사에는 ‘-던’이나 ‘-았던/었던’을 붙인다.\nWhen used with adjectives it takes the forms \n‘-던’ or ‘-았던/었던’. \n예 저와 친했던 동료가 고향으로 돌아갔어요."
+    },
+    {
+      "number": 3,
+      "image": "assets/modules/textbook2/unit_36/pages/page_03.jpg",
+      "text": "36 출하 관리 \n SHIPMENT MANAGEMENT 69\n대답해 봐요! ANSWER ME!\n1 제품을 포장할 때 뭐가 중요해요? What is important when packaging a product? \n2 포장이 끝나면 무엇을 해야 돼요? What should they do after finishing the packaging?\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•완충재로 제품을 포장하다, 상자에 담다 \n•상자에 라벨을 붙이다, 파렛트에 쌓다\n가 : 완충재로 제품을 포장했어요. 이제 어떻게 할까요? \n나 : 포장한 제품을 상자에 담으면 돼요.\n가 : 네, 알겠습니다.\n발음 │ PRONUNCIATION\n받침 ‘ㄷ, ㅌ, ㅅ, ㅆ, ㅈ, ㅊ’ 뒤에 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’가 연결되는 경우, 앞 자음은 파열되지 않은 [ㄷ]으로 발음하고 뒤 자\n음은 된소리로 발음한다.\nWhen the consonants ‘ㄷ, ㅌ, ㅅ, ㅆ, ㅈ, ㅊ’ are followed by ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’, the preceding consonant is \npronounced as an unreleased [ㄷ] and the following consonant is pronounced as a tense sound. \n⑴ 닫다[닫따] \n솥밥[솓빱] \n아랫집[아랟찝]\n⑵ 있던[읻떤] \n낮잠[낟짬] \n꽃다발[꼳따발] \n204\n대화 CONVERSATION\n아\n궁\n반장님, 이제 포장 작업을 시작하면 될까요?\n \nBanjangnim, can we start the packaging process now? \n반장님 \n상자하고 포장지, 완충재 모두 갖다 놓았지요? \nYou have prepared the boxes, packaging material, \nand cushioning materials, right? \n아\n궁\n네, 작업장에 준비해 놓았어요.\n \nYes, I have prepared and put everything on the work space.\n반장님 \n포장할 때 완충재로 제품을 꼼꼼하게 싸는 게 \n중요해요. 그렇게 하지 않으면 운송할 때 제품이 \n손상될 수 있어요. \nIt’s important to wrap the product carefully with \ncushioning materials when packaging. If not, the product might get damaged during transport. \n아\n궁\n네, 신경 써서 할게요. 포장 작업은 5시 전까지 끝내면 되지요?\n \nYes, I'll make sure to pay attention to that. We should finish the packaging process before 5 o’clock, right? \n반장님 \n맞아요. 포장이 끝난 상자는 크기별로 분류해서 파렛트에 쌓아 놓으세요. \nThat’s right. Once the packaging is done, sort the boxes by size and stack them on the pallets. \n203"
+    },
+    {
+      "number": 4,
+      "image": "assets/modules/textbook2/unit_36/pages/page_04.jpg",
+      "text": "70 한국어 표준교재 2\n 그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.\n⑴\n가 : 포장이 끝났습니다.\n나 : 물건이 많지 않으니까 로 옮깁시다.\n⑵\n가 : 상자가 좀 무겁네요.\n나 : 로 나르면 괜찮을 거예요. \n⑶\n가 : 오늘은 출하량이 좀 많네요.\n나 : 로 운반하는 게 좋겠어요.\n⑷\n가 : 반장님이 창고에 있는 물건을 나르라고 하셨어요.\n나 : 제가 로 옮길게요.\n어휘 VOCABULARY\n출하 관리 관련 어휘 Shipment Management\n입고하다\nto receive (goods)\n출고하다\nto take out (goods)\n검수하다\nto inspect \n운반하다\nto transport\n싣다/적재하다\nto load \n내리다\nto unload\n출하하다\nto ship\n납품하다\nto deliver \n지게차\nforklift\n핸드 파렛트(핸드 팰릿)\nhand pallet\n핸드 카트\nhand trolley\n대차\ndolly\n출하량 shipment volume\n수량 quantity\n빠짐없이 without exception, perfectly\n수고하다 to put in effort\n맞추다 to adjust\n떨어지다 to fall\n밧줄 rope\n중량 weight\n주의하다 to take caution"
+    },
+    {
+      "number": 5,
+      "image": "assets/modules/textbook2/unit_36/pages/page_05.jpg",
+      "text": "36 출하 관리 \n SHIPMENT MANAGEMENT 71\n문법 GRAMMAR\n-겠-\n‘-겠-’은 동사에 붙어 말하는 사람의 의지를 나타낸다. 주어는 \n1인칭이 된다.\n‘-겠-’ is attached to a verb to express the speaker’s intention. \nThe subject must be in the first person. \n예 다음부터 회사에 일찍 오겠습니다.\n \n상자를 크기별로 분류하겠습니다.\n \n가 : 밖에 자재를 쌓아 놓았지요? 오후에 비가 온다고 해요. \n \n나 : 바로 나가서 덮개로 덮어 놓겠습니다. \n※ 공손하고 완곡하게 말할 때도 사용한다.\nIt is also used to speak politely and indirectly.\n예 처음 뵙겠습니다.\n \n아궁 씨, 좀 도와주시겠습니까?\n1. 그림을 보고 [보기]와 같이 대화를 완성하세요. \nLook at the pictures and complete the conversations as shown in the example. \n가 : 출하할 상품을 모두 검수했어요.\n나 : 그럼 트럭에 물건을 싣겠습니다.\n[ 보기 ]\n⑴\n가 : 작업대가 좀 지저분하네요.\n나 : 제가 금방 .\n⑵\n가 : 작업에 필요한 자재가 \n도착했어요.\n나 : 직원들하고 가서 자재를 \n . \n⑶\n가 : 파렛트에 쌓아 놓은 물건을 \n옮겨야 돼요.\n나 : 제가 지게차로 .\n⑷\n가 : 물건을 방청지로 다 포장했어요.\n나 : 그럼 제가 상자에 \n .\n2. 그림을 보고 [보기]와 같이 문장을 쓰세요. Look at the picture and write the sentences as shown in the example.\n<오늘 해야 할 일>\n● 포장 기준서를 확인해야 돼요.\n● 완충재를 가지고 와야 돼요.\n● 만든 물건을 창고에 갖다 놓아야 돼요.\n● 핸드 파렛트로 상자를 운반해야 돼요.\n● 물건을 트럭에 실어야 돼요.\n[보기] 제가 포장 기준서를 확인하겠습니다.\n \n⑴ .\n \n⑵ .\n \n⑶ .\n \n⑷ .\n‘-겠-’은 또한 동사, 형용사에 붙어 말하\n는 사람의 생각을 근거로 다른 사람의 \n일이나 어떤 상황을 추측함을 나타낸\n다. 주어는 3인칭이 된다.\n‘-겠-’ can also be attached to a verb or \nadjective to indicate that the speaker is \nmaking a prediction about someone's \nwork or a situation based on their \nthoughts. The subject must then be in \nthe third person.\n예 재고 정리를 잘해서 재고 파악이 쉽겠어요."
+    },
+    {
+      "number": 6,
+      "image": "assets/modules/textbook2/unit_36/pages/page_06.jpg",
+      "text": "72 한국어 표준교재 2\n대화 CONVERSATION\n관리자 \n오늘 납품할 상품은 모두 준비됐지요?\n \nAre all the products ready for delivery today?\n마\n두 \n네, 이쪽에 있는 물건들이 오늘 출하할 \n상품입니다.\n \nYes, the items over here are the products \nto be shipped today. \n관리자 \n한번 봅시다. 수량도 맞고 상자에 라벨도 \n빠짐없이 붙여 놓았네요. 수고했어요.\n \nLet’s have a look. The quantities are correct, and \nall the labels have been attached to the boxes \nperfectly. Good job. \n마\n두 \n아닙니다. 그럼, 출하 시간에 맞춰서 \n상자를 차에 실어 놓겠습니다.\n \nThank you. Then, I will load the boxes onto the vehicle in time for the shipping. \n관리자 \n출하량이 많으니까 지게차로 옮기는 게 좋겠어요. 그리고 차에 상자를 실을 때 너무 높게 쌓지 마세요. \n운송할 때 위험할 수 있어요.\n \nSince there is a large quantity to be shipped, it’s better to move them with a forklift. Also, don’t stack the boxes \ntoo high when loading them onto the vehicle. It could be dangerous during transport. \n대답해 봐요! ANSWER ME!\n1 마두 씨는 어떤 물건을 준비했어요? What kind of items did Madhu prepare? \n2 차에 상자를 실을 때 마두 씨는 어떤 것을 주의해야 돼요? \nWhat things does Madhu have to take caution of when loading the boxes into the vehicle?\n 제시된 표현을 활용하여 대화해 보세요. Practice speaking using the provided expressions.\n•물건이 떨어지다, 밧줄로 잘 묶다, 신경을 쓰다\n•사고가 나다, 적재 중량을 지키다, 주의하다\n가 : 반장님, 물건을 트럭에 다 실었습니다.\n나 : 한번 봅시다. 물건이 떨어질 수 있으니까 밧줄로 잘 묶어야\n \n돼요.\n가 : 다음부터 신경을 써서 적재하겠습니다.\n가 : 오랜만에 프엉 씨를 만나기로 했어요. \nI'm going to meet Phuong after not having seen her for a long time.\n나 : 안부 전해 주세요. Pass my regards.\n유용한 표현 │ USEFUL EXPRESSION\n안부 전해 주세요.\nPass my regards.\n206\n205"
+    },
+    {
+      "number": 7,
+      "image": "assets/modules/textbook2/unit_36/pages/page_07.jpg",
+      "text": "문화와 정보 CULTURE & INFORMATION\n36 출하 관리 \n SHIPMENT MANAGEMENT 73\n• 포장 작업 과정에 대해 듣고 이해할 수 있다. \nI can listen to and understand the elements of the packaging process. \n↻\n• 출하 작업 진행 상황에 대해 말할 수 있다. I can discuss the progress of the shipping process. \n↻\n• 자신이 할 일에 대해 상대방에게 말할 수 있다. I can tell others about the tasks I will do. \n↻\n확인해요 │ self assessment\n한국의 무역 특성\nCharacteristics of Korean Trade\n한국은 무역 의존도가 높은 국가라고 할 수 있습니다. 천연자원이 부족하고 내수시장이 작은 편이기 때문에 한국 \n정부는 지속적으로 수출 주도 정책을 펴 왔습니다. 이와 같은 정책에 따라 한국은 국제 무역을 통하여 성장하기 시\n작하여 2010년대에는 무역 규모가 1조 달러를 돌파하였습니다.\nKorea is a country with a high dependence on trade. Due to its lack of natural resources and its relatively small \ndomestic market, the Korean government has consistently pursued export-driven policies. As a result Korea \nbegan to grow through international trade, and by the 2010s, its trade volume surpassed 1 trillion dollars.\n한국의 무역은 부족한 천연자원은 수입하고, \n이를 혁신적인 기술로 가공하여 고부가가치 제\n품을 만들어 수출하는 특성을 보입니다. 주요 \n수입 품목은 원유, 천연가스, 철강 원자재, 산업 \n기계 및 장비, 농산물 및 식료품 등이고, 주요 \n수출 품목은 반도체, 스마트폰, 자동차, 조선, 석\n유화학 제품, 배터리 등입니다. 한국과 무역 거\n래를 가장 많이 하는 국가는 중국이며, 미국, 일\n본, 베트남 등이 그 뒤를 잇고 있습니다.\nKorea’s trade is characterized by importing scarce natural resources and processing them with innovative \ntechnologies to create high value-added products for export. Major imports include crude oil, natural gas, steel \nraw materials, industrial machinery and equipment, and agricultural products and food. Its key export items are \nsemiconductors, smartphones, automobiles, shipbuilding, petrochemical products, and batteries. Korea’s largest \ntrading partner is China, followed by the United States, Japan, and Vietnam.\n무역 의존도가 높은 한국은 다양한 국가와 자유무역협정(FTA)을 체결하여 무역의 장벽을 줄이고, 글로벌 시장에\n서의 경쟁력을 강화하고 있습니다. 아울러 특정 산업에 대한 의존도를 낮추고, 새로운 시장으로 진출하고자 수출 다\n변화를 위해 지속적으로 노력하고 있습니다.\nAs a country with a high dependence on trade, Korea has signed various Free Trade Agreements (FTAs) with \nother countries to reduce trade barriers and strengthen its competitiveness in the global market. Additionally, \nKorea is making continuous efforts to diversify its exports, aiming to lower dependence on specific industries and \nexpand into new markets."
+    },
+    {
+      "number": 8,
+      "image": "assets/modules/textbook2/unit_36/pages/page_08.jpg",
+      "text": "읽기 READING\n74 한국어 표준교재 2\n1. \n다음 내용과 관계있는 그림을 고르십시오.\n지게차입니다.\n①\n②\n③\n④\n2. 다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.\n① 냉장 창고의 온도를 덮어요. \n② 포장한 상자에 라벨을 붙여요. \n③ 드릴을 사용해서 구멍을 박아요. \n④ 날씨가 좋으면 콘크리트를 조립해요.\n3. 빈칸에 들어갈 가장 알맞은 것을 고르십시오.\n제품 포장이 끝나면 크기별로 를 합니다. 큰 것은 큰 것끼리, 작은 것은 작은 것끼리 나눠서 \n쌓습니다.\n① 검수 \n② 연마 \n③ 분류 \n④ 중지\n4. 다음은 무엇에 대한 설명입니까?\n제품이 운송 중에 손상되지 않도록 보호하는 데 사용하는 재료입니다.\n① 바이스 \n \n \n② 첨가제\n③ 파렛트 \n \n \n④ 완충재\n5. \n다음 글을 읽고 내용과 같은 것을 고르십시오.\n한국은 천연자원이 부족하고 내수 시장이 작아 정부에서 지속적으로 수출 주도 정책을 펴 왔습니다. \n주요 수출 품목은 반도체, 스마트폰 등이고 원유, 천연가스 등을 주로 수입합니다. 한국의 무역 상대국 \n1위는 중국이며, 미국, 일본 등이 그 뒤를 잇고 있습니다. 한국은 다양한 국가와 자유무역협정을 체결하여 \n무역의 장벽을 줄이고, 새로운 시장으로 진출하고자 노력하고 있습니다.\n① 한국은 주로 원유, 천연가스 등을 수출합니다.\n② 한국은 미국과 무역 거래를 가장 많이 합니다.\n③ 한국은 무역 시장을 넓히기 위해 노력하고 있습니다.\n④ 한국은 자유무역협정으로 인해 무역에 어려움이 있습니다."
+    },
+    {
+      "number": 9,
+      "image": "assets/modules/textbook2/unit_36/pages/page_09.jpg",
+      "text": "듣기 LISTENING\n36 출하 관리 \n SHIPMENT MANAGEMENT 75\n1. \n다음을 듣고 들은 내용과 관계있는 그림을 고르십시오.\n①\n②\n③\n④\n2. 다음을 듣고 물음에 알맞은 대답을 고르십시오.\n① 아궁 씨가 운반했어요. \n \n② 핸드 파렛트로 운반했어요.\n③ 점심시간 전에 운반했어요. \n④ 오십 상자 정도 운반했어요.\n3. 두 사람은 무엇에 대해 말하고 있습니까? \n① 작동 방법 \n \n \n② 사용 시간 \n③ 주의 사항 \n \n \n④ 시설 관리 \n4. 다음을 듣고 이어지는 말로 가장 알맞은 것을 고르십시오.\n① 내일 창고 정리를 해야겠어요. \n② 지금 가서 얼른 준비해 놓을게요.\n③ 다음에는 더 잘할 수 있을 거예요. \n④ 포장 기준서에 있으니까 확인해 보세요.\n5. \n여자가 이어서 할 행동은 무엇입니까?\n① 제품을 분류합니다. \n② 물건을 운반합니다. \n③ 방청지를 가지러 갑니다. \n④ 동료에게 포장 작업을 부탁합니다.\n1. \n여 : 오전에 무슨 작업을 했어요?\n \n남 : 납품할 물건을 트럭에 실었어요.\n2. 여 : 어떻게 상자를 운반했어요?\n3. 남 : 상자를 차에 옮겨 실으면 될까요?\n \n여 : 네, 위험할 수 있으니까 너무 높게 쌓지 않도록 하세요. \n4. 여 : 상자와 완충재를 얼마나 준비할까요?\n5. 남 : 아까 부탁한 방청지 갖다 놓았지요?\n \n여 : 죄송해요. 제품을 분류하느라 아직 준비 못 했어요.\n \n남 : 곧 포장 작업을 시작해야 되니까 얼른 가져오세요.\n \n여 : 네, 바로 가서 준비하겠습니다.\n듣기지문\n207"
+    },
+    {
+      "number": 10,
+      "image": "assets/modules/textbook2/unit_36/pages/page_10.jpg",
+      "text": "76 한국어 표준교재 2\n학습 목표\nLEARNING OBJECTIVES\n기계 작동 방법에 대해 말할 수 있다.\nCan talk about how to operate a machine.\n기구와 작업에 대해 묻고 대답할 수 있다.\nCan ask and answer questions about tools and tasks.\n기계 가공 \nMachine Processing \nC H A P T E R 3 7\n76 한국어 표준교재 2\n-아도/어도\n-자고 하다\nGRAMMAR\n문법\n기계 작동 관련 어휘\nVocabulary Related to \nOperating Machines\n기구와 용도 관련 어휘\nVocabulary Related to Tools \nand their Uses\nVOCABULARY\n어휘\n한국의 가전제품\nKorea's Home Appliances\nCULTURE & INFORMATION\n문화와 정보\n전원을 켜도 기계가 작동하지 않아요. \n무슨 일이에요? \nEPS-TOPIK"
+    }
+  ],
+  "sections": {
+    "vocab": [
+      {
+        "id": "vocab_1",
+        "front": "36 출하 관리",
+        "back": "SHIPMENT MANAGEMENT 67",
+        "raw": {
+          "korean": "36  출하 관리",
+          "indonesia": "SHIPMENT MANAGEMENT   67"
+        }
+      },
+      {
+        "id": "vocab_2",
+        "front": "어휘",
+        "back": "VOCABULARY",
+        "raw": {
+          "korean": "어휘",
+          "indonesia": "VOCABULARY"
+        }
+      },
+      {
+        "id": "vocab_3",
+        "front": "포장 및 적재 작업 관련 어휘",
+        "back": "Packaging and Loading Work",
+        "raw": {
+          "korean": "포장 및 적재 작업 관련 어휘",
+          "indonesia": "\u0007Packaging and Loading Work"
+        }
+      },
+      {
+        "id": "vocab_4",
+        "front": "싸다/포장하다",
+        "back": "to package",
+        "raw": {
+          "korean": "싸다/포장하다",
+          "indonesia": "to package"
+        }
+      },
+      {
+        "id": "vocab_5",
+        "front": "담다/넣다",
+        "back": "to put in",
+        "raw": {
+          "korean": "담다/넣다",
+          "indonesia": "to put in"
+        }
+      },
+      {
+        "id": "vocab_6",
+        "front": "분류하다",
+        "back": "to sort",
+        "raw": {
+          "korean": "분류하다",
+          "indonesia": "to sort"
+        }
+      },
+      {
+        "id": "vocab_7",
+        "front": "묶다",
+        "back": "to tie",
+        "raw": {
+          "korean": "묶다",
+          "indonesia": "to tie"
+        }
+      },
+      {
+        "id": "vocab_8",
+        "front": "밀봉하다",
+        "back": "to seal",
+        "raw": {
+          "korean": "밀봉하다",
+          "indonesia": "to seal"
+        }
+      },
+      {
+        "id": "vocab_9",
+        "front": "라벨을 붙이다",
+        "back": "to attach a label",
+        "raw": {
+          "korean": "라벨을 붙이다",
+          "indonesia": "to attach a label"
+        }
+      },
+      {
+        "id": "vocab_10",
+        "front": "나르다",
+        "back": "to carry",
+        "raw": {
+          "korean": "나르다",
+          "indonesia": "to carry"
+        }
+      },
+      {
+        "id": "vocab_11",
+        "front": "쌓다",
+        "back": "to stack",
+        "raw": {
+          "korean": "쌓다",
+          "indonesia": "to stack"
+        }
+      },
+      {
+        "id": "vocab_12",
+        "front": "포장 기준서",
+        "back": "packaging instructions",
+        "raw": {
+          "korean": "포장 기준서",
+          "indonesia": "packaging instructions"
+        }
+      },
+      {
+        "id": "vocab_13",
+        "front": "완충재",
+        "back": "cushioning material",
+        "raw": {
+          "korean": "완충재",
+          "indonesia": "cushioning material"
+        }
+      },
+      {
+        "id": "vocab_14",
+        "front": "방청지",
+        "back": "rust-proof paper",
+        "raw": {
+          "korean": "방청지",
+          "indonesia": "rust-proof paper"
+        }
+      },
+      {
+        "id": "vocab_15",
+        "front": "파렛트(팰릿)",
+        "back": "pallet",
+        "raw": {
+          "korean": "파렛트(팰릿)",
+          "indonesia": "pallet"
+        }
+      },
+      {
+        "id": "vocab_16",
+        "front": "그림을 보고 [보기]와 같이 문장을 완성하세요.",
+        "back": "Look at the pictures and complete the sentences as shown in the example.",
+        "raw": {
+          "korean": "\u0007그림을 보고 [보기]와 같이 문장을 완성하세요.",
+          "indonesia": "Look at the pictures and complete the sentences as shown in the example."
+        }
+      },
+      {
+        "id": "vocab_17",
+        "front": "[ 보기 ]",
+        "back": "⑴",
+        "raw": {
+          "korean": "[ 보기 ]",
+          "indonesia": "⑴"
+        }
+      },
+      {
+        "id": "vocab_18",
+        "front": "테이프로 상자를 .",
+        "back": "⑵",
+        "raw": {
+          "korean": "테이프로 상자를                            .",
+          "indonesia": "⑵"
+        }
+      },
+      {
+        "id": "vocab_19",
+        "front": "상자는 위에 .",
+        "back": "⑶",
+        "raw": {
+          "korean": "상자는 위에                            .",
+          "indonesia": "⑶"
+        }
+      },
+      {
+        "id": "vocab_20",
+        "front": "녹슬 수 있으니까 방청지로",
+        "back": ".",
+        "raw": {
+          "korean": "녹슬 수 있으니까 방청지로",
+          "indonesia": "."
+        }
+      },
+      {
+        "id": "vocab_21",
+        "front": "작은 것은 작은 것끼리",
+        "back": ".",
+        "raw": {
+          "korean": "작은 것은 작은 것끼리",
+          "indonesia": "."
+        }
+      },
+      {
+        "id": "vocab_22",
+        "front": "그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.",
+        "back": "⑴",
+        "raw": {
+          "korean": "\u0007그림을 보고 대화를 완성하세요. Look at the pictures and complete the conversations.",
+          "indonesia": "⑴"
+        }
+      },
+      {
+        "id": "vocab_23",
+        "front": "나 : 물건이 많지 않으니까 로 옮깁시다.",
+        "back": "⑵",
+        "raw": {
+          "korean": "나 : 물건이 많지 않으니까                                       로 옮깁시다.",
+          "indonesia": "⑵"
+        }
+      },
+      {
+        "id": "vocab_24",
+        "front": "나 : 로 나르면 괜찮을 거예요.",
+        "back": "⑶",
+        "raw": {
+          "korean": "나 :                                       로 나르면 괜찮을 거예요.",
+          "indonesia": "⑶"
+        }
+      },
+      {
+        "id": "vocab_25",
+        "front": "나 : 로 운반하는 게 좋겠어요.",
+        "back": "⑷",
+        "raw": {
+          "korean": "나 :                                       로 운반하는 게 좋겠어요.",
+          "indonesia": "⑷"
+        }
+      },
+      {
+        "id": "vocab_26",
+        "front": "어휘",
+        "back": "VOCABULARY",
+        "raw": {
+          "korean": "어휘",
+          "indonesia": "VOCABULARY"
+        }
+      },
+      {
+        "id": "vocab_27",
+        "front": "출하 관리 관련 어휘",
+        "back": "Shipment Management",
+        "raw": {
+          "korean": "출하 관리 관련 어휘",
+          "indonesia": "\u0007Shipment Management"
+        }
+      },
+      {
+        "id": "vocab_28",
+        "front": "입고하다",
+        "back": "to receive (goods)",
+        "raw": {
+          "korean": "입고하다",
+          "indonesia": "to receive (goods)"
+        }
+      },
+      {
+        "id": "vocab_29",
+        "front": "출고하다",
+        "back": "to take out (goods)",
+        "raw": {
+          "korean": "출고하다",
+          "indonesia": "to take out (goods)"
+        }
+      },
+      {
+        "id": "vocab_30",
+        "front": "검수하다",
+        "back": "to inspect",
+        "raw": {
+          "korean": "검수하다",
+          "indonesia": "to inspect"
+        }
+      },
+      {
+        "id": "vocab_31",
+        "front": "운반하다",
+        "back": "to transport",
+        "raw": {
+          "korean": "운반하다",
+          "indonesia": "to transport"
+        }
+      },
+      {
+        "id": "vocab_32",
+        "front": "싣다/적재하다",
+        "back": "to load",
+        "raw": {
+          "korean": "싣다/적재하다",
+          "indonesia": "to load"
+        }
+      },
+      {
+        "id": "vocab_33",
+        "front": "내리다",
+        "back": "to unload",
+        "raw": {
+          "korean": "내리다",
+          "indonesia": "to unload"
+        }
+      },
+      {
+        "id": "vocab_34",
+        "front": "출하하다",
+        "back": "to ship",
+        "raw": {
+          "korean": "출하하다",
+          "indonesia": "to ship"
+        }
+      },
+      {
+        "id": "vocab_35",
+        "front": "납품하다",
+        "back": "to deliver",
+        "raw": {
+          "korean": "납품하다",
+          "indonesia": "to deliver"
+        }
+      },
+      {
+        "id": "vocab_36",
+        "front": "지게차",
+        "back": "forklift",
+        "raw": {
+          "korean": "지게차",
+          "indonesia": "forklift"
+        }
+      },
+      {
+        "id": "vocab_37",
+        "front": "핸드 파렛트(핸드 팰릿)",
+        "back": "hand pallet",
+        "raw": {
+          "korean": "핸드 파렛트(핸드 팰릿)",
+          "indonesia": "hand pallet"
+        }
+      },
+      {
+        "id": "vocab_38",
+        "front": "핸드 카트",
+        "back": "hand trolley",
+        "raw": {
+          "korean": "핸드 카트",
+          "indonesia": "hand trolley"
+        }
+      },
+      {
+        "id": "vocab_39",
+        "front": "대차",
+        "back": "dolly",
+        "raw": {
+          "korean": "대차",
+          "indonesia": "dolly"
+        }
+      }
+    ],
+    "grammar": [
+      {
+        "id": "grammar_1",
+        "front": "68 한국어 표준교재 2",
+        "back": "문법 GRAMMAR",
+        "raw": {
+          "pattern": "68   한국어 표준교재  2",
+          "explanation": "문법  GRAMMAR"
+        }
+      },
+      {
+        "id": "grammar_2",
+        "front": "과가 유지되고 있음을 나타낸다.",
+        "back": "‘-(으)ㄴ’ is attached to a verb to describe the noun that follows and indicates that the action took place in the past",
+        "raw": {
+          "pattern": "과가 유지되고 있음을 나타낸다.",
+          "explanation": "‘-(으)ㄴ’ is attached to a verb to describe the noun that follows and indicates that the action took place in the past"
+        }
+      },
+      {
+        "id": "grammar_3",
+        "front": "1. 알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
+        "back": "Complete the sentences with the correct options as shown in the example.",
+        "raw": {
+          "pattern": "1. \u0007알맞은 것을 골라 [보기]와 같이 문장을 완성하세요.",
+          "explanation": "Complete the sentences with the correct options as shown in the example."
+        }
+      },
+      {
+        "id": "grammar_4",
+        "front": "⑷ 회사에서 성실하게 직원에게 휴가를 보내 준다고 해요.",
+        "back": "2. [보기]와 같이 문장을 바꾸세요. Change the sentences as shown in the example.",
+        "raw": {
+          "pattern": "⑷\t 회사에서 성실하게                                                    직원에게 휴가를 보내 준다고 해요.",
+          "explanation": "2. \u0007[보기]와 같이 문장을 바꾸세요. Change the sentences as shown in the example."
+        }
+      },
+      {
+        "id": "grammar_5",
+        "front": "형용사에는 ‘-던’이나 ‘-았던/었던’을 붙인다.",
+        "back": "When used with adjectives it takes the forms",
+        "raw": {
+          "pattern": "형용사에는 ‘-던’이나 ‘-았던/었던’을 붙인다.",
+          "explanation": "When used with adjectives it takes the forms"
+        }
+      },
+      {
+        "id": "grammar_6",
+        "front": "36 출하 관리",
+        "back": "SHIPMENT MANAGEMENT 71",
+        "raw": {
+          "pattern": "36  출하 관리",
+          "explanation": "SHIPMENT MANAGEMENT   71"
+        }
+      },
+      {
+        "id": "grammar_7",
+        "front": "1인칭이 된다.",
+        "back": "‘-겠-’ is attached to a verb to express the speaker’s intention.",
+        "raw": {
+          "pattern": "1인칭이 된다.",
+          "explanation": "‘-겠-’ is attached to a verb to express the speaker’s intention."
+        }
+      },
+      {
+        "id": "grammar_8",
+        "front": "※ 공손하고 완곡하게 말할 때도 사용한다.",
+        "back": "It is also used to speak politely and indirectly.",
+        "raw": {
+          "pattern": "※ 공손하고 완곡하게 말할 때도 사용한다.",
+          "explanation": "It is also used to speak politely and indirectly."
+        }
+      },
+      {
+        "id": "grammar_9",
+        "front": "1. 그림을 보고 [보기]와 같이 대화를 완성하세요.",
+        "back": "Look at the pictures and complete the conversations as shown in the example.",
+        "raw": {
+          "pattern": "1. \u0007그림을 보고 [보기]와 같이 대화를 완성하세요.",
+          "explanation": "Look at the pictures and complete the conversations as shown in the example."
+        }
+      },
+      {
+        "id": "grammar_10",
+        "front": "다. 주어는 3인칭이 된다.",
+        "back": "‘-겠-’ can also be attached to a verb or",
+        "raw": {
+          "pattern": "다. 주어는 3인칭이 된다.",
+          "explanation": "‘-겠-’ can also be attached to a verb or"
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conversation_1",
+        "front": "완충재로 제품을 포장했어요. 이제 어떻게 할까요?",
+        "back": "가",
+        "raw": {
+          "speaker": "가",
+          "text": "완충재로 제품을 포장했어요. 이제 어떻게 할까요?"
+        }
+      },
+      {
+        "id": "conversation_2",
+        "front": "포장한 제품을 상자에 담으면 돼요.",
+        "back": "나",
+        "raw": {
+          "speaker": "나",
+          "text": "포장한 제품을 상자에 담으면 돼요."
+        }
+      },
+      {
+        "id": "conversation_3",
+        "front": "네, 알겠습니다. 발음 │ PRONUNCIATION 받침 ‘ㄷ, ㅌ, ㅅ, ㅆ, ㅈ, ㅊ’ 뒤에 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’가 연결되는 경우, 앞 자음은 파열되지 않은 [ㄷ]으로 발음하고 뒤 자 음은 된소리로 발음한다. When the consonants ‘ㄷ, ㅌ, ㅅ, ㅆ, ㅈ, ㅊ’ are followed by ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’, the preceding consonant is pronounced as an unreleased [ㄷ] and the following consonant is pronounced as a tense sound. ⑴ 닫다[닫따] 솥밥[솓빱] 아랫집[아랟찝] ⑵ 있던[읻떤] 낮잠[낟짬] 꽃다발[꼳따발] 204 대화 CONVERSATION 아 궁 반장님, 이제 포장 작업을 시작하면 될까요? Banjangnim, can we start the packaging process now? 반장님 상자하고 포장지, 완충재 모두 갖다 놓았지요? You have prepared the boxes, packaging material, and cushioning materials, right? 아 궁 네, 작업장에 준비해 놓았어요. Yes, I have prepared and put everything on the work space. 반장님 포장할 때 완충재로 제품을 꼼꼼하게 싸는 게 중요해요. 그렇게 하지 않으면 운송할 때 제품이 손상될 수 있어요. It’s important to wrap the product carefully with cushioning materials when packaging. If not, the product might get damaged during transport. 아 궁 네, 신경 써서 할게요. 포장 작업은 5시 전까지 끝내면 되지요? Yes, I'll make sure to pay attention to that. We should finish the packaging process before 5 o’clock, right? 반장님 맞아요. 포장이 끝난 상자는 크기별로 분류해서 파렛트에 쌓아 놓으세요. That’s right. Once the packaging is done, sort the boxes by size and stack them on the pallets. 203",
+        "back": "가",
+        "raw": {
+          "speaker": "가",
+          "text": "네, 알겠습니다. 발음 │ PRONUNCIATION 받침 ‘ㄷ, ㅌ, ㅅ, ㅆ, ㅈ, ㅊ’ 뒤에 ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’가 연결되는 경우, 앞 자음은 파열되지 않은 [ㄷ]으로 발음하고 뒤 자 음은 된소리로 발음한다. When the consonants ‘ㄷ, ㅌ, ㅅ, ㅆ, ㅈ, ㅊ’ are followed by ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’, the preceding consonant is pronounced as an unreleased [ㄷ] and the following consonant is pronounced as a tense sound. ⑴ 닫다[닫따] 솥밥[솓빱] 아랫집[아랟찝] ⑵ 있던[읻떤] 낮잠[낟짬] 꽃다발[꼳따발] 204 대화  CONVERSATION 아 궁 반장님, 이제 포장 작업을 시작하면 될까요? Banjangnim, can we start the packaging process now? 반장님 \u0007상자하고 포장지, 완충재 모두 갖다 놓았지요? You have prepared the boxes, packaging material, and cushioning materials, right? 아 궁 네, 작업장에 준비해 놓았어요. \u0007Yes, I have prepared and put everything on the work space. 반장님 \u0007포장할 때 완충재로 제품을 꼼꼼하게 싸는 게 중요해요. 그렇게 하지 않으면 운송할 때 제품이 손상될 수 있어요. It’s important to wrap the product carefully with cushioning materials when packaging. If not, the product might get damaged during transport. 아 궁 네, 신경 써서 할게요. 포장 작업은 5시 전까지 끝내면 되지요? Yes, I'll make sure to pay attention to that. We should finish the packaging process before 5 o’clock, right? 반장님 \u0007맞아요. 포장이 끝난 상자는 크기별로 분류해서 파렛트에 쌓아 놓으세요. That’s right. Once the packaging is done, sort the boxes by size and stack them on the pallets. 203"
+        }
+      },
+      {
+        "id": "conversation_4",
+        "front": "반장님, 물건을 트럭에 다 실었습니다.",
+        "back": "가",
+        "raw": {
+          "speaker": "가",
+          "text": "반장님, 물건을 트럭에 다 실었습니다."
+        }
+      },
+      {
+        "id": "conversation_5",
+        "front": "한번 봅시다. 물건이 떨어질 수 있으니까 밧줄로 잘 묶어야 돼요.",
+        "back": "나",
+        "raw": {
+          "speaker": "나",
+          "text": "\u0007한번 봅시다. 물건이 떨어질 수 있으니까 밧줄로 잘 묶어야 돼요."
+        }
+      },
+      {
+        "id": "conversation_6",
+        "front": "다음부터 신경을 써서 적재하겠습니다.",
+        "back": "가",
+        "raw": {
+          "speaker": "가",
+          "text": "다음부터 신경을 써서 적재하겠습니다."
+        }
+      },
+      {
+        "id": "conversation_7",
+        "front": "오랜만에 프엉 씨를 만나기로 했어요. I'm going to meet Phuong after not having seen her for a long time.",
+        "back": "가",
+        "raw": {
+          "speaker": "가",
+          "text": "\u0007오랜만에 프엉 씨를 만나기로 했어요. I'm going to meet Phuong after not having seen her for a long time."
+        }
+      },
+      {
+        "id": "conversation_8",
+        "front": "안부 전해 주세요. Pass my regards. 유용한 표현 │ USEFUL EXPRESSION 안부 전해 주세요. Pass my regards. 206 205",
+        "back": "나",
+        "raw": {
+          "speaker": "나",
+          "text": "\u0007안부 전해 주세요. Pass my regards. 유용한 표현 │ USEFUL EXPRESSION 안부 전해 주세요. Pass my regards. 206 205"
+        }
+      }
+    ],
+    "culture": [],
+    "reading": [
+      {
+        "id": "u36_m1",
+        "nomor": 1,
+        "tipe": "membaca",
+        "instruksi": "다음 내용과 관계있는 그림을 고르십시오.",
+        "teks_soal": "지게차입니다.",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [],
+        "gambar_pilihan": {}
+      },
+      {
+        "id": "u36_m2",
+        "nomor": 2,
+        "tipe": "membaca",
+        "instruksi": "다음 중 밑줄 친 부분이 맞는 문장을 고르십시오.",
+        "teks_soal": "",
+        "jawaban": "b",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "냉장 창고의 온도를 덮어요.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "포장한 상자에 라벨을 붙여요.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "드릴을 사용해서 구멍을 박아요.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "날씨가 좋으면 콘크리트를 조립해요.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {}
+      },
+      {
+        "id": "u36_m3",
+        "nomor": 3,
+        "tipe": "membaca",
+        "instruksi": "빈칸에 들어갈 가장 알맞은 것을 고르십시오.",
+        "teks_soal": "제품 포장이 끝나면 크기별로 를 합니다. 큰 것은 큰 것끼리, 작은 것은 작은 것끼리 나눠서 쌓습니다.",
+        "jawaban": "c",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "검수",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "연마",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "분류",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "중지",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {}
+      },
+      {
+        "id": "u36_m4",
+        "nomor": 4,
+        "tipe": "membaca",
+        "instruksi": "다음은 무엇에 대한 설명입니까?",
+        "teks_soal": "제품이 운송 중에 손상되지 않도록 보호하는 데 사용하는 재료입니다.",
+        "jawaban": "d",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "바이스",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "첨가제",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "파렛트",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "완충재",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {}
+      },
+      {
+        "id": "u36_m5",
+        "nomor": 5,
+        "tipe": "membaca",
+        "instruksi": "다음 글을 읽고 내용과 같은 것을 고르십시오.",
+        "teks_soal": "한국은 천연자원이 부족하고 내수 시장이 작아 정부에서 지속적으로 수출 주도 정책을 펴 왔습니다. 주요 수출 품목은 반도체, 스마트폰 등이고 원유, 천연가스 등을 주로 수입합니다. 한국의 무역 상대국 1위는 중국이며, 미국, 일본 등이 그 뒤를 잇고 있습니다. 한국은 다양한 국가와 자유무역협정을 체결하여 무역의 장벽을 줄이고, 새로운 시장으로 진출하고자 노력하고 있습니다. 74 한국어 표준교재 2",
+        "jawaban": "a",
+        "audio_teks": "",
+        "audio_url": "",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "한국은 주로 원유, 천연가스 등을 수출합니다.",
+            "image": ""
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "한국은 미국과 무역 거래를 가장 많이 합니다.",
+            "image": ""
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "한국은 무역 시장을 넓히기 위해 노력하고 있습니다.",
+            "image": ""
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "한국은 자유무역협정으로 인해 무역에 어려움이 있습니다.",
+            "image": ""
+          }
+        ],
+        "gambar_pilihan": {}
+      }
+    ],
+    "listening": [
+      {
+        "id": "u36_l1",
+        "nomor": 1,
+        "tipe": "mendengarkan",
+        "instruksi": "듣고 알맞은 답을 고르십시오.",
+        "teks_soal": "여 : 오전에 무슨 작업을 했어요? 남 : 납품할 물건을 트럭에 실었어요.",
+        "jawaban": "c",
+        "audio_teks": "1. 여 : 오전에 무슨 작업을 했어요?\n남 : 납품할 물건을 트럭에 실었어요.\n2. 여 : 어떻게 상자를 운반했어요?\n3. 남 : 상자를 차에 옮겨 실으면 될까요?\n여 : 네, 위험할 수 있으니까 너무 높게 쌓지 않도록 하세요.\n4. 여 : 상자와 완충재를 얼마나 준비할까요?\n5. 남 : 아까 부탁한 방청지 갖다 놓았지요?\n여 : 죄송해요. 제품을 분류하느라 아직 준비 못 했어요.\n남 : 곧 포장 작업을 시작해야 되니까 얼른 가져오세요.\n여 : 네, 바로 가서 준비하겠습니다.\n36 출하 관리 SHIPMENT MANAGEMENT 75",
+        "audio_url": "assets/modules/textbook2/audio/unit_36/listening_1.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_01.png"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_01.png"
+        }
+      },
+      {
+        "id": "u36_l2",
+        "nomor": 2,
+        "tipe": "mendengarkan",
+        "instruksi": "듣고 알맞은 답을 고르십시오.",
+        "teks_soal": "여 : 어떻게 상자를 운반했어요?",
+        "jawaban": "b",
+        "audio_teks": "1. 여 : 오전에 무슨 작업을 했어요?\n남 : 납품할 물건을 트럭에 실었어요.\n2. 여 : 어떻게 상자를 운반했어요?\n3. 남 : 상자를 차에 옮겨 실으면 될까요?\n여 : 네, 위험할 수 있으니까 너무 높게 쌓지 않도록 하세요.\n4. 여 : 상자와 완충재를 얼마나 준비할까요?\n5. 남 : 아까 부탁한 방청지 갖다 놓았지요?\n여 : 죄송해요. 제품을 분류하느라 아직 준비 못 했어요.\n남 : 곧 포장 작업을 시작해야 되니까 얼른 가져오세요.\n여 : 네, 바로 가서 준비하겠습니다.\n36 출하 관리 SHIPMENT MANAGEMENT 75",
+        "audio_url": "assets/modules/textbook2/audio/unit_36/listening_2.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_02.jpeg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_02.jpeg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_02.jpeg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_02.jpeg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_02.jpeg",
+          "b": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_02.jpeg",
+          "c": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_02.jpeg",
+          "d": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_02.jpeg"
+        }
+      },
+      {
+        "id": "u36_l3",
+        "nomor": 3,
+        "tipe": "mendengarkan",
+        "instruksi": "듣고 알맞은 답을 고르십시오.",
+        "teks_soal": "남 : 상자를 차에 옮겨 실으면 될까요? 여 : 네, 위험할 수 있으니까 너무 높게 쌓지 않도록 하세요.",
+        "jawaban": "c",
+        "audio_teks": "1. 여 : 오전에 무슨 작업을 했어요?\n남 : 납품할 물건을 트럭에 실었어요.\n2. 여 : 어떻게 상자를 운반했어요?\n3. 남 : 상자를 차에 옮겨 실으면 될까요?\n여 : 네, 위험할 수 있으니까 너무 높게 쌓지 않도록 하세요.\n4. 여 : 상자와 완충재를 얼마나 준비할까요?\n5. 남 : 아까 부탁한 방청지 갖다 놓았지요?\n여 : 죄송해요. 제품을 분류하느라 아직 준비 못 했어요.\n남 : 곧 포장 작업을 시작해야 되니까 얼른 가져오세요.\n여 : 네, 바로 가서 준비하겠습니다.\n36 출하 관리 SHIPMENT MANAGEMENT 75",
+        "audio_url": "assets/modules/textbook2/audio/unit_36/listening_3.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_03.jpeg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_03.jpeg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_03.jpeg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_03.jpeg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_03.jpeg",
+          "b": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_03.jpeg",
+          "c": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_03.jpeg",
+          "d": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_03.jpeg"
+        }
+      },
+      {
+        "id": "u36_l4",
+        "nomor": 4,
+        "tipe": "mendengarkan",
+        "instruksi": "듣고 알맞은 답을 고르십시오.",
+        "teks_soal": "여 : 상자와 완충재를 얼마나 준비할까요?",
+        "jawaban": "d",
+        "audio_teks": "1. 여 : 오전에 무슨 작업을 했어요?\n남 : 납품할 물건을 트럭에 실었어요.\n2. 여 : 어떻게 상자를 운반했어요?\n3. 남 : 상자를 차에 옮겨 실으면 될까요?\n여 : 네, 위험할 수 있으니까 너무 높게 쌓지 않도록 하세요.\n4. 여 : 상자와 완충재를 얼마나 준비할까요?\n5. 남 : 아까 부탁한 방청지 갖다 놓았지요?\n여 : 죄송해요. 제품을 분류하느라 아직 준비 못 했어요.\n남 : 곧 포장 작업을 시작해야 되니까 얼른 가져오세요.\n여 : 네, 바로 가서 준비하겠습니다.\n36 출하 관리 SHIPMENT MANAGEMENT 75",
+        "audio_url": "assets/modules/textbook2/audio/unit_36/listening_4.mp3",
+        "pilihan": [
+          {
+            "key": "a",
+            "label": "A",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_04.jpeg"
+          },
+          {
+            "key": "b",
+            "label": "B",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_04.jpeg"
+          },
+          {
+            "key": "c",
+            "label": "C",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_04.jpeg"
+          },
+          {
+            "key": "d",
+            "label": "D",
+            "text": "",
+            "image": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_04.jpeg"
+          }
+        ],
+        "gambar_pilihan": {
+          "a": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_04.jpeg",
+          "b": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_04.jpeg",
+          "c": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_04.jpeg",
+          "d": "assets/langit-korea-extracted/unit_36/images/u36_h9_soal_listening_04.jpeg"
+        }
+      },
+      {
+        "id": "u36_l5",
+        "nomor": 5,
+        "tipe": "mendengarkan",
+        "instruksi": "듣고 알맞은 답을 고르십시오.",
+        "teks_soal": "남 : 아까 부탁한 방청지 갖다 놓았지요? 여 : 죄송해요. 제품을 분류하느라 아직 준비 못 했어요. 남 : 곧 포장 작업을 시작해야 되니까 얼른 가져오세요. 여 : 네, 바로 가서 준비하겠습니다. 36 출하 관리 SHIPMENT MANAGEMENT 75",
+        "jawaban": "c",
+        "audio_teks": "1. 여 : 오전에 무슨 작업을 했어요?\n남 : 납품할 물건을 트럭에 실었어요.\n2. 여 : 어떻게 상자를 운반했어요?\n3. 남 : 상자를 차에 옮겨 실으면 될까요?\n여 : 네, 위험할 수 있으니까 너무 높게 쌓지 않도록 하세요.\n4. 여 : 상자와 완충재를 얼마나 준비할까요?\n5. 남 : 아까 부탁한 방청지 갖다 놓았지요?\n여 : 죄송해요. 제품을 분류하느라 아직 준비 못 했어요.\n남 : 곧 포장 작업을 시작해야 되니까 얼른 가져오세요.\n여 : 네, 바로 가서 준비하겠습니다.\n36 출하 관리 SHIPMENT MANAGEMENT 75",
+        "audio_url": "assets/modules/textbook2/audio/unit_36/listening_5.mp3",
+        "pilihan": [],
+        "gambar_pilihan": {}
+      }
+    ]
+  },
+  "integrity": {
+    "pdf_pages": 10,
+    "vocab_cards": 39,
+    "reading_questions": 5,
+    "listening_questions": 5,
+    "listening_audio": 5
+  }
+}

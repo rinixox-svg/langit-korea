@@ -1,0 +1,84 @@
+{
+  "source": "Special EPS-TOPIK Work Related Questions",
+  "source_page": "https://epstopik.hrdkorea.or.kr/epstopik/book/pub/publicWorkBookList.do?lang=en",
+  "categories": [
+    {
+      "slug": "machinery-molding",
+      "title": "Machinery, Molding",
+      "title_ko": "기계, 금형",
+      "module": "assets/special-eps/work-related/machinery-molding/module.json",
+      "source_pdf": "assets/special-eps/work-related/sources/MachineryMolding.pdf",
+      "pdf_pages": 40,
+      "answers": 200
+    },
+    {
+      "slug": "metal",
+      "title": "Metal",
+      "title_ko": "금속",
+      "module": "assets/special-eps/work-related/metal/module.json",
+      "source_pdf": "assets/special-eps/work-related/sources/Metal.pdf",
+      "pdf_pages": 40,
+      "answers": 200
+    },
+    {
+      "slug": "electronics-electricity",
+      "title": "Electronics, Electricity",
+      "title_ko": "전자, 전기",
+      "module": "assets/special-eps/work-related/electronics-electricity/module.json",
+      "source_pdf": "assets/special-eps/work-related/sources/ElectronicsElectricity.pdf",
+      "pdf_pages": 40,
+      "answers": 200
+    },
+    {
+      "slug": "food-related",
+      "title": "Food Related",
+      "title_ko": "음식료",
+      "module": "assets/special-eps/work-related/food-related/module.json",
+      "source_pdf": "assets/special-eps/work-related/sources/Food Related.pdf",
+      "pdf_pages": 40,
+      "answers": 200
+    },
+    {
+      "slug": "textile-sewing",
+      "title": "Textile, Sewing",
+      "title_ko": "섬유, 봉제",
+      "module": "assets/special-eps/work-related/textile-sewing/module.json",
+      "source_pdf": "assets/special-eps/work-related/sources/TextileSewing.pdf",
+      "pdf_pages": 40,
+      "answers": 200
+    },
+    {
+      "slug": "chemical",
+      "title": "Chemical",
+      "title_ko": "화학",
+      "module": "assets/special-eps/work-related/chemical/module.json",
+      "source_pdf": "assets/special-eps/work-related/sources/Chemical.pdf",
+      "pdf_pages": 40,
+      "answers": 200
+    },
+    {
+      "slug": "rubber-plastic",
+      "title": "Rubber, Plastic",
+      "title_ko": "고무, 플라스틱",
+      "module": "assets/special-eps/work-related/rubber-plastic/module.json",
+      "source_pdf": "assets/special-eps/work-related/sources/RubberPlastic.pdf",
+      "pdf_pages": 20,
+      "answers": 200
+    },
+    {
+      "slug": "pulp-paper-wood",
+      "title": "Pulp, Paper, Wood",
+      "title_ko": "펄프, 종이, 목재",
+      "module": "assets/special-eps/work-related/pulp-paper-wood/module.json",
+      "source_pdf": "assets/special-eps/work-related/sources/PulpPaperWood.pdf",
+      "pdf_pages": 40,
+      "answers": 200
+    }
+  ],
+  "answers_zip": "assets/special-eps/work-related/answers/answersinSpecialEPSTOPIK.zip",
+  "integrity": {
+    "category_count": 8,
+    "pdf_pages": 300,
+    "answers": 1600
+  }
+}

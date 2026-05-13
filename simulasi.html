@@ -58,20 +58,23 @@
     .nav-dot.active { background:#4a90d9; color:white; border-color:#4a90d9; }
     .nav-dot:disabled { opacity:0.4; cursor:not-allowed; }
     .question-card { display:none; background:white; border-radius:12px; padding:20px; margin-bottom:16px; box-shadow:0 1px 4px rgba(0,0,0,0.06); }
-    .question-card.active { display:block; animation:fadeIn 0.25s ease; }
-    @keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+    .question-card.active { display:block; animation:fadeIn 0.18s ease; }
+    @keyframes fadeIn { from{opacity:0} to{opacity:1} }
     .q-text { font-family:'Noto Sans KR',sans-serif; font-size:1.05rem; line-height:1.7; margin-bottom:16px; }
     .q-image { max-width:100%; max-height:300px; margin:12px 0; border-radius:8px; }
-    .opt { display:flex; align-items:center; gap:12px; padding:14px 16px; border-radius:10px; border:2px solid #e0e0e0; margin:6px 0; cursor:pointer; transition:all 0.15s; min-height:48px; }
-    .opt:hover { border-color:#4a90d9; background:#f8faff; }
+    .opt { display:flex; align-items:center; gap:12px; padding:14px 16px; border-radius:10px; border:2px solid #e0e0e0; margin:6px 0; cursor:pointer; transition:border-color 0.12s, background-color 0.12s; min-height:48px; -webkit-tap-highlight-color:transparent; touch-action:manipulation; }
+    @media (hover:hover) { .opt:hover { border-color:#4a90d9; background:#f8faff; } }
     .opt.selected { border-color:#4a90d9; background:rgba(74,144,217,0.08); }
+    .opt-content { display:flex; flex-direction:column; gap:8px; min-width:0; width:100%; }
+    .opt-text { font-family:'Noto Sans KR',sans-serif; line-height:1.5; overflow-wrap:anywhere; }
+    .opt-image { display:block; width:auto; max-width:100%; max-height:220px; object-fit:contain; border-radius:6px; background:#fff; }
     .opt-letter { display:flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:50%; background:#f0f0f0; font-weight:700; font-size:0.8rem; flex-shrink:0; }
     .opt.selected .opt-letter { background:#4a90d9; color:white; }
     .opt.review-correct { border-color:#4caf82; background:rgba(76,175,130,0.08); }
     .opt.review-wrong { border-color:#e05c5c; background:rgba(224,92,92,0.08); }
     .opt.review-correct .opt-letter { background:#4caf82; color:white; }
     .opt.review-wrong .opt-letter { background:#e05c5c; color:white; }
-    .btn { display:inline-block; padding:12px 24px; border:none; border-radius:8px; cursor:pointer; font-weight:700; font-size:1rem; transition:all 0.2s; min-height:48px; }
+    .btn { display:inline-block; padding:12px 24px; border:none; border-radius:8px; cursor:pointer; font-weight:700; font-size:1rem; transition:background-color 0.15s, color 0.15s, border-color 0.15s; min-height:48px; -webkit-tap-highlight-color:transparent; touch-action:manipulation; }
     .btn-primary { background:#4a90d9; color:white; }
     .btn-primary:hover { background:#3a7bc7; }
     .btn-secondary { background:#ff8c61; color:white; }
@@ -90,10 +93,15 @@
     .review-item { background:white; border-radius:10px; padding:14px; margin-bottom:8px; border-left:4px solid; }
     .progress-track { height:6px; background:#e0e0e0; border-radius:3px; overflow:hidden; margin-top:6px; }
     .progress-fill { height:100%; background:linear-gradient(90deg,#4a90d9,#4caf82); border-radius:3px; transition:width 0.5s; width:0%; }
-    .audio-btn { display:inline-flex; align-items:center; gap:8px; padding:10px 18px; border-radius:8px; border:1px solid #e0e0e0; background:white; cursor:pointer; font-size:0.9rem; margin-bottom:12px; min-height:44px; }
-    .audio-btn:hover { border-color:#4a90d9; background:#f8faff; }
+    .audio-btn { display:inline-flex; align-items:center; gap:8px; padding:10px 18px; border-radius:8px; border:1px solid #e0e0e0; background:white; cursor:pointer; font-size:0.9rem; margin-bottom:12px; min-height:44px; -webkit-tap-highlight-color:transparent; touch-action:manipulation; }
+    @media (hover:hover) { .audio-btn:hover { border-color:#4a90d9; background:#f8faff; } }
+    .audio-btn.playing { border-color:#4a90d9; background:rgba(74,144,217,0.08); color:#1e2a3a; }
+    .audio-error { margin:0 0 12px; color:#e05c5c; font-size:0.85rem; }
     select { padding:10px 14px; border:2px solid #e0e0e0; border-radius:8px; font-size:0.95rem; background:white; min-height:44px; }
-    @media (max-width:480px) { .result-grid { grid-template-columns:1fr; } }
+    @media (max-width:480px) { .result-grid { grid-template-columns:1fr; } .question-card.active { animation:none; } }
+    @media (prefers-reduced-motion:reduce) {
+      *, *::before, *::after { animation-duration:0.001ms !important; transition-duration:0.001ms !important; scroll-behavior:auto !important; }
+    }
   </style>
 </head>
 <body>
@@ -131,19 +139,110 @@
 
   <script defer>
   // ===== SIMULASI ENGINE =====
-  const SIM_KEY = 'lk_sim_state';
+  const SIM_KEY = 'lk_sim_state_open_test_2025_v1';
+  const OPEN_TEST_DATA_VERSION = 'open-test-2025-official-pdf-v1';
+  const CHOICE_KEYS = ['a', 'b', 'c', 'd'];
+
+  function escapeHtml(value) {
+    return String(value || '').replace(/[&<>"']/g, (ch) => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[ch]));
+  }
+
+  function escapeAttr(value) {
+    return escapeHtml(value).replace(/`/g, '&#96;');
+  }
+
+  function textToHtml(value) {
+    return escapeHtml(value).replace(/\n/g, '<br>');
+  }
+
+  function parseImageList(value) {
+    if (!value) return [];
+    if (Array.isArray(value)) return value.filter(Boolean);
+    try {
+      const parsed = JSON.parse(value);
+      return Array.isArray(parsed) ? parsed.filter(Boolean) : [parsed].filter(Boolean);
+    } catch(e) {
+      return [value].filter(Boolean);
+    }
+  }
+
+  function normalizeAssetUrl(value) {
+    const raw = String(value || '').trim();
+    if (!raw) return '';
+    try {
+      const url = new URL(raw, window.location.href);
+      if (url.hostname === '127.0.0.1' || url.hostname === 'localhost') {
+        return url.pathname.replace(/^\/+/, '') + url.search + url.hash;
+      }
+      if (url.origin === window.location.origin) {
+        return url.pathname.replace(/^\/+/, '') + url.search + url.hash;
+      }
+    } catch(e) {}
+    return raw;
+  }
+
+  function normalizeQuestion(q) {
+    const out = Object.assign({}, q);
+    out.jawaban = String(q.jawaban || q.jawaban_benar || '').toLowerCase();
+    out.nomor_asli = Number(q.nomor_asli);
+    out.audio_url = normalizeAssetUrl(out.audio_url);
+    out.gambar_url = parseImageList(out.gambar_url).map(normalizeAssetUrl).filter(Boolean);
+    CHOICE_KEYS.forEach((key) => {
+      out['gambar_pilihan_' + key] = normalizeAssetUrl(out['gambar_pilihan_' + key]);
+    });
+    return out;
+  }
+
+  function hasRealChoiceText(value) {
+    const text = String(value || '').trim();
+    return !!text && !/^[①②③④\sa-dA-D.\-:]+$/.test(text);
+  }
+
+  function hasChoice(q, key) {
+    return hasRealChoiceText(q['pilihan_' + key]) || !!String(q['gambar_pilihan_' + key] || '').trim();
+  }
+
+  function looksCompleteOpenTest(data) {
+    if (!Array.isArray(data) || data.length !== 40) return false;
+    const normalized = data.map(normalizeQuestion).sort((a, b) => a.nomor_asli - b.nomor_asli);
+    for (let i = 0; i < normalized.length; i++) {
+      const q = normalized[i];
+      if (q.nomor_asli !== i + 1) return false;
+      if (!['a', 'b', 'c', 'd'].includes(q.jawaban)) return false;
+      if (!CHOICE_KEYS.every((key) => hasChoice(q, key))) return false;
+      if (q.tipe === 'mendengarkan' && !q.audio_url) return false;
+      if (!q.teks_soal && !q.gambar_url) return false;
+    }
+    return true;
+  }
+
+  async function loadLocalOpenTest(year) {
+    if (String(year) !== '2025') throw new Error('Fallback lokal hanya tersedia untuk tahun 2025');
+    const r = await fetch('open_test_2025.json', { cache: 'no-store' });
+    if (!r.ok) throw new Error('open_test_2025.json tidak bisa dibaca');
+    const data = (await r.json()).map(normalizeQuestion).sort((a, b) => a.nomor_asli - b.nomor_asli);
+    if (!looksCompleteOpenTest(data)) throw new Error('open_test_2025.json belum lengkap');
+    return data;
+  }
 
   window.simApp = {
-    questions: [], state: null, timer: null, audio: null,
+    questions: [], state: null, timer: null, audio: null, audioBtn: null, audioUrl: '',
 
     async init() {
-      const year = new URLSearchParams(location.search).get('year') || '2023';
+      const year = new URLSearchParams(location.search).get('year') || '2025';
       try {
-        const data = await apiFetch("soal_eps", {
-          filter: "sumber=eq.open_test&tahun_soal=eq." + parseInt(year),
-          order: "nomor_asli.asc"
-        });
-        if (!data || !data.length) throw new Error('Belum ada soal untuk tahun ' + year);
+        let data = [];
+        if (String(year) === '2025') {
+          data = await loadLocalOpenTest(year);
+        } else {
+          data = (await apiFetch("soal_eps", {
+            filter: "sumber=eq.open_test&tahun_soal=eq." + parseInt(year),
+            order: "nomor_asli.asc"
+          })).map(normalizeQuestion).sort((a, b) => a.nomor_asli - b.nomor_asli);
+          if (!looksCompleteOpenTest(data)) throw new Error('Data Supabase open test belum lengkap');
+        }
         this.questions = data;
         this.start(data);
       } catch(e) {
@@ -160,12 +259,12 @@
       if (saved) {
         try {
           const s = JSON.parse(saved);
-          if (s.answers && s.answers.length === data.length && !s.submitted) {
+          if (s.version === OPEN_TEST_DATA_VERSION && s.answers && s.answers.length === data.length && !s.submitted) {
             if (confirm('Lanjutkan sesi sebelumnya?')) { this.state = s; this.render(); this.tick(); return; }
           }
         } catch(e) {}
       }
-      this.state = { answers: [], currentIdx: 0, submitted: false, remaining: 3000, startTime: Date.now() };
+      this.state = { version: OPEN_TEST_DATA_VERSION, answers: [], currentIdx: 0, submitted: false, remaining: 3000, startTime: Date.now() };
       localStorage.removeItem(SIM_KEY);
       this.render();
       this.tick();
@@ -181,7 +280,7 @@
         const s = this.state.remaining % 60;
         d.textContent = String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
         d.className = 'timer-display' + (m < 5 ? ' warning' : m < 10 ? ' caution' : '');
-        if (this.state.remaining <= 0) { clearInterval(this.timer); alert('Waktu habis!'); this.submit(); }
+        if (this.state.remaining <= 0) { clearInterval(this.timer); this.stopAudio(); alert('Waktu habis!'); this.submit(true); }
       }, 1000);
     },
 
@@ -210,9 +309,11 @@
 
       // Question card
       const opts = [
-        { l:'A', t:q.pilihan_a }, { l:'B', t:q.pilihan_b },
-        { l:'C', t:q.pilihan_c }, { l:'D', t:q.pilihan_d }
-      ].filter(o => o.t);
+        { l:'A', key:'a', t:q.pilihan_a, img:q.gambar_pilihan_a },
+        { l:'B', key:'b', t:q.pilihan_b, img:q.gambar_pilihan_b },
+        { l:'C', key:'c', t:q.pilihan_c, img:q.gambar_pilihan_c },
+        { l:'D', key:'d', t:q.pilihan_d, img:q.gambar_pilihan_d }
+      ].filter(o => hasRealChoiceText(o.t) || o.img);
 
       let html = '<div class="question-card active">';
       html += '<div style="display:flex;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:6px">';
@@ -220,25 +321,23 @@
       html += '<span style="font-size:0.85rem;color:#6b7a8d">Soal ' + q.nomor_asli + '</span></div>';
 
       if (q.tipe === 'mendengarkan' && q.audio_url) {
-        html += '<button class="audio-btn" onclick="window.simPlay(\'' + q.audio_url + '\',this)">🔊 Putar Audio</button>';
+        html += '<button class="audio-btn" onclick="window.simPlay(\'' + escapeAttr(q.audio_url) + '\',this)">🔊 Putar Audio</button>';
       }
 
       // Images
-      if (q.gambar_url) {
-        try { const urls = JSON.parse(q.gambar_url); urls.forEach(u => { html += '<img src="' + u + '" class="q-image" onerror="this.style.display=\'none\'">'; }); }
-        catch(e) { html += '<img src="' + q.gambar_url + '" class="q-image" onerror="this.style.display=\'none\'">'; }
-      }
+      parseImageList(q.gambar_url).forEach(u => {
+        html += '<img src="' + escapeAttr(normalizeAssetUrl(u)) + '" class="q-image" onerror="this.style.display=\'none\'">';
+      });
 
-      if (q.audio_teks) {
-        html += '<details style="margin-bottom:12px"><summary style="cursor:pointer;color:var(--teks-sekunder);font-size:0.85rem">Lihat teks dialog</summary><p class="q-text">' + q.audio_teks + '</p></details>';
-      }
-
-      html += '<p class="q-text">' + (q.teks_soal || 'Soal tidak tersedia') + '</p>';
+      html += '<p class="q-text">' + textToHtml(q.teks_soal || 'Soal tidak tersedia') + '</p>';
       html += '<div>';
       opts.forEach(o => {
-        const isSel = sel === o.l.toLowerCase();
-        html += '<div class="opt' + (isSel ? ' selected' : '') + '" onclick="window.simAnswer(' + i + ',\'' + o.l.toLowerCase() + '\')"' + (this.state.submitted?' style="pointer-events:none"':'') + '>';
-        html += '<span class="opt-letter">' + o.l + '</span><span>' + o.t + '</span></div>';
+        const isSel = sel === o.key;
+        html += '<div class="opt' + (isSel ? ' selected' : '') + '" onclick="window.simAnswer(' + i + ',\'' + o.key + '\')"' + (this.state.submitted?' style="pointer-events:none"':'') + '>';
+        html += '<span class="opt-letter">' + o.l + '</span><span class="opt-content">';
+        if (o.img) html += '<img src="' + escapeAttr(normalizeAssetUrl(o.img)) + '" class="opt-image" alt="Pilihan ' + o.l + '" onerror="this.style.display=\'none\'">';
+        if (hasRealChoiceText(o.t)) html += '<span class="opt-text">' + textToHtml(o.t) + '</span>';
+        html += '</span></div>';
       });
       html += '</div></div>';
       document.getElementById('questionArea').innerHTML = html;
@@ -251,16 +350,18 @@
     },
 
     answer(idx, val) { if (this.state.submitted) return; this.state.answers[idx] = val; localStorage.setItem(SIM_KEY, JSON.stringify(this.state)); this.render(); },
-    go(idx) { if (this.state.submitted) return; this.state.currentIdx = idx; this.render(); },
-    prev() { if (this.state.currentIdx > 0) { this.state.currentIdx--; this.render(); } },
+    go(idx) { if (this.state.submitted) return; this.stopAudio(); this.state.currentIdx = idx; this.render(); },
+    prev() { if (this.state.currentIdx > 0) { this.stopAudio(); this.state.currentIdx--; this.render(); } },
     next() {
+      this.stopAudio();
       if (this.state.currentIdx < this.questions.length - 1) { this.state.currentIdx++; this.render(); }
       else this.submit();
     },
 
-    submit() {
+    submit(skipConfirm = false) {
       if (this.state.submitted) return;
-      if (!confirm('Submit simulasi? Jawaban tidak bisa diubah lagi.')) return;
+      if (!skipConfirm && !confirm('Submit simulasi? Jawaban tidak bisa diubah lagi.')) return;
+      this.stopAudio();
       clearInterval(this.timer);
       this.state.submitted = true;
       localStorage.setItem(SIM_KEY, JSON.stringify(this.state));
@@ -269,6 +370,7 @@
     },
 
     showResult() {
+      this.stopAudio();
       const ans = this.state.answers;
       let correct = 0, rCor = 0, lCor = 0;
       const review = this.questions.map((q, i) => {
@@ -280,14 +382,46 @@
       const total = this.questions.length;
       const pct = Math.round(correct / total * 100);
       const lap = this.state.startTime ? Math.round((Date.now() - this.state.startTime) / 60000) : 50;
+      const durasiDetik = this.state.startTime ? Math.round((Date.now() - this.state.startTime) / 1000) : 3000;
+      const readingTotal = this.questions.filter(q=>q.tipe==='membaca').length;
+      const listeningTotal = this.questions.filter(q=>q.tipe==='mendengarkan').length;
+      const wrongReading = review.filter(r => !r.ok && r.q.tipe === 'membaca').map(r => r.q.nomor_asli);
+      const wrongListening = review.filter(r => !r.ok && r.q.tipe === 'mendengarkan').map(r => r.q.nomor_asli);
+      const unanswered = review.filter(r => r.ua === '-').map(r => r.q.nomor_asli);
+      const weakArea = lCor / Math.max(1, listeningTotal) < rCor / Math.max(1, readingTotal) ? 'mendengarkan' : 'membaca';
+
+      localStorage.setItem('simulationResult', JSON.stringify({
+        skor_total: pct,
+        total_soal: total,
+        skor_membaca: rCor,
+        total_membaca: readingTotal,
+        skor_mendengar: lCor,
+        total_mendengar: listeningTotal,
+        durasi_detik: durasiDetik,
+        selesai_at: new Date().toISOString(),
+        analysis_payload: {
+          weak_area: weakArea,
+          wrong_reading: wrongReading,
+          wrong_listening: wrongListening,
+          unanswered: unanswered,
+          answers: ans,
+        }
+      }));
 
       document.getElementById('navBtns').innerHTML = '';
       let html = '<div class="result"><div style="font-size:4rem;margin-bottom:8px">' + (pct >= 60 ? '🎉' : '💪') + '</div>';
       html += '<h2>' + (pct >= 60 ? 'LULUS!' : 'Terus Semangat!') + '</h2>';
       html += '<div class="result-score" style="color:' + (pct >= 60 ? '#4caf82' : '#e05c5c') + '">' + pct + '%</div>';
       html += '<p style="color:#6b7a8d">' + correct + '/' + total + ' benar | Waktu: ' + lap + ' menit</p>';
-      html += '<div class="result-grid"><div class="result-stat"><div class="result-stat-value" style="color:#4a90d9">' + rCor + '/' + this.questions.filter(q=>q.tipe==='membaca').length + '</div><div>Membaca</div></div>';
-      html += '<div class="result-stat"><div class="result-stat-value" style="color:#ff8c61">' + lCor + '/' + this.questions.filter(q=>q.tipe==='mendengarkan').length + '</div><div>Mendengarkan</div></div></div>';
+      html += '<div class="result-grid"><div class="result-stat"><div class="result-stat-value" style="color:#4a90d9">' + rCor + '/' + readingTotal + '</div><div>Membaca</div></div>';
+      html += '<div class="result-stat"><div class="result-stat-value" style="color:#ff8c61">' + lCor + '/' + listeningTotal + '</div><div>Mendengarkan</div></div></div>';
+      html += '<div class="result-stat" style="text-align:left;margin:0 0 16px">';
+      html += '<strong>Analisa singkat</strong>';
+      html += '<p style="margin-top:6px;color:#6b7a8d;font-size:0.9rem">Area prioritas: <strong>' + weakArea + '</strong>. Kosong: ' + unanswered.length + '. Salah membaca: ' + wrongReading.length + '. Salah mendengarkan: ' + wrongListening.length + '.</p>';
+      if (wrongReading.length || wrongListening.length) {
+        html += '<p style="margin-top:6px;color:#6b7a8d;font-size:0.85rem">Nomor yang perlu direview: ' + wrongReading.concat(wrongListening).slice(0, 20).join(', ') + '</p>';
+      }
+      html += '</div>';
       html += '<button class="btn btn-outline" onclick="document.getElementById(\'rv\').style.display=\'block\'">📋 Review</button> ';
       html += '<button class="btn btn-primary" onclick="localStorage.removeItem(\'' + SIM_KEY + '\');location.reload()">🔄 Ulangi</button>';
       html += '</div>';
@@ -316,11 +450,61 @@
       } catch(e) { console.warn(e); }
     },
 
+    stopAudio() {
+      if (this.audio) {
+        this.audio.pause();
+        this.audio.currentTime = 0;
+      }
+      if (this.audioBtn) {
+        this.audioBtn.classList.remove('playing');
+        this.audioBtn.textContent = '🔊 Putar Audio';
+      }
+      this.audioBtn = null;
+      this.audioUrl = '';
+    },
+
     playAudio(url, btn) {
-      if (this.audio) this.audio.pause();
-      this.audio = new Audio(url);
-      this.audio.play().catch(()=>{});
-      if (btn) { btn.classList.add('playing'); this.audio.onended = () => btn.classList.remove('playing'); }
+      url = normalizeAssetUrl(url);
+      if (!url) return;
+      const sameAudioPlaying = this.audio && this.audioUrl === url && !this.audio.paused;
+      this.stopAudio();
+      if (sameAudioPlaying) return;
+
+      if (!this.audio) {
+        this.audio = document.createElement('audio');
+        this.audio.preload = 'auto';
+        this.audio.setAttribute('playsinline', '');
+        document.body.appendChild(this.audio);
+      }
+      this.audio.src = url;
+      this.audioUrl = url;
+      this.audioBtn = btn || null;
+      if (btn) {
+        btn.classList.add('playing');
+        btn.textContent = '⏸ Hentikan Audio';
+      }
+      this.audio.onended = () => this.stopAudio();
+      this.audio.onerror = () => {
+        this.stopAudio();
+        this.showAudioError('Audio tidak bisa dimuat. Coba buka lewat alamat IP komputer, bukan 127.0.0.1 di HP.');
+      };
+      this.audio.play().catch((error) => {
+        console.warn('Audio play failed:', error);
+        this.stopAudio();
+        this.showAudioError('Audio belum bisa diputar. Di HP, pastikan halaman dibuka dari alamat IP komputer dan mode senyap/media volume tidak aktif.');
+      });
+    },
+
+    showAudioError(message) {
+      const card = document.querySelector('.question-card.active');
+      if (!card) return;
+      const old = card.querySelector('.audio-error');
+      if (old) old.remove();
+      const el = document.createElement('p');
+      el.className = 'audio-error';
+      el.textContent = message;
+      const audioButton = card.querySelector('.audio-btn');
+      if (audioButton) audioButton.insertAdjacentElement('afterend', el);
     }
   };
 
@@ -333,8 +517,13 @@
 
   // Prevent accidental reload
   window.addEventListener('beforeunload', (e) => {
+    window.simApp.stopAudio();
     const s = window.simApp.state;
     if (s && !s.submitted && s.answers && s.answers.some(a => a)) { e.preventDefault(); e.returnValue = ''; }
+  });
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) window.simApp.stopAudio();
   });
 
   document.addEventListener('DOMContentLoaded', () => window.simApp.init());
