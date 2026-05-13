@@ -5,105 +5,322 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Langit Korea — Simulasi Open Test</title>
   <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="stylesheet" href="assets/css/modul-unit.css" />
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script type="module" src="assets/js/supabase.js"></script>
-  <script type="module" src="assets/js/auth.js"></script>
-  <script type="module" src="assets/js/utils.js"></script>
-  <script type="module" src="assets/js/simulasi.js"></script>
+  <script defer src="assets/js/supabase.js"></script>
+  <script defer src="assets/js/auth.js"></script>
+  <script defer src="assets/js/utils.js"></script>
   <style>
-    .form-input { display:inline-block; padding:10px 14px; border:2px solid #e0e0e0; border-radius:8px; font-family:var(--font-utama); font-size:0.95rem; background:white; min-height:44px; }
-    .sim-header { display:flex; justify-content:space-between; align-items:center; padding:12px 0; flex-wrap:wrap; gap:8px; }
-    .timer-bar { position:sticky; top:0; z-index:100; background:var(--putih-bersih); padding:8px 16px; border-bottom:2px solid #e0e0e0; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:'Plus Jakarta Sans',sans-serif; background:#f8f9ff; color:#1e2a3a; }
+    .container { width:90%; max-width:800px; margin:0 auto; padding:16px 0; }  
+    .sim-header { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:12px; }
+    .timer-bar { position:sticky; top:0; z-index:100; background:#f8f9ff; padding:10px 16px; border-bottom:2px solid #e0e0e0; margin:0 -5%; }
+    @media (min-width:768px) { .timer-bar { margin:0 calc(-50vw + 400px); padding:10px calc(50vw - 400px); } }
     .timer-display { font-size:1.5rem; font-weight:700; font-variant-numeric:tabular-nums; }
-    .timer-display.warning { color:var(--merah-salah); }
-    .timer-display.caution { color:var(--kuning-sedang); }
-    .section-badge { display:inline-block; padding:3px 10px; border-radius:4px; font-size:0.75rem; font-weight:600; }
-    .section-badge.membaca { background:rgba(74,144,217,0.12); color:var(--langit-biru); }
-    .section-badge.mendengarkan { background:rgba(255,140,97,0.12); color:var(--langit-fajar); }
-    .sim-nav { display:flex; gap:6px; flex-wrap:wrap; margin:12px 0; }
-    .sim-nav-btn { width:36px; height:36px; border-radius:50%; border:2px solid #e0e0e0; background:white; cursor:pointer; font-weight:700; font-size:0.85rem; transition:all 0.15s; display:flex; align-items:center; justify-content:center; }
-    .sim-nav-btn.answered { border-color:var(--langit-biru); background:rgba(74,144,217,0.1); }
-    .sim-nav-btn.active { border-color:var(--langit-biru); background:var(--langit-biru); color:white; }
-    .sim-nav-btn:disabled { opacity:0.4; cursor:not-allowed; }
-    .question-card { display:none; background:white; border-radius:12px; padding:20px; margin-bottom:16px; }
-    .question-card.active { display:block; }
-    .q-text { font-family:var(--font-korea); font-size:1.05rem; line-height:1.7; margin-bottom:16px; }
+    .timer-display.warning { color:#e05c5c; }
+    .timer-display.caution { color:#f5a623; }
+    .badge { display:inline-block; padding:3px 10px; border-radius:4px; font-size:0.75rem; font-weight:600; }
+    .badge-blue { background:rgba(74,144,217,0.12); color:#4a90d9; }
+    .badge-orange { background:rgba(255,140,97,0.12); color:#ff8c61; }
+    .nav-dots { display:flex; gap:6px; flex-wrap:wrap; margin:12px 0; }
+    .nav-dot { width:36px; height:36px; border-radius:50%; border:2px solid #e0e0e0; background:white; cursor:pointer; font-weight:700; font-size:0.85rem; display:flex; align-items:center; justify-content:center; transition:all 0.15s; }
+    .nav-dot.answered { border-color:#4a90d9; background:rgba(74,144,217,0.1); }
+    .nav-dot.active { background:#4a90d9; color:white; border-color:#4a90d9; }
+    .nav-dot:disabled { opacity:0.4; cursor:not-allowed; }
+    .question-card { display:none; background:white; border-radius:12px; padding:20px; margin-bottom:16px; box-shadow:0 1px 4px rgba(0,0,0,0.06); }
+    .question-card.active { display:block; animation:fadeIn 0.25s ease; }
+    @keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+    .q-text { font-family:'Noto Sans KR',sans-serif; font-size:1.05rem; line-height:1.7; margin-bottom:16px; }
     .q-image { max-width:100%; max-height:300px; margin:12px 0; border-radius:8px; }
-    .mc-option { display:flex; align-items:center; gap:12px; padding:14px 16px; border-radius:10px; border:2px solid #e0e0e0; margin:6px 0; cursor:pointer; transition:all 0.15s; min-height:48px; }
-    .mc-option:hover { border-color:var(--langit-biru); background:#f8faff; }
-    .mc-option.selected { border-color:var(--langit-biru); background:rgba(74,144,217,0.08); }
-    .mc-option.review-correct { border-color:var(--hijau-berhasil); background:rgba(76,175,130,0.08); }
-    .mc-option.review-wrong { border-color:var(--merah-salah); background:rgba(224,92,92,0.08); }
-    .mc-letter { display:flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:50%; background:#f0f0f0; font-weight:700; font-size:0.8rem; flex-shrink:0; }
-    .mc-option.selected .mc-letter { background:var(--langit-biru); color:white; }
-    .mc-option.review-correct .mc-letter { background:var(--hijau-berhasil); color:white; }
-    .mc-option.review-wrong .mc-letter { background:var(--merah-salah); color:white; }
-    .audio-btn { display:inline-flex; align-items:center; gap:8px; padding:10px 18px; border-radius:8px; border:1px solid #e0e0e0; background:white; cursor:pointer; font-size:0.9rem; margin-bottom:12px; min-height:44px; }
-    .audio-btn:hover { border-color:var(--langit-biru); background:#f8faff; }
-    .audio-btn.playing { border-color:var(--langit-biru); background:rgba(74,144,217,0.08); }
-    .result-screen { text-align:center; padding:40px 20px; }
+    .opt { display:flex; align-items:center; gap:12px; padding:14px 16px; border-radius:10px; border:2px solid #e0e0e0; margin:6px 0; cursor:pointer; transition:all 0.15s; min-height:48px; }
+    .opt:hover { border-color:#4a90d9; background:#f8faff; }
+    .opt.selected { border-color:#4a90d9; background:rgba(74,144,217,0.08); }
+    .opt-letter { display:flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:50%; background:#f0f0f0; font-weight:700; font-size:0.8rem; flex-shrink:0; }
+    .opt.selected .opt-letter { background:#4a90d9; color:white; }
+    .opt.review-correct { border-color:#4caf82; background:rgba(76,175,130,0.08); }
+    .opt.review-wrong { border-color:#e05c5c; background:rgba(224,92,92,0.08); }
+    .opt.review-correct .opt-letter { background:#4caf82; color:white; }
+    .opt.review-wrong .opt-letter { background:#e05c5c; color:white; }
+    .btn { display:inline-block; padding:12px 24px; border:none; border-radius:8px; cursor:pointer; font-weight:700; font-size:1rem; transition:all 0.2s; min-height:48px; }
+    .btn-primary { background:#4a90d9; color:white; }
+    .btn-primary:hover { background:#3a7bc7; }
+    .btn-secondary { background:#ff8c61; color:white; }
+    .btn-outline { background:transparent; color:#4a90d9; border:2px solid #4a90d9; }
+    .btn-outline:hover { background:#4a90d9; color:white; }
+    .nav-btns { display:flex; justify-content:space-between; margin:16px 0; gap:12px; flex-wrap:wrap; }
+    .spinner { width:36px; height:36px; border:4px solid #e0e0e0; border-top-color:#4a90d9; border-radius:50%; animation:spin 0.8s linear infinite; margin:0 auto 12px; }
+    @keyframes spin { to{transform:rotate(360deg)} }
+    .loading { text-align:center; padding:60px 20px; color:#6b7a8d; }
+    .empty { text-align:center; padding:60px 20px; color:#6b7a8d; }
+    .result { text-align:center; padding:40px 20px; }
     .result-score { font-size:4rem; font-weight:800; margin:12px 0; }
-    .result-detail { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:24px 0; }
+    .result-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:24px 0; }
     .result-stat { background:white; border-radius:12px; padding:16px; box-shadow:0 1px 4px rgba(0,0,0,0.06); }
     .result-stat-value { font-size:1.8rem; font-weight:700; }
-    .review-list { max-height:500px; overflow-y:auto; }
-    @media (max-width:480px) { .sim-header { flex-direction:column; align-items:flex-start; } .result-detail { grid-template-columns:1fr; } }
+    .review-item { background:white; border-radius:10px; padding:14px; margin-bottom:8px; border-left:4px solid; }
+    .progress-track { height:6px; background:#e0e0e0; border-radius:3px; overflow:hidden; margin-top:6px; }
+    .progress-fill { height:100%; background:linear-gradient(90deg,#4a90d9,#4caf82); border-radius:3px; transition:width 0.5s; width:0%; }
+    .audio-btn { display:inline-flex; align-items:center; gap:8px; padding:10px 18px; border-radius:8px; border:1px solid #e0e0e0; background:white; cursor:pointer; font-size:0.9rem; margin-bottom:12px; min-height:44px; }
+    .audio-btn:hover { border-color:#4a90d9; background:#f8faff; }
+    select { padding:10px 14px; border:2px solid #e0e0e0; border-radius:8px; font-size:0.95rem; background:white; min-height:44px; }
+    @media (max-width:480px) { .result-grid { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
-  <div id="jsStatus" style="padding:8px;background:#fff3cd;text-align:center;font-size:0.85rem">Memuat JavaScript...</div>
-  <div class="container">
-    <div class="sim-header">
-      <h1 style="font-size:1.2rem;margin:0">📝 Simulasi Open Test</h1>
-      <select id="yearSelect" class="form-input" style="min-width:100px">
-        <option value="2023">Tahun 2023</option>
-      </select>
-    </div>
+  <div id="app">
+    <div class="container">
+      <div class="sim-header">
+        <h1 style="font-size:1.2rem;margin:0">📝 Simulasi Open Test</h1>
+        <div><span id="greeting" style="font-size:0.85rem;color:#6b7a8d"></span></div>
+      </div>
 
-    <!-- Loading -->
-    <div id="loadingDiv" class="module-loading"><div class="spinner"></div><p>Memuat soal...</p></div>
-    <div id="errorDiv" class="module-empty" style="display:none"><p>Gagal memuat soal.</p><button class="btn btn-primary" onclick="location.reload()" style="margin-top:16px">Coba Lagi</button></div>
+      <div id="loadingDiv" class="loading"><div class="spinner"></div><p>Memuat soal...</p></div>
+      <div id="errorDiv" class="empty" style="display:none"><p>Gagal memuat soal. Pastikan koneksi internet aktif.</p><button class="btn btn-primary" onclick="location.reload()" style="margin-top:16px">Coba Lagi</button></div>
 
-    <!-- Timer Bar -->
-    <div class="timer-bar" id="timerBar" style="display:none">
-      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:4px">
-        <div>
-          <span class="section-badge membaca" id="sectionBadge">Membaca</span>
-          <span style="font-size:0.85rem;color:var(--teks-sekunder);margin-left:8px" id="progressText">Soal 1/40</span>
+      <div id="simArea" style="display:none">
+        <div class="timer-bar">
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:4px">
+            <div>
+              <span class="badge badge-blue" id="sectionBadge">Membaca</span>
+              <span style="font-size:0.85rem;color:#6b7a8d;margin-left:8px" id="progressText">Soal 1/40</span>
+            </div>
+            <div class="timer-display" id="timerDisplay">50:00</div>
+          </div>
+          <div class="progress-track"><div class="progress-fill" id="simProgress"></div></div>
         </div>
-        <div class="timer-display" id="timerDisplay">50:00</div>
+
+        <div class="nav-dots" id="navDots"></div>
+        <div id="questionArea"></div>
+        <div class="nav-btns" id="navBtns">
+          <button class="btn btn-outline" id="prevBtn" onclick="window.simPrev()">← Sebelumnya</button>
+          <button class="btn btn-primary" id="nextBtn" onclick="window.simNext()">Berikutnya →</button>
+          <button class="btn btn-secondary" id="submitBtn" onclick="window.simSubmit()" style="display:none">✅ Selesai & Submit</button>
+        </div>
       </div>
-      <div class="progress-track" style="margin-top:6px">
-        <div class="progress-fill" id="simProgress" style="width:0%"></div>
-      </div>
-    </div>
-
-    <!-- Navigation Dots -->
-    <div class="sim-nav" id="simNav" style="display:none"></div>
-
-    <!-- Questions Container -->
-    <div id="questionArea"></div>
-
-    <!-- Navigation Buttons -->
-    <div id="navButtons" style="display:none;display:flex;justify-content:space-between;margin:16px 0;gap:12px">
-      <button class="btn btn-outline" id="prevBtn" onclick="Simulasi.prev()">← Sebelumnya</button>
-      <button class="btn btn-primary" id="nextBtn" onclick="Simulasi.next()">Berikutnya →</button>
-      <button class="btn btn-secondary" id="submitBtn" onclick="Simulasi.submit()" style="display:none">✅ Selesai & Submit</button>
     </div>
   </div>
 
-  <script>
-    window.addEventListener('beforeunload', function(e) {
-      const state = localStorage.getItem('langitkorea_simulasi_state');
-      if (state) {
-        const parsed = JSON.parse(state);
-        if (!parsed.submitted) {
-          e.preventDefault();
-          e.returnValue = '';
+  <script defer>
+  // ===== SIMULASI ENGINE — standalone, no modules needed =====
+  const SIM_KEY = 'lk_sim_state';
+
+  window.simApp = {
+    questions: [], state: null, timer: null, audio: null, user: null,
+
+    async init() {
+      try {
+        const { data: { user } } = await supabase.auth.getUser();
+        this.user = user;
+        if (user && user.email) {
+          document.getElementById('greeting').textContent = 'Halo, ' + (user.email.split('@')[0] || 'Pembelajar');
         }
+      } catch(e) {}
+
+      const year = new URLSearchParams(location.search).get('year') || '2023';
+      try {
+        const { data, error } = await supabase
+          .from('soal_eps')
+          .select('*')
+          .eq('sumber', 'open_test')
+          .eq('tahun_soal', parseInt(year))
+          .order('nomor_asli');
+        if (error) throw error;
+        if (!data || !data.length) throw new Error('Belum ada soal untuk tahun ' + year);
+        this.questions = data;
+        this.start(data);
+      } catch(e) {
+        console.error(e);
+        document.getElementById('loadingDiv').style.display = 'none';
+        const ed = document.getElementById('errorDiv');
+        ed.style.display = 'block';
+        ed.innerHTML = '<p>Gagal memuat: ' + e.message + '</p><button class="btn btn-primary" onclick="location.reload()">Coba Lagi</button>';
       }
-    });
+    },
+
+    start(data) {
+      const saved = localStorage.getItem(SIM_KEY);
+      if (saved) {
+        try {
+          const s = JSON.parse(saved);
+          if (s.answers && s.answers.length === data.length && !s.submitted) {
+            if (confirm('Lanjutkan sesi sebelumnya?')) { this.state = s; this.render(); this.tick(); return; }
+          }
+        } catch(e) {}
+      }
+      this.state = { answers: [], currentIdx: 0, submitted: false, remaining: 3000, startTime: Date.now() };
+      localStorage.removeItem(SIM_KEY);
+      this.render();
+      this.tick();
+    },
+
+    tick() {
+      if (this.timer) clearInterval(this.timer);
+      this.timer = setInterval(() => {
+        this.state.remaining--;
+        const d = document.getElementById('timerDisplay');
+        if (!d) return;
+        const m = Math.floor(this.state.remaining / 60);
+        const s = this.state.remaining % 60;
+        d.textContent = String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+        d.className = 'timer-display' + (m < 5 ? ' warning' : m < 10 ? ' caution' : '');
+        if (this.state.remaining <= 0) { clearInterval(this.timer); alert('Waktu habis!'); this.submit(); }
+      }, 1000);
+    },
+
+    render() {
+      document.getElementById('loadingDiv').style.display = 'none';
+      document.getElementById('simArea').style.display = 'block';
+      const q = this.questions[this.state.currentIdx];
+      const i = this.state.currentIdx;
+      const total = this.questions.length;
+      const ans = this.state.answers;
+      const sel = ans[i] || '';
+
+      // Nav dots
+      document.getElementById('navDots').innerHTML = this.questions.map((qq, j) =>
+        '<button class="nav-dot' + (ans[j] ? ' answered' : '') + (j === i ? ' active' : '') + '" onclick="window.simGo(' + j + ')"' + (this.state.submitted?' disabled':'') + '>' + qq.nomor_asli + '</button>'
+      ).join('');
+
+      // Badge
+      const badge = document.getElementById('sectionBadge');
+      if (q.tipe === 'mendengarkan') { badge.textContent = '🔊 Mendengarkan'; badge.className = 'badge badge-orange'; }
+      else { badge.textContent = '📖 Membaca'; badge.className = 'badge badge-blue'; }
+
+      document.getElementById('progressText').textContent = 'Soal ' + (i+1) + '/' + total;
+      const filled = ans.filter(a => a).length;
+      document.getElementById('simProgress').style.width = (filled / total * 100) + '%';
+
+      // Question card
+      const opts = [
+        { l:'A', t:q.pilihan_a }, { l:'B', t:q.pilihan_b },
+        { l:'C', t:q.pilihan_c }, { l:'D', t:q.pilihan_d }
+      ].filter(o => o.t);
+
+      let html = '<div class="question-card active">';
+      html += '<div style="display:flex;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:6px">';
+      html += '<span class="badge ' + (q.tipe === 'mendengarkan' ? 'badge-orange' : 'badge-blue') + '">' + (q.tipe === 'mendengarkan' ? '🔊' : '📖') + ' ' + (q.tipe === 'mendengarkan' ? 'Mendengarkan' : 'Membaca') + '</span>';
+      html += '<span style="font-size:0.85rem;color:#6b7a8d">Soal ' + q.nomor_asli + '</span></div>';
+
+      if (q.tipe === 'mendengarkan' && q.audio_url) {
+        html += '<button class="audio-btn" onclick="window.simPlay(\'' + q.audio_url + '\',this)">🔊 Putar Audio</button>';
+      }
+
+      // Images
+      if (q.gambar_url) {
+        try { const urls = JSON.parse(q.gambar_url); urls.forEach(u => { html += '<img src="' + u + '" class="q-image" onerror="this.style.display=\'none\'">'; }); }
+        catch(e) { html += '<img src="' + q.gambar_url + '" class="q-image" onerror="this.style.display=\'none\'">'; }
+      }
+
+      if (q.audio_teks) {
+        html += '<details style="margin-bottom:12px"><summary style="cursor:pointer;color:var(--teks-sekunder);font-size:0.85rem">Lihat teks dialog</summary><p class="q-text">' + q.audio_teks + '</p></details>';
+      }
+
+      html += '<p class="q-text">' + (q.teks_soal || 'Soal tidak tersedia') + '</p>';
+      html += '<div>';
+      opts.forEach(o => {
+        const isSel = sel === o.l.toLowerCase();
+        html += '<div class="opt' + (isSel ? ' selected' : '') + '" onclick="window.simAnswer(' + i + ',\'' + o.l.toLowerCase() + '\')"' + (this.state.submitted?' style="pointer-events:none"':'') + '>';
+        html += '<span class="opt-letter">' + o.l + '</span><span>' + o.t + '</span></div>';
+      });
+      html += '</div></div>';
+      document.getElementById('questionArea').innerHTML = html;
+
+      // Nav buttons
+      document.getElementById('prevBtn').style.display = i > 0 ? '' : 'none';
+      document.getElementById('nextBtn').textContent = i < total - 1 ? 'Berikutnya →' : 'Selesai';
+      document.getElementById('nextBtn').style.display = '';
+      document.getElementById('submitBtn').style.display = i === total - 1 && !this.state.submitted ? '' : 'none';
+    },
+
+    answer(idx, val) { if (this.state.submitted) return; this.state.answers[idx] = val; localStorage.setItem(SIM_KEY, JSON.stringify(this.state)); this.render(); },
+    go(idx) { if (this.state.submitted) return; this.state.currentIdx = idx; this.render(); },
+    prev() { if (this.state.currentIdx > 0) { this.state.currentIdx--; this.render(); } },
+    next() {
+      if (this.state.currentIdx < this.questions.length - 1) { this.state.currentIdx++; this.render(); }
+      else this.submit();
+    },
+
+    submit() {
+      if (this.state.submitted) return;
+      if (!confirm('Submit simulasi? Jawaban tidak bisa diubah lagi.')) return;
+      clearInterval(this.timer);
+      this.state.submitted = true;
+      localStorage.setItem(SIM_KEY, JSON.stringify(this.state));
+      this.showResult();
+      this.saveProgress();
+    },
+
+    showResult() {
+      const ans = this.state.answers;
+      let correct = 0, rCor = 0, lCor = 0;
+      const review = this.questions.map((q, i) => {
+        const ua = ans[i] || '-';
+        const ok = ua === q.jawaban;
+        if (ok) { correct++; if (q.tipe === 'membaca') rCor++; else lCor++; }
+        return { q, ua, ok };
+      });
+      const total = this.questions.length;
+      const pct = Math.round(correct / total * 100);
+      const lap = this.state.startTime ? Math.round((Date.now() - this.state.startTime) / 60000) : 50;
+
+      document.getElementById('navBtns').innerHTML = '';
+      let html = '<div class="result"><div style="font-size:4rem;margin-bottom:8px">' + (pct >= 60 ? '🎉' : '💪') + '</div>';
+      html += '<h2>' + (pct >= 60 ? 'LULUS!' : 'Terus Semangat!') + '</h2>';
+      html += '<div class="result-score" style="color:' + (pct >= 60 ? '#4caf82' : '#e05c5c') + '">' + pct + '%</div>';
+      html += '<p style="color:#6b7a8d">' + correct + '/' + total + ' benar | Waktu: ' + lap + ' menit</p>';
+      html += '<div class="result-grid"><div class="result-stat"><div class="result-stat-value" style="color:#4a90d9">' + rCor + '/' + this.questions.filter(q=>q.tipe==='membaca').length + '</div><div>Membaca</div></div>';
+      html += '<div class="result-stat"><div class="result-stat-value" style="color:#ff8c61">' + lCor + '/' + this.questions.filter(q=>q.tipe==='mendengarkan').length + '</div><div>Mendengarkan</div></div></div>';
+      html += '<button class="btn btn-outline" onclick="document.getElementById(\'rv\').style.display=\'block\'">📋 Review</button> ';
+      html += '<button class="btn btn-primary" onclick="localStorage.removeItem(\'' + SIM_KEY + '\');location.reload()">🔄 Ulangi</button>';
+      html += '</div>';
+      html += '<div id="rv" style="display:none;margin-top:24px"><h3 style="margin-bottom:12px">📋 Review</h3>';
+      review.forEach(r => {
+        html += '<div class="review-item" style="border-left-color:' + (r.ok ? '#4caf82' : '#e05c5c') + '">';
+        html += '<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:4px"><strong>Soal ' + r.q.nomor_asli + '</strong>';
+        html += '<span class="badge ' + (r.q.tipe === 'mendengarkan' ? 'badge-orange' : 'badge-blue') + '">' + r.q.tipe + '</span></div>';
+        html += '<p style="font-size:0.85rem;margin:6px 0">' + (r.q.teks_soal||'').slice(0,120) + '</p>';
+        html += '<div style="font-size:0.85rem">Jawabanmu: <strong style="color:' + (r.ok ? '#4caf82' : '#e05c5c') + '">' + r.ua.toUpperCase() + '</strong>';
+        if (!r.ok) html += ' | Benar: <strong style="color:#4caf82">' + (r.q.jawaban||'-').toUpperCase() + '</strong>';
+        html += '</div></div>';
+      });
+      html += '</div>';
+      document.getElementById('questionArea').innerHTML = html;
+    },
+
+    async saveProgress() {
+      if (!this.user) return;
+      try {
+        let correct = 0;
+        this.questions.forEach((q, i) => { if (this.state.answers[i] === q.jawaban) correct++; });
+        await supabase.from('progress_unit').upsert({
+          user_id: this.user.id, unit_id: 0, seksi: 'simulasi',
+          skor: correct, completed: true, completed_at: new Date().toISOString(),
+        }, { onConflict: 'user_id,unit_id,seksi' });
+      } catch(e) { console.warn(e); }
+    },
+
+    playAudio(url, btn) {
+      if (this.audio) this.audio.pause();
+      this.audio = new Audio(url);
+      this.audio.play().catch(()=>{});
+      if (btn) { btn.classList.add('playing'); this.audio.onended = () => btn.classList.remove('playing'); }
+    }
+  };
+
+  window.simAnswer = (i, v) => window.simApp.answer(i, v);
+  window.simGo = (i) => window.simApp.go(i);
+  window.simPrev = () => window.simApp.prev();
+  window.simNext = () => window.simApp.next();
+  window.simSubmit = () => window.simApp.submit();
+  window.simPlay = (u, b) => window.simApp.playAudio(u, b);
+
+  // Prevent accidental reload
+  window.addEventListener('beforeunload', (e) => {
+    const s = window.simApp.state;
+    if (s && !s.submitted && s.answers && s.answers.some(a => a)) { e.preventDefault(); e.returnValue = ''; }
+  });
+
+  document.addEventListener('DOMContentLoaded', () => window.simApp.init());
   </script>
 </body>
 </html>
